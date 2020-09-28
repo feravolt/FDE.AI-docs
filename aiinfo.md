@@ -1,75 +1,77 @@
-## Information about AI
+## Информация об ИИ
+  ![aire](file:///android_asset/img/aire.png)
 
-FDE has an AI implementation, which works on any device just as FDE itself. AI is under heavy development yet. Its purpose is to check current usage scenario and adapt some system parameters real-time to give the best experience for every usage scenario. All boosts/turbos are automatically turned OFF when screen is OFF. All AI actions are logged. The best part all of this is that it will NOT consume battery.
-What is implemented:
+Как можно понять из названия FDE.AI - намекает на наличие реального ИИ. Смысл ИИ в том, что он будет понимать сценарии пользования устройством и исходя из этого подгонять различные настройки системы в реальном времени. Также логика ИИ тесно завязана на температуру устройства. Все действия ИИ пишутся в чат (лог fde.txt). Главный плюс ИИ - нет расхода энергии.
+Что реализовано:
 
 **GPU Turbo**:
-AI will detect if your GPU can run FDE GPU Turbo implementation & will inform you about it in the log. GPU Turbo will measure GPU load, and if it keeps high (under the heavy load) AI will push GPU frequencies to the max for ~30 secs until the next load check occurs. Once GPU load decreased, stock frequencies will be restored. This will not make your games run faster, but more stable, because governor will not jump from one frequency to another under heavy load, so it may provide a much more stable FPS. This is not package-name dependent - it directly monitors GPU's load for whatever reason (game, benchmark, etc.), making this thing universal. FDE's GPU Turbo will not conflict with Huawei's GPU Turbo implementation. It's thermal dependent - threshold values are dynamic and it will not boost things if device is overheating.
-Active only when screen is ON. Supported on most Adreno and Mali GPUs.
+При запуске ИИ определит, может ли GPU Turbo работать на вашем устройстве и напишет об этом в лог. ИИ будет наблюдать за уровнем нагрузки на видеоускоритель. Если наблюдается высокая нагрузка в течении продолжительного времени, то ИИ поднимет частоты ускорителя до максимума на ~30 секунд до следующей проверки. Как только нагрузка падает, возвращаются стоковые значения. Это не увеличит фреймрейт, но сделает его более стабильным, потому что частотному регулировщику ускорителя не придется "прыгать" по частотам при смене нагрузки, что в итоге должно положительно сказаться на стабильности FPS. В логике нет привязки к имени приложения - нагрузка GPU измеряется напрямую, не важно что его нагружает (игра, бенчмарк и т.п.), делая логику универсальной. GPU Turbo не будет конфликтовать со логикой от Huawei с таким же названием. При повышении температуры устройства повышается порог срабатывания GPU Turbo, чтобы избежать перегрева устройства.
+Логика активна только при ВКЛ экране. При выключенном экране частоты возвращаются в стоковое значение. Поддерживается на большинстве видеоускорителей Adreno и Mali.
 
 **Legacy GPU Turbo**:
-This Turbo will be selected if your kernel's GPU driver doesn't provide real-time load info. The difference from regular GPU Turbo is that the Legacy one will boost relying on any 'heavy' process/game from #gamelist running without relying on real-time GPU load. That means you must enable heavy games boost option in the settings to make this mode work.
-Active only when screen is ON. Supported on some Mali GPUs.
+Данный режим определяется в случае если драйвер в ядре не предоставляет информации о нагрузке GPU. Отличием от обычного GPU Turbo является то, что ускорение будет происходить опираясь не на нагрузку GPU в реальном времени, а на наличие работы 'тяжелого' процесса/игры из списка #gamelist. Следовательно, для автоматической работы этого режима необходимо активировать опцию принудительного буста тяжелых игр в настройках. Вы также можете активировать постоянный режим Legacy GPU turbo вручную переключив режим ИИ на производительность.
+Логика активна только при ВКЛ экране. При выключенном экране частоты возвращаются в стоковое значение. Поддерживается на некоторых видеоускорителях Mali и Vivante.
 
 **Framebuffer boost**:
-AI will detect if your SoC can run FDE Framebuffer boost implementation & will inform you about it in the log. AI automatically increases framebuffer frequencies, when screen is ON and GPU load is greater than 30%. This will result in more stable framerate while rendering the screen.
-Active only when screen is ON. Supported on some Qualcomm SoCs.
+При запуске ИИ определит, может ли Framebuffer boost работать на вашем устройстве и напишет об этом в лог. На данный момент эта логика будет использоваться только если есть поддержка GPU Turbo. Framebuffer boost - это ускорение буфера кадров. При ускорении поднимаются частоты кадрового буфера. При активном использовании GPU (нагрузка более 30%) framebuffer boost будет активироваться автоматически, а в результате работы частота обновления экрана будет максимально стабильна.
+Логика активна только при ВКЛ экране. При выключенном экране частоты возвращаются в стоковое значение. Поддерживается на большинстве устройств с SoC Qualcomm.
 
 **CPU Turbo**:
-AI will detect if your CPU can run FDE CPU Turbo implementation & will inform you about it in the log. CPU Turbo will measure CPU load, and if it keeps high (under the heavy load) AI will make CPU governor more responsive and will make it keep CPU frequency above the 'high speed freq.' (~half of the max available frequency) for ~30 seconds until the next load check occurs. This is not package-name dependent - it directly monitors CPU's load for whatever reason (game, benchmark, etc.), making this universal. This is thermal dependent - threshold values are dynamic, and it will not boost things if device is overheating.
-Active only when screen is ON. Compatible with interactive, ondemand, schedutil and other governors based on these.
+При запуске ИИ определит, может ли CPU Turbo работать на вашем устройстве и напишет об этом в лог. ИИ будет наблюдать за уровнем нагрузки ЦП. При высокой нагрузке в течении продолжительного времени ИИ поднимет отзывчивость регулировщика ЦП и заставит его держать частоту выше 'high speed freq.' (это примерно половина от максимальной частоты ЦП) на ~30 секунд до следующей проверки. В логике нет привязки к имени приложения - нагрузка CPU измеряется напрямую, не важно что его нагружает (игра, бенчмарк и т.п.), делая логику универсальной. Чем выше температура устройства - тем выше порог срабатывания CPU Turbo, чтобы избежать перегрева устройства.
+Логика активна только при ВКЛ экране. При выключенном экране параметры возвращаются на изначальные значения. Работает с interactive, ondemand, schedutil и основанными на них регуляторами ЦП.
 
-**Machine learning**:
-Machine learning (ML) is used if your device does support CPU and/or GPU Turbo. ML will learn how you use your device and adapt some system parameters real-time. If you're gaming a lot, AI will gain more performance for you. If you're only chatting & watching videos, AI will gain power-saving. If you're doing both playing & chatting, AI will decide what to do itself - that's what machine learning is there for. In FDE app behavior of the choice done by the ML can be configured to always prefer power-saving or performance optimization.
+**Машинное обучение**:
+На данный момент машинное обучение (МО) используется только если есть поддержка CPU и/или GPU Turbo. МО будет изучать как вы используете устройство и подгонять некоторые системные параметры на ходу. Так, если вы много играете - ИИ будет настраивать систему для лучшей производительности. Если вы просто переписываетесь и смотрите видео - ИИ будет настраивать систему для лучшего энергосбережения. Если вы часто делаете и то, и другое - ИИ будет сам решать что делать, для этого и сделано машинное обучение. В приложении FDE можно настроить постоянное предпочтение выбора МО в сторону производительности или энергосбережения.
 
-**Dynamic VM tuner**:
-Checks RAM usage every ~30 seconds and tunes some VM parameters basing on this check. This will result in better RAM cache management.
-Active only when screen is ON.
+**Динамическая настройка VM**:
+Каждые ~30 секунд проверяется использование ОЗУ. В зависимости от полученных данных подстраиваются некоторые настройки VM. В результате должно улучшиться управление кешем в оперативной памяти.
+Логика активна только при ВКЛ экране.
 
 **Force Doze**:
-This option can be activated in settings for devices with OS 6.0 and newer (by default it's OFF). Forces deep sleep Doze mode that ignores some wakelocks. May decrease idle power consumption a lot.
-Active only when screen is OFF.
+Опция доступна для устройств с ОС версии 6.0 и выше (ВЫКЛ по умолчанию). При выключенном экране устройство принудительно переводится в режим глубокой спячки (Doze), затем, через 3 секунды, принудительный режим отменяется и работа Doze продолжается в штатном режиме, оставляя устройство спать.
 
-**Throttling switch**:
-This option can be activated in settings (by default it's OFF). Option toggles CPU & GPU throttling. When disabling throttling - be aware, your phone may get very hot, but your performance will not decrease under prolonged heavy loads.
+**Переключатель троттлинга**:
+Опция может быть активирована в настройках (ВЫКЛ по умолчанию). Она включает и отключает троттлинг для ЦП и видеоускорителя. Когда троттлинг отключен - устройство может перегреваться, но производительность будет максимальной даже при длительных нагрузках.
 
-**The thermal controller**:
-AI checks device temperature and reports in the log if the device is overheating. CPU/GPU Turbo's thresholds are calculated basing on value read from thermal controller, so that if that your device heats up CPU/GPU Turbo will stop boosting your device and/or do it more rare.
+**Контроллер температуры**:
+ИИ проверяет температуру устройства и уведомляет в логе, если оно перегревается. Пороги срабатывания CPU/GPU Турбо рассчитываются полагаясь на данные от этой функции. Если устройство будет перегреваться CPU/GPU Турбо перестанет повышать частоты либо будет делать это гораздо реже.
 
-**Charging state detector**:
-AI checks if device is being charged or not. If it's charging, AI configures VM for performance. Once you unplug your device, previous VM profile will be restored according to the learned AI profile. Force Doze mode (if enabled) also relies on this, preventing itself from running while the device is charging.
-This feature doesn't boost any frequencies and only tunes VM settings, so this is not dangerous and will not make device overheat.
+**Контроллер зарядки**:
+ИИ проверяет, заряжается устройство или нет. Если оно заряжается, ИИ настраивает VM на производительность. После отключения от зарядки ИИ вернет предыдущий режим которому он 'научился'. Force Doze (если активирован) тоже зависит от этой функции предотвращая режим принудительного глубокого сна во время зарядки.
+Эта функция не повышает никакие частоты и меняет только настройки VM, поэтому она безопасна и не вызывает дополнительного нагрева устройства.
 
-**Battery life cycle extender**:
-This option can be activated in settings if it's supported by hardware (by default it's OFF). When enabled, AI will monitor device's battery level and stop charging battery when its level hits 90%. Charging will be re-enabled if device is still being charged and battery level dropped below 84%. Lithium-based batteries life can be prolonged by not charging them to 100%.
+**Продление цикла жизни батареи**:
+Опция может быть активирована в чате ИИ если поддерживается устройством (ВЫКЛ по умолчанию). Когда опция включена, ИИ следит за уровнем заряда батареи устройства и останавливает зарядку батареи на уровне 90% (по умолчанию). Порог срабатывания можно настроить вручную. Зарядка снова активируется если устройство еще подключено к зарядке и уровень батареи упал на 5% от порога срабатывания. Не заряжая батарею на 100% можно продлить жизнь литиевым батареям.
 
-**AI chat**: (single-line 96-char text)
-Starting from APP version 7 you can actually chat with AI. This can be treated as a method for customizing AI settings or just for fun. It works by searching keywords or hashtags from your text input. Option is under development. Most of the settings are the same as they are in the "Settings" tab in the app.
-What can assistant do now:
-- Printing this message (#help)
-- Showing some statistics info (#stats)
-- Setting AI to extra performance mode (#performance)
-- Setting AI to extra power-save mode (#powersave)
-- Setting AI to balance mode (#adaptive)
-- Setting AI to constant game boost mode (#hardgaming)
-- Shows list of games considered as 'heavy' ones by AI (#gamelist)
-- Clearing log (#clean #chat)
-- Clearing background apps (#clean #ram)
-- Clearing app's cache files (#clean #cache)
-- Optimizing ART cache (#art)
-- Toggle Qualcomm stock settings script execution on OS start (#dontqcom / #doqcom)
-- Toggle build.prop tweaks activation on OS start (#dontbprop / #dobprop)
-- Toggle background apps auto-kill when screen is OFF (#killbgapps / #dontkillbgapps)
-- Skip GPU related tweaks when 'Extra build.prop tweaks' are enabled in app settings (#skipgputweak / #gputweakback)
-- Toggle device sensors behaviour in Doze mode (#toodozed / #dozesensor)
-- Toggle force Doze activation mode (#alternatedoze / #normaldoze)
-- 'Refresh' file system on all partitions - check for errors & TRIM (#fsrefresh)
-- Copy current FDE.AI log as text file to internal memory (#dumplog)
-- Toggle vibration on FDE.AI execution (#novibro, #vibrate)
-- Toggle battery life cycle extender option (#greenbattery, #fullbattery)
-- Respond to hi/bye & some misc words (#hi, #bye)
-- Like when you like me
-- Know who's my daddy
-- misc.
-
-
+**"Чат" с ИИ**: (текст в одну строку - 96 символов)
+Начиная с версии 7 в приложении есть возможность переписываться с ИИ. Это можно расценивать либо как еще один метод настройки ИИ, либо просто забавы ради. Распознавание текста происходит поиском по ключевым словам. Опция находится в разработке. Настройки в "чате" отражают настройки в меню приложения.
+Что может ассистент:
+- Отображение этого сообщения (#help)
+- Отображать это сообщение (#help)
+- Отображать краткую статистику (#stats)
+- Настроить ИИ для доп. производительности (#performance)
+- Настроить ИИ для доп. энергосбережения (#powersave)
+- Настроить ИИ в режим 'баланс' (#adaptive)
+- Активировать постоянный boost для тяжелых игр (#hardgaming)
+- Отображать список игр, расцениваемых ИИ как 'тяжелые' (#gamelist)
+- Добавлять свои игры в список 'тяжелых' (#addgame 'имя.пакета.игры')
+- Очищать весь пользовательский список добавленых 'тяжелых' игр (#purgelist)
+- Очищать чат/лог (#clean #chat)
+- Закрывать фоновые приложения (#clean #ram)
+- Очищать кэш-файлы приложений (#clean #cache)
+- Очищать кэш шейдеров GPU (#cleangpu)
+- Оптимизировать кэш ART (#art)
+- Переключать запуск скрипта стоковых настроек Qualcomm при запуске ОС (#dontqcom / #doqcom)
+- Переключать применение твиков build.prop при запуске ОС (#dontbprop / #dobprop)
+- Переключать опцию закрытия фоновых приложений при ВЫКЛ экране (#killbgapps / #dontkillbgapps)
+- Пропускать применение дополнительных твиков build.prop для GPU при загрузке ОС (#skipgputweak / #gputweakback)
+- Переключать работу датчиков/сенсоров устройства в режиме Doze (#toodozed / #dozesensor)
+- Переключать метод применения принудительного режима Doze (#alternatedoze / #normaldoze)
+- 'Освежать' файловую систему всех разделов устройств - проверка на ошибки и TRIM (#fsrefresh)
+- Копировать текущий лог FDE.AI в корень внутренней памяти как текстовый файл (#dumplog)
+- Переключать вибрацию при выполнении FDE.AI (#novibro, #vibrate)
+- Переключать функцию продления цикла жизни батареи (#greenbattery 'опционально, порог срабатывания', #fullbattery)
+- Отвечать на привет/пока и некоторые другие слова не по теме (#hi, #bye)
+- Любит хвальбу
+- Знает кто папочка
+- прочее.
