@@ -1,7 +1,11 @@
-## End User License Agreement for FDE.AI software
-Last updated: February 22, 2020.
+### End User License Agreement for FDE.AI software
+Last updated: June 20, 2020.
 
 Please read this End User License Agreement ("EULA") before you download/use the software.
+Russian And English languages are the reference languages.
+
+*** **Warning!** ***
+This app automatically modifies wide range of low-level system parameters by using ROOT access. By using this app you agree with any possible risks of using this app.
 
 By downloading/using the software, you agree, without reservation, to be bound by the terms of this EULA. If you do not agree with the terms of this EULA, please do not download/use the software.
 If you are entering into this EULA agreement on behalf of a company or other legal entity, you represent that you have the authority to bind such entity and its affiliates to these terms and conditions. If you do not have such authority, do not use the software, and you must not accept this EULA agreement.
