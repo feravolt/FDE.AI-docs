@@ -1,5 +1,5 @@
 ## Information about AI
-  ![aire](file:///android_asset/img/aire.png)
+  ![aire](https://github.com/feravolt/FDE.AI-docs/blob/master/aire.png?raw=true)
 
 FDE has an AI implementation, which works on any device just as FDE itself. AI is under heavy development yet. Its purpose is to check current usage scenario and adapt some system parameters real-time to give the best experience for every usage scenario. All boosts/turbos are automatically turned OFF when screen is OFF. All AI actions are logged. The best part all of this is that it will NOT consume battery.
 What is implemented:
