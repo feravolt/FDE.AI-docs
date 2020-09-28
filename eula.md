@@ -1,28 +1,32 @@
-## End User License Agreement for FDE.AI software
-Last updated: February 22, 2020.
+### Пользовательское соглашение на программное обеспечение (далее: программное обеспечение, ПО, программа) FDE.AI
+Последнее обновление: 20 Июня, 2020.
 
-Please read this End User License Agreement ("EULA") before you download/use the software.
+Пожалуйста, ознакомьтесь с данным пользовательским соглашением до загрузки/использования данного ПО.
+Русский и Английский языки являются основными языками.
 
-By downloading/using the software, you agree, without reservation, to be bound by the terms of this EULA. If you do not agree with the terms of this EULA, please do not download/use the software.
-If you are entering into this EULA agreement on behalf of a company or other legal entity, you represent that you have the authority to bind such entity and its affiliates to these terms and conditions. If you do not have such authority, do not use the software, and you must not accept this EULA agreement.
+*** **Внимание!** ***
+Данная программа автоматически меняет широкий спектр низкоуровневых системных параметров используя ROOT права. Используя это приложение вы соглашаетесь на все возможные риски связанные с использованием программы.
 
-This software is provided 'as-is', without any express or implied warranty. In no event will the author be held liable for any damages arising from the use of this software. The terms also apply to any FDE.AI updates, supplements, internet-based services, and support services for the software, unless other terms go with those items on delivery. If so, those terms apply. Author of FDE.AI shall always retain ownership of the software as originally downloaded by you and all subsequent downloads of the software by you. The software (and the copyright, and other intellectual property rights of whatever nature in the software, including any modifications made thereto) are and shall remain the property of FDE.AI author.
+Загружая и используя программу вы выражаете полное и безоговорочное принятие данных условий. Если вы не согласны с условиями данного соглашения, не загружайте и не используйте данное ПО.
+Если вы действуете от имени компании или другого юридического лица, вы должны иметь право обязать такую организацию и ее филиалы соблюдать настоящие условия и положения. Если у вас нет таких прав, вы не должны использовать это ПО и принимать это соглашение.
 
-You are permitted to load FDE.AI software on a device under your control. You are responsible for ensuring your device meets the minimum requirements of the FDE.AI software.
+Данное ПО предоставляется 'как есть', без любой явной или подразумеваемой гарантии. Автор не несёт ответственности за любой урон, который может быть причинен использованием данной программы. Данные правила также применяются к любым обновлениям FDE.AI, дополнениям, интернет-сервисам и службам поддержки, если только эти товары не сопровождаются другими условиями поставки. Автор FDE.AI всегда сохраняет право собственности на ПО, первоначально загруженное вами, и на все последующие загрузки ПО вами. Программное обеспечение (а также авторское право и другие права интеллектуальной собственности любого характера в программном обеспечении, включая любые внесенные в него изменения) являются и остаются собственностью автора FDE.AI.
 
-You are not permitted to:
- - Edit, alter, modify, adapt, translate or otherwise change the whole or any part of the software nor permit the whole or any part of the software to be combined with or become incorporated in any other software, nor decompile, disassemble or reverse engineer the software or attempt to do any such things.
- - Reproduce, copy, distribute, resell or otherwise use the software for any commercial purpose.
- - Allow any third party to use the software on behalf of or for the benefit of any third party.
- - Use the software in any way which breaches any applicable local, national or international law.
- - Use the software for any purpose that author of software considers is a breach of this EULA agreement
- - Claim that you wrote the original software. The origin of this software must not be misrepresented.
- - This notice may not be removed or altered from any distribution.
+Вам разрешено загружать FDE.AI на устройство под своим контролем. Вы несете ответственность за обеспечение соответствия вашего устройства минимальным требованиям программного обеспечения FDE.AI.
 
-DISCLAIMER:
+Вам запрещено:
+ - Изменять, модифицировать, адаптировать, переводить или как-либо иначе изменять ПО или любую его часть, позволять ПО или какой-либо его части объединяться с любым другим ПО или включиться в него. Не дизассемблируйте, не декомпилируйте и не выполняйте обратное проектирование (reverse-engineering) ПО или что-либо подобное.
+ - Воспроизводить, копировать, распространять, перепродавать или иным образом использовать ПО для любых коммерческих целей.
+ - Разрешать любому третьему лицу использовать ПО от имени или в интересах любого третьего лица.
+ - Использовать ПО любым способом, который нарушает любое применимое местное, национальное или международное право/закон.
+ - Использовать ПО в любых целях, которые автор ПО считает нарушением настоящего лицензионного соглашения.
+ - Утверждать, что вы создали данное оригинальное ПО. Происхождение данного ПО должно быть указано верно.
+ - Данное уведомление не может быть удалено или изменено из любого дистрибутива.
 
-YOU ACKNOWLEDGE AND AGREE THAT THE SOFTWARE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS, AND THAT YOUR USE OF OR RELIANCE UPON THE SOFTWARE AND ANY THIRD PARTY CONTENT AND SERVICES ACCESSED THEREBY IS AT YOUR SOLE RISK AND DISCRETION. THE LICENSOR AND ITS AFFILIATES, PARTNERS, SUPPLIERS AND LICENSORS HEREBY DISCLAIM ANY AND ALL REPRESENTATIONS, WARRANTIES AND GUARANTIES REGARDING THE SOFTWARE AND THIRD PARTY CONTENT AND SERVICES, WHETHER EXPRESS, IMPLIED OR STATUTORY, AND INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. FURTHERMORE, THE LICENSOR AND ITS AFFILIATES, PARTNERS, SUPPLIERS AND LICENSORS MAKE NO WARRANTY THAT (I) THE SOFTWARE OR THIRD PARTY CONTENT AND SERVICES WILL MEET YOUR REQUIREMENTS; (II) THE SOFTWARE OR THIRD PARTY CONTENT AND SERVICES WILL BE UNINTERRUPTED, ACCURATE, RELIABLE, TIMELY, SECURE OR ERROR-FREE; (III) THE QUALITY OF ANY PRODUCTS, SERVICES, INFORMATION OR OTHER MATERIAL ACCESSED OR OBTAINED BY YOU THROUGH THE SOFTWARE WILL BE AS REPRESENTED OR MEET YOUR EXPECTATIONS; OR (IV) ANY ERRORS IN THE SOFTWARE OR THIRD PARTY CONTENT AND SERVICES WILL BE CORRECTED. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM THE LICENSOR OR FROM THE SOFTWARE SHALL CREATE ANY WARRANTY OR CONDITION NOT EXPRESSLY STATED IN THESE TERMS.
+ДИСКЛЕЙМЕР:
 
-Termination of this EULA agreement is possible and effective from the date you first use the software and shall continue until terminated. You may terminate it at any time upon written notice to software author. It will also terminate immediately if you fail to comply with any term of this EULA agreement. Upon such termination, the licenses granted by this EULA agreement will immediately terminate, and you agree to stop all access and use of the Software.
+ВЫ ПРИЗНАЕТЕ И СОГЛАШАЕТЕСЬ С ТЕМ, ЧТО ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ПРЕДОСТАВЛЯЕТСЯ НА УСЛОВИЯХ "КАК ЕСТЬ" И "КАК ДОСТУПНО", И ЧТО ВАШЕ ИСПОЛЬЗОВАНИЕ ИЛИ ДОВЕРИЕ К ПРОГРАММНОМУ ОБЕСПЕЧЕНИЮ И ЛЮБОМУ СТОРОННЕМУ КОНТЕНТУ И УСЛУГАМ, ПОЛУЧЕННЫМ ТАКИМ ОБРАЗОМ, ОСУЩЕСТВЛЯЕТСЯ ИСКЛЮЧИТЕЛЬНО ПО ВАШЕМУ УСМОТРЕНИЮ НА ВАШ РИСК. ЛИЦЕНЗИАР И ЕГО АФФИЛИРОВАННЫЕ ЛИЦА, ПАРТНЕРЫ, ПОСТАВЩИКИ И ЛИЦЕНЗИАРЫ ОТКАЗЫВАЮТСЯ ОТ ЛЮБЫХ РЕПРЕЗЕНТАЦИЙ, ГАРАНТИЙ И ПОРУЧИТЕЛЬСТВ В ОТНОШЕНИИ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ, КОНТЕНТА И УСЛУГ ТРЕТЬИХ ЛИЦ, ЯВНЫХ, ПОДРАЗУМЕВАЕМЫХ ИЛИ ПРЕДУСМОТРЕННЫХ ЗАКОНОМ, ВКЛЮЧАЯ ПОДРАЗУМЕВАЕМЫЕ ГАРАНТИИ ТОВАРНОЙ ПРИГОДНОСТИ, ПРИГОДНОСТИ ДЛЯ КОНКРЕТНОЙ ЦЕЛИ И НЕНАРУШЕНИЯ ПРАВ. КРОМЕ ТОГО, ЛИЦЕНЗИАР И ЕГО ФИЛИАЛЫ, ПАРТНЕРЫ, ПОСТАВЩИКИ И ЛИЦЕНЗИАРЫ НЕ ДАЮТ НИКАКИХ ГАРАНТИЙ, ЧТО (I) ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ИЛИ КОНТЕНТ И УСЛУГИ ТРЕТЬИХ ЛИЦ БУДУТ СООТВЕТСТВОВАТЬ ВАШИМ ТРЕБОВАНИЯМ; (II) ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ИЛИ КОНТЕНТ ТРЕТЬИХ ЛИЦ И УСЛУГИ БУДУТ ТОЧНЫ, ДОСТОВЕРНЫ, СВОЕВРЕМЕННЫ, БЕЗОПАСНЫ И БЕЗОШИБОЧНЫ; (III) КАЧЕСТВО ЛЮБЫХ ПРОДУКТОВ, УСЛУГ, ИНФОРМАЦИИ ИЛИ ДРУГИХ МАТЕРИАЛОВ, ПОЛУЧЕННЫХ ВАМИ С ПОМОЩЬЮ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ, БУДЕТ СООТВЕТСТВОВАТЬ ВАШИМ ОЖИДАНИЯМ И ПРЕДСТАВЛЕНИЯМ; ИЛИ (IV) ЛЮБЫЕ ОШИБКИ В ПРОГРАММНОМ ОБЕСПЕЧЕНИИ ИЛИ КОНТЕНТЕ ТРЕТЬИХ ЛИЦ И УСЛУГ БУДУТ ИСПРАВЛЕНЫ. НИКАКИЕ СОВЕТЫ ИЛИ ИНФОРМАЦИЯ, УСТНЫЕ ИЛИ ПИСЬМЕННЫЕ, ПОЛУЧЕННЫЕ ВАМИ ОТ ЛИЦЕНЗИАРА ИЛИ ОТ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ, НЕ СОЗДАЮТ НИКАКИХ ГАРАНТИЙ ИЛИ УСЛОВИЙ, ПРЯМО НЕ УКАЗАННЫХ В НАСТОЯЩИХ УСЛОВИЯХ.
 
-The Licensor reserves the right, at its sole discretion, to modify or replace this agreement at any time. If a revision is material, we will provide at least 7 days notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.
+Прекращение действия настоящего лицензионного соглашения становится возможно с момента первого использования вами ПО и продолжается до его прекращения. Вы можете прекратить его действие в любое время после письменного уведомления автора ПО. Соглашение также будет немедленно прекращено, если вы не выполните какое-либо условие настоящего лицензионного соглашения. После такого прекращения действия лицензии, условия предоставленные настоящим лицензионным соглашением прекращают свое действие, и вы соглашаетесь прекратить любой доступ и использование данного ПО.
+
+Лицензиар оставляет за собой право по своему усмотрению изменять или заменять настоящее соглашение в любое время. Если изменение является существенным, мы предоставим уведомление по крайней мере за 7 дней до вступления в силу любых новых условий. Что представляет собой существенное изменение, будет определено по нашему собственному усмотрению.
