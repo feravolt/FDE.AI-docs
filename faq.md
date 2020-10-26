@@ -52,8 +52,8 @@ However if you know what you're doing and you know whether a setting will confli
 > Why are/is the CPU and/or GPU Turbo not supported?
 
 — Because the kernel you use doesn't provide a required info node for FDE.AI to use. However it could also be your device's chipset/driver simply not supporting it. Additionally, some CPUs doesn't provide required tunables to operate with. 'ondemand'/'interactive'/'schedutil' or based on these governors should be supported by CPU Turbo.
-Anyhow, what you can try is changing the governor, kernel or simply clear the apps data to ensure its not just a random glitch.
-Additionally, to that, there is legacy GPU Turbo support for certain Mali and Vivante GPU's that otherwise don't support the feature. It requires having constant game boost option active and works with supported games automatically, or can be always enabled if AI mode is set to performance.
+Anyhow, what you can try is changing the governor, kernel or simply clear the apps data to ensure it's not just a random glitch.
+Additionally to that, there is legacy GPU Turbo support for certain Mali and Vivante GPU's that otherwise don't support the feature. It requires having constant game boost option active and works with supported games automatically, or can be always enabled if AI mode is set to performance.
 
 
 
@@ -110,9 +110,10 @@ Additionally, to that, there is legacy GPU Turbo support for certain Mali and Vi
 — It's a link to the partnership (freeware) optimizer app for Windows OS. App is developed and maintained by different developers (not the FDE.AI team).
 
 
+
 > My system start to lag after FDE.AI execution. Why?
 
-— That should not happen. But you may try to disable **all** build.prop tweaks in settings, reboot device & see.
+— That should not happen. But you may try to disable **all** build.prop tweaks in settings, reboot device & see. If things will still be bad, you may try '#donttweakmeplease' AI chat command to disable all main tweaks at all and leave AI and turbos mode only.
 
 
 
