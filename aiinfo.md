@@ -46,6 +46,7 @@ This option can be activated via AI chat command if it's supported by hardware (
 
 **Adaptive downscale:**:
 This option can be activated via AI chat command. It downscales device's screen resolution to desired one (specified by user) in order to increase GPU performance. The adpativeness of this option is that while changing screen resolution, the screen ratio stays same and DPI changes accordingly, to keep original elements size. In the end the resulted image should be visually same as original.
+To reset downscale use '#resetscale' AI chat command. Just in case if things go very wrong, to reset manually use ```wm size reset && wm density reset``` command in terminal/cmd.
 Option does not accept value higher than original screen width and lower than 360 pixels and calculated screen density cannot be lower than 160 DPI.
 
 **AI chat**: (single-line 96-char text)
@@ -78,6 +79,4 @@ What can assistant do now:
 - Like when you like me
 - Know who's my daddy
 - misc.
-
-
 
