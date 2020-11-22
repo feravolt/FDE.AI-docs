@@ -1,11 +1,11 @@
 ## Information about applied core tweaks
 
-Here will be a rough "what & why" description for most of the tweaks applied by FDE.AI. All of these tweaks are applied systemlessly, thus are fully revertible. Note that many of the tweaks are dynamically changed via ML while FDE.AI is working in background, depending on device usage scenario. This is only the main part of tunables, there are many more that manipulate low-level hardware stuff and are not described here.
+Here will be a rough "what & why" description for most of the tweaks applied by FDE.AI. All of these tweaks are applied systemlessly, thus are fully revertible. Note that many of the tweaks are dynamically changed via ML while FDE.AI is working in background, depending on device usage scenario. This is only the main part of tunables, there are many more that manipulate low-level hardware stuff and are not described here.<br>
 Last updated: 22/11/2020. Valid for FDE.AI v11+.
 
 
 
-**FS tweaks**:
+<br>**FS tweaks**:
  - _noatime_ flag (EXT4/F2FS) - to disable inode & directory last update time which increases FS performance
  - _commit_ flag (EXT4) - the sync/flush data to disk period - increased in order to improve performance by caching
  - _max_batch_time_ flag (EXT4) - the period of batch sync operations to disk - increased in order to improve performance by utilizing higher throughput of recent storage chips and better caching utilization
@@ -18,7 +18,7 @@ Last updated: 22/11/2020. Valid for FDE.AI v11+.
 
 
 
- **IO tweaks**:
+ <br>**IO tweaks**:
  - _read_ahead_kb_ - sets the maximum amount of data that the kernel reads ahead for a single file, adaptively tuned to provide better IO performance
  - _add_random_ - the disk entropy contribution, disabled since mobile devices are not using spinning disks
  - _iostats_ - various IO stats, disabled to reduce it's overhead for better performance
@@ -29,7 +29,7 @@ Last updated: 22/11/2020. Valid for FDE.AI v11+.
 
 
 
-**Network tweaks**:
+<br>**Network tweaks**:
  - _tcp_tw_reuse_ - the reuse of TIME-WAIT sockets for new connections - enabled
  - _tcp_tw_recycle_ - enables fast recycling of TIME_WAIT sockets, but is known to cause problems when using load balancers - disabled
  - _tcp_timestamps_ - enables TCP packets timestamps - enabled for better unstable connections handling
@@ -45,7 +45,7 @@ Last updated: 22/11/2020. Valid for FDE.AI v11+.
 
 
 
-**Kernel/VM tweaks**:
+<br>**Kernel/VM tweaks**:
  - _/sys/kernel/debug/tracing/tracing_on_ - kernel tracing, disabled (just in case it was ON) to reduce it's overhead
  - _/proc/sys/kernel/sched_schedstats_ - kernel scheduler stats, disabled (just in case it was ON) to reduce it's overhead
  - _/proc/sys/kernel/perf_cpu_time_max_percent_ - how much CPU time it should be allowed to use to handle perf sampling events, applied value is automatically calculated depending on device's max CPU frequency
@@ -74,7 +74,7 @@ Last updated: 22/11/2020. Valid for FDE.AI v11+.
 
 
 
-**CPU governor tweaks**:
+<br>**CPU governor tweaks**:
  - _sampling_rate_ - the frequency of lookup for CPU usage and decisions on what to do about the frequency, tuned for better performance
  - _sampling_down_factor_ - how much time to "think" before scaling down CPU frequency, dynamically changed by ML to provide balanced powersave & performance UX
  - _up_rate_us_ - the minimum amount of time to spend at a frequency before ramp up, tuned for better performance
@@ -87,7 +87,7 @@ Last updated: 22/11/2020. Valid for FDE.AI v11+.
  - _/sys/devices/system/cpu/cpu0/cpufreq/busfreq_static_ - static bus frequency tunable, disabled to be adaptive for better powersaving
 
 
-**Build.prop tweaks**:
+<br>**Build.prop tweaks**:
  - _ro.HOME_APP_ADJ_ - enabled in order to force keep home launcher in memory under low RAM condition
  - _persist.radio.ramdump;persist.sys.ssr.enable_ramdumps_ - disabled in order to turn OFF vendor RAM dumps
  - _persist.wpa_supplicant.debug_ - disabled in order to reduce WLAN debugging overhead for better performance
@@ -111,7 +111,7 @@ Last updated: 22/11/2020. Valid for FDE.AI v11+.
 
 
 
-**Rest tweaks**:
+<br>**Rest tweaks**:
  - _/sys/module/msm_performance/parameters/touchboost;/sys/power/pnpmgr/touch_boost_ - disabled to save more CPU cycles for power saving
  - _/sys/module/cpu_boost/parameters/wakeup_boost;/sys/module/cpu_input_boost/parameters/wake_boost_duration_ - enabled & tuned for boosting CPU right after you wake your device for lagfree wakeup
  - _/sys/module/cpu_boost/parameters/powerkey_input_boost_ms;/sys/module/cpu_boost/parameters/sched_boost_on_powerkey_input_ - enabled & tuned for boosting CPU when you press power button to boost wakeup process
