@@ -1,5 +1,5 @@
 ## Information about AI
-  ![aire](https://github.com/feravolt/FDE.AI-docs/blob/master/aire.png?raw=true)
+![aire](https://github.com/feravolt/FDE.AI-docs/blob/master/aire.png?raw=true)
 
 FDE has an AI implementation, which works on any device just as FDE itself. AI is under heavy development yet. Its purpose is to check current usage scenario and adapt some system parameters real-time to give the best experience for every usage scenario. All boosts/turbos are automatically turned OFF when screen is OFF. All AI actions are logged. The best part all of this is that it will NOT consume battery.
 What is implemented:
@@ -52,31 +52,25 @@ Option does not accept value higher than original screen width and lower than 36
 **AI chat**: (single-line 96-char text)
 Starting from APP version 7 you can actually chat with AI. This can be treated as a method for customizing AI settings or just for fun. It works by searching keywords or hashtags from your text input. Option is under development. Most of the settings are the same as they are in the "Settings" tab in the app.
 What can assistant do now:
-- Print this message (#help)
-- Show some statistics (#stats)
-- Set AI to performance, powersave or adaptive mode (#performance / #powersave / #adaptive)
-- Set AI to constant game boost mode (#hardgaming)
-- Show list of games considered as 'heavy' ones by AI (#gamelist)
-- Add custom game package id into 'heavy' games list (#addgame 'game.package.id') or clear the list (#purgelist)
-- Clear log (#clean #chat)
-- Clear background apps (#clean #ram)
-- Clear app's cache files (#clean #cache)
-- Clear GPU shader cache files (#cleangpu)
-- Do extra system optimization - optimize ART cache, check FS for errors & TRIM it, optimize databases (#extraopt)
-- Do extra system optimization automatically in background every day at ~05:00 AM if device is charging & screen is off (#extraopt auto)
-- Toggle Qualcomm stock settings script execution on OS start (#dontqcom / #doqcom)
-- Toggle build.prop tweaks activation on OS start (#dontbprop / #dobprop)
-- Toggle background apps auto-kill when screen is OFF (#killbgapps / #dontkillbgapps)
-- Skip GPU related tweaks when 'Extra build.prop tweaks' are enabled in app settings (#skipgputweak / #gputweakback)
-- Toggle device sensors behaviour in Doze mode (#toodozed / #dozesensor)
-- Toggle force Doze activation mode (#alternatedoze / #normaldoze)
-- Copy current FDE.AI log as text file to internal memory (#dumplog)
-- Toggle vibration on FDE.AI execution (#novibro / #vibrate)
-- Toggle all main FDE.AI tweaks execution. You can leave AI/turbos mode only. (#donttweakmeplease / #dotweakmeplease)
-- Change your screen resolution adaptively. If used smartly, can greatly improve gaming performance in sacrifice of image quality. (#downscale 'desired lowered screen width in pixels' (for example, #downscale 720 - will downscale your screen to 720p) / #resetscale)
-- Toggle battery life cycle extender option (#greenbattery 'optional trigger value' / #fullbattery )
-- Respond to hi/bye & some misc words (#hi / #bye)
-- Like when you like me
-- Know who's my daddy
-- misc.
+- Print this message (`/help`)
+- Set AI to performance, powersave or adaptive mode (`/performance` | `/powersave` | `/adaptive`)
+- Set AI to constant game boost mode (`/hardgaming`)
+- Show list of games considered as 'heavy' ones by AI (`/gamelist`)
+- Add custom game package id into 'heavy' games list (`/addgame 'game.package.id'`) or clear the list (`/purgeglist`)
+- Clear log (`/clear chat`)
+- Clear background apps (`/clear ram`)
+- Clear app's cache files (`/clear cache`)
+- Clear GPU shader cache files (`/clngpu`)
+- Do extra system optimization - optimize ART cache, check FS for errors & TRIM it, optimize databases (`/extraopt)
+- Do extra system optimization automatically in background every day at ~05:00 AM if device is charging & screen is off (`/extraopt auto` | `/extraopt noauto`)
+- Toggle Qualcomm stock settings script execution on OS start (`/dontqcom` | `/doqcom`)
+- Toggle build.prop tweaks activation on OS start (`/dontbprop` | `/dobprop`)
+- Toggle background apps auto-kill when screen is OFF (`/killbgapps` | `/dontkillbgapps`)
+- Toggle device sensors behaviour in Doze mode (`/toodozed` | `/dozesensor`)
+- Toggle force Doze activation mode (`/alternatedoze` | `/normaldoze`)
+- Copy current FDE.AI log as text file to internal memory (`/dumplog`)
+- Toggle vibration on FDE.AI execution (`/novibro` | `/vibrate`)
+- Toggle all main FDE.AI tweaks execution. You can leave AI/turbos mode only. (`/donttweakmeplease` | `/dotweakmeplease`)
+- Change your screen resolution adaptively. If used smartly, can greatly improve gaming performance in sacrifice of image quality. (`/downscale 'desired lowered screen width in pixels'`, for example `/downscale 720` - will downscale your screen to 720p | `/resetscale`) (It is possible to test this function - it will revert all applied changes in 10 seconds via `/downscale (for ex.) 720 test` command)
+- Toggle battery life cycle extender option (`/greenbattery 'optional trigger value'` | `/fullbattery`)
 
