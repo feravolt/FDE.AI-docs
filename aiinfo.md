@@ -9,7 +9,7 @@ AI will detect if your GPU can run FDE GPU Turbo implementation & will inform yo
 Active only when screen is ON. Supported on most Adreno and Mali GPUs.
 
 **Legacy GPU Turbo**:\
-This Turbo will be selected if your kernel's GPU driver doesn't provide real-time load info. The difference from regular GPU Turbo is that the Legacy one will boost relying on any 'heavy' process/game from #gamelist running without relying on real-time GPU load. That means you should enable heavy games boost option in the settings to make this mode work automatically. You can also enable constant Legacy GPU turbo by manually switching AI mode to performance.
+This Turbo will be selected if your kernel's GPU driver doesn't provide real-time load info. The difference from regular GPU Turbo is that the Legacy one will boost relying on any 'heavy' process/game from `/gamelist` running without relying on real-time GPU load. That means you should enable heavy games boost option in the settings to make this mode work automatically. You can also enable constant Legacy GPU turbo by manually switching AI mode to performance.
 Active only when screen is ON. Supported on some Mali & Vivante GPUs.
 
 **Framebuffer boost**:\
@@ -44,12 +44,12 @@ This feature doesn't boost any frequencies and only tunes VM settings, so this i
 **Battery life cycle extender**:\
 This option can be activated via AI chat command if it's supported by hardware (by default it's OFF). When enabled, AI will monitor device's battery level and stop charging battery when its level hits 90% (by default). The trigger value can be changed manually. Charging will be re-enabled if device is still being charged and battery level dropped by 5% from trigger value. Lithium-based batteries life can be prolonged by not charging them to 100%.
 
-**Adaptive downscale:**:\
+**Adaptive downscale:**\
 This option can be activated via AI chat command. It downscales device's screen resolution to desired one (specified by user) in order to increase GPU performance. The adpativeness of this option is that while changing screen resolution, the screen ratio stays same and DPI changes accordingly, to keep original elements size. In the end the resulted image should be visually same as original.
-To reset downscale use '#resetscale' AI chat command. Just in case if things go very wrong, to reset manually use ```wm size reset && wm density reset``` command in terminal/cmd.
+To reset downscale use '/resetscale' AI chat command. Downscale test option is available via chat command (see list below). Just in case if things go very wrong, to reset manually use ```wm size reset && wm density reset``` command in terminal/cmd.
 Option does not accept value higher than original screen width and lower than 360 pixels and calculated screen density cannot be lower than 160 DPI.
 
-**AI chat**: (single-line 96-char text)\
+**AI chat**: (single-line 96-char text)
 Starting from APP version 7 you can actually chat with AI. This can be treated as a method for customizing AI settings or just for fun. It works by searching keywords or hashtags from your text input. Option is under development. Most of the settings are the same as they are in the "Settings" tab in the app.
 What can assistant do now:
 - Print this message (`/help`)
