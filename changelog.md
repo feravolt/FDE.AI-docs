@@ -16,6 +16,7 @@
 — [APP] AI custom avatar support (just for fun, user selectable, needs storage permission)\
 — [APP] Added GIFs support\
 — [APP] Added more detailed tweaks info text in AI info bottomsheet\
+— [APP] Added ability to override app language to English/Russian\
 — Full main code refactoring. Checked, updated/fixed every code string\
 — Full tweaks revision. Removed/added/tuned various tweaks (that was not easy at all)\
 — Full AI talk module refactoring with statuses support, unification and TG bot-like experience\
