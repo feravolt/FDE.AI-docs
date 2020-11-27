@@ -130,7 +130,6 @@ Last updated: 26/11/2020. Valid for FDE.AI v11+.
  - _/sys/class/kgsl/kgsl-3d0/..._ - various configuration nodes for Adreno GPU, dynamically changed by ML to provide balanced powersave & performance UX
  - _/sys/module/mali/...;/d/mali/...;/sys/class/misc/mali..._ - various configuration nodes for Mali GPU, dynamically changed by ML to provide balanced powersave & performance UX
  - _/sys/module/adreno_idler/..._ - if supported by kernel, is deactivated to reduce UI lags
- - _/sys/module/cryptomgr/parameters/notests_ - if possible, disable crypto-tests to reduce overhead
  - _/sys/module/subsystem_restart/parameters/enable_ramdumps_ - disabled to deactivate RAM dumps & reduce it's overhead for better performance
  - _/sys/module/lowmemorykiller/parameters/debug_level_ - disabled to deactivate LMK debugging & reduce it's overhead for better performance
  - _log/debug_ - disabled a lot of various debugging/logging nodes in kernel modules to reduce overhead for better performance
