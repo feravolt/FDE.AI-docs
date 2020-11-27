@@ -2,7 +2,7 @@
 
 Here will be a rough "what & why" description for most of the tweaks applied by FDE.AI. All of these tweaks are applied systemlessly, thus are fully revertible. Note that many of the tweaks are dynamically changed via ML while FDE.AI is working in background, depending on device usage scenario. This is only the main part of tunables, there are many more that manipulate low-level hardware stuff and are not described here.<br>
 If device has a Qualcomm CPU, [this qcom.post_boot](https://github.com/feravolt/FDE.AI-docs/blob/master/init.qcom.post_boot.sh%20(LA.UM.8.6.2.r1-08600-89xx.0)) script is applied in order to restore OEM kernel parameters before applying any tweaks by FDE.AI.<br>
-Last updated: 26/11/2020. Valid for FDE.AI v11+.
+Last updated: 27/11/2020. Valid for FDE.AI v11+.
 
 
 
