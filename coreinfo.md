@@ -60,7 +60,6 @@ Last updated: 27/11/2020. Valid for FDE.AI v11+.
  - _/proc/sys/vm/page-cluster_ - the swap counterpart to page cache readahead, tuned for better performance
  - _/proc/sys/vm/laptop_mode_ - the dirty cache utilisation logic, dynamically changed by ML to provide balanced powersave & performance UX
  - _/proc/sys/kernel/hung_task_timeout_secs_ - checks for hanged tasks, disabled to reduce it's overhead for better performance
- - _/proc/sys/kernel/panic;softlockup_panic;panic_on_oops_ - kernel panic logic nodes, disabled for (move on even if it hurts) stability
  - _/sys/kernel/power_suspend/power_suspend_mode_ - kernel power suspend management, tuned for better powersaving
  - _/proc/sys/kernel/sched_walt_init_task_load_pct;sched_walt_rotate_big_tasks_ - EAS tunables, optimized to provide better performance, still being powersave
  - _/proc/sys/kernel/sched_tunable_scaling_ - controls whether the scheduler can adjust sched_latency_ns, disabled for stability
