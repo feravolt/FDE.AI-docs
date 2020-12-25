@@ -49,6 +49,11 @@ This option can be activated via AI chat command. It downscales device's screen 
 To reset downscale use '/resetscale' AI chat command. Downscale test option is available via chat command (see list below). Just in case if things go very wrong, to reset manually use ```wm size reset && wm density reset``` command in terminal/cmd.
 Option does not accept value higher than original screen width and lower than 360 pixels and calculated screen density cannot be lower than 160 DPI.
 
+**Aggressive AI mode:**\
+This option can be activated via AI chat command (off by default). Extends real-time system optimization methods which may give better powersaving/performance in adaptive AI mode.
+One of such methods is to auto-reduce max CPU frequency of BIG (only) cluster by ~20% when decided to switch to powersave mode (which will obviously reduce power consumption in cost of performance) and push max freq. back in other AI modes.
+This option may hurt performance while it's in powersaving mode and may cause higher battery drain in performance mode - in such case just don't use this option.
+
 **AI chat**: (single-line 96-char text)
 Starting from APP version 7 you can actually chat with AI. This can be treated as a method for customizing AI settings or just for fun. It works by searching keywords or hashtags from your text input. Option is under development. Most of the settings are the same as they are in the "Settings" tab in the app.
 What can assistant do now:
@@ -61,13 +66,14 @@ What can assistant do now:
 - Clear background apps `/clear ram`
 - Clear app's cache files `/clear cache`
 - Clear GPU shader cache files `/clngpu`
-- Do extra system optimization - optimize ART cache, check FS for errors & TRIM it, optimize databases `/extraopt)
+- Do extra system optimization - optimize ART cache, check FS for errors & TRIM it `/extraopt)
 - Do extra system optimization automatically in background every day at ~05:00 AM if device is charging & screen is off `/extraopt auto` | `/extraopt noauto`
 - Toggle Qualcomm stock settings script execution on OS start `/dontqcom` | `/doqcom`
 - Toggle build.prop tweaks activation on OS start `/dontbprop` | `/dobprop`
 - Toggle background apps auto-kill when screen is OFF `/killbgapps` | `/dontkillbgapps`
 - Toggle device sensors behaviour in Doze mode `/toodozed` | `/dozesensor`
 - Toggle force Doze activation mode `/alternatedoze` | `/normaldoze`
+- Toggle more deep real-time system optimization `/aggressiveaion` | `/aggressiveaioff`
 - Copy current FDE.AI log as text file to internal memory `/dumplog`
 - Toggle vibration on FDE.AI execution `/novibro` | `/vibrate`
 - Toggle all main FDE.AI tweaks execution. You can leave AI/turbos mode only. `/donttweakmeplease` | `/dotweakmeplease`
