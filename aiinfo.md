@@ -32,14 +32,18 @@ This option can be activated in settings for devices with OS 6.0 and newer (by d
 Active only when screen is OFF.
 
 **Throttling switch**:\
-This option can be activated in settings (by default it's OFF). Option toggles CPU & GPU throttling. When disabling throttling - be aware, your phone may get very hot, but your performance will not decrease under prolonged heavy loads.
+This option can be activated in settings (by default it's OFF). Option toggles CPU & GPU throttling. When disabling throttling - be aware, your phone may get very hot, but your performance will not decrease under prolonged heavy loads. This also may slow down camera/quick charging speed on some ROMs. Throttling will be automatically re-enabled for a while when device is charging or device temperature is too high.
+
+**Constant heavy games/apps boost:**\
+This option can be activated in settings (by default it's OFF). Option toggles AI turbos behavior. When it's active, AI will constantly boost GPU & CPU for some known heavy apps/games from `/gamelist` while they are running, increases process priority and disables throttling for a while (if it was not disabled by user, still following charging detector and thermal controller rules first).
 
 **The thermal controller**:\
-AI checks device temperature and reports in the log if the device is overheating. CPU/GPU Turbo's thresholds are calculated basing on value read from thermal controller, so that if that your device heats up CPU/GPU Turbo will stop boosting your device and/or do it more rare.
+AI checks device temperature and reports in the log if the device is overheating. CPU/GPU Turbo's thresholds are calculated basing on value read from thermal controller, so that if that your device heats up CPU/GPU Turbo will stop boosting your device and/or do it more rare. If device's temperature goes too high, it will override any throttling settings & enable it until temperature goes down a little, after that it restores previous throttling parameters.
 
 **Charging state detector**:\
-AI checks if device is being charged or not. If it's charging, AI configures VM for performance. Once you unplug your device, previous VM profile will be restored according to the learned AI profile. Force Doze mode (if enabled) also relies on this, preventing itself from running while the device is charging.
-This feature doesn't boost any frequencies and only tunes VM settings, so this is not dangerous and will not make device overheat.
+AI checks if device is being charged or not. If it's charging, AI configures VM for optimal performance. Once you unplug your device, previous VM profile will be restored according to the learned AI profile. Force Doze mode (if enabled) also relies on this, preventing itself from running while the device is charging.
+This feature doesn't boost any frequencies and only tunes VM settings, so this is not dangerous and will not make device overheat. If it's detected that throttling was disabled by user or by AI (for heavy app/game) - it's enabled back while device is charging.
+Also while AI is in aggressive mode, Android OS powersaving state is monitored - if enabled, AI will be automaticallys et to powersave mode and will not activate perforamce mode.
 
 **Battery life cycle extender**:\
 This option can be activated via AI chat command if it's supported by hardware (by default it's OFF). When enabled, AI will monitor device's battery level and stop charging battery when its level hits 90% (by default). The trigger value can be changed manually. Charging will be re-enabled if device is still being charged and battery level dropped by 5% from trigger value. Lithium-based batteries life can be prolonged by not charging them to 100%.
@@ -47,7 +51,7 @@ This option can be activated via AI chat command if it's supported by hardware (
 **Adaptive downscale:**\
 This option can be activated via AI chat command. It downscales device's screen resolution to desired one (specified by user) in order to increase GPU performance. The adpativeness of this option is that while changing screen resolution, the screen ratio stays same and DPI changes accordingly, to keep original elements size. In the end the resulted image should be visually same as original.
 To reset downscale use '/resetscale' AI chat command. Downscale test option is available via chat command (see list below). Just in case if things go very wrong, to reset manually use ```wm size reset && wm density reset``` command in terminal/cmd.
-Option does not accept value higher than original screen width and lower than 360 pixels and calculated screen density cannot be lower than 160 DPI.
+Option does not accept value higher than original screen width and lower than 360 pixels and calculated screen density cannot be lower than 160 DPI. Option may be broken on some ROMs - use carefully.
 
 **Aggressive AI mode:**\
 This option can be activated via AI chat command (off by default). Extends real-time system optimization methods which may give better powersaving/performance in adaptive AI mode.
@@ -69,11 +73,10 @@ What can assistant do now:
 - Do extra system optimization - optimize ART cache, check FS for errors & TRIM it `/extraopt)
 - Do extra system optimization automatically in background every day at ~05:00 AM if device is charging & screen is off `/extraopt auto` | `/extraopt noauto`
 - Toggle Qualcomm stock settings script execution on OS start `/dontqcom` | `/doqcom`
-- Toggle build.prop tweaks activation on OS start `/dontbprop` | `/dobprop`
 - Toggle background apps auto-kill when screen is OFF `/killbgapps` | `/dontkillbgapps`
 - Toggle device sensors behaviour in Doze mode `/toodozed` | `/dozesensor`
 - Toggle force Doze activation mode `/alternatedoze` | `/normaldoze`
-- Toggle more deep real-time system optimization `/aggressiveaion` | `/aggressiveaioff`
+- Toggle more deep real-time system optimization `/aggressiveai on` | `/aggressiveai off`
 - Copy current FDE.AI log as text file to internal memory `/dumplog`
 - Toggle vibration on FDE.AI execution `/novibro` | `/vibrate`
 - Toggle all main FDE.AI tweaks execution. You can leave AI/turbos mode only. `/donttweakmeplease` | `/dotweakmeplease`
