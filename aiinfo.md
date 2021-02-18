@@ -21,7 +21,7 @@ AI will detect if your CPU can run FDE CPU Turbo implementation & will inform yo
 Active only when screen is ON. Compatible with interactive, ondemand, schedutil and other governors based on these.
 
 **Machine learning**:\
-Machine learning (ML) is used if your device does support CPU and/or GPU Turbo. ML will learn how you use your device and adapt some system parameters real-time. If you're gaming a lot, AI will gain more performance for you. If you're only chatting & watching videos, AI will gain power-saving. If you're doing both playing & chatting, AI will decide what to do itself - that's what machine learning is there for. In FDE app behavior of the choice done by the ML can be configured to always prefer power-saving or performance optimization.
+Machine learning (ML) is used if your device does support CPU and/or GPU Turbo. ML will learn how you use your device and adapt some system parameters real-time. If you're gaming a lot, AI will gain more performance for you. If you're only chatting & watching videos, AI will gain power-saving. If you're doing both playing & chatting, AI will decide what to do itself - that's what machine learning is there for. In FDE.AI app behavior of the choice done by the ML can be configured to always prefer power-saving or performance optimization.
 
 **Dynamic VM tuner**:\
 Checks RAM usage every ~30 seconds and tunes some VM parameters basing on this check. This will result in better RAM cache management. It will also inform if system is very low on free RAM.
@@ -50,8 +50,13 @@ This option can be activated via AI chat command if it's supported by hardware (
 
 **Adaptive downscale:**\
 This option can be activated via AI chat command. It downscales device's screen resolution to desired one (specified by user) in order to increase GPU performance. The adpativeness of this option is that while changing screen resolution, the screen ratio stays same and DPI changes accordingly, to keep original elements size. In the end the resulted image should be visually same as original.
-To reset downscale use '/resetscale' AI chat command. Downscale test option is available via chat command (see list below). Just in case if things go very wrong, to reset manually use ```wm size reset && wm density reset``` command in terminal/cmd.
+To reset downscale use `/resetscale` AI chat command. Downscale test option is available via chat command (see list below). Just in case if things wrong, try `/resetscale full` command in AI chat - it will reset scaling to HW defaults.
 Option does not accept value higher than original screen width and lower than 360 pixels and calculated screen density cannot be lower than 160 DPI. Option may be broken on some ROMs - use carefully.
+
+**Automatic screen refresh rate:**\
+This option can be activated via AI chat command. It can control screen refresh rate to provide better performance or powersaving depending on usage scenario if supported by device's screen.
+Supported screen refresh modes are checked first. For heavy apps/games max refresh rate is applied for better performance/smoothness. For performance-not-hungry apps (like socials) min refresh rate is applied to save battery. For any other cases, if screen supports more than 2 refresh modes (for ex. 60-90-120HZ), the middle refresh mode is applied (from prev. ex. 90HZ). If screen supports only 2 modes, then max refresh rate is applied.
+Works only if screen supports several screen refresh modes.
 
 **Aggressive AI mode:**\
 This option can be activated via AI chat command (off by default). Extends real-time system optimization methods which may give better powersaving/performance in adaptive AI mode.
@@ -71,15 +76,17 @@ What can assistant do now:
 - Clear app's cache files `/clear cache`
 - Clear GPU shader cache files `/clngpu`
 - Do extra system optimization - optimize ART cache, check FS for errors & TRIM it `/extraopt)
-- Do extra system optimization automatically in background every day at ~05:00 AM if device is charging & screen is off `/extraopt auto` | `/extraopt noauto`
+- Do extra system optimization automatically in background every day if device is charging & screen is off. HH is desired hour of execution in 24h format - if leaved blank it'll be triggered at ~05:00 AM. `/extraopt auto HH` | `/extraopt noauto`
 - Toggle Qualcomm stock settings script execution on OS start `/dontqcom` | `/doqcom`
 - Toggle background apps auto-kill when screen is OFF `/killbgapps` | `/dontkillbgapps`
-- Toggle device sensors behaviour in Doze mode `/toodozed` | `/dozesensor`
+- Toggle device sensors behavior in Doze mode `/toodozed` | `/dozesensor`
 - Toggle force Doze activation mode `/alternatedoze` | `/normaldoze`
 - Toggle more deep real-time system optimization `/aggressiveai on` | `/aggressiveai off`
+- Toggle automatic screen refresh rate changing if supported `/autorefreshrate on` | `/autorefreshrate off`
 - Copy current FDE.AI log as text file to internal memory `/dumplog`
 - Toggle vibration on FDE.AI execution `/novibro` | `/vibrate`
 - Toggle all main FDE.AI tweaks execution. You can leave AI/turbos mode only. `/donttweakmeplease` | `/dotweakmeplease`
-- Change your screen resolution adaptively. If used smartly, can greatly improve gaming performance in sacrifice of image quality. `/downscale 'desired lowered screen width in pixels'`, for example `/downscale 720` - will downscale your screen to 720p | `/resetscale` (It is possible to test this function - it will revert all applied changes in 10 seconds via `/downscale (for ex.) 720 test` command)
+- Change your screen resolution adaptively. If used smartly, can greatly improve gaming performance in sacrifice of image quality. `/downscale 'desired lowered screen width in pixels'`, for example `/downscale 720` - will downscale your screen to 720p | `/resetscale (full)` (It is possible to test this function - it will revert all applied changes in 10 seconds via `/downscale (for ex.) 720 test` command)
 - Toggle battery life cycle extender option `/greenbattery 'optional trigger value'` | `/fullbattery`
+- Change throttling behavior while charging device `/ignorethrottling on` | `/ignorethrottling off`
 
