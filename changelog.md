@@ -1,5 +1,27 @@
 ### Changelog
 
+## **v12.1**
+### App:
+— UI improvements and optimizations (thx to Dmitry)\
+— Fixed FPS meter crash in rare cases\
+— Customizable FPS overlay and additional info in it\
+
+### Core:
+— Downscale function enables 4xMSAA when active to enhance UX\
+— Downscale function restarts system UI to avoid conflicts\
+— Introduced `/resetscale full` command to reset any scaling to HW defaults (use if the regular `/resetscale` is not helping)\
+— Introduced `/ignorethrottling on/off` command to be able to keep throttling OFF while charging device (dangerous)\
+— Introduced `/autorefreshrate on/off` commands. This toggles automatic refresh rate changing on supported displays\
+— Extraopt auto function trigger time now can be configured with command `/extraopt auto HH` where HH is the desired hour in 24h format\
+— Improved FPS meter logic\
+— Enhanced Exynos CPUs support\
+— Enhanced MIUI support\
+— Enhanced GPU shader cache cleaner\
+— Fixed auto throttling behavior\
+— misc.
+
+
+
 ## **v12.0**
 ### App:
 — New UI featuring simplified navigation, updated info bottom sheets and more (thx to Dmitry)\
