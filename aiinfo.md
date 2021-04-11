@@ -70,23 +70,26 @@ What can assistant do now:
 - Set AI to performance, powersave or adaptive mode `/performance` | `/powersave` | `/adaptive`
 - Set AI to constant game boost mode `/hardgaming`
 - Show list of games considered as 'heavy' ones by AI `/gamelist`
-- Add custom game package id into 'heavy' games list `/addgame 'game.package.id'` or clear the list `/purgeglist`
+- Add custom game package id into 'heavy' games list `/gamelistadd 'game.package.id'` or clear the list `/gamelistclear`
 - Clear log `/clear chat`
 - Clear background apps `/clear ram`
-- Clear app's cache files `/clear cache`
-- Clear GPU shader cache files `/clngpu`
+- Clear app's cache files `/clear appscache`
+- Clear GPU shader cache files `/clear gpucache`
 - Do extra system optimization - optimize ART cache, check FS for errors & TRIM it `/extraopt)
 - Do extra system optimization automatically in background every day if device is charging & screen is off. HH is desired hour of execution in 24h format - if leaved blank it'll be triggered at ~05:00 AM. `/extraopt auto HH` | `/extraopt noauto`
-- Toggle Qualcomm stock settings script execution on OS start `/dontqcom` | `/doqcom`
-- Toggle background apps auto-kill when screen is OFF `/killbgapps` | `/dontkillbgapps`
-- Toggle device sensors behavior in Doze mode `/toodozed` | `/dozesensor`
-- Toggle force Doze activation mode `/alternatedoze` | `/normaldoze`
+- Clear Dalvik/ART cache, cancel cache optimization `/extraopt revert`
+- Toggle Qualcomm stock settings script execution on OS start `/qcomscript off` | `/qcomscript on`
+- Toggle background apps auto-kill when screen is OFF `/killbgapps on` | `/killbgapps off`
+- Toggle device sensors behavior in Doze mode `/disablesensorsondoze on` | `/disablesensorsondoze off`
+- Toggle force Doze activation mode `/alternatedozemode on` | `/alternatedozemode off`
 - Toggle more deep real-time system optimization `/aggressiveai on` | `/aggressiveai off`
 - Toggle automatic screen refresh rate changing if supported `/autorefreshrate on` | `/autorefreshrate off`
-- Copy current FDE.AI log as text file to internal memory `/dumplog`
-- Toggle vibration on FDE.AI execution `/novibro` | `/vibrate`
-- Toggle all main FDE.AI tweaks execution. You can leave AI/turbos mode only. `/donttweakmeplease` | `/dotweakmeplease`
+- Copy current FDE.AI log as text file to internal memory `/dumpfdelog`
+- Toggle vibration on FDE.AI execution `/vibro off` | `/vibro on`
+- Toggle all main FDE.AI tweaks execution. You can leave AI/turbos mode only. `/alltweaks off` | `/alltweaks on`
 - Change your screen resolution adaptively. If used smartly, can greatly improve gaming performance in sacrifice of image quality. `/downscale 'desired lowered screen width in pixels'`, for example `/downscale 720` - will downscale your screen to 720p | `/resetscale (full)` (It is possible to test this function - it will revert all applied changes in 10 seconds via `/downscale (for ex.) 720 test` command)
-- Toggle battery life cycle extender option `/greenbattery 'optional trigger value'` | `/fullbattery`
+- Toggle battery life cycle extender option `/greenbattery 'optional trigger value'` | `/greenbattery off`
 - Change throttling behavior while charging device `/ignorethrottling on` | `/ignorethrottling off`
+
+
 
