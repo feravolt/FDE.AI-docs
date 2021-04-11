@@ -1,14 +1,45 @@
 ### Changelog
 
-## **v12.1**
+## **v12.3.1**
+### App:
+— Various UI and UX improvements and optimizations (thx to Dmitry)\
+— Added FPS meter quick tile\
+— Spiltted build.prop tweaks\
+— Added donation variants via Google Play\
+— Added current FDE.AI settings info
+
+### Core:
+— Introduced `/extraopt everything` command to compile ART cache with max optimization\
+— Renamed most chat commands for better understanding\
+— Fixed FPS meter not measuring first app\
+— Fixed AI talk not working in rare cases\
+— Restart radio modem when applying network build.prop tweaks for better compatibility\
+— misc.
+
+
+
+## **v12.2.2**
+### App:
+— Minor UI and UX improvements and optimizations (thx to Dmitry)\
+— Fixed rare app crash cases
+
+### Core:
+— Introduced `/extraopt revert` to revert ART/Dalvik cache optimization (clears cache & reboots device)\
+— Fixed extraopt auto double execution\
+— Fixed autorefreshrate acting wrong\
+— misc.
+
+
+
+## **v12.1.1**
 ### App:
 — UI improvements and optimizations (thx to Dmitry)\
+— Android 12 related fixes\
 — Fixed FPS meter crash in rare cases\
-— Customizable FPS overlay and additional info in it\
+— Customizable FPS overlay and additional info in it
 
 ### Core:
 — Downscale function enables 4xMSAA when active to enhance UX\
-— Downscale function restarts system UI to avoid conflicts\
 — Introduced `/resetscale full` command to reset any scaling to HW defaults (use if the regular `/resetscale` is not helping)\
 — Introduced `/ignorethrottling on/off` command to be able to keep throttling OFF while charging device (dangerous)\
 — Introduced `/autorefreshrate on/off` commands. This toggles automatic refresh rate changing on supported displays\
@@ -24,7 +55,7 @@
 
 ## **v12.0**
 ### App:
-— New UI featuring simplified navigation, updated info bottom sheets and more (thx to Dmitry)\
+— New adaptive UI featuring simplified navigation, updated info bottom sheets and more (thx to Dmitry)\
 — Red dot on the main screen if aggressive AI mode is enabled
 — Improvements and optimizations (thx to Dmitry)
 
