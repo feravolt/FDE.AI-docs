@@ -6,4 +6,3 @@ FeraDroid Engine (FDE) - an All-in-One ultimate optimizer for all devices runnin
 
 [![Download](https://www.upcodeworld.com/wp-content/uploads/2017/09/Google-Play-2-300x116.png)](https://play.google.com/store/apps/details?id=com.feravolt.fdeai)<br>
 
-[![HitCount](http://hits.dwyl.com/feravolt/https://githubcom/feravolt/FDEAI-docs.svg)](http://hits.dwyl.com/feravolt/https://githubcom/feravolt/FDEAI-docs)
