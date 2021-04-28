@@ -1,12 +1,15 @@
 ### Changelog
 
-## **v12.3.1**
+## **v12.3.2**
 ### App:
 — Various UI and UX improvements and optimizations (thx to Dmitry)\
 — Added FPS meter quick tile\
 — Spiltted build.prop tweaks\
 — Added donation variants via Google Play\
-— Added current FDE.AI settings info
+— Added current FDE.AI settings info\
+— Updated AI info section (thx to Dmitry)\
+— Optimized FPS meter service\
+— Support 12h format in AI chat
 
 ### Core:
 — Introduced `/extraopt everything` command to compile ART cache with max optimization\
@@ -14,6 +17,7 @@
 — Fixed FPS meter not measuring first app\
 — Fixed AI talk not working in rare cases\
 — Restart radio modem when applying network build.prop tweaks for better compatibility\
+— Fixed extraopt auto + greenbattery not working\
 — misc.
 
 
