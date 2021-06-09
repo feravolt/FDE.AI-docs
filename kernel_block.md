@@ -94,7 +94,7 @@ _Misc:_
  - Find a source code repo of your kernel. If dev doesn't provided source code for it's kernel - change your kernel to a better one straight away.
  - Once you found kernel source, search for "com.feravolt" keyword in that repo, also check your defconfig file for "CONFIG_BLOCK_UNWANTED_FILES=Y".
  
- If any of theese from above matches for you - "congratulations", kernel dev decided to block "unwanted" apps for you. In such case, consider avoiding such kernel if you wish to have freedom of what to do with your system and be able to use FDE.AI inclusive.
+ If any of theese from above matches for you - "congratulations", kernel dev decided to block "unwanted" apps for you. In such case, consider avoiding such kernel if you wish to have freedom of what to do with your system and be able to use FDE.AI inclusive. OR you may try to use FDE.AI-as-system-app Magisk module from releases page.
  
  
  
