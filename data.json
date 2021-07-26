@@ -3,5 +3,6 @@
 	"version": "v12.5.1",
 	"changelog": "Good thing",
 	"message": "Good thing, update is available.",
+	"messagerus": "RUS Good thing, update is available.",
 	"msgid": "1"
 }
