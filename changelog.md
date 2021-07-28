@@ -1,6 +1,41 @@
 ### Changelog
 
-## **v12.3.2**
+## **v12.5**
+### App:
+— Many various UI and UX improvements and optimizations (thx a lot to Dmitry)\
+— Improved UI in landscape mode (thx a lot to Dmitry)\
+— Open the app on QS tile longpress (thx a lot to Dmitry)\
+— Improved app's performance\
+— Given internet access for checking updates and receiving important messages via github.com\
+— Built-in app auto-updater\
+— Removed AI avatar chooser\
+— misc
+
+### Core:
+— Downscale function is allowed only for OS 9+ version\
+— Added more games to default heavy games boost list\
+— Enhanced processes detection logic\
+— Enhanced extraopt and it's revert functions\
+— Removed some unnecessary AI talk commands\
+— Optimized power consumption\
+— misc
+
+
+
+## **v12.4.1**
+App was removed from Google Play. For more details check official telegram group.
+### App:
+— Various UI and UX improvements and optimizations (thx a lot to Dmitry)\
+— Removed FPS meter & donation dialog\
+— misc
+
+### Core:
+— Adaptive Machine Learning rates\
+— misc
+
+
+
+## **v12.3.3**
 ### App:
 — Various UI and UX improvements and optimizations (thx to Dmitry)\
 — Added FPS meter quick tile\
@@ -18,6 +53,8 @@
 — Fixed AI talk not working in rare cases\
 — Restart radio modem when applying network build.prop tweaks for better compatibility\
 — Fixed extraopt auto + greenbattery not working\
+— CPU/GPU turbo triggers count instead of time\
+— Various tweaks tune-up\
 — misc.
 
 
