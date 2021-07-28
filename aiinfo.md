@@ -57,7 +57,7 @@ This option is OFF by default. It can be enabled if it's supported by hardware. 
 
 **Automatic screen refresh rate:**\
 This option is OFF by default. It can control screen refresh rate to provide better performance or powersaving depending on usage scenario if supported by device's screen.
-Supported screen refresh modes are checked first. For heavy apps/games max refresh rate is applied for better performance/smoothness. For not-so-performance-hungry apps (like social networks) min refresh rate is applied to save battery. For any other cases, if screen supports more than 2 refresh modes (for ex. 60-90-120HZ), the middle refresh mode is applied (from prev. ex. 90HZ). If screen only supports 2 modes, max refresh rate is applied.
+Supported screen refresh modes are checked first. For heavy apps/games max refresh rate is applied for better performance/smoothness. For not-so-performance-hungry apps (like social networks) min refresh rate is applied to save battery. For any other cases, if screen supports more than 2 refresh modes (for ex. 60 / 90 / 120 HZ), the middle refresh mode is applied (from prev. ex. 90 HZ). If screen only supports 2 modes, max refresh rate is applied.
 Works only if screen supports several screen refresh modes.
 
 **Aggressive AI mode:**\
@@ -69,21 +69,16 @@ This option may hurt performance while it's in powersaving mode and may cause hi
 Starting from APP version 7 you can actually chat with AI. This can be treated as a method for customizing AI settings or just for fun. It works by searching keywords from your text input. Most of the settings are the same as they are on the Settings page.
 What can assistant do now:
 - Print this message `/help`
-- Set AI to performance, powersave or adaptive mode `/performance` | `/powersave` | `/adaptive`
-- Set AI to constant game boost mode `/hardgaming`
 - Show list of games considered as 'heavy' ones by AI `/gamelist`
 - Add custom game package id into 'heavy' games list `/gamelistadd 'game.package.id'` or clear the list `/gamelistclear`
 - Clear log `/clear chat`
 - Clear background apps `/clear ram`
 - Clear app's cache files `/clear appscache`
-- Clear GPU shader cache files `/clear gpucache`
-- Do extra system optimization - optimize ART cache, check FS for errors & TRIM it `/extraopt)
+- Do extra system optimization - optimize ART cache, check FS for errors & TRIM it `/extraopt`)
 - Do extra system optimization automatically in background every day if device is charging & screen is off. HH is desired hour of execution in 24h format - if leaved blank it'll be triggered at ~05:00 AM. `/extraopt auto HH` | `/extraopt noauto`
 - Clear Dalvik/ART cache, cancel cache optimization `/extraopt revert`
-- Toggle Qualcomm stock settings script execution on OS start `/qcomscript off` | `/qcomscript on`
 - Toggle background apps auto-kill when screen is OFF `/killbgapps on` | `/killbgapps off`
 - Toggle device sensors behavior in Doze mode `/disablesensorsondoze on` | `/disablesensorsondoze off`
-- Toggle force Doze activation mode `/alternatedozemode on` | `/alternatedozemode off`
 - Toggle more deep real-time system optimization `/aggressiveai on` | `/aggressiveai off`
 - Toggle automatic screen refresh rate changing if supported `/autorefreshrate on` | `/autorefreshrate off`
 - Copy current FDE.AI log as text file to internal memory `/dumpfdelog`
