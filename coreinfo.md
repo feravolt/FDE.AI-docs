@@ -104,8 +104,6 @@ Last updated: 27/11/2020. Valid for FDE.AI v11+.
  - _ro.lmk.log_stats_ - disabled to turn off LMK log stats & reduce it's overhead for better performance
  - _debug.egl.hw_ - enabled for better EGL performance (for older devices)
  - _persist.sys.strictmode.disable_ - enabled to disable OS strict mode (just in case it's enabled)
- - _debug.sf.latch_unsignaled_ (OS 7.1+) - enabled and causes SurfaceFlinger to latch buffers even if their fences haven't signaled
- - _debug.sf.disable_backpressure_ (OS 7.1+) - enabled and causes SurfaceFlinger to skip propagating backpressure back to apps by not running when it detects that a prior composition missed hardware vsync
  - _ro.ril.hsxpa;ro.ril.enable.dtm;ro.ril.hsdpa.category;ro.ril.hsupa.category_ (Niko network tweaks) - mobile data network related optional tweaks for higher throughput and lower latencies
  - _debug.cpurend.vsync;hwui.disable_vsync;debug.sf.recomputecrop;debug.composition.type;persist.sys.composition.type;ro.hwui.texture_cache_size;ro.hwui.layer_cache_size;ro.hwui.path_cache_size;ro.hwui.r_buffer_cache_size;ro.hwui.drop_shadow_cache_size;_ (Niko GPU tweaks) - UI/GPU rendering related optional enhancing tweaks
 
