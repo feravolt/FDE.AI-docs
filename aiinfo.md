@@ -71,10 +71,10 @@ What can assistant do now:
 - Print this message `/help`
 - Show list of games considered as 'heavy' ones by AI `/gamelist`
 - Add custom game package id into 'heavy' games list `/gamelistadd 'game.package.id'` or clear the list `/gamelistclear`
-- Clear log `/clear chat`
 - Clear background apps `/clear ram`
 - Clear app's cache files `/clear appscache`
-- Do extra system optimization - optimize ART cache, check FS for errors & TRIM it `/extraopt`)
+- Do extra system optimization - optimize ART cache, check FS for errors & TRIM it `/extraopt`
+- Optimize ART cache with max optimization filter `/extraopt everything`
 - Do extra system optimization automatically in background every day if device is charging & screen is off. HH is desired hour of execution in 24h format - if leaved blank it'll be triggered at ~05:00 AM. `/extraopt auto HH` | `/extraopt noauto`
 - Clear Dalvik/ART cache, cancel cache optimization `/extraopt revert`
 - Toggle background apps auto-kill when screen is OFF `/killbgapps on` | `/killbgapps off`
