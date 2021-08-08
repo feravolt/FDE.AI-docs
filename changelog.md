@@ -1,5 +1,27 @@
 ### Changelog
 
+## **v12.5.1-2**
+### App:
+— Slightly reduced app size\
+— Various bugfixes\
+— misc
+
+### Core:
+— Improved greenbattery function\
+— Added uperf module (FDE edition) integration\
+— Enhanced extraopt function\
+— Fixed ai talk help text\
+— Updated and fixed Qcomm stock settings script\
+— Improved throttling control\
+— Fixed agressive AI mode for Exynos CPUs\
+— Enhanced disablesensorsondoze function\
+— Enhanced screen off logic\
+— Uperf modes are changed within AI mode automatically\
+— Various bugfixes\
+— misc
+
+
+
 ## **v12.5**
 ### App:
 — Many various UI and UX improvements and optimizations (thx a lot to Dmitry)\
