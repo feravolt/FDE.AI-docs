@@ -60,9 +60,9 @@ This option is OFF by default. It can control screen refresh rate to provide bet
 Supported screen refresh modes are checked first. For heavy apps/games max refresh rate is applied for better performance/smoothness. For not-so-performance-hungry apps (like social networks) min refresh rate is applied to save battery. For any other cases, if screen supports more than 2 refresh modes (for ex. 60 / 90 / 120 HZ), the middle refresh mode is applied (from prev. ex. 90 HZ). If screen only supports 2 modes, max refresh rate is applied.
 Works only if screen supports several screen refresh modes.
 
-**Aggressive AI mode:**\
+**Advanced AI mode:**\
 This option is OFF by default. Extends real-time system optimization methods which may give better powersaving/performance in adaptive AI mode.
-One of such methods is to auto-reduce max CPU frequency of BIG (only) cluster by ~20% when decided to switch to powersave mode (which will obviously reduce power consumption in cost of performance) and push max freq. back in other AI modes.
+One of such methods is to auto-reduce max CPU frequency of BIG (only) cluster by ~20% when decided to switch to powersave mode (which will obviously reduce power consumption in cost of performance) and push max freq. back in other AI modes. Also some app\'s settings will be automatically changed.
 This option may hurt performance while it's in powersaving mode and may cause higher battery drain in performance mode - in that case just don't use this option.
 
 **AI chat**: (single-line 96-char text)
@@ -77,14 +77,15 @@ What can assistant do now:
 - Optimize ART cache with max optimization filter `/extraopt everything`
 - Do extra system optimization automatically in background every day if device is charging & screen is off. HH is desired hour of execution in 24h format - if leaved blank it'll be triggered at ~05:00 AM. `/extraopt auto HH` | `/extraopt noauto`
 - Clear Dalvik/ART cache, cancel cache optimization `/extraopt revert`
-- Toggle background apps auto-kill when screen is OFF `/killbgapps on` | `/killbgapps off`
-- Toggle device sensors behavior in Doze mode `/disablesensorsondoze on` | `/disablesensorsondoze off`
-- Toggle more deep real-time system optimization `/aggressiveai on` | `/aggressiveai off`
-- Toggle automatic screen refresh rate changing if supported `/autorefreshrate on` | `/autorefreshrate off`
+- Toggle background apps auto-kill when screen is OFF `/killbgapps` | `/killbgapps off`
+- Toggle device sensors behavior in Doze mode `/disablesensorsondoze` | `/disablesensorsondoze off`
+- Toggle more deep real-time system optimization `/advancedai` | `/advancedai off`
+- Toggle automatic screen refresh rate changing if supported `/autorefreshrate` | `/autorefreshrate off`
+- Toggle automatic preload of heavy apps/games if Preload Pro app is installed `/autopreload` | `/autopreload off`
 - Copy current FDE.AI log as text file to internal memory `/dumpfdelog`
-- Toggle vibration on FDE.AI execution `/vibro off` | `/vibro on`
-- Toggle all main FDE.AI tweaks execution. You can leave AI/turbos mode only. `/alltweaks off` | `/alltweaks on`
+- Toggle vibration on FDE.AI execution `/vibro off` | `/vibro`
+- Toggle all main FDE.AI tweaks execution. You can leave AI/turbos mode only. `/alltweaks off` | `/alltweaks`
 - Change your screen resolution adaptively. If used smartly, can greatly improve gaming performance in sacrifice of image quality. `/downscale 'desired lowered screen width in pixels'`, for example `/downscale 720` - will downscale your screen to 720p | `/resetscale (full)` (It is possible to test this function - it will revert all applied changes in 10 seconds via `/downscale (for ex.) 720 test` command)
 - Toggle battery life cycle extender option `/greenbattery 'optional trigger value'` | `/greenbattery off`
-- Change throttling behavior while charging device `/ignorethrottling on` | `/ignorethrottling off`
-
+- Change throttling behavior while charging device `/ignorethrottling` | `/ignorethrottling off`
+- Toggle debug mode for application `/fdebug` | `/fdebug off`
