@@ -1,6 +1,26 @@
 ### Changelog
 
-## **v12.5.1-2**
+## **v12.6**
+### App:
+— A lot of code and UI refactoring and optimization (thx to Dmitry)\
+— Improved app autostart logic\
+— misc
+
+### Core:
+— Updated compiler\
+— Renamed aggressive AI mode to 'advanced'\
+— Extended advanced AI mode features & improved it's logic\
+— Autopreload for heavy apps/games support in advanced AI mode (readahead not locking mode) (Preload Pro app is required)\
+— Enhanced AI talk module, log texts, commands\
+— Enhanced active processes detection\
+— Process OOM prioritization support for heavy apps/games in advanced AI mode\
+— Improved CPU max frequency reduction logic in advanced powersaving AI mode\
+— Fixed possible lags in advanced powersaving AI mode\
+— misc
+
+
+
+## **v12.5.1-4**
 ### App:
 — Slightly reduced app size\
 — Various bugfixes\
@@ -17,6 +37,7 @@
 — Enhanced disablesensorsondoze function\
 — Enhanced screen off logic\
 — Uperf modes are changed within AI mode automatically\
+— Fixed lags for SDM6xx\
 — Various bugfixes\
 — misc
 
@@ -119,7 +140,7 @@ App was removed from Google Play. For more details check official telegram group
 ## **v12.0**
 ### App:
 — New adaptive UI featuring simplified navigation, updated info bottom sheets and more (thx to Dmitry)\
-— Red dot on the main screen if aggressive AI mode is enabled
+— Red dot on the main screen if advanced AI mode is enabled
 — Improvements and optimizations (thx to Dmitry)
 
 ### Core:
@@ -129,7 +150,7 @@ App was removed from Google Play. For more details check official telegram group
 — Auto-disable throttling for heavy games (if heavy games boost option is enabled) (more in AI info txt)\
 — Auto-enable throttling, overriding any FDE.AI settings, while device is charging or overheating too much\
 — Updated machine learning rates\
-— Added detection of Android OS power-saver & if enabled - put AI in powersave mode. Works in aggressive AI mode only.\
+— Added detection of Android OS power-saver & if enabled - put AI in powersave mode. Works in advanced AI mode only.\
 — misc.
 
 
@@ -143,7 +164,7 @@ App was removed from Google Play. For more details check official telegram group
 ### Core:
 — Updated thermal throttling control nodes\
 — New accurate FPS meter logic\
-— New "aggressive AI" option (read AI info for details)\
+— New "advanced AI" option (read AI info for details)\
 — Improved AI state reports\
 — Fixed module work on Intel CPUs\
 — misc.
