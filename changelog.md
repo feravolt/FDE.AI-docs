@@ -1,16 +1,75 @@
 ### Changelog
 
-## **v12.6**
+## **v22.03.4**
+
 ### App:
+
+— Completely reworked UI (thx to Dmitry, that's a lot of work)\
+— New dynamic launcher icon (Android 13 monochrome support)\
+— Android 12 dynamic colors support (Monet)\
+— New transition animations\
+— Removed chat functions - all moved to Settings, separate screen for tools\
+— New app versioning (YY.MM.ver)\
+— New FDE core execution method\
+— Auto-grant required app permissions\
+— Fixed built-in app updater\
+— Introduced donation package in Google Play for support\
+— Various info blocks in settings\
+— Light and heavy apps user list selection\
+— Customizable shortcuts (for donators)\
+— Added new languages\
+— Various improvements, fixes and many more misc.
+
+### Core:
+
+— Updated compiler\
+— Core FDE module 64 bit arch support\
+— Increased start execution speed\
+— Fixed issues on Huawei devices\
+— Reworked device info section\
+— Updated default heavy processes list\
+— Added support for user 'light' processes list\
+— Fixed language override support\
+— Fixed 'ignore throttling on charge' function\
+— Introduced device's HW score for use in tweaks formulas\
+— New machine learning neuron - FPS based measurements for heavy games to boost\
+— New machine learning neuron - process type based measurements for system optimization\
+— Introduced Bypass Charging function on supported devices\
+— Improved battery charge limit function\
+— Automatic CPU bandwidth optimization on supported kernels\
+— Improved junk files cleaner function\
+— Various advanced AI mode fixes and improvements\
+— Added support for audio alerts via soundpack modules (for donators)\
+— Dynamic CPU/GPU load measure delays\
+— Enhanced GPU load measure for all Mali GPUs\
+— Improved screen state detection\
+— LTPO displays detection\
+— Added CPU Uclamp control support\
+— Added Block IO optimization\
+— Added MTK GPU Extension Device optimization\
+— Improved throttling control\
+— Enhanced processes priority optimization\
+— Improved network tweaks\
+— Improved kernel scheduler tweaks\
+— Improved manual AI powersaving mode\
+— Updated built-in custom busybox\
+— Many more misc.
+
+## **v12.6**
+
+### App:
+
 — A lot of code and UI refactoring and optimization (thx to Dmitry)\
 — Improved app autostart logic\
 — misc
 
 ### Core:
+
 — Updated compiler\
 — Renamed aggressive AI mode to 'advanced'\
 — Extended advanced AI mode features & improved it's logic\
-— Autopreload for heavy apps/games support in advanced AI mode (readahead not locking mode) (Preload Pro app is required)\
+— Autopreload for heavy apps/games support in advanced AI mode (readahead not locking mode, Preload
+Pro app is required)\
 — Enhanced AI talk module, log texts, commands\
 — Enhanced active processes detection\
 — Process OOM prioritization support for heavy apps/games in advanced AI mode\
@@ -18,15 +77,16 @@
 — Fixed possible lags in advanced powersaving AI mode\
 — misc
 
-
-
 ## **v12.5.1-4**
+
 ### App:
+
 — Slightly reduced app size\
 — Various bugfixes\
 — misc
 
 ### Core:
+
 — Improved greenbattery function\
 — Added uperf module (FDE edition) integration\
 — Enhanced extraopt function\
@@ -41,10 +101,10 @@
 — Various bugfixes\
 — misc
 
-
-
 ## **v12.5**
+
 ### App:
+
 — Many various UI and UX improvements and optimizations (thx a lot to Dmitry)\
 — Improved UI in landscape mode (thx a lot to Dmitry)\
 — Open the app on QS tile longpress (thx a lot to Dmitry)\
@@ -55,6 +115,7 @@
 — misc
 
 ### Core:
+
 — Downscale function is allowed only for OS 9+ version\
 — Added more games to default heavy games boost list\
 — Enhanced processes detection logic\
@@ -62,168 +123,3 @@
 — Removed some unnecessary AI talk commands\
 — Optimized power consumption\
 — misc
-
-
-
-## **v12.4.1**
-App was removed from Google Play. For more details check official telegram group.
-### App:
-— Various UI and UX improvements and optimizations (thx a lot to Dmitry)\
-— Removed FPS meter & donation dialog\
-— misc
-
-### Core:
-— Adaptive Machine Learning rates\
-— misc
-
-
-
-## **v12.3.3**
-### App:
-— Various UI and UX improvements and optimizations (thx to Dmitry)\
-— Added FPS meter quick tile\
-— Spiltted build.prop tweaks\
-— Added donation variants via Google Play\
-— Added current FDE.AI settings info\
-— Updated AI info section (thx to Dmitry)\
-— Optimized FPS meter service\
-— Support 12h format in AI chat
-
-### Core:
-— Introduced `/extraopt everything` command to compile ART cache with max optimization\
-— Renamed most chat commands for better understanding\
-— Fixed FPS meter not measuring first app\
-— Fixed AI talk not working in rare cases\
-— Restart radio modem when applying network build.prop tweaks for better compatibility\
-— Fixed extraopt auto + greenbattery not working\
-— CPU/GPU turbo triggers count instead of time\
-— Various tweaks tune-up\
-— misc.
-
-
-
-## **v12.2.2**
-### App:
-— Minor UI and UX improvements and optimizations (thx to Dmitry)\
-— Fixed rare app crash cases
-
-### Core:
-— Introduced `/extraopt revert` to revert ART/Dalvik cache optimization (clears cache & reboots device)\
-— Fixed extraopt auto double execution\
-— Fixed autorefreshrate acting wrong\
-— misc.
-
-
-
-## **v12.1.1**
-### App:
-— UI improvements and optimizations (thx to Dmitry)\
-— Android 12 related fixes\
-— Fixed FPS meter crash in rare cases\
-— Customizable FPS overlay and additional info in it
-
-### Core:
-— Downscale function enables 4xMSAA when active to enhance UX\
-— Introduced `/resetscale full` command to reset any scaling to HW defaults (use if the regular `/resetscale` is not helping)\
-— Introduced `/ignorethrottling on/off` command to be able to keep throttling OFF while charging device (dangerous)\
-— Introduced `/autorefreshrate on/off` commands. This toggles automatic refresh rate changing on supported displays\
-— Extraopt auto function trigger time now can be configured with command `/extraopt auto HH` where HH is the desired hour in 24h format\
-— Improved FPS meter logic\
-— Enhanced Exynos CPUs support\
-— Enhanced MIUI support\
-— Enhanced GPU shader cache cleaner\
-— Fixed auto throttling behavior\
-— misc.
-
-
-
-## **v12.0**
-### App:
-— New adaptive UI featuring simplified navigation, updated info bottom sheets and more (thx to Dmitry)\
-— Red dot on the main screen if advanced AI mode is enabled
-— Improvements and optimizations (thx to Dmitry)
-
-### Core:
-— Updated log strings\
-— Dropped support for x86/x86-64 arch\
-— Added support for GPU bus frequency boost for Adreno GPU (while GPU turbo)\
-— Auto-disable throttling for heavy games (if heavy games boost option is enabled) (more in AI info txt)\
-— Auto-enable throttling, overriding any FDE.AI settings, while device is charging or overheating too much\
-— Updated machine learning rates\
-— Added detection of Android OS power-saver & if enabled - put AI in powersave mode. Works in advanced AI mode only.\
-— misc.
-
-
-
-## **v11.5**
-### App:
-— UI/code improvements and optimizations (thx to Dmitry)\
-— Added screen state listener\
-— Fixed too frequent "rate me" window
-
-### Core:
-— Updated thermal throttling control nodes\
-— New accurate FPS meter logic\
-— New "advanced AI" option (read AI info for details)\
-— Improved AI state reports\
-— Fixed module work on Intel CPUs\
-— misc.
-
-
-
-## **v11.4**
-### App:
-— UI/code improvements and optimizations (thx to Dmitry)
-
-### Core:
-— Fixed Qcomm post boot script bugs\
-— Improved FPS meter for Android 9+\
-— Fixed downscale option breaking gestures navigation\
-— misc.
-
-
-
-## **v11.3**
-### App:
-— Various code improvements and optimizations/simplifications (thx to Dmitry)\
-— Better swipe-to-refresh library\
-— App graphics optimization
-
-### Core:
-— Added Legacy GPU turbo support for some Broadcom VideoCore, PowerVR and Tegra GPUs\
-— Fixed foreground app detection on Android 11\
-— Fixed Legacy GPU turbo for some Mali GPUs\
-— Fixed greenbattery default threshold\
-— Improved GPU turbo logic\
-— misc.
-
-
-
-## **v11-11.2**
-### App:
-— Dropped Android 4.4 (KitKat) support (5.0+ only now)\
-— Updated navigation bar look (thx to Dmitry)\
-— Updated AI chat look & UX (thx to Dmitry)\
-— Simplified transition animations (thx to Dmitry)\
-— Haptic feedback on buttons press (thx to Dmitry)\
-— Various code improvements and optimizations/simplifications (thx to Dmitry)\
-— A LOT of various bugfixes & improvements in UI (thx to Dmitry)\
-— Updated all info texts\
-— Telegram bot-like chat experience (backslashes instead of hashtags, no regular text input)\
-— AI state statuses\
-— Non-interruptible operations block chat text input\
-— AI custom avatar support (just for fun, user selectable, needs storage permission)\
-— Added GIFs support\
-— Added more detailed tweaks info text in AI info bottomsheet\
-— Added ability to override app language to English/Russian
-
-### Core:
-— Full main code refactoring. Checked, updated/fixed every code string\
-— Full tweaks revision. Removed/added/tuned various tweaks (that was not easy at all)\
-— Full AI talk module refactoring with statuses support, unification and TG bot-like experience\
-— Downscale test function support with auto revert (more info in AI info bottomsheet)\
-— Enhanced manual AI modes effectiveness\
-— Fixed & unified CPU cluster and frequency detection logic\
-— Updated Qualcomm post boot universal script\
-— misc.
-
