@@ -33,3 +33,4 @@ AI checks device temperature and reports in the log if the device is overheating
 
 **Charging state detector**:\
 AI checks if device is being charged or not. If it's charging, AI configures VM for optimal performance. Once you unplug your device, previous VM profile will be restored according to the learned AI profile. Force Doze mode (if enabled) also relies on this, preventing itself from running while the device is charging. This feature doesn't boost any frequencies and only tunes VM settings, so this is not dangerous and will not make device overheat. If throttling was disabled by user or by AI (for heavy app/game) - it will be enabled back while device is charging. Also while AI is in advanced mode, Android OS powersaving state is monitored - if enabled, AI will be automatically set to powersave mode and will not activate performance mode.
+
