@@ -6,3 +6,4 @@ FeraDroid Engine (FDE) - an All-in-One ultimate optimizer for all devices runnin
 
 ![Jokes Card](https://readme-jokes.vercel.app/api)<br>
 
+ 
