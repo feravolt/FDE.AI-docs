@@ -1,5 +1,103 @@
 ### Changelog
 
+## **v22.06.4**
+
+### App:
+
+— Custom screen refresh rate option for shortcuts\
+— Low power FPS option for shortcuts - target FPS based dynamic max CPU/GPU freq. set\
+— Extraopt screen fixes & improvements\
+— Downscale screen fixes & improvements\
+— Fixed app update check toggle\
+— Added very basic CPU arch and OS version stats\
+— Added app rating block in about screen\
+— Updated translations, added kyrgyz language, improved language overriding\
+— Added stop button in FPS meter notification, updated overlay windows design\
+— Various UI/UX and performance improvements (thx to Dmitry)\
+— Various minor bugfixes
+
+### Core:
+
+— Fixed charger controls\
+— misc.
+
+## **v22.06.3**
+
+### App:
+
+— Fixed autopreload from shortcut\
+— Various minor bugfixes
+
+### Core:
+
+— Improved auto refresh rate mode\
+— Fixed detection of OS powersave mode\
+— Improved advanced AI mode\
+— Increased execution speed\
+— misc.
+
+## **v22.06.2**
+
+### App:
+
+— Updated built-in busybox to v1.36\
+— UI performance improvements\
+— Raised minimal supported Android OS version to 6.0 (api 23)\
+— Various minor bugfixes
+
+### Core:
+
+— Improved auto refresh rate mode\
+— Removed GPU min freq. control\
+— Updated apps auto preload method\
+— misc.
+
+## **v22.05.1**
+
+### App:
+
+— Minor design improvements (thx to Dmitry)\
+— More new MD3 design elements\
+— Auto-reset downscale on boot is optional\
+— Improved root method checks\
+— Android 12.1 related fixes\
+— Various improvements and bugfixes
+
+### Core:
+
+— Removed disable sensors on Doze feature (was problematic)\
+— FluidUI feature in advanced AI mode (controls min freq of CPU/GPU)\
+— Low power gaming in advanced AI mode for multi HZ displays (adapts refresh rate basing on FPS of
+heavy process)\
+— Highly improved auto-refresh rate mode\
+— Improved debug log\
+— Various bugfixes & misc.
+
+## **v22.04.1**
+
+### App:
+
+— New MD3 design elements\
+— Auto-reset downscale on boot if applied\
+— Current power consumption block in settings page\
+— Added the extra disclaimer\
+— Added floating overlay window with customizable stats (including FPS meter, for donators only)\
+— Updated translations
+
+### Core:
+
+— Nothing new - all stable.
+
+## **v22.03.5**
+
+### App:
+
+— Various bugfixes, code quality improvements & misc.
+
+### Core:
+
+— Minor bugfixes
+
 ## **v22.03.4**
 
 ### App:
@@ -123,3 +221,5 @@ Pro app is required)\
 — Removed some unnecessary AI talk commands\
 — Optimized power consumption\
 — misc
+
+
