@@ -1,8 +1,8 @@
 ## Information about applied core tweaks
 
 Here will be a rough "what & why" description for most of the tweaks applied by FDE.AI. All of these tweaks are applied systemlessly, thus are fully revertible. Note that many of the tweaks are dynamically changed via ML while FDE.AI is working in background, depending on device usage scenario. This is only the main part of tunables, there are many more that manipulate low-level hardware stuff and are not described here.<br>
-If device has a Qualcomm CPU, [this qcom.post_boot](https://github.com/feravolt/FDE.AI-docs/blob/master/init.qcom.post_boot.sh%20(LA.UM.8.6.2.r1-08600-89xx.0)) script is applied in order to restore OEM kernel parameters before applying any tweaks by FDE.AI.<br>
-Last updated: 27/11/2020. Valid for FDE.AI v11+.
+If device has a Qualcomm SOC, [this qcom.post_boot](https://github.com/feravolt/FDE.AI-docs/blob/master/init.qcom.post_boot.sh%20(LA.UM.8.6.2.r1-08600-89xx.0)) script is applied in order to restore OEM kernel parameters before applying any tweaks by FDE.AI.<br>
+Last updated: 05/07/2022. Valid for FDE.AI v11+.
 
 
 
@@ -66,7 +66,7 @@ Last updated: 27/11/2020. Valid for FDE.AI v11+.
  - _/proc/sys/kernel/sched_enable_power_aware;sched_cfs_boost;sched_mc_power_savings;sched_smt_power_savings;power_aware_timer_migration;/sys/module/workqueue/parameters/power_efficient_ - nodes to toggle load balancing logic for multi-core CPUs, dynamically changed by ML to provide balanced powersave & performance UX
  - _/proc/sys/kernel/sched_ravg_hist_size_ - controls the number of samples for determination of its demand, tuned for better performance
  - _/dev/stune/..._ - EAS related tunables, dynamically changed by ML to provide balanced powersave & performance UX
- - _/sys/kernel/mm/ksm;uksm/..._ - a memory-saving de-duplication feature for low RAM devices, saves a bit of RAM but does extra CPU loads, enabled and tuned for better performance ol low RAM devices
+ - _/sys/kernel/mm/ksm;uksm/..._ - a memory-saving de-duplication feature for low RAM devices, saves a bit of RAM but increases CPU load, enabled and tuned for better performance on low RAM devices
  - _/proc/sys/vm/vfs_cache_pressure_ - controls the tendency of the kernel to reclaim the memory for caching of directory and inode objects, dynamically changed by ML to provide balanced powersave & performance UX
  - _/proc/sys/vm/dirty_writeback_centisecs_ - the kernel dirty data flusher interval, dynamically changed by ML to provide balanced powersave & performance UX
  - _/proc/sys/vm/dirty_expire_centisecs_ - period when dirty data is old enough to be eligible for writeout by the kernel flusher threads, dynamically changed by ML to provide balanced powersave & performance UX
@@ -111,7 +111,7 @@ Last updated: 27/11/2020. Valid for FDE.AI v11+.
 
 <br>**Rest tweaks**:
  - _/sys/module/msm_performance/parameters/touchboost;/sys/power/pnpmgr/touch_boost_ - disabled to save more CPU cycles for power saving
- - _/sys/module/cpu_boost/parameters/wakeup_boost;/sys/module/cpu_input_boost/parameters/wake_boost_duration_ - enabled & tuned for boosting CPU right after you wake your device for lagfree wakeup
+ - _/sys/module/cpu_boost/parameters/wakeup_boost;/sys/module/cpu_input_boost/parameters/wake_boost_duration_ - enabled & tuned for boosting CPU right after you wake your device for lag free wakeup
  - _/sys/module/cpu_boost/parameters/powerkey_input_boost_ms;/sys/module/cpu_boost/parameters/sched_boost_on_powerkey_input_ - enabled & tuned for boosting CPU when you press power button to boost wakeup process
  - _/sys/module/cpu_boost/parameters/sched_boost_on_input_ - boosts CPU sched tasks on user input events, dynamically changed by ML to provide balanced powersave & performance UX
  - _/sys/module/boost_control/parameters/app_launch_boost_ms_ - boosts CPU on launching app, tuned to provide better performance, still being powersave
