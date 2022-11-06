@@ -1,6 +1,36 @@
 ### Changelog
 
-## **v22.06.4**
+## **v22.11.3**
+
+### New:
+
+— AI and battery state notifications\
+— Predictive back gesture support\
+— Per-app screen refresh rate support\
+— FPS-based screen refresh rate support\
+— Сhinese simplified language (thx @Nya0003)\
+— Extraopt process notification\
+— Customizable thermal fuse for throttling\
+— APK is a Magisk module, just rename it to .ZIP (just as Magisk does; online update is supported)\
+— Core: customizable AI cycle periods
+
+### Improved:
+
+— App performance\
+— Language selector\
+— Android 13 support\
+— Accessibility for disabled people\
+— Core: throttling control\
+— Core: execution performance
+
+### Fixed:
+
+— Launch crash on older Android versions\
+— Core: screen off power consumption\
+— Core: RAM tweaks for very low-end devices\
+— Core: wrong AI status report
+
+## **v22.06.5**
 
 ### App:
 
@@ -14,6 +44,7 @@
 — Updated translations, added kyrgyz language, improved language overriding\
 — Added stop button in FPS meter notification, updated overlay windows design\
 — Various UI/UX and performance improvements (thx to Dmitry)\
+— Fixed launch crash on some ROMs\
 — Various minor bugfixes
 
 ### Core:
@@ -113,7 +144,7 @@ heavy process)\
 — Fixed built-in app updater\
 — Introduced donation package in Google Play for support\
 — Various info blocks in settings\
-— Light and heavy apps user list selection\
+— Light and heavy apps' user list selection\
 — Customizable shortcuts (for donators)\
 — Added new languages\
 — Various improvements, fixes and many more misc.
@@ -165,7 +196,7 @@ heavy process)\
 
 — Updated compiler\
 — Renamed aggressive AI mode to 'advanced'\
-— Extended advanced AI mode features & improved it's logic\
+— Extended advanced AI mode features & improved its logic\
 — Autopreload for heavy apps/games support in advanced AI mode (readahead not locking mode, Preload
 Pro app is required)\
 — Enhanced AI talk module, log texts, commands\
@@ -188,7 +219,7 @@ Pro app is required)\
 — Improved greenbattery function\
 — Added uperf module (FDE edition) integration\
 — Enhanced extraopt function\
-— Fixed ai talk help text\
+— Fixed AI talk help text\
 — Updated and fixed Qcomm stock settings script\
 — Improved throttling control\
 — Fixed agressive AI mode for Exynos CPUs\
@@ -198,28 +229,4 @@ Pro app is required)\
 — Fixed lags for SDM6xx\
 — Various bugfixes\
 — misc
-
-## **v12.5**
-
-### App:
-
-— Many various UI and UX improvements and optimizations (thx a lot to Dmitry)\
-— Improved UI in landscape mode (thx a lot to Dmitry)\
-— Open the app on QS tile longpress (thx a lot to Dmitry)\
-— Improved app's performance\
-— Given internet access for checking updates and receiving important messages via github.com\
-— Built-in app auto-updater\
-— Removed AI avatar chooser\
-— misc
-
-### Core:
-
-— Downscale function is allowed only for OS 9+ version\
-— Added more games to default heavy games boost list\
-— Enhanced processes detection logic\
-— Enhanced extraopt and it's revert functions\
-— Removed some unnecessary AI talk commands\
-— Optimized power consumption\
-— misc
-
 
