@@ -1,6 +1,63 @@
 ### Changelog
 
-## **v22.11.3**
+## **v23.01.1**
+
+### New:
+
+— Automatic OS power-save mode when screen is OFF\
+— Ability to separately use build.prop tweaks\
+
+### Improved:
+
+— App and UI performance\
+— Core: AI responsiveness\
+— Core: CPU optimization for background processes
+
+---
+
+## **v22.12.2**
+
+### New:
+
+— PayPal & QIWI links in about screen for donations
+
+### Improved:
+
+— App and UI performance\
+— EULA dialog\
+— UI in landscape mode\
+— Core: AI cycles calculation
+
+### Fixed:
+
+— AI log text & design\
+— GPU load toggle in floating screen
+
+---
+
+## **v22.11.6**
+
+### New:
+
+— GPU load in floating window\
+— Floating window quick tile\
+— Floating window with top-5 CPU using processes\
+— New log and info text design
+
+### Improved:
+
+— App performance\
+— Reduced app size\
+— Core: write files permission check
+
+### Fixed:
+
+— Magisk module variant online update\
+— Core: AI not working on some devices
+
+---
+
+## **v22.11.5**
 
 ### New:
 
@@ -30,6 +87,8 @@
 — Core: RAM tweaks for very low-end devices\
 — Core: wrong AI status report
 
+---
+
 ## **v22.06.5**
 
 ### App:
@@ -52,6 +111,8 @@
 — Fixed charger controls\
 — misc.
 
+---
+
 ## **v22.06.3**
 
 ### App:
@@ -66,6 +127,8 @@
 — Improved advanced AI mode\
 — Increased execution speed\
 — misc.
+
+---
 
 ## **v22.06.2**
 
@@ -82,6 +145,8 @@
 — Removed GPU min freq. control\
 — Updated apps auto preload method\
 — misc.
+
+---
 
 ## **v22.05.1**
 
@@ -104,6 +169,8 @@ heavy process)\
 — Improved debug log\
 — Various bugfixes & misc.
 
+---
+
 ## **v22.04.1**
 
 ### App:
@@ -119,6 +186,8 @@ heavy process)\
 
 — Nothing new - all stable.
 
+---
+
 ## **v22.03.5**
 
 ### App:
@@ -128,6 +197,8 @@ heavy process)\
 ### Core:
 
 — Minor bugfixes
+
+---
 
 ## **v22.03.4**
 
@@ -184,6 +255,8 @@ heavy process)\
 — Updated built-in custom busybox\
 — Many more misc.
 
+---
+
 ## **v12.6**
 
 ### App:
@@ -205,28 +278,3 @@ Pro app is required)\
 — Improved CPU max frequency reduction logic in advanced powersaving AI mode\
 — Fixed possible lags in advanced powersaving AI mode\
 — misc
-
-## **v12.5.1-4**
-
-### App:
-
-— Slightly reduced app size\
-— Various bugfixes\
-— misc
-
-### Core:
-
-— Improved greenbattery function\
-— Added uperf module (FDE edition) integration\
-— Enhanced extraopt function\
-— Fixed AI talk help text\
-— Updated and fixed Qcomm stock settings script\
-— Improved throttling control\
-— Fixed agressive AI mode for Exynos CPUs\
-— Enhanced disablesensorsondoze function\
-— Enhanced screen off logic\
-— Uperf modes are changed within AI mode automatically\
-— Fixed lags for SDM6xx\
-— Various bugfixes\
-— misc
-
