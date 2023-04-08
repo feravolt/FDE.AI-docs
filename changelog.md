@@ -1,11 +1,35 @@
 ### Changelog
 
-## **v23.01.1**
+## **v23.04.1**
+
+### New:
+
+— EULA screen with presets\
+— Premium functions description block\
+— 3 separate customizable overlay windows\
+— Advanced FPS meter overlay with graph & statistics\
+— Disable OS logs and statistics option\
+— Core: Disable MTE tweak
+
+### Improved:
+
+— App performance, UI and UX\
+— Android 13-14 compatibility\
+— Sting translations\
+— Core: Device info log split
+
+### Fixed:
+
+— Overlay windows crash on A13+
+
+---
+
+## **v23.01.2**
 
 ### New:
 
 — Automatic OS power-save mode when screen is OFF\
-— Ability to separately use build.prop tweaks\
+— Ability to separately use build.prop tweaks
 
 ### Improved:
 
