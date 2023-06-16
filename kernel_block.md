@@ -77,6 +77,7 @@ _Poco X3:_
 _Samsung:_
  - ThunderStormS kernel (Galaxy S10 & Note10 & S7)
  - White Wolf kernel (Galaxy S9 & S9)<br><br>
+ - GrassKernel (Galaxy A51)
 
 _Misc:_
  - All TogoFire's (Togo 77) kernel builds 
