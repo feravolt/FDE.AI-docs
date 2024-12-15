@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="about_app">Биз жөнүндө</string>
+    <string name="about_end_txt" tools:ignore="MissingTranslation">FeraVolt тон ❤ менен жаралган.</string>
+    <string name="accept">Кабыл ал</string>
+    <string name="adaptive">Авто</string>
+    <string name="ai_tune_freqs">CPU/GPU жыштыктарын авто тууралоо</string>
+    <string name="ai_auto_mode">Түзмөктүн колдонулушуна жараша майнаптуулук менен энергияны үнөмдөөнү тең салмактайт. Freqs авто-түздөө көбүрөөк энергия үнөмдөө берет.</string>
+    <string name="ai_cycle_period">AI циклинин мезгили</string>
+    <string name="ai_cycle_period_desc">AI циклинин узактыгын кол менен тууралоо. Узак кылынса азыраак кубат талап кылат, бирок жооп бериши жай болот, ыкчам кылынса тескерисинче болот.
+\nБаштапкы тууралоолор автоматтык түрдө батареянын сыйымдуулугуна жараша коюлат. AI цикли колдонууга жараша автоматтык түрдө туураланат.</string>
+    <string name="ai_cycle_period_warning">Буларды өзгөртүү электр энергиясын керектөөнүн көбөйүшүнө же ЖИнин сапатсыз иштешине алып келиши мүмкүн.</string>
+    <string name="ai_is_disabled">ЖА өчүк</string>
+    <string name="ai_log">ЖА логу</string>
+    <string name="ai_mode">ЖИ режими</string>
+    <string name="ai_mode_auto">Авто</string>
+    <string name="ai_modes_desc">ЖИ фондо иштейт, колдонууну үйрөнөт жана системаны оптималдаштырат.</string>
+    <string name="ai_off_detail">ЖИ өчүрүлгөндө, FDE бир жолку оптимализатор катары иштейт жана реалдуу убакытта оптималдаштырбайт.</string>
+    <string name="ai_perf_mode">Ылдам иштөөнү камсыз кылуу. CPU/GPU турбосун тез-тез иштетет.</string>
+    <string name="ai_psave_mode">Энергияны үнөмдөө үчүн оптималдаштыруу. CPU/GPU турболору иштетилбейт.</string>
+    <string name="ai_settings_extra">ЖИнин кошумча жөндөөлөрү</string>
+    <string name="ai_state_busy">Процессте</string>
+    <string name="ai_state_disabled">Өчүрүлгөн</string>
+    <string name="ai_state_ready">Иштөөдө</string>
+    <string name="ai_state_sleeping">Уктоодо…</string>
+    <string name="aiinfo">ЖИ жөнүндө маалымат</string>
+    <string name="core_tweaks_enable">Негизги жөндөөлөрдү иштетүү</string>
+    <string name="core_tweaks_enable_desc">Негизги FDE өзгөртүүлөрүн иштетүү. Улантуу сунушталат.</string>
+    <string name="app_icon">Тиркеме иконкасы</string>
+    <string name="app_theme">Тема</string>
+    <string name="app_update_notification_title">FDE.AI жаңыртуу</string>
+    <string name="apply">Колдонуу</string>
+    <string name="arrow_down">Ылдыйга жебе</string>
+    <string name="arrow_left">Солго жебе</string>
+    <string name="arrow_right">Оңго жебе</string>
+    <string name="arrow_up">Өйдөгө жебе</string>
+    <string name="attempt_root">Root кирүү мүмкүнчүлүгү күтүлүүдө…</string>
+    <string name="auto_psave">Энергияны үнөмдөө режими</string>
+    <string name="auto_psave_desc">Экран өчүк болгондо кубат үнөмдөө режимин автоматтык түрдө иштетүү.</string>
+    <string name="autostart">Автостарт</string>
+    <string name="autostart_delay_hint">Кечигүү %1$ds деп коюлду</string>
+    <string name="autostart_overlay">Статистика катмарын баштоо</string>
+    <string name="batt_capacity">Көлөмү</string>
+    <string name="batt_resistance">Туруктуулук</string>
+    <string name="battery_health_sub">Заряддоону токтотуу үчүн деңгээлди коюңуз:</string>
+    <string name="battery_health_toggle">Макс заряд деңгээлин чектөө</string>
+    <string name="battery_level_x" tools:ignore="MissingTranslation">Деңгээл: %1$s</string>
+    <string name="battery_status">Батарея статусу</string>
+    <string name="battery_temperature_x" tools:ignore="MissingTranslation">Температура: %1$s</string>
+    <string name="battery_voltage_x" tools:ignore="MissingTranslation">Вольтаж: %1$s</string>
+    <string name="battery_wear_x" tools:ignore="MissingTranslation">Кийүү: %1$s</string>
+    <string name="bp_default_only">Баштапкы FDE жөндөөлөрү</string>
+    <string name="bp_niko_gpu">Niko\'нун GPU жөндөөлөрү</string>
+    <string name="bp_niko_net">Niko\'нун тармактык жөндөөлөрү</string>
+    <string name="bprop_nikogpu_txt">Нико Швикерттин GPU түзмөгү. Эски телефондордо иштешин жакшыртышы мүмкүн.</string>
+    <string name="bprop_nikonet_txt">Нико Швикерттин тармактык өзгөртүүлөрү. Уюлдук маалымат ылдамдыгын жогорулатуу мүмкүн.</string>
+    <string name="build_prop_tweaks">Build.prop жөндөөлөрү</string>
+    <string name="burnit">Тыюулоону өчүрүү</string>
+    <string name="bypassch_desc">Оор процесстер учурунда заряддагыч агымды чектеп, батареянын зарядын жана жылытуусун азайтып, түзмөктү колдонууга дал келет.</string>
+    <string name="bypassch_title">Заряддоону айланып өтүү</string>
+    <string name="cancel">Жокко чыгаруу</string>
+    <string name="changelog">Өзгөртүү логу</string>
+    <string name="charge_time">Толук кубаттоого убакыт</string>
+    <string name="charging">заряддоо</string>
+    <string name="check_for_updates_about">Иштеп баштаганда жаңыртууларды текшерүү</string>
+    <string name="clean_cache">Кэшти тазалоо</string>
+    <string name="clean_ram">RAM тазалоо</string>
+    <string name="cleaning_desc">Фондук колдонмолорду жабуу менен RAMды тазалоо жана кэш файлдарын жок кылуу менен дискте орун бошотуу.</string>
+    <string name="cleaning_title">Тазалоо</string>
+    <string name="close">Жабуу</string>
+    <string name="completed">аяктады</string>
+    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>
+    <string name="cpu_top_descr">Эн жогорку 5 CPU-интенсивдуу процесс менен кабаттоо</string>
+    <string name="cpu_top_header">Процесс статистикасы</string>
+    <string name="current_resolution">Учурдагы чечим:</string>
+    <string name="dark_theme">Караңгы</string>
+    <string name="debug_mode">Мүчүлүштүктөрдү оңдоо</string>
+    <string name="description">Баяндоо</string>
+    <string name="enable_ai">ЖАны күйгүз</string>
+    <string name="disable_logs">Журналдарды өчүрүү</string>
+    <string name="disable_logs_desc">Бардык журналдарды жана статистикаларды (\"logcat\" кошпогондо) өчүрүүнү тандаңыз жана logcat буферинин өлчөмүн 128 КБ чейин азайтыңыз.</string>
+    <string name="downscale_btn">Адаптивдүү төмөндөтүү</string>
+    <string name="downscale_desc">Сүрөттүн сапатын бир аз жоготуу менен GPU иштешин жогорулатуу жана батареяны үнөмдөө үчүн экрандын дааналыгы төмөндөйт. UI бузулуп калбашы үчүн, ыңгайлаштырылган ROM\'ларда (MIUI, EMUI, ж. б.) экрандын туурасынын жарымынан төмөн түшүү сунушталбайт.</string>
+    <string name="warning_no">Жок</string>
+    <string name="warning_title">Эскертүү!</string>
+    <string name="warning_yes">Ооба</string>
+    <string name="doze_description">FDE.AI Doze режимин эртерээк иштете алат. Эгер көйгөйлөр пайда болсо, төмөнкү баскычты колдонуп, колдонмолорду ак тизмеге киргизиңиз.</string>
+    <string name="doze_mode">Force Doze режими</string>
+    <string name="doze_sub_describtion">Экран өчүп калганда Doze режимине кирүүнү иштетиңиз.</string>
+    <string name="doze_system_desc">Уюштуруу режими (Android 6.0+) түзмөк бош турганда фондо CPU жана тармак аракетин кийинкиге калтыруу менен батареянын сарпталышын азайтат.</string>
+    <string name="doze_whitelist">Doze ак тизмеси</string>
+    <string name="eula" tools:ignore="MissingTranslation">EULA</string>
+    <string name="extraopt_btn">Кошумча оптималдаштыруу</string>
+    <string name="extraopt_desc">Ишти аткаруу үчүн ART кэшин кайра компиляциялоо менен системаны оптималдаштырыңыз (көбүрөөк ички эстутумду колдонот) жана эс тутумдун иштешин жакшыртуу үчүн файл тутумун кыркыңыз.</string>
+    <string name="extraopt_do_btn">Баштоо</string>
+    <string name="extraopt_reset_btn">Оптимизацияны баштапкы калыбына келтир</string>
+    <string name="extraopt_warning">Бул системасыз оптималдаштыруу эмес. Кээ бир ыңгайлаштырылган ROM\'ларда системаны бузуп салышы мүмкүн (калыбына келтирүүдө ART кэшин тазалоону талап кылат). Колдонуудан мурун маалыматтарыңыздын камдык көчүрмөсүн сактаңыз.</string>
+    <string name="acc_warning">Өркүндөтүлгөн заряддоо контроллери (ACC) модулу аныкталды. Ал FDE.AI батарея функцияларына карама-каршы келиши мүмкүн.</string>
+    <string name="fde_is_active">ЖА иштөөдө</string>
+    <string name="fde_is_inactive">ЖА өчүк</string>
+    <string name="fde_on_reset_toast">Бардык FDE.AI дайындары баштапкы абалга келтирилет. Колдонмо жабылат.</string>
+    <string name="finstall">FDE.AI орнотулууда…</string>
+    <string name="monitoring_floating_window">Көзөмөлдөө</string>
+    <string name="fps_checkbox">Аппараттык мониторинг &amp; FPS</string>
+    <string name="fps_meter_desc">Чыныгы убактагы FPS, CPU, GPU, RAM жана кубаттуулукту колдонуу статистикасы.</string>
+    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Орточо: %1$s FPS</string>
+    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Гц</string>
+    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s МГц</string>
+    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s МБ</string>
+    <string name="get_premium">FDE.AI Premium сатып ал</string>
+    <string name="go_back">Артка</string>
+    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="grantit">FDE.AI OS жүктөлгөндөн кийин ишке киришине уруксат берүү үчүн OS\'уңуздун уруксат башкаргычында автоматтык түрдө баштоого кол менен уруксат беришиңиз керек болушу мүмкүн.</string>
+    <string name="greenbattery_desc">Максималдуу заряд деңгээлин чектөө менен батареянын иштөө мөөнөтүн узартыңыз. Белгиленген босогодо кубаттоону токтотуп, андан 6 пайызга төмөн кайра иштетет.</string>
+    <string name="greenbattery_title">Батареянын ден соолугу</string>
+    <string name="hour">h.</string>
+    <string name="join_forum">XDA</string>
+    <string name="just_battery">Батарея</string>
+    <string name="just_ram">RAM</string>
+    <string name="just_storage">Сактагыч</string>
+    <string name="killbgapps_desc">Экран өчүк болгондо фон колдонмолорун автоматтык түрдө өчүрүү.</string>
+    <string name="killbgapps_title">Фондук тиркемелерди өчүрүү</string>
+    <string name="light_theme">Жарык</string>
+    <string name="link_open_error" tools:ignore="MissingTranslation">Шилтеме ачылбай жатат</string>
+    <string name="links">Шилтемелер</string>
+    <string name="log_saved">Журнал /sdcard/fde.md сакталды</string>
+    <string name="low_power_fps">Төмөн кубаттуулуктагы FPS</string>
+    <string name="low_power_fps_short_desc">Максаттуу FPS коюңуз - CPU/GPU жыштыктары FPSти сактоо жана энергияны үнөмдөө үчүн кыскартылат.</string>
+    <string name="mem_available_x" tools:ignore="MissingTranslation">Жеткиликтүү: %1$s</string>
+    <string name="mem_cached_x" tools:ignore="MissingTranslation">Кэштелген: %1$s</string>
+    <string name="mem_total_x" tools:ignore="MissingTranslation">Бардыгы: %1$s</string>
+    <string name="mem_used_x" tools:ignore="MissingTranslation">Колдонулууда: %1$s</string>
+    <string name="menu_dashboard">Башкы бет</string>
+    <string name="min">мин.</string>
+    <string name="more_info">Көбүрөөк</string>
+    <string name="noroot">ROOT ACCESS ЖОК!</string>
+    <string name="notification_ai_state">Туруктуу билдирүү</string>
+    <string name="notification_ai_state_desc">Эскертмеде учурдагы AI режимин көрсөтөт</string>
+    <string name="notification_battery_state">Батарея жөнүндө эскертме</string>
+    <string name="notification_battery_state_desc">Билдирмеде кыскача батарея маалыматын көрсөтөт</string>
+    <string name="offf">Өчүк</string>
+    <string name="older_changelogs" tools:ignore="MissingTranslation">Эски өзгөртүү журналдары</string>
+    <string name="onboarding_eula_message">Улантуу үчүн биздин келишимди кабыл алыңыз</string>
+    <string name="onboarding_eula_summary_1">FDE.AI ар кандай система параметрлерин өзгөртүү менен системаңызды оптималдаштырат</string>
+    <string name="onboarding_eula_summary_2">Маалыматтын камдык көчүрмөсү бар экенине ынаныңыз</string>
+    <string name="onboarding_eula_summary_3">Биз эч кандай зыян үчүн жооптуу эмес.</string>
+    <string name="onboarding_eula_summary_header">Макулдашуунун корутундусу</string>
+    <string name="onboarding_preset_adaptive_summary">Автоматтык түрдө тууралоо үчүн оңдоп-түзөөлөрдү колдонуңуз жана AIди тууралаңыз. Сунушталган режим.</string>
+    <string name="onboarding_preset_adaptive_title">Адаптивдүү</string>
+    <string name="onboarding_preset_off_summary">Эч кандай өзгөртүү колдонулган эмес. Инструменттер гана дароо жеткиликтүү болот</string>
+    <string name="onboarding_preset_off_title">Эчбири</string>
+    <string name="onboarding_preset_performance_summary">Өндүрүмдүүлүктү жана жооп кайтарууну жогорулатуу үчүн өзгөртүүлөрдү колдонуңуз жана AIди тууралаңыз</string>
+    <string name="onboarding_preset_performance_title">Ылдамдык</string>
+    <string name="onboarding_preset_powersave_summary">Батареяны үнөмдөө жана жылуулукту азайтуу үчүн оңдоп-түзөөлөрдү колдонуңуз жана AIди тууралаңыз</string>
+    <string name="onboarding_preset_powersave_title">Энергияны үнөмдөө</string>
+    <string name="onboarding_presets">Алдын ала орнотуулар</string>
+    <string name="onboarding_see_full_eula">Толук EULAны көрүңүз</string>
+    <string name="onboarding_setup">Орнотуу</string>
+    <string name="onboarding_setup_message">Кайсы өзгөртүүлөр колдонуларын тандаңыз. Орнотуудан кийин жөндөөлөрдү өзгөртө аласыз.</string>
+    <string name="onboarding_eula_summary_4">FDE.AIданбашка өзгөртүүлөрдү колдонбоңуз.</string>
+    <string name="onboarding_migrate_data">Мурунку версия аныкталды</string>
+    <string name="open_os_dev_settings">Android иштеп чыгуучунун жөндөөлөрүн ачыңыз</string>
+    <string name="optimize_now">Азыр оптимизацияла</string>
+    <string name="other_settings">Башка жөндөөлөрү</string>
+    <string name="overlay_desc_text">Мониторинг үчүн реалдуу убакыт статистикасы менен калкып жүрүүчү терезелерди иштетиңиз.</string>
+    <string name="performance">Ылдамдык</string>
+    <string name="power_checkbox">Кубаттулук колдонуусу</string>
+    <string name="powersave">Энергияны үнөмдөө</string>
+    <string name="preload_title">Авто алдын ала жүктөө</string>
+    <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
+    <string name="premium_card_audio">Үн билдирмелери</string>
+    <string name="premium_card_overlays_desc">FPS өлчөгүч, анын ичинде ар кандай статистика менен өзгөчөлөштүрүлүүчү кабатталган терезелер.</string>
+    <string name="premium_card_profiles">Кеңейтилген колдонмо профилдери</string>
+    <string name="premium_card_profiles_desc">Көптөгөн параметрлери бар ыңгайлаштырылган колдонмо профилдери.</string>
+    <string name="premium_card_soundpack_desc">FDE.AI аракеттери үчүн ыңгайлаштырылган үн эскертмелери.</string>
+    <string name="premium_text">FDE.AIди колдоп, бардык эксклюзивдүү функцияларды ачыңыз:</string>
+    <string name="premium_thanks">Колдооңуз үчүн рахмат! Сиз бул функциялардын кулпусун ачтыңыз:</string>
+    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
+    <string name="rate_app">FDE.AIга баа бериңиз</string>
+    <string name="releases">Жаңыртуулар</string>
+    <string name="reset">Баштапкы калыпка келтирүү</string>
+    <string name="reset_all_fde">FDE.AI жөндөөлөрүн баштапкы абалга келтириңиз</string>
+    <string name="reset_downscale_onboot">Кайра жүктөөдөн кийин баштапкы абалга келтирүү</string>
+    <string name="reset_art_dialog_text">ART кэш тазалап, кайра жүктөлсүнбү?</string>
+    <string name="start_art_dialog_text">ART кэшин оптималдаштыруу убакытты талап кылып, аппараттын кечигүүсүнө жана ысып кетишине алып келиши мүмкүн. Улантасызбы?</string>
+    <string name="reset_fde_dialog_text">Бардык FDE.AI жөндөөлөрү баштапкы абалга келтирилсинби?</string>
+    <string name="resetscale_hw">Аппараттык демейки</string>
+    <string name="restart_fde_action">FDE.AIды өчүрүп күйгүз</string>
+    <string name="restart_fde_in_progress">FDE.AI өчүрүп күйгүзүүдө</string>
+    <string name="rm_fde_lite">Алгач FDE.AI lite версиясын чыгарып салыңыз!</string>
+    <string name="run_now">Иштет</string>
+    <string name="save_log">Журналды сактоо</string>
+    <string name="screen_on_delay">Экран АЧУУ кечигүү:</string>
+    <string name="search_no_reset">Издөө</string>
+    <string name="share">FDE.AI менен бөлүшүңүз</string>
+    <string name="share_txt">FDE.AI - укмуштуудай Android оптимизатору!</string>
+    <string name="profiles_btn">Тиркеме профилдери</string>
+    <string name="profiles_descr_txt">Ыңгайлаштырылган профилдер колдонмо иштеп жатканда FDE.AI жөндөөлөрүн колдонот жана жабылганда кайра кайтарылат.</string>
+    <string name="sound_header">Үн</string>
+    <string name="start_toast">Күйгүзүлүүдө FDE.AI…</string>
+    <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">FDE.AI баштоо үчүн %1$d сек күтүлүүдө…</string>
+    <string name="startup">Баштоо</string>
+    <string name="stop_btn">Токтот</string>
+    <string name="third_party">Үчүнчү тараптын библиотекалары</string>
+    <string name="throttling_description">Аны өчүрүү майнаптуулугун сактайт, бирок ысып кетиши жана тез кубаттоо же камера иштебей калышы мүмкүн.
+\nFDE.AI демейки боюнча кубаттоо учурунда басууну кайра иштетет. Муну өчүрүү үчүн белгини алып салыңыз.</string>
+    <string name="throttling_fuse_desc">Зыяндын алдын алуу үчүн бул температурада дроссельди автоматтык түрдө кайра иштетиңиз.</string>
+    <string name="throttling_fuse_header">Температура сактагыч</string>
+    <string name="throttling_ignore_charging">Кубаттоого көңүл бурбаңыз</string>
+    <string name="throttling_system_desc">Тыюу CPU/GPU жыштыктарын азайтуу аркылуу ысып кетүүнүн алдын алат.</string>
+    <string name="un_fde_magisk">Алгач FDE.AI Magic модулун чыгарып салыңыз!</string>
+    <string name="unavailable">Жеткиликтсиз</string>
+    <string name="update">Жаңырт</string>
+    <string name="update_available">Жаңыртуу жеткиликтүү!</string>
+    <string name="updating_toast">Жаңыртуу көчүрүлүүдө…</string>
+    <string name="vibration">Бир жолу титиреттирүү</string>
+    <string name="warning_header">Эскертүү</string>
+    <string name="welcome">Кош келиңиз</string>
+    <string name="bprop_default_txt">Демейки build.prop чыңдоолору. FDE.AI менен көйгөйлөрүңүз болсо, биринчи аларды өчүрүңүз.</string>
+    <string name="overlay_opacity_main">Кабаттын тунук эместиги</string>
+    <string name="tweaks_disabled">Бардык Tweaks өчүрүлгөн</string>
+    <string name="exit_confirmation_title">Чыгыш кылынсынбы?</string>
+    <string name="exit_confirmation_text">Өзгөртүүлөрдү сактабастан чыгасызбы?</string>
+    <string name="sound_channel_name">AI үн эскертмелери</string>
+    <string name="reset_app_list_confirmation_title">Тизмени баштапкы абалга келтирүү</string>
+    <string name="reset_app_list_confirmation_text">Колдонмо тизмеси баштапкы абалга келтирилсинби?</string>
+    <string name="downscale_notification" tools:ignore="PluralsCandidate">Жаңы токтомду ырастоо үчүн OK баскычын басыңыз, болбосо ал %1$d сек. дан кийин баштапкы абалга келтирилет.</string>
+    <string name="onboarding_migrate_data_description">Дайындарыңызды көчүрөсүзбү?</string>
+    <string name="kernel_block">Учурдагы %1$s өзөгү Premium орнотууну бөгөттөйт. Сураныч, башка ядрону орнотууну карап көрүңүз.</string>
+    <string name="profile_ai_mode_desc">Колдонмо колдонулуп жатканда AI режимин тандаңыз.</string>
+    <string name="preload_pro_required">Бул функция үчүн Preload Pro колдонмосу талап кылынат.</string>
+    <string name="premium_required">Бул функциялар үчүн FDE.AI Premium талап кылынат.</string>
+    <string name="overlay_power_x">Кубат: %1$s мАч</string>
+    <string name="overlay_battery_temp_x">Батарея: %1$s°C</string>
+    <string name="overlay_scale_main">Үстөмөндөп коюу масштабы</string>
+    <string name="emergency_cooldown">Шашылыш муздатуу</string>
+    <string name="emergency_cooldown_btn">Муздатуу</string>
+    <string name="emergency_cooldown_desc">Иштетилгенде, ал дроссельди кайра иштетет, учак режимин, энергияны үнөмдөө режимин иштетет, фондо колдонмолорду өчүрөт, кубаттоо өчүрүлөт жана AI кубат үнөмдөө режимине 100 секундага коюлат, андан кийин кайра кайтарылат.</string>
+    <string name="hwinfo">Түзмөк</string>
+    <string name="ai_lifetime">AI өмүрү</string>
+    <string name="kernel_tuning_state">Ядро жөндөө</string>
+    <string name="cpu_turbo_support">CPU Turbo колдоосу</string>
+    <string name="cpu_turbo_active">CPU Turbo активдүү</string>
+    <string name="cpu_turbo_trigger_count">CPU Turbo триггеринин саны</string>
+    <string name="gpu_turbo_support">GPU Turbo колдоосу</string>
+    <string name="gpu_turbo_active">GPU Turbo активдүү</string>
+    <string name="gpu_turbo_trigger_count">GPU Turbo триггеринин саны</string>
+    <string name="force_doze_enabled">Мажбурлоо режими иштетилди</string>
+    <string name="force_doze_trigger_count">Мажбурлап Doze триггер саны</string>
+    <string name="force_doze_autopowersave_mode">Мажбурлап Doze автоматтык түрдө үнөмдөө</string>
+    <string name="throttling_deactivated">Бөгөттөө өчүрүлгөн</string>
+    <string name="throttling_ignore_on_charge">Троттлинг кубаттоого көңүл бурбоо</string>
+    <string name="kill_bg_apps">Фондук колдонмолорду жок кылуу</string>
+    <string name="auto_tune_freqs">Жыштыктарды автоматтык түрдө тууралоо</string>
+    <string name="auto_art_opt">Авто ART оптималдаштыруу</string>
+    <string name="dynamic_read_ahead">Алдын ала динамикалык окуу</string>
+    <string name="charging_bypass_enabled">Заряддоону айланып өтүү иштетилди</string>
+    <string name="charging_bypass_active">Заряддоону айланып өтүү активдүү</string>
+    <string name="charging_limit_enabled">Заряддоо чеги иштетилди</string>
+    <string name="charging_limit_active">Заряддоо чеги активдүү</string>
+    <string name="charging_cycles">Заряддоо циклдери:</string>
+    <string name="cpu_bandwidth_tune">CPU өткөрүү жөндөмдүүлүгүн жөндөө</string>
+    <string name="fs_cache_tune">FS кэшин жөндөө</string>
+    <string name="vm_cache_tune">VM кэшин жөндөө</string>
+    <string name="cpu_input_boost_tune">CPU киргизүүнү күчөтүү</string>
+    <string name="kernel_entropy_tune">Ядронун энтропиясын жөндөө</string>
+    <string name="kernel_sched_boost">Ядро пландоочу күчөтүү</string>
+    <string name="multi_core_power_saving_control">Көп өзөктүү CPU кубаттуулугун үнөмдөө</string>
+    <string name="extraopt_schedule_title">Күн сайын иштөө графиги</string>
+    <string name="extraopt_schedule_time">Күнүмдүк автоматтык оптималдаштыруу убактысын коюу</string>
+    <string name="sound_notifications">Үн эскертмелери</string>
+</resources>

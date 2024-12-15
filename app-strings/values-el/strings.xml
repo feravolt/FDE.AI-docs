@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="about_app">Σχετικά</string>
+    <string name="about_end_txt" tools:ignore="MissingTranslation">Κατασκευασμένο με ❤️ από τον FeraVolt.</string>
+    <string name="accept">Αποδοχή</string>
+    <string name="adaptive">Αυτόματο</string>
+    <string name="ai_tune_freqs">Αυτόματη ρύθμιση των συχνοτήτων CPU/GPU</string>
+    <string name="ai_auto_mode">Ισορροπεί την απόδοση και την εξοικονόμηση ενέργειας με βάση τη χρήση της συσκευής. Η αυτόματη ρύθμιση των συχνοτήτων δίνει περισσότερη εξοικονόμηση ενέργειας.</string>
+    <string name="ai_cycle_period">Περίοδος κύκλου AI</string>
+    <string name="ai_cycle_period_desc">Ρυθμίστε την περίοδο του κύκλου AI με το χέρι. Μεγαλύτερες περίοδοι χρησιμοποιούν λιγότερη ισχύ, αλλά είναι λιγότερο ανταποκρίνονται, και αντίστροφα.
+\nΟι προεπιλεγμένες τιμές ορίζονται αυτόματα με βάση την χωρητικότητα της μπαταρίας. Ο πραγματικός κύκλος του AI ρυθμίζεται αυτόματα με βάση τη χρήση.</string>
+    <string name="ai_cycle_period_warning">Η αλλαγή αυτών των τιμών μπορεί να οδηγήσει σε αυξημένη κατανάλωση ενέργειας ή χαμηλής ποιότητας εργασίας τεχνητής νοημοσύνης.</string>
+    <string name="ai_is_disabled">AI απενεργοποιημένο</string>
+    <string name="ai_log">Ιστορικό καταγραφής AI</string>
+    <string name="ai_mode">Λειτουργία AI</string>
+    <string name="ai_mode_auto">Αυτόματο</string>
+    <string name="ai_modes_desc">Το τρέχει στο παρασκήνιο, μαθαίνει μόνο του τη χρήση της συσκευής και εφαρμόζει βελτιστοποιήσεις στο σύστημα.</string>
+    <string name="ai_off_detail">Όταν το AI είναι απενεργοποιημένο, το FDE ενεργεί μία φορά τη βελτιστοποίηση του συστήματος και δεν βελτιστοποιεί σε πραγματικό χρόνο.</string>
+    <string name="ai_perf_mode">Βελτιστοποίηση απόδοσης. Ενεργοποιεί συχνά την επιτάχυνση της CPU/GPU.</string>
+    <string name="ai_psave_mode">Βελτιστοποίηση για εξοικονόμηση ενέργειας. Δεν θα ενεργοποιείται η επιτάχυνση της CPU/GPU.</string>
+    <string name="ai_settings_extra">Επιπλέον ρυθμίσεις AI</string>
+    <string name="ai_state_busy">Επεξεργασία</string>
+    <string name="ai_state_disabled">Απενεργοποιημένο</string>
+    <string name="ai_state_ready">Σε Εργασία</string>
+    <string name="ai_state_sleeping">Σε αδράνεια…</string>
+    <string name="aiinfo">Πληροφορίες AI</string>
+    <string name="core_tweaks_enable">Ενεργοποίηση τροποποιήσεων πυρήνα</string>
+    <string name="core_tweaks_enable_desc">Ενεργοποιήστε τις βασικές τροποποιήσεις. Συνιστάται η μόνιμη ενεργοποίηση.</string>
+    <string name="app_icon">Εικονίδιο εφαρμογής</string>
+    <string name="app_theme">Θέμα</string>
+    <string name="app_update_notification_title">Ενημέρωση του FDE.AI</string>
+    <string name="apply">Εφαρμογή</string>
+    <string name="arrow_down">Κάτω</string>
+    <string name="arrow_left">Αριστερά</string>
+    <string name="arrow_right">Δεξιά</string>
+    <string name="arrow_up">Πάνω</string>
+    <string name="attempt_root">Αναμονή για πρόσβαση root…</string>
+    <string name="auto_psave">Λειτουργία εξοικονόμησης ενέργειας</string>
+    <string name="auto_psave_desc">Αυτόματη ενεργοποίηση λειτουργίας εξοικονόμησης ενέργειας όταν η οθόνη είναι απενεργοποιημένη.</string>
+    <string name="autostart">Autostart</string>
+    <string name="autostart_delay_hint">Καθυστέρηση εκκίνησης σε %1$d δευτ.</string>
+    <string name="autostart_overlay">Εκκίνηση επικάλυψης στατιστικών</string>
+    <string name="batt_capacity">Χωρητικότητα</string>
+    <string name="batt_resistance">Αντοχή</string>
+    <string name="battery_health_sub">Ορίστε το επίπεδο για διακοπή της φόρτισης:</string>
+    <string name="battery_health_toggle">Όριο μέγιστου επιπέδου φόρτισης</string>
+    <string name="battery_level_x" tools:ignore="MissingTranslation">Επίπεδο: %1$s</string>
+    <string name="battery_status">Κατάσταση μπαταρίας</string>
+    <string name="battery_temperature_x" tools:ignore="MissingTranslation">Θερμοκρασία: %1$s</string>
+    <string name="battery_voltage_x" tools:ignore="MissingTranslation">Τάση: %1$s</string>
+    <string name="battery_wear_x" tools:ignore="MissingTranslation">Wear: %1$s</string>
+    <string name="bp_default_only">Προεπιλεγμένες ρυθμίσεις FDE</string>
+    <string name="bp_niko_gpu">Τροποποιήσεις GPU του Niko</string>
+    <string name="bp_niko_net">Βελτίωση δικτύου του Niko</string>
+    <string name="bprop_nikogpu_txt">GPU του Niko Schwickert tweaks. Μπορεί να βελτιώσει την απόδοση σε παλαιότερες συσκευές.</string>
+    <string name="bprop_nikonet_txt">Το δίκτυο του Niko Schwickert μπορεί να αυξήσει την ταχύτητα δεδομένων κινητής τηλεφωνίας.</string>
+    <string name="build_prop_tweaks">Εγγραφές Build.prop</string>
+    <string name="burnit">Απενεργοποίηση throttling</string>
+    <string name="bypassch_desc">Περιορίζει το ρεύμα του φορτιστή κατά τη διάρκεια βαρέων διεργασιών ώστε να ταιριάζει με τη χρήση της συσκευής, μειώνοντας τη φόρτιση της μπαταρίας και τη θέρμανση.</string>
+    <string name="bypassch_title">Παράκαμψη φόρτισης</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="changelog">Αρχείο Αλλαγών</string>
+    <string name="charge_time">Χρόνος πλήρους φόρτισης</string>
+    <string name="charging">φόρτιση</string>
+    <string name="check_for_updates_about">Έλεγχος για ενημερώσεις κατά την εκκίνηση</string>
+    <string name="clean_cache">Εκκαθάριση προσωρινής μνήμης</string>
+    <string name="clean_ram">Clean RAM</string>
+    <string name="cleaning_desc">Καθαρίστε RAM κλείνοντας εφαρμογές στο παρασκήνιο και δωρεάν χώρο αποθήκευσης διαγράφοντας αρχεία προσωρινής μνήμης.</string>
+    <string name="cleaning_title">Καθαρισμός</string>
+    <string name="close">Κλείσιμο</string>
+    <string name="completed">ολοκληρώθηκε</string>
+    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>
+    <string name="cpu_top_descr">Επικάλυψη με τις κορυφαίες 5 διαδικασίες έντασης CPU</string>
+    <string name="cpu_top_header">Στατιστικά επεξεργασίας</string>
+    <string name="current_resolution">Τρέχουσα ανάλυση:</string>
+    <string name="dark_theme">Σκοτεινό</string>
+    <string name="debug_mode">Αποσφαλμάτωση</string>
+    <string name="description">Περιγραφή</string>
+    <string name="enable_ai">Ενεργοποίηση τεχνητής νοημοσύνης</string>
+    <string name="disable_logs">Απενεργοποίηση αρχείων καταγραφής</string>
+    <string name="disable_logs_desc">Επιλέξτε για να απενεργοποιήσετε όλα τα αρχεία καταγραφής και τα στατιστικά (εκτός από το \"logcat\") και να μειώσετε το μέγεθος του buffer logcat στα 128 KB.</string>
+    <string name="downscale_btn">Προσαρμοστική φθίνουσα κλίμακα</string>
+    <string name="downscale_desc">Χαμηλότερη ανάλυση οθόνης για την ενίσχυση της απόδοσης της GPU και την εξοικονόμηση μπαταρίας, με μικρή απώλεια ποιότητας εικόνας. Δεν συνιστάται να πάτε κάτω από το μισό πλάτος οθόνης σε προσαρμοσμένες ROMs (MIUI, EMUI, κλπ.) για να αποφύγετε συντριβές UI.</string>
+    <string name="warning_no">Όχι</string>
+    <string name="warning_title">Προσοχή!</string>
+    <string name="warning_yes">Ναι</string>
+    <string name="doze_description">Το FDE.AI μπορεί να ενεργοποιήσει τη λειτουργία Doze νωρίτερα. Αν προκύψουν προβλήματα, οι εφαρμογές whitelist χρησιμοποιούν το παρακάτω κουμπί.</string>
+    <string name="doze_mode">Εξαναγκασμός λειτουργίας Doze</string>
+    <string name="doze_sub_describtion">Ενεργοποιήστε για να μπείτε στη λειτουργία Doze μόλις η οθόνη είναι απενεργοποιημένη.</string>
+    <string name="doze_system_desc">Η λειτουργία Doze (Android 6.0+) μειώνει τη χρήση της μπαταρίας αναβάλλοντας τη χρήση της CPU στο παρασκήνιο και τη δραστηριότητα δικτύου όταν η συσκευή είναι αδρανής.</string>
+    <string name="doze_whitelist">Κυνηγός λίστα επιτρεπόμενων</string>
+    <string name="eula" tools:ignore="MissingTranslation">EULA</string>
+    <string name="extraopt_btn">Επιπλέον βελτιστοποίηση</string>
+    <string name="extraopt_desc">Βελτιστοποίηση του συστήματος με την ανασύνταξη ART cache για την απόδοση (χρησιμοποιεί περισσότερη εσωτερική μνήμη) και περικοπή του συστήματος αρχείων για τη βελτίωση της απόδοσης της μνήμης.</string>
+    <string name="extraopt_do_btn">Έναρξη</string>
+    <string name="extraopt_reset_btn">Επαναφορά βελτιστοποίησης</string>
+    <string name="extraopt_warning">Αυτό δεν είναι μια βελτιστοποίηση χωρίς σύστημα. Μπορεί να σπάσει το σύστημα σε κάποια προσαρμοσμένη ROMs (απαιτεί εκκαθάριση ART cache σε ανάκτηση).</string>
+    <string name="acc_warning">Εντοπίστηκε μονάδα Advanced Charging Controller (ACC). Μπορεί να έρχεται σε διένεξη με τις λειτουργίες μπαταρίας FDE.AI.</string>
+    <string name="fde_is_active">AI ενεργό</string>
+    <string name="fde_is_inactive">AI inactive</string>
+    <string name="fde_on_reset_toast">Όλα τα δεδομένα FDE.AI θα επαναφερθούν. App θα κλείσει.</string>
+    <string name="finstall">Installing FDE.AI…</string>
+    <string name="monitoring_floating_window">Παρακολούθηση</string>
+    <string name="fps_checkbox">Παρακολούθηση υλικού &amp; FPS</string>
+    <string name="fps_meter_desc">FPS, CPU, GPU, RAM, και στατιστικά χρήσης ισχύος.</string>
+    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Μέσος Όρος: %1$s FPS</string>
+    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
+    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
+    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
+    <string name="get_premium">Get FDE.AI Premium</string>
+    <string name="go_back">Μετάβαση πίσω</string>
+    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="grantit">Ίσως χρειαστεί να παραχωρήσετε χειροκίνητα δικαιώματα αυτόματης εκκίνησης στον διαχειριστή δικαιωμάτων του λειτουργικού σας συστήματος για να επιτρέψετε στο FDE.AI να ξεκινήσει μετά την εκκίνηση του λειτουργικού συστήματος.</string>
+    <string name="greenbattery_desc">Επεκτείνετε τη διάρκεια ζωής της μπαταρίας περιορίζοντας το επίπεδο μέγιστης φόρτισης. Σταματά τη φόρτιση στο καθορισμένο όριο και την επανεκκίνηση με 6 τοις εκατό κάτω από αυτό.</string>
+    <string name="greenbattery_title">Υγεία μπαταρίας</string>
+    <string name="hour">α.</string>
+    <string name="join_forum">XDA</string>
+    <string name="just_battery">Μπαταρία</string>
+    <string name="just_ram">RAM</string>
+    <string name="just_storage">Αποθήκευση</string>
+    <string name="killbgapps_desc">Αυτόματη τερματισμός εφαρμογών στο παρασκήνιο όταν η οθόνη είναι απενεργοποιημένη.</string>
+    <string name="killbgapps_title">Τερματισμός εφαρμογών παρασκηνίου</string>
+    <string name="light_theme">Φωτεινό</string>
+    <string name="link_open_error" tools:ignore="MissingTranslation">Αδυναμία ανοίγματος συνδέσμου</string>
+    <string name="links">Σύνδεσμοι</string>
+    <string name="log_saved">Η καταγραφή αποθηκεύτηκε στο /sdcard/fde.md</string>
+    <string name="low_power_fps">Χαμηλή ισχύς FPS</string>
+    <string name="low_power_fps_short_desc">Ορισμός FPS στόχος - Οι συχνότητες CPU/GPU θα μειωθούν για να διατηρήσουν FPS και να εξοικονομήσουν ενέργεια.</string>
+    <string name="mem_available_x" tools:ignore="MissingTranslation">Διαθέσιμο: %1$s</string>
+    <string name="mem_cached_x" tools:ignore="MissingTranslation">Προσωρινή Αποθήκευση: %1$s</string>
+    <string name="mem_total_x" tools:ignore="MissingTranslation">Σύνολο: %1$s</string>
+    <string name="mem_used_x" tools:ignore="MissingTranslation">Χρησιμοποιούνται: %1$s</string>
+    <string name="menu_dashboard">Αρχική</string>
+    <string name="min">min.</string>
+    <string name="more_info">Περισσότερες πληροφορίες</string>
+    <string name="noroot">ΟΧΙ ΠΡΟΣΒΑΣΗ ROOT!</string>
+    <string name="notification_ai_state">Μόνιμη ειδοποίηση</string>
+    <string name="notification_ai_state_desc">Εμφανίζει την τρέχουσα λειτουργία τεχνητής νοημοσύνης στην ειδοποίηση</string>
+    <string name="notification_battery_state">Ειδοποίηση μπαταρίας</string>
+    <string name="notification_battery_state_desc">Εμφάνιση σύντομων πληροφοριών μπαταρίας στην ειδοποίηση</string>
+    <string name="offf">Ανενεργό</string>
+    <string name="older_changelogs" tools:ignore="MissingTranslation">Παλαιότερα αρχεία αλλαγών</string>
+    <string name="onboarding_eula_message">Παρακαλώ αποδεχτείτε τη συμφωνία μας για να συνεχίσετε</string>
+    <string name="onboarding_eula_summary_1">Το FDE.AI βελτιστοποιεί το σύστημά σας τροποποιώντας διάφορες παραμέτρους του συστήματος</string>
+    <string name="onboarding_eula_summary_2">Βεβαιωθείτε ότι έχετε ένα αντίγραφο ασφαλείας δεδομένων</string>
+    <string name="onboarding_eula_summary_3">Δεν είμαστε υπεύθυνοι για οποιαδήποτε ζημία.</string>
+    <string name="onboarding_eula_summary_header">Περίληψη συμφωνίας</string>
+    <string name="onboarding_preset_adaptive_summary">Εφαρμόστε tweaks και συντονίστε AI για να ρυθμίσετε αυτόματα. Συνιστώμενη λειτουργία.</string>
+    <string name="onboarding_preset_adaptive_title">Προσαρμοστική</string>
+    <string name="onboarding_preset_off_summary">Δεν εφαρμόζονται τροποποιήσεις. Μόνο εργαλεία θα είναι διαθέσιμα αμέσως</string>
+    <string name="onboarding_preset_off_title">Κανένα</string>
+    <string name="onboarding_preset_performance_summary">Εφαρμόστε tweaks και συντονίστε το AI για αυξημένη απόδοση και ανταπόκριση</string>
+    <string name="onboarding_preset_performance_title">Επιδόσεις</string>
+    <string name="onboarding_preset_powersave_summary">Εφαρμόστε tweaks και συντονίστε AI για εξοικονόμηση μπαταρίας και μειωμένη θερμότητα</string>
+    <string name="onboarding_preset_powersave_title">Powersave</string>
+    <string name="onboarding_presets">Προεπιλογές</string>
+    <string name="onboarding_see_full_eula">Δείτε το πλήρες EULA</string>
+    <string name="onboarding_setup">Ρύθμιση</string>
+    <string name="onboarding_setup_message">Επιλέξτε ποιες τροποποιήσεις θα εφαρμοστούν. Μπορείτε να αλλάξετε τις ρυθμίσεις μετά τη ρύθμιση.</string>
+    <string name="onboarding_eula_summary_4">Μην χρησιμοποιείτε άλλες τροποποιήσεις με το FDE.AI.</string>
+    <string name="onboarding_migrate_data">Ανιχνεύθηκε προηγούμενη έκδοση</string>
+    <string name="open_os_dev_settings">Άνοιγμα ρυθμίσεων προγραμματιστή Android</string>
+    <string name="optimize_now">Βελτιστοποίηση τώρα</string>
+    <string name="other_settings">Άλλες ρυθμίσεις</string>
+    <string name="overlay_desc_text">Ενεργοποίηση αιωρούμενων παραθύρων με στατιστικά σε πραγματικό χρόνο για παρακολούθηση.</string>
+    <string name="performance">Επιδόσεις</string>
+    <string name="power_checkbox">Κατανάλωση ισχύος</string>
+    <string name="powersave">Powersave</string>
+    <string name="preload_title">Αυτόματη προφόρτωση</string>
+    <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
+    <string name="premium_card_audio">Ειδοποιήσεις ήχου</string>
+    <string name="premium_card_overlays_desc">Παραμετροποιήσιμα παράθυρα επικάλυψης με διάφορα στατιστικά συμπεριλαμβανομένου του μετρητή FPS.</string>
+    <string name="premium_card_profiles">Εκτεταμένα προφίλ εφαρμογών</string>
+    <string name="premium_card_profiles_desc">Προσαρμόσιμα προφίλ εφαρμογών με πολλές επιλογές.</string>
+    <string name="premium_card_soundpack_desc">Προσαρμόσιμες ειδοποιήσεις ήχου για ενέργειες FDE.AI.</string>
+    <string name="premium_text">Υποστήριξη FDE.AI και ξεκλείδωμα όλων των αποκλειστικών χαρακτηριστικών:</string>
+    <string name="premium_thanks">Σας ευχαριστούμε για την υποστήριξή σας! Ξεκλειδώσατε αυτά τα χαρακτηριστικά:</string>
+    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
+    <string name="rate_app">Αξιολογήστε Το Fde.Ai</string>
+    <string name="releases">Ενημερώσεις</string>
+    <string name="reset">Reset</string>
+    <string name="reset_all_fde">Επαναφορά ρυθμίσεων FDE.AI</string>
+    <string name="reset_downscale_onboot">Επαναφορά μετά την επανεκκίνηση</string>
+    <string name="reset_art_dialog_text">Εκκαθάριση ART cache και επανεκκίνηση?</string>
+    <string name="start_art_dialog_text">Βελτιστοποίηση της μνήμης cache ART μπορεί να πάρει χρόνο, αιτία καθυστέρηση της συσκευής και υπερθέρμανση. Συνέχεια?</string>
+    <string name="reset_fde_dialog_text">Επαναφορά όλων των ρυθμίσεων FDE.AI?</string>
+    <string name="resetscale_hw">Προεπιλογές υλικού</string>
+    <string name="restart_fde_action">Επανεκκίνηση FDE.AI</string>
+    <string name="restart_fde_in_progress">Restarting FDE.AI</string>
+    <string name="rm_fde_lite">Απεγκατάσταση FDE.AI lite έκδοση πρώτα!</string>
+    <string name="run_now">Εκτέλεση</string>
+    <string name="save_log">Αποθήκευση αρχείου καταγραφής</string>
+    <string name="screen_on_delay">Καθυστέρηση ενεργοποίησης οθόνης:</string>
+    <string name="search_no_reset">Αναζήτηση</string>
+    <string name="share">Κοινοποίηση FDE.AI</string>
+    <string name="share_txt">Δοκιμάστε το FDE.AI - ένας εκπληκτικός βελτιστοποιητής Android!</string>
+    <string name="profiles_btn">Προφίλ εφαρμογών</string>
+    <string name="profiles_descr_txt">Τα προσαρμοσμένα προφίλ εφαρμόζουν τις ρυθμίσεις FDE.AI όταν εκτελείται μια εφαρμογή και επανέρχεται όταν κλείσει.</string>
+    <string name="sound_header">Ήχος</string>
+    <string name="start_toast">Ξεκινώντας FDE.AI…</string>
+    <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">Αναμονή %1$d sec για έναρξη FDE.AI…</string>
+    <string name="startup">Startup</string>
+    <string name="stop_btn">Διακοπή</string>
+    <string name="third_party">Βιβλιοθήκες τρίτων</string>
+    <string name="throttling_description">Η απενεργοποίηση του διατηρεί την απόδοση αλλά μπορεί να προκαλέσει υπερθέρμανση και η γρήγορη φόρτιση ή η κάμερα μπορεί να σταματήσει να λειτουργεί.
+\nFDE.AI ενεργοποιεί ξανά την επιτάχυνση κατά τη φόρτιση από προεπιλογή. Απενεργοποιήστε το για να το απενεργοποιήσετε.</string>
+    <string name="throttling_fuse_desc">Αυτόματη επανενεργοποίηση της επιτάχυνσης σε αυτή τη θερμοκρασία για την πρόληψη βλάβης.</string>
+    <string name="throttling_fuse_header">Θερμοκρασία ασφάλειας</string>
+    <string name="throttling_ignore_charging">Παράβλεψη φόρτισης</string>
+    <string name="throttling_system_desc">Η στρόφιγγα αποτρέπει την υπερθέρμανση μειώνοντας τις συχνότητες CPU / GPU.</string>
+    <string name="un_fde_magisk">Απεγκατάσταση του FDE.AI Magisk module πρώτα!</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="update">Ενημέρωση</string>
+    <string name="update_available">Διαθέσιμη ενημέρωση!</string>
+    <string name="updating_toast">Λήψη αναβάθμισης…</string>
+    <string name="vibration">Δόνηση μία φορά</string>
+    <string name="warning_header">Προειδοποίηση</string>
+    <string name="welcome">Καλωσόρισμα</string>
+    <string name="bprop_default_txt">Προεπιλεγμένο tweaks build.prop. Απενεργοποιήστε τα πρώτα αν έχετε προβλήματα με το FDE.AI.</string>
+    <string name="overlay_opacity_main">Overlay opacity</string>
+    <string name="tweaks_disabled">Όλες οι tweaks είναι απενεργοποιημένες</string>
+    <string name="exit_confirmation_title">Έξοδος?</string>
+    <string name="exit_confirmation_text">Έξοδος χωρίς αποθήκευση αλλαγών?</string>
+    <string name="sound_channel_name">Ειδοποιήσεις Ήχου AI</string>
+    <string name="reset_app_list_confirmation_title">Επαναφορά λίστας</string>
+    <string name="reset_app_list_confirmation_text">Επαναφορά λίστας εφαρμογών?</string>
+    <string name="downscale_notification" tools:ignore="PluralsCandidate">Πατήστε OK για επιβεβαίωση της νέας ανάλυσης, ή θα γίνει επαναφορά στο %1$d sec.</string>
+    <string name="onboarding_migrate_data_description">Μετεγκατάσταση δεδομένων σας?</string>
+    <string name="kernel_block">Ο τρέχων πυρήνας %1$s μπλοκάρει την εγκατάσταση Premium. Παρακαλώ σκεφτείτε να εγκαταστήσετε έναν άλλο πυρήνα.</string>
+    <string name="profile_ai_mode_desc">Επιλέξτε τη λειτουργία τεχνητής νοημοσύνης ενώ η εφαρμογή είναι σε χρήση.</string>
+    <string name="preload_pro_required">Απαιτείται προφόρτωση εφαρμογής Pro για αυτήν τη δυνατότητα.</string>
+    <string name="premium_required">Το FDE.AI Premium απαιτείται για αυτά τα χαρακτηριστικά.</string>
+    <string name="overlay_power_x">Ισχύς: %1$s mAh</string>
+    <string name="overlay_battery_temp_x">Μπαταρία: %1$s°C</string>
+    <string name="overlay_scale_main">Κλίμακα επικάλυψης</string>
+    <string name="emergency_cooldown">Ψύξη Έκτακτης Ανάγκης</string>
+    <string name="emergency_cooldown_btn">Ψύξη</string>
+    <string name="emergency_cooldown_desc">Όταν ενεργοποιηθεί, θα επανενεργοποιήσει την επιτάχυνση, θα ενεργοποιήσει τη λειτουργία αεροπλάνου, λειτουργία εξοικονόμησης ενέργειας, σκοτώστε τις εφαρμογές στο παρασκήνιο, απενεργοποιήστε τη φόρτιση, και ρυθμίστε τη λειτουργία τεχνητής νοημοσύνης σε λειτουργία εξοικονόμησης ενέργειας για 100 δευτερόλεπτα, στη συνέχεια επιστρέψτε.</string>
+    <string name="hwinfo">Συσκευή</string>
+    <string name="ai_lifetime">Διάρκεια ζωής AI</string>
+    <string name="kernel_tuning_state">Συντονισμός πυρήνα</string>
+    <string name="cpu_turbo_support">Υποστήριξη CPU Turbo</string>
+    <string name="cpu_turbo_active">Ενεργή CPU Turbo</string>
+    <string name="cpu_turbo_trigger_count">Αριθμός ενεργοποίησης CPU Turbo</string>
+    <string name="gpu_turbo_support">Υποστήριξη GPU Turbo</string>
+    <string name="gpu_turbo_active">Ενεργή GPU Turbo</string>
+    <string name="gpu_turbo_trigger_count">Αριθμός ενεργοποίησης GPU Turbo</string>
+    <string name="force_doze_enabled">Ενεργοποιήθηκε το Force Doze</string>
+    <string name="force_doze_trigger_count">Αριθμός σκανδάλης Force Doze</string>
+    <string name="force_doze_autopowersave_mode">Αυτόματη εξοικονόμηση ενέργειας στο Force Doze</string>
+    <string name="throttling_deactivated">Το throttling απενεργοποιήθηκε</string>
+    <string name="throttling_ignore_on_charge">Παράβλεψη φόρτισης με περιορισμό</string>
+    <string name="kill_bg_apps">Σκότωση εφαρμογών παρασκηνίου</string>
+    <string name="auto_tune_freqs">Αυτόματη ρύθμιση συχνοτήτων</string>
+    <string name="auto_art_opt">Αυτόματη βελτιστοποίηση ART</string>
+    <string name="dynamic_read_ahead">Δυναμική ανάγνωση μπροστά</string>
+    <string name="charging_bypass_enabled">Ενεργοποιήθηκε η παράκαμψη φόρτισης</string>
+    <string name="charging_bypass_active">Ενεργή παράκαμψη φόρτισης</string>
+    <string name="charging_limit_enabled">Ενεργοποιήθηκε το όριο χρέωσης</string>
+    <string name="charging_limit_active">Ενεργό όριο χρέωσης</string>
+    <string name="charging_cycles">Κύκλοι φόρτισης:</string>
+    <string name="cpu_bandwidth_tune">συντονισμός εύρους ζώνης CPU</string>
+    <string name="fs_cache_tune">Συντονισμός προσωρινής μνήμης FS</string>
+    <string name="vm_cache_tune">Συντονισμός προσωρινής μνήμης VM</string>
+    <string name="cpu_input_boost_tune">Ενίσχυση εισόδου CPU</string>
+    <string name="kernel_entropy_tune">Συντονισμός εντροπίας πυρήνα</string>
+    <string name="kernel_sched_boost">Ενίσχυση προγραμματιστή πυρήνα</string>
+    <string name="multi_core_power_saving_control">Εξοικονόμηση ενέργειας CPU πολλαπλών πυρήνων</string>
+    <string name="extraopt_schedule_title">Προγραμματισμός για καθημερινή εκτέλεση</string>
+    <string name="extraopt_schedule_time">Ορισμός ημερήσιας ώρας αυτόματης βελτιστοποίησης</string>
+    <string name="sound_notifications">Ειδοποιήσεις ήχου</string>
+</resources>

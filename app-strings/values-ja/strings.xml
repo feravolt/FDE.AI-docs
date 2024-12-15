@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="about_app">FDE.AIについて</string>
+    <string name="about_end_txt" tools:ignore="MissingTranslation">FeraVoltが❤を込めて作りました。</string>
+    <string name="accept">同意</string>
+    <string name="adaptive">自動</string>
+    <string name="ai_tune_freqs">CPUとGPUの周波数を自動調整</string>
+    <string name="ai_auto_mode">デバイスの使用状況に基づいて、パフォーマンスと省電力のバランスを取ります。「CPUとGPUの周波数を自動調整」を有効化することにより、さらに省電力になります。</string>
+    <string name="ai_cycle_period">AIのサイクル周期</string>
+    <string name="ai_cycle_period_desc">AIサイクル周期を手動で調整します。周期が長いほど電力消費が少なくなりますが、応答速度が低下し、逆も同様です。
+\nデフォルトの値はバッテリーの容量に基づいて自動的に設定されます。実際のAIサイクルは使用状況に応じて自動的に調整されます。</string>
+    <string name="ai_cycle_period_warning">これらの値を変更すると、電力消費の増加または低品質のAI処理につながる可能性があります。</string>
+    <string name="ai_is_disabled">AIは無効になっています。</string>
+    <string name="ai_log">AIログ</string>
+    <string name="ai_mode">AIのモード</string>
+    <string name="ai_mode_auto">自動</string>
+    <string name="ai_modes_desc">AIがバックグラウンドで動作し、使用状況を学習し、システムの最適化を行います。</string>
+    <string name="ai_off_detail">AIが無効になっている場合、FDEは一回限りの最適化を行い、リアルタイムの最適化は行いません。オフにしないことをおすすめします。</string>
+    <string name="ai_perf_mode">パフォーマンスのために最適化します。CPU/GPUターボを頻繁に実行します。</string>
+    <string name="ai_psave_mode">省電力のために最適化します。CPU/GPUターボは実行されません。</string>
+    <string name="ai_settings_extra">追加のAI設定</string>
+    <string name="ai_state_busy">処理中</string>
+    <string name="ai_state_disabled">無効化されました</string>
+    <string name="ai_state_ready">動作中</string>
+    <string name="ai_state_sleeping">スリープ中…</string>
+    <string name="aiinfo">AIの情報</string>
+    <string name="core_tweaks_enable">コアの微調整を有効化</string>
+    <string name="core_tweaks_enable_desc">メインのFDEの微調整を有効化します。オンのままにすることをおすすめします。</string>
+    <string name="app_icon">アプリのアイコン</string>
+    <string name="app_theme">テーマ</string>
+    <string name="app_update_notification_title">FDE.AIの更新</string>
+    <string name="apply">適用</string>
+    <string name="arrow_down">下矢印</string>
+    <string name="arrow_left">左矢印</string>
+    <string name="arrow_right">右矢印</string>
+    <string name="arrow_up">上矢印</string>
+    <string name="attempt_root">ルート権限の付与を待っています…</string>
+    <string name="auto_psave">省電力モード</string>
+    <string name="auto_psave_desc">画面オフ時に省電力モードを自動的に有効にします。</string>
+    <string name="autostart">自動起動</string>
+    <string name="autostart_delay_hint">%1$d秒に遅延を設定しました</string>
+    <string name="autostart_overlay">統計のオーバーレイ表示を開始</string>
+    <string name="batt_capacity">容量</string>
+    <string name="batt_resistance">抵抗値</string>
+    <string name="battery_health_sub">以下で設定したバッテリー残量で充電を止めます。</string>
+    <string name="battery_health_toggle">最大充電レベルを制限</string>
+    <string name="battery_level_x" tools:ignore="MissingTranslation">バッテリー残量: %1$s</string>
+    <string name="battery_status">バッテリーの状態</string>
+    <string name="battery_temperature_x" tools:ignore="MissingTranslation">温度: %1$s</string>
+    <string name="battery_voltage_x" tools:ignore="MissingTranslation">電圧: %1$s</string>
+    <string name="battery_wear_x" tools:ignore="MissingTranslation">劣化: %1$s</string>
+    <string name="bp_default_only">デフォルトのFDEの微調整</string>
+    <string name="bp_niko_gpu">NikoのGPUの微調整</string>
+    <string name="bp_niko_net">Nikoのネットワークの微調整</string>
+    <string name="bprop_nikogpu_txt">Niko SchwickertのGPUの微調整です。古いデバイスでのパフォーマンスが向上する可能性があります。</string>
+    <string name="bprop_nikonet_txt">Niko Schwickertのネットワークの微調整です。モバイルネットワークの速度を上げることができる可能性があります。</string>
+    <string name="build_prop_tweaks">Build.propの微調整</string>
+    <string name="burnit">スロットリングを無効化</string>
+    <string name="bypassch_desc">高負荷プロセスの実行中にデバイスの使用状況に合わせて充電電流を制限し、バッテリーの充電と発熱を抑えます。</string>
+    <string name="bypassch_title">バイパス充電</string>
+    <string name="cancel">キャンセル</string>
+    <string name="changelog">更新履歴</string>
+    <string name="changelog_link" tools:ignore="MissingTranslation">https://github.com/feravolt/FDE.AI-docs/blob/master/changelog.md</string>
+    <string name="charge_time">フル充電までの時間</string>
+    <string name="charging">充電中</string>
+    <string name="check_for_updates_about">アプリ起動時に更新を確認</string>
+    <string name="clean_cache">キャッシュを消去</string>
+    <string name="clean_ram">RAMを最適化</string>
+    <string name="cleaning_desc">バックグラウンドアプリを終了してRAMをクリーンアップし、キャッシュファイルを削除してストレージ容量を解放します。</string>
+    <string name="cleaning_title">クリーニング</string>
+    <string name="close">閉じる</string>
+    <string name="completed">完了</string>
+    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>
+    <string name="cpu_top_descr">CPU負荷の高いトップ5のプロセスをオーバーレイ表示します</string>
+    <string name="cpu_top_header">プロセスの統計</string>
+    <string name="current_resolution">現在の解像度:</string>
+    <string name="dark_theme">ダーク</string>
+    <string name="debug_mode">デバッグ</string>
+    <string name="description">説明</string>
+    <string name="enable_ai">AIを有効化</string>
+    <string name="disable_logs">ログを無効化</string>
+    <string name="disable_logs_desc">すべてのログと統計情報(「logcat」を除く)を無効にし、logcatのバッファサイズを128KBに縮小します。</string>
+    <string name="downscale_btn">画面幅を変更</string>
+    <string name="downscale_desc">GPUのパフォーマンスを向上させ、バッテリーを節約するために画面の解像度を下げます。わずかに画質が悪くなる可能性があります。UIのクラッシュを避けるためにカスタムROM(MIUI、EMUIなど)の画面幅を半分以下にすることはおすすめしません。</string>
+    <string name="warning_no">いいえ</string>
+    <string name="warning_title">警告！</string>
+    <string name="warning_yes">はい</string>
+    <string name="doze_description">FDE.AIは「電池の最適化」の開始を早めることができます。問題が発生した場合は、以下のボタンでアプリをホワイトリストに登録してください。</string>
+    <string name="doze_mode">強制的に電池の最適化を有効化</string>
+    <string name="doze_sub_describtion">画面オフ時にすぐに「電池の最適化」モードに入るようにします。</string>
+    <string name="doze_system_desc">「電池の最適化(Android 6.0以降)」は、デバイスがスリープ状態の時にバックグラウンドのCPUやネットワークの動作を遅延させることでバッテリー消費を減らします。</string>
+    <string name="doze_whitelist">「電池の最適化」のホワイトリスト</string>
+    <string name="eula" tools:ignore="MissingTranslation">利用規約</string>
+    <string name="extraopt_btn">追加の最適化</string>
+    <string name="extraopt_desc">パフォーマンス向上のためにARTキャッシュを再コンパイル(さらにRAMを消費)し、メモリパフォーマンスを向上させるためにファイルシステムをトリミングします。</string>
+    <string name="extraopt_do_btn">開始</string>
+    <string name="extraopt_reset_btn">最適化をリセット</string>
+    <string name="extraopt_warning">これはシステムレベルの最適化です。一部のカスタムROMでは破損する可能性があります(リカバリーでARTキャッシュをクリアする必要があります)。使用前にデータをバックアップしてください。</string>
+    <string name="acc_warning">Advanced Charging Controller(ACC)モジュールが検出されました。FDE.AIのバッテリー機能と競合する可能性があります。</string>
+    <string name="fde_is_active">AIは有効です</string>
+    <string name="fde_is_inactive">AIは無効です</string>
+    <string name="fde_on_reset_toast">FDE.AIのデータはすべてリセットされます。アプリを閉じます。</string>
+    <string name="finstall">FDE.AIをインストール中…</string>
+    <string name="monitoring_floating_window">モニタリング</string>
+    <string name="forum" tools:ignore="MissingTranslation,TypographyDashes">https://xdaforums.com/t/app-6-0-root-fde-ai-v23-08-3-powerful-aio-android-devices-optimizer-12-08-2023.4055657/</string>
+    <string name="fps_checkbox">ハードウェアモニタリングとFPS</string>
+    <string name="fps_meter_desc">リアルタイムでFPS、CPU、GPU、RAM、および電力使用量の統計を表示します。</string>
+    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">平均: %1$s FPS</string>
+    <string name="overlay_frame_time" tools:ignore="MissingTranslation">%1$s ms</string>
+    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
+    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
+    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
+    <string name="get_premium">FDE.AIプレミアムを購入</string>
+    <string name="go_back">戻る</string>
+    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="grantit">OS起動後にFDE.AIを起動させるには、OSの権限マネージャーで自動起動を許可する必要がある場合があります。</string>
+    <string name="greenbattery_desc">最大充電レベルを制限することでバッテリー寿命を延ばします。定義された閾値で充電を停止し、そこから6%低下すると再開します。</string>
+    <string name="greenbattery_title">バッテリーの健康状態</string>
+    <string name="hour">時間</string>
+    <string name="join_forum">XDA</string>
+    <string name="just_battery">バッテリー</string>
+    <string name="just_ram">RAM</string>
+    <string name="just_storage">ストレージ</string>
+    <string name="killbgapps_desc">スリープ時にバックグラウンドアプリを自動的に強制終了します。</string>
+    <string name="killbgapps_title">バックグラウンドアプリを強制終了</string>
+    <string name="light_theme">ライト</string>
+    <string name="link_open_error" tools:ignore="MissingTranslation">リンクを開くことができません</string>
+    <string name="links">リンク</string>
+    <string name="log_saved">ログは /sdcard/fde.md に保存されました。</string>
+    <string name="low_power_fps">低電力FPS</string>
+    <string name="low_power_fps_short_desc">目標のFPSを設定 - CPU/GPUの周波数を下げてFPSを維持し、電力を節約します。</string>
+    <string name="mem_available_x" tools:ignore="MissingTranslation">利用可能: %1$s</string>
+    <string name="mem_cached_x" tools:ignore="MissingTranslation">キャッシュ済み: %1$s</string>
+    <string name="mem_total_x" tools:ignore="MissingTranslation">合計: %1$s</string>
+    <string name="mem_used_x" tools:ignore="MissingTranslation">使用済み: %1$s</string>
+    <string name="mem_swap_x" tools:ignore="MissingTranslation">スワップ: %1$s</string>
+    <string name="menu_dashboard">ホーム</string>
+    <string name="min">分</string>
+    <string name="more_info">詳細情報</string>
+    <string name="noroot">ルート権限がありません！</string>
+    <string name="notification_ai_state">永続的な通知</string>
+    <string name="notification_ai_state_desc">現在のAIのモードを通知に表示</string>
+    <string name="notification_battery_state">バッテリーの通知</string>
+    <string name="notification_battery_state_desc">通知に簡潔なバッテリー情報を表示します</string>
+    <string name="offf">オフ</string>
+    <string name="older_changelogs" tools:ignore="MissingTranslation">過去の更新履歴</string>
+    <string name="onboarding_eula_message">続行するには利用規約に同意してください</string>
+    <string name="onboarding_eula_summary_1">FDE.AIはさまざまなシステムパラメータを変更してシステムを最適化します。</string>
+    <string name="onboarding_eula_summary_2">データのバックアップがあることを確認してください。</string>
+    <string name="onboarding_eula_summary_3">私たちはいかなる損害についても責任を負いません。</string>
+    <string name="onboarding_eula_summary_header">利用規約の概要</string>
+    <string name="onboarding_preset_adaptive_summary">微調整を適用し、AIが自動的に調整するように設定します。(推奨)</string>
+    <string name="onboarding_preset_adaptive_title">自動調整</string>
+    <string name="onboarding_preset_off_summary">微調整が適用されていません。ツールのみがすぐに利用可能になります</string>
+    <string name="onboarding_preset_off_title">なし</string>
+    <string name="onboarding_preset_performance_summary">パフォーマンスと応答性を向上させるために微調整とAIのチューニングを適用します</string>
+    <string name="onboarding_preset_performance_title">パフォーマンス</string>
+    <string name="onboarding_preset_powersave_summary">バッテリーの節約と熱を低減するために微調整とAIを適用します</string>
+    <string name="onboarding_preset_powersave_title">省電力</string>
+    <string name="onboarding_presets">プリセット</string>
+    <string name="onboarding_see_full_eula">利用規約の全文を表示</string>
+    <string name="onboarding_setup">設定</string>
+    <string name="onboarding_setup_message">適用する微調整を選択します。初期設定の完了後に設定を変更することもできます。</string>
+    <string name="onboarding_eula_summary_4">FDE.AIと一緒に他の最適化アプリやモジュールなどを使用しないでください。</string>
+    <string name="onboarding_migrate_data">以前のバージョンが検出されました</string>
+    <string name="open_os_dev_settings">Androidの開発者設定を開く</string>
+    <string name="optimize_now">今すぐ最適化</string>
+    <string name="other_settings">その他の設定</string>
+    <string name="overlay_desc_text">モニタリング用のリアルタイムの統計付きフローティング表示を有効化します。</string>
+    <string name="performance">パフォーマンス</string>
+    <string name="power_checkbox">消費電力</string>
+    <string name="powersave">省電力</string>
+    <string name="preload_title">自動プリロード</string>
+    <string name="premium">⭐️ FDE.AIプレミアム ⭐️</string>
+    <string name="premium_card_audio">音声アラート</string>
+    <string name="premium_card_overlays_desc">FPSメーターを含む様々なステータスのオーバーレイ表示をカスタマイズできます。</string>
+    <string name="premium_card_profiles">拡張アプリプロファイル</string>
+    <string name="premium_card_profiles_desc">多くのオプションを備えたカスタマイズ可能なアプリプロファイルです。</string>
+    <string name="premium_card_soundpack_desc">FDE.AIのアクションのサウンド通知を微調整できます。</string>
+    <string name="premium_text">FDE.AIの開発をサポートし、すべての独自機能のロックを解除しましょう！:</string>
+    <string name="premium_thanks">ご支援ありがとうございます！以下の機能をアンロックしました。</string>
+    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
+    <string name="rate_app">FDE.AIを評価</string>
+    <string name="releases">更新</string>
+    <string name="reset">リセット</string>
+    <string name="reset_all_fde">FDE.AIの設定をリセット</string>
+    <string name="reset_downscale_onboot">再起動後にリセット</string>
+    <string name="reset_art_dialog_text">ARTキャッシュをクリアして再起動しますか？</string>
+    <string name="start_art_dialog_text">ARTキャッシュの最適化には時間がかかり、デバイスが遅くなったり過熱したりする可能性があります。続行しますか？</string>
+    <string name="reset_fde_dialog_text">すべてのFDE.AIの設定をリセットしますか？</string>
+    <string name="resetscale_hw">ハードウェアのデフォルト</string>
+    <string name="restart_fde_action">FDE.AIを再起動</string>
+    <string name="restart_fde_in_progress">FDE.AIを再起動しています…</string>
+    <string name="rm_fde_lite">先にFDE.AIのライトバージョンをアンインストールしてください！</string>
+    <string name="run_now">実行</string>
+    <string name="save_log">ログを保存</string>
+    <string name="screen_on_delay">画面オンの遅延:</string>
+    <string name="search_no_reset">検索</string>
+    <string name="share">FDE.AIを共有</string>
+    <string name="share_txt">FDE.AIをお試しください - 素晴らしいAndroidの最適化ツールです！</string>
+    <string name="profiles_btn">アプリのプロファイル</string>
+    <string name="profiles_descr_txt">カスタムプロファイルは、アプリが実行されたときにFDE.AIの設定が適用され、閉じたときに元に戻します。</string>
+    <string name="sound_header">サウンド</string>
+    <string name="start_toast">FDE.AIを起動中…</string>
+    <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">FDE.AIが起動するまであと%1$d秒お待ちください…</string>
+    <string name="startup">起動</string>
+    <string name="stop_btn">停止</string>
+    <string name="telegram" tools:ignore="MissingTranslation">https://t.me/feralab_news_eng</string>
+    <string name="third_party">ライブラリと翻訳貢献者のリスト</string>
+    <string name="throttling_description">これを無効にするとパフォーマンスが向上しますが、過熱を引き起こす可能性があり、急速充電やカメラが動作しなくなる可能性があります。
+\nFDE.AI はデフォルトで充電中にスロットリングを再度有効にします。これを無効にするには、チェックを外してください。</string>
+    <string name="throttling_fuse_desc">温度がこの値を超えた場合、自動的にスロットリングを再度有効にして損傷を防ぎます。</string>
+    <string name="throttling_fuse_header">温度ヒューズ</string>
+    <string name="throttling_ignore_charging">充電を無視</string>
+    <string name="throttling_system_desc">スロットリングは、CPU/GPUの周波数を低下させることで過熱を防ぎます。</string>
+    <string name="tiktok" tools:ignore="MissingTranslation">https://www.tiktok.com/@feralab</string>
+    <string name="un_fde_magisk">FDE.AIのMagiskモジュールを最初にアンインストールしてください！</string>
+    <string name="unavailable">利用不可</string>
+    <string name="update">更新</string>
+    <string name="update_available">新しいバージョンが利用可能です！</string>
+    <string name="updating_toast">更新をダウンロード中…</string>
+    <string name="vibration">一度だけ振動させる</string>
+    <string name="warning_header">警告</string>
+    <string name="welcome">ようこそ！</string>
+    <string name="youtube" tools:ignore="MissingTranslation">https://www.youtube.com/@FeraLab</string>
+    <string name="bprop_default_txt">デフォルトのbuild.propを微調整します。FDE.AIに問題がある場合、まずはこれを無効にしてみてください。</string>
+    <string name="overlay_opacity_main">オーバーレイの不透明度</string>
+    <string name="overlay_scale_main">オーバーレイスケール</string>
+    <string name="tweaks_disabled">すべての微調整は無効になっています。</string>
+    <string name="exit_confirmation_title">終了しますか？</string>
+    <string name="exit_confirmation_text">変更を保存せずに終了しますか？</string>
+    <string name="sound_channel_name">AIのサウンド通知</string>
+    <string name="reset_app_list_confirmation_title">リストをリセット</string>
+    <string name="reset_app_list_confirmation_text">アプリ一覧をリセットしますか？</string>
+    <string name="downscale_notification" tools:ignore="PluralsCandidate">OKを押して新しい解像度を確認するか、 %1$d秒後にリセットされます。</string>
+    <string name="onboarding_migrate_data_description">データを移行しますか？</string>
+    <string name="kernel_block">現在のカーネル「%1$s」はプレミアムのインストールをブロックします。別のカーネルのインストールを検討してください。</string>
+    <string name="profile_ai_mode_desc">アプリ使用時のAIモードを選択します。</string>
+    <string name="preload_pro_required">この機能を使用するには「Preload」のProバージョンが必要です。</string>
+    <string name="premium_required">これらの機能を使用するにはFDE.AIプレミアムが必要です。</string>
+    <string name="overlay_power_x">電力: %1$s mAh</string>
+    <string name="overlay_battery_temp_x">バッテリー: %1$s°C</string>
+    <string name="emergency_cooldown">緊急冷却</string>
+    <string name="emergency_cooldown_btn">クールダウン</string>
+    <string name="emergency_cooldown_desc">有効化すると、以下のようにモードが切り替わります: \n\n
+
+①スロットリング(処理能力制限)を再び有効化\n
+②機内モードと省電力モードを有効化\n
+③バックグラウンドアプリを強制終了\n
+④充電を停止\n
+⑤AIを省電力モードに設定\n\n
+
+これらの設定は100秒後、元の状態に戻ります。</string>
+    <string name="hwinfo">デバイス</string>
+    <string name="ai_lifetime">AI ライフタイム</string>
+    <string name="kernel_tuning_state">カーネル チューニング</string>
+    <string name="cpu_turbo_support">CPU ターボ サポート</string>
+    <string name="cpu_turbo_active">CPU ターボ アクティブ</string>
+    <string name="cpu_turbo_trigger_count">CPU ターボ トリガー カウント</string>
+    <string name="gpu_turbo_support">GPU ターボ サポート</string>
+    <string name="gpu_turbo_active">GPU ターボ アクティブ</string>
+    <string name="gpu_turbo_trigger_count">GPU ターボ トリガー カウント</string>
+    <string name="force_doze_enabled">Force Doze 有効</string>
+    <string name="force_doze_trigger_count">Force Doze トリガー カウント</string>
+    <string name="force_doze_autopowersave_mode">Force Doze自動省電力</string>
+    <string name="throttling_deactivated">スロットリング無効</string>
+    <string name="throttling_ignore_on_charge">スロットリングは充電を無視</string>
+    <string name="kill_bg_apps">バックグラウンド アプリを終了</string>
+    <string name="auto_tune_freqs">周波数の自動調整</string>
+    <string name="auto_art_opt">自動 ART 最適化</string>
+    <string name="dynamic_read_ahead">動的先読み</string>
+    <string name="charging_bypass_enabled">充電バイパス有効</string>
+    <string name="charging_bypass_active">充電バイパス有効</string>
+    <string name="charging_limit_enabled">充電制限有効</string>
+    <string name="charging_limit_active">充電制限有効</string>
+    <string name="charging_cycles">充電サイクル:</string>
+    <string name="cpu_bandwidth_tune">CPU 帯域幅の調整</string>
+    <string name="fs_cache_tune">FS キャッシュの調整</string>
+    <string name="vm_cache_tune">VM キャッシュの調整</string>
+    <string name="cpu_input_boost_tune">CPU 入力ブースト</string>
+    <string name="kernel_entropy_tune">カーネル エントロピーの調整</string>
+    <string name="kernel_sched_boost">カーネル スケジューラのブースト</string>
+    <string name="multi_core_power_saving_control">マルチコア CPU の省電力</string>
+    <string name="extraopt_schedule_title">毎日実行するようにスケジュール</string>
+    <string name="extraopt_schedule_time">毎日の自動最適化時間を設定する</string>
+    <string name="sound_notifications">サウンド通知</string>
+</resources>

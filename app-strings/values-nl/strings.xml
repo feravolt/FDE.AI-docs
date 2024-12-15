@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="about_app">Informatie</string>
+    <string name="about_end_txt" tools:ignore="MissingTranslation">Gemaakt met ❤️ door FeraVolt.</string>
+    <string name="accept">Accepteren</string>
+    <string name="adaptive">Automatisch</string>
+    <string name="ai_tune_freqs">Auto-aanpassen van CPU/GPU frequenties</string>
+    <string name="ai_auto_mode">Saldo en energiebesparing op basis van apparaatgebruik. Freqs auto-tune geeft meer energiebesparing.</string>
+    <string name="ai_cycle_period">AI cyclus periode</string>
+    <string name="ai_cycle_period_desc">Pas de looptijd van AI handmatig aan. Langere perioden gebruiken minder energie, maar ze reageren minder en omgekeerd.
+\nStandaard waarden worden automatisch ingesteld op basis van de batterij capaciteit. De werkelijke AI-cyclus wordt automatisch aangepast op basis van gebruik.</string>
+    <string name="ai_cycle_period_warning">Het wijzigen van deze waarden kan leiden tot een hoger energieverbruik of tot een lage kwaliteit van AI.</string>
+    <string name="ai_is_disabled">AI uitgeschakeld</string>
+    <string name="ai_log">AI Logboek</string>
+    <string name="ai_mode">AI modus</string>
+    <string name="ai_mode_auto">Automatisch</string>
+    <string name="ai_modes_desc">AI draait op de achtergrond, leert gebruik en past systeemoptimalisaties toe.</string>
+    <string name="ai_off_detail">Als AI is uitgeschakeld, werkt FDE als eenmalige optimalisator en wordt niet in realtime geoptimaliseerd.</string>
+    <string name="ai_perf_mode">Optimaliseer voor prestaties. Triggers CPU/GPU turbos regelmatig.</string>
+    <string name="ai_psave_mode">Optimaliseren voor power-saving. CPU/GPU turbos worden niet geactiveerd.</string>
+    <string name="ai_settings_extra">Extra AI instellingen</string>
+    <string name="ai_state_busy">Verwerken</string>
+    <string name="ai_state_disabled">Gedeactiveerd</string>
+    <string name="ai_state_ready">Werken</string>
+    <string name="ai_state_sleeping">Slapen…</string>
+    <string name="aiinfo">AI info</string>
+    <string name="core_tweaks_enable">Kern tweaks inschakelen</string>
+    <string name="core_tweaks_enable_desc">Inschakelen van hoofd FDE tweaks. Aanbevolen om door te gaan.</string>
+    <string name="app_icon">App pictogram</string>
+    <string name="app_theme">Thema</string>
+    <string name="app_update_notification_title">FDE.AI update</string>
+    <string name="apply">Toepassen</string>
+    <string name="arrow_down">Pijl omlaag</string>
+    <string name="arrow_left">Pijl links</string>
+    <string name="arrow_right">Pijl rechts</string>
+    <string name="arrow_up">Pijl omhoog</string>
+    <string name="attempt_root">Wachten op root-toegang…</string>
+    <string name="auto_psave">Energiebesparende modus</string>
+    <string name="auto_psave_desc">Schakel power-save modus automatisch in als het scherm uit is.</string>
+    <string name="autostart">Autostart</string>
+    <string name="autostart_delay_hint">Vertraging ingesteld op %1$ds</string>
+    <string name="autostart_overlay">Start stats overlay</string>
+    <string name="batt_capacity">Capaciteit</string>
+    <string name="batt_resistance">Weerstand</string>
+    <string name="battery_health_sub">Stel het niveau in om het opladen te stoppen:</string>
+    <string name="battery_health_toggle">Maximum laadniveau beperken</string>
+    <string name="battery_level_x" tools:ignore="MissingTranslation">Niveau: %1$s</string>
+    <string name="battery_status">Status accu</string>
+    <string name="battery_temperature_x" tools:ignore="MissingTranslation">Temperatuur: %1$s</string>
+    <string name="battery_voltage_x" tools:ignore="MissingTranslation">Spanning: %1$s</string>
+    <string name="battery_wear_x" tools:ignore="MissingTranslation">Woord: %1$s</string>
+    <string name="bp_default_only">Standaard FDE tweaks</string>
+    <string name="bp_niko_gpu">Niko\'s GPU tweaks</string>
+    <string name="bp_niko_net">Netwerktweaks van Niko\'s</string>
+    <string name="bprop_nikogpu_txt">Niko Schwickert\'s GPU-aanpassingen. Kan de prestaties op oudere apparaten verbeteren.</string>
+    <string name="bprop_nikonet_txt">De netwerkaanpassingen van Niko Schwickert. Kan de mobiele gegevenssnelheid verhogen.</string>
+    <string name="build_prop_tweaks">Build.prop tweaks</string>
+    <string name="burnit">Kantelen uitschakelen</string>
+    <string name="bypassch_desc">Limit laadstroom tijdens zware processen wordt uitgevoerd om het apparaatgebruik gelijk te stellen, het opladen van de batterij en de verwarming te verminderen.</string>
+    <string name="bypassch_title">Opladen bypass</string>
+    <string name="cancel">annuleren</string>
+    <string name="changelog">Wijzigingslogboek</string>
+    <string name="charge_time">Tijd tot volledige lading</string>
+    <string name="charging">opladen</string>
+    <string name="check_for_updates_about">Controleren op updates bij opstarten</string>
+    <string name="clean_cache">Cache legen</string>
+    <string name="clean_ram">Clean RAM</string>
+    <string name="cleaning_desc">RAM-geheugen opschonen door achtergrond apps en gratis opslag te sluiten door cachebestanden te verwijderen.</string>
+    <string name="cleaning_title">Reiniging</string>
+    <string name="close">Afsluiten</string>
+    <string name="completed">voltooid</string>
+    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>
+    <string name="cpu_top_descr">Overlay met top 5 CPU-intensieve processen</string>
+    <string name="cpu_top_header">Verwerk statistieken</string>
+    <string name="current_resolution">Huidige resolutie:</string>
+    <string name="dark_theme">Donker</string>
+    <string name="debug_mode">Foutopsporing</string>
+    <string name="description">Beschrijving</string>
+    <string name="enable_ai">AI inschakelen</string>
+    <string name="disable_logs">Logboeken uitschakelen</string>
+    <string name="disable_logs_desc">Selecteer om alle logboeken en statistieken uit te schakelen (behalve \"logcat\") en de logcat-buffergrootte te verkleinen tot 128 KB.</string>
+    <string name="downscale_btn">Adaptieve downscale</string>
+    <string name="downscale_desc">Lagere schermomolutie om de GPU prestaties te verhogen en batterij te besparen, met een geringe beeldkwaliteit. Niet aanbevolen om onder de helft van de schermbreedte op aangepaste ROM\'s (MIUI, EMUI, etc.) te gaan om crashes van de UI te voorkomen.</string>
+    <string name="warning_no">Neen</string>
+    <string name="warning_title">Waarschuwing!</string>
+    <string name="warning_yes">ja</string>
+    <string name="doze_description">FDE.AI kan Doze-modus eerder activeren. Als zich problemen voordoen, witte lijst apps met de knop hieronder.</string>
+    <string name="doze_mode">Doze modus forceren</string>
+    <string name="doze_sub_describtion">Inschakelen om Doze modus in te schakelen zodra het scherm uit is.</string>
+    <string name="doze_system_desc">Doze modus (Android 6.0+) vermindert het batterijgebruik door de achtergrond CPU en netwerkactiviteit uit te stellen wanneer het apparaat niet actief is.</string>
+    <string name="doze_whitelist">Doze whitelist</string>
+    <string name="eula" tools:ignore="MissingTranslation">EULA</string>
+    <string name="extraopt_btn">Extra optimalisatie</string>
+    <string name="extraopt_desc">Optimaliseer systeem door ART cache opnieuw te compileren voor prestaties (gebruikt meer interne geheugen) en pak het bestandssysteem bij om de geheugenprestaties te verbeteren.</string>
+    <string name="extraopt_do_btn">Beginnen</string>
+    <string name="extraopt_reset_btn">Reset optimalisatie</string>
+    <string name="extraopt_warning">Dit is geen systeemloze optimalisatie. Kan het systeem op sommige aangepaste ROM\'s breken (vereist het wissen van ART cache in herstel). Back-up uw gegevens voor gebruik.</string>
+    <string name="acc_warning">Advanced Charging Controller (ACC) module is gedetecteerd. Deze kan conflicteren met FDE.AI batterijfuncties.</string>
+    <string name="fde_is_active">AI actief</string>
+    <string name="fde_is_inactive">AI inactive</string>
+    <string name="fde_on_reset_toast">Alle gegevens van FDE.AI worden gereset. App zal sluiten.</string>
+    <string name="finstall">Installing FDE.AI…</string>
+    <string name="monitoring_floating_window">Controle</string>
+    <string name="fps_checkbox">Hardware monitoring &amp; FPS</string>
+    <string name="fps_meter_desc">Realtime FPS, CPU, GPU, RAM, en statistieken van stroomverbruik.</string>
+    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Gem. %1$s FPS</string>
+    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
+    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
+    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
+    <string name="get_premium">Get FDE.AI Premium</string>
+    <string name="go_back">Ga terug</string>
+    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="grantit">Mogelijk moet u handmatig toestemming geven voor automatisch starten in uw OS\'s machtigingsmanager om FDE.AI toe te staan om te starten nadat OS is opgestart.</string>
+    <string name="greenbattery_desc">Verleng de levensduur van de accu door het maximale laadniveau te beperken. Stoplaad op de vastgestelde drempelwaarde en start opnieuw met 6 procent eronder.</string>
+    <string name="greenbattery_title">Batterij gezondheid</string>
+    <string name="hour">uur</string>
+    <string name="join_forum">XDA</string>
+    <string name="just_battery">Accu</string>
+    <string name="just_ram">RAM</string>
+    <string name="just_storage">Opslagruimte</string>
+    <string name="killbgapps_desc">Achtergrond-apps automatisch sluiten als het scherm is uitgeschakeld.</string>
+    <string name="killbgapps_title">Achtergrond-apps afsluiten</string>
+    <string name="light_theme">Licht</string>
+    <string name="link_open_error" tools:ignore="MissingTranslation">Kan link niet openen</string>
+    <string name="links">Koppelingen</string>
+    <string name="log_saved">Log opgeslagen in /sdcard/fde.md</string>
+    <string name="low_power_fps">Laag vermogen FPS</string>
+    <string name="low_power_fps_short_desc">Stel doel-FPS in - CPU/GPU-frequenties zullen worden verminderd om FPS te onderhouden en energie te besparen.</string>
+    <string name="mem_available_x" tools:ignore="MissingTranslation">Beschikbaar: %1$s</string>
+    <string name="mem_cached_x" tools:ignore="MissingTranslation">Cache: %1$s</string>
+    <string name="mem_total_x" tools:ignore="MissingTranslation">Totaal: %1$s</string>
+    <string name="mem_used_x" tools:ignore="MissingTranslation">Gebruikt: %1$s</string>
+    <string name="menu_dashboard">Startpagina</string>
+    <string name="min">min</string>
+    <string name="more_info">Meer informatie</string>
+    <string name="noroot">GEEN ROOT ACCES!</string>
+    <string name="notification_ai_state">Aanhoudende melding</string>
+    <string name="notification_ai_state_desc">Toont huidige AI modus in de notificatie</string>
+    <string name="notification_battery_state">Batterij melding</string>
+    <string name="notification_battery_state_desc">Toont korte batterij info in de melding</string>
+    <string name="offf">UIT</string>
+    <string name="older_changelogs" tools:ignore="MissingTranslation">Oudere changelogs</string>
+    <string name="onboarding_eula_message">Accepteer alstublieft onze toestemming om door te gaan</string>
+    <string name="onboarding_eula_summary_1">FDE.AI optimaliseert uw systeem door verschillende systeemparameters aan te passen</string>
+    <string name="onboarding_eula_summary_2">Zorg ervoor dat u een data back-up heeft</string>
+    <string name="onboarding_eula_summary_3">Wij zijn niet verantwoordelijk voor enige schade.</string>
+    <string name="onboarding_eula_summary_header">Samenvatting overeenkomst</string>
+    <string name="onboarding_preset_adaptive_summary">Pas tweaks en tune AI toe om automatisch aan te passen. Aanbevolen modus.</string>
+    <string name="onboarding_preset_adaptive_title">Adaptief</string>
+    <string name="onboarding_preset_off_summary">Geen aanpassingen toegepast. Alleen gereedschap zal onmiddellijk beschikbaar zijn</string>
+    <string name="onboarding_preset_off_title">geen</string>
+    <string name="onboarding_preset_performance_summary">Pas aanpassingen en afstemming van AI toe voor verhoogde prestaties en reactievermogen</string>
+    <string name="onboarding_preset_performance_title">Prestaties</string>
+    <string name="onboarding_preset_powersave_summary">Pas tweaks en tune AI toe voor batterijbesparing en verminderde warmte</string>
+    <string name="onboarding_preset_powersave_title">Energiebesparing</string>
+    <string name="onboarding_presets">Voorkeursinstellingen</string>
+    <string name="onboarding_see_full_eula">Volledige gebruikersovereenkomst bekijken</string>
+    <string name="onboarding_setup">Instellen</string>
+    <string name="onboarding_setup_message">Selecteer welke aanpassingen van toepassing zijn. U kunt de instellingen wijzigen na installatie.</string>
+    <string name="onboarding_eula_summary_4">Gebruik geen andere tweaks met FDE.AI.</string>
+    <string name="onboarding_migrate_data">Vorige versie gedetecteerd</string>
+    <string name="open_os_dev_settings">Open instellingen voor Android-ontwikkelaars</string>
+    <string name="optimize_now">Nu optimaliseren</string>
+    <string name="other_settings">Andere instellingen</string>
+    <string name="overlay_desc_text">Zwevende vensters activeren met real-time statistieken voor toezicht.</string>
+    <string name="performance">Prestaties</string>
+    <string name="power_checkbox">Stroomverbruik</string>
+    <string name="powersave">Energiebesparing</string>
+    <string name="preload_title">Automatisch voorladen</string>
+    <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
+    <string name="premium_card_audio">Geluid waarschuwingen</string>
+    <string name="premium_card_overlays_desc">Aanpasbare overlay-vensters met verschillende statistieken, waaronder FPS-meter.</string>
+    <string name="premium_card_profiles">Uitgebreide app-profielen</string>
+    <string name="premium_card_profiles_desc">Aanpasbare app-profielen met vele opties.</string>
+    <string name="premium_card_soundpack_desc">Aanpasbare geluidsmeldingen voor FDE.AI-acties.</string>
+    <string name="premium_text">Steun FDE.AI en ontgrendel alle exclusieve functies:</string>
+    <string name="premium_thanks">Bedankt voor je steun! Je hebt deze functies ontgrendeld:</string>
+    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
+    <string name="rate_app">Beoordeel FDE.AI</string>
+    <string name="releases">Bijwerken</string>
+    <string name="reset">Reset</string>
+    <string name="reset_all_fde">Reset FDE.AI instellingen</string>
+    <string name="reset_downscale_onboot">Reset na herstart</string>
+    <string name="reset_art_dialog_text">ART cache wissen en herstarten?</string>
+    <string name="start_art_dialog_text">ART cache optimaliseren kan tijd kosten, vertraging en oververhitting veroorzaken. Doorgaan?</string>
+    <string name="reset_fde_dialog_text">Alle instellingen van FDE.AI resetten?</string>
+    <string name="resetscale_hw">Hardware standaard</string>
+    <string name="restart_fde_action">FDE.AI herstarten</string>
+    <string name="restart_fde_in_progress">Restarting FDE.AI</string>
+    <string name="rm_fde_lite">Verwijder eerst FDE.AI Lite versie!</string>
+    <string name="run_now">Uitvoeren</string>
+    <string name="save_log">Logboek opslaan</string>
+    <string name="screen_on_delay">Scherm aan vertraging:</string>
+    <string name="search_no_reset">Zoeken</string>
+    <string name="share">Deel FDE.AI</string>
+    <string name="share_txt">Probeer FDE.AI - een geweldige Android optimalisator!</string>
+    <string name="profiles_btn">App profielen</string>
+    <string name="profiles_descr_txt">Aangepaste profielen passen instellingen van FDE.AI toe wanneer een app wordt uitgevoerd en terugkeren wanneer deze wordt gesloten.</string>
+    <string name="sound_header">Geluid</string>
+    <string name="start_toast">FDE.AI… opstarten.</string>
+    <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">Wachten %1$d sec om FDE.AI… te starten</string>
+    <string name="startup">Startup</string>
+    <string name="stop_btn">Stoppen</string>
+    <string name="third_party">Bibliotheken van derden</string>
+    <string name="throttling_description">Het uitschakelen ervan houdt de prestaties open, maar kan oververhitting veroorzaken en het snel opladen of de camera kan mogelijk niet meer werken.
+\nFDE.AI schakelt afsnijden opnieuw in tijdens het opladen standaard. Uncheck om dit uit te schakelen.</string>
+    <string name="throttling_fuse_desc">Schakel afsnijden bij deze temperatuur automatisch opnieuw in om schade te voorkomen.</string>
+    <string name="throttling_fuse_header">Temperatuur zekering</string>
+    <string name="throttling_ignore_charging">Opladen negeren</string>
+    <string name="throttling_system_desc">Door oververhitting te voorkomen door CPU/GPU-frequenties te verminderen.</string>
+    <string name="un_fde_magisk">FDE.AI Magisk module eerst verwijderen!</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="update">Vernieuwen</string>
+    <string name="update_available">Update beschikbaar!</string>
+    <string name="updating_toast">Update downloaden…</string>
+    <string name="vibration">Eén keer trillen</string>
+    <string name="warning_header">Waarschuwing</string>
+    <string name="welcome">Verwelkoming</string>
+    <string name="bprop_default_txt">Standaard build.prop tweaks. Schakel deze eerst uit als je problemen hebt met FDE.AI.</string>
+    <string name="overlay_opacity_main">Overlay opacity</string>
+    <string name="tweaks_disabled">Alle tweaks zijn uitgeschakeld</string>
+    <string name="exit_confirmation_title">Sluiten?</string>
+    <string name="exit_confirmation_text">Afsluiten zonder wijzigingen op te slaan?</string>
+    <string name="sound_channel_name">AI Geluidsmeldingen</string>
+    <string name="reset_app_list_confirmation_title">Lijst resetten</string>
+    <string name="reset_app_list_confirmation_text">De app-lijst opnieuw instellen?</string>
+    <string name="downscale_notification" tools:ignore="PluralsCandidate">Druk op OK om de nieuwe resolutie te bevestigen, anders wordt deze gereset in %1$d sec.</string>
+    <string name="onboarding_migrate_data_description">Migreer je gegevens?</string>
+    <string name="kernel_block">Huidige kernel %1$s blokkeert Premium installatie. Overweeg alstublieft een andere kernel te installeren.</string>
+    <string name="profile_ai_mode_desc">Selecteer AI-modus terwijl de app in gebruik is.</string>
+    <string name="preload_pro_required">Preload Pro app is vereist voor deze functie.</string>
+    <string name="premium_required">FDE.AI Premium is vereist voor deze functies.</string>
+    <string name="overlay_power_x">Kracht: %1$s mAh</string>
+    <string name="overlay_battery_temp_x">Batterij: %1$s°C</string>
+    <string name="overlay_scale_main">Overlayschaal</string>
+    <string name="emergency_cooldown">Noodgevallen afkoeltijd</string>
+    <string name="emergency_cooldown_btn">Afkoeltijd</string>
+    <string name="emergency_cooldown_desc">Wanneer geactiveerd, zal het de beperking opnieuw inschakelen, vliegtuigmodus inschakelen, energiebesparende modus, achtergrond apps sluiten, opladen uitschakelen en AI voor 100 seconden energiebesparende modus instellen en terugdraaien.</string>
+    <string name="hwinfo">Apparaat</string>
+    <string name="ai_lifetime">AI-levensduur</string>
+    <string name="kernel_tuning_state">Kernel-afstemming</string>
+    <string name="cpu_turbo_support">CPU Turbo-ondersteuning</string>
+    <string name="cpu_turbo_active">CPU Turbo actief</string>
+    <string name="cpu_turbo_trigger_count">CPU Turbo-triggeraantal</string>
+    <string name="gpu_turbo_support">GPU Turbo-ondersteuning</string>
+    <string name="gpu_turbo_active">GPU Turbo actief</string>
+    <string name="gpu_turbo_trigger_count">GPU Turbo-triggeraantal</string>
+    <string name="force_doze_enabled">Force Doze ingeschakeld</string>
+    <string name="force_doze_trigger_count">Force Doze-triggeraantal</string>
+    <string name="force_doze_autopowersave_mode">Force Doze auto-powersave</string>
+    <string name="throttling_deactivated">Throttling gedeactiveerd</string>
+    <string name="throttling_ignore_on_charge">Throttling negeren opladen</string>
+    <string name="kill_bg_apps">Achtergrond-apps uitschakelen</string>
+    <string name="auto_tune_freqs">Frequenties automatisch afstemmen</string>
+    <string name="auto_art_opt">Automatische ART-optimalisatie</string>
+    <string name="dynamic_read_ahead">Dynamisch vooruitlezen</string>
+    <string name="charging_bypass_enabled">Oplaadbypass ingeschakeld</string>
+    <string name="charging_bypass_active">Oplaadbypass actief</string>
+    <string name="charging_limit_enabled">Oplaadlimiet ingeschakeld</string>
+    <string name="charging_limit_active">Opladen limiet actief</string>
+    <string name="charging_cycles">Laadcycli:</string>
+    <string name="cpu_bandwidth_tune">CPU-bandbreedte-afstemming</string>
+    <string name="fs_cache_tune">FS-cache-afstemming</string>
+    <string name="vm_cache_tune">VM-cache-afstemming</string>
+    <string name="cpu_input_boost_tune">CPU-invoer-boost</string>
+    <string name="kernel_entropy_tune">Kernel-entropie-afstemming</string>
+    <string name="kernel_sched_boost">Kernel-scheduler-boost</string>
+    <string name="multi_core_power_saving_control">Multi-core CPU-stroombesparing</string>
+    <string name="extraopt_schedule_title">Plannen om dagelijks uit te voeren</string>
+    <string name="extraopt_schedule_time">Stel dagelijkse tijd voor automatische optimalisatie in</string>
+    <string name="sound_notifications">Geluidsmeldingen</string>
+</resources>

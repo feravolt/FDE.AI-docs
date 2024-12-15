@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="about_app">關於</string>
+    <string name="about_end_txt" tools:ignore="MissingTranslation">由 FeraVolt ❤ 製作。</string>
+    <string name="accept">接受</string>
+    <string name="adaptive">自動</string>
+    <string name="ai_tune_freqs">自動調整 CPU/GPU 頻率</string>
+    <string name="ai_auto_mode">根據設備使用情況調整，平衡、性能、省電。 頻率自動調整可以更加省電。</string>
+    <string name="ai_cycle_period">AI循環週期</string>
+    <string name="ai_cycle_period_desc">手動調整人工智慧循環週期。 時間週期越長，消耗的電量就越少，但反應能力就越差，反之亦然。
+\n預設值根據電池容量自動設定。 實際的人工智慧週期會根據使用情況自動調整。</string>
+    <string name="ai_cycle_period_warning">更改這些設定值，可能會導致功耗增加或人工智慧的工作品質低落。</string>
+    <string name="ai_is_disabled">禁用人工智慧</string>
+    <string name="ai_log">人工智慧的日誌</string>
+    <string name="ai_mode">人工智慧模式</string>
+    <string name="ai_mode_auto">自動</string>
+    <string name="ai_modes_desc">人工智慧在後台運行，學習使用者的用法，並且對系統優化。</string>
+    <string name="ai_off_detail">當人工智慧停用時，FDE 只會優化一次，並不會即時優化。</string>
+    <string name="ai_perf_mode">優化成性能模式， 經常觸發 CPU/GPU Turbo。</string>
+    <string name="ai_psave_mode">優化成省電模式， 不會觸發 CPU/GPU Turbo</string>
+    <string name="ai_settings_extra">額外的人工智慧設定</string>
+    <string name="ai_state_busy">處理中</string>
+    <string name="ai_state_disabled">已停用</string>
+    <string name="ai_state_ready">運行中</string>
+    <string name="ai_state_sleeping">休眠中</string>
+    <string name="aiinfo">人工智慧資訊</string>
+    <string name="core_tweaks_enable">啟用核心調整</string>
+    <string name="core_tweaks_enable_desc">啟用 FDE 調整。 建議使用。</string>
+    <string name="app_icon">應用程式圖示</string>
+    <string name="app_theme">主題</string>
+    <string name="app_update_notification_title">FDE.AI 更新</string>
+    <string name="apply">采用</string>
+    <string name="arrow_down">箭頭向下</string>
+    <string name="arrow_left">箭頭向左</string>
+    <string name="arrow_right">箭頭向右</string>
+    <string name="arrow_up">箭頭向上</string>
+    <string name="attempt_root">等待同意 root…</string>
+    <string name="auto_psave">省電模式</string>
+    <string name="auto_psave_desc">螢幕關閉時自動啟用省電模式。</string>
+    <string name="autostart">自動啟動</string>
+    <string name="autostart_delay_hint">延遲設定為%1$ds</string>
+    <string name="autostart_overlay">開始統計數據疊加</string>
+    <string name="batt_capacity">容量</string>
+    <string name="batt_resistance">電阻</string>
+    <string name="battery_health_sub">設定停止充電的電量：</string>
+    <string name="battery_health_toggle">限制最高電量</string>
+    <string name="battery_level_x" tools:ignore="MissingTranslation">電量: %1$s</string>
+    <string name="battery_status">電池狀態</string>
+    <string name="battery_temperature_x" tools:ignore="MissingTranslation">溫度: %1$s</string>
+    <string name="battery_voltage_x" tools:ignore="MissingTranslation">電壓：%1$s</string>
+    <string name="battery_wear_x" tools:ignore="MissingTranslation">磨損：%1$s</string>
+    <string name="bp_default_only">預設為 FDE 調整</string>
+    <string name="bp_niko_gpu">Niko 的 GPU 調整</string>
+    <string name="bp_niko_net">Niko 的網路調整</string>
+    <string name="bprop_nikogpu_txt">Niko Schwickert 的 GPU 調整。 可能會提高改善舊設備上的效能。</string>
+    <string name="bprop_nikonet_txt">Niko Schwickert 的網路調整。 可能會提高行動網路的速度。</string>
+    <string name="build_prop_tweaks">Build.prop 調整</string>
+    <string name="burnit">停用溫控</string>
+    <string name="bypassch_desc">在繁重的程式運行期間，限制充電器電流以匹配設備使用情況，從而減少電池充電和發熱。</string>
+    <string name="bypassch_title">充電旁路</string>
+    <string name="cancel">取消</string>
+    <string name="changelog">變更紀錄</string>
+    <string name="charge_time">充飽電的時間</string>
+    <string name="charging">充電中</string>
+    <string name="check_for_updates_about">啟動時檢查更新</string>
+    <string name="clean_cache">清理快取</string>
+    <string name="clean_ram">釋放記憶體</string>
+    <string name="cleaning_desc">透過關閉後台應用程式來釋放記憶體，並透過刪除快取檔案來釋放儲存空間。</string>
+    <string name="cleaning_title">清理中</string>
+    <string name="close">關閉</string>
+    <string name="completed">完成</string>
+    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>
+    <string name="cpu_top_descr">覆蓋前 5 個 CPU 密集型進程</string>
+    <string name="cpu_top_header">進程統計</string>
+    <string name="current_resolution">目前解析度：</string>
+    <string name="dark_theme">深色</string>
+    <string name="debug_mode">偵錯</string>
+    <string name="description">描述</string>
+    <string name="enable_ai">啟用人工智慧</string>
+    <string name="disable_logs">停用日誌</string>
+    <string name="disable_logs_desc">選擇停用所有日誌和統計資料（「logcat」除外）並將 logcat 緩衝區大小減少到 128 KB。</string>
+    <string name="downscale_btn">自適應縮減</string>
+    <string name="downscale_desc">降低螢幕解析度以提高 GPU 效能並節省電池，但影像品質略有下降。 不建議在自訂 ROM（MIUI、EMUI 等）上，將螢幕寬度設定低於一半，以避免 UI 崩潰。</string>
+    <string name="warning_no">不行</string>
+    <string name="warning_title">警告</string>
+    <string name="warning_yes">可以</string>
+    <string name="doze_description">FDE.AI可以更早觸發Doze模式。 如果出現問題，請使用下面的按鈕將應用程式列入白名單。</string>
+    <string name="doze_mode">強制Doze模式</string>
+    <string name="doze_sub_describtion">啟用螢幕關閉後，立即進入打Doze模式。</string>
+    <string name="doze_system_desc">Doze模式 (Android 6.0+) 透過在裝置空閒時，減少後台 CPU 和網路活動來減少電池使用。</string>
+    <string name="doze_whitelist">Doze白名單</string>
+    <string name="eula" tools:ignore="MissingTranslation">最終用戶許可協議</string>
+    <string name="extraopt_btn">額外的優化</string>
+    <string name="extraopt_desc">透過重新編譯 ART 快取以提高效能（使用更多手機內部儲存空間）來最佳化系統，並修整檔案系統以提高記憶體效能。</string>
+    <string name="extraopt_do_btn">開始</string>
+    <string name="extraopt_reset_btn">還原優化</string>
+    <string name="extraopt_warning">這不是systemless的優化。 可能會破壞某些自訂 ROM 上的系統（需要在recovery裡清除 ART 快取才會恢復）。 使用前備份您的資料。</string>
+    <string name="acc_warning">偵測到高階充電控制器 (ACC) 模組。可能與FDE.AI電池功能衝突。</string>
+    <string name="fde_is_active">人工智慧活躍中</string>
+    <string name="fde_is_inactive">人工智慧不活躍</string>
+    <string name="fde_on_reset_toast">所有 FDE.AI 數據將被重置。 應用程式將關閉。</string>
+    <string name="finstall">正在安裝 FDE.AI…</string>
+    <string name="monitoring_floating_window">監控</string>
+    <string name="fps_checkbox">硬體監控&amp; FPS</string>
+    <string name="fps_meter_desc">即時 FPS、CPU、GPU、RAM 和電量使用的統計資料。</string>
+    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">平均：%1$s FPS</string>
+    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s 赫茲</string>
+    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
+    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
+    <string name="get_premium">獲得 FDE.AI Premium</string>
+    <string name="go_back">返回</string>
+    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="grantit">您可能需要在作業系統的權限管理器中，手動授予自動啟動權限，以允許 FDE.AI 在作業系統啟動後啟動。</string>
+    <string name="greenbattery_desc">透過限制最高充電的電量來延長電池壽命。 在定義的閾值處停止充電，並在低於 6% 時重新啟動。</string>
+    <string name="greenbattery_title">電池健康狀況</string>
+    <string name="hour">小時</string>
+    <string name="join_forum">XDA</string>
+    <string name="just_battery">電池</string>
+    <string name="just_ram">RAM</string>
+    <string name="just_storage">存儲空間</string>
+    <string name="killbgapps_desc">螢幕關閉時自動關閉背景應用程式。</string>
+    <string name="killbgapps_title">殺死後台應用程式</string>
+    <string name="light_theme">淺色</string>
+    <string name="link_open_error" tools:ignore="MissingTranslation">無法開啟鏈接</string>
+    <string name="links">鏈接</string>
+    <string name="log_saved">日誌保存到/sdcard/fde.md</string>
+    <string name="low_power_fps">低功耗 FPS</string>
+    <string name="low_power_fps_short_desc">設定程式的 FPS - CPU/GPU 頻率降低，以維持 FPS 並節省電力。</string>
+    <string name="mem_available_x" tools:ignore="MissingTranslation">可用：%1$s</string>
+    <string name="mem_cached_x" tools:ignore="MissingTranslation">快取：%1$s</string>
+    <string name="mem_total_x" tools:ignore="MissingTranslation">總共：%1$s</string>
+    <string name="mem_used_x" tools:ignore="MissingTranslation">使用：%1$s</string>
+    <string name="menu_dashboard">首頁</string>
+    <string name="min">min.</string>
+    <string name="more_info">更多資訊</string>
+    <string name="noroot">沒有root權限！</string>
+    <string name="notification_ai_state">持續通知</string>
+    <string name="notification_ai_state_desc">在通知欄中顯示目前的AI模式</string>
+    <string name="notification_battery_state">電池通知</string>
+    <string name="notification_battery_state_desc">在通知欄中顯示簡化的電池訊息</string>
+    <string name="offf">關閉</string>
+    <string name="older_changelogs" tools:ignore="MissingTranslation">舊的更新日誌</string>
+    <string name="onboarding_eula_message">請同意我們的協議以繼續</string>
+    <string name="onboarding_eula_summary_1">FDE.AI透過修改各種系統參數來優化您的系統</string>
+    <string name="onboarding_eula_summary_2">確保您有備份資料</string>
+    <string name="onboarding_eula_summary_3">我們對任何損壞概不負責。</string>
+    <string name="onboarding_eula_summary_header">協議摘要</string>
+    <string name="onboarding_preset_adaptive_summary">套用調整並調動人工智慧讓其自動調整。 推薦此模式。</string>
+    <string name="onboarding_preset_adaptive_title">自適應</string>
+    <string name="onboarding_preset_off_summary">未使用任何調整。 只有工具可以立即使用</string>
+    <string name="onboarding_preset_off_title">沒有任何</string>
+    <string name="onboarding_preset_performance_summary">使用調整和調動人工智慧以提高性能和反應能力</string>
+    <string name="onboarding_preset_performance_title">效能</string>
+    <string name="onboarding_preset_powersave_summary">套用調整和調動人工智慧使其省電並減少熱量</string>
+    <string name="onboarding_preset_powersave_title">省電</string>
+    <string name="onboarding_presets">預設</string>
+    <string name="onboarding_see_full_eula">查看完整的最終用戶許可協議</string>
+    <string name="onboarding_setup">設定</string>
+    <string name="onboarding_setup_message">選擇要套用的調整。 您可以在設定後，再更改設定。</string>
+    <string name="onboarding_eula_summary_4">使用FDE.AI.時候，請勿使用其他優化調整</string>
+    <string name="onboarding_migrate_data">檢查到以前的版本</string>
+    <string name="open_os_dev_settings">開啟 Android 開發者設定</string>
+    <string name="optimize_now">立刻優化</string>
+    <string name="other_settings">其他設定</string>
+    <string name="overlay_desc_text">啟動即時統計資料的浮動視窗以進行監控。</string>
+    <string name="performance">效能</string>
+    <string name="power_checkbox">耗電量</string>
+    <string name="powersave">省電</string>
+    <string name="preload_title">自動預先載入</string>
+    <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
+    <string name="premium_card_audio">聲音提醒</string>
+    <string name="premium_card_overlays_desc">可自訂覆蓋小視窗，各種統計數據，包括 FPS 。</string>
+    <string name="premium_card_profiles">擴展應用程式設定檔</string>
+    <string name="premium_card_profiles_desc">有多種選項，可自訂應用程式設定檔。</string>
+    <string name="premium_card_soundpack_desc">可自訂使用FDE.AI 的聲音通知</string>
+    <string name="premium_text">贊助FDE.AI並解鎖所有獨家功能：</string>
+    <string name="premium_thanks">感謝您的贊助！ 您解鎖了以下功能：</string>
+    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
+    <string name="rate_app">評價 FDE.AI</string>
+    <string name="releases">更新</string>
+    <string name="reset">重設</string>
+    <string name="reset_all_fde">重置 FDE.AI 設定</string>
+    <string name="reset_downscale_onboot">重啟後還原</string>
+    <string name="reset_art_dialog_text">清除 ART 快取並重新啟動？</string>
+    <string name="start_art_dialog_text">優化 ART 快取，可能需要一些時間，且導致裝置延遲和過熱。 繼續？</string>
+    <string name="reset_fde_dialog_text">還原所有 FDE.AI 設定？</string>
+    <string name="resetscale_hw">硬體預設值</string>
+    <string name="restart_fde_action">重新啟動FDE.AI</string>
+    <string name="restart_fde_in_progress">FDE.AI重新啟動中</string>
+    <string name="rm_fde_lite">首先移除FDE.AI lite版本！</string>
+    <string name="run_now">運作</string>
+    <string name="save_log">儲存日誌</string>
+    <string name="screen_on_delay">螢幕開啟延遲：</string>
+    <string name="search_no_reset">搜尋</string>
+    <string name="share">分享FDE.AI</string>
+    <string name="share_txt">試試 FDE.AI - 一款令人驚嘆的 Android 優化器！</string>
+    <string name="profiles_btn">應用程式設定檔</string>
+    <string name="profiles_descr_txt">在應用程式運行時應用 FDE.AI 設置的自訂設定檔，並在應用程式關閉時恢復。</string>
+    <string name="sound_header">聲音</string>
+    <string name="start_toast">啟動 FDE.AI…</string>
+    <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">等待 %1$d 秒後啟動 FDE.AI…</string>
+    <string name="startup">啟動</string>
+    <string name="stop_btn">停止</string>
+    <string name="third_party">第三方函式庫</string>
+    <string name="throttling_description">停用它可以保持性能，但可能會導致過熱，並且快速充電或相機可能會停止工作。
+\nFDE.AI 預設在充電期間重新啟用溫控。 取消選取以停用此功能。</string>
+    <string name="throttling_fuse_desc">在此溫度下自動重新啟用溫控以防止損壞。</string>
+    <string name="throttling_fuse_header">溫度保險值</string>
+    <string name="throttling_ignore_charging">忽略充電</string>
+    <string name="throttling_system_desc">溫控透過降低 CPU/GPU 頻率來防止過熱。</string>
+    <string name="un_fde_magisk">先移除FDE.AI Magisk模組！</string>
+    <string name="unavailable">不可使用</string>
+    <string name="update">更新</string>
+    <string name="update_available">有可用的更新！</string>
+    <string name="updating_toast">正在下載更新…</string>
+    <string name="vibration">震動一次</string>
+    <string name="warning_header">警告</string>
+    <string name="welcome">歡迎</string>
+    <string name="bprop_default_txt">預設 build.prop 調整。 如果您在使用 FDE.AI 時遇到問題，請停用它們。</string>
+    <string name="overlay_opacity_main">覆蓋不透明度</string>
+    <string name="tweaks_disabled">所有調整都已停用</string>
+    <string name="exit_confirmation_title">退出?</string>
+    <string name="exit_confirmation_text">退出而不儲存變更？</string>
+    <string name="sound_channel_name">人工智慧聲音通知</string>
+    <string name="reset_app_list_confirmation_title">重置清單</string>
+    <string name="reset_app_list_confirmation_text">重置應用程式清單？</string>
+    <string name="downscale_notification" tools:ignore="PluralsCandidate">按下“確定”確認新的分辨率，否則它將在 %1$d 秒後還原。</string>
+    <string name="onboarding_migrate_data_description">轉移您的資料？</string>
+    <string name="kernel_block">目前內核 %1$s 阻止Premium安裝。 請考慮安裝另一個內核。</string>
+    <string name="profile_ai_mode_desc">當使用應用程式時，選擇 AI 的模式。</string>
+    <string name="preload_pro_required">此功能需要Preload Pro的應用程式。</string>
+    <string name="premium_required">這些功能需要 FDE.AI Premium。</string>
+    <string name="overlay_power_x">功耗：%1$s mAh</string>
+    <string name="overlay_battery_temp_x">電池：%1$s°C</string>
+    <string name="overlay_scale_main">疊加比例</string>
+    <string name="emergency_cooldown">緊急冷卻</string>
+    <string name="emergency_cooldown_btn">冷卻</string>
+    <string name="emergency_cooldown_desc">啟動後，它將重新啟用溫控、啟用飛行模式、省電模式、殺死後台應用程式、停用充電，並將 AI 設定為省電模式 100 秒，然後恢復。</string>
+    <string name="hwinfo">設備</string>
+    <string name="ai_lifetime">人工智慧生命週期</string>
+    <string name="kernel_tuning_state">核心調整</string>
+    <string name="cpu_turbo_support">CPU Turbo 支援</string>
+    <string name="cpu_turbo_active">CPU Turbo 處於活動狀態</string>
+    <string name="cpu_turbo_trigger_count">CPU Turbo 觸發計數</string>
+    <string name="gpu_turbo_support">GPU Turbo 支援</string>
+    <string name="gpu_turbo_active">GPU Turbo 處於活動狀態</string>
+    <string name="gpu_turbo_trigger_count">GPU Turbo 觸發計數</string>
+    <string name="force_doze_enabled">強制打盹已啟用</string>
+    <string name="force_doze_trigger_count">強制打盹觸發計數</string>
+    <string name="force_doze_autopowersave_mode">強制打瞌睡自動省電</string>
+    <string name="throttling_deactivated">節流已停用</string>
+    <string name="throttling_ignore_on_charge">節流忽略充電</string>
+    <string name="kill_bg_apps">殺死後台應用程式</string>
+    <string name="auto_tune_freqs">自動調諧頻率</string>
+    <string name="auto_art_opt">自動 ART 最佳化</string>
+    <string name="dynamic_read_ahead">動態預讀</string>
+    <string name="charging_bypass_enabled">充電旁通已啟用</string>
+    <string name="charging_bypass_active">充電旁路啟動</string>
+    <string name="charging_limit_enabled">已啟用充電限制</string>
+    <string name="charging_limit_active">充電限制已啟用</string>
+    <string name="charging_cycles">充電週期：</string>
+    <string name="cpu_bandwidth_tune">CPU 頻寬調整</string>
+    <string name="fs_cache_tune">FS 快取調整</string>
+    <string name="vm_cache_tune">虛擬機器快取調整</string>
+    <string name="cpu_input_boost_tune">CPU 輸入提升</string>
+    <string name="kernel_entropy_tune">內核熵調整</string>
+    <string name="kernel_sched_boost">核心調度程式提升</string>
+    <string name="multi_core_power_saving_control">多核心CPU省電</string>
+    <string name="extraopt_schedule_title">每天運行的計劃</string>
+    <string name="extraopt_schedule_time">設定每日自動最佳化時間</string>
+    <string name="sound_notifications">聲音通知</string>
+</resources>
