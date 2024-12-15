@@ -255,10 +255,10 @@
     <string name="ai_lifetime">AIの動作時間</string>
     <string name="kernel_tuning_state">カーネル調整</string>
     <string name="cpu_turbo_support">CPUターボに対応しているか</string>
-    <string name="cpu_turbo_active">CPUターボが有効か</string>
+    <string name="cpu_turbo_active">CPUターボが現在動作しているか</string>
     <string name="cpu_turbo_trigger_count">CPUターボの実行回数</string>
     <string name="gpu_turbo_support">GPUターボに対応しているか</string>
-    <string name="gpu_turbo_active">GPUターボが有効か</string>
+    <string name="gpu_turbo_active">GPUターボが現在動作しているか</string>
     <string name="gpu_turbo_trigger_count">GPUターボの実行回数</string>
     <string name="force_doze_enabled">[強制的に「電池の最適化」を有効化]が有効か</string>
     <string name="force_doze_trigger_count">[強制的に「電池の最適化」]の実行回数</string>
