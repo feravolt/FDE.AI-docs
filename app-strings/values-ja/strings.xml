@@ -38,7 +38,7 @@
     <string name="auto_psave">省電力モード</string>
     <string name="auto_psave_desc">画面オフ時に省電力モードを自動的に有効にします。</string>
     <string name="autostart">自動起動</string>
-    <string name="autostart_delay_hint">%1$d秒に遅延を設定しました</string>
+    <string name="autostart_delay_hint">遅延を %1$d 秒に設定しました</string>
     <string name="autostart_overlay">統計のオーバーレイ表示を開始</string>
     <string name="batt_capacity">容量</string>
     <string name="batt_resistance">抵抗値</string>
@@ -97,8 +97,8 @@
     <string name="extraopt_reset_btn">最適化をリセット</string>
     <string name="extraopt_warning">これはシステムレベルの最適化です。一部のカスタムROMでは破損する可能性があります(リカバリーでARTキャッシュをクリアする必要があります)。使用前にデータをバックアップしてください。</string>
     <string name="acc_warning">Advanced Charging Controller(ACC)モジュールが検出されました。FDE.AIのバッテリー機能と競合する可能性があります。</string>
-    <string name="fde_is_active">AIは有効です</string>
-    <string name="fde_is_inactive">AIは無効です</string>
+    <string name="fde_is_active">AIは有効です。</string>
+    <string name="fde_is_inactive">AIは無効です。</string>
     <string name="fde_on_reset_toast">FDE.AIのデータはすべてリセットされます。アプリを閉じます。</string>
     <string name="finstall">FDE.AIをインストール中…</string>
     <string name="monitoring_floating_window">モニタリング</string>
@@ -162,7 +162,7 @@
     <string name="onboarding_setup">設定</string>
     <string name="onboarding_setup_message">適用する微調整を選択します。初期設定の完了後に設定を変更することもできます。</string>
     <string name="onboarding_eula_summary_4">FDE.AIと一緒に他の最適化アプリやモジュールなどを使用しないでください。</string>
-    <string name="onboarding_migrate_data">以前のバージョンが検出されました</string>
+    <string name="onboarding_migrate_data">古いバージョンが検出されました</string>
     <string name="open_os_dev_settings">Androidの開発者設定を開く</string>
     <string name="optimize_now">今すぐ最適化</string>
     <string name="other_settings">その他の設定</string>
@@ -177,7 +177,7 @@
     <string name="premium_card_profiles">拡張アプリプロファイル</string>
     <string name="premium_card_profiles_desc">多くのオプションを備えたカスタマイズ可能なアプリプロファイルです。</string>
     <string name="premium_card_soundpack_desc">FDE.AIのアクションのサウンド通知を微調整できます。</string>
-    <string name="premium_text">FDE.AIの開発をサポートし、すべての独自機能のロックを解除しましょう！:</string>
+    <string name="premium_text">FDE.AIの開発をサポートし、すべての独自機能のロックを解除しましょう！</string>
     <string name="premium_thanks">ご支援ありがとうございます！以下の機能をアンロックしました。</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="rate_app">FDE.AIを評価</string>
@@ -202,7 +202,7 @@
     <string name="profiles_descr_txt">カスタムプロファイルは、アプリが実行されたときにFDE.AIの設定が適用され、閉じたときに元に戻します。</string>
     <string name="sound_header">サウンド</string>
     <string name="start_toast">FDE.AIを起動中…</string>
-    <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">FDE.AIが起動するまであと%1$d秒お待ちください…</string>
+    <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">FDE.AIが起動するまであと %1$d 秒お待ちください…</string>
     <string name="startup">起動</string>
     <string name="stop_btn">停止</string>
     <string name="telegram" tools:ignore="MissingTranslation">https://t.me/feralab_news_eng</string>
@@ -232,7 +232,7 @@
     <string name="sound_channel_name">AIのサウンド通知</string>
     <string name="reset_app_list_confirmation_title">リストをリセット</string>
     <string name="reset_app_list_confirmation_text">アプリ一覧をリセットしますか？</string>
-    <string name="downscale_notification" tools:ignore="PluralsCandidate">OKを押して新しい解像度を確認するか、 %1$d秒後にリセットされます。</string>
+    <string name="downscale_notification" tools:ignore="PluralsCandidate">「OK」をタップして新しい解像度を確認するか、 %1$d 秒後にリセットされます。</string>
     <string name="onboarding_migrate_data_description">データを移行しますか？</string>
     <string name="kernel_block">現在のカーネル「%1$s」はプレミアムのインストールをブロックします。別のカーネルのインストールを検討してください。</string>
     <string name="profile_ai_mode_desc">アプリ使用時のAIモードを選択します。</string>
@@ -252,36 +252,36 @@
 
 これらの設定は100秒後、元の状態に戻ります。</string>
     <string name="hwinfo">デバイス</string>
-    <string name="ai_lifetime">AI ライフタイム</string>
-    <string name="kernel_tuning_state">カーネル チューニング</string>
-    <string name="cpu_turbo_support">CPU ターボ サポート</string>
-    <string name="cpu_turbo_active">CPU ターボ アクティブ</string>
-    <string name="cpu_turbo_trigger_count">CPU ターボ トリガー カウント</string>
-    <string name="gpu_turbo_support">GPU ターボ サポート</string>
-    <string name="gpu_turbo_active">GPU ターボ アクティブ</string>
-    <string name="gpu_turbo_trigger_count">GPU ターボ トリガー カウント</string>
-    <string name="force_doze_enabled">Force Doze 有効</string>
-    <string name="force_doze_trigger_count">Force Doze トリガー カウント</string>
-    <string name="force_doze_autopowersave_mode">Force Doze自動省電力</string>
-    <string name="throttling_deactivated">スロットリング無効</string>
-    <string name="throttling_ignore_on_charge">スロットリングは充電を無視</string>
-    <string name="kill_bg_apps">バックグラウンド アプリを終了</string>
+    <string name="ai_lifetime">AIの動作時間</string>
+    <string name="kernel_tuning_state">カーネル調整</string>
+    <string name="cpu_turbo_support">CPUターボに対応しているか</string>
+    <string name="cpu_turbo_active">CPUターボが現在動作しているか</string>
+    <string name="cpu_turbo_trigger_count">CPUターボの実行回数</string>
+    <string name="gpu_turbo_support">GPUターボに対応しているか</string>
+    <string name="gpu_turbo_active">GPUターボが現在動作しているか</string>
+    <string name="gpu_turbo_trigger_count">GPUターボの実行回数</string>
+    <string name="force_doze_enabled">[強制的に「電池の最適化」を有効化]が有効か</string>
+    <string name="force_doze_trigger_count">[強制的に「電池の最適化」]の実行回数</string>
+    <string name="force_doze_autopowersave_mode">強制的に「電池の最適化」を省電力</string>
+    <string name="throttling_deactivated">スロットリングが無効か</string>
+    <string name="throttling_ignore_on_charge">充電中のスロットリングを無視</string>
+    <string name="kill_bg_apps">バックグラウンドアプリの強制終了</string>
     <string name="auto_tune_freqs">周波数の自動調整</string>
-    <string name="auto_art_opt">自動 ART 最適化</string>
-    <string name="dynamic_read_ahead">動的先読み</string>
-    <string name="charging_bypass_enabled">充電バイパス有効</string>
-    <string name="charging_bypass_active">充電バイパス有効</string>
-    <string name="charging_limit_enabled">充電制限有効</string>
-    <string name="charging_limit_active">充電制限有効</string>
+    <string name="auto_art_opt">自動ART最適化</string>
+    <string name="dynamic_read_ahead">動的read-ahead</string>
+    <string name="charging_bypass_enabled">充電制限が有効か</string>
+    <string name="charging_bypass_active">充電制限が現在動作しているか</string>
+    <string name="charging_limit_enabled">充電制限が有効か</string>
+    <string name="charging_limit_active">充電制限が現在動作しているか</string>
     <string name="charging_cycles">充電サイクル:</string>
-    <string name="cpu_bandwidth_tune">CPU 帯域幅の調整</string>
-    <string name="fs_cache_tune">FS キャッシュの調整</string>
-    <string name="vm_cache_tune">VM キャッシュの調整</string>
-    <string name="cpu_input_boost_tune">CPU 入力ブースト</string>
-    <string name="kernel_entropy_tune">カーネル エントロピーの調整</string>
-    <string name="kernel_sched_boost">カーネル スケジューラのブースト</string>
-    <string name="multi_core_power_saving_control">マルチコア CPU の省電力</string>
-    <string name="extraopt_schedule_title">毎日実行するようにスケジュール</string>
-    <string name="extraopt_schedule_time">毎日の自動最適化時間を設定する</string>
+    <string name="cpu_bandwidth_tune">CPU帯域幅の調整</string>
+    <string name="fs_cache_tune">FSキャッシュの調整</string>
+    <string name="vm_cache_tune">VMキャッシュの調整</string>
+    <string name="cpu_input_boost_tune">CPUインプットブースト</string>
+    <string name="kernel_entropy_tune">カーネルエントロピーの調整</string>
+    <string name="kernel_sched_boost">カーネルスケジューラのブースト</string>
+    <string name="multi_core_power_saving_control">マルチコアCPUの省電力</string>
+    <string name="extraopt_schedule_title">毎日実行するスケジュール</string>
+    <string name="extraopt_schedule_time">毎日の自動最適化時間を設定</string>
     <string name="sound_notifications">サウンド通知</string>
 </resources>
