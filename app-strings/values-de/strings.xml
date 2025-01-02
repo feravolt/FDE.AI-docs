@@ -87,7 +87,7 @@
     <string name="doze_description">FDE.KI kann den Schlummermodus früher auslösen. Wenn Probleme auftreten, werden Apps mit dem unten stehenden Button in der Whitelist gelistet.</string>
     <string name="doze_mode">Doze-Modus erzwingen</string>
     <string name="doze_sub_describtion">Aktivieren, um in den Doze-Modus zu wechseln, sobald der Bildschirm ausgeschaltet ist.</string>
-    <string name="doze_system_desc">Doze-Modus (Android 6.0+) reduziert den Akkuverbrauch durch Verschieben von Hintergrund-Prozessor und Netzwerkaktivität, wenn das Gerät inaktiv ist.</string>
+    <string name="doze_system_desc">Doze-Modus (Android 6.0+) reduziert den Akkuverbrauch durch Verschieben von Hintergrund-Prozessen und Netzwerkaktivität, wenn das Gerät inaktiv ist.</string>
     <string name="doze_whitelist">Doze-Whitelist</string>
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
     <string name="extraopt_btn">Zusätzliche Optimierung</string>
