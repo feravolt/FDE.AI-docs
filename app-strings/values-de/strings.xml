@@ -109,8 +109,8 @@
     <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
     <string name="get_premium">Get FDE.KI Premium</string>
     <string name="go_back">Zurück</string>
-    <string name="overlay_Grafik_x_load" tools:ignore="MissingTranslation">Grafik: %1$s%%</string>
-    <string name="grantit">Möglicherweise müssen Sie im Berechtigungsmanager Ihres Betriebssystemsmanuell die Berechtigung zum Autostart erteilen, damit FDE.KI nach dem Starten des Betriebs starten kann.</string>
+    <string name="overlay_Grafik_x_load" tools:ignore="MissingTranslation">Grafik (Auslastung): %1$s%%</string>
+    <string name="grantit">Möglicherweise müssen Sie im Berechtigungsmanager Ihres Betriebssystems manuell die Berechtigung zum Autostart erteilen, damit FDE.KI nach dem Starten des Betriebs starten kann.</string>
     <string name="greenbattery_desc">Verlängern Sie die Batterielebensdauer durch das Begrenzen der maximalen Batterieladung. Haltet das Laden an der festgelegten Schwelle ab und startet 6 Prozent darunter.</string>
     <string name="greenbattery_title">Akkuzustand</string>
     <string name="hour">h.</string>
