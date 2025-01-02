@@ -152,7 +152,7 @@
     <string name="onboarding_preset_performance_summary">KI optimieren und abstimmen, um Leistung und Reaktionsfähigkeit zu erhöhen</string>
     <string name="onboarding_preset_performance_title">Leistung</string>
     <string name="onboarding_preset_powersave_summary">KI optimieren und anpassen, um Akku zu sparen und Energie zu reduzieren</string>
-    <string name="onboarding_preset_powersave_title">Sparmodus</string>
+    <string name="onboarding_preset_powersave_title">Stromaparmodus</string>
     <string name="onboarding_presets">Vorlagen</string>
     <string name="onboarding_see_full_eula">Zeige volle EULA</string>
     <string name="onboarding_setup">Setup</string>
