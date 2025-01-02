@@ -4,7 +4,7 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Gemacht mit ❤️ von FeraVolt.</string>
     <string name="accept">Einverstanden</string>
     <string name="adaptive">Automatisch</string>
-    <string name="ai_tune_freqs">Prozessor und Grafik -frequenzen automatisch regeln</string>
+    <string name="ai_tune_freqs">Prozessor und Grafik -frequenzen automatisch anpassen</string>
     <string name="ai_auto_mode">Regelt Leistung und Energieverbrauch automatisch je nach Nutzung. Frequenzen werden automatisch angepasst, um Strom zu sparen</string>
     <string name="ai_cycle_period">KI-Zeitplan</string>
     <string name="ai_cycle_period_desc">Manuelles anpassen des KI-Zeitplans. Längere Zeitpläne verbrauchen weniger Strom (bzw. sind effizient), sind aber langsamer andersrum umgekehrt.
