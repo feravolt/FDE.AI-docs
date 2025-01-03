@@ -15,7 +15,7 @@
     <string name="ai_mode">KI-Modus</string>
     <string name="ai_mode_auto">Automatisch</string>
     <string name="ai_modes_desc">Die KI läuft im Hintergrund, lernt das Nutzungsverhalten und wendet Systemoptimierungen an.</string>
-    <string name="ai_off_detail">Wenn die KI deaktiviert ist, optimiert FDE einmalig , jesoch nicht in Echtzeit.</string>
+    <string name="ai_off_detail">Wenn die KI deaktiviert ist, optimiert FDE einmalig, jedoch nicht in Echtzeit.</string>
     <string name="ai_perf_mode">Optimiert die Leistung. Triggert oft Prozessor/Grafik Turbos.</string>
     <string name="ai_psave_mode">Optimieren für Energieeinsparung. Prozessor/Grafik Turbos werden nicht ausgelöst.</string>
     <string name="ai_settings_extra">Zusätzliche KI-Einstellungen</string>
