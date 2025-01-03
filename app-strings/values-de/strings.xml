@@ -69,9 +69,9 @@
     <string name="cleaning_title">Bereinigt</string>
     <string name="close">Schließen</string>
     <string name="completed">erledigt</string>
-    <string name="overlay_Prozessor_load" tools:ignore="MissingTranslation">Prozessor: %1$s%%</string>
-    <string name="Prozessor_top_descr">Overlay mit den obersten 5 Prozessor-intensiven Prozessen</string>
-    <string name="Prozessor_top_header">Prozessstatistik</string>
+    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">Prozessorauslastung: %1$s%%</string>
+    <string name="cpu_top_descr">Overlay mit den obersten 5 Prozessor-intensiven Prozessen</string>
+    <string name="cpu_top_header">Prozessstatistik</string>
     <string name="current_resolution">Aktuelle Auflösung:</string>
     <string name="dark_theme">Dunkel</string>
     <string name="debug_mode">Fehler suchen</string>
@@ -239,9 +239,9 @@
     <string name="hwinfo">Handy</string>
     <string name="ai_lifetime">KI-Lebensdauer</string>
     <string name="kernel_tuning_state">Kernel-Tuning</string>
-    <string name="Prozessor_turbo_support">Prozessor-Turbo-Unterstützung</string>
-    <string name="Prozessor_turbo_active">Prozessor-Turbo aktiv</string>
-    <string name="Prozessor_turbo_trigger_count">Anzahl der Prozessor-Turbo-Trigger</string>
+    <string name="cpu_turbo_support">CPU-Turbo-Unterstützung</string>
+    <string name="cpu_turbo_active">CPU-Turbo aktiv</string>
+    <string name="cpu_turbo_trigger_count">Anzahl der CPU-Turbo-Trigger</string>
     <string name="Grafik_turbo_support">Grafik-Turbo-Unterstützung</string>
     <string name="Grafik_turbo_active">Grafik-Turbo aktiv</string>
     <string name="Grafik_turbo_trigger_count">Anzahl der Grafik-Turbo-Trigger</string>
@@ -259,13 +259,13 @@
     <string name="charging_limit_enabled">Ladelimit aktiviert</string>
     <string name="charging_limit_active">Ladelimit aktiv</string>
     <string name="charging_cycles">Ladezyklen:</string>
-    <string name="Prozessor_bandwidth_tune">Prozessor-Bandbreitenoptimierung</string>
+    <string name="cpu_bandwidth_tune">Prozessor-Bandbreitenoptimierung</string>
     <string name="fs_cache_tune">FS-Cacheoptimierung</string>
     <string name="vm_cache_tune">VM-Cacheoptimierung</string>
-    <string name="Prozessor_input_boost_tune">Prozessor-Input-Boost</string>
+    <string name="cpu_input_boost_tune">Prozessor-Input-Boost</string>
     <string name="kernel_entropy_tune">Kernel-Entropieoptimierung</string>
     <string name="kernel_sched_boost">Kernel-Scheduler-Boost</string>
-    <string name="multi_core_power_saving_control">Multi-Core-Prozessor-Energiesparen</string>
+    <string name="multi_core_power_saving_control">Multi-Core-CPU-Energiesparmodus</string>
     <string name="extraopt_schedule_title">Tägliche Ausführung planen</string>
     <string name="extraopt_schedule_time">Tägliche automatische Optimierungszeit festlegen</string>
     <string name="sound_notifications">Tonbenachrichtigungen</string>
