@@ -160,12 +160,12 @@
     <string name="onboarding_eula_summary_4">Verwenden Sie keine anderen Optimierungen mit FDE.KI.</string>
     <string name="onboarding_migrate_data">Vorherige Version erkannt</string>
     <string name="open_os_dev_settings">Android-Entwickler-Einstellungen öffnen</string>
-    <string name="optimize_now">Jetzt besser machen</string>
+    <string name="optimize_now">Optimieren</string>
     <string name="other_settings">Andere Einstellungen</string>
     <string name="overlay_desc_text">Schwebende Fenster mit Echtzeit-Statistiken für die Überwachung aktivieren.</string>
     <string name="performance">Leistung</string>
     <string name="power_checkbox">Stromverbrauch</string>
-    <string name="powersave">Sparmodus</string>
+    <string name="powersave">Energiesparmodus</string>
     <string name="preload_title">Automatisches Vorladen</string>
     <string name="premium">⭐️ FDE.KI Premium ⭐️</string>
     <string name="premium_card_audio">Klangerwarnung</string>
