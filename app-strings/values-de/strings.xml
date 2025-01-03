@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_app">Infos</string>
     <string name="about_end_txt" tools:ignore="MissingTranslation">Gemacht mit ❤️ von FeraVolt.</string>
     <string name="accept">Einverstanden</string>
