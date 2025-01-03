@@ -50,9 +50,9 @@
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Spannung: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Tragen: %1$s</string>
     <string name="bp_default_only">Standard FDE-Optimierungen</string>
-    <string name="bp_niko_Grafik">Nikos Grafik-Optimierung</string>
+    <string name="bp_niko_gpu">Nikos Grafik-Optimierung</string>
     <string name="bp_niko_net">Nikos Netzwerk -Optimierung</string>
-    <string name="bprop_nikoGrafik_txt">Niko Schwickerts Grafik Optimierungen. Kann die Leistung auf älteren Geräten verbessern.</string>
+    <string name="bprop_nikogpu_txt">Niko Schwickerts Grafik Optimierungen. Kann die Leistung auf älteren Geräten verbessern.</string>
     <string name="bprop_nikonet_txt">Niko Schwickerts Netzwerk optimiert die Geschwindigkeit der Mobilfunkdaten.</string>
     <string name="build_prop_tweaks">Build.prop Optimierungen</string>
     <string name="burnit">Drosseln deaktivieren</string>
@@ -109,7 +109,7 @@
     <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
     <string name="get_premium">Get FDE.KI Premium</string>
     <string name="go_back">Zurück</string>
-    <string name="overlay_Grafik_x_load" tools:ignore="MissingTranslation">Grafik (Auslastung): %1$s%%</string>
+    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">Grafik (Auslastung): %1$s%%</string>
     <string name="grantit">Möglicherweise müssen Sie im Berechtigungsmanager Ihres Betriebssystems manuell die Berechtigung zum Autostart erteilen, damit FDE.KI nach dem Starten des Betriebs starten kann.</string>
     <string name="greenbattery_desc">Verlängern Sie die Batterielebensdauer durch das Begrenzen der maximalen Batterieladung. Haltet das Laden an der festgelegten Schwelle ab und startet 6 Prozent darunter.</string>
     <string name="greenbattery_title">Akkuzustand</string>
@@ -242,9 +242,9 @@
     <string name="cpu_turbo_support">CPU-Turbo-Unterstützung</string>
     <string name="cpu_turbo_active">CPU-Turbo aktiv</string>
     <string name="cpu_turbo_trigger_count">Anzahl der CPU-Turbo-Trigger</string>
-    <string name="Grafik_turbo_support">Grafik-Turbo-Unterstützung</string>
-    <string name="Grafik_turbo_active">Grafik-Turbo aktiv</string>
-    <string name="Grafik_turbo_trigger_count">Anzahl der Grafik-Turbo-Trigger</string>
+    <string name="gpu_turbo_support">Grafik-Turbo-Unterstützung</string>
+    <string name="gpu_turbo_active">Grafik-Turbo aktiv</string>
+    <string name="gpu_turbo_trigger_count">Anzahl der Grafik-Turbo-Trigger</string>
     <string name="force_doze_enabled">Force Doze aktiviert</string>
     <string name="force_doze_trigger_count">Anzahl der Force-Doze-Trigger</string>
     <string name="force_doze_autopowersave_mode">Force Automatische Energiesparfunktion aktivieren</string>
