@@ -48,12 +48,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">온도: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">전압: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">웨어율: %1$s</string>
-    <string name="bp_default_only">기본 FDE 조정</string>
-    <string name="bp_niko_gpu">Niko\'s GPU 조정</string>
-    <string name="bp_niko_net">Niko\'s 네트워크 조정</string>
-    <string name="bprop_nikogpu_txt">Niko Schwickert\'s GPU 조정</string>
-    <string name="bprop_nikonet_txt">Niko Schwickert\'s 네트워크 조정</string>
-    <string name="build_prop_tweaks">Build.prop 조정</string>
     <string name="burnit">쓰로틀링 끄기</string>
     <string name="bypassch_desc">부하가 높은 작업을 할때는 충전 전류 제한하여 배터리의 과열을 방지합니다.</string>
     <string name="bypassch_title">충전 바이패스</string>
@@ -167,11 +161,9 @@
     <string name="powersave">전력절약</string>
     <string name="preload_title">자동 사전로드</string>
     <string name="premium">⭐️ FDE.AI 프리미엄 ⭐️</string>
-    <string name="premium_card_audio">사운드 경고</string>
     <string name="premium_card_overlays_desc">FPS 미터를 포함한 다양한 통계를 포함하는 사용자 정의 가능한 오버레이 창.</string>
     <string name="premium_card_profiles">확장된 앱 프로필</string>
     <string name="premium_card_profiles_desc">다양한 옵션으로 사용자 설정 가능한 앱 프로필</string>
-    <string name="premium_card_soundpack_desc">FDE.AI 사용자 정의 소리 알림</string>
     <string name="premium_text">FDE.AI를 지원해주시고 모든 기능들을 잠금해제보세요:</string>
     <string name="premium_thanks">당신의 지원에 감사합니다! 다음 기능들이 해제되었습니다:</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">램: %1$s%%</string>
@@ -183,7 +175,6 @@
     <string name="reset_art_dialog_text">ART 캐시를 정리하고 재실행하시겠습니까?</string>
     <string name="start_art_dialog_text">ART 캐시 최적화에는 시간이 걸리고 장치 지연 및 과열이 발생할 수 있습니다. 계속하시겠습니까?</string>
     <string name="reset_fde_dialog_text">FDE.AI 모든 설정을 초기화 하시겠습니까?</string>
-    <string name="resetscale_hw">히드웨어 기본값</string>
     <string name="restart_fde_action">FDE.AI 재실행</string>
     <string name="restart_fde_in_progress">FDE.AI 재실행</string>
     <string name="rm_fde_lite">FDE.AI 라이트 버전을 먼저 삭제하세요!</string>
@@ -215,7 +206,6 @@
     <string name="vibration">한번 진동</string>
     <string name="warning_header">위험</string>
     <string name="welcome">환영합니다</string>
-    <string name="bprop_default_txt">기본 build.prop가 수정 되었습니다. FDE.AI에 문제가 있는 경우 먼저 비활성화하세요.</string>
     <string name="overlay_opacity_main">오버레이 불투명도</string>
     <string name="tweaks_disabled">모든 조정 끄기</string>
     <string name="exit_confirmation_title">종료하시겠습니까?</string>
@@ -228,7 +218,6 @@
     <string name="kernel_block">현재 커널 %1$s가 추가 설치를 차단합니다. 다른 커널로 설치해 적용해보세요.</string>
     <string name="profile_ai_mode_desc">앱 사용에 적용할 AI 모드를 선택하세요.</string>
     <string name="preload_pro_required">이기능을 사용하기 위해선 Preload Pro 앱이 필요합니다.</string>
-    <string name="premium_required">이기능을 사용하기위해선 FDE.AI 프리미엄 기능이 필요합니다.</string>
     <string name="overlay_power_x">전력: %1$s mAh</string>
     <string name="overlay_battery_temp_x">배터리: %1$s°C</string>
     <string name="overlay_scale_main">오버레이 크기</string>
@@ -268,4 +257,5 @@
     <string name="extraopt_schedule_title">매일 실행 일정</string>
     <string name="extraopt_schedule_time">매일 자동 최적화 시간 설정</string>
     <string name="sound_notifications">사운드 알림</string>
+    <string name="migration_error">데이터 마이그레이션 중 예상치 못한 오류가 발생했습니다. 데이터가 지워집니다.</string>
 </resources>

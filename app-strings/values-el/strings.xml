@@ -49,12 +49,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Θερμοκρασία: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Τάση: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Wear: %1$s</string>
-    <string name="bp_default_only">Προεπιλεγμένες ρυθμίσεις FDE</string>
-    <string name="bp_niko_gpu">Τροποποιήσεις GPU του Niko</string>
-    <string name="bp_niko_net">Βελτίωση δικτύου του Niko</string>
-    <string name="bprop_nikogpu_txt">GPU του Niko Schwickert tweaks. Μπορεί να βελτιώσει την απόδοση σε παλαιότερες συσκευές.</string>
-    <string name="bprop_nikonet_txt">Το δίκτυο του Niko Schwickert μπορεί να αυξήσει την ταχύτητα δεδομένων κινητής τηλεφωνίας.</string>
-    <string name="build_prop_tweaks">Εγγραφές Build.prop</string>
     <string name="burnit">Απενεργοποίηση throttling</string>
     <string name="bypassch_desc">Περιορίζει το ρεύμα του φορτιστή κατά τη διάρκεια βαρέων διεργασιών ώστε να ταιριάζει με τη χρήση της συσκευής, μειώνοντας τη φόρτιση της μπαταρίας και τη θέρμανση.</string>
     <string name="bypassch_title">Παράκαμψη φόρτισης</string>
@@ -168,11 +162,9 @@
     <string name="powersave">Powersave</string>
     <string name="preload_title">Αυτόματη προφόρτωση</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
-    <string name="premium_card_audio">Ειδοποιήσεις ήχου</string>
     <string name="premium_card_overlays_desc">Παραμετροποιήσιμα παράθυρα επικάλυψης με διάφορα στατιστικά συμπεριλαμβανομένου του μετρητή FPS.</string>
     <string name="premium_card_profiles">Εκτεταμένα προφίλ εφαρμογών</string>
     <string name="premium_card_profiles_desc">Προσαρμόσιμα προφίλ εφαρμογών με πολλές επιλογές.</string>
-    <string name="premium_card_soundpack_desc">Προσαρμόσιμες ειδοποιήσεις ήχου για ενέργειες FDE.AI.</string>
     <string name="premium_text">Υποστήριξη FDE.AI και ξεκλείδωμα όλων των αποκλειστικών χαρακτηριστικών:</string>
     <string name="premium_thanks">Σας ευχαριστούμε για την υποστήριξή σας! Ξεκλειδώσατε αυτά τα χαρακτηριστικά:</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -184,7 +176,6 @@
     <string name="reset_art_dialog_text">Εκκαθάριση ART cache και επανεκκίνηση?</string>
     <string name="start_art_dialog_text">Βελτιστοποίηση της μνήμης cache ART μπορεί να πάρει χρόνο, αιτία καθυστέρηση της συσκευής και υπερθέρμανση. Συνέχεια?</string>
     <string name="reset_fde_dialog_text">Επαναφορά όλων των ρυθμίσεων FDE.AI?</string>
-    <string name="resetscale_hw">Προεπιλογές υλικού</string>
     <string name="restart_fde_action">Επανεκκίνηση FDE.AI</string>
     <string name="restart_fde_in_progress">Restarting FDE.AI</string>
     <string name="rm_fde_lite">Απεγκατάσταση FDE.AI lite έκδοση πρώτα!</string>
@@ -216,7 +207,6 @@
     <string name="vibration">Δόνηση μία φορά</string>
     <string name="warning_header">Προειδοποίηση</string>
     <string name="welcome">Καλωσόρισμα</string>
-    <string name="bprop_default_txt">Προεπιλεγμένο tweaks build.prop. Απενεργοποιήστε τα πρώτα αν έχετε προβλήματα με το FDE.AI.</string>
     <string name="overlay_opacity_main">Overlay opacity</string>
     <string name="tweaks_disabled">Όλες οι tweaks είναι απενεργοποιημένες</string>
     <string name="exit_confirmation_title">Έξοδος?</string>
@@ -229,7 +219,6 @@
     <string name="kernel_block">Ο τρέχων πυρήνας %1$s μπλοκάρει την εγκατάσταση Premium. Παρακαλώ σκεφτείτε να εγκαταστήσετε έναν άλλο πυρήνα.</string>
     <string name="profile_ai_mode_desc">Επιλέξτε τη λειτουργία τεχνητής νοημοσύνης ενώ η εφαρμογή είναι σε χρήση.</string>
     <string name="preload_pro_required">Απαιτείται προφόρτωση εφαρμογής Pro για αυτήν τη δυνατότητα.</string>
-    <string name="premium_required">Το FDE.AI Premium απαιτείται για αυτά τα χαρακτηριστικά.</string>
     <string name="overlay_power_x">Ισχύς: %1$s mAh</string>
     <string name="overlay_battery_temp_x">Μπαταρία: %1$s°C</string>
     <string name="overlay_scale_main">Κλίμακα επικάλυψης</string>
@@ -269,4 +258,5 @@
     <string name="extraopt_schedule_title">Προγραμματισμός για καθημερινή εκτέλεση</string>
     <string name="extraopt_schedule_time">Ορισμός ημερήσιας ώρας αυτόματης βελτιστοποίησης</string>
     <string name="sound_notifications">Ειδοποιήσεις ήχου</string>
+    <string name="migration_error">Παρουσιάστηκε μη αναμενόμενο σφάλμα κατά τη μετεγκατάσταση δεδομένων. Τα δεδομένα θα διαγραφούν.</string>
 </resources>

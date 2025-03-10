@@ -52,12 +52,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Temperature: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Voltage: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Wear: %1$s</string>
-    <string name="bp_default_only">Default FDE tweaks</string>
-    <string name="bp_niko_gpu">Niko\'s GPU tweaks</string>
-    <string name="bp_niko_net">Niko\'s network tweaks</string>
-    <string name="bprop_nikogpu_txt">Niko Schwickert\'s GPU tweaks. May improve performance on older devices.</string>
-    <string name="bprop_nikonet_txt">Niko Schwickert\'s network tweaks. May increase cellular data speed.</string>
-    <string name="build_prop_tweaks">Build.prop tweaks</string>
     <string name="burnit">Disable throttling</string>
     <string name="bypassch_desc">Limits charger current during heavy processes run to match device usage, reducing battery charging and heating.</string>
     <string name="bypassch_title">Charging bypass</string>
@@ -181,11 +175,9 @@
     <string name="powersave">Powersave</string>
     <string name="preload_title">Auto preload</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
-    <string name="premium_card_audio">Sound alerts</string>
     <string name="premium_card_overlays_desc">Customizable overlay windows with various stats including FPS meter.</string>
     <string name="premium_card_profiles">Extended app profiles</string>
     <string name="premium_card_profiles_desc">Customizable app profiles with many options.</string>
-    <string name="premium_card_soundpack_desc">Customizable sound notifications for FDE.AI actions.</string>
     <string name="premium_text">Support FDE.AI and unlock all exclusive features:</string>
     <string name="premium_thanks">Thank you for your support! You unlocked these features:</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -197,7 +189,6 @@
     <string name="reset_art_dialog_text">Clear ART cache and reboot?</string>
     <string name="start_art_dialog_text">Optimizing ART cache may take time, cause device lag and overheat. Continue?</string>
     <string name="reset_fde_dialog_text">Reset all FDE.AI settings?</string>
-    <string name="resetscale_hw">Hardware defaults</string>
     <string name="restart_fde_action">Restart FDE.AI</string>
     <string name="restart_fde_in_progress">Restarting FDE.AI</string>
     <string name="rm_fde_lite">Uninstall FDE.AI lite version first!</string>
@@ -234,7 +225,6 @@
     <string name="welcome">Welcome</string>
     <string name="youtube" tools:ignore="MissingTranslation">https://www.youtube.com/@FeraLab</string>
     <string name="youtube_str" translatable="false">YouTube</string>
-    <string name="bprop_default_txt">Default build.prop tweaks. Disable them first if you have issues with FDE.AI.</string>
     <string name="overlay_opacity_main">Overlay opacity</string>
     <string name="overlay_scale_main">Overlay scale</string>
     <string name="tweaks_disabled">All tweaks are disabled</string>
@@ -256,7 +246,6 @@
     <string name="kernel_block">Current kernel %1$s blocks Premium installation. Please consider installing another kernel.</string>
     <string name="profile_ai_mode_desc">Select AI mode while the app is in use.</string>
     <string name="preload_pro_required">Preload Pro app is required for this feature.</string>
-    <string name="premium_required">FDE.AI Premium is required for these features.</string>
     <string name="overlay_power_x">Power: %1$s mAh</string>
     <string name="overlay_battery_temp_x">Battery: %1$s°C</string>
     <string name="emergency_cooldown">Emergency Cooldown</string>
@@ -295,4 +284,5 @@
     <string name="extraopt_schedule_title">Schedule to run daily</string>
     <string name="extraopt_schedule_time">Set daily auto-optimize time</string>
     <string name="sound_notifications">Sound notifications</string>
+    <string name="migration_error">Unexpected error occurred while data migration. Data will be cleared.</string>
 </resources>

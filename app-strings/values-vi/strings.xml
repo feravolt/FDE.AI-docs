@@ -49,12 +49,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Nhiệt độ: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Điện áp: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Hao mòn: %1$s</string>
-    <string name="bp_default_only">Điều chỉnh mặc định của FDE</string>
-    <string name="bp_niko_gpu">Điều chỉnh GPU của Niko</string>
-    <string name="bp_niko_net">Điều chỉnh mạng của Niko</string>
-    <string name="bprop_nikogpu_txt">Điều chỉnh GPU của Niko Schwickert. Có thể cải thiện hiệu suất ở thiết bị cũ.</string>
-    <string name="bprop_nikonet_txt">Điều chỉnh mạng của Niko Schwickert. Có thể cải thiện tốc độ dữ liệu di động.</string>
-    <string name="build_prop_tweaks">Điều chỉnh build.prop</string>
     <string name="burnit">Tắt giới hạn nhiệt độ</string>
     <string name="bypassch_desc">Giới hạn dòng điện từ củ sạc khi chạy tác vụ nặng tương ứng với tình trạng sử dụng thiết bị, để giảm sạc và nhiệt độ.</string>
     <string name="bypassch_title">Sạc bỏ qua pin</string>
@@ -168,11 +162,9 @@
     <string name="powersave">Hiệu suất</string>
     <string name="preload_title">Tự động tải trước</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
-    <string name="premium_card_audio">Cảnh báo âm thanh</string>
     <string name="premium_card_overlays_desc">Tùy chỉnh cửa sổ nổi với đa dạng các chỉ số bao gồm bộ đo FPS.</string>
     <string name="premium_card_profiles">Hồ sơ ứng dụng mở rộng</string>
     <string name="premium_card_profiles_desc">Tùy chỉnh hồ sơ ứng dụng với nhiều lựa chọn.</string>
-    <string name="premium_card_soundpack_desc">Tùy chỉnh âm báo cho các hoạt động của FDE.AI.</string>
     <string name="premium_text">Hỗ trợ FDE.AI và mở khóa tất cả tính năng độc đáo:</string>
     <string name="premium_thanks">Cảm ơn bạn đã hỗ trợ! Bạn đã mở khóa những tính năng này:</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -184,7 +176,6 @@
     <string name="reset_art_dialog_text">Dọn bộ nhớ đệm ART và khởi động lại?</string>
     <string name="start_art_dialog_text">Tối ưu bộ đệm ART sẽ tốn ít thời gian, có thể gây giật và nóng máy. Tiếp tục?</string>
     <string name="reset_fde_dialog_text">Khôi phục tất cả thiết lập FDE.AI mặc định?</string>
-    <string name="resetscale_hw">Thiết lập mặc định của phần cứng</string>
     <string name="restart_fde_action">Khởi động lại FDE.AI</string>
     <string name="restart_fde_in_progress">FDE.AI đang khởi động lại</string>
     <string name="rm_fde_lite">Gỡ cài đặt bản FDE.AI lite trước!</string>
@@ -216,7 +207,6 @@
     <string name="vibration">Rung một lần</string>
     <string name="warning_header">Cảnh báo</string>
     <string name="welcome">Chào mừng</string>
-    <string name="bprop_default_txt">Các chỉnh sửa build.prop mặc định. Hãy tắt chúng đầu tiên nếu bạn gặp vấn đề với FDE.AI.</string>
     <string name="overlay_opacity_main">Độ mờ thanh nổi</string>
     <string name="tweaks_disabled">Tất cả chỉnh sửa đã tắt</string>
     <string name="exit_confirmation_title">Xác nhận thoát?</string>
@@ -229,7 +219,6 @@
     <string name="kernel_block">Kernel hiện tại %1$s chặn việc cài đặt phiên bản Premium. Xin cân nhắc cài đặt kernel khác.</string>
     <string name="profile_ai_mode_desc">Lựa chọn chế độ AI khi ứng dụng được sử dụng.</string>
     <string name="preload_pro_required">Ứng dụng Preload Pro cần thiết cho chức năng này.</string>
-    <string name="premium_required">FDE.AI Premium cần thiết cho những chức năng này.</string>
     <string name="overlay_power_x">Công suất: %1$s mAh</string>
     <string name="overlay_battery_temp_x">Pin: %1$s°C</string>
     <string name="overlay_scale_main">Tỷ lệ lớp phủ</string>
@@ -269,4 +258,5 @@
     <string name="extraopt_schedule_title">Lên lịch chạy hàng ngày</string>
     <string name="extraopt_schedule_time">Đặt thời gian tự động tối ưu hóa hàng ngày</string>
     <string name="sound_notifications">Thông báo bằng âm thanh</string>
+    <string name="migration_error">Đã xảy ra lỗi không mong muốn trong khi di chuyển dữ liệu. Dữ liệu sẽ bị xóa.</string>
 </resources>

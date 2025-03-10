@@ -49,12 +49,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Temperatur: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Voltase: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Keausan: %1$s</string>
-    <string name="bp_default_only">Tweaks Bawaan FDE</string>
-    <string name="bp_niko_gpu">Penyesuaian GPU Niko\'s</string>
-    <string name="bp_niko_net">Penyesuaian jaringan Niko\'s</string>
-    <string name="bprop_nikogpu_txt">Penyesuaian GPU Niko Schwickert\'s. Bisa meningkatkan kinerja pada perangkat lama.</string>
-    <string name="bprop_nikonet_txt">Penyesuaian jaringan Niko Schwickert\'s. Bisa meningkatkan kecepatan data seluler.</string>
-    <string name="build_prop_tweaks">Penyesuaian Build.prop</string>
     <string name="burnit">Nonaktifkan pembatasan</string>
     <string name="bypassch_desc">Membatasi arus pengisi daya selama proses berat dijalankan agar sesuai dengan penggunaan perangkat, sehingga mengurangi pengisian daya dan pemanasan baterai.</string>
     <string name="bypassch_title">Lewati pengisian daya</string>
@@ -166,11 +160,9 @@
     <string name="powersave">Hemat daya</string>
     <string name="preload_title">Pemuatan awal otomatis</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
-    <string name="premium_card_audio">Peringatan suara</string>
     <string name="premium_card_overlays_desc">Jendela hamparan yang dapat disesuaikan dengan berbagai statistik termasuk pengukur FPS.</string>
     <string name="premium_card_profiles">Profil aplikasi yang diperluas</string>
     <string name="premium_card_profiles_desc">Profil aplikasi yang dapat disesuaikan dengan banyak pilihan.</string>
-    <string name="premium_card_soundpack_desc">Pemberitahuan suara yang dapat disesuaikan untuk tindakan FDE.AI.</string>
     <string name="premium_text">Dukung FDE.AI dan buka semua fitur eksklusif:</string>
     <string name="premium_thanks">Terima kasih atas dukungan Anda! Anda telah membuka kunci fitur-fitur ini:</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -182,7 +174,6 @@
     <string name="reset_art_dialog_text">Menghapus cache ART dan memulai ulang perangkat?</string>
     <string name="start_art_dialog_text">Mengoptimalkan cache ART mungkin memerlukan waktu, menyebabkan perangkat lambat, dan terlalu panas. Lanjutkan?</string>
     <string name="reset_fde_dialog_text">Atur ulang semua pengaturan FDE.AI?</string>
-    <string name="resetscale_hw">Standar perangkat keras</string>
     <string name="restart_fde_action">Mulai ulang FDE.AI</string>
     <string name="restart_fde_in_progress">Memulai ulang FDE.AI</string>
     <string name="rm_fde_lite">Copot pemasangan FDE.AI lite terlebih dahulu!</string>
@@ -213,7 +204,6 @@
     <string name="vibration">Bergetar sekali</string>
     <string name="warning_header">Peringatan</string>
     <string name="welcome">Selamat Datang</string>
-    <string name="bprop_default_txt">Tweak build.prop default. Nonaktifkan terlebih dahulu jika Anda memiliki masalah dengan FDE.AI.</string>
     <string name="overlay_opacity_main">Opasitas Overlay</string>
     <string name="tweaks_disabled">Semua penyesuaian dinonaktifkan</string>
     <string name="exit_confirmation_title">Keluar?</string>
@@ -226,7 +216,6 @@
     <string name="kernel_block">Kernel saat ini %1$s memblokir instalasi Premium. Silakan pertimbangkan untuk menginstal kernel lain.</string>
     <string name="profile_ai_mode_desc">Pilih mode AI saat aplikasi sedang digunakan.</string>
     <string name="preload_pro_required">Aplikasi Preload Pro diperlukan untuk fitur ini.</string>
-    <string name="premium_required">FDE.AI Premium diperlukan untuk fitur ini.</string>
     <string name="overlay_power_x">Kekuatan: %1$s mAh</string>
     <string name="overlay_battery_temp_x">Battery: %1$s°C</string>
     <string name="overlay_scale_main">Skala hamparan</string>
@@ -266,4 +255,5 @@
     <string name="extraopt_schedule_title">Jadwal untuk dijalankan setiap hari</string>
     <string name="extraopt_schedule_time">Tetapkan waktu pengoptimalan otomatis harian</string>
     <string name="sound_notifications">Pemberitahuan suara</string>
+    <string name="migration_error">Terjadi kesalahan tak terduga saat migrasi data. Data akan dihapus.</string>
 </resources>

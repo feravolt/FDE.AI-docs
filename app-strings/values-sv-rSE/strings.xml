@@ -49,12 +49,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Temperatur: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Spänning: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Bär: %1$s</string>
-    <string name="bp_default_only">Standard FDE tweaks</string>
-    <string name="bp_niko_gpu">Nikos GPU-tweaks</string>
-    <string name="bp_niko_net">Nikos nätverk tweaks</string>
-    <string name="bprop_nikogpu_txt">Niko Schwickert\'s GPU-tweaks. Kan förbättra prestandan på äldre enheter.</string>
-    <string name="bprop_nikonet_txt">Niko Schwickert nätverk tweaks. Kan öka mobildata hastighet.</string>
-    <string name="build_prop_tweaks">Build.prop tweaks</string>
     <string name="burnit">Inaktivera strypning</string>
     <string name="bypassch_desc">Begränsar laddarströmmen under tunga processer för att matcha enhetens användning, minska batteriladdning och uppvärmning.</string>
     <string name="bypassch_title">Laddar bypass</string>
@@ -168,11 +162,9 @@
     <string name="powersave">Powersave</string>
     <string name="preload_title">Automatisk förladdning</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
-    <string name="premium_card_audio">Ljud varningar</string>
     <string name="premium_card_overlays_desc">Anpassningsbara overlay fönster med olika statistik, inklusive FPS meter.</string>
     <string name="premium_card_profiles">Utökade appprofiler</string>
     <string name="premium_card_profiles_desc">Anpassningsbara appprofiler med många alternativ.</string>
-    <string name="premium_card_soundpack_desc">Anpassningsbara ljudmeddelanden för FDE.AI-åtgärder.</string>
     <string name="premium_text">Stöd FDE.AI och lås upp alla exklusiva funktioner:</string>
     <string name="premium_thanks">Tack för ditt stöd! Du låste upp dessa funktioner:</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -184,7 +176,6 @@
     <string name="reset_art_dialog_text">Rensa ART cache och starta om?</string>
     <string name="start_art_dialog_text">Optimering av ART cache kan ta tid, orsaka enhetsfördröjning och överhettning. Vill du fortsätta?</string>
     <string name="reset_fde_dialog_text">Återställ alla FDE.AI inställningar?</string>
-    <string name="resetscale_hw">Standard för hårdvara</string>
     <string name="restart_fde_action">Starta om FDE.AI</string>
     <string name="restart_fde_in_progress">Restarting FDE.AI</string>
     <string name="rm_fde_lite">Avinstallera FDE.AI lite versionen först!</string>
@@ -216,7 +207,6 @@
     <string name="vibration">Vibrera en gång</string>
     <string name="warning_header">Varning</string>
     <string name="welcome">Välkommen</string>
-    <string name="bprop_default_txt">Standard build.prop tweaks. Inaktivera dem först om du har problem med FDE.AI.</string>
     <string name="overlay_opacity_main">Overlay opacity</string>
     <string name="tweaks_disabled">Alla tweaks är inaktiverade</string>
     <string name="exit_confirmation_title">Avsluta?</string>
@@ -229,7 +219,6 @@
     <string name="kernel_block">Nuvarande kärna %1$s blockerar Premium-installation. Överväg att installera en annan kärna.</string>
     <string name="profile_ai_mode_desc">Välj AI-läge medan appen används.</string>
     <string name="preload_pro_required">Preload Pro-appen krävs för den här funktionen.</string>
-    <string name="premium_required">FDE.AI Premium krävs för dessa funktioner.</string>
     <string name="overlay_power_x">Kraft: %1$s mAh</string>
     <string name="overlay_battery_temp_x">Batteri: %1$s°C</string>
     <string name="overlay_scale_main">Överlagringsskala</string>
@@ -269,4 +258,5 @@
     <string name="extraopt_schedule_title">Schemalägg för att köras dagligen</string>
     <string name="extraopt_schedule_time">Ställ in daglig tid för automatisk optimering</string>
     <string name="sound_notifications">Ljudaviseringar</string>
+    <string name="migration_error">Ett oväntat fel uppstod under datamigreringen. Data kommer att rensas.</string>
 </resources>

@@ -49,12 +49,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Temperatur: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Volktlag: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Wear: %1$s</string>
-    <string name="bp_default_only">Standard Rediger</string>
-    <string name="bp_niko_gpu">Nikos GPU tweaks</string>
-    <string name="bp_niko_net">Nikos nettverk svekker seg</string>
-    <string name="bprop_nikogpu_txt">Niko Schwickerts GPU tweaks. Kan bedre ytelsen på eldre enheter.</string>
-    <string name="bprop_nikonet_txt">Niko Schwickerts nettverk tweaks. Kan øke celledatahastigheten.</string>
-    <string name="build_prop_tweaks">Build.prop tweaks</string>
     <string name="burnit">Deaktiver kasting</string>
     <string name="bypassch_desc">Begrenser laderen strøm under kraftige prosesser for å passe på enhetens bruk, redusere batteriladning og oppvarming.</string>
     <string name="bypassch_title">Lader overgang</string>
@@ -168,11 +162,9 @@
     <string name="powersave">Strømsparing</string>
     <string name="preload_title">Automatisk forspenning</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
-    <string name="premium_card_audio">Varsel for lyd</string>
     <string name="premium_card_overlays_desc">Tilpassbare overleggsvinduer med ulik statistikk også FPS-måleren.</string>
     <string name="premium_card_profiles">Utvidede appprofiler</string>
     <string name="premium_card_profiles_desc">Tilpassbare appprofiler med mange alternativer.</string>
-    <string name="premium_card_soundpack_desc">Tilpassbare lydvarsler for FDE.AI handlinger.</string>
     <string name="premium_text">Støtt FDE.AI og lås opp alle eksklusive funksjoner:</string>
     <string name="premium_thanks">Takk for din støtte! Du har låst opp disse funksjonene:</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -184,7 +176,6 @@
     <string name="reset_art_dialog_text">Slett ART hurtigbuffer og omstart ?</string>
     <string name="start_art_dialog_text">Optimalisering av ART-cache kan ta tid, forårsake endringer i enhetsforsinkelse og overvarme. Fortsett?</string>
     <string name="reset_fde_dialog_text">Tilbakestill alle FDE.AI innstillinger?</string>
-    <string name="resetscale_hw">Standard maskinvarestandarder</string>
     <string name="restart_fde_action">Restart FDE.AI</string>
     <string name="restart_fde_in_progress">Restarting FDE.AI</string>
     <string name="rm_fde_lite">Avinstaller FDE.AI lite versjon først!</string>
@@ -216,7 +207,6 @@
     <string name="vibration">Vibrer en gang</string>
     <string name="warning_header">Advarsel</string>
     <string name="welcome">Velkommen</string>
-    <string name="bprop_default_txt">Standard build.prop tweaks. Deaktiver dem først hvis du har problemer med FDE.AI.</string>
     <string name="overlay_opacity_main">Overlay opacity</string>
     <string name="tweaks_disabled">Alle tweaks er deaktivert</string>
     <string name="exit_confirmation_title">Avslutt?</string>
@@ -229,7 +219,6 @@
     <string name="kernel_block">Nåværende kjernen %1$s blokkerer Premium-installasjonen. Vennligst vurder å installere en annen kernel.</string>
     <string name="profile_ai_mode_desc">Velg AI-modus mens appen er i bruk.</string>
     <string name="preload_pro_required">Preload Pro-app er påkrevd for denne funksjonen.</string>
-    <string name="premium_required">FDE.AI Premium er nødvendig for disse funksjonene.</string>
     <string name="overlay_power_x">Makt: %1$s mAh</string>
     <string name="overlay_battery_temp_x">Batteri: %1$s°C</string>
     <string name="overlay_scale_main">Overleggsskala</string>
@@ -269,4 +258,5 @@
     <string name="extraopt_schedule_title">Plan for å kjøre daglig</string>
     <string name="extraopt_schedule_time">Angi daglig automatisk optimaliseringstid</string>
     <string name="sound_notifications">Lydvarsler</string>
+    <string name="migration_error">Det oppstod en uventet feil under datamigrering. Data vil bli slettet.</string>
 </resources>

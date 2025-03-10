@@ -49,12 +49,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Temperatur: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Spannung: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Tragen: %1$s</string>
-    <string name="bp_default_only">Standard FDE-Optimierungen</string>
-    <string name="bp_niko_gpu">Nikos GPU-Optimierungen</string>
-    <string name="bp_niko_net">Nikos Netzwerk optimiert</string>
-    <string name="bprop_nikogpu_txt">Niko Schwickerts GPU Optimierungen. Kann die Leistung auf älteren Geräten verbessern.</string>
-    <string name="bprop_nikonet_txt">Das Netzwerk von Niko Schwickert optimiert die Geschwindigkeit der Mobilfunkdaten.</string>
-    <string name="build_prop_tweaks">Build.prop Optimierungen</string>
     <string name="burnit">Drosseln deaktivieren</string>
     <string name="bypassch_desc">Begrenzt den Ladestrom bei schweren Prozessen an den Geräteverbrauch, reduziert die Batterieladung und Heizung.</string>
     <string name="bypassch_title">Ladeumgehung</string>
@@ -168,11 +162,9 @@
     <string name="powersave">Stromsparmodus</string>
     <string name="preload_title">Automatisches Vorladen</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
-    <string name="premium_card_audio">Klangerwarnung</string>
     <string name="premium_card_overlays_desc">Anpassbare Overlay-Fenster mit verschiedenen Statistiken, inklusive FPS Meter.</string>
     <string name="premium_card_profiles">Erweiterte App-Profile</string>
     <string name="premium_card_profiles_desc">Anpassbare App-Profile mit vielen Optionen.</string>
-    <string name="premium_card_soundpack_desc">Anpassbare Sound-Benachrichtigungen für FDE.AI-Aktionen.</string>
     <string name="premium_text">Unterstütze FDE.AI und entsperre alle exklusiven Funktionen:</string>
     <string name="premium_thanks">Vielen Dank für deine Unterstützung! Du hast diese Funktionen freigeschaltet:</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -184,7 +176,6 @@
     <string name="reset_art_dialog_text">ART-Cache leeren und neu starten?</string>
     <string name="start_art_dialog_text">Das Optimieren des ART-Caches kann Zeit dauern, Geräteverzögerung und Überhitzung verursachen. Fortfahren?</string>
     <string name="reset_fde_dialog_text">Alle FDE.AI-Einstellungen zurücksetzen?</string>
-    <string name="resetscale_hw">Hardware-Standardeinstellungen</string>
     <string name="restart_fde_action">FDE.AI neu starten</string>
     <string name="restart_fde_in_progress">Restarting FDE.AI</string>
     <string name="rm_fde_lite">Deinstallieren Sie zuerst FDE.AI lite Version!</string>
@@ -216,7 +207,6 @@
     <string name="vibration">Einmal vibrieren</string>
     <string name="warning_header">Warnung</string>
     <string name="welcome">Begrüßung</string>
-    <string name="bprop_default_txt">Standard build.prop Tweaks. Deaktivieren Sie sie zuerst, wenn Sie Probleme mit FDE.AI haben.</string>
     <string name="overlay_opacity_main">Overlay opacity</string>
     <string name="tweaks_disabled">Alle Tweaks sind deaktiviert</string>
     <string name="exit_confirmation_title">Beenden?</string>
@@ -229,7 +219,6 @@
     <string name="kernel_block">Aktueller Kernel %1$s blockiert die Premium-Installation. Bitte erwägen Sie die Installation eines anderen Kernels.</string>
     <string name="profile_ai_mode_desc">Wählen Sie den KI-Modus während die App verwendet wird.</string>
     <string name="preload_pro_required">Für diese Funktion ist eine Vorladung der Pro-App erforderlich.</string>
-    <string name="premium_required">FDE.AI Premium wird für diese Funktionen benötigt.</string>
     <string name="overlay_power_x">Stärke: %1$s mAh</string>
     <string name="overlay_battery_temp_x">Akku: %1$s°C</string>
     <string name="overlay_scale_main">Overlay-Skala</string>
@@ -269,4 +258,5 @@
     <string name="extraopt_schedule_title">Tägliche Ausführung planen</string>
     <string name="extraopt_schedule_time">Tägliche automatische Optimierungszeit festlegen</string>
     <string name="sound_notifications">Tonbenachrichtigungen</string>
+    <string name="migration_error">Während der Datenmigration ist ein unerwarteter Fehler aufgetreten. Daten werden gelöscht.</string>
 </resources>

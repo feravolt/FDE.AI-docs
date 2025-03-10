@@ -49,12 +49,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">溫度: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">電壓：%1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">磨損：%1$s</string>
-    <string name="bp_default_only">預設為 FDE 調整</string>
-    <string name="bp_niko_gpu">Niko 的 GPU 調整</string>
-    <string name="bp_niko_net">Niko 的網路調整</string>
-    <string name="bprop_nikogpu_txt">Niko Schwickert 的 GPU 調整。 可能會提高改善舊設備上的效能。</string>
-    <string name="bprop_nikonet_txt">Niko Schwickert 的網路調整。 可能會提高行動網路的速度。</string>
-    <string name="build_prop_tweaks">Build.prop 調整</string>
     <string name="burnit">停用溫控</string>
     <string name="bypassch_desc">在繁重的程式運行期間，限制充電器電流以匹配設備使用情況，從而減少電池充電和發熱。</string>
     <string name="bypassch_title">充電旁路</string>
@@ -168,11 +162,9 @@
     <string name="powersave">省電</string>
     <string name="preload_title">自動預先載入</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
-    <string name="premium_card_audio">聲音提醒</string>
     <string name="premium_card_overlays_desc">可自訂覆蓋小視窗，各種統計數據，包括 FPS 。</string>
     <string name="premium_card_profiles">擴展應用程式設定檔</string>
     <string name="premium_card_profiles_desc">有多種選項，可自訂應用程式設定檔。</string>
-    <string name="premium_card_soundpack_desc">可自訂使用FDE.AI 的聲音通知</string>
     <string name="premium_text">贊助FDE.AI並解鎖所有獨家功能：</string>
     <string name="premium_thanks">感謝您的贊助！ 您解鎖了以下功能：</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -184,7 +176,6 @@
     <string name="reset_art_dialog_text">清除 ART 快取並重新啟動？</string>
     <string name="start_art_dialog_text">優化 ART 快取，可能需要一些時間，且導致裝置延遲和過熱。 繼續？</string>
     <string name="reset_fde_dialog_text">還原所有 FDE.AI 設定？</string>
-    <string name="resetscale_hw">硬體預設值</string>
     <string name="restart_fde_action">重新啟動FDE.AI</string>
     <string name="restart_fde_in_progress">FDE.AI重新啟動中</string>
     <string name="rm_fde_lite">首先移除FDE.AI lite版本！</string>
@@ -216,7 +207,6 @@
     <string name="vibration">震動一次</string>
     <string name="warning_header">警告</string>
     <string name="welcome">歡迎</string>
-    <string name="bprop_default_txt">預設 build.prop 調整。 如果您在使用 FDE.AI 時遇到問題，請停用它們。</string>
     <string name="overlay_opacity_main">覆蓋不透明度</string>
     <string name="tweaks_disabled">所有調整都已停用</string>
     <string name="exit_confirmation_title">退出?</string>
@@ -229,7 +219,6 @@
     <string name="kernel_block">目前內核 %1$s 阻止Premium安裝。 請考慮安裝另一個內核。</string>
     <string name="profile_ai_mode_desc">當使用應用程式時，選擇 AI 的模式。</string>
     <string name="preload_pro_required">此功能需要Preload Pro的應用程式。</string>
-    <string name="premium_required">這些功能需要 FDE.AI Premium。</string>
     <string name="overlay_power_x">功耗：%1$s mAh</string>
     <string name="overlay_battery_temp_x">電池：%1$s°C</string>
     <string name="overlay_scale_main">疊加比例</string>
@@ -269,4 +258,5 @@
     <string name="extraopt_schedule_title">每天運行的計劃</string>
     <string name="extraopt_schedule_time">設定每日自動最佳化時間</string>
     <string name="sound_notifications">聲音通知</string>
+    <string name="migration_error">資料遷移時發生意外錯誤。資料將被清除。</string>
 </resources>

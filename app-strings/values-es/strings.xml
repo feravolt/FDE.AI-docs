@@ -49,12 +49,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Temperatura: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Voltaje: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Desgaste: %1$s</string>
-    <string name="bp_default_only">Ajustes de FDE por defecto</string>
-    <string name="bp_niko_gpu">Ajustes GPU de Niko\'s</string>
-    <string name="bp_niko_net">Ajustes de red de Niko\'s</string>
-    <string name="bprop_nikogpu_txt">Los ajustes GPU de Niko Schwickert\'s. Puede mejorar el rendimiento en dispositivos antiguos.</string>
-    <string name="bprop_nikonet_txt">Los ajustes de red de Niko Schwickert\'s. Puede aumentar la velocidad de los datos móviles.</string>
-    <string name="build_prop_tweaks">Ajustes de Build.prop</string>
     <string name="burnit">Desactivar throttling</string>
     <string name="bypassch_desc">Limita la corriente del cargador durante la ejecución de procesos pesados para que coincida con el uso del dispositivo, reduciendo la carga y el calentamiento de la batería.</string>
     <string name="bypassch_title">Bypass de carga</string>
@@ -168,11 +162,9 @@
     <string name="powersave">Ahorro de energía</string>
     <string name="preload_title">Precarga automática</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
-    <string name="premium_card_audio">Alertas sonoras</string>
     <string name="premium_card_overlays_desc">Ventanas superpuestas personalizables con varias estadísticas, incluido el medidor de FPS.</string>
     <string name="premium_card_profiles">Perfiles de aplicación extendidos</string>
     <string name="premium_card_profiles_desc">Perfiles de aplicación personalizables con muchas opciones.</string>
-    <string name="premium_card_soundpack_desc">Notificaciones sonoras personalizables para las acciones de FDE.AI.</string>
     <string name="premium_text">Apoyar FDE.AI para desbloquear todas las funciones exclusivas:</string>
     <string name="premium_thanks">¡Gracias por tu apoyo! Desbloqueaste estas características:</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -184,7 +176,6 @@
     <string name="reset_art_dialog_text">¿Borrar caché ART y reiniciar?</string>
     <string name="start_art_dialog_text">La optimización de la caché ART puede llevar tiempo, provocar retrasos en el dispositivo y sobrecalentamiento. ¿Continuar?</string>
     <string name="reset_fde_dialog_text">¿Restablecer todos los ajustes de FDE.AI?</string>
-    <string name="resetscale_hw">Predeterminados de hardware</string>
     <string name="restart_fde_action">Reiniciar FDE.AI</string>
     <string name="restart_fde_in_progress">Reiniciando FDE.AI</string>
     <string name="rm_fde_lite">¡Desinstala primero la versión lite de FDE.AI!</string>
@@ -216,7 +207,6 @@
     <string name="vibration">Vibrar una vez</string>
     <string name="warning_header">Advertencia</string>
     <string name="welcome">Bienvenido</string>
-    <string name="bprop_default_txt">Ajustes predeterminados de build.prop. Desactívalos primero si tienes problemas con FDE.AI.</string>
     <string name="overlay_opacity_main">Opacidad de la superposición</string>
     <string name="tweaks_disabled">Todos los ajustes están desactivados</string>
     <string name="exit_confirmation_title">¿Salir?</string>
@@ -229,7 +219,6 @@
     <string name="kernel_block">El kernel actual %1$s bloquea la instalación de Premium. Por favor, considere instalar otro kernel.</string>
     <string name="profile_ai_mode_desc">Selecciona el modo IA mientras la aplicación está en uso.</string>
     <string name="preload_pro_required">Esta función requiere la aplicación Preload Pro.</string>
-    <string name="premium_required">FDE.AI Premium es necesario para estas funciones.</string>
     <string name="overlay_power_x">Poder: %1$s mAh</string>
     <string name="overlay_battery_temp_x">Batería: %1$s°C</string>
     <string name="overlay_scale_main">Escala de superposición</string>
@@ -269,4 +258,5 @@
     <string name="extraopt_schedule_title">Programar para ejecutar diariamente</string>
     <string name="extraopt_schedule_time">Establecer hora de optimización automática diaria</string>
     <string name="sound_notifications">Notificaciones de sonido</string>
+    <string name="migration_error">Se produjo un error inesperado durante la migración de datos. Los datos se borrarán.</string>
 </resources>

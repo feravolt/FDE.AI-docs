@@ -49,12 +49,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Température : %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Tension : %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Wear: %1$s</string>
-    <string name="bp_default_only">Réglages FDE par défaut</string>
-    <string name="bp_niko_gpu">Réglages GPU de Niko</string>
-    <string name="bp_niko_net">Réglages du réseau de Niko</string>
-    <string name="bprop_nikogpu_txt">Réglages GPU de Niko Schwickert. Peut améliorer les performances sur les appareils plus anciens.</string>
-    <string name="bprop_nikonet_txt">Réglages du réseau de Niko Schwickert. Peut augmenter la vitesse des données cellulaires.</string>
-    <string name="build_prop_tweaks">Réglages de Build.prop</string>
     <string name="burnit">Désactiver la limitation</string>
     <string name="bypassch_desc">Limite le courant du chargeur pendant les processus lourds pour correspondre à l\'utilisation de l\'appareil, réduisant la charge de la batterie et le chauffage.</string>
     <string name="bypassch_title">Contournement de charge</string>
@@ -168,11 +162,9 @@
     <string name="powersave">Énergie</string>
     <string name="preload_title">Préchargement automatique</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
-    <string name="premium_card_audio">Alertes sonores</string>
     <string name="premium_card_overlays_desc">Fenêtres de superposition personnalisables avec diverses stats incluant le compteur FPS.</string>
     <string name="premium_card_profiles">Profils de l\'application étendue</string>
     <string name="premium_card_profiles_desc">Profils d\'application personnalisables avec de nombreuses options.</string>
-    <string name="premium_card_soundpack_desc">Notifications sonores personnalisables pour les actions FDE.AI.</string>
     <string name="premium_text">Soutenez FDE.AI et débloquez toutes les fonctionnalités exclusives :</string>
     <string name="premium_thanks">Merci pour votre soutien ! Vous avez débloqué ces fonctionnalités :</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -184,7 +176,6 @@
     <string name="reset_art_dialog_text">Effacer le cache ART et le redémarrer?</string>
     <string name="start_art_dialog_text">Optimiser le cache ART peut prendre du temps, causer un retard et une surchauffe de l\'appareil. Continuer ?</string>
     <string name="reset_fde_dialog_text">Réinitialiser tous les paramètres FDE.AI ?</string>
-    <string name="resetscale_hw">Valeurs par défaut du matériel</string>
     <string name="restart_fde_action">Redémarrer FDE.AI</string>
     <string name="restart_fde_in_progress">Restarting FDE.AI</string>
     <string name="rm_fde_lite">Désinstallez d\'abord la version lite de FDE.AI !</string>
@@ -216,7 +207,6 @@
     <string name="vibration">Vibrer une fois</string>
     <string name="warning_header">Avertissement</string>
     <string name="welcome">Bienvenue</string>
-    <string name="bprop_default_txt">Réglages par défaut de build.prop. Désactivez-les d\'abord si vous avez des problèmes avec FDE.AI.</string>
     <string name="overlay_opacity_main">Overlay opacity</string>
     <string name="tweaks_disabled">Toutes les améliorations sont désactivées</string>
     <string name="exit_confirmation_title">Quitter ?</string>
@@ -229,7 +219,6 @@
     <string name="kernel_block">Le noyau actuel %1$s bloque l\'installation Premium. Pensez à installer un autre noyau.</string>
     <string name="profile_ai_mode_desc">Sélectionnez le mode IA lorsque l\'application est en cours d\'utilisation.</string>
     <string name="preload_pro_required">L\'application de préchargement Pro est requise pour cette fonctionnalité.</string>
-    <string name="premium_required">Pour ces fonctionnalités, FDE.AI Premium est nécessaire.</string>
     <string name="overlay_power_x">Puissance: %1$s mAh</string>
     <string name="overlay_battery_temp_x">Batterie : %1$s°C</string>
     <string name="overlay_scale_main">Échelle de superposition</string>
@@ -269,4 +258,5 @@
     <string name="extraopt_schedule_title">Programmer l\'exécution quotidienne</string>
     <string name="extraopt_schedule_time">Définir l\'heure d\'optimisation automatique quotidienne</string>
     <string name="sound_notifications">Notifications sonores</string>
+    <string name="migration_error">Une erreur inattendue s\'est produite lors de la migration des données. Les données seront effacées.</string>
 </resources>

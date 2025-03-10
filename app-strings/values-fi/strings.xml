@@ -49,12 +49,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Lämpötila: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Jännite: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Wear: %1$s</string>
-    <string name="bp_default_only">FDE:n oletusasetukset</string>
-    <string name="bp_niko_gpu">Nikon GPU:n asetukset</string>
-    <string name="bp_niko_net">Nikon verkkoasetukset</string>
-    <string name="bprop_nikogpu_txt">Niko Schwickertin näytönohjaimet. Saattaa parantaa suorituskykyä vanhemmissa laitteissa.</string>
-    <string name="bprop_nikonet_txt">Niko Schwickertin verkkopinnat. Saattaa lisätä matkapuhelindatan nopeutta.</string>
-    <string name="build_prop_tweaks">Build.prop lisäasetukset</string>
     <string name="burnit">Poista kaasu käytöstä</string>
     <string name="bypassch_desc">Rajoittaa laturin virtaa raskaiden prosessien aikana laitteen käyttöön ja vähentää akun latausta ja lämmitystä.</string>
     <string name="bypassch_title">Latauksen ohitus</string>
@@ -168,11 +162,9 @@
     <string name="powersave">Virtatallennus</string>
     <string name="preload_title">Automaattinen esilataus</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
-    <string name="premium_card_audio">Ääni hälytykset</string>
     <string name="premium_card_overlays_desc">Räätälöitävät overlay ikkunat erilaisilla tilastoilla, mukaan lukien FPS-mittarilla.</string>
     <string name="premium_card_profiles">Laajennetut sovellusprofiilit</string>
     <string name="premium_card_profiles_desc">Muokattavissa olevat sovellusprofiilit, joissa on monia vaihtoehtoja.</string>
-    <string name="premium_card_soundpack_desc">Muokattavissa olevat ääni-ilmoitukset FDE.AI toiminnoille.</string>
     <string name="premium_text">Tue FDE.AI ja avata kaikki yksinomaiset ominaisuudet:</string>
     <string name="premium_thanks">Kiitos tuestanne! Voit avata nämä ominaisuudet:</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -184,7 +176,6 @@
     <string name="reset_art_dialog_text">Tyhjennä ART-välimuisti ja käynnistä uudelleen?</string>
     <string name="start_art_dialog_text">ART-välimuistin optimointi voi viedä aikaa, aiheuttaa laitteen viiveitä ja ylikuumenemista. Jatketaanko?</string>
     <string name="reset_fde_dialog_text">Nollaa kaikki FDE.AI asetukset?</string>
-    <string name="resetscale_hw">Laitteiston oletukset</string>
     <string name="restart_fde_action">Käynnistä FDE.AI Uudelleen</string>
     <string name="restart_fde_in_progress">Restarting FDE.AI</string>
     <string name="rm_fde_lite">Poista FDE.AI lite versio ensin!</string>
@@ -216,7 +207,6 @@
     <string name="vibration">Värinä kerran</string>
     <string name="warning_header">Varoitus</string>
     <string name="welcome">Tervetuloa</string>
-    <string name="bprop_default_txt">Oletus build.prop tweaks. Poista ne käytöstä ensin, jos sinulla on ongelmia FDE.AI.</string>
     <string name="overlay_opacity_main">Overlay opacity</string>
     <string name="tweaks_disabled">Kaikki säädökset on poistettu käytöstä</string>
     <string name="exit_confirmation_title">Poistetaan?</string>
@@ -229,7 +219,6 @@
     <string name="kernel_block">Nykyinen ytimen %1$s estää Premium-asennuksen. Harkitse toisen ytimen asentamista.</string>
     <string name="profile_ai_mode_desc">Valitse tekoälyn tila, kun sovellus on käytössä.</string>
     <string name="preload_pro_required">Tämä ominaisuus vaatii Pro-sovelluksen esilatauksen.</string>
-    <string name="premium_required">FDE.AI Premium vaaditaan näihin ominaisuuksiin.</string>
     <string name="overlay_power_x">Teho: %1$s mAh</string>
     <string name="overlay_battery_temp_x">Akku: %1$s°C</string>
     <string name="overlay_scale_main">Peittokuvan asteikko</string>
@@ -269,4 +258,5 @@
     <string name="extraopt_schedule_title">Ajoita päivittäinen suoritus</string>
     <string name="extraopt_schedule_time">Aseta päivittäinen automaattisen optimoinnin aika</string>
     <string name="sound_notifications">Ääni-ilmoitukset</string>
+    <string name="migration_error">Tietojen siirron aikana tapahtui odottamaton virhe. Tiedot tyhjennetään.</string>
 </resources>

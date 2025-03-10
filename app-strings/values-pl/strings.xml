@@ -49,12 +49,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Temperatura: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Napięcie: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Uderzenie: %1$s</string>
-    <string name="bp_default_only">Domyślne ulepszenia FDE</string>
-    <string name="bp_niko_gpu">Ulepszenia GPU Niko</string>
-    <string name="bp_niko_net">Ulepszenia sieci Niko</string>
-    <string name="bprop_nikogpu_txt">Ulepszenia GPU Niko Schwickert. Może poprawić wydajność na starszych urządzeniach.</string>
-    <string name="bprop_nikonet_txt">Ulepszenia sieci Niko Schwickert. Może zwiększyć szybkość transmisji komórkowej.</string>
-    <string name="build_prop_tweaks">Ulepszenia Build.Prop</string>
     <string name="burnit">Wyłącz ograniczanie</string>
     <string name="bypassch_desc">Ogranicza natężenie prądu ładowarki podczas ciężkich procesów, aby dopasować zużycie urządzenia, zmniejszając ładowanie baterii i ogrzewanie.</string>
     <string name="bypassch_title">Bypass ładowania</string>
@@ -168,11 +162,9 @@
     <string name="powersave">Oszczędzanie energii</string>
     <string name="preload_title">Automatyczne wczytywanie wstępne</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
-    <string name="premium_card_audio">Powiadomienia dźwiękowe</string>
     <string name="premium_card_overlays_desc">Konfigurowalne okno nakładki z różnymi statystykami, w tym licznikiem FSP.</string>
     <string name="premium_card_profiles">Rozszerzone profile aplikacji</string>
     <string name="premium_card_profiles_desc">Konfigurowalne profile aplikacji z wieloma opcjami.</string>
-    <string name="premium_card_soundpack_desc">Dostosowywalne powiadomienia dźwiękowe dla akcji FDE.AI.</string>
     <string name="premium_text">Wspieraj FDE.AI i odblokuj wszystkie ekskluzywne funkcje:</string>
     <string name="premium_thanks">Dziękujemy za wsparcie! Odblokowałeś te funkcje:</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -184,7 +176,6 @@
     <string name="reset_art_dialog_text">Wyczyścić pamięć podręczną ART i zrestartować?</string>
     <string name="start_art_dialog_text">Optymalizacja pamięci podręcznej ART może zająć trochę czasu, spowodować opóźnienie i przegrzanie urządzenia. Kontynuować?</string>
     <string name="reset_fde_dialog_text">Zresetować wszystkie ustawienia FDE.AI?</string>
-    <string name="resetscale_hw">Domyślne ustawienia sprzętu</string>
     <string name="restart_fde_action">Uruchom ponownie FDE.AI</string>
     <string name="restart_fde_in_progress">Restarting FDE.AI</string>
     <string name="rm_fde_lite">Najpierw odinstaluj FDE.AI lite wersje!</string>
@@ -216,7 +207,6 @@
     <string name="vibration">Wibruj raz</string>
     <string name="warning_header">Ostrzeżenie</string>
     <string name="welcome">Witaj</string>
-    <string name="bprop_default_txt">Domyślne ulepszenia build.prop. Wyłącz je, jeśli masz problemy z FDE.AI.</string>
     <string name="overlay_opacity_main">Overlay opacity</string>
     <string name="tweaks_disabled">Wszystkie ulepszenia są wyłączone</string>
     <string name="exit_confirmation_title">Wyjść?</string>
@@ -229,7 +219,6 @@
     <string name="kernel_block">Bieżące jądro %1$s blokuje instalację Premium. Rozważ zainstalowanie innego jądra.</string>
     <string name="profile_ai_mode_desc">Wybierz tryb AI, gdy aplikacja jest w użyciu.</string>
     <string name="preload_pro_required">Dla tej funkcji wymagane jest wstępne załadowanie aplikacji Pro.</string>
-    <string name="premium_required">FDE.AI Premium jest wymagane dla tych funkcji.</string>
     <string name="overlay_power_x">Siła: %1$s mAh</string>
     <string name="overlay_battery_temp_x">Bateria: %1$s°C</string>
     <string name="overlay_scale_main">Skala nakładki</string>
@@ -269,4 +258,5 @@
     <string name="extraopt_schedule_title">Harmonogram uruchamiania codziennie</string>
     <string name="extraopt_schedule_time">Ustaw codzienny czas automatycznej optymalizacji</string>
     <string name="sound_notifications">Powiadomienia dźwiękowe</string>
+    <string name="migration_error">Wystąpił nieoczekiwany błąd podczas migracji danych. Dane zostaną wyczyszczone.</string>
 </resources>

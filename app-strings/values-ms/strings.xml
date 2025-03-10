@@ -49,12 +49,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Suhu: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Voltan: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Pemakaian: %1$s</string>
-    <string name="bp_default_only">Pengubahsuaian FDE asal</string>
-    <string name="bp_niko_gpu">Pengubahsuaian GPU Niko</string>
-    <string name="bp_niko_net">Pengubahsuaian rangkaian Niko</string>
-    <string name="bprop_nikogpu_txt">Pengubahsuaian GPU Niko Schwickert. Kemungkinan meningkatkan prestasi pada peranti lama.</string>
-    <string name="bprop_nikonet_txt">Pengubahsuaian rangkaian Niko Schwickert. Kemungkinan meningkatkan kelajuan data selular.</string>
-    <string name="build_prop_tweaks">Pengubahsuaian Build.prop</string>
     <string name="burnit">Membuang penghad</string>
     <string name="bypassch_desc">Menghadkan arus pengecas ketika proses berat berjalan untuk menyesuaikan penggunaan peranti, mengurangkan pengecasan bateri dan pemanasan.</string>
     <string name="bypassch_title">Pintas pengecasan</string>
@@ -168,11 +162,9 @@
     <string name="powersave">Jimat tenaga</string>
     <string name="preload_title">Pramuat automatik</string>
     <string name="premium">⭐️ Dapatkan FDE.AI Premium ⭐️</string>
-    <string name="premium_card_audio">Amaran bunyi</string>
     <string name="premium_card_overlays_desc">Tingkap tindanan yang boleh disesuaikan dengan pelbagai statistik termasuk meter FPS.</string>
     <string name="premium_card_profiles">Profil apl lanjutan</string>
     <string name="premium_card_profiles_desc">Profil aplikasi yang boleh disesuaikan dengan banyak pilihan.</string>
-    <string name="premium_card_soundpack_desc">Pemberitahuan bunyi yang boleh disesuaikan untuk tindakan FDE.AI.</string>
     <string name="premium_text">Sokong FDE.AI dan buka kunci semua ciri eksklusif:</string>
     <string name="premium_thanks">Terima kasih atas sokongan anda! Anda membuka kunci ciri ini:</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -184,7 +176,6 @@
     <string name="reset_art_dialog_text">Kosongkan cache ART dan but semula?</string>
     <string name="start_art_dialog_text">Optimumkan ART cache mungkin mengambil masa, menyebabkan peranti perlahan dan panas. Teruskan?</string>
     <string name="reset_fde_dialog_text">Tetapkan semula semua tetapan FDE.AI?</string>
-    <string name="resetscale_hw">Perkakasan lalai</string>
     <string name="restart_fde_action">Mulakan semula FDE.AI</string>
     <string name="restart_fde_in_progress">Memulakan semula FDE.AI</string>
     <string name="rm_fde_lite">Nyahpasang FDE.AI versi ringan dahulu!</string>
@@ -215,7 +206,6 @@
     <string name="vibration">Bergetar sekali</string>
     <string name="warning_header">Amaran</string>
     <string name="welcome">Selamat Datang</string>
-    <string name="bprop_default_txt">Tweak binaan.prop lalai. Lumpuhkan mereka dahulu jika anda menghadapi masalah dengan FDE.AI.</string>
     <string name="overlay_opacity_main">Kelegapan tindihan atas</string>
     <string name="tweaks_disabled">Semua tweak dilumpuhkan</string>
     <string name="exit_confirmation_title">Keluar?</string>
@@ -228,7 +218,6 @@
     <string name="kernel_block">Kernel semasa %1$s menyekat pemasangan Premium. Sila pertimbangkan untuk memasang kernel lain.</string>
     <string name="profile_ai_mode_desc">Pilih mod AI semasa apl sedang digunakan.</string>
     <string name="preload_pro_required">Apl Pramuat Pro diperlukan untuk ciri ini.</string>
-    <string name="premium_required">FDE.AI Premium diperlukan untuk ciri ini.</string>
     <string name="overlay_power_x">Power: %1$s mAh</string>
     <string name="overlay_battery_temp_x">Battery: %1$s°C</string>
     <string name="overlay_scale_main">Skala tindanan</string>
@@ -268,4 +257,5 @@
     <string name="extraopt_schedule_title">Jadualkan untuk dijalankan setiap hari</string>
     <string name="extraopt_schedule_time">Tetapkan masa autooptimum harian</string>
     <string name="sound_notifications">Pemberitahuan bunyi</string>
+    <string name="migration_error">Ralat yang tidak dijangka berlaku semasa pemindahan data. Data akan dikosongkan.</string>
 </resources>

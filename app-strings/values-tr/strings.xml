@@ -49,12 +49,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Sıcaklık: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Voltaj: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Aşınma: %1$s</string>
-    <string name="bp_default_only">Varsayılan FDE ince ayarları</string>
-    <string name="bp_niko_gpu">NIKO\'nun GPU ince ayarı</string>
-    <string name="bp_niko_net">NIKO\'nun ağ ince ayarı</string>
-    <string name="bprop_nikogpu_txt">Niko Schwickert\'in GPU ince ayarı. Eski cihazlarda performansı artırabilir.</string>
-    <string name="bprop_nikonet_txt">Niko Schwickert\'in ağ ince ayarı. Hücresel veri hızını artırabilir.</string>
-    <string name="build_prop_tweaks">Build.prop ince ayarı</string>
     <string name="burnit">Kısmayı devre dışı bırak</string>
     <string name="bypassch_desc">Ağır işlemler sırasında şarj cihazının akımını cihaz kullanımına uyacak şekilde sınırlayarak pil şarjını ve ısınmasını azaltır.</string>
     <string name="bypassch_title">Şarj baypası</string>
@@ -168,11 +162,9 @@
     <string name="powersave">Güç tasarrufu</string>
     <string name="preload_title">Otomatik ön yükleme</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
-    <string name="premium_card_audio">Sesli uyarılar</string>
     <string name="premium_card_overlays_desc">Fps ölçer dahil olmak üzere çeşitli istatistiklere sahip özelleştirilebilir bindirme pencereleri.</string>
     <string name="premium_card_profiles">Genişletilmiş uygulama profilleri</string>
     <string name="premium_card_profiles_desc">Birçok seçenekle özelleştirilebilir uygulama profilleri.</string>
-    <string name="premium_card_soundpack_desc">FDE.AI eylemleri için özelleştirilebilir ses bildirimleri.</string>
     <string name="premium_text">FDE.AI\'yi destekleyin ve tüm özel özelliklerin kilidini açın:</string>
     <string name="premium_thanks">Desteğiniz için teşekkürler! Bu özelliklerin kilidini açtınız:</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -184,7 +176,6 @@
     <string name="reset_art_dialog_text">ART önbelleği temizlensin ve yeniden başlatılsın mı?</string>
     <string name="start_art_dialog_text">ART önbelleğini optimize etmek zaman alabilir, cihaz gecikmesine ve aşırı ısınmaya neden olabilir. Devam edilsin mi?</string>
     <string name="reset_fde_dialog_text">Tüm FDE.AI ayarları sıfırlansın mı?</string>
-    <string name="resetscale_hw">Donanım varsayılanları</string>
     <string name="restart_fde_action">FDE.AI\'yi yeniden başlat</string>
     <string name="restart_fde_in_progress">FDE.AI yeniden başlatılıyor</string>
     <string name="rm_fde_lite">Önce FDE.AI lite sürümünü kaldırın!</string>
@@ -216,7 +207,6 @@
     <string name="vibration">Bir kez titreştir</string>
     <string name="warning_header">Uyarı</string>
     <string name="welcome">Hoş geldiniz</string>
-    <string name="bprop_default_txt">Varsayılan build.prop ince ayarı. FDE.AI ile ilgili sorunlarınız varsa önce bunları devre dışı bırakın.</string>
     <string name="overlay_opacity_main">Kaplama opaklığı</string>
     <string name="overlay_scale_main">Kaplama ölçeği</string>
     <string name="tweaks_disabled">Tüm ince ayarlar devre dışı</string>
@@ -230,7 +220,6 @@
     <string name="kernel_block">Mevcut çekirdek %1$s Premium kurulumu engelliyor. Lütfen başka bir çekirdek kurmayı düşünün.</string>
     <string name="profile_ai_mode_desc">Uygulama kullanımdayken AI modunu seçin.</string>
     <string name="preload_pro_required">Bu özellik için Preload Pro uygulaması gereklidir.</string>
-    <string name="premium_required">Bu özellikler için FDE.AI Premium gereklidir.</string>
     <string name="overlay_power_x">Güç: %1$s mAh</string>
     <string name="overlay_battery_temp_x">Pil: %1$s°C</string>
     <string name="emergency_cooldown">Acil Durum Beklemesi</string>
@@ -269,4 +258,5 @@
     <string name="extraopt_schedule_title">Günlük olarak çalışacak şekilde zamanlayın</string>
     <string name="extraopt_schedule_time">Günlük otomatik optimizasyon zamanını ayarlayın</string>
     <string name="sound_notifications">Sesli bildirimler</string>
+    <string name="migration_error">Veri geçişi sırasında beklenmeyen bir hata oluştu. Veriler temizlenecek.</string>
 </resources>

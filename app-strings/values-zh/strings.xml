@@ -49,12 +49,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">温度： %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">电压: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">墙体: %1$s</string>
-    <string name="bp_default_only">默认FDE 调整</string>
-    <string name="bp_niko_gpu">暖暖的 GPU 调整</string>
-    <string name="bp_niko_net">暖暖的网络调整</string>
-    <string name="bprop_nikogpu_txt">Niko Schwicker的 GPU 调整。可以改进旧设备的性能。</string>
-    <string name="bprop_nikonet_txt">Niko Schwickert的网络调整。可以提高移动数据速度。</string>
-    <string name="build_prop_tweaks">Build.prop 调整</string>
     <string name="burnit">禁用裁剪功能</string>
     <string name="bypassch_desc">在重压过程中限制充电器电流以匹配设备使用率，降低充电和加热。</string>
     <string name="bypassch_title">充电旁路</string>
@@ -168,11 +162,9 @@
     <string name="powersave">省电</string>
     <string name="preload_title">自动预加载</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
-    <string name="premium_card_audio">声音提醒</string>
     <string name="premium_card_overlays_desc">可自定义的叠加层窗口，拥有包括FPS仪表在内的各种统计信息。</string>
     <string name="premium_card_profiles">扩展的应用程序配置文件</string>
     <string name="premium_card_profiles_desc">可自定义的应用程序配置文件有许多选项。</string>
-    <string name="premium_card_soundpack_desc">FDE.AI动作自定义声音通知。</string>
     <string name="premium_text">支持FDE.AI并解锁所有独家功能：</string>
     <string name="premium_thanks">感谢您的支持！您解锁了这些功能：</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -184,7 +176,6 @@
     <string name="reset_art_dialog_text">清除ART缓存并重启？</string>
     <string name="start_art_dialog_text">优化ART缓存可能需要时间，导致设备滞后和过热。是否继续？</string>
     <string name="reset_fde_dialog_text">重置所有FDE.AI设置吗？</string>
-    <string name="resetscale_hw">硬件默认值</string>
     <string name="restart_fde_action">重新启动FDE.A.I</string>
     <string name="restart_fde_in_progress">Restarting FDE.AI</string>
     <string name="rm_fde_lite">先卸载FDE.AI lite 版本！</string>
@@ -216,7 +207,6 @@
     <string name="vibration">振动一次</string>
     <string name="warning_header">警告</string>
     <string name="welcome">欢迎使用</string>
-    <string name="bprop_default_txt">默认build.prop 调整。如果您与 FDE.AI 有问题，请先禁用它们。</string>
     <string name="overlay_opacity_main">Overlay opacity</string>
     <string name="tweaks_disabled">已禁用所有调整</string>
     <string name="exit_confirmation_title">退出？</string>
@@ -229,7 +219,6 @@
     <string name="kernel_block">当前内核 %1$s 阻止高级安装。请考虑安装另一个内核。</string>
     <string name="profile_ai_mode_desc">在应用程序使用时选择 AI 模式。</string>
     <string name="preload_pro_required">此功能需要Preload Pro 应用。</string>
-    <string name="premium_required">这些功能需要FDEAI 高级版。</string>
     <string name="overlay_power_x">能量: %1$s mAh</string>
     <string name="overlay_battery_temp_x">电池： %1$s°C</string>
     <string name="overlay_scale_main">叠加比例</string>
@@ -269,4 +258,5 @@
     <string name="extraopt_schedule_title">安排每日运行</string>
     <string name="extraopt_schedule_time">设置每日自动优化时间</string>
     <string name="sound_notifications">声音通知</string>
+    <string name="migration_error">数据迁移时发生意外错误。数据将被清除。</string>
 </resources>

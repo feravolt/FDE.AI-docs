@@ -49,12 +49,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Temperatuur: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Spanning: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Woord: %1$s</string>
-    <string name="bp_default_only">Standaard FDE tweaks</string>
-    <string name="bp_niko_gpu">Niko\'s GPU tweaks</string>
-    <string name="bp_niko_net">Netwerktweaks van Niko\'s</string>
-    <string name="bprop_nikogpu_txt">Niko Schwickert\'s GPU-aanpassingen. Kan de prestaties op oudere apparaten verbeteren.</string>
-    <string name="bprop_nikonet_txt">De netwerkaanpassingen van Niko Schwickert. Kan de mobiele gegevenssnelheid verhogen.</string>
-    <string name="build_prop_tweaks">Build.prop tweaks</string>
     <string name="burnit">Kantelen uitschakelen</string>
     <string name="bypassch_desc">Limit laadstroom tijdens zware processen wordt uitgevoerd om het apparaatgebruik gelijk te stellen, het opladen van de batterij en de verwarming te verminderen.</string>
     <string name="bypassch_title">Opladen bypass</string>
@@ -168,11 +162,9 @@
     <string name="powersave">Energiebesparing</string>
     <string name="preload_title">Automatisch voorladen</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
-    <string name="premium_card_audio">Geluid waarschuwingen</string>
     <string name="premium_card_overlays_desc">Aanpasbare overlay-vensters met verschillende statistieken, waaronder FPS-meter.</string>
     <string name="premium_card_profiles">Uitgebreide app-profielen</string>
     <string name="premium_card_profiles_desc">Aanpasbare app-profielen met vele opties.</string>
-    <string name="premium_card_soundpack_desc">Aanpasbare geluidsmeldingen voor FDE.AI-acties.</string>
     <string name="premium_text">Steun FDE.AI en ontgrendel alle exclusieve functies:</string>
     <string name="premium_thanks">Bedankt voor je steun! Je hebt deze functies ontgrendeld:</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -184,7 +176,6 @@
     <string name="reset_art_dialog_text">ART cache wissen en herstarten?</string>
     <string name="start_art_dialog_text">ART cache optimaliseren kan tijd kosten, vertraging en oververhitting veroorzaken. Doorgaan?</string>
     <string name="reset_fde_dialog_text">Alle instellingen van FDE.AI resetten?</string>
-    <string name="resetscale_hw">Hardware standaard</string>
     <string name="restart_fde_action">FDE.AI herstarten</string>
     <string name="restart_fde_in_progress">Restarting FDE.AI</string>
     <string name="rm_fde_lite">Verwijder eerst FDE.AI Lite versie!</string>
@@ -216,7 +207,6 @@
     <string name="vibration">Eén keer trillen</string>
     <string name="warning_header">Waarschuwing</string>
     <string name="welcome">Verwelkoming</string>
-    <string name="bprop_default_txt">Standaard build.prop tweaks. Schakel deze eerst uit als je problemen hebt met FDE.AI.</string>
     <string name="overlay_opacity_main">Overlay opacity</string>
     <string name="tweaks_disabled">Alle tweaks zijn uitgeschakeld</string>
     <string name="exit_confirmation_title">Sluiten?</string>
@@ -229,7 +219,6 @@
     <string name="kernel_block">Huidige kernel %1$s blokkeert Premium installatie. Overweeg alstublieft een andere kernel te installeren.</string>
     <string name="profile_ai_mode_desc">Selecteer AI-modus terwijl de app in gebruik is.</string>
     <string name="preload_pro_required">Preload Pro app is vereist voor deze functie.</string>
-    <string name="premium_required">FDE.AI Premium is vereist voor deze functies.</string>
     <string name="overlay_power_x">Kracht: %1$s mAh</string>
     <string name="overlay_battery_temp_x">Batterij: %1$s°C</string>
     <string name="overlay_scale_main">Overlayschaal</string>
@@ -269,4 +258,5 @@
     <string name="extraopt_schedule_title">Plannen om dagelijks uit te voeren</string>
     <string name="extraopt_schedule_time">Stel dagelijkse tijd voor automatische optimalisatie in</string>
     <string name="sound_notifications">Geluidsmeldingen</string>
+    <string name="migration_error">Er is een onverwachte fout opgetreden tijdens de datamigratie. Gegevens worden gewist.</string>
 </resources>

@@ -49,12 +49,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">درجة الحرارة: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">فولتاج: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">عجب: %1$s</string>
-    <string name="bp_default_only">تعديلات FDE الافتراضية</string>
-    <string name="bp_niko_gpu">تعديلات Niko GPU</string>
-    <string name="bp_niko_net">تعديلات شبكة نيكو</string>
-    <string name="bprop_nikogpu_txt">Niko Schwickert GPU. قد يحسن الأداء على الأجهزة القديمة.</string>
-    <string name="bprop_nikonet_txt">أضعفات شبكة نيكو شويكرت. قد يزيد من سرعة البيانات الخلوية.</string>
-    <string name="build_prop_tweaks">تعديلات Build.prop</string>
     <string name="burnit">تعطيل الخنق</string>
     <string name="bypassch_desc">الحد من تيار الشاحن أثناء العمليات الثقيلة يعمل لتطابق استخدام الجهاز، مما يقلل شحن البطارية والتدفئة.</string>
     <string name="bypassch_title">تجاوز الشحن</string>
@@ -168,11 +162,9 @@
     <string name="powersave">توفير الطاقة</string>
     <string name="preload_title">التحميل التلقائي</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
-    <string name="premium_card_audio">التنبيهات الصوتية</string>
     <string name="premium_card_overlays_desc">تخصيص نوافذ ذات إحصائيات مختلفة بما في ذلك متر FPS.</string>
     <string name="premium_card_profiles">ملفات تعريف التطبيق الموسعة</string>
     <string name="premium_card_profiles_desc">ملفات تعريف التطبيق القابلة للتخصيص مع العديد من الخيارات.</string>
-    <string name="premium_card_soundpack_desc">التنبيهات الصوتية القابلة للتخصيص لإجراءات FDE.AI.</string>
     <string name="premium_text">دعم FDE.AI وفتح جميع الميزات الحصرية:</string>
     <string name="premium_thanks">شكرا لك على دعمك! لقد قمت بفتح هذه الميزات:</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -184,7 +176,6 @@
     <string name="reset_art_dialog_text">مسح ذاكرة التخزين المؤقت لـ ART وإعادة التشغيل؟</string>
     <string name="start_art_dialog_text">تحسين ذاكرة التخزين المؤقت لـ ART قد يستغرق وقتاً، تسبب في تأخر الجهاز وارتفاع حرارة الجهاز. هل تريد المتابعة؟</string>
     <string name="reset_fde_dialog_text">إعادة تعيين كافة إعدادات FDE.AI ؟</string>
-    <string name="resetscale_hw">افتراضات الجهاز</string>
     <string name="restart_fde_action">إعادة تشغيل FDE.AI</string>
     <string name="restart_fde_in_progress">Restarting FDE.AI</string>
     <string name="rm_fde_lite">الغاء تثبيت FDE.AI lite اولا !</string>
@@ -216,7 +207,6 @@
     <string name="vibration">اهتزاز مرة واحدة</string>
     <string name="warning_header">تحذير</string>
     <string name="welcome">مرحبا بك</string>
-    <string name="bprop_default_txt">إعدادات build.prop الافتراضية. قم بتعطيلها أولاً إذا كان لديك مشاكل مع FDE.AI.</string>
     <string name="overlay_opacity_main">Overlay opacity</string>
     <string name="tweaks_disabled">كل التعديلات معطلة</string>
     <string name="exit_confirmation_title">خروج ؟</string>
@@ -229,7 +219,6 @@
     <string name="kernel_block">kernel الحالي %1$s كتل التثبيت المتميز. الرجاء النظر في تثبيت كيرنل آخر.</string>
     <string name="profile_ai_mode_desc">حدد وضع الذكاء الاصطناعي أثناء استخدام التطبيق.</string>
     <string name="preload_pro_required">مطلوب تحميل مسبق لتطبيق Pro لهذه الميزة.</string>
-    <string name="premium_required">FDE.AI Premium مطلوب لهذه الميزات.</string>
     <string name="overlay_power_x">القوة: %1$s mAh</string>
     <string name="overlay_battery_temp_x">البطارية: %1$s°C</string>
     <string name="overlay_scale_main">مقياس التراكب</string>
@@ -269,4 +258,5 @@
     <string name="extraopt_schedule_title">جدولة التشغيل يوميًا</string>
     <string name="extraopt_schedule_time">تعيين وقت التحسين التلقائي اليومي</string>
     <string name="sound_notifications">إشعارات صوتية</string>
+    <string name="migration_error">حدث خطأ غير متوقع أثناء نقل البيانات. سيتم مسح البيانات.</string>
 </resources>

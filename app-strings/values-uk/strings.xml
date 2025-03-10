@@ -49,12 +49,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Температура: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Вольтаж: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Сторож: %1$s</string>
-    <string name="bp_default_only">Налаштування FDE за замовчуванням</string>
-    <string name="bp_niko_gpu">Твікі графіки Niko</string>
-    <string name="bp_niko_net">Тонкі налаштування мережі Niko</string>
-    <string name="bprop_nikogpu_txt">Тонкі налаштування GPU Ніко Швікера. Може покращити продуктивність на старіших пристроях.</string>
-    <string name="bprop_nikonet_txt">Ніко Швікертська мережа. Може збільшити швидкість стільникових даних.</string>
-    <string name="build_prop_tweaks">Твіки Build.prop</string>
     <string name="burnit">Вимкнути дроселювання</string>
     <string name="bypassch_desc">Обмежує струм зарядного пристрою під час важких процесів, зменшуючи заряд акумулятора та опалення.</string>
     <string name="bypassch_title">Заряджання обходу</string>
@@ -168,11 +162,9 @@
     <string name="powersave">Енергозбереження</string>
     <string name="preload_title">Попереднє завантаження</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
-    <string name="premium_card_audio">Звукові сповіщення</string>
     <string name="premium_card_overlays_desc">Вікна, які можна налаштувати накладання різноманітними статистиками, включаючи метр FPS.</string>
     <string name="premium_card_profiles">Розширені профілі програм</string>
     <string name="premium_card_profiles_desc">Профілі, які можна налаштувати в додатках, має багато опцій.</string>
-    <string name="premium_card_soundpack_desc">Настроювання звукових сповіщень для дій FDE.AI.</string>
     <string name="premium_text">Підтримка FDE.AI та розблокування усіх ексклюзивних функцій:</string>
     <string name="premium_thanks">Дякуємо за підтримку! Ви розблокували ці функції:</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -184,7 +176,6 @@
     <string name="reset_art_dialog_text">Очистити кеш ART та перезавантажити?</string>
     <string name="start_art_dialog_text">Оптимізація ART кешу може зайняти час, тому пристрій буде перегріти. Продовжити?</string>
     <string name="reset_fde_dialog_text">Скинути всі налаштування FDE.AI?</string>
-    <string name="resetscale_hw">Значення за замовчуванням</string>
     <string name="restart_fde_action">Перезапустити AI</string>
     <string name="restart_fde_in_progress">Restarting FDE.AI</string>
     <string name="rm_fde_lite">Спочатку видалити версію FDE.AI lit!</string>
@@ -216,7 +207,6 @@
     <string name="vibration">Вібрація одноразово</string>
     <string name="warning_header">Застереження</string>
     <string name="welcome">Вітаємо</string>
-    <string name="bprop_default_txt">Налаштування build.prop за замовчуванням встановлено. Спершу відключіть їх, якщо у вас виникли проблеми з FDE.AI.</string>
     <string name="overlay_opacity_main">Непрозорість накладання</string>
     <string name="overlay_scale_main">Масштаб накладання</string>
     <string name="tweaks_disabled">Всі твіки вимкнено</string>
@@ -230,7 +220,6 @@
     <string name="kernel_block">Поточне ядро %1$s блокує Преміум установку. Розгляньте можливість встановлення іншого ядра.</string>
     <string name="profile_ai_mode_desc">Виберіть режим ШІ при використанні застосунку.</string>
     <string name="preload_pro_required">Для цієї можливості необхідне передзавантаження додатку Pro.</string>
-    <string name="premium_required">Для цих функцій необхідний FDE.AI Premium.</string>
     <string name="overlay_power_x">Питане: %1$s mAh</string>
     <string name="overlay_battery_temp_x">Батарея: %1$s°C</string>
     <string name="emergency_cooldown">Екстрене заряджання</string>
@@ -269,4 +258,5 @@
     <string name="extraopt_schedule_title">Розклад щоденної роботи</string>
     <string name="extraopt_schedule_time">Установити час щоденної автоматичної оптимізації</string>
     <string name="sound_notifications">Звукові сповіщення</string>
+    <string name="migration_error">Під час міграції даних сталася неочікувана помилка. Дані будуть очищені.</string>
 </resources>

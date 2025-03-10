@@ -49,12 +49,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Temperatură: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Voltaj: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Wear: %1$s</string>
-    <string name="bp_default_only">Ajustări FDE implicite</string>
-    <string name="bp_niko_gpu">Ajustările GPU ale lui Niko</string>
-    <string name="bp_niko_net">Ajustările rețelei lui Niko</string>
-    <string name="bprop_nikogpu_txt">GPU al lui Niko Schwickert. Poate îmbunătăţi performanţa pe dispozitivele mai vechi.</string>
-    <string name="bprop_nikonet_txt">Reţeaua Niko Schwickert se adaptează. Poate creşte viteza datelor celulare.</string>
-    <string name="build_prop_tweaks">Ajustări Build.prop</string>
     <string name="burnit">Dezactivare încetinire</string>
     <string name="bypassch_desc">Limitele curentului de încărcare în timpul proceselor grele se potrivesc cu utilizarea dispozitivului, reducând încărcarea bateriei și încălzirea.</string>
     <string name="bypassch_title">Incarcare bypass</string>
@@ -168,11 +162,9 @@
     <string name="powersave">Economisire</string>
     <string name="preload_title">Preîncărcare automată</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
-    <string name="premium_card_audio">Alerte de sunet</string>
     <string name="premium_card_overlays_desc">Ferestre personalizate suprapuse cu diferite statistici, inclusiv contorul FPS.</string>
     <string name="premium_card_profiles">Profil de aplicații extins</string>
     <string name="premium_card_profiles_desc">Profiluri de aplicații personalizabile cu multe opțiuni.</string>
-    <string name="premium_card_soundpack_desc">Notificări sonore personalizabile pentru acțiuni FDE.AI.</string>
     <string name="premium_text">Susțineți FDE.AI și deblocați toate funcțiile exclusive:</string>
     <string name="premium_thanks">Vă mulțumim pentru sprijin! Ați deblocat aceste caracteristici:</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -184,7 +176,6 @@
     <string name="reset_art_dialog_text">Ștergeți geocutia și reporniți ART?</string>
     <string name="start_art_dialog_text">Optimizarea geocutiei ART poate dura timp, poate cauza decalajul şi supraîncălzirea dispozitivului. Continuaţi?</string>
     <string name="reset_fde_dialog_text">Resetați toate setările FDE.AI?</string>
-    <string name="resetscale_hw">Hardware implicit</string>
     <string name="restart_fde_action">Repornește FDE.AI</string>
     <string name="restart_fde_in_progress">Restarting FDE.AI</string>
     <string name="rm_fde_lite">Dezinstalează mai întâi versiunea FDE.AI lite!</string>
@@ -216,7 +207,6 @@
     <string name="vibration">Vibrează o dată</string>
     <string name="warning_header">Avertizare</string>
     <string name="welcome">Bun venit</string>
-    <string name="bprop_default_txt">Adaptări implicite build.prop. Dezactivați-le mai întâi dacă aveți probleme cu FDE.AI.</string>
     <string name="overlay_opacity_main">Overlay opacity</string>
     <string name="tweaks_disabled">Toate modificările sunt dezactivate</string>
     <string name="exit_confirmation_title">Ieşi?</string>
@@ -229,7 +219,6 @@
     <string name="kernel_block">Actualul nucleu %1$s blochează instalarea Premium. Te rugăm să iei în considerare instalarea unui alt kernel.</string>
     <string name="profile_ai_mode_desc">Selectați modul AI în timp ce aplicația este în uz.</string>
     <string name="preload_pro_required">Pentru această funcție este necesară preîncărcarea aplicației Pro.</string>
-    <string name="premium_required">FDE.AI Premium este necesar pentru aceste caracteristici.</string>
     <string name="overlay_power_x">Putere: %1$s mAh</string>
     <string name="overlay_battery_temp_x">Baterie: %1$s°C</string>
     <string name="overlay_scale_main">Scara de suprapunere</string>
@@ -269,4 +258,5 @@
     <string name="extraopt_schedule_title">Programați să ruleze zilnic</string>
     <string name="extraopt_schedule_time">Setați ora zilnică de optimizare automată</string>
     <string name="sound_notifications">Notificări sonore</string>
+    <string name="migration_error">A apărut o eroare neașteptată la migrarea datelor. Datele vor fi șterse.</string>
 </resources>

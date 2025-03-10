@@ -49,12 +49,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">温度: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">電圧: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">劣化: %1$s</string>
-    <string name="bp_default_only">デフォルトのFDEの微調整</string>
-    <string name="bp_niko_gpu">NikoのGPUの微調整</string>
-    <string name="bp_niko_net">Nikoのネットワークの微調整</string>
-    <string name="bprop_nikogpu_txt">Niko SchwickertのGPUの微調整です。古いデバイスでのパフォーマンスが向上する可能性があります。</string>
-    <string name="bprop_nikonet_txt">Niko Schwickertのネットワークの微調整です。モバイルネットワークの速度を上げることができる可能性があります。</string>
-    <string name="build_prop_tweaks">Build.propの微調整</string>
     <string name="burnit">スロットリングを無効化</string>
     <string name="bypassch_desc">高負荷プロセスの実行中にデバイスの使用状況に合わせて充電電流を制限し、バッテリーの充電と発熱を抑えます。</string>
     <string name="bypassch_title">バイパス充電</string>
@@ -172,11 +166,9 @@
     <string name="powersave">省電力</string>
     <string name="preload_title">自動プリロード</string>
     <string name="premium">⭐️ FDE.AIプレミアム ⭐️</string>
-    <string name="premium_card_audio">音声アラート</string>
     <string name="premium_card_overlays_desc">FPSメーターを含む様々なステータスのオーバーレイ表示をカスタマイズできます。</string>
     <string name="premium_card_profiles">拡張アプリプロファイル</string>
     <string name="premium_card_profiles_desc">多くのオプションを備えたカスタマイズ可能なアプリプロファイルです。</string>
-    <string name="premium_card_soundpack_desc">FDE.AIのアクションのサウンド通知を微調整できます。</string>
     <string name="premium_text">FDE.AIの開発をサポートし、すべての独自機能のロックを解除しましょう！</string>
     <string name="premium_thanks">ご支援ありがとうございます！以下の機能をアンロックしました。</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -188,7 +180,6 @@
     <string name="reset_art_dialog_text">ARTキャッシュをクリアして再起動しますか？</string>
     <string name="start_art_dialog_text">ARTキャッシュの最適化には時間がかかり、デバイスが遅くなったり過熱したりする可能性があります。続行しますか？</string>
     <string name="reset_fde_dialog_text">すべてのFDE.AIの設定をリセットしますか？</string>
-    <string name="resetscale_hw">ハードウェアのデフォルト</string>
     <string name="restart_fde_action">FDE.AIを再起動</string>
     <string name="restart_fde_in_progress">FDE.AIを再起動しています…</string>
     <string name="rm_fde_lite">先にFDE.AIのライトバージョンをアンインストールしてください！</string>
@@ -223,7 +214,6 @@
     <string name="warning_header">警告</string>
     <string name="welcome">ようこそ！</string>
     <string name="youtube" tools:ignore="MissingTranslation">https://www.youtube.com/@FeraLab</string>
-    <string name="bprop_default_txt">デフォルトのbuild.propを微調整します。FDE.AIに問題がある場合、まずはこれを無効にしてみてください。</string>
     <string name="overlay_opacity_main">オーバーレイの不透明度</string>
     <string name="overlay_scale_main">オーバーレイスケール</string>
     <string name="tweaks_disabled">すべての微調整は無効になっています。</string>
@@ -237,7 +227,6 @@
     <string name="kernel_block">現在のカーネル「%1$s」はプレミアムのインストールをブロックします。別のカーネルのインストールを検討してください。</string>
     <string name="profile_ai_mode_desc">アプリ使用時のAIモードを選択します。</string>
     <string name="preload_pro_required">この機能を使用するには「Preload」のProバージョンが必要です。</string>
-    <string name="premium_required">これらの機能を使用するにはFDE.AIプレミアムが必要です。</string>
     <string name="overlay_power_x">電力: %1$s mAh</string>
     <string name="overlay_battery_temp_x">バッテリー: %1$s°C</string>
     <string name="emergency_cooldown">緊急冷却</string>
@@ -284,4 +273,5 @@
     <string name="extraopt_schedule_title">毎日実行するスケジュール</string>
     <string name="extraopt_schedule_time">毎日の自動最適化時間を設定</string>
     <string name="sound_notifications">サウンド通知</string>
+    <string name="migration_error">データ移行中に予期しないエラーが発生しました。データは消去されます。</string>
 </resources>

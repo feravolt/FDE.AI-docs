@@ -49,12 +49,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Температура: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Вольтаж: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Кийүү: %1$s</string>
-    <string name="bp_default_only">Баштапкы FDE жөндөөлөрү</string>
-    <string name="bp_niko_gpu">Niko\'нун GPU жөндөөлөрү</string>
-    <string name="bp_niko_net">Niko\'нун тармактык жөндөөлөрү</string>
-    <string name="bprop_nikogpu_txt">Нико Швикерттин GPU түзмөгү. Эски телефондордо иштешин жакшыртышы мүмкүн.</string>
-    <string name="bprop_nikonet_txt">Нико Швикерттин тармактык өзгөртүүлөрү. Уюлдук маалымат ылдамдыгын жогорулатуу мүмкүн.</string>
-    <string name="build_prop_tweaks">Build.prop жөндөөлөрү</string>
     <string name="burnit">Тыюулоону өчүрүү</string>
     <string name="bypassch_desc">Оор процесстер учурунда заряддагыч агымды чектеп, батареянын зарядын жана жылытуусун азайтып, түзмөктү колдонууга дал келет.</string>
     <string name="bypassch_title">Заряддоону айланып өтүү</string>
@@ -168,11 +162,9 @@
     <string name="powersave">Энергияны үнөмдөө</string>
     <string name="preload_title">Авто алдын ала жүктөө</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
-    <string name="premium_card_audio">Үн билдирмелери</string>
     <string name="premium_card_overlays_desc">FPS өлчөгүч, анын ичинде ар кандай статистика менен өзгөчөлөштүрүлүүчү кабатталган терезелер.</string>
     <string name="premium_card_profiles">Кеңейтилген колдонмо профилдери</string>
     <string name="premium_card_profiles_desc">Көптөгөн параметрлери бар ыңгайлаштырылган колдонмо профилдери.</string>
-    <string name="premium_card_soundpack_desc">FDE.AI аракеттери үчүн ыңгайлаштырылган үн эскертмелери.</string>
     <string name="premium_text">FDE.AIди колдоп, бардык эксклюзивдүү функцияларды ачыңыз:</string>
     <string name="premium_thanks">Колдооңуз үчүн рахмат! Сиз бул функциялардын кулпусун ачтыңыз:</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -184,7 +176,6 @@
     <string name="reset_art_dialog_text">ART кэш тазалап, кайра жүктөлсүнбү?</string>
     <string name="start_art_dialog_text">ART кэшин оптималдаштыруу убакытты талап кылып, аппараттын кечигүүсүнө жана ысып кетишине алып келиши мүмкүн. Улантасызбы?</string>
     <string name="reset_fde_dialog_text">Бардык FDE.AI жөндөөлөрү баштапкы абалга келтирилсинби?</string>
-    <string name="resetscale_hw">Аппараттык демейки</string>
     <string name="restart_fde_action">FDE.AIды өчүрүп күйгүз</string>
     <string name="restart_fde_in_progress">FDE.AI өчүрүп күйгүзүүдө</string>
     <string name="rm_fde_lite">Алгач FDE.AI lite версиясын чыгарып салыңыз!</string>
@@ -216,7 +207,6 @@
     <string name="vibration">Бир жолу титиреттирүү</string>
     <string name="warning_header">Эскертүү</string>
     <string name="welcome">Кош келиңиз</string>
-    <string name="bprop_default_txt">Демейки build.prop чыңдоолору. FDE.AI менен көйгөйлөрүңүз болсо, биринчи аларды өчүрүңүз.</string>
     <string name="overlay_opacity_main">Кабаттын тунук эместиги</string>
     <string name="tweaks_disabled">Бардык Tweaks өчүрүлгөн</string>
     <string name="exit_confirmation_title">Чыгыш кылынсынбы?</string>
@@ -229,7 +219,6 @@
     <string name="kernel_block">Учурдагы %1$s өзөгү Premium орнотууну бөгөттөйт. Сураныч, башка ядрону орнотууну карап көрүңүз.</string>
     <string name="profile_ai_mode_desc">Колдонмо колдонулуп жатканда AI режимин тандаңыз.</string>
     <string name="preload_pro_required">Бул функция үчүн Preload Pro колдонмосу талап кылынат.</string>
-    <string name="premium_required">Бул функциялар үчүн FDE.AI Premium талап кылынат.</string>
     <string name="overlay_power_x">Кубат: %1$s мАч</string>
     <string name="overlay_battery_temp_x">Батарея: %1$s°C</string>
     <string name="overlay_scale_main">Үстөмөндөп коюу масштабы</string>
@@ -269,4 +258,5 @@
     <string name="extraopt_schedule_title">Күн сайын иштөө графиги</string>
     <string name="extraopt_schedule_time">Күнүмдүк автоматтык оптималдаштыруу убактысын коюу</string>
     <string name="sound_notifications">Үн эскертмелери</string>
+    <string name="migration_error">Дайындарды көчүрүү учурунда күтүлбөгөн ката кетти. Дайындар тазаланат.</string>
 </resources>

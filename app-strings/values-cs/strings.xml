@@ -49,12 +49,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Teplota: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Napětí: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Vážení: %1$s</string>
-    <string name="bp_default_only">Výchozí FDE vylepšení</string>
-    <string name="bp_niko_gpu">Vylepšení GPU Nika</string>
-    <string name="bp_niko_net">Vylepšení sítě Nika</string>
-    <string name="bprop_nikogpu_txt">GPU vylepšení Niko Schwickerta. Může zlepšit výkon na starších zařízeních.</string>
-    <string name="bprop_nikonet_txt">Vylepšení sítě Niko Schwickerta. Může zvýšit rychlost mobilních dat.</string>
-    <string name="build_prop_tweaks">Build.prop vylepšení</string>
     <string name="burnit">Zakázat otáčení</string>
     <string name="bypassch_desc">Omezí proud nabíječky během těžkého běhu tak, aby odpovídal používání zařízení, snižuje nabíjení baterie a ohřev baterie.</string>
     <string name="bypassch_title">Vynechání nabíjení</string>
@@ -168,11 +162,9 @@
     <string name="powersave">Napájení</string>
     <string name="preload_title">Automatické přednačítání</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
-    <string name="premium_card_audio">Zvuková upozornění</string>
     <string name="premium_card_overlays_desc">Přizpůsobitelné překryvná okna s různými statistikami, včetně FPS metru.</string>
     <string name="premium_card_profiles">Rozšířené profily aplikací</string>
     <string name="premium_card_profiles_desc">Přizpůsobitelné profily aplikací s mnoha možnostmi.</string>
-    <string name="premium_card_soundpack_desc">Přizpůsobitelné zvukové oznámení pro akce FDE.AI.</string>
     <string name="premium_text">Podpořte FDE.AI a odemkněte všechny exkluzivní funkce:</string>
     <string name="premium_thanks">Děkujeme za vaši podporu! Odemkli jste tyto funkce:</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
@@ -184,7 +176,6 @@
     <string name="reset_art_dialog_text">Vymazat ART cache a restartovat?</string>
     <string name="start_art_dialog_text">Optimalizace ART mezipaměti může nějakou dobu trvat, způsobit zpoždění a přehřátí zařízení. Pokračovat?</string>
     <string name="reset_fde_dialog_text">Obnovit všechna nastavení FDE.AI?</string>
-    <string name="resetscale_hw">Výchozí nastavení hardwaru</string>
     <string name="restart_fde_action">Restartovat FDE.AI</string>
     <string name="restart_fde_in_progress">Restarting FDE.AI</string>
     <string name="rm_fde_lite">Nejprve odinstalujte verzi FDE.AI lite !</string>
@@ -216,7 +207,6 @@
     <string name="vibration">Vibrace jednou</string>
     <string name="warning_header">Varování</string>
     <string name="welcome">Vítejte</string>
-    <string name="bprop_default_txt">Výchozí build.prop vylepšení. Pokud máte problémy s FDE.AI, je nejprve vypněte.</string>
     <string name="overlay_opacity_main">Overlay opacity</string>
     <string name="tweaks_disabled">Všechna vylepšení jsou vypnuta</string>
     <string name="exit_confirmation_title">Ukončet?</string>
@@ -229,7 +219,6 @@
     <string name="kernel_block">Aktuální jádro %1$s blokuje prémiovou instalaci. Zvažte prosím instalaci jiného jádra.</string>
     <string name="profile_ai_mode_desc">Vyberte režim AI, když se aplikace používá.</string>
     <string name="preload_pro_required">Pro tuto funkci je vyžadována preload Pro aplikace.</string>
-    <string name="premium_required">FDE.AI Premium je vyžadován pro tyto funkce.</string>
     <string name="overlay_power_x">Síla: %1$s mAh</string>
     <string name="overlay_battery_temp_x">Baterie: %1$s°C</string>
     <string name="overlay_scale_main">Měřítko překrytí</string>
@@ -269,4 +258,5 @@
     <string name="extraopt_schedule_title">Naplánujte spouštění denně</string>
     <string name="extraopt_schedule_time">Nastavit denní čas automatické optimalizace</string>
     <string name="sound_notifications">Zvuková upozornění</string>
+    <string name="migration_error">Při migraci dat došlo k neočekávané chybě. Data budou vymazána.</string>
 </resources>

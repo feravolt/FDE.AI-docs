@@ -48,12 +48,6 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Температура: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Напряжение: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Износ: %1$s</string>
-    <string name="bp_default_only">Стандартные твики FDE</string>
-    <string name="bp_niko_gpu">Твики GPU от Niko</string>
-    <string name="bp_niko_net">Твики сети от Niko</string>
-    <string name="bprop_nikogpu_txt">Build.prop твики графики от Niko Schwickert. Может увеличить производительность на старых устройствах.</string>
-    <string name="bprop_nikonet_txt">Build.prop твики сети от Niko Schwickert. Может увеличить скорость мобильной передачи данных.</string>
-    <string name="build_prop_tweaks">Твики build.prop</string>
     <string name="burnit">Отключение троттлинга</string>
     <string name="bypassch_desc">При тяжелых процессах ограничивает входное напряжение зарядки до уровня потребления устройства, чтобы батарея не заряжалась и не нагревалась.</string>
     <string name="bypassch_title">Обход зарядки</string>
@@ -171,11 +165,9 @@
     <string name="powersave">Экономия</string>
     <string name="preload_title">Автоматическая предзагрузка</string>
     <string name="premium">⭐️ FDE.AI Премиум ⭐️</string>
-    <string name="premium_card_audio">Звуковые уведомления</string>
     <string name="premium_card_overlays_desc">Настраиваемые плавающие окна с различной статистикой устройства, включая FPS метр.</string>
     <string name="premium_card_profiles">Расширенные профили приложений</string>
     <string name="premium_card_profiles_desc">Расширенная настройка профилей приложений с множеством опций.</string>
-    <string name="premium_card_soundpack_desc">Настраиваемые звуковые уведомления для различных действий ИИ в FDE.</string>
     <string name="premium_text">Поддержите проект FDE.AI и разблокируйте все эксклюзивные функции приложения:</string>
     <string name="premium_thanks">Спасибо за поддержку! Вы разблокировали следующие функции:</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">ОЗУ: %1$s%%</string>
@@ -187,7 +179,6 @@
     <string name="reset_art_dialog_text">Вы действительно хотите очистить ART-кэш для сброса оптимизации и перезагрузить устройство?</string>
     <string name="start_art_dialog_text">Оптимизация кэша ART может занять длительное время, устройство может тормозить и греться. Продолжить?</string>
     <string name="reset_fde_dialog_text">Вы действительно хотите сбросить все настройки FDE.AI?</string>
-    <string name="resetscale_hw">Аппаратные умолчания</string>
     <string name="restart_fde_action">Перезапустить FDE</string>
     <string name="restart_fde_in_progress">FDE перезапускается</string>
     <string name="rm_fde_lite">Пожалуйста, сначала удалите Lite версию FDE.AI!</string>
@@ -219,7 +210,6 @@
     <string name="vibration">Вибрация</string>
     <string name="warning_header">Предупреждение</string>
     <string name="welcome">Здравствуйте</string>
-    <string name="bprop_default_txt">Стандартные твики build.prop FDE. Если возникли проблемы с FDE, сначала попробуйте отключить все твики build.prop.</string>
     <string name="overlay_opacity_main">Прозрачность плавающих окон</string>
     <string name="overlay_scale_main">Масштаб плавающих окон</string>
     <string name="tweaks_disabled">Все твики отключены</string>
@@ -233,7 +223,6 @@
     <string name="kernel_block">Текущее ядро %1$s блокирует установку пакета Premium. Пожалуйста, установите другое ядро.</string>
     <string name="profile_ai_mode_desc">Выберите режим ИИ для приложения, пока оно активно.</string>
     <string name="preload_pro_required">Чтобы использовать эту функцию, нужно приложение Preload Pro.</string>
-    <string name="premium_required">Для использования функций ниже требуется FDE.AI Premium.</string>
     <string name="overlay_power_x">ПИТ: %1$s мАч</string>
     <string name="overlay_battery_temp_x">Батарея: %1$s°C</string>
     <string name="emergency_cooldown">Экстренное охлаждение</string>
@@ -269,4 +258,5 @@
     <string name="kernel_entropy_tune">Настройка энтропии ядра</string>
     <string name="kernel_sched_boost">Ускорение планировщика ядра</string>
     <string name="multi_core_power_saving_control">Энергосбережение многояд. ЦП</string>
+    <string name="migration_error">Произошла непредвиденная ошибка при миграции данных. Данные будут очищены.</string>
 </resources>
