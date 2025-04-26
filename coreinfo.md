@@ -1,7 +1,6 @@
 ## Information about applied core tweaks
 
 Here will be a rough "what & why" description for most of the tweaks applied by FDE.AI. All of these tweaks are applied systemlessly, thus are fully revertible. Note that many of the tweaks are dynamically changed via ML while FDE.AI is working in background, depending on device usage scenario. This is only the main part of tunables, there are many more that manipulate low-level hardware stuff and are not described here.<br>
-If device has a Qualcomm CPU, [this qcom.post_boot](https://github.com/feravolt/FDE.AI-docs/blob/master/init.qcom.post_boot.sh%20(LA.UM.8.6.2.r1-08600-89xx.0)) script is applied in order to restore OEM kernel parameters before applying any tweaks by FDE.AI.<br>
 Last updated: 27/11/2020. Valid for FDE.AI v11+.
 
 
@@ -61,8 +60,7 @@ Last updated: 27/11/2020. Valid for FDE.AI v11+.
  - _/proc/sys/vm/laptop_mode_ - the dirty cache utilisation logic, dynamically changed by ML to provide balanced powersave & performance UX
  - _/proc/sys/kernel/hung_task_timeout_secs_ - checks for hanged tasks, disabled to reduce it's overhead for better performance
  - _/sys/kernel/power_suspend/power_suspend_mode_ - kernel power suspend management, tuned for better powersaving
- - _/proc/sys/kernel/sched_walt_init_task_load_pct;sched_walt_rotate_big_tasks_ - EAS tunables, optimized to provide better performance, still being powersave
- - _/proc/sys/kernel/sched_tunable_scaling_ - controls whether the scheduler can adjust sched_latency_ns, disabled for stability
+ - _/proc/sys/kernel/sched_walt_init_task_load_pct_ - EAS tunable, optimized to provide better performance, still being powersave
  - _/proc/sys/kernel/sched_enable_power_aware;sched_cfs_boost;sched_mc_power_savings;sched_smt_power_savings;power_aware_timer_migration;/sys/module/workqueue/parameters/power_efficient_ - nodes to toggle load balancing logic for multi-core CPUs, dynamically changed by ML to provide balanced powersave & performance UX
  - _/proc/sys/kernel/sched_ravg_hist_size_ - controls the number of samples for determination of its demand, tuned for better performance
  - _/dev/stune/..._ - EAS related tunables, dynamically changed by ML to provide balanced powersave & performance UX
@@ -85,28 +83,6 @@ Last updated: 27/11/2020. Valid for FDE.AI v11+.
  - _timer_rate_ - sample rate for reevaluating CPU load when the CPU is not idle, dynamically changed by ML to provide balanced powersave & performance UX
  - _enable_prediction_ - desired frequency prediction basing on scheduler info, dynamically changed by ML to provide balanced powersave & performance UX
  - _/sys/devices/system/cpu/cpu0/cpufreq/busfreq_static_ - static bus frequency tunable, disabled to be adaptive for better powersaving
-
-
-<br>**Build.prop tweaks**:
- - _ro.HOME_APP_ADJ_ - enabled in order to force keep home launcher in memory under low RAM condition
- - _persist.radio.ramdump;persist.sys.ssr.enable_ramdumps_ - disabled in order to turn OFF vendor RAM dumps
- - _persist.wpa_supplicant.debug_ - disabled in order to reduce WLAN debugging overhead for better performance
- - _dalvik.vm.checkjni_ - disabled to turn off unnecessary JNI checks & reduce it's overhead for better performance
- - _dalvik.vm.check-dex-sum_ - disabled to turn off (just in case) unnecessary dex files sum checks & it's overhead for better performance
- - _dalvik.vm.verify-bytecode_ - disabled to turn off bytecode checks & reduce it's overhead for better performance
- - _libc.debug.malloc_ - disabled to turn off libc debugging & reduce it's overhead for better performance
- - _debug.atrace.tags.enableflags;persist.traced.enable_ - disabled to turn off tracing & reduce it's overhead for better performance
- - _vidc.debug.level_ - disabled to turn off video core debugging & reduce it's overhead for better performance
- - _debug.mdpcomp.logs_ - disabled to turn off MDP composer logging & reduce it's overhead for better performance
- - _ro.kernel.android.checkjni_ - disabled to turn off kernel side JNI checks & reduce it's overhead for better performance
- - _touch.pressure.scale_ - tuned for better touch responsiveness
- - _debug.hwui.render_dirty_regions_ - disabled to turn off unnecessary dirty regions rendering & reduce it's overhead for better performance
- - _ro.lmk.log_stats_ - disabled to turn off LMK log stats & reduce it's overhead for better performance
- - _debug.egl.hw_ - enabled for better EGL performance (for older devices)
- - _persist.sys.strictmode.disable_ - enabled to disable OS strict mode (just in case it's enabled)
- - _ro.ril.hsxpa;ro.ril.enable.dtm;ro.ril.hsdpa.category;ro.ril.hsupa.category_ (Niko network tweaks) - mobile data network related optional tweaks for higher throughput and lower latencies
- - _debug.cpurend.vsync;hwui.disable_vsync;debug.sf.recomputecrop;debug.composition.type;persist.sys.composition.type;ro.hwui.texture_cache_size;ro.hwui.layer_cache_size;ro.hwui.path_cache_size;ro.hwui.r_buffer_cache_size;ro.hwui.drop_shadow_cache_size;_ (Niko GPU tweaks) - UI/GPU rendering related optional enhancing tweaks
-
 
 
 <br>**Rest tweaks**:
