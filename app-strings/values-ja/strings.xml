@@ -231,15 +231,9 @@
     <string name="overlay_battery_temp_x">バッテリー: %1$s°C</string>
     <string name="emergency_cooldown">緊急冷却</string>
     <string name="emergency_cooldown_btn">クールダウン</string>
-    <string name="emergency_cooldown_desc">有効化すると、以下のようにモードが切り替わります: \n\n
+    <string name="emergency_cooldown_desc">有効化すると、以下のようにモードが切り替わります:\n\n
 
-①スロットリング(処理能力制限)を再び有効化\n
-②機内モードと省電力モードを有効化\n
-③バックグラウンドアプリを強制終了\n
-④充電を停止\n
-⑤AIを省電力モードに設定\n\n
-
-これらの設定は100秒後、元の状態に戻ります。</string>
+①スロットリング(処理能力制限)を再び有効化\n②機内モードと省電力モードを有効化\n③バックグラウンドアプリを強制終了\n④充電を停止\n⑤AIを省電力モードに設定\n\nこれらの設定は100秒後、元の状態に戻ります。</string>
     <string name="hwinfo">デバイス</string>
     <string name="ai_lifetime">AIの動作時間</string>
     <string name="kernel_tuning_state">カーネル調整</string>
@@ -249,7 +243,7 @@
     <string name="gpu_turbo_support">GPUターボに対応しているか</string>
     <string name="gpu_turbo_active">GPUターボが現在動作しているか</string>
     <string name="gpu_turbo_trigger_count">GPUターボの実行回数</string>
-    <string name="force_doze_enabled">[強制的に「電池の最適化」を有効化]が有効か</string>
+    <string name="force_doze_enabled">[強制的に「電池の最適化」]が有効か</string>
     <string name="force_doze_trigger_count">[強制的に「電池の最適化」]の実行回数</string>
     <string name="force_doze_autopowersave_mode">強制的に「電池の最適化」を省電力</string>
     <string name="throttling_deactivated">スロットリングが無効か</string>
