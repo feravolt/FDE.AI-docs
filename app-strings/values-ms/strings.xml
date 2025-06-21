@@ -4,12 +4,7 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Dibuat dengan ❤️ oleh FeraVolt.</string>
     <string name="accept">Terima</string>
     <string name="adaptive">Automatik</string>
-    <string name="ai_tune_freqs">Pelarasan-automatik frekuensi CPU/GPU</string>
     <string name="ai_auto_mode">Prestasi seimbang dan jimat-tenaga berdasarkan penggunaan peranti. Pelarasan-automatik frekuensi memberi lebih banyak penjimatan-tenaga.</string>
-    <string name="ai_cycle_period">Tempoh kitaran AI</string>
-    <string name="ai_cycle_period_desc">Selaraskan tempoh kitaran AI secara manual. Tempoh yang panjang menggunakan tenaga yang kurang tetapi mengurangkan tidak balas, dan sebaliknya.
-\nNilai asal ditetapkan secara automatik berdasarkan kapasiti bateri. Tempoh kitaran AI yang sebenar diselaraskan secara automatik berdasarkan penggunaan.</string>
-    <string name="ai_cycle_period_warning">Menukar nilai ini akan menyebabkan kenaikan penggunaan tenaga atau kualiti kerja AI menurun.</string>
     <string name="ai_is_disabled">AI dimatikan</string>
     <string name="ai_log">Log AI</string>
     <string name="ai_mode">Mode AI</string>
@@ -49,7 +44,8 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Suhu: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Voltan: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Pemakaian: %1$s</string>
-    <string name="burnit">Membuang penghad</string>
+    <string name="burnit">Pendikit</string>
+    <string name="greenbattery_title">Bateri</string>
     <string name="bypassch_desc">Menghadkan arus pengecas ketika proses berat berjalan untuk menyesuaikan penggunaan peranti, mengurangkan pengecasan bateri dan pemanasan.</string>
     <string name="bypassch_title">Pintas pengecasan</string>
     <string name="cancel">Batal</string>
@@ -106,7 +102,6 @@
     <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
     <string name="grantit">Anda mungkin perlu memberikan kebenaran autostart secara manual dalam pengurus kebenaran OS anda untuk membenarkan FDE.AI bermula selepas but OS.</string>
     <string name="greenbattery_desc">Memanjangkan hayat bateri dengan menghadkan level cas maksimum. Menghentikan pengecasan pada had yang ditetapkan dan cas semula pada 6 peratus di bawah had.</string>
-    <string name="greenbattery_title">Kesihatan bateri</string>
     <string name="hour">h.</string>
     <string name="join_forum">XDA</string>
     <string name="just_battery">Bateri</string>
@@ -181,7 +176,6 @@
     <string name="rm_fde_lite">Nyahpasang FDE.AI versi ringan dahulu!</string>
     <string name="run_now">Jalankan</string>
     <string name="save_log">Simpan log</string>
-    <string name="screen_on_delay">Lewat hidupkan skrin:</string>
     <string name="search_no_reset">Cari</string>
     <string name="share">Kongsi FDE.AI</string>
     <string name="share_txt">Cuba FDE.AI - Pengoptimuman Android yang hebat!</string>
@@ -228,24 +222,18 @@
     <string name="ai_lifetime">AI lifetime</string>
     <string name="kernel_tuning_state">Penalaan kernel</string>
     <string name="cpu_turbo_support">Sokongan CPU Turbo</string>
-    <string name="cpu_turbo_active">CPU Turbo aktif</string>
     <string name="cpu_turbo_trigger_count">Kiraan pencetus Turbo Turbo</string>
     <string name="gpu_turbo_support">Sokongan GPU Turbo</string>
-    <string name="gpu_turbo_active">GPU Turbo aktif</string>
     <string name="gpu_turbo_trigger_count">kiraan pencetus GPU Turbo</string>
     <string name="force_doze_enabled">Paksa Lelap didayakan</string>
     <string name="force_doze_trigger_count">Paksa Lelapkan kiraan pencetus</string>
-    <string name="force_doze_autopowersave_mode">Force Doze auto-powersave</string>
     <string name="throttling_deactivated">Pendikit dinyahaktifkan</string>
     <string name="throttling_ignore_on_charge">Pendikit abaikan pengecasan</string>
     <string name="kill_bg_apps">Bunuh apl latar belakang</string>
-    <string name="auto_tune_freqs">Autotala frekuensi</string>
     <string name="auto_art_opt">Pengoptimuman ART Auto</string>
     <string name="dynamic_read_ahead">Baca ke hadapan dinamik</string>
     <string name="charging_bypass_enabled">Pintas pengecasan didayakan</string>
-    <string name="charging_bypass_active">Pengecasan pintasan aktif</string>
     <string name="charging_limit_enabled">Had pengecasan didayakan</string>
-    <string name="charging_limit_active">Had pengecasan aktif</string>
     <string name="charging_cycles">Kitaran pengecasan:</string>
     <string name="cpu_bandwidth_tune">Penalaan lebar jalur CPU</string>
     <string name="fs_cache_tune">Penalaan cache FS</string>
@@ -258,4 +246,31 @@
     <string name="extraopt_schedule_time">Tetapkan masa autooptimum harian</string>
     <string name="sound_notifications">Pemberitahuan bunyi</string>
     <string name="migration_error">Ralat yang tidak dijangka berlaku semasa pemindahan data. Data akan dikosongkan.</string>
+    <string name="onboarding_select_mode_title">Pilih mod</string>
+    <string name="onboarding_mode_shizuku">Shizuku</string>
+    <string name="onboarding_mode_root">Root</string>
+    <string name="charging_limit">Had pengecasan</string>
+    <string name="auto_data_save">Penjimat data</string>
+    <string name="auto_data_save_desc">Autodayakan penjimat data apabila skrin dimatikan.</string>
+    <string name="autopowersave_mode">Auto jimat kuasa</string>
+    <string name="autodatasave_mode">Autodata save</string>
+    <string name="memory_boost_support">Tingkatkan ingatan</string>
+    <string name="root_mode_descr">Semua ciri. Memerlukan akses root.</string>
+    <string name="shizuku_mode_descr">Kurang ciri, tiada akar diperlukan, Android 11+. Memerlukan apl Shizuku.</string>
+    <string name="lets_go">Jalankan</string>
+    <string name="shizuku_setup_success">Shizuku telah disediakan dan anda sudah bersedia untuk pergi</string>
+    <string name="shizuku_setup_instructions_title">Arahan Persediaan</string>
+    <string name="shizuku_warning_systemless_title">Perhatian</string>
+    <string name="shizuku_warning_systemless_description">Mod bukan akar mungkin melakukan tindakan yang akan menjejaskan sistem anda secara kekal.</string>
+    <string name="shizuku_warning_miui_title">Kebenaran Pembangun MIUI</string>
+    <string name="shizuku_warning_miui_description">Pengguna MIUI perlu mendayakan kebenaran pembangun tambahan untuk Shizuku berfungsi dengan betul.</string>
+    <string name="shizuku_install_from_play_store">Pasang daripada Gedung Play</string>
+    <string name="shizuku_open_app">Buka Apl Shizuku</string>
+    <string name="shizuku_setup_step_1">Pasang Shizuku</string>
+    <string name="shizuku_setup_step_2">Dayakan perkhidmatan Shizuku dalam apl</string>
+    <string name="shizuku_setup_step_3">Berikan kebenaran apabila digesa</string>
+    <string name="shizuku_setup_step_4">Kembali ke FDE.AI untuk meneruskan persediaan</string>
+    <string name="shizuku_broken_connection">Ralat! Sambungan Shizuku terputus, sila mulakan semula perkhidmatan Shizuku.</string>
+    <string name="just_check">Semak</string>
+    <string name="dontkillmyapp_text">Anda menggunakan mod Shizuku. Untuk memastikan apl berfungsi dengan baik, sila lumpuhkan auto-bunuh untuk Shizuku dan FDE.AI. Adakah anda mahu melihat bagaimana?</string>
 </resources>

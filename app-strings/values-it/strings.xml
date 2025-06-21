@@ -4,12 +4,7 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Realizzato con ❤️ da FeraVolt.</string>
     <string name="accept">Accetta</string>
     <string name="adaptive">Automatico</string>
-    <string name="ai_tune_freqs">Regolazione automatica freqs CPU/GPU</string>
     <string name="ai_auto_mode">Bilancia prestazioni e risparmio energetico in base all\'uso del dispositivo. Freqs auto-tune dà più risparmio energetico.</string>
-    <string name="ai_cycle_period">Periodo del ciclo IA</string>
-    <string name="ai_cycle_period_desc">Regola manualmente il periodo del ciclo AI. Periodi più lunghi usano meno potenza, ma sono meno reattivi e viceversa.
-\nI valori predefiniti sono impostati automaticamente in base alla capacità della batteria. Il ciclo reale di IA si regola automaticamente in base all\'utilizzo.</string>
-    <string name="ai_cycle_period_warning">La modifica di questi valori può portare ad un aumento del consumo energetico o ad un lavoro di AI di bassa qualità.</string>
     <string name="ai_is_disabled">AI disabilitata</string>
     <string name="ai_log">Registro AI</string>
     <string name="ai_mode">Modalità AI</string>
@@ -49,7 +44,8 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Temperatura: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Tensione: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Indossare: %1$s</string>
-    <string name="burnit">Disabilita limitazione</string>
+    <string name="burnit">Limitazione</string>
+    <string name="greenbattery_title">Batteria</string>
     <string name="bypassch_desc">Limita la corrente del caricabatterie durante i processi pesanti in esecuzione per abbinare l\'uso del dispositivo, riducendo la carica della batteria e il riscaldamento.</string>
     <string name="bypassch_title">Bypass di ricarica</string>
     <string name="cancel">Annulla</string>
@@ -106,7 +102,6 @@
     <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
     <string name="grantit">Potrebbe essere necessario concedere manualmente il permesso di avvio automatico nel gestore dei permessi del sistema operativo per consentire a FDE.AI di iniziare dopo l\'avvio del sistema operativo.</string>
     <string name="greenbattery_desc">Estendi la durata della batteria limitando il livello massimo di carica. Ferma la ricarica alla soglia definita e riavvia al 6 per cento al di sotto di essa.</string>
-    <string name="greenbattery_title">Salute batteria</string>
     <string name="hour">h.</string>
     <string name="join_forum">XDA</string>
     <string name="just_battery">Batteria</string>
@@ -181,7 +176,6 @@
     <string name="rm_fde_lite">Prima disinstalla la versione di FDE.AI lite!</string>
     <string name="run_now">Esegui</string>
     <string name="save_log">Salva log</string>
-    <string name="screen_on_delay">Ritardo schermo acceso:</string>
     <string name="search_no_reset">Cerca</string>
     <string name="share">Condividi FDE.AI</string>
     <string name="share_txt">Prova FDE.AI - un fantastico ottimizzatore Android!</string>
@@ -229,24 +223,18 @@
     <string name="ai_lifetime">Durata AI</string>
     <string name="kernel_tuning_state">Ottimizzazione kernel</string>
     <string name="cpu_turbo_support">Supporto CPU Turbo</string>
-    <string name="cpu_turbo_active">CPU Turbo attiva</string>
     <string name="cpu_turbo_trigger_count">Conteggio trigger CPU Turbo</string>
     <string name="gpu_turbo_support">Supporto GPU Turbo</string>
-    <string name="gpu_turbo_active">GPU Turbo attiva</string>
     <string name="gpu_turbo_trigger_count">Conteggio trigger GPU Turbo</string>
     <string name="force_doze_enabled">Force Doze abilitato</string>
     <string name="force_doze_trigger_count">Conteggio trigger Force Doze</string>
-    <string name="force_doze_autopowersave_mode">Forza Doze risparmio energetico automatico</string>
     <string name="throttling_deactivated">Limitazione disattivata</string>
     <string name="throttling_ignore_on_charge">Limitazione ignora la ricarica</string>
     <string name="kill_bg_apps">Elimina app in background</string>
-    <string name="auto_tune_freqs">Frequenze di sintonizzazione automatica</string>
     <string name="auto_art_opt">Ottimizzazione ART automatica</string>
     <string name="dynamic_read_ahead">Lettura dinamica anticipata</string>
     <string name="charging_bypass_enabled">Bypass di ricarica abilitato</string>
-    <string name="charging_bypass_active">Bypass di ricarica attivo</string>
     <string name="charging_limit_enabled">Limite di ricarica abilitato</string>
-    <string name="charging_limit_active">Limite di ricarica attivo</string>
     <string name="charging_cycles">Cicli di carica:</string>
     <string name="cpu_bandwidth_tune">Regolazione della larghezza di banda della CPU</string>
     <string name="fs_cache_tune">Regolazione della cache FS</string>
@@ -259,4 +247,31 @@
     <string name="extraopt_schedule_time">Imposta l\'ora di ottimizzazione automatica giornaliera</string>
     <string name="sound_notifications">Notifiche sonore</string>
     <string name="migration_error">Si è verificato un errore imprevisto durante la migrazione dei dati. I dati verranno cancellati.</string>
+    <string name="onboarding_select_mode_title">Seleziona modalità</string>
+    <string name="onboarding_mode_shizuku">Shizuku</string>
+    <string name="onboarding_mode_root">Root</string>
+    <string name="charging_limit">Limite di ricarica</string>
+    <string name="auto_data_save">Risparmio dati</string>
+    <string name="auto_data_save_desc">Attiva automaticamente il risparmio dati a schermo spento.</string>
+    <string name="autopowersave_mode">Risparmio energetico automatico</string>
+    <string name="autodatasave_mode">Risparmio dati automatico</string>
+    <string name="memory_boost_support">Aumento della memoria</string>
+    <string name="root_mode_descr">Tutte le funzionalità. Richiede accesso root.</string>
+    <string name="shizuku_mode_descr">Meno funzionalità, nessun root necessario, Android 11+. Richiede l\'app Shizuku.</string>
+    <string name="lets_go">Esegui</string>
+    <string name="shizuku_setup_success">Shizuku è configurato e pronto all\'uso</string>
+    <string name="shizuku_setup_instructions_title">Istruzioni di installazione</string>
+    <string name="shizuku_warning_systemless_title">Attenzione</string>
+    <string name="shizuku_warning_systemless_description">La modalità non root potrebbe eseguire azioni che influenzeranno in modo permanente il sistema.</string>
+    <string name="shizuku_warning_miui_title">Autorizzazioni sviluppatore MIUI</string>
+    <string name="shizuku_warning_miui_description">Gli utenti MIUI devono abilitare autorizzazioni sviluppatore aggiuntive affinché Shizuku funzioni correttamente.</string>
+    <string name="shizuku_install_from_play_store">Installa dal Play Store</string>
+    <string name="shizuku_open_app">Apri l\'app Shizuku</string>
+    <string name="shizuku_setup_step_1">Installa Shizuku</string>
+    <string name="shizuku_setup_step_2">Abilita il servizio Shizuku nell\'app</string>
+    <string name="shizuku_setup_step_3">Concedi le autorizzazioni quando richiesto</string>
+    <string name="shizuku_setup_step_4">Torna a FDE.AI per continuare la configurazione</string>
+    <string name="shizuku_broken_connection">Errore! La connessione a Shizuku è interrotta, riavvia il servizio Shizuku.</string>
+    <string name="just_check">Verifica</string>
+    <string name="dontkillmyapp_text">Stai utilizzando la modalità Shizuku. Per garantire il corretto funzionamento dell\'app, disabilita l\'arresto automatico per Shizuku e FDE.AI. Vuoi vedere come?</string>
 </resources>

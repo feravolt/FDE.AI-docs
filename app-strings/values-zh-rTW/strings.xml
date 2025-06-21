@@ -4,12 +4,7 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">由 FeraVolt ❤ 製作。</string>
     <string name="accept">接受</string>
     <string name="adaptive">自動</string>
-    <string name="ai_tune_freqs">自動調整 CPU/GPU 頻率</string>
     <string name="ai_auto_mode">根據設備使用情況調整，平衡、性能、省電。 頻率自動調整可以更加省電。</string>
-    <string name="ai_cycle_period">AI循環週期</string>
-    <string name="ai_cycle_period_desc">手動調整人工智慧循環週期。 時間週期越長，消耗的電量就越少，但反應能力就越差，反之亦然。
-\n預設值根據電池容量自動設定。 實際的人工智慧週期會根據使用情況自動調整。</string>
-    <string name="ai_cycle_period_warning">更改這些設定值，可能會導致功耗增加或人工智慧的工作品質低落。</string>
     <string name="ai_is_disabled">禁用人工智慧</string>
     <string name="ai_log">人工智慧的日誌</string>
     <string name="ai_mode">人工智慧模式</string>
@@ -49,7 +44,8 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">溫度: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">電壓：%1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">磨損：%1$s</string>
-    <string name="burnit">停用溫控</string>
+    <string name="burnit">節流</string>
+    <string name="greenbattery_title">電池</string>
     <string name="bypassch_desc">在繁重的程式運行期間，限制充電器電流以匹配設備使用情況，從而減少電池充電和發熱。</string>
     <string name="bypassch_title">充電旁路</string>
     <string name="cancel">取消</string>
@@ -106,7 +102,6 @@
     <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
     <string name="grantit">您可能需要在作業系統的權限管理器中，手動授予自動啟動權限，以允許 FDE.AI 在作業系統啟動後啟動。</string>
     <string name="greenbattery_desc">透過限制最高充電的電量來延長電池壽命。 在定義的閾值處停止充電，並在低於 6% 時重新啟動。</string>
-    <string name="greenbattery_title">電池健康狀況</string>
     <string name="hour">小時</string>
     <string name="join_forum">XDA</string>
     <string name="just_battery">電池</string>
@@ -181,7 +176,6 @@
     <string name="rm_fde_lite">首先移除FDE.AI lite版本！</string>
     <string name="run_now">運作</string>
     <string name="save_log">儲存日誌</string>
-    <string name="screen_on_delay">螢幕開啟延遲：</string>
     <string name="search_no_reset">搜尋</string>
     <string name="share">分享FDE.AI</string>
     <string name="share_txt">試試 FDE.AI - 一款令人驚嘆的 Android 優化器！</string>
@@ -229,24 +223,18 @@
     <string name="ai_lifetime">人工智慧生命週期</string>
     <string name="kernel_tuning_state">核心調整</string>
     <string name="cpu_turbo_support">CPU Turbo 支援</string>
-    <string name="cpu_turbo_active">CPU Turbo 處於活動狀態</string>
     <string name="cpu_turbo_trigger_count">CPU Turbo 觸發計數</string>
     <string name="gpu_turbo_support">GPU Turbo 支援</string>
-    <string name="gpu_turbo_active">GPU Turbo 處於活動狀態</string>
     <string name="gpu_turbo_trigger_count">GPU Turbo 觸發計數</string>
     <string name="force_doze_enabled">強制打盹已啟用</string>
     <string name="force_doze_trigger_count">強制打盹觸發計數</string>
-    <string name="force_doze_autopowersave_mode">強制打瞌睡自動省電</string>
     <string name="throttling_deactivated">節流已停用</string>
     <string name="throttling_ignore_on_charge">節流忽略充電</string>
     <string name="kill_bg_apps">殺死後台應用程式</string>
-    <string name="auto_tune_freqs">自動調諧頻率</string>
     <string name="auto_art_opt">自動 ART 最佳化</string>
     <string name="dynamic_read_ahead">動態預讀</string>
     <string name="charging_bypass_enabled">充電旁通已啟用</string>
-    <string name="charging_bypass_active">充電旁路啟動</string>
     <string name="charging_limit_enabled">已啟用充電限制</string>
-    <string name="charging_limit_active">充電限制已啟用</string>
     <string name="charging_cycles">充電週期：</string>
     <string name="cpu_bandwidth_tune">CPU 頻寬調整</string>
     <string name="fs_cache_tune">FS 快取調整</string>
@@ -259,4 +247,31 @@
     <string name="extraopt_schedule_time">設定每日自動最佳化時間</string>
     <string name="sound_notifications">聲音通知</string>
     <string name="migration_error">資料遷移時發生意外錯誤。資料將被清除。</string>
+    <string name="onboarding_select_mode_title">選擇模式</string>
+    <string name="onboarding_mode_shizuku">Shizuku</string>
+    <string name="onboarding_mode_root">Root</string>
+    <string name="charging_limit">充電限制</string>
+    <string name="auto_data_save">流量節省</string>
+    <string name="auto_data_save_desc">螢幕關閉時自動啟用流量節省。 </string>
+    <string name="autopowersave_mode">自動省電</string>
+    <string name="autodatasave_mode">自動流量節省</string>
+    <string name="memory_boost_support">記憶體提升</string>
+    <string name="root_mode_descr">所有功能。需要 root 權限。 </string>
+    <string name="shizuku_mode_descr">功能較少，無需 root，Android 11 及以上系統。需要 Shizuku 應用。 </string>
+    <string name="lets_go">運行</string>
+    <string name="shizuku_setup_success">Shizuku 已設定完畢，您可以開始使用了</string>
+    <string name="shizuku_setup_instructions_title">設定說明</string>
+    <string name="shizuku_warning_systemless_title">注意</string>
+    <string name="shizuku_warning_systemless_description">非 root 模式可能會執行永久影響系統的操作。 </string>
+    <string name="shizuku_warning_miui_title">MIUI 開發者權限</string>
+    <string name="shizuku_warning_miui_description">MIUI 使用者需要啟用額外的開發者權限才能讓 Shizuku 正常運作。 </string>
+    <string name="shizuku_install_from_play_store">從 Play 商店安裝</string>
+    <string name="shizuku_open_app">打開Shizuku 應用程式</string>
+    <string name="shizuku_setup_step_1">安裝 Shizuku</string>
+    <string name="shizuku_setup_step_2">在應用程式中啟用 Shizuku 服務</string>
+    <string name="shizuku_setup_step_3">出現提示時授予權限</string>
+    <string name="shizuku_setup_step_4">回傳 FDE.AI 繼續設定</string>
+    <string name="shizuku_broken_connection">錯誤！ Shizuku 連線已斷開，請重新啟動 Shizuku 服務。 </string>
+    <string name="just_check">檢查</string>
+    <string name="dontkillmyapp_text">您正在使用 Shizuku 模式。為了保持應用程式正常運行，請停用 Shizuku 和 FDE.AI 的自動終止功能。想看看怎麼做嗎？ </string>
 </resources>

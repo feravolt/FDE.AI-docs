@@ -4,12 +4,7 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Gemaakt met ❤️ door FeraVolt.</string>
     <string name="accept">Accepteren</string>
     <string name="adaptive">Automatisch</string>
-    <string name="ai_tune_freqs">Auto-aanpassen van CPU/GPU frequenties</string>
     <string name="ai_auto_mode">Saldo en energiebesparing op basis van apparaatgebruik. Freqs auto-tune geeft meer energiebesparing.</string>
-    <string name="ai_cycle_period">AI cyclus periode</string>
-    <string name="ai_cycle_period_desc">Pas de looptijd van AI handmatig aan. Langere perioden gebruiken minder energie, maar ze reageren minder en omgekeerd.
-\nStandaard waarden worden automatisch ingesteld op basis van de batterij capaciteit. De werkelijke AI-cyclus wordt automatisch aangepast op basis van gebruik.</string>
-    <string name="ai_cycle_period_warning">Het wijzigen van deze waarden kan leiden tot een hoger energieverbruik of tot een lage kwaliteit van AI.</string>
     <string name="ai_is_disabled">AI uitgeschakeld</string>
     <string name="ai_log">AI Logboek</string>
     <string name="ai_mode">AI modus</string>
@@ -49,7 +44,8 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Temperatuur: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Spanning: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Woord: %1$s</string>
-    <string name="burnit">Kantelen uitschakelen</string>
+    <string name="burnit">Throttling</string>
+    <string name="greenbattery_title">Accu</string>
     <string name="bypassch_desc">Limit laadstroom tijdens zware processen wordt uitgevoerd om het apparaatgebruik gelijk te stellen, het opladen van de batterij en de verwarming te verminderen.</string>
     <string name="bypassch_title">Opladen bypass</string>
     <string name="cancel">annuleren</string>
@@ -106,7 +102,6 @@
     <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
     <string name="grantit">Mogelijk moet u handmatig toestemming geven voor automatisch starten in uw OS\'s machtigingsmanager om FDE.AI toe te staan om te starten nadat OS is opgestart.</string>
     <string name="greenbattery_desc">Verleng de levensduur van de accu door het maximale laadniveau te beperken. Stoplaad op de vastgestelde drempelwaarde en start opnieuw met 6 procent eronder.</string>
-    <string name="greenbattery_title">Batterij gezondheid</string>
     <string name="hour">uur</string>
     <string name="join_forum">XDA</string>
     <string name="just_battery">Accu</string>
@@ -181,7 +176,6 @@
     <string name="rm_fde_lite">Verwijder eerst FDE.AI Lite versie!</string>
     <string name="run_now">Uitvoeren</string>
     <string name="save_log">Logboek opslaan</string>
-    <string name="screen_on_delay">Scherm aan vertraging:</string>
     <string name="search_no_reset">Zoeken</string>
     <string name="share">Deel FDE.AI</string>
     <string name="share_txt">Probeer FDE.AI - een geweldige Android optimalisator!</string>
@@ -229,24 +223,18 @@
     <string name="ai_lifetime">AI-levensduur</string>
     <string name="kernel_tuning_state">Kernel-afstemming</string>
     <string name="cpu_turbo_support">CPU Turbo-ondersteuning</string>
-    <string name="cpu_turbo_active">CPU Turbo actief</string>
     <string name="cpu_turbo_trigger_count">CPU Turbo-triggeraantal</string>
     <string name="gpu_turbo_support">GPU Turbo-ondersteuning</string>
-    <string name="gpu_turbo_active">GPU Turbo actief</string>
     <string name="gpu_turbo_trigger_count">GPU Turbo-triggeraantal</string>
     <string name="force_doze_enabled">Force Doze ingeschakeld</string>
     <string name="force_doze_trigger_count">Force Doze-triggeraantal</string>
-    <string name="force_doze_autopowersave_mode">Force Doze auto-powersave</string>
     <string name="throttling_deactivated">Throttling gedeactiveerd</string>
     <string name="throttling_ignore_on_charge">Throttling negeren opladen</string>
     <string name="kill_bg_apps">Achtergrond-apps uitschakelen</string>
-    <string name="auto_tune_freqs">Frequenties automatisch afstemmen</string>
     <string name="auto_art_opt">Automatische ART-optimalisatie</string>
     <string name="dynamic_read_ahead">Dynamisch vooruitlezen</string>
     <string name="charging_bypass_enabled">Oplaadbypass ingeschakeld</string>
-    <string name="charging_bypass_active">Oplaadbypass actief</string>
     <string name="charging_limit_enabled">Oplaadlimiet ingeschakeld</string>
-    <string name="charging_limit_active">Opladen limiet actief</string>
     <string name="charging_cycles">Laadcycli:</string>
     <string name="cpu_bandwidth_tune">CPU-bandbreedte-afstemming</string>
     <string name="fs_cache_tune">FS-cache-afstemming</string>
@@ -259,4 +247,31 @@
     <string name="extraopt_schedule_time">Stel dagelijkse tijd voor automatische optimalisatie in</string>
     <string name="sound_notifications">Geluidsmeldingen</string>
     <string name="migration_error">Er is een onverwachte fout opgetreden tijdens de datamigratie. Gegevens worden gewist.</string>
+    <string name="onboarding_select_mode_title">Selecteer modus</string>
+    <string name="onboarding_mode_shizuku">Shizuku</string>
+    <string name="onboarding_mode_root">Root</string>
+    <string name="charging_limit">Laadlimiet</string>
+    <string name="auto_data_save">Databesparing</string>
+    <string name="auto_data_save_desc">Databesparing automatisch inschakelen wanneer het scherm uit is.</string>
+    <string name="autopowersave_mode">Automatische energiebesparing</string>
+    <string name="autodatasave_mode">Automatische databesparing</string>
+    <string name="memory_boost_support">Geheugenboost</string>
+    <string name="root_mode_descr">Alle functies. Vereist root-toegang.</string>
+    <string name="shizuku_mode_descr">Minder functies, geen root nodig, Android 11+. Vereist de Shizuku-app.</string>
+    <string name="lets_go">Uitvoeren</string>
+    <string name="shizuku_setup_success">Shizuku is ingesteld en je kunt aan de slag</string>
+    <string name="shizuku_setup_instructions_title">Installatie-instructies</string>
+    <string name="shizuku_warning_systemless_title">Let op</string>
+    <string name="shizuku_warning_systemless_description">De niet-rootmodus kan acties uitvoeren die je systeem permanent beïnvloeden.</string>
+    <string name="shizuku_warning_miui_title">MIUI-ontwikkelaarsrechten</string>
+    <string name="shizuku_warning_miui_description">MIUI-gebruikers moeten extra ontwikkelaarsrechten inschakelen om Shizuku correct te laten werken.</string>
+    <string name="shizuku_install_from_play_store">Installeren vanuit Play Store</string>
+    <string name="shizuku_open_app">Open de Shizuku-app</string>
+    <string name="shizuku_setup_step_1">Installeer Shizuku</string>
+    <string name="shizuku_setup_step_2">Schakel de Shizuku-service in de app in</string>
+    <string name="shizuku_setup_step_3">Verleen rechten wanneer daarom wordt gevraagd</string>
+    <string name="shizuku_setup_step_4">Ga terug naar FDE.AI om de installatie voort te zetten</string>
+    <string name="shizuku_broken_connection">Fout! De Shizuku-verbinding is verbroken. Start de Shizuku-service opnieuw op.</string>
+    <string name="just_check">Controleren</string>
+    <string name="dontkillmyapp_text">U gebruikt de Shizuku-modus. Om de app goed te laten werken, schakelt u de automatische uitschakeling voor Shizuku en FDE.AI uit. Wilt u zien hoe?</string>
 </resources>

@@ -4,12 +4,7 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">使用 ❤️ 由 FeraVolt 制作。</string>
     <string name="accept">接受</string>
     <string name="adaptive">自动操作</string>
-    <string name="ai_tune_freqs">自动调整 CPU/GPU 频率</string>
     <string name="ai_auto_mode">基于设备使用情况的平衡性能和节能。Freqs 自动调节能会提供更多的省电。</string>
-    <string name="ai_cycle_period">AI生理周期</string>
-    <string name="ai_cycle_period_desc">手动调整 AI 周期。更长的周期使用较少的权力，但反应较慢，反之亦然。
-\n默认值自动基于电池容量。实际AI 周期自动根据使用情况调整。</string>
-    <string name="ai_cycle_period_warning">改变这些数值可能会导致更多的耗电或低质量的 AI 工作。</string>
     <string name="ai_is_disabled">AI 已禁用</string>
     <string name="ai_log">AI 日志</string>
     <string name="ai_mode">AI 模式</string>
@@ -49,7 +44,8 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">温度： %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">电压: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">墙体: %1$s</string>
-    <string name="burnit">禁用裁剪功能</string>
+    <string name="burnit">节流</string>
+    <string name="greenbattery_title">电池</string>
     <string name="bypassch_desc">在重压过程中限制充电器电流以匹配设备使用率，降低充电和加热。</string>
     <string name="bypassch_title">充电旁路</string>
     <string name="cancel">取消</string>
@@ -106,7 +102,6 @@
     <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
     <string name="grantit">您可能需要在您的操作系统权限管理器中手动授予自动启动权限，以允许FDE.AI在操作系统启动后启动。</string>
     <string name="greenbattery_desc">通过限制最大充电级别来延长电池寿命。停止充电并重新启动低于6%的充电。</string>
-    <string name="greenbattery_title">电池健康</string>
     <string name="hour">h.</string>
     <string name="join_forum">XDA</string>
     <string name="just_battery">电量：</string>
@@ -181,7 +176,6 @@
     <string name="rm_fde_lite">先卸载FDE.AI lite 版本！</string>
     <string name="run_now">运行</string>
     <string name="save_log">保存日志</string>
-    <string name="screen_on_delay">屏幕开启延迟：</string>
     <string name="search_no_reset">搜索</string>
     <string name="share">分享FDE.AI</string>
     <string name="share_txt">试试FDE.AI - 一个令人惊叹的安卓优化器！</string>
@@ -229,24 +223,19 @@
     <string name="ai_lifetime">AI 生命周期</string>
     <string name="kernel_tuning_state">内核调整</string>
     <string name="cpu_turbo_support">CPU Turbo 支持</string>
-    <string name="cpu_turbo_active">CPU Turbo 激活</string>
     <string name="cpu_turbo_trigger_count">CPU Turbo 触发次数</string>
     <string name="gpu_turbo_support">GPU Turbo 支持</string>
-    <string name="gpu_turbo_active">GPU Turbo 激活</string>
     <string name="gpu_turbo_trigger_count">GPU Turbo 触发次数</string>
     <string name="force_doze_enabled">强制休眠已启用</string>
     <string name="force_doze_trigger_count">强制休眠触发次数</string>
-    <string name="force_doze_autopowersave_mode">强制休眠自动省电</string>
+    <string name="autopowersave_mode">强制休眠自动省电</string>
     <string name="throttling_deactivated">节流已停用</string>
     <string name="throttling_ignore_on_charge">节流忽略充电</string>
     <string name="kill_bg_apps">关闭后台应用</string>
-    <string name="auto_tune_freqs">自动调整频率</string>
     <string name="auto_art_opt">自动 ART 优化</string>
     <string name="dynamic_read_ahead">动态预读</string>
     <string name="charging_bypass_enabled">充电旁路已启用</string>
-    <string name="charging_bypass_active">充电旁路已激活</string>
     <string name="charging_limit_enabled">充电限制已启用</string>
-    <string name="charging_limit_active">充电限制已激活</string>
     <string name="charging_cycles">充电周期：</string>
     <string name="cpu_bandwidth_tune">CPU 带宽调整</string>
     <string name="fs_cache_tune">FS 缓存调整</string>
@@ -259,4 +248,30 @@
     <string name="extraopt_schedule_time">设置每日自动优化时间</string>
     <string name="sound_notifications">声音通知</string>
     <string name="migration_error">数据迁移时发生意外错误。数据将被清除。</string>
+    <string name="onboarding_select_mode_title">选择模式</string>
+    <string name="onboarding_mode_shizuku">Shizuku</string>
+    <string name="onboarding_mode_root">Root</string>
+    <string name="charging_limit">充电限制</string>
+    <string name="auto_data_save">流量节省</string>
+    <string name="auto_data_save_desc">屏幕关闭时自动启用流量节省。</string>
+    <string name="autodatasave_mode">自动流量节省</string>
+    <string name="memory_boost_support">内存提升</string>
+    <string name="root_mode_descr">所有功能。需要 root 权限。</string>
+    <string name="shizuku_mode_descr">功能较少，无需 root，Android 11 及以上系统。需要 Shizuku 应用。</string>
+    <string name="lets_go">运行</string>
+    <string name="shizuku_setup_success">Shizuku 已设置完毕，您可以开始使用了</string>
+    <string name="shizuku_setup_instructions_title">设置说明</string>
+    <string name="shizuku_warning_systemless_title">注意</string>
+    <string name="shizuku_warning_systemless_description">非 root 模式可能会执行永久影响系统的操作。</string>
+    <string name="shizuku_warning_miui_title">MIUI 开发者权限</string>
+    <string name="shizuku_warning_miui_description">MIUI 用户需要启用额外的开发者权限才能使 Shizuku 正常运行。</string>
+    <string name="shizuku_install_from_play_store">从 Play 商店安装</string>
+    <string name="shizuku_open_app">打开Shizuku 应用</string>
+    <string name="shizuku_setup_step_1">安装 Shizuku</string>
+    <string name="shizuku_setup_step_2">在应用中启用 Shizuku 服务</string>
+    <string name="shizuku_setup_step_3">出现提示时授予权限</string>
+    <string name="shizuku_setup_step_4">返回 FDE.AI 继续设置</string>
+    <string name="shizuku_broken_connection">错误！Shizuku 连接已断开，请重新启动 Shizuku 服务。</string>
+    <string name="just_check">检查</string>
+    <string name="dontkillmyapp_text">您正在使用 Shizuku 模式。为了保持应用正常运行，请禁用 Shizuku 和 FDE.AI 的自动终止功能。想看看怎么做吗？</string>
 </resources>

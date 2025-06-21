@@ -4,12 +4,7 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Dibuat oleh ❤ oleh FeraVolt.</string>
     <string name="accept">Terima</string>
     <string name="adaptive">Otomatis</string>
-    <string name="ai_tune_freqs">Setel otomatis frekuensi CPU/GPU</string>
     <string name="ai_auto_mode">Menyeimbangkan kinerja dan penghematan daya berdasarkan penggunaan perangkat. Penyetelan otomatis frekuensi memberikan penghematan daya yang lebih besar.</string>
-    <string name="ai_cycle_period">Periode siklus AI</string>
-    <string name="ai_cycle_period_desc">Atur periode siklus AI secara manual. Periode yang lebih panjang menggunakan daya lebih sedikit tetapi kurang responsif, dan sebaliknya.
-\nNilai default diatur secara otomatis berdasarkan kapasitas baterai. Siklus AI aktual menyesuaikan secara otomatis berdasarkan penggunaan.</string>
-    <string name="ai_cycle_period_warning">Mengubah nilai-nilai ini dapat menyebabkan peningkatan konsumsi daya atau kualitas kerja AI yang rendah.</string>
     <string name="ai_is_disabled">AI dinonaktifkan</string>
     <string name="ai_log">Log AI</string>
     <string name="ai_mode">Mode AI</string>
@@ -49,7 +44,8 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Temperatur: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Voltase: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Keausan: %1$s</string>
-    <string name="burnit">Nonaktifkan pembatasan</string>
+    <string name="burnit">Pembatasan</string>
+    <string name="greenbattery_title">Baterai</string>
     <string name="bypassch_desc">Membatasi arus pengisi daya selama proses berat dijalankan agar sesuai dengan penggunaan perangkat, sehingga mengurangi pengisian daya dan pemanasan baterai.</string>
     <string name="bypassch_title">Lewati pengisian daya</string>
     <string name="cancel">Batal</string>
@@ -104,7 +100,6 @@
     <string name="go_back">Kembali</string>
     <string name="grantit">Anda mungkin perlu memberikan izin mulai otomatis secara manual melalui pengelola izin sistem operasi Anda untuk memungkinkan FDE.AI berjalan setelah menghidupkan ulang OS.</string>
     <string name="greenbattery_desc">Memperpanjang masa pakai baterai dengan membatasi tingkat pengisian daya maksimum. Menghentikan pengisian daya pada ambang batas yang ditentukan dan memulai ulang pada 6 persen di bawahnya.</string>
-    <string name="greenbattery_title">Kesehatan baterai</string>
     <string name="hour">jam.</string>
     <string name="join_forum">XDA</string>
     <string name="just_battery">Baterai</string>
@@ -179,7 +174,6 @@
     <string name="rm_fde_lite">Copot pemasangan FDE.AI lite terlebih dahulu!</string>
     <string name="run_now">Jalankan</string>
     <string name="save_log">Simpan log</string>
-    <string name="screen_on_delay">Delay saat layar menyala:</string>
     <string name="search_no_reset">Pencarian</string>
     <string name="share">Bagikan FDE.AI</string>
     <string name="share_txt">Coba FDE.AI - pengoptimal Android yang luar biasa!</string>
@@ -226,24 +220,18 @@
     <string name="ai_lifetime">Masa pakai AI</string>
     <string name="kernel_tuning_state">Penyetelan kernel</string>
     <string name="cpu_turbo_support">Dukungan Turbo CPU</string>
-    <string name="cpu_turbo_active">Turbo CPU aktif</string>
     <string name="cpu_turbo_trigger_count">Jumlah pemicu Turbo CPU</string>
     <string name="gpu_turbo_support">Dukungan Turbo GPU</string>
-    <string name="gpu_turbo_active">Turbo GPU aktif</string>
     <string name="gpu_turbo_trigger_count">Jumlah pemicu Turbo GPU</string>
     <string name="force_doze_enabled">Paksa Doze diaktifkan</string>
     <string name="force_doze_trigger_count">Jumlah pemicu Paksa Doze</string>
-    <string name="force_doze_autopowersave_mode">Paksa Doze hemat daya otomatis</string>
     <string name="throttling_deactivated">Pembatasan dinonaktifkan</string>
     <string name="throttling_ignore_on_charge">Pembatasan mengabaikan pengisian daya</string>
     <string name="kill_bg_apps">Matikan aplikasi latar belakang</string>
-    <string name="auto_tune_freqs">Frekuensi penyetelan otomatis</string>
     <string name="auto_art_opt">Pengoptimalan ART otomatis</string>
     <string name="dynamic_read_ahead">Pembacaan dinamis di depan</string>
     <string name="charging_bypass_enabled">Pembatasan pengisian daya diaktifkan</string>
-    <string name="charging_bypass_active">Pembatasan pengisian daya aktif</string>
     <string name="charging_limit_enabled">Batas pengisian daya diaktifkan</string>
-    <string name="charging_limit_active">Batas pengisian daya aktif</string>
     <string name="charging_cycles">Siklus pengisian daya:</string>
     <string name="cpu_bandwidth_tune">Penyetelan lebar pita CPU</string>
     <string name="fs_cache_tune">Penyetelan cache FS</string>
@@ -256,4 +244,31 @@
     <string name="extraopt_schedule_time">Tetapkan waktu pengoptimalan otomatis harian</string>
     <string name="sound_notifications">Pemberitahuan suara</string>
     <string name="migration_error">Terjadi kesalahan tak terduga saat migrasi data. Data akan dihapus.</string>
+    <string name="onboarding_select_mode_title">Pilih mode</string>
+    <string name="onboarding_mode_shizuku">Shizuku</string>
+    <string name="onboarding_mode_root">Root</string>
+    <string name="charging_limit">Batas pengisian daya</string>
+    <string name="auto_data_save">Penghemat data</string>
+    <string name="auto_data_save_desc">Aktifkan penghemat data secara otomatis saat layar mati.</string>
+    <string name="autopowersave_mode">Hemat daya otomatis</string>
+    <string name="autodatasave_mode">Hemat data otomatis</string>
+    <string name="memory_boost_support">Peningkatan memori</string>
+    <string name="root_mode_descr">Semua fitur. Memerlukan akses root.</string>
+    <string name="shizuku_mode_descr">Lebih sedikit fitur, tidak perlu root, Android 11+. Memerlukan aplikasi Shizuku.</string>
+    <string name="lets_go">Jalankan</string>
+    <string name="shizuku_setup_success">Shizuku telah disiapkan dan Anda siap menggunakannya</string>
+    <string name="shizuku_setup_instructions_title">Petunjuk Penyiapan</string>
+    <string name="shizuku_warning_systemless_title">Perhatian</string>
+    <string name="shizuku_warning_systemless_description">Mode non-root dapat melakukan tindakan yang akan memengaruhi sistem Anda secara permanen.</string>
+    <string name="shizuku_warning_miui_title">Izin Pengembang MIUI</string>
+    <string name="shizuku_warning_miui_description">Pengguna MIUI perlu mengaktifkan izin pengembang tambahan agar Shizuku berfungsi dengan baik.</string>
+    <string name="shizuku_install_from_play_store">Instal dari Play Store</string>
+    <string name="shizuku_open_app">Buka Aplikasi Shizuku</string>
+    <string name="shizuku_setup_step_1">Instal Shizuku</string>
+    <string name="shizuku_setup_step_2">Aktifkan layanan Shizuku di aplikasi</string>
+    <string name="shizuku_setup_step_3">Berikan izin saat diminta</string>
+    <string name="shizuku_setup_step_4">Kembali ke FDE.AI untuk melanjutkan pengaturan</string>
+    <string name="shizuku_broken_connection">Kesalahan! Koneksi Shizuku terputus, silakan mulai ulang layanan Shizuku.</string>
+    <string name="just_check">Periksa</string>
+    <string name="dontkillmyapp_text">Anda menggunakan mode Shizuku. Agar aplikasi tetap berfungsi dengan baik, nonaktifkan penghentian otomatis untuk Shizuku dan FDE.AI. Apakah Anda ingin melihat caranya?</string>
 </resources>

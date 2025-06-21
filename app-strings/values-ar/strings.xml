@@ -4,12 +4,7 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">صُنع بواسطة ❤ بواسطة FeraVolt.</string>
     <string name="accept">قبول</string>
     <string name="adaptive">تلقائي</string>
-    <string name="ai_tune_freqs">ضبط تلقائي للCPU/GPU</string>
     <string name="ai_auto_mode">الموازنة بين الأداء وتوفير الطاقة طبقاً لاستخدام الجهاز، الضبط التلقائي للترددات يعمل على زيادة توفير الطاقة.</string>
-    <string name="ai_cycle_period">مدة الدورة باستخدام الذكاء الاصطناعي</string>
-    <string name="ai_cycle_period_desc">ضبط فترة دورة الذكاء الاصطناعي يدوياً. تستخدم الفترات الأطول قوة أقل ولكنها أقل استجابة، والعكس بالعكس.
-\nيتم تعيين القيم الافتراضية تلقائياً استناداً إلى سعة البطارية. يتم ضبط دورة الذكاء الاصطناعي الفعلية تلقائيًا استناداً إلى الاستخدام.</string>
-    <string name="ai_cycle_period_warning">وتغيير هذه القيم قد يؤدي إلى زيادة استهلاك الطاقة أو إلى تدني نوعية عمل الذكاء الاصطناعي.</string>
     <string name="ai_is_disabled">AI معطل</string>
     <string name="ai_log">سجل الذاكرة</string>
     <string name="ai_mode">وضع الذكاء</string>
@@ -49,7 +44,8 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">درجة الحرارة: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">فولتاج: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">عجب: %1$s</string>
-    <string name="burnit">تعطيل الخنق</string>
+    <string name="burnit">خنق</string>
+    <string name="greenbattery_title">البطارية</string>
     <string name="bypassch_desc">الحد من تيار الشاحن أثناء العمليات الثقيلة يعمل لتطابق استخدام الجهاز، مما يقلل شحن البطارية والتدفئة.</string>
     <string name="bypassch_title">تجاوز الشحن</string>
     <string name="cancel">إلغاء</string>
@@ -106,7 +102,6 @@
     <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
     <string name="grantit">قد تحتاج إلى منح إذن التشغيل التلقائي يدوياً في مدير إذن OS الخاص بك للسماح لـ FDE.AI بأن يبدأ بعد تشغيل OS.</string>
     <string name="greenbattery_desc">تمديد عمر البطارية عن طريق الحد من الحد الأقصى لمستوى الشحن. يتوقف الشحن عند الحد الأدنى المحدد وإعادة التشغيل عند 6 في المائة أسفله.</string>
-    <string name="greenbattery_title">صحة البطارية</string>
     <string name="hour">(ح)</string>
     <string name="join_forum">XDA</string>
     <string name="just_battery">البطارية</string>
@@ -181,7 +176,6 @@
     <string name="rm_fde_lite">الغاء تثبيت FDE.AI lite اولا !</string>
     <string name="run_now">تشغيل</string>
     <string name="save_log">حفظ السجل</string>
-    <string name="screen_on_delay">تأخير تشغيل الشاشة:</string>
     <string name="search_no_reset">البحث</string>
     <string name="share">مشاركة FDE.AI</string>
     <string name="share_txt">جرب FDE.AI - أداة تحسين مدهشة!</string>
@@ -229,24 +223,18 @@
     <string name="ai_lifetime">عمر الذكاء الاصطناعي</string>
     <string name="kernel_tuning_state">ضبط النواة</string>
     <string name="cpu_turbo_support">دعم CPU Turbo</string>
-    <string name="cpu_turbo_active">تنشيط CPU Turbo</string>
     <string name="cpu_turbo_trigger_count">عدد مشغلات CPU Turbo</string>
     <string name="gpu_turbo_support">دعم GPU Turbo</string>
-    <string name="gpu_turbo_active">تنشيط GPU Turbo</string>
     <string name="gpu_turbo_trigger_count">عدد مشغلات GPU Turbo</string>
     <string name="force_doze_enabled">تمكين Force Doze</string>
     <string name="force_doze_trigger_count">عدد مشغلات Force Doze</string>
-    <string name="force_doze_autopowersave_mode">إجبار الحفظ التلقائي للطاقة</string>
     <string name="throttling_deactivated">تم إلغاء تنشيط الكبح</string>
     <string name="throttling_ignore_on_charge">الكبح يتجاهل الشحن</string>
     <string name="kill_bg_apps">إيقاف تشغيل تطبيقات الخلفية</string>
-    <string name="auto_tune_freqs">ضبط الترددات تلقائيًا</string>
     <string name="auto_art_opt">تحسين ART تلقائيًا</string>
     <string name="dynamic_read_ahead">قراءة مسبقة ديناميكية</string>
     <string name="charging_bypass_enabled">تمكين تجاوز الشحن</string>
-    <string name="charging_bypass_active">تفعيل تجاوز الشحن</string>
     <string name="charging_limit_enabled">تمكين حد الشحن</string>
-    <string name="charging_limit_active">حد الشحن نشط</string>
     <string name="charging_cycles">دورات الشحن:</string>
     <string name="cpu_bandwidth_tune">ضبط عرض النطاق الترددي لوحدة المعالجة المركزية</string>
     <string name="fs_cache_tune">ضبط ذاكرة التخزين المؤقت لنظام الملفات</string>
@@ -259,4 +247,31 @@
     <string name="extraopt_schedule_time">تعيين وقت التحسين التلقائي اليومي</string>
     <string name="sound_notifications">إشعارات صوتية</string>
     <string name="migration_error">حدث خطأ غير متوقع أثناء نقل البيانات. سيتم مسح البيانات.</string>
+    <string name="onboarding_select_mode_title">اختيار الوضع</string>
+    <string name="onboarding_mode_shizuku">Shizuku</string>
+    <string name="onboarding_mode_root">Root</string>
+    <string name="charging_limit">حد الشحن</string>
+    <string name="auto_data_save">توفير البيانات</string>
+    <string name="auto_data_save_desc">تفعيل توفير البيانات تلقائيًا عند إيقاف تشغيل الشاشة.</string>
+    <string name="autopowersave_mode">توفير الطاقة التلقائي</string>
+    <string name="autodatasave_mode">توفير البيانات التلقائي</string>
+    <string name="memory_boost_support">تعزيز الذاكرة</string>
+    <string name="root_mode_descr">جميع الميزات. يتطلب صلاحيات الروت.</string>
+    <string name="shizuku_mode_descr">ميزات أقل، لا حاجة إلى صلاحيات الروت، أندرويد 11+. يتطلب تطبيق Shizuku.</string>
+    <string name="lets_go">تشغيل</string>
+    <string name="shizuku_setup_success">تم إعداد Shizuku وأنت جاهز للاستخدام</string>
+    <string name="shizuku_setup_instructions_title">تعليمات الإعداد</string>
+    <string name="shizuku_warning_systemless_title">تنبيه</string>
+    <string name="shizuku_warning_systemless_description">قد يؤدي وضع عدم استخدام الجذر إلى تنفيذ إجراءات تؤثر بشكل دائم على نظامك.</string>
+    <string name="shizuku_warning_miui_title">أذونات مطور MIUI</string>
+    <string name="shizuku_warning_miui_description">يحتاج مستخدمو MIUI إلى تفعيل أذونات مطور إضافية ليعمل Shizuku بشكل صحيح.</string>
+    <string name="shizuku_install_from_play_store">التثبيت من متجر Play</string>
+    <string name="shizuku_open_app">افتح تطبيق Shizuku</string>
+    <string name="shizuku_setup_step_1">ثبّت Shizuku</string>
+    <string name="shizuku_setup_step_2">فعّل خدمة Shizuku في التطبيق</string>
+    <string name="shizuku_setup_step_3">امنح الأذونات عند الطلب</string>
+    <string name="shizuku_setup_step_4">ارجع إلى FDE.AI لمتابعة الإعداد</string>
+    <string name="shizuku_broken_connection">خطأ! اتصال Shizuku مقطوع، يُرجى إعادة تشغيل خدمة Shizuku.</string>
+    <string name="just_check">تحقق</string>
+    <string name="dontkillmyapp_text">أنت تستخدم وضع Shizuku. للحفاظ على عمل التطبيق بشكل جيد، يُرجى تعطيل الإيقاف التلقائي لـ Shizuku وFDE.AI. هل تريد معرفة كيفية القيام بذلك؟</string>
 </resources>

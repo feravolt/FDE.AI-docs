@@ -4,12 +4,7 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">FeraVoltが❤を込めて作りました。</string>
     <string name="accept">同意</string>
     <string name="adaptive">自動</string>
-    <string name="ai_tune_freqs">CPUとGPUの周波数を自動調整</string>
     <string name="ai_auto_mode">デバイスの使用状況に基づいて、パフォーマンスと省電力のバランスを取ります。「CPUとGPUの周波数を自動調整」を有効化することにより、さらに省電力になります。</string>
-    <string name="ai_cycle_period">AIのサイクル周期</string>
-    <string name="ai_cycle_period_desc">AIサイクル周期を手動で調整します。周期が長いほど電力消費が少なくなりますが、応答速度が低下し、逆も同様です。
-\nデフォルトの値はバッテリーの容量に基づいて自動的に設定されます。実際のAIサイクルは使用状況に応じて自動的に調整されます。</string>
-    <string name="ai_cycle_period_warning">これらの値を変更すると、電力消費の増加または低品質のAI処理につながる可能性があります。</string>
     <string name="ai_is_disabled">AIは無効になっています。</string>
     <string name="ai_log">AIログ</string>
     <string name="ai_mode">AIのモード</string>
@@ -49,7 +44,8 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">温度: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">電圧: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">劣化: %1$s</string>
-    <string name="burnit">スロットリングを無効化</string>
+    <string name="burnit">スロットル</string>
+    <string name="greenbattery_title">バッテリー</string>
     <string name="bypassch_desc">高負荷プロセスの実行中にデバイスの使用状況に合わせて充電電流を制限し、バッテリーの充電と発熱を抑えます。</string>
     <string name="bypassch_title">バイパス充電</string>
     <string name="cancel">キャンセル</string>
@@ -109,7 +105,6 @@
     <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
     <string name="grantit">OS起動後にFDE.AIを起動させるには、OSの権限マネージャーで自動起動を許可する必要がある場合があります。</string>
     <string name="greenbattery_desc">最大充電レベルを制限することでバッテリー寿命を延ばします。定義された閾値で充電を停止し、そこから6%低下すると再開します。</string>
-    <string name="greenbattery_title">バッテリーの健康状態</string>
     <string name="hour">時間</string>
     <string name="join_forum">XDA</string>
     <string name="just_battery">バッテリー</string>
@@ -185,7 +180,6 @@
     <string name="rm_fde_lite">先にFDE.AIのライトバージョンをアンインストールしてください！</string>
     <string name="run_now">実行</string>
     <string name="save_log">ログを保存</string>
-    <string name="screen_on_delay">画面オンの遅延:</string>
     <string name="search_no_reset">検索</string>
     <string name="share">FDE.AIを共有</string>
     <string name="share_txt">FDE.AIをお試しください - 素晴らしいAndroidの最適化ツールです！</string>
@@ -238,24 +232,18 @@
     <string name="ai_lifetime">AIの動作時間</string>
     <string name="kernel_tuning_state">カーネル調整</string>
     <string name="cpu_turbo_support">CPUターボに対応しているか</string>
-    <string name="cpu_turbo_active">CPUターボが現在動作しているか</string>
     <string name="cpu_turbo_trigger_count">CPUターボの実行回数</string>
     <string name="gpu_turbo_support">GPUターボに対応しているか</string>
-    <string name="gpu_turbo_active">GPUターボが現在動作しているか</string>
     <string name="gpu_turbo_trigger_count">GPUターボの実行回数</string>
     <string name="force_doze_enabled">[強制的に「電池の最適化」]が有効か</string>
     <string name="force_doze_trigger_count">[強制的に「電池の最適化」]の実行回数</string>
-    <string name="force_doze_autopowersave_mode">強制的に「電池の最適化」を省電力</string>
     <string name="throttling_deactivated">スロットリングが無効か</string>
     <string name="throttling_ignore_on_charge">充電中のスロットリングを無視</string>
     <string name="kill_bg_apps">バックグラウンドアプリの強制終了</string>
-    <string name="auto_tune_freqs">周波数の自動調整</string>
     <string name="auto_art_opt">自動ART最適化</string>
     <string name="dynamic_read_ahead">動的read-ahead</string>
     <string name="charging_bypass_enabled">充電制限が有効か</string>
-    <string name="charging_bypass_active">充電制限が現在動作しているか</string>
     <string name="charging_limit_enabled">充電制限が有効か</string>
-    <string name="charging_limit_active">充電制限が現在動作しているか</string>
     <string name="charging_cycles">充電サイクル:</string>
     <string name="cpu_bandwidth_tune">CPU帯域幅の調整</string>
     <string name="fs_cache_tune">FSキャッシュの調整</string>
@@ -268,4 +256,31 @@
     <string name="extraopt_schedule_time">毎日の自動最適化時間を設定</string>
     <string name="sound_notifications">サウンド通知</string>
     <string name="migration_error">データ移行中に予期しないエラーが発生しました。データは消去されます。</string>
+    <string name="onboarding_select_mode_title">モードを選択</string>
+    <string name="onboarding_mode_shizuku">Shizuku</string>
+    <string name="onboarding_mode_root">ルート権限</string>
+    <string name="charging_limit">充電制限</string>
+    <string name="auto_data_save">データセーバー</string>
+    <string name="auto_data_save_desc">画面オフ時にデータセーバーを自動的に有効にします。</string>
+    <string name="autopowersave_mode">自動省電力</string>
+    <string name="autodatasave_mode">自動データセーブ</string>
+    <string name="memory_boost_support">メモリブースト</string>
+    <string name="root_mode_descr">すべての機能。ルート権限が必要です。</string>
+    <string name="shizuku_mode_descr">機能が少なく、ルート権限は不要です。Android 11以降。 Shizuku アプリが必要です。</string>
+    <string name="lets_go">実行</string>
+    <string name="shizuku_setup_success">Shizuku のセットアップが完了し、使用準備が整いました。</string>
+    <string name="shizuku_setup_instructions_title">セットアップ手順</string>
+    <string name="shizuku_warning_systemless_title">注意</string>
+    <string name="shizuku_warning_systemless_description">非ルートモードでは、システムに永続的な影響を与える操作が行われる可能性があります。</string>
+    <string name="shizuku_warning_miui_title">MIUI 開発者権限</string>
+    <string name="shizuku_warning_miui_description">MIUI ユーザーは、Shizuku を正常に動作させるために、追加の開発者権限を有効にする必要があります。</string>
+    <string name="shizuku_install_from_play_store">Play ストアからインストール</string>
+    <string name="shizuku_open_app">Shizukuアプリを開く</string>
+    <string name="shizuku_setup_step_1">Shizukuをインストールする</string>
+    <string name="shizuku_setup_step_2">アプリでShizukuサービスを有効にする</string>
+    <string name="shizuku_setup_step_3">プロンプトが表示されたら権限を付与する</string>
+    <string name="shizuku_setup_step_4">FDE.AIに戻ってセットアップを続行する</string>
+    <string name="shizuku_broken_connection">エラー！Shizuku接続が切断されました。Shizukuサービスを再起動してください。</string>
+    <string name="just_check">確認する</string>
+    <string name="dontkillmyapp_text">Shizukuモードを使用しています。アプリを正常に動作させるには、ShizukuとFDE.AIの自動終了を無効にしてください。方法を確認しますか？</string>
 </resources>

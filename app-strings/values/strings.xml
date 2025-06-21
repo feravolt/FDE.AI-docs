@@ -5,12 +5,7 @@
     <string name="about_version" translatable="false">FDE.AI v%s</string>
     <string name="accept">Accept</string>
     <string name="adaptive">Auto</string>
-    <string name="ai_tune_freqs">Auto-tune CPU/GPU freqs</string>
     <string name="ai_auto_mode">Balances performance and power-saving based on device usage. Freqs auto-tune gives more power-saving.</string>
-    <string name="ai_cycle_period">AI cycle period</string>
-    <string name="ai_cycle_period_desc">Adjust the AI cycle period manually. Longer periods use less power but are less responsive, and vice versa.
-\nDefault values are set automatically based on battery capacity. The actual AI cycle adjusts automatically based on usage.</string>
-    <string name="ai_cycle_period_warning">Changing these values may lead to increased power consumption or low quality AI work.</string>
     <string name="ai_is_disabled">AI disabled</string>
     <string name="ai_log">AI Log</string>
     <string name="ai_mode">AI mode</string>
@@ -52,7 +47,8 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Temperature: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Voltage: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Wear: %1$s</string>
-    <string name="burnit">Disable throttling</string>
+    <string name="burnit">Throttling</string>
+    <string name="greenbattery_title">Battery</string>
     <string name="bypassch_desc">Limits charger current during heavy processes run to match device usage, reducing battery charging and heating.</string>
     <string name="bypassch_title">Charging bypass</string>
     <string name="cancel">Cancel</string>
@@ -114,7 +110,6 @@
     <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
     <string name="grantit">You may need to manually grant autostart permission in your OS\'s permission manager to allow FDE.AI to start after OS boot.</string>
     <string name="greenbattery_desc">Extend battery life by limiting max charge level. Stops charging at the defined threshold and restarts at 6 percent below it.</string>
-    <string name="greenbattery_title">Battery health</string>
     <string name="hour">h.</string>
     <string name="inactive" translatable="false">n/a</string>
     <string name="join_telegram" translatable="false">Telegram</string>
@@ -194,7 +189,6 @@
     <string name="rm_fde_lite">Uninstall FDE.AI lite version first!</string>
     <string name="run_now">Run</string>
     <string name="save_log">Save log</string>
-    <string name="screen_on_delay">Screen ON delay:</string>
     <string name="search_no_reset">Search</string>
     <string name="share">Share FDE.AI</string>
     <string name="share_txt">Try FDE.AI - an amazing Android optimizer!</string>
@@ -255,24 +249,18 @@
     <string name="ai_lifetime">AI lifetime</string>
     <string name="kernel_tuning_state">Kernel tuning</string>
     <string name="cpu_turbo_support">CPU Turbo support</string>
-    <string name="cpu_turbo_active">CPU Turbo active</string>
     <string name="cpu_turbo_trigger_count">CPU Turbo trigger count</string>
     <string name="gpu_turbo_support">GPU Turbo support</string>
-    <string name="gpu_turbo_active">GPU Turbo active</string>
     <string name="gpu_turbo_trigger_count">GPU Turbo trigger count</string>
     <string name="force_doze_enabled">Force Doze enabled</string>
     <string name="force_doze_trigger_count">Force Doze trigger count</string>
-    <string name="force_doze_autopowersave_mode">Force Doze auto-powersave</string>
     <string name="throttling_deactivated">Throttling deactivated</string>
     <string name="throttling_ignore_on_charge">Throttling ignore charging</string>
     <string name="kill_bg_apps">Kill background apps</string>
-    <string name="auto_tune_freqs">Auto tune frequencies</string>
     <string name="auto_art_opt">Auto ART optimization</string>
     <string name="dynamic_read_ahead">Dynamic read-ahead</string>
     <string name="charging_bypass_enabled">Charging bypass enabled</string>
-    <string name="charging_bypass_active">Charging bypass active</string>
     <string name="charging_limit_enabled">Charging limit enabled</string>
-    <string name="charging_limit_active">Charging limit active</string>
     <string name="charging_cycles">Charging cycles:</string>
     <string name="cpu_bandwidth_tune">CPU bandwidth tuning</string>
     <string name="fs_cache_tune">FS cache tuning</string>
@@ -285,4 +273,31 @@
     <string name="extraopt_schedule_time">Set daily auto-optimize time</string>
     <string name="sound_notifications">Sound notifications</string>
     <string name="migration_error">Unexpected error occurred while data migration. Data will be cleared.</string>
+    <string name="onboarding_select_mode_title">Select mode</string>
+    <string name="onboarding_mode_shizuku">Shizuku</string>
+    <string name="onboarding_mode_root">Root</string>
+    <string name="charging_limit">Charging limit</string>
+    <string name="auto_data_save">Data saver</string>
+    <string name="auto_data_save_desc">Auto-enable data saver when screen is off.</string>
+    <string name="autopowersave_mode">Auto power save</string>
+    <string name="autodatasave_mode">Auto data save</string>
+    <string name="memory_boost_support">Memory boost</string>
+    <string name="root_mode_descr">All features. Requires root access.</string>
+    <string name="shizuku_mode_descr">Fewer features, no root needed, Android 11+. Requires Shizuku app.</string>
+    <string name="lets_go">Run</string>
+    <string name="shizuku_setup_success">Shizuku is set up and you\'re ready to go</string>
+    <string name="shizuku_setup_instructions_title">Setup Instructions</string>
+    <string name="shizuku_warning_systemless_title">Attention</string>
+    <string name="shizuku_warning_systemless_description">Non-root mode may perform actions that will permanently affect your system.</string>
+    <string name="shizuku_warning_miui_title">MIUI Developer Permissions</string>
+    <string name="shizuku_warning_miui_description">MIUI users need to enable additional developer permissions for Shizuku to work properly.</string>
+    <string name="shizuku_install_from_play_store">Install from Play Store</string>
+    <string name="shizuku_open_app">Open Shizuku App</string>
+    <string name="shizuku_setup_step_1">Install Shizuku</string>
+    <string name="shizuku_setup_step_2">Enable Shizuku service in the app</string>
+    <string name="shizuku_setup_step_3">Grant permissions when prompted</string>
+    <string name="shizuku_setup_step_4">Return to FDE.AI to continue setup</string>
+    <string name="shizuku_broken_connection">Error! Shizuku connection is broken, please re-start Shizuku service.</string>
+    <string name="just_check">Check</string>
+    <string name="dontkillmyapp_text">You are using Shizuku mode. To keep the app working well, please disable auto-kill for Shizuku and FDE.AI. Do you want to see how?</string>
 </resources>

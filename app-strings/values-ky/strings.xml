@@ -4,12 +4,7 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">FeraVolt тон ❤ менен жаралган.</string>
     <string name="accept">Кабыл ал</string>
     <string name="adaptive">Авто</string>
-    <string name="ai_tune_freqs">CPU/GPU жыштыктарын авто тууралоо</string>
     <string name="ai_auto_mode">Түзмөктүн колдонулушуна жараша майнаптуулук менен энергияны үнөмдөөнү тең салмактайт. Freqs авто-түздөө көбүрөөк энергия үнөмдөө берет.</string>
-    <string name="ai_cycle_period">AI циклинин мезгили</string>
-    <string name="ai_cycle_period_desc">AI циклинин узактыгын кол менен тууралоо. Узак кылынса азыраак кубат талап кылат, бирок жооп бериши жай болот, ыкчам кылынса тескерисинче болот.
-\nБаштапкы тууралоолор автоматтык түрдө батареянын сыйымдуулугуна жараша коюлат. AI цикли колдонууга жараша автоматтык түрдө туураланат.</string>
-    <string name="ai_cycle_period_warning">Буларды өзгөртүү электр энергиясын керектөөнүн көбөйүшүнө же ЖИнин сапатсыз иштешине алып келиши мүмкүн.</string>
     <string name="ai_is_disabled">ЖА өчүк</string>
     <string name="ai_log">ЖА логу</string>
     <string name="ai_mode">ЖИ режими</string>
@@ -49,7 +44,8 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Температура: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Вольтаж: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Кийүү: %1$s</string>
-    <string name="burnit">Тыюулоону өчүрүү</string>
+    <string name="burnit">Тыюулоо</string>
+    <string name="greenbattery_title">Батарея</string>
     <string name="bypassch_desc">Оор процесстер учурунда заряддагыч агымды чектеп, батареянын зарядын жана жылытуусун азайтып, түзмөктү колдонууга дал келет.</string>
     <string name="bypassch_title">Заряддоону айланып өтүү</string>
     <string name="cancel">Жокко чыгаруу</string>
@@ -106,7 +102,6 @@
     <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
     <string name="grantit">FDE.AI OS жүктөлгөндөн кийин ишке киришине уруксат берүү үчүн OS\'уңуздун уруксат башкаргычында автоматтык түрдө баштоого кол менен уруксат беришиңиз керек болушу мүмкүн.</string>
     <string name="greenbattery_desc">Максималдуу заряд деңгээлин чектөө менен батареянын иштөө мөөнөтүн узартыңыз. Белгиленген босогодо кубаттоону токтотуп, андан 6 пайызга төмөн кайра иштетет.</string>
-    <string name="greenbattery_title">Батареянын ден соолугу</string>
     <string name="hour">h.</string>
     <string name="join_forum">XDA</string>
     <string name="just_battery">Батарея</string>
@@ -181,7 +176,6 @@
     <string name="rm_fde_lite">Алгач FDE.AI lite версиясын чыгарып салыңыз!</string>
     <string name="run_now">Иштет</string>
     <string name="save_log">Журналды сактоо</string>
-    <string name="screen_on_delay">Экран АЧУУ кечигүү:</string>
     <string name="search_no_reset">Издөө</string>
     <string name="share">FDE.AI менен бөлүшүңүз</string>
     <string name="share_txt">FDE.AI - укмуштуудай Android оптимизатору!</string>
@@ -229,24 +223,18 @@
     <string name="ai_lifetime">AI өмүрү</string>
     <string name="kernel_tuning_state">Ядро жөндөө</string>
     <string name="cpu_turbo_support">CPU Turbo колдоосу</string>
-    <string name="cpu_turbo_active">CPU Turbo активдүү</string>
     <string name="cpu_turbo_trigger_count">CPU Turbo триггеринин саны</string>
     <string name="gpu_turbo_support">GPU Turbo колдоосу</string>
-    <string name="gpu_turbo_active">GPU Turbo активдүү</string>
     <string name="gpu_turbo_trigger_count">GPU Turbo триггеринин саны</string>
     <string name="force_doze_enabled">Мажбурлоо режими иштетилди</string>
     <string name="force_doze_trigger_count">Мажбурлап Doze триггер саны</string>
-    <string name="force_doze_autopowersave_mode">Мажбурлап Doze автоматтык түрдө үнөмдөө</string>
     <string name="throttling_deactivated">Бөгөттөө өчүрүлгөн</string>
     <string name="throttling_ignore_on_charge">Троттлинг кубаттоого көңүл бурбоо</string>
     <string name="kill_bg_apps">Фондук колдонмолорду жок кылуу</string>
-    <string name="auto_tune_freqs">Жыштыктарды автоматтык түрдө тууралоо</string>
     <string name="auto_art_opt">Авто ART оптималдаштыруу</string>
     <string name="dynamic_read_ahead">Алдын ала динамикалык окуу</string>
     <string name="charging_bypass_enabled">Заряддоону айланып өтүү иштетилди</string>
-    <string name="charging_bypass_active">Заряддоону айланып өтүү активдүү</string>
     <string name="charging_limit_enabled">Заряддоо чеги иштетилди</string>
-    <string name="charging_limit_active">Заряддоо чеги активдүү</string>
     <string name="charging_cycles">Заряддоо циклдери:</string>
     <string name="cpu_bandwidth_tune">CPU өткөрүү жөндөмдүүлүгүн жөндөө</string>
     <string name="fs_cache_tune">FS кэшин жөндөө</string>
@@ -259,4 +247,31 @@
     <string name="extraopt_schedule_time">Күнүмдүк автоматтык оптималдаштыруу убактысын коюу</string>
     <string name="sound_notifications">Үн эскертмелери</string>
     <string name="migration_error">Дайындарды көчүрүү учурунда күтүлбөгөн ката кетти. Дайындар тазаланат.</string>
+    <string name="onboarding_select_mode_title">Режимди тандоо</string>
+    <string name="onboarding_mode_shizuku">Shizuku</string>
+    <string name="onboarding_mode_root">Root</string>
+    <string name="charging_limit">Заряддоо чеги</string>
+    <string name="auto_data_save">Дайындарды сактагыч</string>
+    <string name="auto_data_save_desc">Экран өчүк болгондо маалымат сактагычты автоматтык түрдө иштетүү.</string>
+    <string name="autopowersave_mode">Электр кубатын автоматтык түрдө үнөмдөө</string>
+    <string name="autodatasave_mode">Дайындарды авто сактоо</string>
+    <string name="memory_boost_support">Эс тутумду көбөйтүү</string>
+    <string name="root_mode_descr">Бардык мүмкүнчүлүктөр. Тамырга кирүү мүмкүнчүлүгүн талап кылат.</string>
+    <string name="shizuku_mode_descr">Азыраак функциялар, тамырдын кереги жок, Android 11+. Shizuku колдонмосун талап кылат.</string>
+    <string name="lets_go">Чуркоо</string>
+    <string name="shizuku_setup_success">Shizuku жөндөлдү жана сиз кетүүгө даярсыз</string>
+    <string name="shizuku_setup_instructions_title">Орнотуу нускамалары</string>
+    <string name="shizuku_warning_systemless_title">Көңүл буруңуз</string>
+    <string name="shizuku_warning_systemless_description">Root эмес режим тутумуңузга биротоло таасир этүүчү аракеттерди аткарышы мүмкүн.</string>
+    <string name="shizuku_warning_miui_title">MIUI Иштеп чыгуучунун уруксаттары</string>
+    <string name="shizuku_warning_miui_description">MIUI колдонуучулары Shizuku туура иштеши үчүн кошумча иштеп чыгуучунун уруксаттарын иштетиши керек.</string>
+    <string name="shizuku_install_from_play_store">Play Дүкөндөн орнотуу</string>
+    <string name="shizuku_open_app">Sidzuku колдонмосун ачыңыз</string>
+    <string name="shizuku_setup_step_1">Shizuku орнотуу</string>
+    <string name="shizuku_setup_step_2">Колдонмодо Shizuku кызматын иштетүү</string>
+    <string name="shizuku_setup_step_3">Суралганда уруксаттарды берүү</string>
+    <string name="shizuku_setup_step_4">Орнотууну улантуу үчүн FDE.AIге кайтыңыз</string>
+    <string name="shizuku_broken_connection">Ката! Shizuku байланышы үзүлгөн, Shizuku кызматын кайра иштетиңиз.</string>
+    <string name="just_check">Текшерүү</string>
+    <string name="dontkillmyapp_text">Сиз Shizuku режимин колдонуп жатасыз. Колдонмонун жакшы иштеши үчүн Shizuku жана FDE.AI үчүн автоматтык түрдө өлтүрүүнү өчүрүңүз. Кантип көргүңүз келеби?</string>
 </resources>

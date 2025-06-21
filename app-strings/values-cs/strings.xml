@@ -4,12 +4,7 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Vyrobeno pomocí ❤ od FeraVolt.</string>
     <string name="accept">Přijmout</string>
     <string name="adaptive">Automaticky</string>
-    <string name="ai_tune_freqs">Automatická úprava CPU/GPU freqů</string>
     <string name="ai_auto_mode">Vyvážení výkonu a úspora energie na základě využití zařízení. Automatická regulace poskytuje větší úsporu energie.</string>
-    <string name="ai_cycle_period">Doba cyklu AI</string>
-    <string name="ai_cycle_period_desc">Nastavte dobu cyklu AI ručně. Delší doby používají méně energie, ale jsou méně citlivé, a naopak.
-\nVýchozí hodnoty jsou nastaveny automaticky na základě výdrže baterie. Skutečný cyklus AI se automaticky přizpůsobuje na základě využití.</string>
-    <string name="ai_cycle_period_warning">Změna těchto hodnot může vést ke zvýšení spotřeby energie nebo nízké kvality AI.</string>
     <string name="ai_is_disabled">AI zakázáno</string>
     <string name="ai_log">Protokol AI</string>
     <string name="ai_mode">Režim AI</string>
@@ -49,7 +44,8 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Teplota: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Napětí: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Vážení: %1$s</string>
-    <string name="burnit">Zakázat otáčení</string>
+    <string name="burnit">Omezení</string>
+    <string name="greenbattery_title">Baterie</string>
     <string name="bypassch_desc">Omezí proud nabíječky během těžkého běhu tak, aby odpovídal používání zařízení, snižuje nabíjení baterie a ohřev baterie.</string>
     <string name="bypassch_title">Vynechání nabíjení</string>
     <string name="cancel">Zrušit</string>
@@ -106,7 +102,6 @@
     <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
     <string name="grantit">Možná budete muset ručně udělit oprávnění k automatickému spuštění ve správci oprávnění vašeho OS, aby FDE.AI mohl začít po startu OS.</string>
     <string name="greenbattery_desc">Prodloužit životnost baterie omezením maximální úrovně nabití. Zastaví nabíjení na stanovené prahové hodnotě a restartuje se na 6 procent pod ní.</string>
-    <string name="greenbattery_title">Zdraví baterie</string>
     <string name="hour">„Technologie“ ve smyslu všeobecné poznámky k technologii pro „vývoj“, „výrobu“ nebo „užití“ zařízení nebo „softwaru“ uvedených v položkách 3A, 3B nebo 3D.</string>
     <string name="join_forum">XDA</string>
     <string name="just_battery">Baterie</string>
@@ -181,7 +176,6 @@
     <string name="rm_fde_lite">Nejprve odinstalujte verzi FDE.AI lite !</string>
     <string name="run_now">Spustit</string>
     <string name="save_log">Uložit log</string>
-    <string name="screen_on_delay">Zpoždění při zapnutí:</string>
     <string name="search_no_reset">Hledat</string>
     <string name="share">Sdílet FDE.AI</string>
     <string name="share_txt">Zkuste FDE.AI - úžasný Android optimalizátor!</string>
@@ -229,24 +223,18 @@
     <string name="ai_lifetime">Doba životnosti AI</string>
     <string name="kernel_tuning_state">Ladění jádra</string>
     <string name="cpu_turbo_support">Podpora CPU Turbo</string>
-    <string name="cpu_turbo_active">CPU Turbo aktivní</string>
     <string name="cpu_turbo_trigger_count">Počet spouštění Turbo CPU</string>
     <string name="gpu_turbo_support">Podpora GPU Turbo</string>
-    <string name="gpu_turbo_active">GPU Turbo aktivní</string>
     <string name="gpu_turbo_trigger_count">Počet spouštění GPU Turbo</string>
     <string name="force_doze_enabled">Vynucení zdřímnutí povoleno</string>
     <string name="force_doze_trigger_count">Vynutit počet spouštěčů Doze</string>
-    <string name="force_doze_autopowersave_mode">Vynutit automatické zdřímnutí</string>
     <string name="throttling_deactivated">Omezování deaktivováno</string>
     <string name="throttling_ignore_on_charge">Omezování ignorování nabíjení</string>
     <string name="kill_bg_apps">Ukončení aplikací na pozadí</string>
-    <string name="auto_tune_freqs">Frekvence automatického ladění</string>
     <string name="auto_art_opt">Automatická optimalizace ART</string>
     <string name="dynamic_read_ahead">Dynamické čtení napřed</string>
     <string name="charging_bypass_enabled">Vynechání nabíjení povoleno</string>
-    <string name="charging_bypass_active">Přemostění nabíjení je aktivní</string>
     <string name="charging_limit_enabled">Limit nabíjení povolen</string>
-    <string name="charging_limit_active">Aktivní limit nabíjení</string>
     <string name="charging_cycles">Nabíjecí cykly:</string>
     <string name="cpu_bandwidth_tune">Ladění šířky pásma CPU</string>
     <string name="fs_cache_tune">Ladění mezipaměti FS</string>
@@ -259,4 +247,31 @@
     <string name="extraopt_schedule_time">Nastavit denní čas automatické optimalizace</string>
     <string name="sound_notifications">Zvuková upozornění</string>
     <string name="migration_error">Při migraci dat došlo k neočekávané chybě. Data budou vymazána.</string>
+    <string name="onboarding_select_mode_title">Vybrat režim</string>
+    <string name="onboarding_mode_shizuku">Shizuku</string>
+    <string name="onboarding_mode_root">Kořenový adresář</string>
+    <string name="charging_limit">Limit nabíjení</string>
+    <string name="auto_data_save">Spořič dat</string>
+    <string name="auto_data_save_desc">Automaticky povolit spořič dat při vypnuté obrazovce.</string>
+    <string name="autopowersave_mode">Automatická úspora energie</string>
+    <string name="autodatasave_mode">Automatické ukládání dat</string>
+    <string name="memory_boost_support">Zvýšení paměti</string>
+    <string name="root_mode_descr">Všechny funkce. Vyžaduje přístup root.</string>
+    <string name="shizuku_mode_descr">Méně funkcí, není potřeba root, Android 11+. Vyžaduje aplikaci Shizuku.</string>
+    <string name="lets_go">Spustit</string>
+    <string name="shizuku_setup_success">Shizuku je nastaveno a můžete vyrazit</string>
+    <string name="shizuku_setup_instructions_title">Pokyny k nastavení</string>
+    <string name="shizuku_warning_systemless_title">Pozor</string>
+    <string name="shizuku_warning_systemless_description">Režim bez uživatele root může provádět akce, které trvale ovlivní váš systém.</string>
+    <string name="shizuku_warning_miui_title">Oprávnění vývojáře MIUI</string>
+    <string name="shizuku_warning_miui_description">Uživatelé MIUI musí povolit další vývojářská oprávnění, aby Shizuku fungovalo správně.</string>
+    <string name="shizuku_install_from_play_store">Instalovat z Obchodu Play</string>
+    <string name="shizuku_open_app">Otevřít aplikaci Shizuku</string>
+    <string name="shizuku_setup_step_1">Nainstalovat Shizuku</string>
+    <string name="shizuku_setup_step_2">Povolení služby Shizuku v aplikaci</string>
+    <string name="shizuku_setup_step_3">Po zobrazení výzvy udělte oprávnění</string>
+    <string name="shizuku_setup_step_4">Vraťte se na FDE.AI a pokračujte v nastavení</string>
+    <string name="shizuku_broken_connection">Chyba! Spojení Shizuku je přerušeno, restartujte prosím službu Shizuku.</string>
+    <string name="just_check">Zkontrolovat</string>
+    <string name="dontkillmyapp_text">Používáte režim Shizuku. Aby aplikace dobře fungovala, vypněte automatické zabíjení pro Shizuku a FDE.AI. Chcete vidět jak?</string>
 </resources>

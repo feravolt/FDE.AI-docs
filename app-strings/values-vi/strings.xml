@@ -4,12 +4,7 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Được làm với ❤️ bởi FeraVolt.</string>
     <string name="accept">Chấp nhận</string>
     <string name="adaptive">Tự động</string>
-    <string name="ai_tune_freqs">Điều hòa tần số CPU/GPU</string>
     <string name="ai_auto_mode">Cân bằng hiệu năng và hiệu suất dựa trên thói quen sử dụng thiết bị. Việc điều hòa tần số sẽ giúp tiết kiệm năng lượng hơn.</string>
-    <string name="ai_cycle_period">Chu kỳ vòng lặp AI</string>
-    <string name="ai_cycle_period_desc">Điều chỉnh chu kỳ lặp thủ công cho AI. Chu kỳ dài hơn sử dụng ít năng lượng hơn đồng thời ít nhạy hơn, và ngược lại.
-\nCác giá trị mặc định được thiết lập tự động dựa trên dung lượng pin. Chu kỳ thực của AI sẽ tự điều chỉnh dựa trên thói quen sử dụng.</string>
-    <string name="ai_cycle_period_warning">Thay đổi những giá trị này có thể làm tăng công suất tiêu thụ hoặc khiến AI vận hành kém hiệu quả.</string>
     <string name="ai_is_disabled">AI đã vô hiệu hóa</string>
     <string name="ai_log">Nhật ký AI</string>
     <string name="ai_mode">Chế độ AI</string>
@@ -49,7 +44,8 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Nhiệt độ: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Điện áp: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Hao mòn: %1$s</string>
-    <string name="burnit">Tắt giới hạn nhiệt độ</string>
+    <string name="burnit">Giảm tốc</string>
+    <string name="greenbattery_title">Pin</string>
     <string name="bypassch_desc">Giới hạn dòng điện từ củ sạc khi chạy tác vụ nặng tương ứng với tình trạng sử dụng thiết bị, để giảm sạc và nhiệt độ.</string>
     <string name="bypassch_title">Sạc bỏ qua pin</string>
     <string name="cancel">Hủy</string>
@@ -106,7 +102,6 @@
     <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
     <string name="grantit">Bạn có thể sẽ phải tự cấp quyền cho ứng dụng tự khởi động trong trình quản lý quyền của OS của bạn để cho phép FDE.AI tiến hành sau khi OS khởi động.</string>
     <string name="greenbattery_desc">Kéo dài tuổi thọ pin bằng cách giảm mức dung lượng tối đa. Việc sạc sẽ dừng ở mức định sẵn và chỉ sạc lại ở 6 phần trăm dưới mức đó.</string>
-    <string name="greenbattery_title">Tình Trạng Pin</string>
     <string name="hour">giờ</string>
     <string name="join_forum">XDA</string>
     <string name="just_battery">Pin</string>
@@ -181,7 +176,6 @@
     <string name="rm_fde_lite">Gỡ cài đặt bản FDE.AI lite trước!</string>
     <string name="run_now">Thi hành</string>
     <string name="save_log">Lưu nhật ký</string>
-    <string name="screen_on_delay">Chu kỳ khi màn hình MỞ:</string>
     <string name="search_no_reset">Tìm kiếm</string>
     <string name="share">Chia sẻ FDE.AI</string>
     <string name="share_txt">Trải nghiệm FDE.AI - ứng dụng tối ưu Android kỳ diệu!</string>
@@ -229,24 +223,18 @@
     <string name="ai_lifetime">Thời gian sống của AI</string>
     <string name="kernel_tuning_state">Điều chỉnh hạt nhân</string>
     <string name="cpu_turbo_support">Hỗ trợ CPU Turbo</string>
-    <string name="cpu_turbo_active">CPU Turbo đang hoạt động</string>
     <string name="cpu_turbo_trigger_count">Số lần kích hoạt CPU Turbo</string>
     <string name="gpu_turbo_support">Hỗ trợ GPU Turbo</string>
-    <string name="gpu_turbo_active">GPU Turbo đang hoạt động</string>
     <string name="gpu_turbo_trigger_count">Số lần kích hoạt GPU Turbo</string>
     <string name="force_doze_enabled">Đã bật Force Doze</string>
     <string name="force_doze_trigger_count">Số lần kích hoạt Force Doze</string>
-    <string name="force_doze_autopowersave_mode">Tự động tiết kiệm năng lượng Force Doze</string>
     <string name="throttling_deactivated">Đã vô hiệu hóa việc điều chỉnh</string>
     <string name="throttling_ignore_on_charge">Việc điều chỉnh bỏ qua việc sạc</string>
     <string name="kill_bg_apps">Tắt các ứng dụng nền</string>
-    <string name="auto_tune_freqs">Tự động điều chỉnh tần số</string>
     <string name="auto_art_opt">Tối ưu hóa ART tự động</string>
     <string name="dynamic_read_ahead">Đọc trước động</string>
     <string name="charging_bypass_enabled">Bỏ qua việc sạc</string>
-    <string name="charging_bypass_active">Bỏ qua việc sạc đang hoạt động</string>
     <string name="charging_limit_enabled">Đã bật giới hạn sạc</string>
-    <string name="charging_limit_active">Giới hạn sạc đang hoạt động</string>
     <string name="charging_cycles">Chu kỳ sạc:</string>
     <string name="cpu_bandwidth_tune">Điều chỉnh băng thông CPU</string>
     <string name="fs_cache_tune">Điều chỉnh bộ đệm FS</string>
@@ -259,4 +247,31 @@
     <string name="extraopt_schedule_time">Đặt thời gian tự động tối ưu hóa hàng ngày</string>
     <string name="sound_notifications">Thông báo bằng âm thanh</string>
     <string name="migration_error">Đã xảy ra lỗi không mong muốn trong khi di chuyển dữ liệu. Dữ liệu sẽ bị xóa.</string>
+    <string name="onboarding_select_mode_title">Chọn chế độ</string>
+    <string name="onboarding_mode_shizuku">Shizuku</string>
+    <string name="onboarding_mode_root">Root</string>
+    <string name="charging_limit">Giới hạn sạc</string>
+    <string name="auto_data_save">Tiết kiệm dữ liệu</string>
+    <string name="auto_data_save_desc">Tự động bật tiết kiệm dữ liệu khi màn hình tắt.</string>
+    <string name="autopowersave_mode">Tự động tiết kiệm điện</string>
+    <string name="autodatasave_mode">Tự động lưu dữ liệu</string>
+    <string name="memory_boost_support">Tăng cường bộ nhớ</string>
+    <string name="root_mode_descr">Tất cả các tính năng. Yêu cầu quyền truy cập root.</string>
+    <string name="shizuku_mode_descr">Ít tính năng hơn, không cần root, Android 11 trở lên. Yêu cầu ứng dụng Shizuku.</string>
+    <string name="lets_go">Chạy</string>
+    <string name="shizuku_setup_success">Shizuku đã được thiết lập và bạn đã sẵn sàng</string>
+    <string name="shizuku_setup_instructions_title">Hướng dẫn thiết lập</string>
+    <string name="shizuku_warning_systemless_title">Lưu ý</string>
+    <string name="shizuku_warning_systemless_description">Chế độ không phải root có thể thực hiện các hành động ảnh hưởng vĩnh viễn đến hệ thống của bạn.</string>
+    <string name="shizuku_warning_miui_title">Quyền của nhà phát triển MIUI</string>
+    <string name="shizuku_warning_miui_description">Người dùng MIUI cần bật thêm quyền của nhà phát triển để Shizuku hoạt động bình thường.</string>
+    <string name="shizuku_install_from_play_store">Cài đặt từ Cửa hàng Play</string>
+    <string name="shizuku_open_app">Mở Shizuku Ứng dụng</string>
+    <string name="shizuku_setup_step_1">Cài đặt Shizuku</string>
+    <string name="shizuku_setup_step_2">Kích hoạt dịch vụ Shizuku trong ứng dụng</string>
+    <string name="shizuku_setup_step_3">Cấp quyền khi được nhắc</string>
+    <string name="shizuku_setup_step_4">Quay lại FDE.AI để tiếp tục thiết lập</string>
+    <string name="shizuku_broken_connection">Lỗi! Kết nối Shizuku bị hỏng, vui lòng khởi động lại dịch vụ Shizuku.</string>
+    <string name="just_check">Kiểm tra</string>
+    <string name="dontkillmyapp_text">Bạn đang sử dụng chế độ Shizuku. Để ứng dụng hoạt động tốt, vui lòng tắt tính năng tự động tắt cho Shizuku và FDE.AI. Bạn có muốn xem cách thực hiện không?</string>
 </resources>

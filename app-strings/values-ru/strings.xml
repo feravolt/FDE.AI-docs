@@ -4,11 +4,7 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Сделано с ❤ от FeraVolt.</string>
     <string name="accept">Принять</string>
     <string name="adaptive">Авто</string>
-    <string name="ai_tune_freqs">Автонастройка частот ЦП/ГП</string>
     <string name="ai_auto_mode">Автоматическая оптимизация системы по сценарию использования. Автонастройка частот позволяет улучшить энергосбережение.</string>
-    <string name="ai_cycle_period">Период цикла ИИ</string>
-    <string name="ai_cycle_period_desc">Настройте период цикла ИИ вручную. Чем дольше период - тем меньше энергии потребляет ИИ, но тем менее отзывчивым он становится, и наоборот. Значения по умолчанию устанавливаются автоматически и их не рекомендуется менять. Фактический цикл ИИ корректируется в зависимости от сценария использования.</string>
-    <string name="ai_cycle_period_warning">Изменение этих значений может привести к повышенному энергопотреблению или низкому качеству работы ИИ.</string>
     <string name="ai_is_disabled">ИИ выключен</string>
     <string name="ai_log">Лог ИИ</string>
     <string name="ai_mode">Режим ИИ</string>
@@ -48,7 +44,8 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Температура: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Напряжение: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Износ: %1$s</string>
-    <string name="burnit">Отключение троттлинга</string>
+    <string name="burnit">Троттлинг</string>
+    <string name="greenbattery_title">Батарея</string>
     <string name="bypassch_desc">При тяжелых процессах ограничивает входное напряжение зарядки до уровня потребления устройства, чтобы батарея не заряжалась и не нагревалась.</string>
     <string name="bypassch_title">Обход зарядки</string>
     <string name="cancel">Отмена</string>
@@ -108,7 +105,6 @@
     <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">ГП: %1$s%%</string>
     <string name="grantit">Возможно, вам придется вручную выдать разрешение FDE.AI на запуск после загрузки ОС в системном менеджере разрешений.</string>
     <string name="greenbattery_desc">Продление срока службы батареи, ограничивая максимальный уровень заряда. Зарядка прекращается, когда уровень достигает заданного значения. Зарядка восстанавливается, если уровень упадет на 6 процентов ниже.</string>
-    <string name="greenbattery_title">Здоровье батареи</string>
     <string name="hour">ч.</string>
     <string name="join_forum">4PDA</string>
     <string name="just_battery">Батарея</string>
@@ -184,7 +180,6 @@
     <string name="rm_fde_lite">Пожалуйста, сначала удалите Lite версию FDE.AI!</string>
     <string name="run_now">Запустить</string>
     <string name="save_log">Сохранить лог</string>
-    <string name="screen_on_delay">Задержка при включенном экрана:</string>
     <string name="search_no_reset">Поиск</string>
     <string name="share">Поделиться приложением FDE.AI</string>
     <string name="share_txt">Попробуйте приложение FDE.AI - универсальный оптимизатор Android! Оно замечательное!</string>
@@ -232,24 +227,18 @@
     <string name="ai_lifetime">Время работы ИИ</string>
     <string name="kernel_tuning_state">Состояние настройки ядра</string>
     <string name="cpu_turbo_support">Поддержка CPU Turbo</string>
-    <string name="cpu_turbo_active">CPU Turbo активно</string>
     <string name="cpu_turbo_trigger_count">Срабатываний CPU Turbo</string>
     <string name="gpu_turbo_support">Поддержка GPU Turbo</string>
-    <string name="gpu_turbo_active">GPU Turbo активно</string>
     <string name="gpu_turbo_trigger_count">Срабатываний GPU Turbo</string>
     <string name="force_doze_enabled">Принудительный Doze включен</string>
     <string name="force_doze_trigger_count">Срабатываний Doze</string>
-    <string name="force_doze_autopowersave_mode">Режим автосбережения Doze</string>
     <string name="throttling_deactivated">Троттлинг деактивирован</string>
     <string name="throttling_ignore_on_charge">Игнор. зарядку при троттлинге</string>
     <string name="kill_bg_apps">Закрытие фоновых приложений</string>
-    <string name="auto_tune_freqs">Автонастройка частот</string>
     <string name="auto_art_opt">Автоматическая оптимизация ART</string>
     <string name="dynamic_read_ahead">Динамическое предсчитывание</string>
     <string name="charging_bypass_enabled">Обход зарядки включен</string>
-    <string name="charging_bypass_active">Обход зарядки активен</string>
     <string name="charging_limit_enabled">Ограничение зарядки включено</string>
-    <string name="charging_limit_active">Ограничение зарядки активно</string>
     <string name="charging_cycles">Циклов заряда:</string>
     <string name="cpu_bandwidth_tune">Пропускная полоса ЦП</string>
     <string name="fs_cache_tune">Настройка кэша ФС</string>
@@ -259,4 +248,33 @@
     <string name="kernel_sched_boost">Ускорение планировщика ядра</string>
     <string name="multi_core_power_saving_control">Энергосбережение многояд. ЦП</string>
     <string name="migration_error">Произошла непредвиденная ошибка при миграции данных. Данные будут очищены.</string>
+    <string name="onboarding_select_mode_title">Выберите режим</string>
+    <string name="charging_limit">Ограничение заряда</string>
+    <string name="auto_data_save">Экономия данных</string>
+    <string name="auto_data_save_desc">Автоматически включать режим экономии трафика при выключеном экране.</string>
+    <string name="autopowersave_mode">Авто энергосбережение</string>
+    <string name="autodatasave_mode">Авто экономия данных</string>
+    <string name="memory_boost_support">Ускорение памяти</string>
+    <string name="root_mode_descr">Все функции. Нужен root-доступ.</string>
+    <string name="shizuku_mode_descr">Меньше функций, не нужен root, Android 11+. Требуется приложение Shizuku.</string>
+
+    <string name="lets_go">Запустить</string>
+
+    <!-- Shizuku Setup Strings -->
+    <string name="shizuku_setup_success">Shizuku настроен, всё готово к работе</string>
+    <string name="shizuku_setup_instructions_title">Инструкция по настройке</string>
+    <string name="shizuku_warning_systemless_title">Внимание</string>
+    <string name="shizuku_warning_systemless_description">Режим без root может выполнять действия, которые безвозвратно повлияют на настройки вашей системы.</string>
+    <string name="shizuku_warning_miui_title">Разрешения разработчика MIUI</string>
+    <string name="shizuku_warning_miui_description">Пользователям MIUI нужно включить дополнительные разрешения разработчика для корректной работы Shizuku.</string>
+    <string name="shizuku_install_from_play_store">Установить из Play Store</string>
+    <string name="shizuku_open_app">Открыть приложение Shizuku</string>
+
+    <string name="shizuku_setup_step_1">Установите Shizuku</string>
+    <string name="shizuku_setup_step_2">Включите сервис Shizuku в приложении</string>
+    <string name="shizuku_setup_step_3">Предоставьте разрешения при запросе</string>
+    <string name="shizuku_setup_step_4">Вернитесь в FDE.AI для продолжения настройки</string>
+    <string name="shizuku_broken_connection">Ошибка! Соединение с Shizuku разорвано, пожалуйста, перезапустите сервис Shizuku.</string>
+    <string name="just_check">Проверить</string>
+    <string name="dontkillmyapp_text">Вы используете режим Shizuku. Чтобы приложение работало корректно, отключите автокилл для Shizuku и FDE.AI. Показать как это сделать?</string>
 </resources>

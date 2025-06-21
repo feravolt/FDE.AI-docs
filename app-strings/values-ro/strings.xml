@@ -4,12 +4,7 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Făcut cu ❤️ de FeraVolt.</string>
     <string name="accept">Acceptă</string>
     <string name="adaptive">Automat</string>
-    <string name="ai_tune_freqs">Reglaţi automat CPU/GPU freqs</string>
     <string name="ai_auto_mode">Soldurile de performanță și economisirea energiei în funcție de utilizarea dispozitivului. Autotune Freqs oferă mai multă economisire de energie.</string>
-    <string name="ai_cycle_period">Perioada ciclului AI</string>
-    <string name="ai_cycle_period_desc">Reglaţi manual ciclul AI. Perioadele mai lungi folosesc mai puţină putere, dar sunt mai puţin responsive şi viceversa.
-\nValorile implicite sunt setate automat pe baza capacităţii bateriei. Ciclul AI actual se ajustează automat pe baza utilizării.</string>
-    <string name="ai_cycle_period_warning">Modificarea acestor valori poate duce la un consum mai mare de energie sau la o muncă de AI de slabă calitate.</string>
     <string name="ai_is_disabled">AI dezactivat</string>
     <string name="ai_log">Jurnal AI</string>
     <string name="ai_mode">Mod AI</string>
@@ -49,7 +44,8 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Temperatură: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Voltaj: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Wear: %1$s</string>
-    <string name="burnit">Dezactivare încetinire</string>
+    <string name="burnit">Limitare</string>
+    <string name="greenbattery_title">Baterie</string>
     <string name="bypassch_desc">Limitele curentului de încărcare în timpul proceselor grele se potrivesc cu utilizarea dispozitivului, reducând încărcarea bateriei și încălzirea.</string>
     <string name="bypassch_title">Incarcare bypass</string>
     <string name="cancel">Anulează</string>
@@ -106,7 +102,6 @@
     <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
     <string name="grantit">S-ar putea să fie nevoie să acordați manual permisiune pentru autopornire în managerul de permisiuni al sistemului dvs. de operare pentru a permite pornește FDE.AI după pornirea sistemului de operare.</string>
     <string name="greenbattery_desc">Extinde durata bateriei prin limitarea nivelului maxim de încărcare. Oprește încărcarea la pragul definit și repornește cu 6 procente sub acesta.</string>
-    <string name="greenbattery_title">Sănătate baterie</string>
     <string name="hour">h</string>
     <string name="join_forum">XDA</string>
     <string name="just_battery">Baterie</string>
@@ -181,7 +176,6 @@
     <string name="rm_fde_lite">Dezinstalează mai întâi versiunea FDE.AI lite!</string>
     <string name="run_now">Rulează</string>
     <string name="save_log">Salvare jurnal</string>
-    <string name="screen_on_delay">Întârzierea ecranului PORNIT:</string>
     <string name="search_no_reset">Caută</string>
     <string name="share">Distribuie FDE.AI</string>
     <string name="share_txt">Încearcă FDE.AI - un optimizator Android uimitor!</string>
@@ -229,24 +223,19 @@
     <string name="ai_lifetime">durată de viață AI</string>
     <string name="kernel_tuning_state">Reglarea kernelului</string>
     <string name="cpu_turbo_support">Compatibilitate CPU Turbo</string>
-    <string name="cpu_turbo_active">CPU Turbo activ</string>
     <string name="cpu_turbo_trigger_count">Număr de declanșări CPU Turbo</string>
     <string name="gpu_turbo_support">Compatibilitate GPU Turbo</string>
-    <string name="gpu_turbo_active">GPU Turbo activ</string>
     <string name="gpu_turbo_trigger_count">Număr de declanșări GPU Turbo</string>
     <string name="force_doze_enabled">Forțat Doze activat</string>
     <string name="force_doze_trigger_count">Forțați numărul declanșatorului Doze</string>
-    <string name="force_doze_autopowersave_mode">Forțați economisirea automată a puterii Doze</string>
+    <string name="autopowersave_mode">Forțați economisirea automată a puterii Doze</string>
     <string name="throttling_deactivated">Throttling dezactivat</string>
     <string name="throttling_ignore_on_charge">Throttling ignora încărcarea</string>
     <string name="kill_bg_apps">Opriți aplicațiile de fundal</string>
-    <string name="auto_tune_freqs">Frecvențe de reglare automată</string>
     <string name="auto_art_opt">Optimizare automată ART</string>
     <string name="dynamic_read_ahead">Citire anticipată dinamică</string>
     <string name="charging_bypass_enabled">Ocolirea încărcării este activată</string>
-    <string name="charging_bypass_active">Ocolire de încărcare activă</string>
     <string name="charging_limit_enabled">Limita de încărcare activată</string>
-    <string name="charging_limit_active">Limita de încărcare activă</string>
     <string name="charging_cycles">Ciccuri de încărcare:</string>
     <string name="cpu_bandwidth_tune">Reglarea lățimii de bandă a CPU</string>
     <string name="fs_cache_tune">Reglare cache FS</string>
@@ -259,4 +248,30 @@
     <string name="extraopt_schedule_time">Setați ora zilnică de optimizare automată</string>
     <string name="sound_notifications">Notificări sonore</string>
     <string name="migration_error">A apărut o eroare neașteptată la migrarea datelor. Datele vor fi șterse.</string>
+    <string name="onboarding_select_mode_title">Selectați modul</string>
+    <string name="onboarding_mode_shizuku">Shizuku</string>
+    <string name="onboarding_mode_root">Root</string>
+    <string name="charging_limit">Limita de încărcare</string>
+    <string name="auto_data_save">Economisor de date</string>
+    <string name="auto_data_save_desc">Activați automat economizorul de date când ecranul este oprit.</string>
+    <string name="autodatasave_mode">Salvare automată a datelor</string>
+    <string name="memory_boost_support">Mărire memorie</string>
+    <string name="root_mode_descr">Toate caracteristicile. Necesită acces root.</string>
+    <string name="shizuku_mode_descr">Mai puține funcții, nu este nevoie de root, Android 11+. Necesită aplicația Shizuku.</string>
+    <string name="lets_go">Rulați</string>
+    <string name="shizuku_setup_success">Shizuku este configurat și sunteți gata să plecați</string>
+    <string name="shizuku_setup_instructions_title">Instrucțiuni de configurare</string>
+    <string name="shizuku_warning_systemless_title">Atenție</string>
+    <string name="shizuku_warning_systemless_description">Modul non-root poate efectua acțiuni care vă vor afecta permanent sistemul.</string>
+    <string name="shizuku_warning_miui_title">Permisiuni pentru dezvoltatori MIUI</string>
+    <string name="shizuku_warning_miui_description">Utilizatorii MIUI trebuie să activeze permisiuni suplimentare de dezvoltator pentru ca Shizuku să funcționeze corect.</string>
+    <string name="shizuku_install_from_play_store">Instalați din Magazinul Play</string>
+    <string name="shizuku_open_app">Deschideți aplicația Shizuku</string>
+    <string name="shizuku_setup_step_1">Instalați Shizuku</string>
+    <string name="shizuku_setup_step_2">Activați serviciul Shizuku în aplicație</string>
+    <string name="shizuku_setup_step_3">Acordați permisiuni când vi se solicită</string>
+    <string name="shizuku_setup_step_4">Reveniți la FDE.AI pentru a continua configurarea</string>
+    <string name="shizuku_broken_connection">Eroare! Conexiunea Shizuku este întreruptă, vă rugăm să reporniți serviciul Shizuku.</string>
+    <string name="just_check">Verifică</string>
+    <string name="dontkillmyapp_text">Utilizați modul Shizuku. Pentru ca aplicația să funcționeze bine, dezactivați auto-kill pentru Shizuku și FDE.AI. Vrei să vezi cum?</string>
 </resources>

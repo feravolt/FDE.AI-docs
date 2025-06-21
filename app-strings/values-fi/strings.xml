@@ -4,12 +4,7 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Valmistettu ❤️ FeraVoltin toimesta.</string>
     <string name="accept">Hyväksy</string>
     <string name="adaptive">Automaattinen</string>
-    <string name="ai_tune_freqs">Automaattinen CPU/GPU freqs</string>
     <string name="ai_auto_mode">Vaakojen suorituskyky ja laitteen käyttöön perustuva virransäästö. Freqs auto-tune lisää virransäästöä.</string>
-    <string name="ai_cycle_period">AI sykli</string>
-    <string name="ai_cycle_period_desc">Säädä tekoälyn sykli manuaalisesti. Pidemmät jaksot käyttävät vähemmän tehoa, mutta ovat vähemmän reagoivia, ja päinvastoin.
-\nOletusarvot asetetaan automaattisesti akkukapasiteetin perusteella. Varsinainen AI-sykli säätää automaattisesti käytön perusteella.</string>
-    <string name="ai_cycle_period_warning">Näiden arvojen muuttaminen voi lisätä virrankulutusta tai heikentää tekoälyn laatua.</string>
     <string name="ai_is_disabled">Tekoäly poistettu käytöstä</string>
     <string name="ai_log">Ai Loki</string>
     <string name="ai_mode">tekoälyn tila</string>
@@ -49,7 +44,8 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Lämpötila: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Jännite: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Wear: %1$s</string>
-    <string name="burnit">Poista kaasu käytöstä</string>
+    <string name="burnit">Kaasutuksen rajoitus</string>
+    <string name="greenbattery_title">Akku</string>
     <string name="bypassch_desc">Rajoittaa laturin virtaa raskaiden prosessien aikana laitteen käyttöön ja vähentää akun latausta ja lämmitystä.</string>
     <string name="bypassch_title">Latauksen ohitus</string>
     <string name="cancel">Peruuta</string>
@@ -106,7 +102,6 @@
     <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
     <string name="grantit">Saatat joutua manuaalisesti myöntämään käyttöjärjestelmäsi käyttöoikeuksien hallinnassa käyttöoikeuden automaattiseen käynnistykseen, jotta FDE.AI voi aloittaa käyttöjärjestelmän käynnistyksen jälkeen.</string>
     <string name="greenbattery_desc">Laajenna akun kestoa rajoittamalla maksimilataustasoa. Lopeta lataaminen määritetyllä kynnysarvolla ja käynnistä uudelleen 6 prosentin alapuolella.</string>
-    <string name="greenbattery_title">Akun terveys</string>
     <string name="hour">h.</string>
     <string name="join_forum">XDA</string>
     <string name="just_battery">Akku</string>
@@ -181,7 +176,6 @@
     <string name="rm_fde_lite">Poista FDE.AI lite versio ensin!</string>
     <string name="run_now">Suorita</string>
     <string name="save_log">Tallenna loki</string>
-    <string name="screen_on_delay">Näyttö KÄYTÖSSÄ:</string>
     <string name="search_no_reset">Etsi</string>
     <string name="share">Jaa FDE.AI</string>
     <string name="share_txt">Kokeile FDE.AI - hämmästyttävä Android optimoi!</string>
@@ -229,24 +223,18 @@
     <string name="ai_lifetime">Tekoälyn käyttöikä</string>
     <string name="kernel_tuning_state">Ytimen viritys</string>
     <string name="cpu_turbo_support">CPU Turbo -tuki</string>
-    <string name="cpu_turbo_active">CPU Turbo aktiivinen</string>
     <string name="cpu_turbo_trigger_count">CPU Turbo -triggereiden määrä</string>
     <string name="gpu_turbo_support">GPU Turbo -tuki</string>
-    <string name="gpu_turbo_active">GPU Turbo aktiivinen</string>
     <string name="gpu_turbo_trigger_count">GPU Turbo -triggereiden määrä</string>
     <string name="force_doze_enabled">Pakota torkku käytössä</string>
     <string name="force_doze_trigger_count">Pakota torkkulaukaisimen määrä</string>
-    <string name="force_doze_autopowersave_mode">Pakota torkun automaattinen virransäästö</string>
     <string name="throttling_deactivated">Ohjaus poistettu käytöstä</string>
     <string name="throttling_ignore_on_charge">Latauksen ohituksen rajoitus</string>
     <string name="kill_bg_apps">Tapa taustasovellukset</string>
-    <string name="auto_tune_freqs">Viritä taajuudet automaattisesti</string>
     <string name="auto_art_opt">Automaattinen ART-optimointi</string>
     <string name="dynamic_read_ahead">Dynaaminen eteenpäinluku</string>
     <string name="charging_bypass_enabled">Latauksen ohitus käytössä</string>
-    <string name="charging_bypass_active">Latauksen ohitus aktiivinen</string>
     <string name="charging_limit_enabled">Latausraja käytössä</string>
-    <string name="charging_limit_active">Latausraja käytössä</string>
     <string name="charging_cycles">Latausjaksot:</string>
     <string name="cpu_bandwidth_tune">CPU:n kaistanleveyden viritys</string>
     <string name="fs_cache_tune">FS-välimuistin viritys</string>
@@ -259,4 +247,31 @@
     <string name="extraopt_schedule_time">Aseta päivittäinen automaattisen optimoinnin aika</string>
     <string name="sound_notifications">Ääni-ilmoitukset</string>
     <string name="migration_error">Tietojen siirron aikana tapahtui odottamaton virhe. Tiedot tyhjennetään.</string>
+    <string name="onboarding_select_mode_title">Valitse tila</string>
+    <string name="onboarding_mode_shizuku">Shizuku</string>
+    <string name="onboarding_mode_root">Juuri</string>
+    <string name="charging_limit">Latausraja</string>
+    <string name="auto_data_save">Tiedonsäästö</string>
+    <string name="auto_data_save_desc">Ota tiedonsäästö automaattisesti käyttöön, kun näyttö on pois päältä.</string>
+    <string name="autopowersave_mode">Automaattinen virransäästö</string>
+    <string name="autodatasave_mode">Automaattinen tietojen tallennus</string>
+    <string name="memory_boost_support">Muistin lisäys</string>
+    <string name="root_mode_descr">Kaikki ominaisuudet. Vaatii pääkäyttäjän oikeudet.</string>
+    <string name="shizuku_mode_descr">Vähemmän ominaisuuksia, ei rootin tarvetta, Android 11+. Vaatii Shizuku-sovelluksen.</string>
+    <string name="lets_go">Suorita</string>
+    <string name="shizuku_setup_success">Shizuku on määritetty ja olet valmis lähtöön</string>
+    <string name="shizuku_setup_instructions_title">Asennusohjeet</string>
+    <string name="shizuku_warning_systemless_title">Huomio</string>
+    <string name="shizuku_warning_systemless_description">Ei-root-tila voi suorittaa toimintoja, jotka vaikuttavat pysyvästi järjestelmääsi.</string>
+    <string name="shizuku_warning_miui_title">MIUI-kehittäjän käyttöoikeudet</string>
+    <string name="shizuku_warning_miui_description">MIUI-käyttäjien on annettava lisäkehittäjien käyttöoikeudet, jotta Shizuku toimisi oikein.</string>
+    <string name="shizuku_install_from_play_store">Asenna Play Kaupasta</string>
+    <string name="shizuku_open_app">Avaa Shizuku-sovellus</string>
+    <string name="shizuku_setup_step_1">Asenna Shizuku</string>
+    <string name="shizuku_setup_step_2">Ota Shizuku-palvelu käyttöön sovelluksessa</string>
+    <string name="shizuku_setup_step_3">Myönnä käyttöoikeudet pyydettäessä</string>
+    <string name="shizuku_setup_step_4">Palaa FDE.AI:hen jatkaaksesi määritystä</string>
+    <string name="shizuku_broken_connection">Virhe! Shizuku-yhteys katkesi, käynnistä Shizuku-palvelu uudelleen.</string>
+    <string name="just_check">Tarkista</string>
+    <string name="dontkillmyapp_text">Käytät Shizuku-tilaa. Jotta sovellus toimisi hyvin, poista automaattinen tappaminen käytöstä Shizukulle ja FDE.AI:lle. Haluatko nähdä miten?</string>
 </resources>

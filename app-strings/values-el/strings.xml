@@ -4,12 +4,7 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Κατασκευασμένο με ❤️ από τον FeraVolt.</string>
     <string name="accept">Αποδοχή</string>
     <string name="adaptive">Αυτόματο</string>
-    <string name="ai_tune_freqs">Αυτόματη ρύθμιση των συχνοτήτων CPU/GPU</string>
     <string name="ai_auto_mode">Ισορροπεί την απόδοση και την εξοικονόμηση ενέργειας με βάση τη χρήση της συσκευής. Η αυτόματη ρύθμιση των συχνοτήτων δίνει περισσότερη εξοικονόμηση ενέργειας.</string>
-    <string name="ai_cycle_period">Περίοδος κύκλου AI</string>
-    <string name="ai_cycle_period_desc">Ρυθμίστε την περίοδο του κύκλου AI με το χέρι. Μεγαλύτερες περίοδοι χρησιμοποιούν λιγότερη ισχύ, αλλά είναι λιγότερο ανταποκρίνονται, και αντίστροφα.
-\nΟι προεπιλεγμένες τιμές ορίζονται αυτόματα με βάση την χωρητικότητα της μπαταρίας. Ο πραγματικός κύκλος του AI ρυθμίζεται αυτόματα με βάση τη χρήση.</string>
-    <string name="ai_cycle_period_warning">Η αλλαγή αυτών των τιμών μπορεί να οδηγήσει σε αυξημένη κατανάλωση ενέργειας ή χαμηλής ποιότητας εργασίας τεχνητής νοημοσύνης.</string>
     <string name="ai_is_disabled">AI απενεργοποιημένο</string>
     <string name="ai_log">Ιστορικό καταγραφής AI</string>
     <string name="ai_mode">Λειτουργία AI</string>
@@ -49,7 +44,8 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Θερμοκρασία: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Τάση: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Wear: %1$s</string>
-    <string name="burnit">Απενεργοποίηση throttling</string>
+    <string name="burnit">Επιβράδυνση</string>
+    <string name="greenbattery_title">Μπαταρία</string>
     <string name="bypassch_desc">Περιορίζει το ρεύμα του φορτιστή κατά τη διάρκεια βαρέων διεργασιών ώστε να ταιριάζει με τη χρήση της συσκευής, μειώνοντας τη φόρτιση της μπαταρίας και τη θέρμανση.</string>
     <string name="bypassch_title">Παράκαμψη φόρτισης</string>
     <string name="cancel">Ακύρωση</string>
@@ -106,7 +102,6 @@
     <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
     <string name="grantit">Ίσως χρειαστεί να παραχωρήσετε χειροκίνητα δικαιώματα αυτόματης εκκίνησης στον διαχειριστή δικαιωμάτων του λειτουργικού σας συστήματος για να επιτρέψετε στο FDE.AI να ξεκινήσει μετά την εκκίνηση του λειτουργικού συστήματος.</string>
     <string name="greenbattery_desc">Επεκτείνετε τη διάρκεια ζωής της μπαταρίας περιορίζοντας το επίπεδο μέγιστης φόρτισης. Σταματά τη φόρτιση στο καθορισμένο όριο και την επανεκκίνηση με 6 τοις εκατό κάτω από αυτό.</string>
-    <string name="greenbattery_title">Υγεία μπαταρίας</string>
     <string name="hour">α.</string>
     <string name="join_forum">XDA</string>
     <string name="just_battery">Μπαταρία</string>
@@ -181,7 +176,6 @@
     <string name="rm_fde_lite">Απεγκατάσταση FDE.AI lite έκδοση πρώτα!</string>
     <string name="run_now">Εκτέλεση</string>
     <string name="save_log">Αποθήκευση αρχείου καταγραφής</string>
-    <string name="screen_on_delay">Καθυστέρηση ενεργοποίησης οθόνης:</string>
     <string name="search_no_reset">Αναζήτηση</string>
     <string name="share">Κοινοποίηση FDE.AI</string>
     <string name="share_txt">Δοκιμάστε το FDE.AI - ένας εκπληκτικός βελτιστοποιητής Android!</string>
@@ -229,24 +223,18 @@
     <string name="ai_lifetime">Διάρκεια ζωής AI</string>
     <string name="kernel_tuning_state">Συντονισμός πυρήνα</string>
     <string name="cpu_turbo_support">Υποστήριξη CPU Turbo</string>
-    <string name="cpu_turbo_active">Ενεργή CPU Turbo</string>
     <string name="cpu_turbo_trigger_count">Αριθμός ενεργοποίησης CPU Turbo</string>
     <string name="gpu_turbo_support">Υποστήριξη GPU Turbo</string>
-    <string name="gpu_turbo_active">Ενεργή GPU Turbo</string>
     <string name="gpu_turbo_trigger_count">Αριθμός ενεργοποίησης GPU Turbo</string>
     <string name="force_doze_enabled">Ενεργοποιήθηκε το Force Doze</string>
     <string name="force_doze_trigger_count">Αριθμός σκανδάλης Force Doze</string>
-    <string name="force_doze_autopowersave_mode">Αυτόματη εξοικονόμηση ενέργειας στο Force Doze</string>
     <string name="throttling_deactivated">Το throttling απενεργοποιήθηκε</string>
     <string name="throttling_ignore_on_charge">Παράβλεψη φόρτισης με περιορισμό</string>
     <string name="kill_bg_apps">Σκότωση εφαρμογών παρασκηνίου</string>
-    <string name="auto_tune_freqs">Αυτόματη ρύθμιση συχνοτήτων</string>
     <string name="auto_art_opt">Αυτόματη βελτιστοποίηση ART</string>
     <string name="dynamic_read_ahead">Δυναμική ανάγνωση μπροστά</string>
     <string name="charging_bypass_enabled">Ενεργοποιήθηκε η παράκαμψη φόρτισης</string>
-    <string name="charging_bypass_active">Ενεργή παράκαμψη φόρτισης</string>
     <string name="charging_limit_enabled">Ενεργοποιήθηκε το όριο χρέωσης</string>
-    <string name="charging_limit_active">Ενεργό όριο χρέωσης</string>
     <string name="charging_cycles">Κύκλοι φόρτισης:</string>
     <string name="cpu_bandwidth_tune">συντονισμός εύρους ζώνης CPU</string>
     <string name="fs_cache_tune">Συντονισμός προσωρινής μνήμης FS</string>
@@ -259,4 +247,31 @@
     <string name="extraopt_schedule_time">Ορισμός ημερήσιας ώρας αυτόματης βελτιστοποίησης</string>
     <string name="sound_notifications">Ειδοποιήσεις ήχου</string>
     <string name="migration_error">Παρουσιάστηκε μη αναμενόμενο σφάλμα κατά τη μετεγκατάσταση δεδομένων. Τα δεδομένα θα διαγραφούν.</string>
+    <string name="onboarding_select_mode_title">Επιλογή λειτουργίας</string>
+    <string name="onboarding_mode_shizuku">Σιζούκου</string>
+    <string name="onboarding_mode_root">Root</string>
+    <string name="charging_limit">Όριο χρέωσης</string>
+    <string name="auto_data_save">Εξοικονόμηση δεδομένων</string>
+    <string name="auto_data_save_desc">Αυτόματη ενεργοποίηση της εξοικονόμησης δεδομένων όταν η οθόνη είναι απενεργοποιημένη.</string>
+    <string name="autopowersave_mode">Αυτόματη εξοικονόμηση ενέργειας</string>
+    <string name="autodatasave_mode">Αυτόματη αποθήκευση δεδομένων</string>
+    <string name="memory_boost_support">Ενίσχυση μνήμης</string>
+    <string name="root_mode_descr">Όλες οι δυνατότητες. Απαιτεί πρόσβαση root.</string>
+    <string name="shizuku_mode_descr">Λιγότερες δυνατότητες, δεν απαιτείται root, Android 11+. Απαιτεί την εφαρμογή Shizuku.</string>
+    <string name="lets_go">Εκτέλεση</string>
+    <string name="shizuku_setup_success">Το Shizuku έχει ρυθμιστεί και είστε έτοιμοι να ξεκινήσετε</string>
+    <string name="shizuku_setup_instructions_title">Οδηγίες ρύθμισης</string>
+    <string name="shizuku_warning_systemless_title">Προσοχή</string>
+    <string name="shizuku_warning_systemless_description">Η λειτουργία χωρίς ρίζα μπορεί να εκτελεί ενέργειες που θα επηρεάσουν μόνιμα το σύστημά σας.</string>
+    <string name="shizuku_warning_miui_title">Δικαιώματα προγραμματιστή MIUI</string>
+    <string name="shizuku_warning_miui_description">Οι χρήστες του MIUI πρέπει να ενεργοποιήσουν πρόσθετες άδειες προγραμματιστή για να λειτουργεί σωστά το Shizuku.</string>
+    <string name="shizuku_install_from_play_store">Εγκατάσταση από το Play Store</string>
+    <string name="shizuku_open_app">Ανοίξτε την εφαρμογή Shizuku</string>
+    <string name="shizuku_setup_step_1">Εγκατάσταση Shizuku</string>
+    <string name="shizuku_setup_step_2">Ενεργοποίηση υπηρεσίας Shizuku στην εφαρμογή</string>
+    <string name="shizuku_setup_step_3">Εκχωρήστε δικαιώματα όταν σας ζητηθεί</string>
+    <string name="shizuku_setup_step_4">Επιστρέψτε στο FDE.AI για να συνεχίσετε τη ρύθμιση</string>
+    <string name="shizuku_broken_connection">Σφάλμα! Η σύνδεση Shizuku έχει διακοπεί, ξεκινήστε ξανά την υπηρεσία Shizuku.</string>
+    <string name="just_check">Έλεγχος</string>
+    <string name="dontkillmyapp_text">Χρησιμοποιείτε τη λειτουργία Shizuku. Για να συνεχίσει να λειτουργεί καλά η εφαρμογή, απενεργοποιήστε την αυτόματη θανάτωση για το Shizuku και το FDE.AI. Θέλετε να δείτε πώς;</string>
 </resources>

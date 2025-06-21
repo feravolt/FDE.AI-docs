@@ -4,12 +4,7 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">FeraVolt tarafından yapılmıştır.</string>
     <string name="accept">Kabul Et</string>
     <string name="adaptive">Otomatik</string>
-    <string name="ai_tune_freqs">CPU/GPU frekanslarını otomatik ayarla</string>
     <string name="ai_auto_mode">Cihaz kullanımına bağlı olarak performansı ve güç tasarrufunu dengeler. Frekansların otomatik ayarı daha fazla güç tasarrufu sağlar.</string>
-    <string name="ai_cycle_period">AI döngü süresi</string>
-    <string name="ai_cycle_period_desc">Yapay zeka döngü süresini manuel olarak ayarlayın. Daha uzun süreler daha az güç kullanır, ancak daha az duyarlıdır ve bunun tersi de geçerlidir.
-\nVarsayılan değerler pil kapasitesine göre otomatik olarak ayarlanır. Gerçek AI döngüsü, kullanıma bağlı olarak otomatik olarak ayarlanır.</string>
-    <string name="ai_cycle_period_warning">Bu değerlerin değiştirilmesi, güç tüketiminin artmasına veya düşük kaliteli yapay zeka çalışmalarına yol açabilir.</string>
     <string name="ai_is_disabled">AI devre dışı</string>
     <string name="ai_log">AI Günlüğü</string>
     <string name="ai_mode">AI modu</string>
@@ -49,7 +44,8 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Sıcaklık: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Voltaj: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Aşınma: %1$s</string>
-    <string name="burnit">Kısmayı devre dışı bırak</string>
+    <string name="burnit">Kısıtlama</string>
+    <string name="greenbattery_title">Pil</string>
     <string name="bypassch_desc">Ağır işlemler sırasında şarj cihazının akımını cihaz kullanımına uyacak şekilde sınırlayarak pil şarjını ve ısınmasını azaltır.</string>
     <string name="bypassch_title">Şarj baypası</string>
     <string name="cancel">İptal</string>
@@ -106,7 +102,6 @@
     <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
     <string name="grantit">İşletim sistemi önyüklemesinden sonra FDE.AI\'nin başlamasına izin vermek için işletim sisteminizin izin yöneticisinde otomatik başlatma iznini manuel olarak vermeniz gerekebilir.</string>
     <string name="greenbattery_desc">Maksimum şarj seviyesini sınırlayarak pil ömrünü uzatın. Tanımlanan eşikte şarjı durdurur ve yüzde 6 altında yeniden başlatır.</string>
-    <string name="greenbattery_title">Pil sağlığı</string>
     <string name="hour">s.</string>
     <string name="join_forum">XDA</string>
     <string name="just_battery">Pil</string>
@@ -181,7 +176,6 @@
     <string name="rm_fde_lite">Önce FDE.AI lite sürümünü kaldırın!</string>
     <string name="run_now">Çalıştır</string>
     <string name="save_log">Günlüğü kaydet</string>
-    <string name="screen_on_delay">Ekran açık gecikmesi:</string>
     <string name="search_no_reset">Ara</string>
     <string name="share">FDE.AI\'yi paylaş</string>
     <string name="share_txt">Harika bir Android iyileştirici olan FDE.AI\'yi deneyin!</string>
@@ -229,24 +223,18 @@
     <string name="ai_lifetime">AI ömrü</string>
     <string name="kernel_tuning_state">Çekirdek ayarı</string>
     <string name="cpu_turbo_support">CPU Turbo desteği</string>
-    <string name="cpu_turbo_active">CPU Turbo etkin</string>
     <string name="cpu_turbo_trigger_count">CPU Turbo tetikleyici sayısı</string>
     <string name="gpu_turbo_support">GPU Turbo desteği</string>
-    <string name="gpu_turbo_active">GPU Turbo etkin</string>
     <string name="gpu_turbo_trigger_count">GPU Turbo tetikleyici sayısı</string>
     <string name="force_doze_enabled">Zorunlu Doze etkin</string>
     <string name="force_doze_trigger_count">Zorunlu Doze tetikleyici sayısı</string>
-    <string name="force_doze_autopowersave_mode">Zorla Doze otomatik güç tasarrufu</string>
     <string name="throttling_deactivated">Kısıtlama devre dışı bırakıldı</string>
     <string name="throttling_ignore_on_charge">Kısıtlama şarjı yoksay</string>
     <string name="kill_bg_apps">Arka plan uygulamaları sonlandırma</string>
-    <string name="auto_tune_freqs">Frekansları otomatik ayarla</string>
     <string name="auto_art_opt">Otomatik ART optimizasyonu</string>
     <string name="dynamic_read_ahead">Dinamik okuma-önceden</string>
     <string name="charging_bypass_enabled">Şarj atlama etkin</string>
-    <string name="charging_bypass_active">Şarj atlama etkin</string>
     <string name="charging_limit_enabled">Şarj sınırı etkin</string>
-    <string name="charging_limit_active">Şarj limiti etkin</string>
     <string name="charging_cycles">Şarj döngüleri:</string>
     <string name="cpu_bandwidth_tune">CPU bant genişliği ayarı</string>
     <string name="fs_cache_tune">FS önbellek ayarı</string>
@@ -259,4 +247,31 @@
     <string name="extraopt_schedule_time">Günlük otomatik optimizasyon zamanını ayarlayın</string>
     <string name="sound_notifications">Sesli bildirimler</string>
     <string name="migration_error">Veri geçişi sırasında beklenmeyen bir hata oluştu. Veriler temizlenecek.</string>
+    <string name="onboarding_select_mode_title">Mod seç</string>
+    <string name="onboarding_mode_shizuku">Shizuku</string>
+    <string name="onboarding_mode_root">Kök</string>
+    <string name="charging_limit">Şarj sınırı</string>
+    <string name="auto_data_save">Veri tasarrufu</string>
+    <string name="auto_data_save_desc">Ekran kapalıyken veri tasarrufunu otomatik olarak etkinleştir.</string>
+    <string name="autopowersave_mode">Otomatik güç tasarrufu</string>
+    <string name="autodatasave_mode">Otomatik veri tasarrufu</string>
+    <string name="memory_boost_support">Bellek artırma</string>
+    <string name="root_mode_descr">Tüm özellikler. Root erişimi gerektirir.</string>
+    <string name="shizuku_mode_descr">Daha az özellik, root gerekmez, Android 11+. Shizuku uygulaması gereklidir.</string>
+    <string name="lets_go">Çalıştır</string>
+    <string name="shizuku_setup_success">Shizuku kuruldu ve artık hazırsınız</string>
+    <string name="shizuku_setup_instructions_title">Kurulum Talimatları</string>
+    <string name="shizuku_warning_systemless_title">Dikkat</string>
+    <string name="shizuku_warning_systemless_description">Kök olmayan mod, sisteminizi kalıcı olarak etkileyecek eylemler gerçekleştirebilir.</string>
+    <string name="shizuku_warning_miui_title">MIUI Geliştirici İzinleri</string>
+    <string name="shizuku_warning_miui_description">MIUI kullanıcılarının Shizuku\'nun düzgün çalışması için ek geliştirici izinlerini etkinleştirmeleri gerekir.</string>
+    <string name="shizuku_install_from_play_store">Play\'den Yükle Mağaza</string>
+    <string name="shizuku_open_app">Shizuku Uygulamasını Aç</string>
+    <string name="shizuku_setup_step_1">Shizuku\'yu yükle</string>
+    <string name="shizuku_setup_step_2">Uygulamada Shizuku hizmetini etkinleştir</string>
+    <string name="shizuku_setup_step_3">İstendiğinde izinleri ver</string>
+    <string name="shizuku_setup_step_4">Kuruluma devam etmek için FDE.AI\'ye geri dön</string>
+    <string name="shizuku_broken_connection">Hata! Shizuku bağlantısı koptu, lütfen Shizuku hizmetini yeniden başlatın.</string>
+    <string name="just_check">Kontrol et</string>
+    <string name="dontkillmyapp_text">Shizuku modunu kullanıyorsunuz. Uygulamanın düzgün çalışmasını sağlamak için lütfen Shizuku ve FDE.AI için otomatik öldürmeyi devre dışı bırakın. Nasıl olduğunu görmek ister misiniz?</string>
 </resources>

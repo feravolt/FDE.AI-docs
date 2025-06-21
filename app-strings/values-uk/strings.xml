@@ -4,12 +4,7 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Зроблено з ❤️ FeraVolt.</string>
     <string name="accept">Прийняти</string>
     <string name="adaptive">Авто</string>
-    <string name="ai_tune_freqs">Автоматичне налаштування частоти ЦП/ГПУ</string>
     <string name="ai_auto_mode">Ефективність балансу та енергозбереження на основі використання пристрою. Авторегулювання робить більше енергоспоживання.</string>
-    <string name="ai_cycle_period">Період ШІ</string>
-    <string name="ai_cycle_period_desc">Відрегулюйте період ШІ вручну. Довші періоди використовують менше енергії, але менше реагують, і навпаки.
-\nСтандартні значення встановлюються автоматично на основі потужності акумулятора. Справжній AI цикл автоматично налаштовується на основі використання.</string>
-    <string name="ai_cycle_period_warning">Зміна цих значень може призвести до збільшення енергоспоживання або низької якості роботи AI.</string>
     <string name="ai_is_disabled">AI вимкнено</string>
     <string name="ai_log">Журнал напруги</string>
     <string name="ai_mode">Режим ШІ</string>
@@ -49,7 +44,8 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Температура: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Вольтаж: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Сторож: %1$s</string>
-    <string name="burnit">Вимкнути дроселювання</string>
+    <string name="burnit">Дроселювання</string>
+    <string name="greenbattery_title">Акумулятор</string>
     <string name="bypassch_desc">Обмежує струм зарядного пристрою під час важких процесів, зменшуючи заряд акумулятора та опалення.</string>
     <string name="bypassch_title">Заряджання обходу</string>
     <string name="cancel">Скасувати</string>
@@ -106,7 +102,6 @@
     <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">ГП: %1$s%%</string>
     <string name="grantit">Вам може знадобитися вручну надати дозвіл автозапуску у менеджері дозволів вашої ОС, щоб дозволити FDE.AI запустити після завантаження ОС.</string>
     <string name="greenbattery_desc">Подовжте час роботи акумулятора за обмеженням максимального рівня заряду. Зупиняє заряджання на визначеному поріг і перезавантажується на 6 відсотків нижче заряду батареї.</string>
-    <string name="greenbattery_title">Стан акумулятора</string>
     <string name="hour">год.</string>
     <string name="join_forum">Форум</string>
     <string name="just_battery">Батарея</string>
@@ -181,7 +176,6 @@
     <string name="rm_fde_lite">Спочатку видалити версію FDE.AI lit!</string>
     <string name="run_now">Ран</string>
     <string name="save_log">Зберегти журнал</string>
-    <string name="screen_on_delay">Затримка ввімкненого екрану:</string>
     <string name="search_no_reset">Пошук</string>
     <string name="share">Поділитися FDE.AI</string>
     <string name="share_txt">Спробуйте FDE.AI - чудовий оптимізатор для Android!</string>
@@ -229,24 +223,18 @@
     <string name="ai_lifetime">Термін служби ШІ</string>
     <string name="kernel_tuning_state">Налаштування ядра</string>
     <string name="cpu_turbo_support">Підтримка CPU Turbo</string>
-    <string name="cpu_turbo_active">CPU Turbo активний</string>
     <string name="cpu_turbo_trigger_count">Кількість тригерів CPU Turbo</string>
     <string name="gpu_turbo_support">Підтримка GPU Turbo</string>
-    <string name="gpu_turbo_active">GPU Turbo активовано</string>
     <string name="gpu_turbo_trigger_count">Кількість тригерів GPU Turbo</string>
     <string name="force_doze_enabled">Примусовий сон увімкнено</string>
     <string name="force_doze_trigger_count">Кількість тригерів Force Doze</string>
-    <string name="force_doze_autopowersave_mode">Примусове автоматичне енергозбереження Doze</string>
     <string name="throttling_deactivated">Ретротлінг вимкнено</string>
     <string name="throttling_ignore_on_charge">Деросування ігнорування стягнення плати</string>
     <string name="kill_bg_apps">Вимикати фонові програми</string>
-    <string name="auto_tune_freqs">Автонастроювання частот</string>
     <string name="auto_art_opt">Автоматична оптимізація ART</string>
     <string name="dynamic_read_ahead">Динамічне читання наперед</string>
     <string name="charging_bypass_enabled">Обхід заряджання ввімкнено</string>
-    <string name="charging_bypass_active">Обхід заряджання активний</string>
     <string name="charging_limit_enabled">Ліміт заряду ввімкнено</string>
-    <string name="charging_limit_active">Ліміт заряду активний</string>
     <string name="charging_cycles">Цикли заряджання:</string>
     <string name="cpu_bandwidth_tune">Налаштування пропускної здатності ЦП</string>
     <string name="fs_cache_tune">Налаштування кешу FS</string>
@@ -259,4 +247,31 @@
     <string name="extraopt_schedule_time">Установити час щоденної автоматичної оптимізації</string>
     <string name="sound_notifications">Звукові сповіщення</string>
     <string name="migration_error">Під час міграції даних сталася неочікувана помилка. Дані будуть очищені.</string>
+    <string name="onboarding_select_mode_title">Виберіть режим</string>
+    <string name="onboarding_mode_shizuku">Шізуку</string>
+    <string name="onboarding_mode_root">Корінь</string>
+    <string name="charging_limit">Ліміт заряду</string>
+    <string name="auto_data_save">Економія даних</string>
+    <string name="auto_data_save_desc">Автоматично вмикати заощадження даних, коли екран вимкнено.</string>
+    <string name="autopowersave_mode">Автоматичне збереження енергії</string>
+    <string name="autodatasave_mode">Автоматичне збереження даних</string>
+    <string name="memory_boost_support">Збільшення пам\'яті</string>
+    <string name="root_mode_descr">Усі функції. Потрібен доступ root.</string>
+    <string name="shizuku_mode_descr">Менше функцій, не потрібен root, Android 11+. Потрібен додаток Shizuku.</string>
+    <string name="lets_go">Запустити</string>
+    <string name="shizuku_setup_success">Shizuku налаштовано, і ви готові до роботи</string>
+    <string name="shizuku_setup_instructions_title">Інструкції з налаштування</string>
+    <string name="shizuku_warning_systemless_title">Увага</string>
+    <string name="shizuku_warning_systemless_description">Режим не root може виконувати дії, які постійно вплинуть на вашу систему.</string>
+    <string name="shizuku_warning_miui_title">Дозволи розробника MIUI</string>
+    <string name="shizuku_warning_miui_description">Користувачі MIUI повинні надати додаткові дозволи розробника, щоб Shizuku працював належним чином.</string>
+    <string name="shizuku_install_from_play_store">Установити з Play Store</string>
+    <string name="shizuku_open_app">Відкрити програму Shizuku</string>
+    <string name="shizuku_setup_step_1">Установити Shizuku</string>
+    <string name="shizuku_setup_step_2">Увімкнути службу Shizuku у програмі</string>
+    <string name="shizuku_setup_step_3">Надайте дозволи, коли буде запропоновано</string>
+    <string name="shizuku_setup_step_4">Повернутися до FDE.AI, щоб продовжити налаштування</string>
+    <string name="shizuku_broken_connection">Помилка! З’єднання Shizuku перервано, перезапустіть службу Shizuku.</string>
+    <string name="just_check">Перевірити</string>
+    <string name="dontkillmyapp_text">Ви використовуєте режим Shizuku. Щоб програма працювала належним чином, вимкніть автоматичне знищення для Shizuku та FDE.AI. Хочете побачити як?</string>
 </resources>

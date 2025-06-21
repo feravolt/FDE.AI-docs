@@ -4,12 +4,7 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Gjord med ❤️ av FeraVolt.</string>
     <string name="accept">Acceptera</string>
     <string name="adaptive">Automatiskt</string>
-    <string name="ai_tune_freqs">Automatisk inställning av CPU/GPU-freqs</string>
     <string name="ai_auto_mode">Balanserar prestanda och energisparande baserat på enhetsanvändning. Freqs auto-tune ger mer strömsparande.</string>
-    <string name="ai_cycle_period">AI cykelperiod</string>
-    <string name="ai_cycle_period_desc">Justera AI-cykelperioden manuellt. Längre perioder använder mindre ström men är mindre lyhörda, och vice versa.
-\nStandardvärden sätts automatiskt baserat på batterikapacitet. Den faktiska AI-cykeln justerar automatiskt baserat på användning.</string>
-    <string name="ai_cycle_period_warning">Ändra dessa värden kan leda till ökad strömförbrukning eller låg kvalitet AI-arbete.</string>
     <string name="ai_is_disabled">AI inaktiverad</string>
     <string name="ai_log">AI-logg</string>
     <string name="ai_mode">AI-läge</string>
@@ -49,7 +44,8 @@
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Temperatur: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Spänning: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Bär: %1$s</string>
-    <string name="burnit">Inaktivera strypning</string>
+    <string name="burnit">Strålning</string>
+    <string name="greenbattery_title">Batteri</string>
     <string name="bypassch_desc">Begränsar laddarströmmen under tunga processer för att matcha enhetens användning, minska batteriladdning och uppvärmning.</string>
     <string name="bypassch_title">Laddar bypass</string>
     <string name="cancel">Avbryt</string>
@@ -106,7 +102,6 @@
     <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
     <string name="grantit">Du kan behöva manuellt bevilja autostart tillstånd i operativsystemets behörighetshanterare för att tillåta FDE.AI att starta efter OS uppstart.</string>
     <string name="greenbattery_desc">Förläng batteritiden genom att begränsa max laddningsnivån. Stoppar laddning vid den definierade tröskeln och startar om till 6 procent under den.</string>
-    <string name="greenbattery_title">Batteri hälsa</string>
     <string name="hour">h.</string>
     <string name="join_forum">XDA</string>
     <string name="just_battery">Batteri</string>
@@ -181,7 +176,6 @@
     <string name="rm_fde_lite">Avinstallera FDE.AI lite versionen först!</string>
     <string name="run_now">Kör</string>
     <string name="save_log">Spara logg</string>
-    <string name="screen_on_delay">Skärm PÅ fördröjning:</string>
     <string name="search_no_reset">Sök</string>
     <string name="share">Dela FDE.AI</string>
     <string name="share_txt">Prova FDE.AI - en fantastisk Android-optimering!</string>
@@ -229,24 +223,18 @@
     <string name="ai_lifetime">AI-livstid</string>
     <string name="kernel_tuning_state">Kärnjustering</string>
     <string name="cpu_turbo_support">CPU Turbo-stöd</string>
-    <string name="cpu_turbo_active">CPU Turbo aktiv</string>
     <string name="cpu_turbo_trigger_count">CPU Turbo-utlösare</string>
     <string name="gpu_turbo_support">GPU Turbo-stöd</string>
-    <string name="gpu_turbo_active">GPU Turbo aktiv</string>
     <string name="gpu_turbo_trigger_count">GPU-turbotriggerantal</string>
     <string name="force_doze_enabled">Force Doze aktiverad</string>
     <string name="force_doze_trigger_count">Tvinga antal utlösare för slumra</string>
-    <string name="force_doze_autopowersave_mode">Force Doze auto-powersave</string>
     <string name="throttling_deactivated">Strypning avaktiverad</string>
     <string name="throttling_ignore_on_charge">Strypning ignorerar laddning</string>
     <string name="kill_bg_apps">Döda bakgrundsappar</string>
-    <string name="auto_tune_freqs">Automatisk inställning av frekvenser</string>
     <string name="auto_art_opt">Automatisk ART-optimering</string>
     <string name="dynamic_read_ahead">Dynamisk läsning</string>
     <string name="charging_bypass_enabled">Charging bypass aktiverad</string>
-    <string name="charging_bypass_active">Charging bypass aktiv</string>
     <string name="charging_limit_enabled">Laddningsgräns aktiverad</string>
-    <string name="charging_limit_active">Laddningsgräns aktiv</string>
     <string name="charging_cycles">Laddningscykler:</string>
     <string name="cpu_bandwidth_tune">CPU-bandbreddsinställning</string>
     <string name="fs_cache_tune">FS-cachejustering</string>
@@ -259,4 +247,31 @@
     <string name="extraopt_schedule_time">Ställ in daglig tid för automatisk optimering</string>
     <string name="sound_notifications">Ljudaviseringar</string>
     <string name="migration_error">Ett oväntat fel uppstod under datamigreringen. Data kommer att rensas.</string>
+    <string name="onboarding_select_mode_title">Välj läge</string>
+    <string name="onboarding_mode_shizuku">Shizuku</string>
+    <string name="onboarding_mode_root">Root</string>
+    <string name="charging_limit">Laddningsgräns</string>
+    <string name="auto_data_save">Datasparare</string>
+    <string name="auto_data_save_desc">Aktivera databesparing automatiskt när skärmen är avstängd.</string>
+    <string name="autopowersave_mode">Automatisk energibesparing</string>
+    <string name="autodatasave_mode">Automatisk datasparning</string>
+    <string name="memory_boost_support">Minnesförstärkning</string>
+    <string name="root_mode_descr">Alla funktioner. Kräver root-åtkomst.</string>
+    <string name="shizuku_mode_descr">Färre funktioner, ingen root behövs, Android 11+. Kräver Shizuku-appen.</string>
+    <string name="lets_go">Kör</string>
+    <string name="shizuku_setup_success">Shizuku är konfigurerat och du är redo att börja</string>
+    <string name="shizuku_setup_instructions_title">Installationsinstruktioner</string>
+    <string name="shizuku_warning_systemless_title">Obs</string>
+    <string name="shizuku_warning_systemless_description">Icke-root-läge kan utföra åtgärder som permanent kommer att påverka ditt system.</string>
+    <string name="shizuku_warning_miui_title">MIUI-utvecklarbehörigheter</string>
+    <string name="shizuku_warning_miui_description">MIUI-användare måste aktivera ytterligare utvecklarbehörigheter för att Shizuku ska fungera korrekt.</string>
+    <string name="shizuku_install_from_play_store">Installera från Play Butik</string>
+    <string name="shizuku_open_app">Öppna Shizuku-appen</string>
+    <string name="shizuku_setup_step_1">Installera Shizuku</string>
+    <string name="shizuku_setup_step_2">Aktivera Shizuku-tjänsten i appen</string>
+    <string name="shizuku_setup_step_3">Ge behörigheter när du uppmanas att göra det</string>
+    <string name="shizuku_setup_step_4">Återgå till FDE.AI för att fortsätta konfigurationen</string>
+    <string name="shizuku_broken_connection">Fel! Shizuku-anslutningen är bruten, vänligen starta om Shizuku-tjänsten.</string>
+    <string name="just_check">Kontrollera</string>
+    <string name="dontkillmyapp_text">Du använder Shizuku-läget. För att appen ska fungera bra, vänligen inaktivera auto-kill för Shizuku och FDE.AI. Vill du se hur?</string>
 </resources>
