@@ -138,13 +138,13 @@
     <string name="onboarding_eula_summary_2">データのバックアップがあることを確認してください。</string>
     <string name="onboarding_eula_summary_3">私たちはいかなる損害についても責任を負いません。</string>
     <string name="onboarding_eula_summary_header">利用規約の概要</string>
-    <string name="onboarding_preset_adaptive_summary">微調整を適用し、AIが自動的に調整するように設定します。(推奨)</string>
+    <string name="onboarding_preset_adaptive_summary">微調整を適用し、AIが自動的に調整するように設定します(推奨)。</string>
     <string name="onboarding_preset_adaptive_title">自動調整</string>
-    <string name="onboarding_preset_off_summary">微調整が適用されていません。ツールのみがすぐに利用可能になります</string>
+    <string name="onboarding_preset_off_summary">微調整は適用されません。ツールのみがすぐに利用可能になります</string>
     <string name="onboarding_preset_off_title">なし</string>
     <string name="onboarding_preset_performance_summary">パフォーマンスと応答性を向上させるために微調整とAIのチューニングを適用します</string>
     <string name="onboarding_preset_performance_title">パフォーマンス</string>
-    <string name="onboarding_preset_powersave_summary">バッテリーの節約と熱を低減するために微調整とAIを適用します</string>
+    <string name="onboarding_preset_powersave_summary">微調整を適用し、AIを調整してバッテリーの節約と発熱を抑制します。</string>
     <string name="onboarding_preset_powersave_title">省電力</string>
     <string name="onboarding_presets">プリセット</string>
     <string name="onboarding_see_full_eula">利用規約の全文を表示</string>
@@ -192,8 +192,7 @@
     <string name="stop_btn">停止</string>
     <string name="telegram" tools:ignore="MissingTranslation">https://t.me/feralab_news_eng</string>
     <string name="third_party">ライブラリと翻訳貢献者のリスト</string>
-    <string name="throttling_description">これを無効にするとパフォーマンスが向上しますが、過熱を引き起こす可能性があり、急速充電やカメラが動作しなくなる可能性があります。
-\nFDE.AI はデフォルトで充電中にスロットリングを再度有効にします。これを無効にするには、チェックを外してください。</string>
+    <string name="throttling_description">これを無効にするとパフォーマンスは維持されますが、過熱の原因となる可能性があり、急速充電やカメラが動作しなくなる場合があります。\nFDE.AIはデフォルトで充電中にスロットリングを再有効化します。この機能を無効にするにはチェックを外してください。</string>
     <string name="throttling_fuse_desc">温度がこの値を超えた場合、自動的にスロットリングを再度有効にして損傷を防ぎます。</string>
     <string name="throttling_fuse_header">温度ヒューズ</string>
     <string name="throttling_ignore_charging">充電を無視</string>
