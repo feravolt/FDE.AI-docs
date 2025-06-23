@@ -274,4 +274,14 @@
     <string name="shizuku_broken_connection">오류! Shizuku 연결이 끊어졌습니다. Shizuku 서비스를 다시 시작하세요.</string>
     <string name="just_check">확인</string>
     <string name="dontkillmyapp_text">Shizuku 모드를 사용 중입니다. 앱이 계속 작동하도록 Shizuku 및 FDE.AI의 자동 종료 기능을 비활성화하세요. 방법을 확인해 보시겠습니까?</string>
+    <string name="burnit_btn">속도 조절 비활성화</string>
+    <string name="already_premium">이미 프리미엄을 사용 중이신가요?</string>
+    <string name="already_premium_txt">이미 프리미엄 패키지를 구매했지만 FDE.AI에서 인식하지 못하는 경우, 다음 단계를 따르세요.\n\n
+1. 공식 출처에서 FDE.AI 앱의 정품을 다운로드하고 MD5 해시를 확인하세요.\n
+2. ROM에 서명 스푸핑이나 비활성화된 인증이 없는지 확인하세요.\n
+3. FDE.AI 프리미엄 패키지와 FDE.AI 앱을 모두 제거하세요.\n
+4. Google Play 앱의 데이터를 삭제하세요.\n
+5. 기기를 재부팅하세요.\n
+6. FDE.AI와 프리미엄 패키지를 설치하세요.\n\n
+문제가 지속되면 Telegram에서 개발자에게 문의하세요.</string>
 </resources>

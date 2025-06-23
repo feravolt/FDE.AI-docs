@@ -227,6 +227,8 @@
     <string name="soundpack_hev" translatable="false">Half-Life HEV</string>
     <string name="soundpack_glados" translatable="false">Portal GLaDOS</string>
     <string name="soundpack_persona" translatable="false">Persona</string>
+    <string name="soundpack_cj" translatable="false">CJ (GTA SA)</string>
+    <string name="soundpack_jarvis" translatable="false">Jarvis</string>
     <string name="soundpack_dmitry_ru" translatable="false">Dmitry (RU)</string>
     <string name="soundpack_sveta_ru" translatable="false">Svetlana (RU)</string>
     <string name="soundpack_tanya_ru" translatable="false">Tatyana (RU)</string>
@@ -274,8 +276,8 @@
     <string name="sound_notifications">Sound notifications</string>
     <string name="migration_error">Unexpected error occurred while data migration. Data will be cleared.</string>
     <string name="onboarding_select_mode_title">Select mode</string>
-    <string name="onboarding_mode_shizuku">Shizuku</string>
-    <string name="onboarding_mode_root">Root</string>
+    <string name="onboarding_mode_shizuku" translatable="false">Shizuku</string>
+    <string name="onboarding_mode_root" translatable="false">Root</string>
     <string name="charging_limit">Charging limit</string>
     <string name="auto_data_save">Data saver</string>
     <string name="auto_data_save_desc">Auto-enable data saver when screen is off.</string>
@@ -300,4 +302,14 @@
     <string name="shizuku_broken_connection">Error! Shizuku connection is broken, please re-start Shizuku service.</string>
     <string name="just_check">Check</string>
     <string name="dontkillmyapp_text">You are using Shizuku mode. To keep the app working well, please disable auto-kill for Shizuku and FDE.AI. Do you want to see how?</string>
+    <string name="burnit_btn">Disable throttling</string>
+    <string name="already_premium">Already have premium?</string>
+    <string name="already_premium_txt">If you already bought premium package, but FDE.AI does not detect it - follow these steps:\n\n
+    1. Make sure you downloaded genuine copy of FDE.AI app from official sources and check MD5 hash.\n
+    2. Make sure your ROM does not have signature spoof or disabled verification.\n
+    3. Uninstall both FDE.AI Premium package and FDE.AI app.\n
+    4. Clear Google Play app\'s data.\n
+    5. Reboot your device.\n
+    6. Install FDE.AI and Premium package.\n\n
+    If problem persists, contact developer in Telegram.</string>
 </resources>

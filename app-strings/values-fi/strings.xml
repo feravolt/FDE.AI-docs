@@ -274,4 +274,14 @@
     <string name="shizuku_broken_connection">Virhe! Shizuku-yhteys katkesi, käynnistä Shizuku-palvelu uudelleen.</string>
     <string name="just_check">Tarkista</string>
     <string name="dontkillmyapp_text">Käytät Shizuku-tilaa. Jotta sovellus toimisi hyvin, poista automaattinen tappaminen käytöstä Shizukulle ja FDE.AI:lle. Haluatko nähdä miten?</string>
+    <string name="burnit_btn">Poista kuristus käytöstä</string>
+    <string name="already_premium">Onko sinulla jo premium?</string>
+    <string name="already_premium_txt">Jos olet jo ostanut premium-paketin, mutta FDE.AI ei tunnista sitä, toimi seuraavasti:\n\n
+1. Varmista, että latasit FDE.AI-sovelluksen aidon kopion virallisista lähteistä ja tarkista MD5-hajautus.\n
+2. Varmista, että ROM-muistissasi ei ole allekirjoituksen huijausta tai vahvistusta poistettu käytöstä.\n
+3. Poista sekä FDE.AI Premium -paketin että FDE.AI-sovelluksen asennus.\n
+4. Tyhjennä Google Play -sovelluksen tiedot.\n
+5. Käynnistä laitteesi uudelleen.\n
+6. Asenna FDE.AI ja Premium-paketti.\n\n
+Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
 </resources>

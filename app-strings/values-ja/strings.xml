@@ -283,4 +283,14 @@
     <string name="shizuku_broken_connection">エラー！Shizuku接続が切断されました。Shizukuサービスを再起動してください。</string>
     <string name="just_check">確認する</string>
     <string name="dontkillmyapp_text">Shizukuモードを使用しています。アプリを正常に動作させるには、ShizukuとFDE.AIの自動終了を無効にしてください。方法を確認しますか？</string>
+    <string name="burnit_btn">スロットリングを無効にする</string>
+    <string name="already_premium">既にプレミアム版をお持ちですか？</string>
+    <string name="already_premium_txt">既にプレミアムパッケージを購入しているのに、FDE.AIがそれを検出しない場合は、以下の手順に従ってください。\n\n
+1. 公式ソースから正規のFDE.AIアプリをダウンロードし、MD5ハッシュを確認してください。\n
+2. ROMに署名の偽装や検証の無効化がないことを確認してください。\n
+3. FDE.AIプレミアムパッケージとFDE.AIアプリの両方をアンインストールしてください。\n
+4. Google Playアプリのデータを消去してください。\n
+5. デバイスを再起動してください。\n
+6. FDE.AIとプレミアムパッケージをインストールしてください。\n\n
+問題が解決しない場合は、Telegramで開発者にお問い合わせください。</string>
 </resources>

@@ -274,4 +274,14 @@
     <string name="shizuku_broken_connection">Помилка! З’єднання Shizuku перервано, перезапустіть службу Shizuku.</string>
     <string name="just_check">Перевірити</string>
     <string name="dontkillmyapp_text">Ви використовуєте режим Shizuku. Щоб програма працювала належним чином, вимкніть автоматичне знищення для Shizuku та FDE.AI. Хочете побачити як?</string>
+    <string name="burnit_btn">Вимкнути дроселювання</string>
+    <string name="already_premium">Вже маєте преміум?</string>
+    <string name="already_premium_txt">Якщо ви вже купили пакет преміум-класу, але FDE.AI не виявляє його, виконайте такі дії:\n\n
+1. Переконайтеся, що ви завантажили справжню копію програми FDE.AI з офіційних джерел, і перевірте хеш MD5.\n
+2. Переконайтеся, що у вашому ПЗУ немає підробки підпису або вимкненої перевірки.\n
+3. Видаліть пакет FDE.AI Premium і додаток FDE.AI.\n
+4. Очистіть дані програми Google Play.\n
+5. Перезавантажте пристрій.\n
+6. Встановіть пакет FDE.AI і Premium.\n\n
+Якщо проблема не зникає, зверніться до розробника в Telegram.</string>
 </resources>

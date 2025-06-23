@@ -274,4 +274,14 @@
     <string name="shizuku_broken_connection">خطأ! اتصال Shizuku مقطوع، يُرجى إعادة تشغيل خدمة Shizuku.</string>
     <string name="just_check">تحقق</string>
     <string name="dontkillmyapp_text">أنت تستخدم وضع Shizuku. للحفاظ على عمل التطبيق بشكل جيد، يُرجى تعطيل الإيقاف التلقائي لـ Shizuku وFDE.AI. هل تريد معرفة كيفية القيام بذلك؟</string>
+    <string name="burnit_btn">تعطيل الكبح</string>
+    <string name="already_premium">هل لديك باقة مميزة بالفعل؟</string>
+    <string name="already_premium_txt">إذا كنت قد اشتريت باقة مميزة بالفعل، ولكن FDE.AI لم يكتشفها، فاتبع الخطوات التالية:\n\n
+1. تأكد من تنزيل نسخة أصلية من تطبيق FDE.AI من مصادر رسمية، وتحقق من تجزئة MD5.\n
+2. تأكد من أن ذاكرة القراءة فقط (ROM) لديك لا تحتوي على توقيع مُزيّف أو مُعطّل للتحقق.\n
+3. ألغِ تثبيت كلٍّ من باقة FDE.AI المميزة وتطبيق FDE.AI.\n
+4. امسح بيانات تطبيق جوجل بلاي.\n
+5. أعد تشغيل جهازك.\n
+6. ثبّت باقة FDE.AI المميزة.\n\n
+إذا استمرت المشكلة، تواصل مع المطور عبر تيليجرام.</string>
 </resources>
