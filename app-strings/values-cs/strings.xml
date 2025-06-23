@@ -274,4 +274,14 @@
     <string name="shizuku_broken_connection">Chyba! Spojení Shizuku je přerušeno, restartujte prosím službu Shizuku.</string>
     <string name="just_check">Zkontrolovat</string>
     <string name="dontkillmyapp_text">Používáte režim Shizuku. Aby aplikace dobře fungovala, vypněte automatické zabíjení pro Shizuku a FDE.AI. Chcete vidět jak?</string>
+    <string name="burnit_btn">Zakázat omezení</string>
+    <string name="already_premium">Máte již prémii?</string>
+    <string name="already_premium_txt">Pokud jste si již zakoupili prémiový balíček, ale FDE.AI jej nezjistil, postupujte takto:\n\n
+1. Ujistěte se, že jste si stáhli pravou kopii aplikace FDE.AI z oficiálních zdrojů a zkontrolujte hash MD5.\n
+2. Ujistěte se, že vaše ROM nemá falešný podpis nebo deaktivované ověřování.\n
+3. Odinstalujte balíček FDE.AI Premium i aplikaci FDE.AI.\n
+4. Vymažte data aplikace Google Play.\n
+5. Restartujte zařízení.\n
+6. Nainstalujte FDE.AI a balíček Premium.\n\n
+Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
 </resources>

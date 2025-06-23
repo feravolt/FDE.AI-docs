@@ -1,147 +1,106 @@
 ### Changelog
 
-## **v24.05.5**
+## **v25.06.5**
 
 ### New:
 
-— Apps profiles (instead of app analysis and shortcuts)\
-— Monitoring overlay with chart\
-— Core: Always advanced AI mode\
-— Core: Auto-tune frequencies\
-— Core: Dynamic memory read-ahead\
-— Core: Kernel Multi-Gen LRU optimization
+— Support Shizuku for non-root users\
+— Support KernelSU Next\
+— Add auto data saver\
+— Integrate Android Game API into app profiles\
+— Core: enable DDR/L3/UFS boost
 
 ### Improved:
 
-— Overall app UI and performance\
-— Android 14 compatibility\
-— Services and notifications\
-— Core: Extra ART cache optimization\
-— Core: RAM management\
-— Core: Low power FPS\
-— Core: UI rendering tweaks
+— UI and its performance\
+— Cooldown feature\
+— RAM cleaning\
+— Service and monitoring overlay performance\
+— VRAM in monitoring overlay\
+— Core: throttling control\
+— Core: background filesystem optimization\
+— Core: option to disable logs\
+— Core: optimize ART cache
 
 ### Fixed:
 
-— Downscale resolution\
-— Core: Processes priority set\
-— Core: ART cache auto optimization
+— Fix FPS meter on older OS versions\
+— Core: CPU frequency detection
 
 ---
 
-## **v24.01.1**
+## **v25.04.3**
 
 ### New:
 
-— Reworked downscaled resolution apply logic
+— Removed AI freqs auto-tune\
+— Removed AI custom cycle period\
+— Core: background FS optimization\
+— Core: AI mode bound to OS powersave mode\
+— Core: WALT tweaks
 
 ### Improved:
 
-— Overall app performance\
-— Services and notifications optimization\
-— Core: RAM management for 4GB and lower RAM devices
+— Application UI and performance\
+— Core: execution speed\
+— Core: FS tweaks\
+— Core: CPU & GPU Turbo logic\
+— Core: throttling control\
+— Core: CPU freq optimization\
+— Core: Adreno GPU Turbo
 
 ### Fixed:
 
-— Sound alerts (premium)\
-— FPS meter for Android 14\
-— Notifications settings\
-— Various minor bugs
+— Crashes on some devices\
+— Premium not detected properly\
+— Core: minor lags on some devices\
+— Core: charging limit function
 
 ---
 
-## **v23.12.1**
+## **v25.03.7**
 
 ### New:
 
-— Bypass kernel block. New versions will come with different package names with easy migration from
-a previous version\
-— Dropped Magisk module support. Just install the APK \
-— Core: dynamic read-ahead cache for heavy processes for devices with 8+ GB RAM in advanced AI mode
+— Free soundpacks for all users\
+— App profiles are now exclusive to premium users\
+— Scrollable monitoring overlay graph\
+— APatch root support\
+— Throttling control in profiles\
+— Android 16 support
 
 ### Improved:
 
-— App autostart\
-— Heavy & light apps lists are now fully detected and displayed in the app\
-— Core: Android 14 support\
-— Core: HW score calculation\
-— Core: debug mode\
-— Core: removal of temp files\
-— Core: RAM management
+— Application UI and performance\
+— Updated internal BusyBox\
+— FPS meter\
+— Core: ART cache optimization\
+— Core: FS tweaks\
+— Core: kernel tweaks\
+— Core: low-power FPS module\
+— Core: charging limit feature\
+— Core: execution speed\
+— Core: CPU Turbo\
+— Core: removed build.prop tweaks
 
 ### Fixed:
 
-— FPS meter and other overlays on Android 14\
-— Core: Preload Pro detection
+— Data migration issues\
+— Core: VM memory management\
+— Core: removed AutoHZ in LPFPS
 
 ---
 
-## **v23.08.4**
+## **v24.12.2**
 
 ### New:
 
-— Reworked UI and UX\
-— Compact FPS meter view\
-— Option to pin floating windows positions\
-— 16:9 resolution crop in native width for ultra-wide screens\
-— Allowed to toggle `kill background apps` option in advanced AI mode\
-— Online sound-pack download from the app (Magisk module no longer needed)
+— Initial android 16 support
 
 ### Improved:
 
-— Splash screen & launcher icon\
-— App autostart\
-— Core: log style\
-— Core: RAM management\
-— Core: logs cleaner\
-— Core: battery charge limit
+— Log font style\
+— Core: optimal CPU frequency calculation\
+— Core: adaptive read-ahead\
+— Core: execution speed
 
-### Fixed:
-
-— Notifications autostart on A12+\
-— Auto power save feature (when battery charge <20%)\
-— Restricted parallel work of bypass charge and charge limiter\
-— Restricted screen Auto HZ option on OxygenOS\
-— Work as Magisk module\
-— Core: throttling temperature fuse\
-— Core: bypass charge
-
----
-
-## **v23.04.1**
-
-### New:
-
-— EULA screen with presets\
-— Premium functions description block\
-— 3 separate customizable overlay windows\
-— Advanced FPS meter overlay with graph & statistics\
-— Disable OS logs and statistics option\
-— Bypass charging statusbar quick tile\
-— Core: disable MTE tweak
-
-### Improved:
-
-— App performance, UI and UX\
-— Android 13-14 compatibility\
-— Sting translations\
-— Core: Device info log split
-
-### Fixed:
-
-— Overlay windows crash on A13+
-
----
-
-## **v23.01.2**
-
-### New:
-
-— Automatic OS power-save mode when screen is OFF\
-— Ability to separately use build.prop tweaks
-
-### Improved:
-
-— App and UI performance\
-— Core: AI responsiveness\
-— Core: CPU optimization for background processes

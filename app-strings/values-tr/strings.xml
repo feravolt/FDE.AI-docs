@@ -274,4 +274,14 @@
     <string name="shizuku_broken_connection">Hata! Shizuku bağlantısı koptu, lütfen Shizuku hizmetini yeniden başlatın.</string>
     <string name="just_check">Kontrol et</string>
     <string name="dontkillmyapp_text">Shizuku modunu kullanıyorsunuz. Uygulamanın düzgün çalışmasını sağlamak için lütfen Shizuku ve FDE.AI için otomatik öldürmeyi devre dışı bırakın. Nasıl olduğunu görmek ister misiniz?</string>
+    <string name="burnit_btn">Kısıtlamayı devre dışı bırak</string>
+    <string name="already_premium">Premium\'unuz var mı?</string>
+    <string name="already_premium_txt">Zaten premium paketi satın aldıysanız ancak FDE.AI bunu algılamıyorsa - şu adımları izleyin:\n\n
+1. FDE.AI uygulamasının orijinal kopyasını resmi kaynaklardan indirdiğinizden ve MD5 karma değerini kontrol ettiğinizden emin olun.\n
+2. ROM\'unuzda imza sahtekarlığı veya devre dışı bırakılmış doğrulama olmadığından emin olun.\n
+3. Hem FDE.AI Premium paketini hem de FDE.AI uygulamasını kaldırın.\n
+4. Google Play uygulamasının verilerini temizleyin.\n
+5. Cihazınızı yeniden başlatın.\n
+6. FDE.AI ve Premium paketini yükleyin.\n\n
+Sorun devam ederse Telegram'da geliştiriciyle iletişime geçin.</string>
 </resources>

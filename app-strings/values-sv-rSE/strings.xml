@@ -274,4 +274,14 @@
     <string name="shizuku_broken_connection">Fel! Shizuku-anslutningen är bruten, vänligen starta om Shizuku-tjänsten.</string>
     <string name="just_check">Kontrollera</string>
     <string name="dontkillmyapp_text">Du använder Shizuku-läget. För att appen ska fungera bra, vänligen inaktivera auto-kill för Shizuku och FDE.AI. Vill du se hur?</string>
+    <string name="burnit_btn">Inaktivera strypning</string>
+    <string name="already_premium">Har du redan premium?</string>
+    <string name="already_premium_txt">Om du redan har köpt premiumpaket, men FDE.AI inte upptäcker det - följ dessa steg:\n\n
+1. Se till att du laddade ner en äkta kopia av FDE.AI-appen från officiella källor och kontrollera MD5-hash.\n
+2. Se till att ditt ROM inte har signaturförfalskning eller inaktiverad verifiering.\n
+3. Avinstallera både FDE.AI Premium-paketet och FDE.AI-appen.\n
+4. Rensa Google Play-appens data.\n
+5. Starta om enheten.\n
+6. Installera FDE.AI och Premium-paketet.\n\n
+Om problemet kvarstår, kontakta utvecklaren i Telegram.</string>
 </resources>

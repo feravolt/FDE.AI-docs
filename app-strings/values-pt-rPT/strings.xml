@@ -274,4 +274,14 @@
     <string name="shizuku_broken_connection">Erro! A ligação com o Shizuku foi interrompida. Reinicie o serviço Shizuku.</string>
     <string name="just_check">Verificar</string>
     <string name="dontkillmyapp_text">Está a utilizar o modo Shizuku. Para manter a aplicação a funcionar corretamente, desative o desligamento automático do Shizuku e do FDE.AI. Quer ver como?</string>
+    <string name="burnit_btn">Desativar limitação</string>
+    <string name="already_premium">Já possui o pacote premium?</string>
+    <string name="already_premium_txt">Se já comprou o pacote premium, mas o FDE.AI não o detecta, siga estes passos:\n\n
+1. Certifique-se de que descarregou uma cópia original da aplicação FDE.AI de fontes oficiais e verifique o hash MD5.\n
+2. Certifique-se de que a sua ROM não tem a falsificação de assinatura ou a verificação desativada.\n
+3. Desinstale o pacote FDE.AI Premium e a aplicação FDE.AI.\n
+4. Limpe os dados da aplicação Google Play.\n
+5. Reinicie o seu dispositivo.\n
+6. Instale o FDE.AI e o pacote Premium.\n\n
+Se o problema persistir, contacte o programador no Telegram.</string>
 </resources>

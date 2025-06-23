@@ -273,4 +273,14 @@
     <string name="shizuku_broken_connection">Ralat! Sambungan Shizuku terputus, sila mulakan semula perkhidmatan Shizuku.</string>
     <string name="just_check">Semak</string>
     <string name="dontkillmyapp_text">Anda menggunakan mod Shizuku. Untuk memastikan apl berfungsi dengan baik, sila lumpuhkan auto-bunuh untuk Shizuku dan FDE.AI. Adakah anda mahu melihat bagaimana?</string>
+    <string name="burnit_btn">Lumpuhkan pendikit</string>
+    <string name="already_premium">Sudah mempunyai premium?</string>
+    <string name="already_premium_txt">Jika anda sudah membeli pakej premium, tetapi FDE.AI tidak mengesannya - ikut langkah ini:\n\n
+1. Pastikan anda memuat turun salinan tulen apl FDE.AI daripada sumber rasmi dan semak cincang MD5.\n
+2. Pastikan ROM anda tidak mempunyai tandatangan spoof atau pengesahan yang dilumpuhkan.\n
+3. Nyahpasang pakej FDE.AI Premium dan apl FDE.AI.\n
+4. Kosongkan data apl Google Play.\n
+5. But semula peranti anda.\n
+6. Pasang pakej FDE.AI dan Premium.\n\n
+Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
 </resources>

@@ -274,4 +274,14 @@
     <string name="shizuku_broken_connection">Lỗi! Kết nối Shizuku bị hỏng, vui lòng khởi động lại dịch vụ Shizuku.</string>
     <string name="just_check">Kiểm tra</string>
     <string name="dontkillmyapp_text">Bạn đang sử dụng chế độ Shizuku. Để ứng dụng hoạt động tốt, vui lòng tắt tính năng tự động tắt cho Shizuku và FDE.AI. Bạn có muốn xem cách thực hiện không?</string>
+    <string name="burnit_btn">Tắt tính năng điều chỉnh</string>
+    <string name="already_premium">Bạn đã có gói cao cấp?</string>
+    <string name="already_premium_txt">Nếu bạn đã mua gói cao cấp nhưng FDE.AI không phát hiện ra - hãy làm theo các bước sau:\n\n
+1. Đảm bảo bạn đã tải xuống bản sao chính hãng của ứng dụng FDE.AI từ các nguồn chính thức và kiểm tra hàm băm MD5.\n
+2. Đảm bảo ROM của bạn không có chữ ký giả mạo hoặc xác minh bị vô hiệu hóa.\n
+3. Gỡ cài đặt cả gói cao cấp FDE.AI và ứng dụng FDE.AI.\n
+4. Xóa dữ liệu của ứng dụng Google Play.\n
+5. Khởi động lại thiết bị của bạn.\n
+6. Cài đặt FDE.AI và gói cao cấp.\n\n
+Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển trong Telegram.</string>
 </resources>

@@ -252,26 +252,36 @@
     <string name="onboarding_mode_root">Root</string>
     <string name="charging_limit">充電限制</string>
     <string name="auto_data_save">流量節省</string>
-    <string name="auto_data_save_desc">螢幕關閉時自動啟用流量節省。 </string>
+    <string name="auto_data_save_desc">螢幕關閉時自動啟用流量節省。</string>
     <string name="autopowersave_mode">自動省電</string>
     <string name="autodatasave_mode">自動流量節省</string>
     <string name="memory_boost_support">記憶體提升</string>
-    <string name="root_mode_descr">所有功能。需要 root 權限。 </string>
-    <string name="shizuku_mode_descr">功能較少，無需 root，Android 11 及以上系統。需要 Shizuku 應用。 </string>
+    <string name="root_mode_descr">所有功能。需要 root 權限。</string>
+    <string name="shizuku_mode_descr">功能較少，無需 root，Android 11 及以上系統。需要 Shizuku 應用。</string>
     <string name="lets_go">運行</string>
     <string name="shizuku_setup_success">Shizuku 已設定完畢，您可以開始使用了</string>
     <string name="shizuku_setup_instructions_title">設定說明</string>
     <string name="shizuku_warning_systemless_title">注意</string>
-    <string name="shizuku_warning_systemless_description">非 root 模式可能會執行永久影響系統的操作。 </string>
+    <string name="shizuku_warning_systemless_description">非 root 模式可能會執行永久影響系統的操作。</string>
     <string name="shizuku_warning_miui_title">MIUI 開發者權限</string>
-    <string name="shizuku_warning_miui_description">MIUI 使用者需要啟用額外的開發者權限才能讓 Shizuku 正常運作。 </string>
+    <string name="shizuku_warning_miui_description">MIUI 使用者需要啟用額外的開發者權限才能讓 Shizuku 正常運作。</string>
     <string name="shizuku_install_from_play_store">從 Play 商店安裝</string>
     <string name="shizuku_open_app">打開Shizuku 應用程式</string>
     <string name="shizuku_setup_step_1">安裝 Shizuku</string>
     <string name="shizuku_setup_step_2">在應用程式中啟用 Shizuku 服務</string>
     <string name="shizuku_setup_step_3">出現提示時授予權限</string>
     <string name="shizuku_setup_step_4">回傳 FDE.AI 繼續設定</string>
-    <string name="shizuku_broken_connection">錯誤！ Shizuku 連線已斷開，請重新啟動 Shizuku 服務。 </string>
+    <string name="shizuku_broken_connection">錯誤！ Shizuku 連線已斷開，請重新啟動 Shizuku 服務。</string>
     <string name="just_check">檢查</string>
-    <string name="dontkillmyapp_text">您正在使用 Shizuku 模式。為了保持應用程式正常運行，請停用 Shizuku 和 FDE.AI 的自動終止功能。想看看怎麼做嗎？ </string>
+    <string name="dontkillmyapp_text">您正在使用 Shizuku 模式。為了保持應用程式正常運行，請停用 Shizuku 和 FDE.AI 的自動終止功能。想看看怎麼做嗎？</string>
+    <string name="burnit_btn">禁用限速</string>
+    <string name="already_premium">已經擁有高級版？</string>
+    <string name="already_premium_txt">如果您已購買高級套餐，但 FDE.AI 未偵測到，請依照下列步驟操作：\n\n
+1. 確保您從官方來源下載了 FDE.AI 應用的正版，並檢查 MD5 雜湊值。\n
+2. 確保您的 ROM 沒有簽名欺騙或停用驗證。\n
+3. 卸載 FDE.AI 高級套餐和 FDE.AI 應用。\n
+4. 清除 Google Play 應用程式資料。\n
+5. 重新啟動您的裝置。\n
+6. 安裝 FDE.AI 和高級套餐。\n\n
+如果問題仍然存在，請在 Telegram 中聯絡開發者。 </string>
 </resources>

@@ -274,4 +274,14 @@
     <string name="shizuku_broken_connection">Fout! De Shizuku-verbinding is verbroken. Start de Shizuku-service opnieuw op.</string>
     <string name="just_check">Controleren</string>
     <string name="dontkillmyapp_text">U gebruikt de Shizuku-modus. Om de app goed te laten werken, schakelt u de automatische uitschakeling voor Shizuku en FDE.AI uit. Wilt u zien hoe?</string>
+    <string name="burnit_btn">Schakel throttling uit</string>
+    <string name="already_premium">Heb je al premium?</string>
+    <string name="already_premium_txt">Als je al een premiumpakket hebt gekocht, maar FDE.AI het niet detecteert, volg dan deze stappen:\n\n
+1. Zorg ervoor dat je een origineel exemplaar van de FDE.AI-app hebt gedownload van officiële bronnen en controleer de MD5-hash.\n
+2. Controleer of je ROM geen vervalste handtekeningen of uitgeschakelde verificatie bevat.\n
+3. Verwijder zowel het FDE.AI premiumpakket als de FDE.AI-app.\n
+4. Wis de gegevens van de Google Play-app.\n
+5. Start je apparaat opnieuw op.\n
+6. Installeer FDE.AI en het premiumpakket.\n\n
+Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.</string>
 </resources>
