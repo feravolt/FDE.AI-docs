@@ -1,6 +1,28 @@
 ### Changelog
 
-## **v25.06.5**
+## **v25.07.1**
+
+### New:
+
+— Constant AI mode notification in Shizuku mode\
+— Android performance hint support for Shizuku mode\
+
+### Improved:
+
+— Monitoring overlay performance\
+— AI diagram and documentation\
+- Reset button now partially resets system changes in Shizuku mode\
+— Core: AI speed\
+— Core: performance tweaks in Shizuku mode
+
+### Fixed:
+
+— Kernel block warning for Shizuku mode\
+— Core: idle battery drain
+
+---
+
+## **v25.06.7**
 
 ### New:
 
