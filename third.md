@@ -16,6 +16,12 @@
 - '[Material Motion](https://github.com/fornewid/material-motion-compose)' library licensed under
   Apache License 2.0
 
+- '[Shizuku-API](https://github.com/RikkaApps/Shizuku-API)' library licensed under
+  MIT License
+
+- '[Android Hidden Api Bypass](https://github.com/LSPosed/AndroidHiddenApiBypass)' library licensed under
+  Apache License 2.0
+
 ---
 
 #### Translation contributors:
