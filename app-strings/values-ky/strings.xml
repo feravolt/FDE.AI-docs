@@ -248,8 +248,6 @@
     <string name="sound_notifications">Үн эскертмелери</string>
     <string name="migration_error">Дайындарды көчүрүү учурунда күтүлбөгөн ката кетти. Дайындар тазаланат.</string>
     <string name="onboarding_select_mode_title">Режимди тандоо</string>
-    <string name="onboarding_mode_shizuku">Shizuku</string>
-    <string name="onboarding_mode_root">Root</string>
     <string name="charging_limit">Заряддоо чеги</string>
     <string name="auto_data_save">Дайындарды сактагыч</string>
     <string name="auto_data_save_desc">Экран өчүк болгондо маалымат сактагычты автоматтык түрдө иштетүү.</string>

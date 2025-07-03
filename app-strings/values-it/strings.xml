@@ -248,8 +248,6 @@
     <string name="sound_notifications">Notifiche sonore</string>
     <string name="migration_error">Si è verificato un errore imprevisto durante la migrazione dei dati. I dati verranno cancellati.</string>
     <string name="onboarding_select_mode_title">Seleziona modalità</string>
-    <string name="onboarding_mode_shizuku">Shizuku</string>
-    <string name="onboarding_mode_root">Root</string>
     <string name="charging_limit">Limite di ricarica</string>
     <string name="auto_data_save">Risparmio dati</string>
     <string name="auto_data_save_desc">Attiva automaticamente il risparmio dati a schermo spento.</string>

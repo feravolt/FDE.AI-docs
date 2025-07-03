@@ -248,8 +248,6 @@
     <string name="sound_notifications">Ειδοποιήσεις ήχου</string>
     <string name="migration_error">Παρουσιάστηκε μη αναμενόμενο σφάλμα κατά τη μετεγκατάσταση δεδομένων. Τα δεδομένα θα διαγραφούν.</string>
     <string name="onboarding_select_mode_title">Επιλογή λειτουργίας</string>
-    <string name="onboarding_mode_shizuku">Σιζούκου</string>
-    <string name="onboarding_mode_root">Root</string>
     <string name="charging_limit">Όριο χρέωσης</string>
     <string name="auto_data_save">Εξοικονόμηση δεδομένων</string>
     <string name="auto_data_save_desc">Αυτόματη ενεργοποίηση της εξοικονόμησης δεδομένων όταν η οθόνη είναι απενεργοποιημένη.</string>

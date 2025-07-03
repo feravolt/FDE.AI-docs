@@ -248,8 +248,6 @@
     <string name="sound_notifications">Geluidsmeldingen</string>
     <string name="migration_error">Er is een onverwachte fout opgetreden tijdens de datamigratie. Gegevens worden gewist.</string>
     <string name="onboarding_select_mode_title">Selecteer modus</string>
-    <string name="onboarding_mode_shizuku">Shizuku</string>
-    <string name="onboarding_mode_root">Root</string>
     <string name="charging_limit">Laadlimiet</string>
     <string name="auto_data_save">Databesparing</string>
     <string name="auto_data_save_desc">Databesparing automatisch inschakelen wanneer het scherm uit is.</string>

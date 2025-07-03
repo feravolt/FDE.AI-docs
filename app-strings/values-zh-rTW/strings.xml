@@ -248,8 +248,6 @@
     <string name="sound_notifications">聲音通知</string>
     <string name="migration_error">資料遷移時發生意外錯誤。資料將被清除。</string>
     <string name="onboarding_select_mode_title">選擇模式</string>
-    <string name="onboarding_mode_shizuku">Shizuku</string>
-    <string name="onboarding_mode_root">Root</string>
     <string name="charging_limit">充電限制</string>
     <string name="auto_data_save">流量節省</string>
     <string name="auto_data_save_desc">螢幕關閉時自動啟用流量節省。</string>

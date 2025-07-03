@@ -248,8 +248,6 @@
     <string name="sound_notifications">Sesli bildirimler</string>
     <string name="migration_error">Veri geçişi sırasında beklenmeyen bir hata oluştu. Veriler temizlenecek.</string>
     <string name="onboarding_select_mode_title">Mod seç</string>
-    <string name="onboarding_mode_shizuku">Shizuku</string>
-    <string name="onboarding_mode_root">Kök</string>
     <string name="charging_limit">Şarj sınırı</string>
     <string name="auto_data_save">Veri tasarrufu</string>
     <string name="auto_data_save_desc">Ekran kapalıyken veri tasarrufunu otomatik olarak etkinleştir.</string>
@@ -283,5 +281,5 @@
 4. Google Play uygulamasının verilerini temizleyin.\n
 5. Cihazınızı yeniden başlatın.\n
 6. FDE.AI ve Premium paketini yükleyin.\n\n
-Sorun devam ederse Telegram'da geliştiriciyle iletişime geçin.</string>
+Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
 </resources>

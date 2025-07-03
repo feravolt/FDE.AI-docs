@@ -248,8 +248,6 @@
     <string name="sound_notifications">Ljudaviseringar</string>
     <string name="migration_error">Ett oväntat fel uppstod under datamigreringen. Data kommer att rensas.</string>
     <string name="onboarding_select_mode_title">Välj läge</string>
-    <string name="onboarding_mode_shizuku">Shizuku</string>
-    <string name="onboarding_mode_root">Root</string>
     <string name="charging_limit">Laddningsgräns</string>
     <string name="auto_data_save">Datasparare</string>
     <string name="auto_data_save_desc">Aktivera databesparing automatiskt när skärmen är avstängd.</string>

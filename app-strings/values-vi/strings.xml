@@ -248,8 +248,6 @@
     <string name="sound_notifications">Thông báo bằng âm thanh</string>
     <string name="migration_error">Đã xảy ra lỗi không mong muốn trong khi di chuyển dữ liệu. Dữ liệu sẽ bị xóa.</string>
     <string name="onboarding_select_mode_title">Chọn chế độ</string>
-    <string name="onboarding_mode_shizuku">Shizuku</string>
-    <string name="onboarding_mode_root">Root</string>
     <string name="charging_limit">Giới hạn sạc</string>
     <string name="auto_data_save">Tiết kiệm dữ liệu</string>
     <string name="auto_data_save_desc">Tự động bật tiết kiệm dữ liệu khi màn hình tắt.</string>

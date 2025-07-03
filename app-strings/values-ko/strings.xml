@@ -248,8 +248,6 @@
     <string name="sound_notifications">사운드 알림</string>
     <string name="migration_error">데이터 마이그레이션 중 예상치 못한 오류가 발생했습니다. 데이터가 지워집니다.</string>
     <string name="onboarding_select_mode_title">모드 선택</string>
-    <string name="onboarding_mode_shizuku">시즈쿠</string>
-    <string name="onboarding_mode_root">루팅</string>
     <string name="charging_limit">충전 제한</string>
     <string name="auto_data_save">데이터 세이버</string>
     <string name="auto_data_save_desc">화면이 꺼지면 데이터 세이버가 자동으로 활성화됩니다.</string>
