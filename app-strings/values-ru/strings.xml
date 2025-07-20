@@ -256,7 +256,7 @@
     <string name="autodatasave_mode">Авто экономия данных</string>
     <string name="memory_boost_support">Ускорение памяти</string>
     <string name="root_mode_descr">Все функции. Нужен root-доступ.</string>
-    <string name="shizuku_mode_descr">Меньше функций, не нужен root, Android 11+. Требуется приложение Shizuku.</string>
+    <string name="shizuku_mode_descr">Меньше функций, не нужен root, Android 7+. Требуется приложение Shizuku.</string>
     <string name="lets_go">Запустить</string>
     <string name="shizuku_setup_success">Shizuku настроен, всё готово к работе</string>
     <string name="shizuku_setup_instructions_title">Инструкция по настройке</string>
@@ -270,7 +270,7 @@
     <string name="shizuku_setup_step_2">Включите сервис Shizuku в приложении</string>
     <string name="shizuku_setup_step_3">Предоставьте разрешения при запросе</string>
     <string name="shizuku_setup_step_4">Вернитесь в FDE.AI для продолжения настройки</string>
-    <string name="shizuku_broken_connection">Ошибка! Соединение с Shizuku разорвано, пожалуйста, перезапустите сервис Shizuku.</string>
+    <string name="shizuku_broken_connection">Ошибка! Соединение с ADB разорвано, пожалуйста, перезапустите сервис Shizuku.</string>
     <string name="just_check">Проверить</string>
     <string name="dontkillmyapp_text">Вы используете режим Shizuku. Чтобы приложение работало корректно, отключите автокилл для Shizuku и FDE.AI. Показать как это сделать?</string>
     <string name="burnit_btn">Отключить трогглинг</string>
@@ -283,4 +283,6 @@
     5. Перезагрузите ваше устройство.\n
     6. Установите FDE.AI и Премиум пакет.\n\n
     Если проблема осталась, свяжитесь с разработчиком в Telegram.</string>
+    <string name="wifi_psave_header">Откл. спящий режим WiFi</string>
+    <string name="wifi_psave_descr">Чтобы уменьшить шанс разрыва соединения с Shizuku вы можете попробовать отключить спящий режим WiFi, но это может увеличить энергопотребление.</string>
 </resources>

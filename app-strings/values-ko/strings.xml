@@ -255,7 +255,7 @@
     <string name="autodatasave_mode">자동 데이터 절약</string>
     <string name="memory_boost_support">메모리 부스트</string>
     <string name="root_mode_descr">모든 기능. 루트 권한이 필요합니다.</string>
-    <string name="shizuku_mode_descr">기능이 적고 루트가 필요하지 않으며 Android 11 이상입니다. Shizuku 앱이 필요합니다.</string>
+    <string name="shizuku_mode_descr">기능이 적고 루트가 필요하지 않으며 Android 7 이상입니다. Shizuku 앱이 필요합니다.</string>
     <string name="lets_go">실행</string>
     <string name="shizuku_setup_success">Shizuku가 설정되었으며 사용할 준비가 되었습니다.</string>
     <string name="shizuku_setup_instructions_title">설정 지침</string>
@@ -269,7 +269,7 @@
     <string name="shizuku_setup_step_2">앱에서 Shizuku 서비스 활성화</string>
     <string name="shizuku_setup_step_3">메시지가 표시되면 권한 부여</string>
     <string name="shizuku_setup_step_4">FDE.AI로 돌아가서 설정을 계속하세요</string>
-    <string name="shizuku_broken_connection">오류! Shizuku 연결이 끊어졌습니다. Shizuku 서비스를 다시 시작하세요.</string>
+    <string name="shizuku_broken_connection">오류! ADB 연결이 끊어졌습니다. Shizuku 서비스를 다시 시작하세요.</string>
     <string name="just_check">확인</string>
     <string name="dontkillmyapp_text">Shizuku 모드를 사용 중입니다. 앱이 계속 작동하도록 Shizuku 및 FDE.AI의 자동 종료 기능을 비활성화하세요. 방법을 확인해 보시겠습니까?</string>
     <string name="burnit_btn">속도 조절 비활성화</string>
@@ -282,4 +282,6 @@
 5. 기기를 재부팅하세요.\n
 6. FDE.AI와 프리미엄 패키지를 설치하세요.\n\n
 문제가 지속되면 Telegram에서 개발자에게 문의하세요.</string>
+    <string name="wifi_psave_header">WiFi 절전 모드 비활성화</string>
+    <string name="wifi_psave_descr">시즈쿠와의 연결 끊김 가능성을 줄이려면 WiFi 절전 모드를 비활성화해 보세요. 하지만 유휴 전력 소비가 증가할 수 있습니다.</string>
 </resources>

@@ -255,7 +255,7 @@
     <string name="autodatasave_mode">Αυτόματη αποθήκευση δεδομένων</string>
     <string name="memory_boost_support">Ενίσχυση μνήμης</string>
     <string name="root_mode_descr">Όλες οι δυνατότητες. Απαιτεί πρόσβαση root.</string>
-    <string name="shizuku_mode_descr">Λιγότερες δυνατότητες, δεν απαιτείται root, Android 11+. Απαιτεί την εφαρμογή Shizuku.</string>
+    <string name="shizuku_mode_descr">Λιγότερες δυνατότητες, δεν απαιτείται root, Android 7+. Απαιτεί την εφαρμογή Shizuku.</string>
     <string name="lets_go">Εκτέλεση</string>
     <string name="shizuku_setup_success">Το Shizuku έχει ρυθμιστεί και είστε έτοιμοι να ξεκινήσετε</string>
     <string name="shizuku_setup_instructions_title">Οδηγίες ρύθμισης</string>
@@ -269,7 +269,7 @@
     <string name="shizuku_setup_step_2">Ενεργοποίηση υπηρεσίας Shizuku στην εφαρμογή</string>
     <string name="shizuku_setup_step_3">Εκχωρήστε δικαιώματα όταν σας ζητηθεί</string>
     <string name="shizuku_setup_step_4">Επιστρέψτε στο FDE.AI για να συνεχίσετε τη ρύθμιση</string>
-    <string name="shizuku_broken_connection">Σφάλμα! Η σύνδεση Shizuku έχει διακοπεί, ξεκινήστε ξανά την υπηρεσία Shizuku.</string>
+    <string name="shizuku_broken_connection">Σφάλμα! Η σύνδεση ADB έχει διακοπεί, ξεκινήστε ξανά την υπηρεσία Shizuku.</string>
     <string name="just_check">Έλεγχος</string>
     <string name="dontkillmyapp_text">Χρησιμοποιείτε τη λειτουργία Shizuku. Για να συνεχίσει να λειτουργεί καλά η εφαρμογή, απενεργοποιήστε την αυτόματη θανάτωση για το Shizuku και το FDE.AI. Θέλετε να δείτε πώς;</string>
     <string name="burnit_btn">Απενεργοποίηση στραγγαλισμού</string>
@@ -282,4 +282,6 @@
 5. Επανεκκινήστε τη συσκευή σας.\n
 6. Εγκαταστήστε το πακέτο FDE.AI και Premium.\n\n
 Εάν το πρόβλημα παραμένει, επικοινωνήστε με τον προγραμματιστή στο Telegram.</string>
+    <string name="wifi_psave_header">Απενεργοποίηση λειτουργίας αναστολής λειτουργίας WiFi</string>
+    <string name="wifi_psave_descr">Για να μειώσετε την πιθανότητα αποσύνδεσης από το Shizuku, μπορείτε να δοκιμάσετε να απενεργοποιήσετε τη λειτουργία αναστολής λειτουργίας WiFi, αλλά αυτό μπορεί να αυξήσει την κατανάλωση ενέργειας σε κατάσταση αδράνειας.</string>
 </resources>

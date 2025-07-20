@@ -255,7 +255,7 @@
     <string name="autodatasave_mode">Automatische databesparing</string>
     <string name="memory_boost_support">Geheugenboost</string>
     <string name="root_mode_descr">Alle functies. Vereist root-toegang.</string>
-    <string name="shizuku_mode_descr">Minder functies, geen root nodig, Android 11+. Vereist de Shizuku-app.</string>
+    <string name="shizuku_mode_descr">Minder functies, geen root nodig, Android 7+. Vereist de Shizuku-app.</string>
     <string name="lets_go">Uitvoeren</string>
     <string name="shizuku_setup_success">Shizuku is ingesteld en je kunt aan de slag</string>
     <string name="shizuku_setup_instructions_title">Installatie-instructies</string>
@@ -269,7 +269,7 @@
     <string name="shizuku_setup_step_2">Schakel de Shizuku-service in de app in</string>
     <string name="shizuku_setup_step_3">Verleen rechten wanneer daarom wordt gevraagd</string>
     <string name="shizuku_setup_step_4">Ga terug naar FDE.AI om de installatie voort te zetten</string>
-    <string name="shizuku_broken_connection">Fout! De Shizuku-verbinding is verbroken. Start de Shizuku-service opnieuw op.</string>
+    <string name="shizuku_broken_connection">Fout! De ADB-verbinding is verbroken. Start de Shizuku-service opnieuw op.</string>
     <string name="just_check">Controleren</string>
     <string name="dontkillmyapp_text">U gebruikt de Shizuku-modus. Om de app goed te laten werken, schakelt u de automatische uitschakeling voor Shizuku en FDE.AI uit. Wilt u zien hoe?</string>
     <string name="burnit_btn">Schakel throttling uit</string>
@@ -282,4 +282,6 @@
 5. Start je apparaat opnieuw op.\n
 6. Installeer FDE.AI en het premiumpakket.\n\n
 Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.</string>
+    <string name="wifi_psave_header">WiFi-slaapstand uitschakelen</string>
+    <string name="wifi_psave_descr">Om de kans te verkleinen dat de verbinding met Shizuku wordt verbroken, kunt u proberen de wifi-slaapstand uit te schakelen. Dit kan echter het stroomverbruik in rust verhogen.</string>
 </resources>

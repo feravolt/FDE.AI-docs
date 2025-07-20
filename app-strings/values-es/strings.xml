@@ -255,7 +255,7 @@
     <string name="autodatasave_mode">Ahorro de datos automático</string>
     <string name="memory_boost_support">Aumento de memoria</string>
     <string name="root_mode_descr">Todas las funciones. Requiere acceso root.</string>
-    <string name="shizuku_mode_descr">Menos funciones, no requiere root, Android 11 o superior. Requiere la aplicación Shizuku.</string>
+    <string name="shizuku_mode_descr">Menos funciones, no requiere root, Android 7 o superior. Requiere la aplicación Shizuku.</string>
     <string name="lets_go">Ejecutar</string>
     <string name="shizuku_setup_success">Shizuku está configurado y listo para usar</string>
     <string name="shizuku_setup_instructions_title">Instrucciones de configuración</string>
@@ -269,7 +269,7 @@
     <string name="shizuku_setup_step_2">Habilitar el servicio Shizuku en la app</string>
     <string name="shizuku_setup_step_3">Otorgar permisos cuando se solicite</string>
     <string name="shizuku_setup_step_4">Regresar a FDE.AI para continuar con la configuración</string>
-    <string name="shizuku_broken_connection">¡Error! La conexión con Shizuku está interrumpida. Reinicie el servicio Shizuku.</string>
+    <string name="shizuku_broken_connection">¡Error! La conexión con ADB está interrumpida. Reinicie el servicio Shizuku.</string>
     <string name="just_check">Comprobar</string>
     <string name="dontkillmyapp_text">Está usando el modo Shizuku. Para que la app siga funcionando correctamente, desactive la función de cierre automático para Shizuku y FDE.AI. ¿Quiere ver cómo?</string>
     <string name="burnit_btn">Desactivar la limitación</string>
@@ -282,4 +282,6 @@
 5. Reinicia tu dispositivo.\n
 6. Instala FDE.AI y el paquete premium.\n\n
 Si el problema persiste, contacta con el desarrollador en Telegram.</string>
+    <string name="wifi_psave_header">Desactivar el modo de suspensión de WiFi</string>
+    <string name="wifi_psave_descr">Para reducir la posibilidad de desconectarse de Shizuku, puedes intentar desactivar el modo de suspensión de WiFi, pero esto podría aumentar el consumo de energía en inactividad.</string>
 </resources>

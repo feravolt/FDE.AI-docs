@@ -255,7 +255,7 @@
     <string name="autodatasave_mode">Automatischer Datensparmodus</string>
     <string name="memory_boost_support">Speicher-Boost</string>
     <string name="root_mode_descr">Alle Funktionen. Root-Zugriff erforderlich.</string>
-    <string name="shizuku_mode_descr">Weniger Funktionen, kein Root erforderlich, Android 11+. Erfordert die Shizuku-App.</string>
+    <string name="shizuku_mode_descr">Weniger Funktionen, kein Root erforderlich, Android 7+. Erfordert die Shizuku-App.</string>
     <string name="lets_go">Ausführen</string>
     <string name="shizuku_setup_success">Shizuku ist eingerichtet und Sie können loslegen.</string>
     <string name="shizuku_setup_instructions_title">Einrichtungsanleitung</string>
@@ -269,7 +269,7 @@
     <string name="shizuku_setup_step_2">Shizuku-Dienst in der App aktivieren</string>
     <string name="shizuku_setup_step_3">Berechtigungen erteilen, wenn Sie dazu aufgefordert werden</string>
     <string name="shizuku_setup_step_4">Zu FDE.AI zurückkehren, um die Einrichtung fortzusetzen</string>
-    <string name="shizuku_broken_connection">Fehler! Die Shizuku-Verbindung ist unterbrochen. Bitte starten Sie den Shizuku-Dienst neu.</string>
+    <string name="shizuku_broken_connection">Fehler! Die ADB-Verbindung ist unterbrochen. Bitte starten Sie den Shizuku-Dienst neu.</string>
     <string name="just_check">Überprüfen</string>
     <string name="dontkillmyapp_text">Sie verwenden den Shizuku-Modus. Damit die App weiterhin einwandfrei funktioniert, deaktivieren Sie bitte die automatische Beenden-Funktion für Shizuku und FDE.AI. Möchten Sie sehen, wie das geht?</string>
     <string name="burnit_btn">Drosselung deaktivieren</string>
@@ -282,4 +282,6 @@
 5. Starten Sie Ihr Gerät neu.\n
 6. Installieren Sie FDE.AI und das Premium-Paket.\n\n
 Wenn das Problem weiterhin besteht, wenden Sie sich per Telegram an den Entwickler.</string>
+    <string name="wifi_psave_header">WLAN-Ruhemodus deaktivieren</string>
+    <string name="wifi_psave_descr">Um die Wahrscheinlichkeit einer Verbindungsunterbrechung mit Shizuku zu verringern, können Sie versuchen, den WLAN-Ruhemodus zu deaktivieren. Dies kann jedoch den Stromverbrauch im Leerlauf erhöhen.</string>
 </resources>

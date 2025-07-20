@@ -255,7 +255,7 @@
     <string name="autodatasave_mode">Дайындарды авто сактоо</string>
     <string name="memory_boost_support">Эс тутумду көбөйтүү</string>
     <string name="root_mode_descr">Бардык мүмкүнчүлүктөр. Тамырга кирүү мүмкүнчүлүгүн талап кылат.</string>
-    <string name="shizuku_mode_descr">Азыраак функциялар, тамырдын кереги жок, Android 11+. Shizuku колдонмосун талап кылат.</string>
+    <string name="shizuku_mode_descr">Азыраак функциялар, тамырдын кереги жок, Android 7+. Shizuku колдонмосун талап кылат.</string>
     <string name="lets_go">Чуркоо</string>
     <string name="shizuku_setup_success">Shizuku жөндөлдү жана сиз кетүүгө даярсыз</string>
     <string name="shizuku_setup_instructions_title">Орнотуу нускамалары</string>
@@ -269,7 +269,7 @@
     <string name="shizuku_setup_step_2">Колдонмодо Shizuku кызматын иштетүү</string>
     <string name="shizuku_setup_step_3">Суралганда уруксаттарды берүү</string>
     <string name="shizuku_setup_step_4">Орнотууну улантуу үчүн FDE.AIге кайтыңыз</string>
-    <string name="shizuku_broken_connection">Ката! Shizuku байланышы үзүлгөн, Shizuku кызматын кайра иштетиңиз.</string>
+    <string name="shizuku_broken_connection">Ката! ADB байланышы үзүлгөн, Shizuku кызматын кайра иштетиңиз.</string>
     <string name="just_check">Текшерүү</string>
     <string name="dontkillmyapp_text">Сиз Shizuku режимин колдонуп жатасыз. Колдонмонун жакшы иштеши үчүн Shizuku жана FDE.AI үчүн автоматтык түрдө өлтүрүүнү өчүрүңүз. Кантип көргүңүз келеби?</string>
     <string name="burnit_btn">Басууну өчүрүү</string>
@@ -282,4 +282,6 @@
 5. Түзмөгүңүздү өчүрүп-күйгүзүңүз.\n
 6. FDE.AI жана Premium топтомун орнотуңуз.\n\n
 Эгер көйгөй чечилбесе, Telegramдагы иштеп чыгуучуга кайрылыңыз.</string>
+    <string name="wifi_psave_header">WiFi уйку режимин өчүрүү</string>
+    <string name="wifi_psave_descr">Шидзуку менен байланышты үзүү мүмкүнчүлүгүн азайтуу үчүн WiFi уйку режимин өчүрүүгө аракет кылсаңыз болот, бирок бул иштебей турган энергияны керектөөнү көбөйтүшү мүмкүн.</string>
 </resources>

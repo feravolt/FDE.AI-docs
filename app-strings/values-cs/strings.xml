@@ -255,7 +255,7 @@
     <string name="autodatasave_mode">Automatické ukládání dat</string>
     <string name="memory_boost_support">Zvýšení paměti</string>
     <string name="root_mode_descr">Všechny funkce. Vyžaduje přístup root.</string>
-    <string name="shizuku_mode_descr">Méně funkcí, není potřeba root, Android 11+. Vyžaduje aplikaci Shizuku.</string>
+    <string name="shizuku_mode_descr">Méně funkcí, není potřeba root, Android 7+. Vyžaduje aplikaci Shizuku.</string>
     <string name="lets_go">Spustit</string>
     <string name="shizuku_setup_success">Shizuku je nastaveno a můžete vyrazit</string>
     <string name="shizuku_setup_instructions_title">Pokyny k nastavení</string>
@@ -269,7 +269,7 @@
     <string name="shizuku_setup_step_2">Povolení služby Shizuku v aplikaci</string>
     <string name="shizuku_setup_step_3">Po zobrazení výzvy udělte oprávnění</string>
     <string name="shizuku_setup_step_4">Vraťte se na FDE.AI a pokračujte v nastavení</string>
-    <string name="shizuku_broken_connection">Chyba! Spojení Shizuku je přerušeno, restartujte prosím službu Shizuku.</string>
+    <string name="shizuku_broken_connection">Chyba! Spojení ADB je přerušeno, restartujte prosím službu Shizuku.</string>
     <string name="just_check">Zkontrolovat</string>
     <string name="dontkillmyapp_text">Používáte režim Shizuku. Aby aplikace dobře fungovala, vypněte automatické zabíjení pro Shizuku a FDE.AI. Chcete vidět jak?</string>
     <string name="burnit_btn">Zakázat omezení</string>
@@ -282,4 +282,6 @@
 5. Restartujte zařízení.\n
 6. Nainstalujte FDE.AI a balíček Premium.\n\n
 Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
+    <string name="wifi_psave_header">Vypnout režim spánku WiFi</string>
+    <string name="wifi_psave_descr">Abyste snížili pravděpodobnost odpojení od Shizuku, můžete zkusit vypnout režim spánku WiFi, ale to může zvýšit spotřebu energie v nečinnosti.</string>
 </resources>

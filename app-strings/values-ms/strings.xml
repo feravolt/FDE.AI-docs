@@ -254,7 +254,7 @@
     <string name="autodatasave_mode">Autodata save</string>
     <string name="memory_boost_support">Tingkatkan ingatan</string>
     <string name="root_mode_descr">Semua ciri. Memerlukan akses root.</string>
-    <string name="shizuku_mode_descr">Kurang ciri, tiada akar diperlukan, Android 11+. Memerlukan apl Shizuku.</string>
+    <string name="shizuku_mode_descr">Kurang ciri, tiada akar diperlukan, Android 7+. Memerlukan apl Shizuku.</string>
     <string name="lets_go">Jalankan</string>
     <string name="shizuku_setup_success">Shizuku telah disediakan dan anda sudah bersedia untuk pergi</string>
     <string name="shizuku_setup_instructions_title">Arahan Persediaan</string>
@@ -268,7 +268,7 @@
     <string name="shizuku_setup_step_2">Dayakan perkhidmatan Shizuku dalam apl</string>
     <string name="shizuku_setup_step_3">Berikan kebenaran apabila digesa</string>
     <string name="shizuku_setup_step_4">Kembali ke FDE.AI untuk meneruskan persediaan</string>
-    <string name="shizuku_broken_connection">Ralat! Sambungan Shizuku terputus, sila mulakan semula perkhidmatan Shizuku.</string>
+    <string name="shizuku_broken_connection">Ralat! Sambungan ADB terputus, sila mulakan semula perkhidmatan Shizuku.</string>
     <string name="just_check">Semak</string>
     <string name="dontkillmyapp_text">Anda menggunakan mod Shizuku. Untuk memastikan apl berfungsi dengan baik, sila lumpuhkan auto-bunuh untuk Shizuku dan FDE.AI. Adakah anda mahu melihat bagaimana?</string>
     <string name="burnit_btn">Lumpuhkan pendikit</string>
@@ -281,4 +281,6 @@
 5. But semula peranti anda.\n
 6. Pasang pakej FDE.AI dan Premium.\n\n
 Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
+    <string name="wifi_psave_header">Lumpuhkan mod tidur WiFi</string>
+    <string name="wifi_psave_descr">Untuk mengurangkan kemungkinan memutuskan sambungan dengan Shizuku, anda boleh cuba melumpuhkan mod tidur WiFi, tetapi ini mungkin meningkatkan penggunaan kuasa melahu.</string>
 </resources>

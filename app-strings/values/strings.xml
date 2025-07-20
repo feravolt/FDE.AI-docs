@@ -285,7 +285,7 @@
     <string name="autodatasave_mode">Auto data save</string>
     <string name="memory_boost_support">Memory boost</string>
     <string name="root_mode_descr">All features. Requires root access.</string>
-    <string name="shizuku_mode_descr">Fewer features, no root needed, Android 11+. Requires Shizuku app.</string>
+    <string name="shizuku_mode_descr">Fewer features, no root needed, Android 7+. Requires Shizuku app.</string>
     <string name="lets_go">Run</string>
     <string name="shizuku_setup_success">Shizuku is set up and you\'re ready to go</string>
     <string name="shizuku_setup_instructions_title">Setup Instructions</string>
@@ -299,7 +299,7 @@
     <string name="shizuku_setup_step_2">Enable Shizuku service in the app</string>
     <string name="shizuku_setup_step_3">Grant permissions when prompted</string>
     <string name="shizuku_setup_step_4">Return to FDE.AI to continue setup</string>
-    <string name="shizuku_broken_connection">Error! Shizuku connection is broken, please re-start Shizuku service.</string>
+    <string name="shizuku_broken_connection">Error! ADB connection is broken, please re-start Shizuku service.</string>
     <string name="just_check">Check</string>
     <string name="dontkillmyapp_text">You are using Shizuku mode. To keep the app working well, please disable auto-kill for Shizuku and FDE.AI. Do you want to see how?</string>
     <string name="burnit_btn">Disable throttling</string>
@@ -312,4 +312,6 @@
     5. Reboot your device.\n
     6. Install FDE.AI and Premium package.\n\n
     If problem persists, contact developer in Telegram.</string>
+    <string name="wifi_psave_header">Disable WiFi sleep mode</string>
+    <string name="wifi_psave_descr">In order to reduce chance of disconnecting with Shizuku you may try to disable WiFi sleep mode, but this may increase idle power consumption.</string>
 </resources>

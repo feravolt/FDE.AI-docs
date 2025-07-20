@@ -241,9 +241,9 @@
     <string name="search_no_reset">Пошук</string>
     <string name="share">Поділитися FDE.AI</string>
     <string name="share_txt">Спробуйте FDE.AI - чудовий оптимізатор для Android!</string>
-    <string name="shizuku_broken_connection">Помилка! З’єднання з Shizuku перервано, перезапустіть службу Shizuku.</string>
+    <string name="shizuku_broken_connection">Помилка! З’єднання з ADB перервано, перезапустіть службу Shizuku.</string>
     <string name="shizuku_install_from_play_store">Установити з Play Store</string>
-    <string name="shizuku_mode_descr">Менше функцій, не потрібен root, Android 11+. Потрібен додаток Shizuku.</string>
+    <string name="shizuku_mode_descr">Менше функцій, не потрібен root, Android 7+. Потрібен додаток Shizuku.</string>
     <string name="shizuku_open_app">Відкрити програму Shizuku</string>
     <string name="shizuku_setup_instructions_title">Інструкції з налаштування</string>
     <string name="shizuku_setup_step_1">Установити Shizuku</string>
@@ -285,4 +285,6 @@
     <string name="warning_title">Увага!</string>
     <string name="warning_yes">Так</string>
     <string name="welcome">Вітаємо</string>
+    <string name="wifi_psave_header">Вимкнути режим сну Wi-Fi</string>
+    <string name="wifi_psave_descr">Щоб зменшити ймовірність відключення від Shizuku, ви можете спробувати вимкнути режим сну Wi-Fi, але це може збільшити споживання енергії в режимі очікування.</string>
 </resources>

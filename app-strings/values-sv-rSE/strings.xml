@@ -255,7 +255,7 @@
     <string name="autodatasave_mode">Automatisk datasparning</string>
     <string name="memory_boost_support">Minnesförstärkning</string>
     <string name="root_mode_descr">Alla funktioner. Kräver root-åtkomst.</string>
-    <string name="shizuku_mode_descr">Färre funktioner, ingen root behövs, Android 11+. Kräver Shizuku-appen.</string>
+    <string name="shizuku_mode_descr">Färre funktioner, ingen root behövs, Android 7+. Kräver Shizuku-appen.</string>
     <string name="lets_go">Kör</string>
     <string name="shizuku_setup_success">Shizuku är konfigurerat och du är redo att börja</string>
     <string name="shizuku_setup_instructions_title">Installationsinstruktioner</string>
@@ -269,7 +269,7 @@
     <string name="shizuku_setup_step_2">Aktivera Shizuku-tjänsten i appen</string>
     <string name="shizuku_setup_step_3">Ge behörigheter när du uppmanas att göra det</string>
     <string name="shizuku_setup_step_4">Återgå till FDE.AI för att fortsätta konfigurationen</string>
-    <string name="shizuku_broken_connection">Fel! Shizuku-anslutningen är bruten, vänligen starta om Shizuku-tjänsten.</string>
+    <string name="shizuku_broken_connection">Fel! ADB-anslutningen är bruten, vänligen starta om Shizuku-tjänsten.</string>
     <string name="just_check">Kontrollera</string>
     <string name="dontkillmyapp_text">Du använder Shizuku-läget. För att appen ska fungera bra, vänligen inaktivera auto-kill för Shizuku och FDE.AI. Vill du se hur?</string>
     <string name="burnit_btn">Inaktivera strypning</string>
@@ -282,4 +282,6 @@
 5. Starta om enheten.\n
 6. Installera FDE.AI och Premium-paketet.\n\n
 Om problemet kvarstår, kontakta utvecklaren i Telegram.</string>
+    <string name="wifi_psave_header">Inaktivera WiFi-viloläge</string>
+    <string name="wifi_psave_descr">För att minska risken för att du kopplas bort från Shizuku kan du försöka inaktivera WiFi-viloläge, men det kan öka strömförbrukningen vid viloläge.</string>
 </resources>

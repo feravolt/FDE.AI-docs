@@ -255,7 +255,7 @@
     <string name="autodatasave_mode">Tự động lưu dữ liệu</string>
     <string name="memory_boost_support">Tăng cường bộ nhớ</string>
     <string name="root_mode_descr">Tất cả các tính năng. Yêu cầu quyền truy cập root.</string>
-    <string name="shizuku_mode_descr">Ít tính năng hơn, không cần root, Android 11 trở lên. Yêu cầu ứng dụng Shizuku.</string>
+    <string name="shizuku_mode_descr">Ít tính năng hơn, không cần root, Android 7 trở lên. Yêu cầu ứng dụng Shizuku.</string>
     <string name="lets_go">Chạy</string>
     <string name="shizuku_setup_success">Shizuku đã được thiết lập và bạn đã sẵn sàng</string>
     <string name="shizuku_setup_instructions_title">Hướng dẫn thiết lập</string>
@@ -269,7 +269,7 @@
     <string name="shizuku_setup_step_2">Kích hoạt dịch vụ Shizuku trong ứng dụng</string>
     <string name="shizuku_setup_step_3">Cấp quyền khi được nhắc</string>
     <string name="shizuku_setup_step_4">Quay lại FDE.AI để tiếp tục thiết lập</string>
-    <string name="shizuku_broken_connection">Lỗi! Kết nối Shizuku bị hỏng, vui lòng khởi động lại dịch vụ Shizuku.</string>
+    <string name="shizuku_broken_connection">Lỗi! Kết nối ADB bị hỏng, vui lòng khởi động lại dịch vụ Shizuku.</string>
     <string name="just_check">Kiểm tra</string>
     <string name="dontkillmyapp_text">Bạn đang sử dụng chế độ Shizuku. Để ứng dụng hoạt động tốt, vui lòng tắt tính năng tự động tắt cho Shizuku và FDE.AI. Bạn có muốn xem cách thực hiện không?</string>
     <string name="burnit_btn">Tắt tính năng điều chỉnh</string>
@@ -282,4 +282,6 @@
 5. Khởi động lại thiết bị của bạn.\n
 6. Cài đặt FDE.AI và gói cao cấp.\n\n
 Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển trong Telegram.</string>
+    <string name="wifi_psave_header">Tắt chế độ ngủ WiFi</string>
+    <string name="wifi_psave_descr">Để giảm nguy cơ mất kết nối với Shizuku, bạn có thể thử tắt chế độ ngủ WiFi, nhưng điều này có thể làm tăng mức tiêu thụ điện năng khi không sử dụng.</string>
 </resources>

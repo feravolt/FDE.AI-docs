@@ -255,7 +255,7 @@
     <string name="autodatasave_mode">Risparmio dati automatico</string>
     <string name="memory_boost_support">Aumento della memoria</string>
     <string name="root_mode_descr">Tutte le funzionalità. Richiede accesso root.</string>
-    <string name="shizuku_mode_descr">Meno funzionalità, nessun root necessario, Android 11+. Richiede l\'app Shizuku.</string>
+    <string name="shizuku_mode_descr">Meno funzionalità, nessun root necessario, Android 7+. Richiede l\'app Shizuku.</string>
     <string name="lets_go">Esegui</string>
     <string name="shizuku_setup_success">Shizuku è configurato e pronto all\'uso</string>
     <string name="shizuku_setup_instructions_title">Istruzioni di installazione</string>
@@ -269,7 +269,7 @@
     <string name="shizuku_setup_step_2">Abilita il servizio Shizuku nell\'app</string>
     <string name="shizuku_setup_step_3">Concedi le autorizzazioni quando richiesto</string>
     <string name="shizuku_setup_step_4">Torna a FDE.AI per continuare la configurazione</string>
-    <string name="shizuku_broken_connection">Errore! La connessione a Shizuku è interrotta, riavvia il servizio Shizuku.</string>
+    <string name="shizuku_broken_connection">Errore! La connessione a ADB è interrotta, riavvia il servizio Shizuku.</string>
     <string name="just_check">Verifica</string>
     <string name="dontkillmyapp_text">Stai utilizzando la modalità Shizuku. Per garantire il corretto funzionamento dell\'app, disabilita l\'arresto automatico per Shizuku e FDE.AI. Vuoi vedere come?</string>
     <string name="burnit_btn">Disattiva la limitazione</string>
@@ -282,4 +282,6 @@
 5. Riavvia il dispositivo.\n
 6. Installa FDE.AI e il pacchetto premium.\n\n
 Se il problema persiste, contatta lo sviluppatore su Telegram.</string>
+    <string name="wifi_psave_header">Disattiva di sospensione del Wi-Fi</string>
+    <string name="wifi_psave_descr">Per ridurre il rischio di disconnessione da Shizuku, puoi provare a disattivare la modalità di sospensione del Wi-Fi, ma questo potrebbe aumentare il consumo energetico in caso di inattività.</string>
 </resources>

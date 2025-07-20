@@ -255,7 +255,7 @@
     <string name="autodatasave_mode">Economia de dados automática</string>
     <string name="memory_boost_support">Aumento de memória</string>
     <string name="root_mode_descr">Todos os recursos. Requer acesso root.</string>
-    <string name="shizuku_mode_descr">Menos recursos, sem necessidade de root, Android 11+. Requer a aplicação Shizuku.</string>
+    <string name="shizuku_mode_descr">Menos recursos, sem necessidade de root, Android 7+. Requer a aplicação Shizuku.</string>
     <string name="lets_go">Executar</string>
     <string name="shizuku_setup_success">O Shizuku está configurado e está pronto para começar</string>
     <string name="shizuku_setup_instructions_title">Instruções de Configuração</string>
@@ -269,7 +269,7 @@
     <string name="shizuku_setup_step_2">Ativar o serviço Shizuku na aplicação</string>
     <string name="shizuku_setup_step_3">Conceder permissões quando solicitado</string>
     <string name="shizuku_setup_step_4">Regressar ao FDE.AI para continuar a configuração</string>
-    <string name="shizuku_broken_connection">Erro! A ligação com o Shizuku foi interrompida. Reinicie o serviço Shizuku.</string>
+    <string name="shizuku_broken_connection">Erro! A ligação com o ADB foi interrompida. Reinicie o serviço Shizuku.</string>
     <string name="just_check">Verificar</string>
     <string name="dontkillmyapp_text">Está a utilizar o modo Shizuku. Para manter a aplicação a funcionar corretamente, desative o desligamento automático do Shizuku e do FDE.AI. Quer ver como?</string>
     <string name="burnit_btn">Desativar limitação</string>
@@ -282,4 +282,6 @@
 5. Reinicie o seu dispositivo.\n
 6. Instale o FDE.AI e o pacote Premium.\n\n
 Se o problema persistir, contacte o programador no Telegram.</string>
+    <string name="wifi_psave_header">Desativar o modo de espera WiFi</string>
+    <string name="wifi_psave_descr">Para reduzir a possibilidade de desconexão com o Shizuku, pode tentar desativar o modo de espera do WiFi, mas isso pode aumentar o consumo de energia em modo inativo.</string>
 </resources>

@@ -255,7 +255,7 @@
     <string name="autodatasave_mode">Economia de dados automática</string>
     <string name="memory_boost_support">Aumento de memória</string>
     <string name="root_mode_descr">Todos os recursos. Requer acesso root.</string>
-    <string name="shizuku_mode_descr">Menos recursos, sem necessidade de root, Android 11+. Requer o aplicativo Shizuku.</string>
+    <string name="shizuku_mode_descr">Menos recursos, sem necessidade de root, Android 7+. Requer o aplicativo Shizuku.</string>
     <string name="lets_go">Executar</string>
     <string name="shizuku_setup_success">O Shizuku está configurado e você está pronto para começar</string>
     <string name="shizuku_setup_instructions_title">Instruções de Configuração</string>
@@ -269,7 +269,7 @@
     <string name="shizuku_setup_step_2">Habilitar o serviço Shizuku no aplicativo</string>
     <string name="shizuku_setup_step_3">Conceder permissões quando solicitado</string>
     <string name="shizuku_setup_step_4">Retornar ao FDE.AI para continuar a configuração</string>
-    <string name="shizuku_broken_connection">Erro! A conexão com o Shizuku foi interrompida. Reinicie o serviço Shizuku.</string>
+    <string name="shizuku_broken_connection">Erro! A conexão com o ADB foi interrompida. Reinicie o serviço Shizuku.</string>
     <string name="just_check">Verificar</string>
     <string name="dontkillmyapp_text">Você está usando o modo Shizuku. Para manter o aplicativo funcionando corretamente, desative o desligamento automático do Shizuku e do FDE.AI. Quer ver como?</string>
     <string name="burnit_btn">Desativar limitação</string>
@@ -282,4 +282,6 @@
 5. Reinicie seu dispositivo.\n
 6. Instale o FDE.AI e o pacote Premium.\n\n
 Se o problema persistir, entre em contato com o desenvolvedor no Telegram.</string>
+    <string name="wifi_psave_header">Desativar o modo de espera do WiFi</string>
+    <string name="wifi_psave_descr">Para reduzir a chance de desconexão com o Shizuku, você pode tentar desativar o modo de espera do WiFi, mas isso pode aumentar o consumo de energia em modo inativo.</string>
 </resources>

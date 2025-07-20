@@ -255,7 +255,7 @@
     <string name="autodatasave_mode">Économie automatique des données</string>
     <string name="memory_boost_support">Augmentation de la mémoire</string>
     <string name="root_mode_descr">Toutes les fonctionnalités. Accès root requis.</string>
-    <string name="shizuku_mode_descr">Moins de fonctionnalités, pas de root requis, Android 11+. Nécessite l\'application Shizuku.</string>
+    <string name="shizuku_mode_descr">Moins de fonctionnalités, pas de root requis, Android 7+. Nécessite l\'application Shizuku.</string>
     <string name="lets_go">Exécuter</string>
     <string name="shizuku_setup_success">Shizuku est configuré et vous pouvez commencer.</string>
     <string name="shizuku_setup_instructions_title">Instructions d\'installation</string>
@@ -269,7 +269,7 @@
     <string name="shizuku_setup_step_2">Activer le service Shizuku dans l\'application</string>
     <string name="shizuku_setup_step_3">Accorder les autorisations lorsque vous y êtes invité</string>
     <string name="shizuku_setup_step_4">Retourner à FDE.AI pour continuer la configuration</string>
-    <string name="shizuku_broken_connection">Erreur! La connexion Shizuku est interrompue. Veuillez redémarrer le service Shizuku.</string>
+    <string name="shizuku_broken_connection">Erreur! La connexion ADB est interrompue. Veuillez redémarrer le service Shizuku.</string>
     <string name="just_check">Vérifier</string>
     <string name="dontkillmyapp_text">Vous utilisez le mode Shizuku. Pour que l\'application continue de fonctionner correctement, veuillez désactiver l\'arrêt automatique pour Shizuku et FDE.AI. Voulez-vous voir comment?</string>
     <string name="burnit_btn">Désactiver la limitation</string>
@@ -282,4 +282,6 @@
 5. Redémarrez votre appareil.\n
 6. Installez FDE.AI et l\'abonnement Premium.\n\n
 Si le problème persiste, contactez le développeur sur Telegram.</string>
+    <string name="wifi_psave_header">Désactiver le mode veille du Wi-Fi</string>
+    <string name="wifi_psave_descr">Afin de réduire les risques de déconnexion avec Shizuku, vous pouvez essayer de désactiver le mode veille du Wi-Fi, mais cela peut augmenter la consommation d\'énergie en veille.</string>
 </resources>

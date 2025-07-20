@@ -255,7 +255,7 @@
     <string name="autodatasave_mode">Salvare automată a datelor</string>
     <string name="memory_boost_support">Mărire memorie</string>
     <string name="root_mode_descr">Toate caracteristicile. Necesită acces root.</string>
-    <string name="shizuku_mode_descr">Mai puține funcții, nu este nevoie de root, Android 11+. Necesită aplicația Shizuku.</string>
+    <string name="shizuku_mode_descr">Mai puține funcții, nu este nevoie de root, Android 7+. Necesită aplicația Shizuku.</string>
     <string name="lets_go">Rulați</string>
     <string name="shizuku_setup_success">Shizuku este configurat și sunteți gata să plecați</string>
     <string name="shizuku_setup_instructions_title">Instrucțiuni de configurare</string>
@@ -269,7 +269,7 @@
     <string name="shizuku_setup_step_2">Activați serviciul Shizuku în aplicație</string>
     <string name="shizuku_setup_step_3">Acordați permisiuni când vi se solicită</string>
     <string name="shizuku_setup_step_4">Reveniți la FDE.AI pentru a continua configurarea</string>
-    <string name="shizuku_broken_connection">Eroare! Conexiunea Shizuku este întreruptă, vă rugăm să reporniți serviciul Shizuku.</string>
+    <string name="shizuku_broken_connection">Eroare! Conexiunea ADB este întreruptă, vă rugăm să reporniți serviciul Shizuku.</string>
     <string name="just_check">Verifică</string>
     <string name="dontkillmyapp_text">Utilizați modul Shizuku. Pentru ca aplicația să funcționeze bine, dezactivați auto-kill pentru Shizuku și FDE.AI. Vrei să vezi cum?</string>
     <string name="burnit_btn">Dezactivați limitarea</string>
@@ -282,4 +282,6 @@
 5. Reporniți dispozitivul.\n
 6. Instalați pachetul FDE.AI și Premium.\n\n
 Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
+    <string name="wifi_psave_header">Dezactivați modul de repaus WiFi</string>
+    <string name="wifi_psave_descr">Pentru a reduce șansele de deconectare de la Shizuku, puteți încerca să dezactivați modul de repaus WiFi, dar acest lucru poate crește consumul de energie în inactivitate.</string>
 </resources>

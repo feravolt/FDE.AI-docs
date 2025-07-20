@@ -255,7 +255,7 @@
     <string name="autodatasave_mode">自動流量節省</string>
     <string name="memory_boost_support">記憶體提升</string>
     <string name="root_mode_descr">所有功能。需要 root 權限。</string>
-    <string name="shizuku_mode_descr">功能較少，無需 root，Android 11 及以上系統。需要 Shizuku 應用。</string>
+    <string name="shizuku_mode_descr">功能較少，無需 root，Android 7 及以上系統。需要 Shizuku 應用。</string>
     <string name="lets_go">運行</string>
     <string name="shizuku_setup_success">Shizuku 已設定完畢，您可以開始使用了</string>
     <string name="shizuku_setup_instructions_title">設定說明</string>
@@ -269,7 +269,7 @@
     <string name="shizuku_setup_step_2">在應用程式中啟用 Shizuku 服務</string>
     <string name="shizuku_setup_step_3">出現提示時授予權限</string>
     <string name="shizuku_setup_step_4">回傳 FDE.AI 繼續設定</string>
-    <string name="shizuku_broken_connection">錯誤！ Shizuku 連線已斷開，請重新啟動 Shizuku 服務。</string>
+    <string name="shizuku_broken_connection">錯誤！ ADB 連線已斷開，請重新啟動 Shizuku 服務。</string>
     <string name="just_check">檢查</string>
     <string name="dontkillmyapp_text">您正在使用 Shizuku 模式。為了保持應用程式正常運行，請停用 Shizuku 和 FDE.AI 的自動終止功能。想看看怎麼做嗎？</string>
     <string name="burnit_btn">禁用限速</string>
@@ -281,5 +281,7 @@
 4. 清除 Google Play 應用程式資料。\n
 5. 重新啟動您的裝置。\n
 6. 安裝 FDE.AI 和高級套餐。\n\n
-如果問題仍然存在，請在 Telegram 中聯絡開發者。 </string>
+如果問題仍然存在，請在 Telegram 中聯絡開發者。</string>
+    <string name="wifi_psave_header">停用 WiFi 睡眠模式</string>
+    <string name="wifi_psave_descr">為了減少與 Shizuku 斷開連接的可能性，您可以嘗試停用 WiFi 睡眠模式，但這可能會增加空閒功耗。</string>
 </resources>

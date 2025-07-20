@@ -255,7 +255,7 @@
     <string name="autodatasave_mode">توفير البيانات التلقائي</string>
     <string name="memory_boost_support">تعزيز الذاكرة</string>
     <string name="root_mode_descr">جميع الميزات. يتطلب صلاحيات الروت.</string>
-    <string name="shizuku_mode_descr">ميزات أقل، لا حاجة إلى صلاحيات الروت، أندرويد 11+. يتطلب تطبيق Shizuku.</string>
+    <string name="shizuku_mode_descr">ميزات أقل، لا حاجة إلى صلاحيات الروت، أندرويد 7+. يتطلب تطبيق Shizuku.</string>
     <string name="lets_go">تشغيل</string>
     <string name="shizuku_setup_success">تم إعداد Shizuku وأنت جاهز للاستخدام</string>
     <string name="shizuku_setup_instructions_title">تعليمات الإعداد</string>
@@ -269,7 +269,7 @@
     <string name="shizuku_setup_step_2">فعّل خدمة Shizuku في التطبيق</string>
     <string name="shizuku_setup_step_3">امنح الأذونات عند الطلب</string>
     <string name="shizuku_setup_step_4">ارجع إلى FDE.AI لمتابعة الإعداد</string>
-    <string name="shizuku_broken_connection">خطأ! اتصال Shizuku مقطوع، يُرجى إعادة تشغيل خدمة Shizuku.</string>
+    <string name="shizuku_broken_connection">خطأ! اتصال ADB مقطوع، يُرجى إعادة تشغيل خدمة Shizuku.</string>
     <string name="just_check">تحقق</string>
     <string name="dontkillmyapp_text">أنت تستخدم وضع Shizuku. للحفاظ على عمل التطبيق بشكل جيد، يُرجى تعطيل الإيقاف التلقائي لـ Shizuku وFDE.AI. هل تريد معرفة كيفية القيام بذلك؟</string>
     <string name="burnit_btn">تعطيل الكبح</string>
@@ -282,4 +282,6 @@
 5. أعد تشغيل جهازك.\n
 6. ثبّت باقة FDE.AI المميزة.\n\n
 إذا استمرت المشكلة، تواصل مع المطور عبر تيليجرام.</string>
+    <string name="wifi_psave_header">تعطيل وضع السكون للواي فاي</string>
+    <string name="wifi_psave_descr">لتقليل احتمالية انقطاع الاتصال مع شيزوكو، يمكنك محاولة تعطيل وضع السكون للواي فاي، ولكن هذا قد يزيد من استهلاك الطاقة في وضع الخمول.</string>
 </resources>

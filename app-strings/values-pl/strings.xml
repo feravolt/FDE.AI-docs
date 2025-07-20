@@ -255,7 +255,7 @@
     <string name="autodatasave_mode">Automatyczne zapisywanie danych</string>
     <string name="memory_boost_support">Wzmocnienie pamięci</string>
     <string name="root_mode_descr">Wszystkie funkcje. Wymaga dostępu root.</string>
-    <string name="shizuku_mode_descr">Mniej funkcji, nie jest wymagany root, Android 11+. Wymagana jest aplikacja Shizuku.</string>
+    <string name="shizuku_mode_descr">Mniej funkcji, nie jest wymagany root, Android 7+. Wymagana jest aplikacja Shizuku.</string>
     <string name="lets_go">Uruchom</string>
     <string name="shizuku_setup_success">Shizuku jest skonfigurowane i możesz zacząć</string>
     <string name="shizuku_setup_instructions_title">Instrukcje konfiguracji</string>
@@ -269,7 +269,7 @@
     <string name="shizuku_setup_step_2">Włącz usługę Shizuku w aplikacji</string>
     <string name="shizuku_setup_step_3">Udziel uprawnień, gdy zostaniesz o to poproszony</string>
     <string name="shizuku_setup_step_4">Wróć do FDE.AI, aby kontynuować konfigurację</string>
-    <string name="shizuku_broken_connection">Błąd! Połączenie Shizuku jest zerwane, uruchom ponownie usługę Shizuku.</string>
+    <string name="shizuku_broken_connection">Błąd! Połączenie ADB jest zerwane, uruchom ponownie usługę Shizuku.</string>
     <string name="just_check">Sprawdź</string>
     <string name="dontkillmyapp_text">Używasz trybu Shizuku. Aby aplikacja działała prawidłowo, wyłącz automatyczne wyłączanie Shizuku i FDE.AI. Chcesz zobaczyć, jak to zrobić?</string>
     <string name="burnit_btn">Wyłącz ograniczanie</string>
@@ -282,4 +282,6 @@
 5. Uruchom ponownie urządzenie.\n
 6. Zainstaluj pakiet FDE.AI i pakiet Premium.\n\n
 Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegramie.</string>
+    <string name="wifi_psave_header">Wyłącz tryb uśpienia Wi-Fi</string>
+    <string name="wifi_psave_descr">Aby zmniejszyć ryzyko rozłączenia z Shizuku, możesz spróbować wyłączyć tryb uśpienia Wi-Fi, ale może to zwiększyć zużycie energii w stanie bezczynności.</string>
 </resources>
