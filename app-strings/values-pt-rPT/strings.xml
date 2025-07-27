@@ -260,7 +260,6 @@
     <string name="shizuku_setup_success">O Shizuku está configurado e está pronto para começar</string>
     <string name="shizuku_setup_instructions_title">Instruções de Configuração</string>
     <string name="shizuku_warning_systemless_title">Atenção</string>
-    <string name="shizuku_warning_systemless_description">O modo sem root pode executar ações que afetarão permanentemente o seu sistema.</string>
     <string name="shizuku_warning_miui_title">Permissões de Programador MIUI</string>
     <string name="shizuku_warning_miui_description">Os utilizadores MIUI precisam de ativar permissões adicionais de programador para que o Shizuku funcione corretamente.</string>
     <string name="shizuku_install_from_play_store">Instalar a partir da Play Store</string>
@@ -284,4 +283,7 @@
 Se o problema persistir, contacte o programador no Telegram.</string>
     <string name="wifi_psave_header">Desativar o modo de espera WiFi</string>
     <string name="wifi_psave_descr">Para reduzir a possibilidade de desconexão com o Shizuku, pode tentar desativar o modo de espera do WiFi, mas isso pode aumentar o consumo de energia em modo inativo.</string>
+    <string name="downscale_warning">Se algo correr mal e não conseguir aceder ao botão "Repor", não reinicie o dispositivo! Em vez disso, ligue-se à shell ADB e digite este comando: "adb shell wm size reset;wm density reset".</string>
+    <string name="shizuku_warning_systemless_description_new">O modo não root pode executar ações que afetarão permanentemente o seu sistema. \n\nSe considerar desinstalar esta aplicação, reponha as definições do FDE.AI na aplicação antes.</string>
+    <string name="non_root_autostart">Execute o serviço Shizuku para iniciar o FDE.AI…</string>
 </resources>

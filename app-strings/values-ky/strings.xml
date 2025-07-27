@@ -260,7 +260,6 @@
     <string name="shizuku_setup_success">Shizuku жөндөлдү жана сиз кетүүгө даярсыз</string>
     <string name="shizuku_setup_instructions_title">Орнотуу нускамалары</string>
     <string name="shizuku_warning_systemless_title">Көңүл буруңуз</string>
-    <string name="shizuku_warning_systemless_description">Root эмес режим тутумуңузга биротоло таасир этүүчү аракеттерди аткарышы мүмкүн.</string>
     <string name="shizuku_warning_miui_title">MIUI Иштеп чыгуучунун уруксаттары</string>
     <string name="shizuku_warning_miui_description">MIUI колдонуучулары Shizuku туура иштеши үчүн кошумча иштеп чыгуучунун уруксаттарын иштетиши керек.</string>
     <string name="shizuku_install_from_play_store">Play Дүкөндөн орнотуу</string>
@@ -284,4 +283,7 @@
 Эгер көйгөй чечилбесе, Telegramдагы иштеп чыгуучуга кайрылыңыз.</string>
     <string name="wifi_psave_header">WiFi уйку режимин өчүрүү</string>
     <string name="wifi_psave_descr">Шидзуку менен байланышты үзүү мүмкүнчүлүгүн азайтуу үчүн WiFi уйку режимин өчүрүүгө аракет кылсаңыз болот, бирок бул иштебей турган энергияны керектөөнү көбөйтүшү мүмкүн.</string>
+    <string name="downscale_warning">Эгерде бир нерсе туура эмес болуп, \'Калыбына келтирүү\' баскычына кире албасаңыз - түзмөктү кайра жүктөбөңүз!\nАнын ордуна ADB кабыгына туташып, төмөнкү буйрукту киргизиңиз: \'adb shell wm size reset;wm density reset\'.</string>
+    <string name="shizuku_warning_systemless_description_new">Root эмес режим тутумуңузга биротоло таасир этүүчү аракеттерди аткарышы мүмкүн.\n\nЭгер бул колдонмону орнотуудан чыгарууну ойлонсоңуз - мурун колдонмодогу FDE.AI жөндөөлөрүн баштапкы абалга келтириңиз.</string>
+    <string name="non_root_autostart">FDE.AIни ишке киргизүү үчүн Shizuku кызматын иштетиңиз…</string>
 </resources>

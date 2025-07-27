@@ -28,7 +28,7 @@
 
 - _Can I safely close the app by swiping it away from recents?_
 
-> **Yes**. A background service handles all processes. The app is just a wrapper for that service.
+> **Yes for root users, no - for shizuku users**.
 
 - _Does the background service drain my battery?_
 
@@ -36,9 +36,10 @@
 
 - _How do I uninstall FDE.AI correctly?_
 
-> Uninstall the app as usual and reboot your device. All settings will return to default. Consider
-> reporting your reasons for uninstalling in the support group, especially if there were bugs or
-> unexpected behavior.
+> For root users - uninstall the app as usual and reboot your device. All settings will return to
+> default.
+> For shizuku users - got to FDE.AI app settings and press reset button, then uninstall the app as
+> usual and reboot your device.
 
 - _Which root methods are supported by app?_
 
@@ -47,11 +48,6 @@
 - _Why does the AI sometimes falsely report its mode?_
 
 > It's not false reporting; it updates its state slowly, usually taking about 30 seconds.
-
-- _Why does my system lag after running FDE.AI?_
-
-> This shouldn't happen. Try disabling **all** build.prop tweaks in the settings, then reboot your
-> device. This usually fixes the problem.
 
 - _I have a question not covered in this FAQ. Where can I find an answer?_
 

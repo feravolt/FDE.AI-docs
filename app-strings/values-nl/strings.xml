@@ -260,7 +260,6 @@
     <string name="shizuku_setup_success">Shizuku is ingesteld en je kunt aan de slag</string>
     <string name="shizuku_setup_instructions_title">Installatie-instructies</string>
     <string name="shizuku_warning_systemless_title">Let op</string>
-    <string name="shizuku_warning_systemless_description">De niet-rootmodus kan acties uitvoeren die je systeem permanent beïnvloeden.</string>
     <string name="shizuku_warning_miui_title">MIUI-ontwikkelaarsrechten</string>
     <string name="shizuku_warning_miui_description">MIUI-gebruikers moeten extra ontwikkelaarsrechten inschakelen om Shizuku correct te laten werken.</string>
     <string name="shizuku_install_from_play_store">Installeren vanuit Play Store</string>
@@ -284,4 +283,7 @@
 Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.</string>
     <string name="wifi_psave_header">WiFi-slaapstand uitschakelen</string>
     <string name="wifi_psave_descr">Om de kans te verkleinen dat de verbinding met Shizuku wordt verbroken, kunt u proberen de wifi-slaapstand uit te schakelen. Dit kan echter het stroomverbruik in rust verhogen.</string>
+    <string name="downscale_warning">Als er iets misgaat en u de knop \'Reset\' niet kunt gebruiken, start het apparaat dan niet opnieuw op! Maak in plaats daarvan verbinding met de ADB-shell en voer deze opdracht in: \'adb shell wm size reset;wm density reset\'.</string>
+    <string name="shizuku_warning_systemless_description_new">De niet-rootmodus kan acties uitvoeren die uw systeem permanent beïnvloeden. Mocht u overwegen deze app te verwijderen, reset dan eerst de FDE.AI-instellingen in de app.</string>
+    <string name="non_root_autostart">Voer de Shizuku-service uit om FDE.AI te starten…</string>
 </resources>

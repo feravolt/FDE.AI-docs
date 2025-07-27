@@ -266,7 +266,6 @@
     <string name="shizuku_setup_success">Shizukuのセットアップが完了し、準備完了です</string>
     <string name="shizuku_setup_instructions_title">セットアップ手順</string>
     <string name="shizuku_warning_systemless_title">注意</string>
-    <string name="shizuku_warning_systemless_description">ルートなしモードでは、システムに永続的な影響を与えるアクションが実行される場合があります。</string>
     <string name="shizuku_warning_miui_title">MIUI開発者権限</string>
     <string name="shizuku_warning_miui_description">MIUIユーザーは、Shizukuが適切に動作するために追加の開発者権限を有効にする必要があります。</string>
     <string name="shizuku_install_from_play_store">Playストアからインストール</string>
@@ -289,4 +288,7 @@
 問題が解決しない場合は、Telegramで開発者にお問い合わせください。</string>
     <string name="wifi_psave_header">Wi-Fi スリープモードを無効にする</string>
     <string name="wifi_psave_descr">Shizuku との通信が切断される可能性を減らすために、Wi-Fi スリープモードを無効にすることもできますが、これによりアイドル時の消費電力が増加する可能性があります。</string>
+    <string name="downscale_warning">何か問題が発生し、「リセット」ボタンにアクセスできない場合は、デバイスを再起動しないでください。代わりに、ADBシェルに接続して、次のコマンドを入力してください: \'adb shell wm size reset;wm concentration reset\'。</string>
+    <string name="shizuku_warning_systemless_description_new">非ルートモードでは、システムに永続的な影響を与える操作が行われる可能性があります。\n\nこのアプリをアンインストールする場合は、事前にアプリ内でFDE.AIの設定をリセットしてください。</string>
+    <string name="non_root_autostart">Shizukuサービスを実行してFDE.AIを起動してください…</string>
 </resources>

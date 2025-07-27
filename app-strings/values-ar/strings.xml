@@ -260,7 +260,6 @@
     <string name="shizuku_setup_success">تم إعداد Shizuku وأنت جاهز للاستخدام</string>
     <string name="shizuku_setup_instructions_title">تعليمات الإعداد</string>
     <string name="shizuku_warning_systemless_title">تنبيه</string>
-    <string name="shizuku_warning_systemless_description">قد يؤدي وضع عدم استخدام الجذر إلى تنفيذ إجراءات تؤثر بشكل دائم على نظامك.</string>
     <string name="shizuku_warning_miui_title">أذونات مطور MIUI</string>
     <string name="shizuku_warning_miui_description">يحتاج مستخدمو MIUI إلى تفعيل أذونات مطور إضافية ليعمل Shizuku بشكل صحيح.</string>
     <string name="shizuku_install_from_play_store">التثبيت من متجر Play</string>
@@ -284,4 +283,7 @@
 إذا استمرت المشكلة، تواصل مع المطور عبر تيليجرام.</string>
     <string name="wifi_psave_header">تعطيل وضع السكون للواي فاي</string>
     <string name="wifi_psave_descr">لتقليل احتمالية انقطاع الاتصال مع شيزوكو، يمكنك محاولة تعطيل وضع السكون للواي فاي، ولكن هذا قد يزيد من استهلاك الطاقة في وضع الخمول.</string>
+    <string name="downscale_warning">إذا حدث أي خطأ ولم تتمكن من الوصول إلى زر "إعادة الضبط"، فلا تعيد تشغيل الجهاز!\nبدلاً من ذلك، اتصل بواجهة ADB وأدخل هذا الأمر: \'adb shell wm size reset;wm density reset\'.</string>
+    <string name="shizuku_warning_systemless_description_new">قد يؤدي وضع عدم استخدام الجذر إلى تنفيذ إجراءات تؤثر بشكل دائم على نظامك.\n\nإذا فكرت يومًا في إلغاء تثبيت هذا التطبيق، فأعد ضبط إعدادات FDE.AI في التطبيق مسبقًا.</string>
+    <string name="non_root_autostart">شغّل خدمة Shizuku لبدء تشغيل FDE.AI…</string>
 </resources>

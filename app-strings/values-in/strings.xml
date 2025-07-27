@@ -257,7 +257,6 @@
     <string name="shizuku_setup_success">Shizuku telah disiapkan dan Anda siap menggunakannya</string>
     <string name="shizuku_setup_instructions_title">Petunjuk Penyiapan</string>
     <string name="shizuku_warning_systemless_title">Perhatian</string>
-    <string name="shizuku_warning_systemless_description">Mode non-root dapat melakukan tindakan yang akan memengaruhi sistem Anda secara permanen.</string>
     <string name="shizuku_warning_miui_title">Izin Pengembang MIUI</string>
     <string name="shizuku_warning_miui_description">Pengguna MIUI perlu mengaktifkan izin pengembang tambahan agar Shizuku berfungsi dengan baik.</string>
     <string name="shizuku_install_from_play_store">Instal dari Play Store</string>
@@ -281,4 +280,7 @@
 Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="wifi_psave_header">Nonaktifkan mode tidur WiFi</string>
     <string name="wifi_psave_descr">Untuk mengurangi risiko terputusnya koneksi dengan Shizuku, Anda dapat mencoba menonaktifkan mode tidur WiFi, tetapi hal ini dapat meningkatkan konsumsi daya saat tidak digunakan.</string>
+    <string name="downscale_warning">Jika terjadi kesalahan dan Anda tidak dapat mengakses tombol \'Reset\' - jangan mulai ulang perangkat!\nSebaliknya, hubungkan ke shell ADB dan masukkan perintah ini: \'adb shell wm size reset;wm density reset\'.</string>
+    <string name="shizuku_warning_systemless_description_new">Mode non-root dapat melakukan tindakan yang akan memengaruhi sistem Anda secara permanen.\n\nJika Anda pernah mempertimbangkan untuk menghapus instalasi aplikasi ini - atur ulang pengaturan FDE.AI di aplikasi sebelumnya.</string>
+    <string name="non_root_autostart">Jalankan layanan Shizuku untuk memulai FDE.AI…</string>
 </resources>

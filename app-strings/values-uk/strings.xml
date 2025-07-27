@@ -253,7 +253,6 @@
     <string name="shizuku_setup_success">Shizuku налаштовано, і ви готові до роботи</string>
     <string name="shizuku_warning_miui_description">Користувачі MIUI повинні надати додаткові дозволи розробника, щоб Shizuku працював належним чином.</string>
     <string name="shizuku_warning_miui_title">Дозволи розробника MIUI</string>
-    <string name="shizuku_warning_systemless_description">Режим без root може виконувати дії, які безповоротно вплинуть на вашу систему.</string>
     <string name="shizuku_warning_systemless_title">Увага</string>
     <string name="sound_channel_name">Звукові сповіщення ШІ</string>
     <string name="sound_header">Звук</string>
@@ -287,4 +286,7 @@
     <string name="welcome">Вітаємо</string>
     <string name="wifi_psave_header">Вимкнути режим сну Wi-Fi</string>
     <string name="wifi_psave_descr">Щоб зменшити ймовірність відключення від Shizuku, ви можете спробувати вимкнути режим сну Wi-Fi, але це може збільшити споживання енергії в режимі очікування.</string>
+    <string name="downscale_warning">Якщо щось піде не так, і ви не зможете отримати доступ до кнопки \'Скидання\' - не перезавантажуйте пристрій!\nНатомість підключіться до оболонки ADB та введіть цю команду: \'adb shell wm size reset;wm density reset\'.</string>
+    <string name="shizuku_warning_systemless_description_new">Режим без прав root може виконувати дії, які безповоротно вплинуть на вашу систему.\n\nЯкщо ви коли-небудь розглядатимете можливість видалення цієї програми - скиньте налаштування FDE.AI в програмі перед цим.</string>
+    <string name="non_root_autostart">Запустіть службу Shizuku, щоб запустити FDE.AI…</string>
 </resources>

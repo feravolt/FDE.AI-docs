@@ -259,7 +259,6 @@
     <string name="shizuku_setup_success">Shizuku telah disediakan dan anda sudah bersedia untuk pergi</string>
     <string name="shizuku_setup_instructions_title">Arahan Persediaan</string>
     <string name="shizuku_warning_systemless_title">Perhatian</string>
-    <string name="shizuku_warning_systemless_description">Mod bukan akar mungkin melakukan tindakan yang akan menjejaskan sistem anda secara kekal.</string>
     <string name="shizuku_warning_miui_title">Kebenaran Pembangun MIUI</string>
     <string name="shizuku_warning_miui_description">Pengguna MIUI perlu mendayakan kebenaran pembangun tambahan untuk Shizuku berfungsi dengan betul.</string>
     <string name="shizuku_install_from_play_store">Pasang daripada Gedung Play</string>
@@ -283,4 +282,7 @@
 Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="wifi_psave_header">Lumpuhkan mod tidur WiFi</string>
     <string name="wifi_psave_descr">Untuk mengurangkan kemungkinan memutuskan sambungan dengan Shizuku, anda boleh cuba melumpuhkan mod tidur WiFi, tetapi ini mungkin meningkatkan penggunaan kuasa melahu.</string>
+    <string name="downscale_warning">Jika apa-apa berlaku dan anda tidak boleh mengakses butang \'Reset\' - jangan but semula peranti!\nSebaliknya sambungkan ke shell ADB dan masukkan arahan ini: \'adb shell wm size reset;wm density reset\'.</string>
+    <string name="shizuku_warning_systemless_description_new">Mod bukan akar mungkin melakukan tindakan yang akan menjejaskan sistem anda secara kekal.\n\nJika anda pernah mempertimbangkan untuk menyahpasang apl ini - tetapkan semula tetapan FDE.AI dalam apl sebelum ini.</string>
+    <string name="non_root_autostart">Jalankan perkhidmatan Shizuku untuk memulakan FDE.AI…</string>
 </resources>

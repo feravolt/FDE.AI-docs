@@ -260,7 +260,6 @@
     <string name="shizuku_setup_success">Shizuku kuruldu ve artık hazırsınız</string>
     <string name="shizuku_setup_instructions_title">Kurulum Talimatları</string>
     <string name="shizuku_warning_systemless_title">Dikkat</string>
-    <string name="shizuku_warning_systemless_description">Kök olmayan mod, sisteminizi kalıcı olarak etkileyecek eylemler gerçekleştirebilir.</string>
     <string name="shizuku_warning_miui_title">MIUI Geliştirici İzinleri</string>
     <string name="shizuku_warning_miui_description">MIUI kullanıcılarının Shizuku\'nun düzgün çalışması için ek geliştirici izinlerini etkinleştirmeleri gerekir.</string>
     <string name="shizuku_install_from_play_store">Play\'den Yükle Mağaza</string>
@@ -284,4 +283,7 @@
 Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="wifi_psave_header">WiFi uyku modunu kapat</string>
     <string name="wifi_psave_descr">Shizuku ile bağlantınızın kesilme olasılığını azaltmak için Wi-Fi uyku modunu devre dışı bırakmayı deneyebilirsiniz, ancak bu durum boşta güç tüketimini artırabilir.</string>
+    <string name="downscale_warning">Bir sorun çıkarsa ve \'Sıfırla\' düğmesine erişemiyorsanız, cihazı yeniden başlatmayın!\nBunun yerine ADB kabuğuna bağlanın ve şu komutu girin: \'adb shell wm size reset;wm density reset\'.</string>
+    <string name="shizuku_warning_systemless_description_new">Kök olmayan mod, sisteminizi kalıcı olarak etkileyecek eylemler gerçekleştirebilir.\n\nBu uygulamayı kaldırmayı düşünürseniz, uygulamadaki FDE.AI ayarlarını sıfırlayın.</string>
+    <string name="non_root_autostart">FDE.AI\'yi başlatmak için Shizuku hizmetini çalıştırın…</string>
 </resources>

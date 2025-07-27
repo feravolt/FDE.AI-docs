@@ -260,7 +260,6 @@
     <string name="shizuku_setup_success">Shizuku on määritetty ja olet valmis lähtöön</string>
     <string name="shizuku_setup_instructions_title">Asennusohjeet</string>
     <string name="shizuku_warning_systemless_title">Huomio</string>
-    <string name="shizuku_warning_systemless_description">Ei-root-tila voi suorittaa toimintoja, jotka vaikuttavat pysyvästi järjestelmääsi.</string>
     <string name="shizuku_warning_miui_title">MIUI-kehittäjän käyttöoikeudet</string>
     <string name="shizuku_warning_miui_description">MIUI-käyttäjien on annettava lisäkehittäjien käyttöoikeudet, jotta Shizuku toimisi oikein.</string>
     <string name="shizuku_install_from_play_store">Asenna Play Kaupasta</string>
@@ -284,4 +283,7 @@
 Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="wifi_psave_header">Poista Wi-Fi-lepotila käytöstä</string>
     <string name="wifi_psave_descr">Voit yrittää poistaa Wi-Fi-lepotilan käytöstä Shizukun yhteyden katkeamisen riskin vähentämiseksi, mutta se voi lisätä lepotilan virrankulutusta.</string>
+    <string name="downscale_warning">Jos jokin menee pieleen etkä pääse käyttämään \'Nollaa\'-painiketta, älä käynnistä laitetta uudelleen!\nYhdistä sen sijaan ADB-kuoreen ja anna tämä komento: \'adb shell wm size reset;wm density reset\'.</string>
+    <string name="shizuku_warning_systemless_description_new">Ei-root-tila voi suorittaa toimia, jotka vaikuttavat pysyvästi järjestelmääsi.\n\nJos harkitset tämän sovelluksen poistamista, palauta FDE.AI-asetukset sovelluksessa ennen sitä.</string>
+    <string name="non_root_autostart">Käynnistä FDE.AI suorittamalla Shizuku-palvelu…</string>
 </resources>

@@ -260,7 +260,6 @@
     <string name="shizuku_setup_success">Το Shizuku έχει ρυθμιστεί και είστε έτοιμοι να ξεκινήσετε</string>
     <string name="shizuku_setup_instructions_title">Οδηγίες ρύθμισης</string>
     <string name="shizuku_warning_systemless_title">Προσοχή</string>
-    <string name="shizuku_warning_systemless_description">Η λειτουργία χωρίς ρίζα μπορεί να εκτελεί ενέργειες που θα επηρεάσουν μόνιμα το σύστημά σας.</string>
     <string name="shizuku_warning_miui_title">Δικαιώματα προγραμματιστή MIUI</string>
     <string name="shizuku_warning_miui_description">Οι χρήστες του MIUI πρέπει να ενεργοποιήσουν πρόσθετες άδειες προγραμματιστή για να λειτουργεί σωστά το Shizuku.</string>
     <string name="shizuku_install_from_play_store">Εγκατάσταση από το Play Store</string>
@@ -284,4 +283,7 @@
 Εάν το πρόβλημα παραμένει, επικοινωνήστε με τον προγραμματιστή στο Telegram.</string>
     <string name="wifi_psave_header">Απενεργοποίηση λειτουργίας αναστολής λειτουργίας WiFi</string>
     <string name="wifi_psave_descr">Για να μειώσετε την πιθανότητα αποσύνδεσης από το Shizuku, μπορείτε να δοκιμάσετε να απενεργοποιήσετε τη λειτουργία αναστολής λειτουργίας WiFi, αλλά αυτό μπορεί να αυξήσει την κατανάλωση ενέργειας σε κατάσταση αδράνειας.</string>
+    <string name="downscale_warning">Εάν κάτι πάει στραβά και δεν μπορείτε να αποκτήσετε πρόσβαση στο κουμπί \'Επαναφορά\' - μην επανεκκινήσετε τη συσκευή!\nΑντίθετα, συνδεθείτε στο κέλυφος ADB και εισαγάγετε αυτήν την εντολή: \'adb shell wm size reset;wm densite reset\'.</string>
+    <string name="shizuku_warning_systemless_description_new">Η λειτουργία χωρίς root ενδέχεται να εκτελέσει ενέργειες που θα επηρεάσουν μόνιμα το σύστημά σας.\n\nΕάν σκεφτείτε ποτέ να απεγκαταστήσετε αυτήν την εφαρμογή, επαναφέρετε τις ρυθμίσεις FDE.AI στην εφαρμογή πριν.</string>
+    <string name="non_root_autostart">Εκτελέστε την υπηρεσία Shizuku για να ξεκινήσετε το FDE.AI…</string>
 </resources>

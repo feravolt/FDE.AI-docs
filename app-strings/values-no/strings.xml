@@ -260,7 +260,6 @@
     <string name="shizuku_setup_success">Shizuku er konfigurert og du er klar til å gå</string>
     <string name="shizuku_setup_instructions_title">Oppsettinstruksjoner</string>
     <string name="shizuku_warning_systemless_title">Oppmerksomhet</string>
-    <string name="shizuku_warning_systemless_description">Ikke-root-modus kan utføre handlinger som vil påvirke systemet ditt permanent.</string>
     <string name="shizuku_warning_miui_title">MIUI-utviklertillatelser</string>
     <string name="shizuku_warning_miui_description">MIUI-brukere må aktivere ytterligere utviklertillatelser for at Shizuku skal fungere ordentlig.</string>
     <string name="shizuku_install_from_play_store">Installer fra Play Butikk</string>
@@ -284,4 +283,7 @@
 Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="wifi_psave_header">Deaktiver WiFi-hvilemodus</string>
     <string name="wifi_psave_descr">For å redusere sjansen for å koble fra Shizuku kan du prøve å deaktivere WiFi-hvilemodus, men dette kan øke strømforbruket ved inaktivitet.</string>
+    <string name="downscale_warning">Hvis noe går galt og du ikke får tilgang til «Tilbakestill»-knappen – ikke start enheten på nytt! Koble i stedet til ADB-skallet og skriv inn denne kommandoen: «adb shell wm size reset;wm density reset».</string>
+    <string name="shizuku_warning_systemless_description_new">Ikke-root-modus kan utføre handlinger som vil påvirke systemet ditt permanent. Hvis du noen gang vurderer å avinstallere denne appen – tilbakestill FDE.AI-innstillingene i appen først.</string>
+    <string name="non_root_autostart">Kjør Shizuku-tjenesten for å starte FDE.AI…</string>
 </resources>

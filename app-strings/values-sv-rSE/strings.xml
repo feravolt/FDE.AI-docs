@@ -260,7 +260,6 @@
     <string name="shizuku_setup_success">Shizuku är konfigurerat och du är redo att börja</string>
     <string name="shizuku_setup_instructions_title">Installationsinstruktioner</string>
     <string name="shizuku_warning_systemless_title">Obs</string>
-    <string name="shizuku_warning_systemless_description">Icke-root-läge kan utföra åtgärder som permanent kommer att påverka ditt system.</string>
     <string name="shizuku_warning_miui_title">MIUI-utvecklarbehörigheter</string>
     <string name="shizuku_warning_miui_description">MIUI-användare måste aktivera ytterligare utvecklarbehörigheter för att Shizuku ska fungera korrekt.</string>
     <string name="shizuku_install_from_play_store">Installera från Play Butik</string>
@@ -284,4 +283,7 @@
 Om problemet kvarstår, kontakta utvecklaren i Telegram.</string>
     <string name="wifi_psave_header">Inaktivera WiFi-viloläge</string>
     <string name="wifi_psave_descr">För att minska risken för att du kopplas bort från Shizuku kan du försöka inaktivera WiFi-viloläge, men det kan öka strömförbrukningen vid viloläge.</string>
+    <string name="downscale_warning">Om något går fel och du inte kan komma åt knappen "Återställ" - starta inte om enheten!\nAnslut istället till ADB-skalet och skriv följande kommando: \'adb shell wm size reset;wm density reset\'.</string>
+    <string name="shizuku_warning_systemless_description_new">Icke-root-läge kan utföra åtgärder som permanent påverkar ditt system.\n\nOm du någonsin funderar på att avinstallera den här appen - återställ FDE.AI-inställningarna i appen innan.</string>
+    <string name="non_root_autostart">Kör Shizuku-tjänsten för att starta FDE.AI…</string>
 </resources>
