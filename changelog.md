@@ -1,17 +1,19 @@
 ### Changelog
 
-## **v25.07.1**
+## **v25.07.6**
 
 ### New:
 
 — Constant AI mode notification in Shizuku mode\
-— Android performance hint support for Shizuku mode\
+— Android 7+ Shizuku mode support\
+— WiFi sleep mode toggle to improve Shizuku connection\
+— Android performance hint support for Shizuku mode
 
 ### Improved:
 
 — Monitoring overlay performance\
 — AI diagram and documentation\
-- Reset button now partially resets system changes in Shizuku mode\
+— Reset button now partially resets system changes in Shizuku mode\
 — Core: AI speed\
 — Core: performance tweaks in Shizuku mode
 
