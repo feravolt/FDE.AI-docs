@@ -7,7 +7,7 @@
     <string name="ai_auto_mode">Түзмөктүн колдонулушуна жараша майнаптуулук менен энергияны үнөмдөөнү тең салмактайт. Freqs авто-түздөө көбүрөөк энергия үнөмдөө берет.</string>
     <string name="ai_is_disabled">ЖА өчүк</string>
     <string name="ai_log">ЖА логу</string>
-    <string name="ai_mode">ЖИ режими</string>
+    <string name="ai_mode">ЖИ</string>
     <string name="ai_mode_auto">Авто</string>
     <string name="ai_modes_desc">ЖИ фондо иштейт, колдонууну үйрөнөт жана системаны оптималдаштырат.</string>
     <string name="ai_off_detail">ЖИ өчүрүлгөндө, FDE бир жолку оптимализатор катары иштейт жана реалдуу убакытта оптималдаштырбайт.</string>
@@ -285,5 +285,15 @@
     <string name="wifi_psave_descr">Шидзуку менен байланышты үзүү мүмкүнчүлүгүн азайтуу үчүн WiFi уйку режимин өчүрүүгө аракет кылсаңыз болот, бирок бул иштебей турган энергияны керектөөнү көбөйтүшү мүмкүн.</string>
     <string name="downscale_warning">Эгерде бир нерсе туура эмес болуп, \'Калыбына келтирүү\' баскычына кире албасаңыз - түзмөктү кайра жүктөбөңүз!\nАнын ордуна ADB кабыгына туташып, төмөнкү буйрукту киргизиңиз: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="shizuku_warning_systemless_description_new">Root эмес режим тутумуңузга биротоло таасир этүүчү аракеттерди аткарышы мүмкүн.\n\nЭгер бул колдонмону орнотуудан чыгарууну ойлонсоңуз - мурун колдонмодогу FDE.AI жөндөөлөрүн баштапкы абалга келтириңиз.</string>
-    <string name="non_root_autostart">FDE.AIни ишке киргизүү үчүн Shizuku кызматын иштетиңиз…</string>
+    <string name="debloat_title">Керексиз тиркемелерди өчүрүү</string>
+    <string name="debloat_descr">Бул жерде системаны тездетүү үчүн блоатвер деп эсептелген айрым системалык тиркемелерди өчүрсөңүз болот. Төмөндө Universal‑Debloater‑Alliance сунуш кылган өчүрүлө турган тиркемелердин тизмеси берилген.</string>
+    <string name="select_all">Баарын танда</string>
+    <string name="clear_selection">Тандоону тазала</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">%1$d тиркеме үчүн өзгөртүүлөр колдонулсунбу?</item>
+        <item quantity="other">%1$d тиркеме үчүн өзгөртүүлөр колдонулсунбу?</item>
+    </plurals>
+    <string name="debloat_processing_progress">Иштетүү: %1$d/%2$d</string>
+    <string name="debloat_uninstall">Өчүрүү</string>
+    <string name="debloat_no_apps">Керексиз (каалабаган) тиркемелер жок.</string>
 </resources>

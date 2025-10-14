@@ -9,7 +9,7 @@
     <string name="ai_is_disabled">AI вимкнено</string>
     <string name="ai_lifetime">Термін служби ШІ</string>
     <string name="ai_log">Лог ШІ</string>
-    <string name="ai_mode">Режим ШІ</string>
+    <string name="ai_mode">ШІ</string>
     <string name="ai_mode_auto">Авто</string>
     <string name="ai_modes_desc">ШІ працює у фоновому режимі, вивчає використання і застосовує оптимізацію системи.</string>
     <string name="ai_off_detail">Коли ШІ вимкнений, FDE діє як одноразовий оптимізатор і не оптимізує в режимі реального часу.</string>
@@ -288,5 +288,17 @@
     <string name="wifi_psave_descr">Щоб зменшити ймовірність відключення від Shizuku, ви можете спробувати вимкнути режим сну Wi-Fi, але це може збільшити споживання енергії в режимі очікування.</string>
     <string name="downscale_warning">Якщо щось піде не так, і ви не зможете отримати доступ до кнопки \'Скидання\' - не перезавантажуйте пристрій!\nНатомість підключіться до оболонки ADB та введіть цю команду: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="shizuku_warning_systemless_description_new">Режим без прав root може виконувати дії, які безповоротно вплинуть на вашу систему.\n\nЯкщо ви коли-небудь розглядатимете можливість видалення цієї програми - скиньте налаштування FDE.AI в програмі перед цим.</string>
-    <string name="non_root_autostart">Запустіть службу Shizuku, щоб запустити FDE.AI…</string>
+    <string name="debloat_title">Вимкнути зайві програми</string>
+    <string name="debloat_descr">Тут ви можете вимкнути деякі системні програми, що вважаються bloatware, щоб пришвидшити систему. Нижче — рекомендований список від Universal‑Debloater‑Alliance.</string>
+    <string name="select_all">Вибрати все</string>
+    <string name="clear_selection">Скасувати вибір</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">Застосувати зміни до %1$d програми?</item>
+        <item quantity="few">Застосувати зміни до %1$d програми?</item>
+        <item quantity="many">Застосувати зміни до %1$d програм?</item>
+        <item quantity="other">Застосувати зміни до %1$d програм?</item>
+    </plurals>
+    <string name="debloat_processing_progress">Обробка: %1$d/%2$d</string>
+    <string name="debloat_uninstall">Видалити</string>
+    <string name="debloat_no_apps">Немає небажаних додатків.</string>
 </resources>

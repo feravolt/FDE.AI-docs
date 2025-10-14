@@ -7,7 +7,7 @@
     <string name="ai_auto_mode">Cân bằng hiệu năng và hiệu suất dựa trên thói quen sử dụng thiết bị. Việc điều hòa tần số sẽ giúp tiết kiệm năng lượng hơn.</string>
     <string name="ai_is_disabled">AI đã vô hiệu hóa</string>
     <string name="ai_log">Nhật ký AI</string>
-    <string name="ai_mode">Chế độ AI</string>
+    <string name="ai_mode">AI</string>
     <string name="ai_mode_auto">Tự động</string>
     <string name="ai_modes_desc">AI sẽ chạy nền, học thói quen sử dụng, và tối ưu hóa hệ thống.</string>
     <string name="ai_off_detail">Nếu tắt AI, FDE sẽ thành công cụ tối ưu hóa một lần và sẽ không tối ưu theo thời gian thực.</string>
@@ -285,5 +285,14 @@ Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển tr
     <string name="wifi_psave_descr">Để giảm nguy cơ mất kết nối với Shizuku, bạn có thể thử tắt chế độ ngủ WiFi, nhưng điều này có thể làm tăng mức tiêu thụ điện năng khi không sử dụng.</string>
     <string name="downscale_warning">Nếu có bất kỳ sự cố nào xảy ra và bạn không thể truy cập nút \'Đặt lại\' - đừng khởi động lại thiết bị!\nThay vào đó, hãy kết nối với shell ADB và nhập lệnh này: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="shizuku_warning_systemless_description_new">Chế độ không root có thể thực hiện các hành động ảnh hưởng vĩnh viễn đến hệ thống của bạn.\n\nNếu bạn từng cân nhắc gỡ cài đặt ứng dụng này, hãy đặt lại cài đặt FDE.AI trong ứng dụng trước đó.</string>
-    <string name="non_root_autostart">Chạy dịch vụ Shizuku để khởi động FDE.AI…</string>
+    <string name="debloat_title">Tắt bloatware</string>
+    <string name="debloat_descr">Tại đây bạn có thể vô hiệu hóa một số ứng dụng hệ thống được coi là bloatware để tăng tốc hệ thống. Bên dưới là danh sách ứng dụng được Universal‑Debloater‑Alliance khuyến nghị.</string>
+    <string name="select_all">Chọn tất cả</string>
+    <string name="clear_selection">Xóa lựa chọn</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="other">Áp dụng thay đổi cho %1$d ứng dụng?</item>
+    </plurals>
+    <string name="debloat_processing_progress">Đang xử lý: %1$d/%2$d</string>
+    <string name="debloat_uninstall">Gỡ cài đặt</string>
+    <string name="debloat_no_apps">Không có ứng dụng bloatware (không mong muốn).</string>
 </resources>

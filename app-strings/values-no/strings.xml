@@ -7,7 +7,7 @@
     <string name="ai_auto_mode">Balanser ytelse og strømsparing basert på enhetens bruk. Friqs auto-Tune gir mer strømsparing.</string>
     <string name="ai_is_disabled">AI deaktivert</string>
     <string name="ai_log">AI Logg</string>
-    <string name="ai_mode">AI modus</string>
+    <string name="ai_mode">AI</string>
     <string name="ai_mode_auto">Automatisk</string>
     <string name="ai_modes_desc">Jeg kjører i bakgrunnen, lærer å bruke og bruker optimalisering av systemet.</string>
     <string name="ai_off_detail">Når AI er deaktivert, fungerer FDE som en engangsoptimaliser og optimaliserer ikke optimaliserer i sanntid.</string>
@@ -285,5 +285,15 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="wifi_psave_descr">For å redusere sjansen for å koble fra Shizuku kan du prøve å deaktivere WiFi-hvilemodus, men dette kan øke strømforbruket ved inaktivitet.</string>
     <string name="downscale_warning">Hvis noe går galt og du ikke får tilgang til «Tilbakestill»-knappen – ikke start enheten på nytt! Koble i stedet til ADB-skallet og skriv inn denne kommandoen: «adb shell wm size reset;wm density reset».</string>
     <string name="shizuku_warning_systemless_description_new">Ikke-root-modus kan utføre handlinger som vil påvirke systemet ditt permanent. Hvis du noen gang vurderer å avinstallere denne appen – tilbakestill FDE.AI-innstillingene i appen først.</string>
-    <string name="non_root_autostart">Kjør Shizuku-tjenesten for å starte FDE.AI…</string>
+    <string name="debloat_title">Deaktiver bloatware</string>
+    <string name="debloat_descr">Her kan du deaktivere noen systemapper som regnes som bloatware for å gjøre systemet raskere. Nedenfor er den anbefalte listen over apper å fjerne fra Universal‑Debloater‑Alliance.</string>
+    <string name="select_all">Velg alle</string>
+    <string name="clear_selection">Tøm markering</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">Bruke endringer på %1$d app?</item>
+        <item quantity="other">Bruke endringer på %1$d apper?</item>
+    </plurals>
+    <string name="debloat_processing_progress">Behandler: %1$d/%2$d</string>
+    <string name="debloat_uninstall">Avinstaller</string>
+    <string name="debloat_no_apps">Ingen uønskede apper (bloatware).</string>
 </resources>

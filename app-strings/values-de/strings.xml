@@ -7,7 +7,7 @@
     <string name="ai_auto_mode">Balanciert Leistung und Energieeinsparung basierend auf der Geräteauslastung. Freqs Auto-Tune sorgt für mehr Energieeinsparung.</string>
     <string name="ai_is_disabled">KI deaktiviert</string>
     <string name="ai_log">KI-Log</string>
-    <string name="ai_mode">KI-Modus</string>
+    <string name="ai_mode">KI</string>
     <string name="ai_mode_auto">Auto</string>
     <string name="ai_modes_desc">Die KI läuft im Hintergrund, lernt die Nutzung und wendet Systemoptimierungen an.</string>
     <string name="ai_off_detail">Wenn die KI deaktiviert ist, fungiert FDE als einmaliger Optimierer und optimiert nicht in Echtzeit.</string>
@@ -68,7 +68,7 @@
     <string name="description">Beschreibung</string>
     <string name="enable_ai">KI aktivieren</string>
     <string name="disable_logs">Protokolle deaktivieren</string>
-    <string name="disable_logs_desc">Wählen Sie diese Option aus, um alle Protokolle und Statistiken (außer \"logcat\") zu deaktivieren und die Logcat-Puffergröße auf 128 KB zu reduzieren.</string>
+    <string name="disable_logs_desc">Wählen Sie diese Option aus, um alle Protokolle und Statistiken (außer "logcat") zu deaktivieren und die Logcat-Puffergröße auf 128 KB zu reduzieren.</string>
     <string name="downscale_btn">Adaptive Downscale</string>
     <string name="downscale_desc">Niedrige Bildschirmauflösung, um die GPU-Leistung zu steigern und Batterie zu sparen, mit geringerem Verlust an Bildqualität. Nicht empfohlen zu gehen unter die Hälfte der Bildschirmbreite auf benutzerdefinierten ROMs (MIUI, EMUI, etc.) um UI-Abstürze zu vermeiden.</string>
     <string name="warning_no">Nein</string>
@@ -285,5 +285,15 @@ Wenn das Problem weiterhin besteht, wenden Sie sich per Telegram an den Entwickl
     <string name="wifi_psave_descr">Um die Wahrscheinlichkeit einer Verbindungsunterbrechung mit Shizuku zu verringern, können Sie versuchen, den WLAN-Ruhemodus zu deaktivieren. Dies kann jedoch den Stromverbrauch im Leerlauf erhöhen.</string>
     <string name="downscale_warning">Falls ein Fehler auftritt und Sie nicht auf die Schaltfläche „Zurücksetzen“ zugreifen können, starten Sie das Gerät nicht neu! \nVerbinden Sie sich stattdessen mit der ADB-Shell und geben Sie den folgenden Befehl ein: „adb shell wm size reset;wm density reset“.</string>
     <string name="shizuku_warning_systemless_description_new">Der Nicht-Root-Modus kann Aktionen ausführen, die Ihr System dauerhaft beeinträchtigen. \n\nSollten Sie diese App deinstallieren, setzen Sie vorher die FDE.AI-Einstellungen in der App zurück.</string>
-    <string name="non_root_autostart">Starten Sie FDE.AI über den Shizuku-Dienst…</string>
+    <string name="debloat_title">Bloatware deaktivieren</string>
+    <string name="debloat_descr">Hier können Sie einige System-Apps deaktivieren, die als Bloatware gelten, um das System zu beschleunigen. Unten steht die von der Universal‑Debloater‑Alliance empfohlene Liste zu entfernender Apps.</string>
+    <string name="select_all">Alle auswählen</string>
+    <string name="clear_selection">Auswahl aufheben</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">Änderungen auf %1$d App anwenden?</item>
+        <item quantity="other">Änderungen auf %1$d Apps anwenden?</item>
+    </plurals>
+    <string name="debloat_processing_progress">Verarbeitung: %1$d/%2$d</string>
+    <string name="debloat_uninstall">Deinstallieren</string>
+    <string name="debloat_no_apps">Keine unerwünschten Apps (Bloatware).</string>
 </resources>

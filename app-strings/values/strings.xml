@@ -8,7 +8,7 @@
     <string name="ai_auto_mode">Balances performance and power-saving based on device usage. Freqs auto-tune gives more power-saving.</string>
     <string name="ai_is_disabled">AI disabled</string>
     <string name="ai_log">AI Log</string>
-    <string name="ai_mode">AI mode</string>
+    <string name="ai_mode">AI</string>
     <string name="ai_mode_auto">Auto</string>
     <string name="ai_modes_desc">AI runs in background, learns usage, and applies system optimizations.</string>
     <string name="ai_off_detail">When AI is disabled, FDE acts as a one-time optimizer and doesn\’t optimize in real time.</string>
@@ -242,7 +242,7 @@
     <string name="kernel_block">Current kernel %1$s blocks Premium installation. Please consider installing another kernel.</string>
     <string name="profile_ai_mode_desc">Select AI mode while the app is in use.</string>
     <string name="preload_pro_required">Preload Pro app is required for this feature.</string>
-    <string name="overlay_power_x">Power: %1$s mAh</string>
+    <string name="overlay_power_x">PWR: %1$s mAh</string>
     <string name="overlay_battery_temp_x">Battery: %1$s°C</string>
     <string name="emergency_cooldown">Emergency Cooldown</string>
     <string name="emergency_cooldown_btn">Cooldown</string>
@@ -315,5 +315,15 @@
     <string name="wifi_psave_descr">In order to reduce chance of disconnecting with Shizuku you may try to disable WiFi sleep mode, but this may increase idle power consumption.</string>
     <string name="downscale_warning">If anything goes wrong and you can\'t access \'Reset\' button - don\'t reboot device!\nInstead connect to ADB shell and enter this command: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="shizuku_warning_systemless_description_new">Non-root mode may perform actions that will permanently affect your system.\n\nIf you ever consider uninstalling this app - reset FDE.AI settings in app before.</string>
-    <string name="non_root_autostart">Run Shizuku service to start FDE.AI…</string>
+    <string name="debloat_title">Disable bloatware</string>
+    <string name="debloat_descr">Here you can disable some system apps considered as bloatware to speed up your system. Below is the recommended to remove apps list by Universal Debloater Alliance.</string>
+    <string name="select_all">Select all</string>
+    <string name="clear_selection">Clear selection</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">Apply changes to %1$d app?</item>
+        <item quantity="other">Apply changes to %1$d apps?</item>
+    </plurals>
+    <string name="debloat_processing_progress">Processing: %1$d/%2$d</string>
+    <string name="debloat_uninstall">Uninstall</string>
+    <string name="debloat_no_apps">No bloatware (unwanted) apps.</string>
 </resources>

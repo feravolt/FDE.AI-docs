@@ -7,7 +7,7 @@
     <string name="ai_auto_mode">Prestasi seimbang dan jimat-tenaga berdasarkan penggunaan peranti. Pelarasan-automatik frekuensi memberi lebih banyak penjimatan-tenaga.</string>
     <string name="ai_is_disabled">AI dimatikan</string>
     <string name="ai_log">Log AI</string>
-    <string name="ai_mode">Mode AI</string>
+    <string name="ai_mode">AI</string>
     <string name="ai_mode_auto">Automatik</string>
     <string name="ai_modes_desc">AI beroperasi di belakang layar, mempelajari penggunaan, dan melaksanakan pengoptimuman sistem.</string>
     <string name="ai_off_detail">Jika AI dimatikan, FDE akan menjadi pengoptimum sekali sahaja dan tidak mengoptimumkan secara masa nyata.</string>
@@ -212,7 +212,7 @@
     <string name="kernel_block">Kernel semasa %1$s menyekat pemasangan Premium. Sila pertimbangkan untuk memasang kernel lain.</string>
     <string name="profile_ai_mode_desc">Pilih mod AI semasa apl sedang digunakan.</string>
     <string name="preload_pro_required">Apl Pramuat Pro diperlukan untuk ciri ini.</string>
-    <string name="overlay_power_x">Power: %1$s mAh</string>
+    <string name="overlay_power_x">PWR: %1$s mAh</string>
     <string name="overlay_battery_temp_x">Battery: %1$s°C</string>
     <string name="overlay_scale_main">Skala tindanan</string>
     <string name="emergency_cooldown">Cooldown Kecemasan</string>
@@ -284,5 +284,14 @@ Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="wifi_psave_descr">Untuk mengurangkan kemungkinan memutuskan sambungan dengan Shizuku, anda boleh cuba melumpuhkan mod tidur WiFi, tetapi ini mungkin meningkatkan penggunaan kuasa melahu.</string>
     <string name="downscale_warning">Jika apa-apa berlaku dan anda tidak boleh mengakses butang \'Reset\' - jangan but semula peranti!\nSebaliknya sambungkan ke shell ADB dan masukkan arahan ini: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="shizuku_warning_systemless_description_new">Mod bukan akar mungkin melakukan tindakan yang akan menjejaskan sistem anda secara kekal.\n\nJika anda pernah mempertimbangkan untuk menyahpasang apl ini - tetapkan semula tetapan FDE.AI dalam apl sebelum ini.</string>
-    <string name="non_root_autostart">Jalankan perkhidmatan Shizuku untuk memulakan FDE.AI…</string>
+    <string name="debloat_title">Nyahdaya bloatware</string>
+    <string name="debloat_descr">Di sini anda boleh nyahdayakan beberapa aplikasi sistem yang dianggap bloatware untuk mempercepatkan sistem. Di bawah ialah senarai aplikasi yang disyorkan oleh Universal‑Debloater‑Alliance untuk dinyahpasang.</string>
+    <string name="select_all">Pilih semua</string>
+    <string name="clear_selection">Kosongkan pilihan</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="other">Terapkan perubahan kepada %1$d apl?</item>
+    </plurals>
+    <string name="debloat_processing_progress">Memproses: %1$d/%2$d</string>
+    <string name="debloat_uninstall">Nyahpasang</string>
+    <string name="debloat_no_apps">Tiada aplikasi bloatware (tidak diingini).</string>
 </resources>

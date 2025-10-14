@@ -7,7 +7,7 @@
     <string name="ai_auto_mode">기기 사용 패턴에 따라 성능과 전력 소비의 밸런스를 조정합니다. 클럭 자동 조정으로 전력 소비를 줄일 수 있습니다.</string>
     <string name="ai_is_disabled">AI 비활성화됨</string>
     <string name="ai_log">AI 로그</string>
-    <string name="ai_mode">AI 모드</string>
+    <string name="ai_mode">AI</string>
     <string name="ai_mode_auto">자동</string>
     <string name="ai_modes_desc">AI는 백그라운드에서 사용 패턴을 분석하며, 시스템을 최적화합니다.</string>
     <string name="ai_off_detail">AI가 비활성화되었다면, FDE는 일회성 최적화를 진행하며, 실시간으로 최적화를 진행하지 않습니다.</string>
@@ -285,5 +285,14 @@
     <string name="wifi_psave_descr">시즈쿠와의 연결 끊김 가능성을 줄이려면 WiFi 절전 모드를 비활성화해 보세요. 하지만 유휴 전력 소비가 증가할 수 있습니다.</string>
     <string name="downscale_warning">문제가 발생하여 \'재설정\' 버튼에 접근할 수 없는 경우 기기를 재부팅하지 마세요!\n대신 ADB 셸에 연결하여 다음 명령어를 입력하세요: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="shizuku_warning_systemless_description_new">루트 모드가 아니면 시스템에 영구적인 영향을 미치는 작업이 수행될 수 있습니다.\n\n이 앱을 제거할 생각이 있다면, 먼저 앱에서 FDE.AI 설정을 재설정하세요.</string>
-    <string name="non_root_autostart">Shizuku 서비스를 실행하여 FDE.AI를 시작하세요…</string>
+    <string name="debloat_title">불필요한 앱 비활성화</string>
+    <string name="debloat_descr">여기에서 시스템 속도를 높이기 위해 불필요한 앱으로 간주되는 일부 시스템 앱을 비활성화할 수 있습니다. 아래는 Universal Debloater Alliance에서 제거하도록 권장하는 앱 목록입니다.</string>
+    <string name="select_all">모두 선택</string>
+    <string name="clear_selection">선택 해제</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="other">%1$d개의 앱에 변경사항을 적용하시겠습니까?</item>
+    </plurals>
+    <string name="debloat_processing_progress">처리 중: %1$d/%2$d</string>
+    <string name="debloat_uninstall">제거</string>
+    <string name="debloat_no_apps">불필요한 앱이 없습니다.</string>
 </resources>

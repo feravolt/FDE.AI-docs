@@ -7,7 +7,7 @@
     <string name="ai_auto_mode">Bilans wydajności i oszczędzanie energii w oparciu o użycie urządzenia. Automatyczna modyfikacja Freqs daje więcej oszczędności energii.</string>
     <string name="ai_is_disabled">AI wyłączony</string>
     <string name="ai_log">Dziennik SI</string>
-    <string name="ai_mode">Tryb SI</string>
+    <string name="ai_mode">SI</string>
     <string name="ai_mode_auto">Auto</string>
     <string name="ai_modes_desc">OI działa w tle, uczy się używać i stosuje optymalizację systemu.</string>
     <string name="ai_off_detail">Gdy AI jest wyłączony, FDE działa jako jednorazowy optymalizator i nie optymalizuje w czasie rzeczywistym.</string>
@@ -285,5 +285,17 @@ Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegra
     <string name="wifi_psave_descr">Aby zmniejszyć ryzyko rozłączenia z Shizuku, możesz spróbować wyłączyć tryb uśpienia Wi-Fi, ale może to zwiększyć zużycie energii w stanie bezczynności.</string>
     <string name="downscale_warning">Jeśli coś pójdzie nie tak i nie będziesz mieć dostępu do przycisku „Reset” – nie restartuj urządzenia!\nZamiast tego połącz się z powłoką ADB i wpisz to polecenie: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="shizuku_warning_systemless_description_new">Tryb inny niż root może wykonywać działania, które trwale wpłyną na Twój system.\n\nJeśli rozważasz odinstalowanie tej aplikacji, zresetuj wcześniej ustawienia FDE.AI w aplikacji.</string>
-    <string name="non_root_autostart">Uruchom usługę Shizuku, aby uruchomić FDE.AI…</string>
+    <string name="debloat_title">Wyłącz bloatware</string>
+    <string name="debloat_descr">Tutaj możesz wyłączyć niektóre aplikacje systemowe uważane za bloatware, aby przyspieszyć system. Poniżej znajduje się zalecana lista aplikacji do usunięcia według Universal Debloater Alliance.</string>
+    <string name="select_all">Zaznacz wszystko</string>
+    <string name="clear_selection">Wyczyść zaznaczenie</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">Zastosować zmiany do %1$d aplikacji?</item>
+        <item quantity="few">Zastosować zmiany do %1$d aplikacji?</item>
+        <item quantity="many">Zastosować zmiany do %1$d aplikacji?</item>
+        <item quantity="other">Zastosować zmiany do %1$d aplikacji?</item>
+    </plurals>
+    <string name="debloat_uninstall">Odinstaluj</string>
+    <string name="debloat_processing_progress">Przetwarzanie: %1$d/%2$d</string>
+    <string name="debloat_no_apps">Brak niechcianych aplikacji.</string>
 </resources>

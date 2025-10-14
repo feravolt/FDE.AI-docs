@@ -7,7 +7,7 @@
     <string name="ai_auto_mode">Balanserar prestanda och energisparande baserat på enhetsanvändning. Freqs auto-tune ger mer strömsparande.</string>
     <string name="ai_is_disabled">AI inaktiverad</string>
     <string name="ai_log">AI-logg</string>
-    <string name="ai_mode">AI-läge</string>
+    <string name="ai_mode">AI</string>
     <string name="ai_mode_auto">Automatiskt</string>
     <string name="ai_modes_desc">AI körs i bakgrunden, lär sig användning, och tillämpar systemoptimeringar.</string>
     <string name="ai_off_detail">När AI är inaktiverad, FDE fungerar som en engångsoptimerare och optimerar inte i realtid.</string>
@@ -78,7 +78,7 @@
     <string name="doze_mode">Tvinga Doze läge</string>
     <string name="doze_sub_describtion">Aktivera för att komma in i Doze läge så snart skärmen är avstängd.</string>
     <string name="doze_system_desc">Doze-läge (Android 6.0+) minskar batterianvändningen genom att skjuta upp bakgrunden CPU och nätverksaktivitet när enheten är inaktiv.</string>
-    <string name="doze_whitelist">Doze vitlista</string>
+    <string name="doze_whitelist">Doze vit lista</string>
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
     <string name="extraopt_btn">Extra optimering</string>
     <string name="extraopt_desc">Optimera systemet genom att kompilera om ART cache för prestanda (använder mer internt minne) och trimma filsystemet för att förbättra minnesprestandan.</string>
@@ -285,5 +285,15 @@ Om problemet kvarstår, kontakta utvecklaren i Telegram.</string>
     <string name="wifi_psave_descr">För att minska risken för att du kopplas bort från Shizuku kan du försöka inaktivera WiFi-viloläge, men det kan öka strömförbrukningen vid viloläge.</string>
     <string name="downscale_warning">Om något går fel och du inte kan komma åt knappen "Återställ" - starta inte om enheten!\nAnslut istället till ADB-skalet och skriv följande kommando: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="shizuku_warning_systemless_description_new">Icke-root-läge kan utföra åtgärder som permanent påverkar ditt system.\n\nOm du någonsin funderar på att avinstallera den här appen - återställ FDE.AI-inställningarna i appen innan.</string>
-    <string name="non_root_autostart">Kör Shizuku-tjänsten för att starta FDE.AI…</string>
+    <string name="debloat_title">Inaktivera bloatware</string>
+    <string name="debloat_descr">Här kan du inaktivera vissa systemappar som anses vara bloatware för att snabba upp systemet. Nedan finns den rekommenderade listan över appar att ta bort från Universal‑Debloater‑Alliance.</string>
+    <string name="select_all">Markera alla</string>
+    <string name="clear_selection">Rensa markering</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">Tillämpa ändringar på %1$d app?</item>
+        <item quantity="other">Tillämpa ändringar på %1$d appar?</item>
+    </plurals>
+    <string name="debloat_processing_progress">Bearbetar: %1$d/%2$d</string>
+    <string name="debloat_uninstall">Avinstallera</string>
+    <string name="debloat_no_apps">Inga oönskade appar (bloatware).</string>
 </resources>

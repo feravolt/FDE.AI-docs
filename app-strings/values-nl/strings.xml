@@ -7,7 +7,7 @@
     <string name="ai_auto_mode">Saldo en energiebesparing op basis van apparaatgebruik. Freqs auto-tune geeft meer energiebesparing.</string>
     <string name="ai_is_disabled">AI uitgeschakeld</string>
     <string name="ai_log">AI Logboek</string>
-    <string name="ai_mode">AI modus</string>
+    <string name="ai_mode">AI</string>
     <string name="ai_mode_auto">Automatisch</string>
     <string name="ai_modes_desc">AI draait op de achtergrond, leert gebruik en past systeemoptimalisaties toe.</string>
     <string name="ai_off_detail">Als AI is uitgeschakeld, werkt FDE als eenmalige optimalisator en wordt niet in realtime geoptimaliseerd.</string>
@@ -285,5 +285,15 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="wifi_psave_descr">Om de kans te verkleinen dat de verbinding met Shizuku wordt verbroken, kunt u proberen de wifi-slaapstand uit te schakelen. Dit kan echter het stroomverbruik in rust verhogen.</string>
     <string name="downscale_warning">Als er iets misgaat en u de knop \'Reset\' niet kunt gebruiken, start het apparaat dan niet opnieuw op! Maak in plaats daarvan verbinding met de ADB-shell en voer deze opdracht in: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="shizuku_warning_systemless_description_new">De niet-rootmodus kan acties uitvoeren die uw systeem permanent beïnvloeden. Mocht u overwegen deze app te verwijderen, reset dan eerst de FDE.AI-instellingen in de app.</string>
-    <string name="non_root_autostart">Voer de Shizuku-service uit om FDE.AI te starten…</string>
+    <string name="debloat_title">Bloatware uitschakelen</string>
+    <string name="debloat_descr">Hier kun je enkele systeempapps uitschakelen die als bloatware worden beschouwd om het systeem te versnellen. Hieronder staat de aanbevolen verwijderlijst van Universal‑Debloater‑Alliance.</string>
+    <string name="select_all">Alles selecteren</string>
+    <string name="clear_selection">Selectie wissen</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">Wijzigingen toepassen op %1$d app?</item>
+        <item quantity="other">Wijzigingen toepassen op %1$d apps?</item>
+    </plurals>
+    <string name="debloat_processing_progress">Bezig: %1$d/%2$d</string>
+    <string name="debloat_uninstall">Verwijderen</string>
+    <string name="debloat_no_apps">Geen ongewenste apps (bloatware).</string>
 </resources>

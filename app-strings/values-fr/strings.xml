@@ -7,7 +7,7 @@
     <string name="ai_auto_mode">Balance les performances et l\'économie d\'énergie en fonction de l\'utilisation de l\'appareil. La fréquence d\'auto-tuning donne plus d\'économie d\'énergie.</string>
     <string name="ai_is_disabled">IA désactivée</string>
     <string name="ai_log">Journal d\'IA</string>
-    <string name="ai_mode">Mode IA</string>
+    <string name="ai_mode">IA</string>
     <string name="ai_mode_auto">Automatique</string>
     <string name="ai_modes_desc">L\'IA s\'exécute en arrière-plan, apprend l\'utilisation et applique les optimisations système.</string>
     <string name="ai_off_detail">Lorsque l\'IA est désactivée, FDE agit comme un optimiseur unique et n\'optimise pas en temps réel.</string>
@@ -285,5 +285,15 @@ Si le problème persiste, contactez le développeur sur Telegram.</string>
     <string name="wifi_psave_descr">Afin de réduire les risques de déconnexion avec Shizuku, vous pouvez essayer de désactiver le mode veille du Wi-Fi, mais cela peut augmenter la consommation d\'énergie en veille.</string>
     <string name="downscale_warning">Jika terjadi kesalahan dan Anda tidak dapat mengakses tombol \'Reset\' - jangan mulai ulang perangkat!\nSebaliknya, hubungkan ke shell ADB dan masukkan perintah ini: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="shizuku_warning_systemless_description_new">Mode non-root dapat melakukan tindakan yang akan memengaruhi sistem Anda secara permanen.\n\nJika Anda pernah mempertimbangkan untuk menghapus instalasi aplikasi ini - atur ulang pengaturan FDE.AI di aplikasi sebelumnya.</string>
-    <string name="non_root_autostart">Jalankan layanan Shizuku untuk memulai FDE.AI…</string>
+    <string name="debloat_title">Désactiver les bloatwares</string>
+    <string name="debloat_descr">Ici, vous pouvez désactiver certaines applications système considérées comme des bloatwares pour accélérer le système. Ci-dessous figure la liste d’apps à supprimer recommandée par l’Universal‑Debloater‑Alliance.</string>
+    <string name="select_all">Tout sélectionner</string>
+    <string name="clear_selection">Effacer la sélection</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">Appliquer les modifications à %1$d app ?</item>
+        <item quantity="other">Appliquer les modifications à %1$d apps ?</item>
+    </plurals>
+    <string name="debloat_processing_progress">Traitement : %1$d/%2$d</string>
+    <string name="debloat_uninstall">Désinstaller</string>
+    <string name="debloat_no_apps">Aucune application indésirable (bloatware).</string>
 </resources>

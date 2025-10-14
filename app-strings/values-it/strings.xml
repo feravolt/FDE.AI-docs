@@ -7,7 +7,7 @@
     <string name="ai_auto_mode">Bilancia prestazioni e risparmio energetico in base all\'uso del dispositivo. Freqs auto-tune dà più risparmio energetico.</string>
     <string name="ai_is_disabled">AI disabilitata</string>
     <string name="ai_log">Registro AI</string>
-    <string name="ai_mode">Modalità AI</string>
+    <string name="ai_mode">AI</string>
     <string name="ai_mode_auto">Automatico</string>
     <string name="ai_modes_desc">AI funziona in background, impara l\'uso, e applica ottimizzazioni di sistema.</string>
     <string name="ai_off_detail">Quando l\'IA è disabilitata, FDE agisce come ottimizzatore una tantum e non ottimizza in tempo reale.</string>
@@ -285,5 +285,15 @@ Se il problema persiste, contatta lo sviluppatore su Telegram.</string>
     <string name="wifi_psave_descr">Per ridurre il rischio di disconnessione da Shizuku, puoi provare a disattivare la modalità di sospensione del Wi-Fi, ma questo potrebbe aumentare il consumo energetico in caso di inattività.</string>
     <string name="downscale_warning">Se qualcosa va storto e non riesci ad accedere al pulsante "Reset", non riavviare il dispositivo!\nConnettiti invece alla shell ADB e inserisci questo comando: "adb shell wm size reset;wm density reset".</string>
     <string name="shizuku_warning_systemless_description_new">La modalità non root potrebbe eseguire azioni che influenzeranno in modo permanente il tuo sistema.\n\nSe dovessi mai pensare di disinstallare questa app, ripristina prima le impostazioni di FDE.AI nell\'app.</string>
-    <string name="non_root_autostart">Esegui il servizio Shizuku per avviare FDE.AI…</string>
+    <string name="debloat_title">Disattiva bloatware</string>
+    <string name="debloat_descr">Qui puoi disattivare alcune app di sistema considerate bloatware per velocizzare il sistema. Di seguito l’elenco consigliato di app da rimuovere di Universal‑Debloater‑Alliance.</string>
+    <string name="select_all">Seleziona tutto</string>
+    <string name="clear_selection">Pulisci selezione</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">Applicare le modifiche a %1$d app?</item>
+        <item quantity="other">Applicare le modifiche a %1$d app?</item>
+    </plurals>
+    <string name="debloat_processing_progress">Elaborazione: %1$d/%2$d</string>
+    <string name="debloat_uninstall">Disinstalla</string>
+    <string name="debloat_no_apps">Nessuna app indesiderata (bloatware).</string>
 </resources>

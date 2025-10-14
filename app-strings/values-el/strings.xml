@@ -7,7 +7,7 @@
     <string name="ai_auto_mode">Ισορροπεί την απόδοση και την εξοικονόμηση ενέργειας με βάση τη χρήση της συσκευής. Η αυτόματη ρύθμιση των συχνοτήτων δίνει περισσότερη εξοικονόμηση ενέργειας.</string>
     <string name="ai_is_disabled">AI απενεργοποιημένο</string>
     <string name="ai_log">Ιστορικό καταγραφής AI</string>
-    <string name="ai_mode">Λειτουργία AI</string>
+    <string name="ai_mode">AI</string>
     <string name="ai_mode_auto">Αυτόματο</string>
     <string name="ai_modes_desc">Το τρέχει στο παρασκήνιο, μαθαίνει μόνο του τη χρήση της συσκευής και εφαρμόζει βελτιστοποιήσεις στο σύστημα.</string>
     <string name="ai_off_detail">Όταν το AI είναι απενεργοποιημένο, το FDE ενεργεί μία φορά τη βελτιστοποίηση του συστήματος και δεν βελτιστοποιεί σε πραγματικό χρόνο.</string>
@@ -20,7 +20,7 @@
     <string name="ai_state_sleeping">Σε αδράνεια…</string>
     <string name="aiinfo">Πληροφορίες AI</string>
     <string name="core_tweaks_enable">Ενεργοποίηση τροποποιήσεων πυρήνα</string>
-    <string name="core_tweaks_enable_desc">Ενεργοποιήστε τις βασικές τροποποιήσεις. Συνιστάται η μόνιμη ενεργοποίηση.</string>
+    <string name="core_tweaks_enable_desc">Ενεργοποιήστε τις βασικές τροποποιήσεις. Συνιστάται η μόνιμη ��νεργοποίηση.</string>
     <string name="app_icon">Εικονίδιο εφαρμογής</string>
     <string name="app_theme">Θέμα</string>
     <string name="app_update_notification_title">Ενημέρωση του FDE.AI</string>
@@ -169,7 +169,7 @@
     <string name="reset_all_fde">Επαναφορά ρυθμίσεων FDE.AI</string>
     <string name="reset_downscale_onboot">Επαναφορά μετά την επανεκκίνηση</string>
     <string name="reset_art_dialog_text">Εκκαθάριση ART cache και επανεκκίνηση?</string>
-    <string name="start_art_dialog_text">Βελτιστοποίηση της μνήμης cache ART μπορεί να πάρει χρόνο, αιτία καθυστέρηση της συσκευής και υπερθέρμανση. Συνέχεια?</string>
+    <string name="start_art_dialog_text">Βελτιστοποίηση της μνήμης cache ART μπορεί να πάρει χρόνο, αιτία καθυστέρησης της συσκευής και υπερθέρμανση. Συνέχεια?</string>
     <string name="reset_fde_dialog_text">Επαναφορά όλων των ρυθμίσεων FDE.AI?</string>
     <string name="restart_fde_action">Επανεκκίνηση FDE.AI</string>
     <string name="restart_fde_in_progress">Restarting FDE.AI</string>
@@ -285,5 +285,15 @@
     <string name="wifi_psave_descr">Για να μειώσετε την πιθανότητα αποσύνδεσης από το Shizuku, μπορείτε να δοκιμάσετε να απενεργοποιήσετε τη λειτουργία αναστολής λειτουργίας WiFi, αλλά αυτό μπορεί να αυξήσει την κατανάλωση ενέργειας σε κατάσταση αδράνειας.</string>
     <string name="downscale_warning">Εάν κάτι πάει στραβά και δεν μπορείτε να αποκτήσετε πρόσβαση στο κουμπί \'Επαναφορά\' - μην επανεκκινήσετε τη συσκευή!\nΑντίθετα, συνδεθείτε στο κέλυφος ADB και εισαγάγετε αυτήν την εντολή: \'adb shell wm size reset;wm densite reset\'.</string>
     <string name="shizuku_warning_systemless_description_new">Η λειτουργία χωρίς root ενδέχεται να εκτελέσει ενέργειες που θα επηρεάσουν μόνιμα το σύστημά σας.\n\nΕάν σκεφτείτε ποτέ να απεγκαταστήσετε αυτήν την εφαρμογή, επαναφέρετε τις ρυθμίσεις FDE.AI στην εφαρμογή πριν.</string>
-    <string name="non_root_autostart">Εκτελέστε την υπηρεσία Shizuku για να ξεκινήσετε το FDE.AI…</string>
+    <string name="debloat_title">Απενεργοποίηση bloatware</string>
+    <string name="debloat_descr">Εδώ μπορείτε να απενεργοποιήσετε ορισμένες εφαρμογές συστήματος που θεωρούνται bloatware για να επιταχύνετε το σύστημα. Παρακάτω είναι η προτεινόμενη λίστα εφαρμογών προς κατάργηση από την Universal Debloater Alliance.</string>
+    <string name="select_all">Επιλογή όλων</string>
+    <string name="clear_selection">Εκκαθάριση επιλογής</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">Εφαρμογή αλλαγών σε %1$d εφαρμογή;</item>
+        <item quantity="other">Εφαρμογή αλλαγών σε %1$d εφαρμογές;</item>
+    </plurals>
+    <string name="debloat_processing_progress">Επεξεργασία: %1$d/%2$d</string>
+    <string name="debloat_uninstall">Απεγκατάσταση</string>
+    <string name="debloat_no_apps">Δεν υπάρχουν ανεπιθύμητες εφαρμογές (bloatware).</string>
 </resources>

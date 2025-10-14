@@ -6,7 +6,7 @@
     <string name="adaptive">Automaattinen</string>
     <string name="ai_auto_mode">Vaakojen suorituskyky ja laitteen käyttöön perustuva virransäästö. Freqs auto-tune lisää virransäästöä.</string>
     <string name="ai_is_disabled">Tekoäly poistettu käytöstä</string>
-    <string name="ai_log">Ai Loki</string>
+    <string name="ai_log">AI</string>
     <string name="ai_mode">tekoälyn tila</string>
     <string name="ai_mode_auto">Automaattinen</string>
     <string name="ai_modes_desc">Tekoäly toimii taustalla, oppii käytön ja soveltaa järjestelmän optimointia.</string>
@@ -285,5 +285,15 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="wifi_psave_descr">Voit yrittää poistaa Wi-Fi-lepotilan käytöstä Shizukun yhteyden katkeamisen riskin vähentämiseksi, mutta se voi lisätä lepotilan virrankulutusta.</string>
     <string name="downscale_warning">Jos jokin menee pieleen etkä pääse käyttämään \'Nollaa\'-painiketta, älä käynnistä laitetta uudelleen!\nYhdistä sen sijaan ADB-kuoreen ja anna tämä komento: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="shizuku_warning_systemless_description_new">Ei-root-tila voi suorittaa toimia, jotka vaikuttavat pysyvästi järjestelmääsi.\n\nJos harkitset tämän sovelluksen poistamista, palauta FDE.AI-asetukset sovelluksessa ennen sitä.</string>
-    <string name="non_root_autostart">Käynnistä FDE.AI suorittamalla Shizuku-palvelu…</string>
+    <string name="debloat_title">Poista bloatware käytöstä</string>
+    <string name="debloat_descr">Täällä voit poistaa käytöstä joitakin järjestelmäsovelluksia, joita pidetään bloatwaresina järjestelmän nopeuttamiseksi. Alla on Universal Debloater Alliancen suosittelema poistettavien sovellusten luettelo.</string>
+    <string name="select_all">Valitse kaikki</string>
+    <string name="clear_selection">Tyhjennä valinta</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">Sovellataanko muutokset %1$d sovellukseen?</item>
+        <item quantity="other">Sovellataanko muutokset %1$d sovellukseen?</item>
+    </plurals>
+    <string name="debloat_processing_progress">Käsittely: %1$d/%2$d</string>
+    <string name="debloat_uninstall">Poista asennus</string>
+    <string name="debloat_no_apps">Ei ei-toivottuja sovelluksia (bloatware).</string>
 </resources>

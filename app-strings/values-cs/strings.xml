@@ -7,7 +7,7 @@
     <string name="ai_auto_mode">Vyvážení výkonu a úspora energie na základě využití zařízení. Automatická regulace poskytuje větší úsporu energie.</string>
     <string name="ai_is_disabled">AI zakázáno</string>
     <string name="ai_log">Protokol AI</string>
-    <string name="ai_mode">Režim AI</string>
+    <string name="ai_mode">AI</string>
     <string name="ai_mode_auto">Automaticky</string>
     <string name="ai_modes_desc">AI běží na pozadí, naučuje se používat a aplikuje systémovou optimalizaci.</string>
     <string name="ai_off_detail">Pokud je AI vypnutá, FDE funguje jako jednorázový optimizér a neoptimalizuje se v reálném čase.</string>
@@ -285,5 +285,17 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="wifi_psave_descr">Abyste snížili pravděpodobnost odpojení od Shizuku, můžete zkusit vypnout režim spánku WiFi, ale to může zvýšit spotřebu energie v nečinnosti.</string>
     <string name="downscale_warning">Pokud se něco pokazí a tlačítko \'Reset\' nebudete mít přístup - nerestartujte zařízení!\nMísto toho se připojte k ADB shellu a zadejte tento příkaz: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="shizuku_warning_systemless_description_new">Režim bez oprávnění root může provádět akce, které trvale ovlivní váš systém.\n\nPokud někdy uvažujete o odinstalaci této aplikace - předtím resetujte nastavení FDE.AI v aplikaci.</string>
-    <string name="non_root_autostart">Spusťte službu Shizuku pro spuštění FDE.AI…</string>
+    <string name="debloat_title">Zakázat bloatware</string>
+    <string name="debloat_descr">Zde můžete deaktivovat některé systémové aplikace považované za bloatware pro zrychlení systému. Níže je doporučený seznam aplikací k odstranění od Universal‑Debloater‑Alliance.</string>
+    <string name="select_all">Vybrat vše</string>
+    <string name="clear_selection">Zrušit výběr</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">Použít změny na %1$d aplikaci?</item>
+        <item quantity="few">Použít změny na %1$d aplikace?</item>
+        <item quantity="many">Použít změny na %1$d aplikace?</item>
+        <item quantity="other">Použít změny u %1$d aplikací?</item>
+    </plurals>
+    <string name="debloat_processing_progress">Zpracování: %1$d/%2$d</string>
+    <string name="debloat_uninstall">Odinstalovat</string>
+    <string name="debloat_no_apps">Žádné nežádoucí aplikace (bloatware).</string>
 </resources>

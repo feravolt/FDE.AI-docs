@@ -7,7 +7,7 @@
     <string name="ai_auto_mode">Cihaz kullanımına bağlı olarak performansı ve güç tasarrufunu dengeler. Frekansların otomatik ayarı daha fazla güç tasarrufu sağlar.</string>
     <string name="ai_is_disabled">AI devre dışı</string>
     <string name="ai_log">AI Günlüğü</string>
-    <string name="ai_mode">AI modu</string>
+    <string name="ai_mode">AI</string>
     <string name="ai_mode_auto">Otomatik</string>
     <string name="ai_modes_desc">Yapay zeka arka planda çalışır, kullanımı öğrenir ve sistem optimizasyonlarını uygular.</string>
     <string name="ai_off_detail">Yapay zeka devre dışı bırakıldığında, FDE tek seferlik bir optimize edici görevi görür ve gerçek zamanlı olarak optimize etmez.</string>
@@ -285,5 +285,15 @@ Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="wifi_psave_descr">Shizuku ile bağlantınızın kesilme olasılığını azaltmak için Wi-Fi uyku modunu devre dışı bırakmayı deneyebilirsiniz, ancak bu durum boşta güç tüketimini artırabilir.</string>
     <string name="downscale_warning">Bir sorun çıkarsa ve \'Sıfırla\' düğmesine erişemiyorsanız, cihazı yeniden başlatmayın!\nBunun yerine ADB kabuğuna bağlanın ve şu komutu girin: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="shizuku_warning_systemless_description_new">Kök olmayan mod, sisteminizi kalıcı olarak etkileyecek eylemler gerçekleştirebilir.\n\nBu uygulamayı kaldırmayı düşünürseniz, uygulamadaki FDE.AI ayarlarını sıfırlayın.</string>
-    <string name="non_root_autostart">FDE.AI\'yi başlatmak için Shizuku hizmetini çalıştırın…</string>
+    <string name="debloat_title">Gereksiz yazılımları devre dışı bırak</string>
+    <string name="debloat_descr">Burada sisteminizi hızlandırmak için gereksiz (bloatware) sayılan bazı sistem uygulamalarını devre dışı bırakabilirsiniz. Aşağıda Universal‑Debloater‑Alliance tarafından önerilen kaldırılabilir uygulamalar listesi bulunur.</string>
+    <string name="select_all">Tümünü seç</string>
+    <string name="clear_selection">Seçimi temizle</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">%1$d uygulamaya değişiklik uygulansın mı?</item>
+        <item quantity="other">%1$d uygulamaya değişiklik uygulansın mı?</item>
+    </plurals>
+    <string name="debloat_processing_progress">İşleniyor: %1$d/%2$d</string>
+    <string name="debloat_uninstall">Kaldır</string>
+    <string name="debloat_no_apps">Gereksiz (istenmeyen) uygulama yok.</string>
 </resources>

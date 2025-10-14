@@ -7,7 +7,7 @@
     <string name="ai_auto_mode">Soldurile de performanță și economisirea energiei în funcție de utilizarea dispozitivului. Autotune Freqs oferă mai multă economisire de energie.</string>
     <string name="ai_is_disabled">AI dezactivat</string>
     <string name="ai_log">Jurnal AI</string>
-    <string name="ai_mode">Mod AI</string>
+    <string name="ai_mode">AI</string>
     <string name="ai_mode_auto">Automat</string>
     <string name="ai_modes_desc">AI rulează în fundal, învață utilizarea și aplică optimizări ale sistemului.</string>
     <string name="ai_off_detail">Când AI este dezactivat, FDE acţionează ca un optimizator de unică folosinţă şi nu se optimizează în timp real.</string>
@@ -285,5 +285,16 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="wifi_psave_descr">Pentru a reduce șansele de deconectare de la Shizuku, puteți încerca să dezactivați modul de repaus WiFi, dar acest lucru poate crește consumul de energie în inactivitate.</string>
     <string name="downscale_warning">Dacă ceva nu merge bine și nu puteți accesa butonul \'Resetare\' - nu reporniți dispozitivul!\nÎn schimb, conectați-vă la shell-ul ADB și introduceți această comandă: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="shizuku_warning_systemless_description_new">Modul non-root poate efectua acțiuni care vor afecta permanent sistemul.\n\nDacă vă gândiți vreodată să dezinstalați această aplicație - resetați setările FDE.AI din aplicație înainte.</string>
-    <string name="non_root_autostart">Rulați serviciul Shizuku pentru a porni FDE.AI…</string>
+    <string name="debloat_title">Dezactivează bloatware-ul</string>
+    <string name="debloat_descr">Aici poți dezactiva unele aplicații de sistem considerate bloatware pentru a accelera sistemul. Mai jos se află lista recomandată de aplicații de eliminat de către Universal‑Debloater‑Alliance.</string>
+    <string name="select_all">Selectează tot</string>
+    <string name="clear_selection">Golește selecția</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">Aplici modificările pentru %1$d aplicație?</item>
+        <item quantity="few">Aplici modificările pentru %1$d aplicații?</item>
+        <item quantity="other">Aplici modificările pentru %1$d aplicații?</item>
+    </plurals>
+    <string name="debloat_processing_progress">Procesare: %1$d/%2$d</string>
+    <string name="debloat_uninstall">Dezinstalare</string>
+    <string name="debloat_no_apps">Nu există aplicații nedorite (bloatware).</string>
 </resources>

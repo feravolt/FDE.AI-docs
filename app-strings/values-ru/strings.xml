@@ -7,7 +7,7 @@
     <string name="ai_auto_mode">Автоматическая оптимизация системы по сценарию использования. Автонастройка частот позволяет улучшить энергосбережение.</string>
     <string name="ai_is_disabled">ИИ выключен</string>
     <string name="ai_log">Лог ИИ</string>
-    <string name="ai_mode">Режим ИИ</string>
+    <string name="ai_mode">ИИ</string>
     <string name="ai_mode_auto">Авто</string>
     <string name="ai_modes_desc">ИИ в FDE всегда работает в фоне, обучается и анализирует сценарии использования, оптимизируя систему.</string>
     <string name="ai_off_detail">Когда ИИ отключен, FDE срабатывает только один раз (т.е. не оптимизирует систему \"на лету\")</string>
@@ -286,5 +286,20 @@
     <string name="wifi_psave_descr">Чтобы уменьшить шанс разрыва соединения с Shizuku вы можете попробовать отключить спящий режим WiFi, но это может увеличить энергопотребление.</string>
     <string name="downscale_warning">Если вдруг что-то пойдёт не так и у вас не будет доступа к кнопке \'Сброс\' - не перзагружайте устройство!\nВместо этого подключитесь к ADB shell введите команду: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="shizuku_warning_systemless_description_new">Режим без root может выполнять действия, которые безвозвратно повлияют на настройки вашей системы.\n\nЕсли вдруг вы решите удалить приложение - сначала сбросьте FDE.AI в настройках приложения.</string>
-    <string name="non_root_autostart">Запустите сервис Shizuku чтобы запустить FDE.AI…</string>
+    <!-- Actions contentDescription -->
+    <string name="select_all">Выбрать всё</string>
+    <string name="clear_selection">Снять выделение</string>
+    <!-- Debloat apply confirm (pluralized) -->
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">Применить изменения к %1$d приложению?</item>
+        <item quantity="few">Применить изменения к %1$d приложениям?</item>
+        <item quantity="many">Применить изменения к %1$d приложениям?</item>
+        <item quantity="other">Применить изменения к %1$d приложениям?</item>
+    </plurals>
+    <!-- Debloat processing progress in dialog -->
+    <string name="debloat_processing_progress">Обработка: %1$d/%2$d</string>
+    <string name="debloat_title">Мусорные приложения</string>
+    <string name="debloat_descr">Здесь вы можете отключить некоторые системные приложения, считающиеся мусорными, чтобы ускорить систему. Ниже приведён рекомендованный список приложений для отключения от Universal Debloater Alliance.</string>
+    <string name="debloat_uninstall">Удалить</string>
+    <string name="debloat_no_apps">Нет нежелательных приложений.</string>
 </resources>

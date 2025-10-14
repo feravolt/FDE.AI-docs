@@ -7,7 +7,7 @@
     <string name="ai_auto_mode">الموازنة بين الأداء وتوفير الطاقة طبقاً لاستخدام الجهاز، الضبط التلقائي للترددات يعمل على زيادة توفير الطاقة.</string>
     <string name="ai_is_disabled">AI معطل</string>
     <string name="ai_log">سجل الذاكرة</string>
-    <string name="ai_mode">وضع الذكاء</string>
+    <string name="ai_mode">وضع</string>
     <string name="ai_mode_auto">تلقائي</string>
     <string name="ai_modes_desc">AI يعمل في الخلفية، ويتعلم الاستخدام، ويطبق تحسينات النظام.</string>
     <string name="ai_off_detail">عندما يتم تعطيل الذكاء الاصطناعي، يعمل FDE كعامل تحسين لمرة واحدة ولا يحسن في الوقت الحقيقي.</string>
@@ -68,7 +68,7 @@
     <string name="description">الوصف</string>
     <string name="enable_ai">تمكين الذكاء</string>
     <string name="disable_logs">تعطيل السجلات</string>
-    <string name="disable_logs_desc">حدد هذا الخيار لتعطيل كافة السجلات والإحصائيات (باستثناء \"logcat\") وتقليل حجم مخزن logcat إلى 128 كيلوبايت.</string>
+    <string name="disable_logs_desc">حدد هذا الخيار لتعطيل كافة السجلات والإحصائيات (باستثناء "logcat") وتقليل حجم مخزن logcat إلى 128 كيلوبايت.</string>
     <string name="downscale_btn">خفض حجم التكيف</string>
     <string name="downscale_desc">خفض دقة الشاشة لتعزيز أداء GPU وحفظ البطارية، مع خسارة طفيفة لجودة الصورة. لا ينصح بالذهاب إلى أسفل نصف عرض الشاشة على الأقراص المخصصة (MIUI، EMUI، إلخ.) لتجنب تعطل واجهة المستخدم.</string>
     <string name="warning_no">لا</string>
@@ -285,5 +285,19 @@
     <string name="wifi_psave_descr">لتقليل احتمالية انقطاع الاتصال مع شيزوكو، يمكنك محاولة تعطيل وضع السكون للواي فاي، ولكن هذا قد يزيد من استهلاك الطاقة في وضع الخمول.</string>
     <string name="downscale_warning">إذا حدث أي خطأ ولم تتمكن من الوصول إلى زر "إعادة الضبط"، فلا تعيد تشغيل الجهاز!\nبدلاً من ذلك، اتصل بواجهة ADB وأدخل هذا الأمر: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="shizuku_warning_systemless_description_new">قد يؤدي وضع عدم استخدام الجذر إلى تنفيذ إجراءات تؤثر بشكل دائم على نظامك.\n\nإذا فكرت يومًا في إلغاء تثبيت هذا التطبيق، فأعد ضبط إعدادات FDE.AI في التطبيق مسبقًا.</string>
-    <string name="non_root_autostart">شغّل خدمة Shizuku لبدء تشغيل FDE.AI…</string>
+    <string name="debloat_title">تعطيل التطبيقات غير المرغوب فيها</string>
+    <string name="debloat_descr">هنا يمكنك تعطيل بعض تطبيقات النظام التي تُعد غير مرغوب فيها لتسريع النظام. أدناه توجد قائمة التطبيقات الموصى بإزالتها من Universal‑Debloater‑Alliance.</string>
+    <string name="select_all">تحديد الكل</string>
+    <string name="clear_selection">مسح التحديد</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="zero">تطبيق التغييرات على %1$d من التطبيقات؟</item>
+        <item quantity="one">تطبيق التغييرات على تطبيق واحد؟</item>
+        <item quantity="two">تطبيق التغييرات على تطبيقين؟</item>
+        <item quantity="few">تطبيق التغييرات على %1$d تطبيقات؟</item>
+        <item quantity="many">تطبيق التغييرات على %1$d تطبيقًا؟</item>
+        <item quantity="other">تطبيق التغييرات على %1$d من التطبيقات؟</item>
+    </plurals>
+    <string name="debloat_processing_progress">المعالجة: %1$d/%2$d</string>
+    <string name="debloat_uninstall">إلغاء التثبيت</string>
+    <string name="debloat_no_apps">لا توجد تطبيقات غير مرغوب فيها (bloatware).</string>
 </resources>

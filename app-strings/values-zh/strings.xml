@@ -7,7 +7,7 @@
     <string name="ai_auto_mode">基于设备使用情况的平衡性能和节能。Freqs 自动调节能会提供更多的省电。</string>
     <string name="ai_is_disabled">AI 已禁用</string>
     <string name="ai_log">AI 日志</string>
-    <string name="ai_mode">AI 模式</string>
+    <string name="ai_mode">AI</string>
     <string name="ai_mode_auto">自动操作</string>
     <string name="ai_modes_desc">AI 运行后台，学习用法，并应用系统优化。</string>
     <string name="ai_off_detail">当AI 被禁用时，FDE作为一次性优化器，不能实时优化。</string>
@@ -285,5 +285,14 @@
     <string name="wifi_psave_descr">为了减少与 Shizuku 断开连接的可能性，您可以尝试禁用 WiFi 睡眠模式，但这可能会增加空闲功耗。</string>
     <string name="downscale_warning">如果出现任何问题，导致您无法访问“重置”按钮，请勿重启设备！\n请连接到 ADB shell 并输入以下命令：“adb shell wm size reset;wm density reset”。</string>
     <string name="shizuku_warning_systemless_description_new">非 root 模式可能会执行永久影响系统的操作。\n\n如果您考虑卸载此应用，请先重置应用中的 FDE.AI 设置。</string>
-    <string name="non_root_autostart">运行 Shizuku 服务以启动 FDE.AI…</string>
+    <string name="debloat_title">禁用臃肿应用</string>
+    <string name="debloat_descr">在此可禁用一些被认为是臃肿软件的系统应用，以加快系统。下方为 Universal‑Debloater‑Alliance 推荐的可移除应用列表。</string>
+    <string name="select_all">全选</string>
+    <string name="clear_selection">清除选择</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="other">将更改应用到 %1$d 个应用？</item>
+    </plurals>
+    <string name="debloat_processing_progress">处理中: %1$d/%2$d</string>
+    <string name="debloat_uninstall">卸载</string>
+    <string name="debloat_no_apps">没有臃肿软件（不需要的应用）。</string>
 </resources>
