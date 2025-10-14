@@ -1,5 +1,28 @@
 ### Changelog
 
+## **v25.10.1**
+
+### New:
+
+— System apps debloater\
+— Auto re-connect to Shizuku\
+— Life time in AI notification
+
+### Improved:
+
+— Shizuku mode stability\
+— Application UI and performance\
+— FPS meter\
+— Core: performance
+
+### Fixed:
+
+— Language override for services\
+— Theme override for splash screen\
+— App freezes in Shizuku mode
+
+---
+
 ## **v25.07.6**
 
 ### New:
@@ -112,19 +135,3 @@
 — Data migration issues\
 — Core: VM memory management\
 — Core: removed AutoHZ in LPFPS
-
----
-
-## **v24.12.2**
-
-### New:
-
-— Initial android 16 support
-
-### Improved:
-
-— Log font style\
-— Core: optimal CPU frequency calculation\
-— Core: adaptive read-ahead\
-— Core: execution speed
-
