@@ -1,0 +1,5 @@
+{
+	"version": "25.10.1",
+	"changelog": "### New:\n* System apps debloater\n* Auto re-connect to Shizuku\n* Life time in AI notification\n### Improved:\n* Shizuku mode stability\n* Application UI and performance\n* FPS meter\n* Core: performance\n### Fixed:\n* Language override for services\n* Theme override for splash screen\n* App freezes in Shizuku mode",
+	"changelogrus": "### Добавлено:\n* Удаление мусорных приложений (деблоатер)\n* Автоматическое переподключение к Shizuku\n* Отображение времени работы в уведомлении ИИ\n### Улучшено:\n* Стабильность режима Shizuku\n* Интерфейс и производительность приложения\n* FPS метр\n* База: производительность\n### Исправлено:\n* Переопределение языка для служб\n* Переопределение темы для сплэш экрана\n* Зависания приложения в режиме Shizuku"
+}
