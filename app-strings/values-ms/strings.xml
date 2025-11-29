@@ -2,13 +2,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_app">Tentang</string>
     <string name="about_end_txt" tools:ignore="MissingTranslation">Dibuat dengan ❤️ oleh FeraVolt.</string>
+    <string name="acc_warning">Modul Pengawal Pengecasan Lanjutan (ACC) dikesan. Ia mungkin bercanggah dengan fungsi bateri FDE.AI.</string>
     <string name="accept">Terima</string>
     <string name="adaptive">Automatik</string>
     <string name="ai_auto_mode">Prestasi seimbang dan jimat-tenaga berdasarkan penggunaan peranti. Pelarasan-automatik frekuensi memberi lebih banyak penjimatan-tenaga.</string>
     <string name="ai_is_disabled">AI dimatikan</string>
+    <string name="ai_lifetime">AI lifetime</string>
     <string name="ai_log">Log AI</string>
     <string name="ai_mode">AI</string>
     <string name="ai_mode_auto">Automatik</string>
+    <string name="ai_modes">Mod AI</string>
     <string name="ai_modes_desc">AI beroperasi di belakang layar, mempelajari penggunaan, dan melaksanakan pengoptimuman sistem.</string>
     <string name="ai_off_detail">Jika AI dimatikan, FDE akan menjadi pengoptimum sekali sahaja dan tidak mengoptimumkan secara masa nyata.</string>
     <string name="ai_perf_mode">Optimumkan untuk prestasi. Memicu CPU/GPU turbo dengan kerap.</string>
@@ -19,8 +22,15 @@
     <string name="ai_state_ready">Berkerja</string>
     <string name="ai_state_sleeping">Tidur…</string>
     <string name="aiinfo">Info AI</string>
-    <string name="core_tweaks_enable">Membenarkan ubahsuai core</string>
-    <string name="core_tweaks_enable_desc">Membenarkan ubahsuai FDE utama. Digalakkan untuk sentiasa dipasang.</string>
+    <string name="already_premium">Sudah mempunyai premium?</string>
+    <string name="already_premium_txt">Jika anda sudah membeli pakej premium, tetapi FDE.AI tidak mengesannya - ikut langkah ini:\n\n
+1. Pastikan anda memuat turun salinan tulen apl FDE.AI daripada sumber rasmi dan semak cincang MD5.\n
+2. Pastikan ROM anda tidak mempunyai tandatangan spoof atau pengesahan yang dilumpuhkan.\n
+3. Nyahpasang pakej FDE.AI Premium dan apl FDE.AI.\n
+4. Kosongkan data apl Google Play.\n
+5. But semula peranti anda.\n
+6. Pasang pakej FDE.AI dan Premium.\n\n
+Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="app_icon">Icon aplikasi</string>
     <string name="app_theme">Tema</string>
     <string name="app_update_notification_title">Kemaskini FDE.AI</string>
@@ -30,8 +40,13 @@
     <string name="arrow_right">Anak panah ke kanan</string>
     <string name="arrow_up">Anak panah ke atas</string>
     <string name="attempt_root">Menunggu capaian root…</string>
+    <string name="auto_art_opt">Pengoptimuman ART Auto</string>
+    <string name="auto_data_save">Penjimat data</string>
+    <string name="auto_data_save_desc">Autodayakan penjimat data apabila skrin dimatikan.</string>
     <string name="auto_psave">Mod jimat-tenaga</string>
     <string name="auto_psave_desc">Pengaktifan-auto mod jimat-tenaga apabila skrin dimatikan.</string>
+    <string name="autodatasave_mode">Autodata save</string>
+    <string name="autopowersave_mode">Auto jimat kuasa</string>
     <string name="autostart">Automula</string>
     <string name="autostart_delay_hint">Lengah ditetapkan ke %1$ds</string>
     <string name="autostart_overlay">Mulakan statistik tindihan atas</string>
@@ -39,101 +54,147 @@
     <string name="batt_resistance">Rintangan</string>
     <string name="battery_health_sub">Tetapkan level untuk berhenti cas:</string>
     <string name="battery_health_toggle">Hadkan level cas maksimum</string>
-    <string name="battery_level_x" tools:ignore="MissingTranslation">Level: %1$s</string>
     <string name="battery_status">Status bateri</string>
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Suhu: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Voltan: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Pemakaian: %1$s</string>
     <string name="burnit">Pendikit</string>
-    <string name="greenbattery_title">Bateri</string>
+    <string name="burnit_btn">Lumpuhkan pendikit</string>
     <string name="bypassch_desc">Menghadkan arus pengecas ketika proses berat berjalan untuk menyesuaikan penggunaan peranti, mengurangkan pengecasan bateri dan pemanasan.</string>
     <string name="bypassch_title">Pintas pengecasan</string>
     <string name="cancel">Batal</string>
     <string name="changelog">Log penukaran</string>
     <string name="charge_time">Masa untuk cas penuh</string>
     <string name="charging">mengecas</string>
+    <string name="charging_bypass_enabled">Pintas pengecasan didayakan</string>
+    <string name="charging_cycles">Kitaran pengecasan:</string>
+    <string name="charging_limit">Had pengecasan</string>
+    <string name="charging_limit_enabled">Had pengecasan didayakan</string>
     <string name="check_for_updates_about">Periksa kemaskini pada permulaan</string>
     <string name="clean_cache">Bersihkan cache</string>
+    <string name="clean_cache_done_snack">Cache dibersihkan</string>
+    <string name="clean_cache_running_snack">Membersihkan cache…</string>
     <string name="clean_ram">Bersihkan RAM</string>
+    <string name="clean_ram_done_snack">RAM dibersihkan</string>
+    <string name="clean_ram_running_snack">Membersihkan RAM…</string>
     <string name="cleaning_desc">Bersihkan RAM dengan menutup aplikasi di belakang layar dan membersihkan storan dengan memadam fail cache.</string>
     <string name="cleaning_title">Membersihkan</string>
+    <string name="clear_selection">Kosongkan pilihan</string>
     <string name="close">Tutup</string>
+    <string name="common_cached">Tersimpan</string>
+    <string name="common_settings">Tetapan</string>
+    <string name="common_swap">Tukar</string>
+    <string name="common_wear">Haus</string>
+    <string name="common_x_total">%1$s jumlah</string>
+    <string name="common_x_used">%1$s digunakan</string>
     <string name="completed">selesai</string>
-    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>
+    <string name="core_tweaks_enable">Ubahsuai core</string>
+    <string name="core_tweaks_enable_desc">Membenarkan ubahsuai FDE utama. Digalakkan untuk sentiasa dipasang.</string>
+    <string name="cpu_bandwidth_tune">Penalaan lebar jalur CPU</string>
+    <string name="cpu_input_boost_tune">rangsangan input CPU</string>
     <string name="cpu_top_descr">Tindihan atas dengan 5 CPU-pemprosesan intensif teratas</string>
     <string name="cpu_top_header">Statistik proses</string>
+    <string name="cpu_turbo_support">Sokongan CPU Turbo</string>
+    <string name="cpu_turbo_trigger_count">Kiraan pencetus Turbo Turbo</string>
     <string name="current_resolution">Resolusi sekarang:</string>
     <string name="dark_theme">Gelap</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="other">Terapkan perubahan kepada %1$d apl?</item>
+    </plurals>
+    <string name="debloat_descr">Di sini anda boleh nyahdayakan beberapa aplikasi sistem yang dianggap bloatware untuk mempercepatkan sistem. Di bawah ialah senarai aplikasi yang disyorkan oleh Universal‑Debloater‑Alliance untuk dinyahpasang.</string>
+    <string name="debloat_no_apps">Tiada aplikasi bloatware (tidak diingini).</string>
+    <string name="debloat_processing_progress">Memproses: %1$d/%2$d</string>
+    <string name="debloat_title">Nyahdaya bloatware</string>
+    <string name="debloat_uninstall">Nyahpasang</string>
     <string name="debug_mode">Menyahpepijat</string>
     <string name="description">Keterangan</string>
-    <string name="enable_ai">Membenarkan AI</string>
     <string name="disable_logs">Lumpuhkan log</string>
     <string name="disable_logs_desc">Pilih untuk melumpuhkan semua log dan statistik (kecuali \"logcat\") dan kurangkan saiz penimbal logcat kepada 128 KB.</string>
+    <string name="dontkillmyapp_text">Anda menggunakan mod Shizuku. Untuk memastikan apl berfungsi dengan baik, sila lumpuhkan auto-bunuh untuk Shizuku dan FDE.AI. Adakah anda mahu melihat bagaimana?</string>
     <string name="downscale_btn">Penyesuaian penurunan skala</string>
     <string name="downscale_desc">Menurunkan resolusi skrin untuk menggalakkan prestasi GPU dan menjimatkan bateri, dengan sedikit perendahan kualiti gambar. Tidak digalakkan untuk merendahkan lebih dari setengah kelebaran skrin untuk ROM penyesuai (MIUI, EMUI, etc) untuk mengelakkan UI berserabut.</string>
-    <string name="warning_no">Tidak</string>
-    <string name="warning_title">Amaran!</string>
-    <string name="warning_yes">Ya</string>
+    <string name="downscale_notification" tools:ignore="PluralsCandidate">Tekan OK untuk mengesahkan peleraian baharu, atau ia akan ditetapkan semula dalam %1$d saat.</string>
+    <string name="downscale_warning">Jika apa-apa berlaku dan anda tidak boleh mengakses butang \'Reset\' - jangan but semula peranti!\nSebaliknya sambungkan ke shell ADB dan masukkan arahan ini: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI boleh mencetuskan mod Doze lebih awal. Jika isu timbul, senarai putih apl menggunakan butang di bawah.</string>
     <string name="doze_mode">Paksa mod lelap</string>
     <string name="doze_sub_describtion">Membolehkan untuk ke mod lelap selepas skrin padam.</string>
     <string name="doze_system_desc">Mod lelapkan (Android 6.0+) mengurangkan penggunaan bateri dengan menangguhkan CPU latar belakang dan aktiviti rangkaian apabila peranti melahu.</string>
     <string name="doze_whitelist">Senarai putih lelap</string>
+    <string name="dynamic_read_ahead">Baca ke hadapan dinamik</string>
+    <string name="emergency_cooldown">Cooldown Kecemasan</string>
+    <string name="emergency_cooldown_btn">Cooldown</string>
+    <string name="emergency_cooldown_desc">Apabila diaktifkan, ia akan mendayakan semula pendikit, mendayakan mod kapal terbang, mod penjimatan kuasa, mematikan apl latar belakang, melumpuhkan pengecasan dan menetapkan AI kepada mod penjimatan kuasa selama 100 saat, kemudian berbalik.</string>
+    <string name="enable_ai">Membenarkan AI</string>
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
+    <string name="exit_confirmation_text">Keluar tanpa menyimpan perubahan?</string>
+    <string name="exit_confirmation_title">Keluar?</string>
     <string name="extraopt_btn">Pengoptimuman tambahan</string>
     <string name="extraopt_desc">Optimumkan sistem dengan menyusun semula cache ART untuk prestasi (menggunakan lebih banyak memori dalaman) dan memangkas sistem fail untuk meningkatkan prestasi memori.</string>
     <string name="extraopt_do_btn">Mula</string>
     <string name="extraopt_reset_btn">Set semula pengoptimuman</string>
+    <string name="extraopt_schedule_title">Jadualkan untuk dijalankan setiap hari</string>
+    <string name="extraopt_scheduled_subtitle">Larian seterusnya pada %1$s:00</string>
     <string name="extraopt_warning">Ini bukan pengoptimuman sistemless. Mungkin akan merosakkan sistem untuk sebahagian ROMs penyesuai (memerlukan pembersihan ART cache di recovery). Simpan salinan data sebelum guna.</string>
-    <string name="acc_warning">Modul Pengawal Pengecasan Lanjutan (ACC) dikesan. Ia mungkin bercanggah dengan fungsi bateri FDE.AI.</string>
     <string name="fde_is_active">AI aktif</string>
     <string name="fde_is_inactive">AI tidak aktif</string>
     <string name="fde_on_reset_toast">Semua data FDE.AI akan ditetapkan semula. Apl akan ditutup.</string>
     <string name="finstall">Memulakan FDE.AI…</string>
-    <string name="monitoring_floating_window">Pemantauan</string>
+    <string name="force_doze_enabled">Paksa Lelap didayakan</string>
+    <string name="force_doze_trigger_count">Paksa Lelapkan kiraan pencetus</string>
     <string name="fps_checkbox">Pemantauan perkakasan &amp; FPS</string>
     <string name="fps_meter_desc">FPS masa nyata, CPU, GPU, RAM dan statistik penggunaan kuasa.</string>
-    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Avg: %1$s FPS</string>
-    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
-    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
+    <string name="fs_cache_tune">Penalaan cache FS</string>
     <string name="get_premium">Dapatkan FDE.AI Premium</string>
     <string name="go_back">Balik semula</string>
-    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="gpu_turbo_support">Sokongan GPU Turbo</string>
+    <string name="gpu_turbo_trigger_count">kiraan pencetus GPU Turbo</string>
     <string name="grantit">Anda mungkin perlu memberikan kebenaran autostart secara manual dalam pengurus kebenaran OS anda untuk membenarkan FDE.AI bermula selepas but OS.</string>
     <string name="greenbattery_desc">Memanjangkan hayat bateri dengan menghadkan level cas maksimum. Menghentikan pengecasan pada had yang ditetapkan dan cas semula pada 6 peratus di bawah had.</string>
+    <string name="greenbattery_title">Bateri</string>
     <string name="hour">h.</string>
+    <string name="hwinfo">Peranti</string>
     <string name="join_forum">XDA</string>
-    <string name="just_battery">Bateri</string>
+    <string name="just_check">Semak</string>
     <string name="just_ram">RAM</string>
     <string name="just_storage">Storan</string>
+    <string name="kernel_block">Kernel semasa %1$s menyekat pemasangan Premium. Sila pertimbangkan untuk memasang kernel lain.</string>
+    <string name="kernel_entropy_tune">Penalaan entropi kernel</string>
+    <string name="kernel_sched_boost">Rancangan penjadual kernel</string>
+    <string name="kernel_tuning_state">Penalaan kernel</string>
+    <string name="kill_bg_apps">Bunuh apl latar belakang</string>
     <string name="killbgapps_desc">Mematikan aplikasi latar belakang secara automatik apabila skrin dimatikan.</string>
     <string name="killbgapps_title">Mematikan aplikasi latar belakang</string>
+    <string name="lets_go">Jalankan</string>
     <string name="light_theme">Cerah</string>
     <string name="link_open_error" tools:ignore="MissingTranslation">Tidak dapat membuka pautan</string>
     <string name="links">Pautan</string>
     <string name="log_saved">Log disimpan ke /sdcard/fde.md</string>
     <string name="low_power_fps">FPS kuasa rendah</string>
     <string name="low_power_fps_short_desc">Tetapkan sasaran FPS - Frekuensi CPU/GPU akan dikurangkan untuk mengekalkan FPS dan menjimatkan kuasa.</string>
-    <string name="mem_available_x" tools:ignore="MissingTranslation">Ada: %1$s</string>
-    <string name="mem_cached_x" tools:ignore="MissingTranslation">Dicache: %1$s</string>
-    <string name="mem_total_x" tools:ignore="MissingTranslation">Jumlah: %1$s</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Gunakan: %1$s</string>
+    <string name="memory_boost_support">Tingkatkan ingatan</string>
     <string name="menu_dashboard">Utama</string>
+    <string name="migration_error">Ralat yang tidak dijangka berlaku semasa pemindahan data. Data akan dikosongkan.</string>
     <string name="min">min.</string>
+    <string name="monitoring_floating_window">Pemantauan</string>
     <string name="more_info">Info lanjut</string>
+    <string name="multi_core_power_saving_control">Penjimatan kuasa CPU berbilang teras</string>
     <string name="noroot">TIADA AKSES ROOT!</string>
     <string name="notification_ai_state">Notifikasi berterusan</string>
     <string name="notification_ai_state_desc">Tunjukkan mod AI semasa di notifikasi</string>
     <string name="notification_battery_state">Notifikasi bateri</string>
     <string name="notification_battery_state_desc">Tunjukkan info bateri secara ringkas di notifikasi</string>
+    <string name="notifications_and_feedback">Pemberitahuan dan maklum balas</string>
     <string name="offf">Tutup</string>
     <string name="older_changelogs" tools:ignore="MissingTranslation">Log perubahan lama</string>
     <string name="onboarding_eula_message">Sila terima perjanjian untuk meneruskan</string>
     <string name="onboarding_eula_summary_1">FDE.AI mengoptimumkan sistem anda dengan mengubahsuai pelbagai parameter sistem</string>
     <string name="onboarding_eula_summary_2">Pastikan anda mempunyai salinan data</string>
     <string name="onboarding_eula_summary_3">Kami tidak bertanggungjawab atas sebarang kerosakan.</string>
+    <string name="onboarding_eula_summary_4">Jangan gunakan tweak lain dengan FDE.AI.</string>
     <string name="onboarding_eula_summary_header">Ringkasan perjanjian</string>
+    <string name="onboarding_migrate_data">Versi terdahulu dikesan</string>
+    <string name="onboarding_migrate_data_description">Pindahkan data anda?</string>
     <string name="onboarding_preset_adaptive_summary">Gunakan ubahsuai dan selaraskan AI untuk penyelarasan secara automatik.</string>
     <string name="onboarding_preset_adaptive_title">Penyesuaian</string>
     <string name="onboarding_preset_off_summary">Tiada ubahsuai digunakan. Hanya peralatan yang boleh digunakan segera</string>
@@ -144,17 +205,28 @@
     <string name="onboarding_preset_powersave_title">Jimat tenaga</string>
     <string name="onboarding_presets">Pratetap</string>
     <string name="onboarding_see_full_eula">Lihat EULA penuh</string>
+    <string name="onboarding_select_mode_title">Pilih mod</string>
     <string name="onboarding_setup">Penyediaan</string>
     <string name="onboarding_setup_message">Pilih ubahsuai untuk digunakan. Anda boleh mengubah tetapan selepas penyediaan.</string>
-    <string name="onboarding_eula_summary_4">Jangan gunakan tweak lain dengan FDE.AI.</string>
-    <string name="onboarding_migrate_data">Versi terdahulu dikesan</string>
     <string name="open_os_dev_settings">Buka tetapan pembangunan Android</string>
     <string name="optimize_now">Optimumkan sekarang</string>
     <string name="other_settings">Tetapan lain</string>
+    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Avg: %1$s FPS</string>
+    <string name="overlay_battery_temp_x">Battery: %1$s°C</string>
+    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>
     <string name="overlay_desc_text">Aktifkan tetingkap terapung dengan statistik masa nyata untuk pemantauan.</string>
+    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
+    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
+    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
+    <string name="overlay_opacity_main">Kelegapan tindihan atas</string>
+    <string name="overlay_power_x">PWR: %1$s mAh</string>
+    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
+    <string name="overlay_scale_main">Skala tindanan</string>
     <string name="performance">Prestasi</string>
     <string name="power_checkbox">Penggunaan Kuasa</string>
     <string name="powersave">Jimat tenaga</string>
+    <string name="preload_pro_required">Apl Pramuat Pro diperlukan untuk ciri ini.</string>
     <string name="preload_title">Pramuat automatik</string>
     <string name="premium">⭐️ Dapatkan FDE.AI Premium ⭐️</string>
     <string name="premium_card_overlays_desc">Tingkap tindanan yang boleh disesuaikan dengan pelbagai statistik termasuk meter FPS.</string>
@@ -162,136 +234,72 @@
     <string name="premium_card_profiles_desc">Profil aplikasi yang boleh disesuaikan dengan banyak pilihan.</string>
     <string name="premium_text">Sokong FDE.AI dan buka kunci semua ciri eksklusif:</string>
     <string name="premium_thanks">Terima kasih atas sokongan anda! Anda membuka kunci ciri ini:</string>
-    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
+    <string name="profile_ai_mode_desc">Pilih mod AI semasa apl sedang digunakan.</string>
+    <string name="profiles_btn">Profil Aplikasi</string>
+    <string name="profiles_descr_txt">Profil penyesuai mengguna tetapan FDE.AI apabila aplikasi dijalankan dan kembali ke tetapan asal semula apabila dimatikan.</string>
     <string name="rate_app">Nilai FDE.AI</string>
     <string name="releases">Kemaskini</string>
     <string name="reset">Tetapkan semula</string>
     <string name="reset_all_fde">Tetapkan semula tetapan FDE.AI</string>
-    <string name="reset_downscale_onboot">Tetapkan semula selepas dihidupkan</string>
+    <string name="reset_app_list_confirmation_text">Tetapkan semula senarai apl?</string>
+    <string name="reset_app_list_confirmation_title">Tetapkan semula senarai</string>
     <string name="reset_art_dialog_text">Kosongkan cache ART dan but semula?</string>
-    <string name="start_art_dialog_text">Optimumkan ART cache mungkin mengambil masa, menyebabkan peranti perlahan dan panas. Teruskan?</string>
+    <string name="reset_downscale_onboot">Tetapkan semula selepas dihidupkan</string>
     <string name="reset_fde_dialog_text">Tetapkan semula semua tetapan FDE.AI?</string>
     <string name="restart_fde_action">Mulakan semula FDE.AI</string>
     <string name="restart_fde_in_progress">Memulakan semula FDE.AI</string>
     <string name="rm_fde_lite">Nyahpasang FDE.AI versi ringan dahulu!</string>
+    <string name="root_mode_descr">Semua ciri. Memerlukan akses root.</string>
     <string name="run_now">Jalankan</string>
     <string name="save_log">Simpan log</string>
     <string name="search_no_reset">Cari</string>
+    <string name="select_all">Pilih semua</string>
     <string name="share">Kongsi FDE.AI</string>
     <string name="share_txt">Cuba FDE.AI - Pengoptimuman Android yang hebat!</string>
-    <string name="profiles_btn">Profil Aplikasi</string>
-    <string name="profiles_descr_txt">Profil penyesuai mengguna tetapan FDE.AI apabila aplikasi dijalankan dan kembali ke tetapan asal semula apabila dimatikan.</string>
+    <string name="shizuku_broken_connection">Ralat! Sambungan ADB terputus, sila mulakan semula perkhidmatan Shizuku.</string>
+    <string name="shizuku_install_from_play_store">Pasang daripada Gedung Play</string>
+    <string name="shizuku_mode_descr">Kurang ciri, tiada akar diperlukan, Android 7+. Memerlukan apl Shizuku.</string>
+    <string name="shizuku_open_app">Buka Apl Shizuku</string>
+    <string name="shizuku_setup_instructions_title">Arahan Persediaan</string>
+    <string name="shizuku_setup_step_1">Pasang Shizuku</string>
+    <string name="shizuku_setup_step_2">Dayakan perkhidmatan Shizuku dalam apl</string>
+    <string name="shizuku_setup_step_3">Berikan kebenaran apabila digesa</string>
+    <string name="shizuku_setup_step_4">Kembali ke FDE.AI untuk meneruskan persediaan</string>
+    <string name="shizuku_setup_success">Shizuku telah disediakan dan anda sudah bersedia untuk pergi</string>
+    <string name="shizuku_warning_miui_description">Pengguna MIUI perlu mendayakan kebenaran pembangun tambahan untuk Shizuku berfungsi dengan betul.</string>
+    <string name="shizuku_warning_miui_title">Kebenaran Pembangun MIUI</string>
+    <string name="shizuku_warning_systemless_description_new">Mod bukan akar mungkin melakukan tindakan yang akan menjejaskan sistem anda secara kekal.\n\nJika anda pernah mempertimbangkan untuk menyahpasang apl ini - tetapkan semula tetapan FDE.AI dalam apl sebelum ini.</string>
+    <string name="sound_channel_name">Pemberitahuan Bunyi AI</string>
     <string name="sound_header">Bunyi</string>
-    <string name="start_toast">Memulakan FDE.AI…</string>
+    <string name="sound_notifications">Pemberitahuan bunyi</string>
+    <string name="start_art_dialog_text">Optimumkan ART cache mungkin mengambil masa, menyebabkan peranti perlahan dan panas. Teruskan?</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">Menunggu %1$d saat untuk memulakan FDE.AI…</string>
+    <string name="start_toast">Memulakan FDE.AI…</string>
     <string name="startup">Permulaan</string>
     <string name="stop_btn">Henti</string>
     <string name="third_party">Perpustakaan pihak ketiga</string>
-    <string name="throttling_description">Melumpuhkannya mengekalkan prestasi tetapi boleh menyebabkan terlalu panas dan pengecasan pantas atau kamera mungkin berhenti berfungsi.\nFDE.AI mendayakan semula pendikit semasa pengecasan secara lalai. Nyahtanda untuk melumpuhkan ini.</string>
+    <string name="throttling_deactivated">Pendikit dinyahaktifkan</string>
+    <string name="throttling_desc_new">Ini akan mengekalkan prestasi, tetapi boleh menyebabkan terlalu panas dan masalah dengan pengecasan pantas atau kamera.</string>
     <string name="throttling_fuse_desc">Dayakan semula pendikit secara automatik pada suhu ini untuk mengelakkan kerosakan.</string>
     <string name="throttling_fuse_header">Fius suhu</string>
     <string name="throttling_ignore_charging">Abaikan pengecasan</string>
+    <string name="throttling_ignore_charging_desc">Secara lalai, FDE mengaktifkan semula throttling semasa pengecasan. Tandakan pilihan ini untuk mematikan tingkah laku tersebut.</string>
+    <string name="throttling_ignore_on_charge">Pendikit abaikan pengecasan</string>
     <string name="throttling_system_desc">Pendikitan menghalang terlalu panas dengan mengurangkan frekuensi CPU/GPU.</string>
+    <string name="tile_available">Jubin pantas tersedia dalam bar status.</string>
+    <string name="tweaks_disabled">Semua tweak dilumpuhkan</string>
     <string name="un_fde_magisk">Nyahpasang modul FDE.AI Magisk dahulu!</string>
     <string name="unavailable">Tidak tersedia</string>
     <string name="update">Kemas kini</string>
     <string name="update_available">Boleh dapatkan kemaskini!</string>
     <string name="updating_toast">Memuat turun pek kemaskini…</string>
     <string name="vibration">Bergetar sekali</string>
-    <string name="warning_header">Amaran</string>
-    <string name="welcome">Selamat Datang</string>
-    <string name="overlay_opacity_main">Kelegapan tindihan atas</string>
-    <string name="tweaks_disabled">Semua tweak dilumpuhkan</string>
-    <string name="exit_confirmation_title">Keluar?</string>
-    <string name="exit_confirmation_text">Keluar tanpa menyimpan perubahan?</string>
-    <string name="sound_channel_name">Pemberitahuan Bunyi AI</string>
-    <string name="reset_app_list_confirmation_title">Tetapkan semula senarai</string>
-    <string name="reset_app_list_confirmation_text">Tetapkan semula senarai apl?</string>
-    <string name="downscale_notification" tools:ignore="PluralsCandidate">Tekan OK untuk mengesahkan peleraian baharu, atau ia akan ditetapkan semula dalam %1$d saat.</string>
-    <string name="onboarding_migrate_data_description">Pindahkan data anda?</string>
-    <string name="kernel_block">Kernel semasa %1$s menyekat pemasangan Premium. Sila pertimbangkan untuk memasang kernel lain.</string>
-    <string name="profile_ai_mode_desc">Pilih mod AI semasa apl sedang digunakan.</string>
-    <string name="preload_pro_required">Apl Pramuat Pro diperlukan untuk ciri ini.</string>
-    <string name="overlay_power_x">PWR: %1$s mAh</string>
-    <string name="overlay_battery_temp_x">Battery: %1$s°C</string>
-    <string name="overlay_scale_main">Skala tindanan</string>
-    <string name="emergency_cooldown">Cooldown Kecemasan</string>
-    <string name="emergency_cooldown_btn">Cooldown</string>
-    <string name="emergency_cooldown_desc">Apabila diaktifkan, ia akan mendayakan semula pendikit, mendayakan mod kapal terbang, mod penjimatan kuasa, mematikan apl latar belakang, melumpuhkan pengecasan dan menetapkan AI kepada mod penjimatan kuasa selama 100 saat, kemudian berbalik.</string>
-    <string name="hwinfo">Peranti</string>
-    <string name="ai_lifetime">AI lifetime</string>
-    <string name="kernel_tuning_state">Penalaan kernel</string>
-    <string name="cpu_turbo_support">Sokongan CPU Turbo</string>
-    <string name="cpu_turbo_trigger_count">Kiraan pencetus Turbo Turbo</string>
-    <string name="gpu_turbo_support">Sokongan GPU Turbo</string>
-    <string name="gpu_turbo_trigger_count">kiraan pencetus GPU Turbo</string>
-    <string name="force_doze_enabled">Paksa Lelap didayakan</string>
-    <string name="force_doze_trigger_count">Paksa Lelapkan kiraan pencetus</string>
-    <string name="throttling_deactivated">Pendikit dinyahaktifkan</string>
-    <string name="throttling_ignore_on_charge">Pendikit abaikan pengecasan</string>
-    <string name="kill_bg_apps">Bunuh apl latar belakang</string>
-    <string name="auto_art_opt">Pengoptimuman ART Auto</string>
-    <string name="dynamic_read_ahead">Baca ke hadapan dinamik</string>
-    <string name="charging_bypass_enabled">Pintas pengecasan didayakan</string>
-    <string name="charging_limit_enabled">Had pengecasan didayakan</string>
-    <string name="charging_cycles">Kitaran pengecasan:</string>
-    <string name="cpu_bandwidth_tune">Penalaan lebar jalur CPU</string>
-    <string name="fs_cache_tune">Penalaan cache FS</string>
     <string name="vm_cache_tune">Penalaan cache VM</string>
-    <string name="cpu_input_boost_tune">rangsangan input CPU</string>
-    <string name="kernel_entropy_tune">Penalaan entropi kernel</string>
-    <string name="kernel_sched_boost">Rancangan penjadual kernel</string>
-    <string name="multi_core_power_saving_control">Penjimatan kuasa CPU berbilang teras</string>
-    <string name="extraopt_schedule_title">Jadualkan untuk dijalankan setiap hari</string>
-    <string name="extraopt_schedule_time">Tetapkan masa autooptimum harian</string>
-    <string name="sound_notifications">Pemberitahuan bunyi</string>
-    <string name="migration_error">Ralat yang tidak dijangka berlaku semasa pemindahan data. Data akan dikosongkan.</string>
-    <string name="onboarding_select_mode_title">Pilih mod</string>
-    <string name="charging_limit">Had pengecasan</string>
-    <string name="auto_data_save">Penjimat data</string>
-    <string name="auto_data_save_desc">Autodayakan penjimat data apabila skrin dimatikan.</string>
-    <string name="autopowersave_mode">Auto jimat kuasa</string>
-    <string name="autodatasave_mode">Autodata save</string>
-    <string name="memory_boost_support">Tingkatkan ingatan</string>
-    <string name="root_mode_descr">Semua ciri. Memerlukan akses root.</string>
-    <string name="shizuku_mode_descr">Kurang ciri, tiada akar diperlukan, Android 7+. Memerlukan apl Shizuku.</string>
-    <string name="lets_go">Jalankan</string>
-    <string name="shizuku_setup_success">Shizuku telah disediakan dan anda sudah bersedia untuk pergi</string>
-    <string name="shizuku_setup_instructions_title">Arahan Persediaan</string>
-    <string name="shizuku_warning_systemless_title">Perhatian</string>
-    <string name="shizuku_warning_miui_title">Kebenaran Pembangun MIUI</string>
-    <string name="shizuku_warning_miui_description">Pengguna MIUI perlu mendayakan kebenaran pembangun tambahan untuk Shizuku berfungsi dengan betul.</string>
-    <string name="shizuku_install_from_play_store">Pasang daripada Gedung Play</string>
-    <string name="shizuku_open_app">Buka Apl Shizuku</string>
-    <string name="shizuku_setup_step_1">Pasang Shizuku</string>
-    <string name="shizuku_setup_step_2">Dayakan perkhidmatan Shizuku dalam apl</string>
-    <string name="shizuku_setup_step_3">Berikan kebenaran apabila digesa</string>
-    <string name="shizuku_setup_step_4">Kembali ke FDE.AI untuk meneruskan persediaan</string>
-    <string name="shizuku_broken_connection">Ralat! Sambungan ADB terputus, sila mulakan semula perkhidmatan Shizuku.</string>
-    <string name="just_check">Semak</string>
-    <string name="dontkillmyapp_text">Anda menggunakan mod Shizuku. Untuk memastikan apl berfungsi dengan baik, sila lumpuhkan auto-bunuh untuk Shizuku dan FDE.AI. Adakah anda mahu melihat bagaimana?</string>
-    <string name="burnit_btn">Lumpuhkan pendikit</string>
-    <string name="already_premium">Sudah mempunyai premium?</string>
-    <string name="already_premium_txt">Jika anda sudah membeli pakej premium, tetapi FDE.AI tidak mengesannya - ikut langkah ini:\n\n
-1. Pastikan anda memuat turun salinan tulen apl FDE.AI daripada sumber rasmi dan semak cincang MD5.\n
-2. Pastikan ROM anda tidak mempunyai tandatangan spoof atau pengesahan yang dilumpuhkan.\n
-3. Nyahpasang pakej FDE.AI Premium dan apl FDE.AI.\n
-4. Kosongkan data apl Google Play.\n
-5. But semula peranti anda.\n
-6. Pasang pakej FDE.AI dan Premium.\n\n
-Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
-    <string name="wifi_psave_header">Lumpuhkan mod tidur WiFi</string>
+    <string name="warning_header">Amaran</string>
+    <string name="warning_no">Tidak</string>
+    <string name="warning_title">Amaran!</string>
+    <string name="warning_yes">Ya</string>
+    <string name="welcome">Selamat Datang</string>
     <string name="wifi_psave_descr">Untuk mengurangkan kemungkinan memutuskan sambungan dengan Shizuku, anda boleh cuba melumpuhkan mod tidur WiFi, tetapi ini mungkin meningkatkan penggunaan kuasa melahu.</string>
-    <string name="downscale_warning">Jika apa-apa berlaku dan anda tidak boleh mengakses butang \'Reset\' - jangan but semula peranti!\nSebaliknya sambungkan ke shell ADB dan masukkan arahan ini: \'adb shell wm size reset;wm density reset\'.</string>
-    <string name="shizuku_warning_systemless_description_new">Mod bukan akar mungkin melakukan tindakan yang akan menjejaskan sistem anda secara kekal.\n\nJika anda pernah mempertimbangkan untuk menyahpasang apl ini - tetapkan semula tetapan FDE.AI dalam apl sebelum ini.</string>
-    <string name="debloat_title">Nyahdaya bloatware</string>
-    <string name="debloat_descr">Di sini anda boleh nyahdayakan beberapa aplikasi sistem yang dianggap bloatware untuk mempercepatkan sistem. Di bawah ialah senarai aplikasi yang disyorkan oleh Universal‑Debloater‑Alliance untuk dinyahpasang.</string>
-    <string name="select_all">Pilih semua</string>
-    <string name="clear_selection">Kosongkan pilihan</string>
-    <plurals name="debloat_apply_confirm_text">
-        <item quantity="other">Terapkan perubahan kepada %1$d apl?</item>
-    </plurals>
-    <string name="debloat_processing_progress">Memproses: %1$d/%2$d</string>
-    <string name="debloat_uninstall">Nyahpasang</string>
-    <string name="debloat_no_apps">Tiada aplikasi bloatware (tidak diingini).</string>
+    <string name="wifi_psave_header">Lumpuhkan mod tidur WiFi</string>
 </resources>

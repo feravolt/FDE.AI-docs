@@ -2,13 +2,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_app">Tietoja</string>
     <string name="about_end_txt" tools:ignore="MissingTranslation">Valmistettu ❤️ FeraVoltin toimesta.</string>
+    <string name="acc_warning">Natukoy ang module ng Advanced Charging Controller (ACC). Maaari itong sumalungat sa mga function ng baterya ng FDE.AI.</string>
     <string name="accept">Hyväksy</string>
     <string name="adaptive">Automaattinen</string>
     <string name="ai_auto_mode">Vaakojen suorituskyky ja laitteen käyttöön perustuva virransäästö. Freqs auto-tune lisää virransäästöä.</string>
     <string name="ai_is_disabled">Tekoäly poistettu käytöstä</string>
+    <string name="ai_lifetime">Tekoälyn käyttöikä</string>
     <string name="ai_log">AI</string>
     <string name="ai_mode">tekoälyn tila</string>
     <string name="ai_mode_auto">Automaattinen</string>
+    <string name="ai_modes">AI-tilat</string>
     <string name="ai_modes_desc">Tekoäly toimii taustalla, oppii käytön ja soveltaa järjestelmän optimointia.</string>
     <string name="ai_off_detail">Kun tekoäly on poistettu käytöstä, FDE toimii kertakäyttöisenä optimointilaitteena eikä optimoi reaaliajassa.</string>
     <string name="ai_perf_mode">Optimoi suorituskykyä. Käynnistää CPU/GPU turboja usein.</string>
@@ -19,8 +22,15 @@
     <string name="ai_state_ready">Työskentely</string>
     <string name="ai_state_sleeping">Nukkuminen…</string>
     <string name="aiinfo">AI info</string>
-    <string name="core_tweaks_enable">Ota ytimen muokkaukset käyttöön</string>
-    <string name="core_tweaks_enable_desc">Ota käyttöön FDE: n tärkeimmät tekstit. Suositellaan jatkaa.</string>
+    <string name="already_premium">Onko sinulla jo premium?</string>
+    <string name="already_premium_txt">Jos olet jo ostanut premium-paketin, mutta FDE.AI ei tunnista sitä, toimi seuraavasti:\n\n
+1. Varmista, että latasit FDE.AI-sovelluksen aidon kopion virallisista lähteistä ja tarkista MD5-hajautus.\n
+2. Varmista, että ROM-muistissasi ei ole allekirjoituksen huijausta tai vahvistusta poistettu käytöstä.\n
+3. Poista sekä FDE.AI Premium -paketin että FDE.AI-sovelluksen asennus.\n
+4. Tyhjennä Google Play -sovelluksen tiedot.\n
+5. Käynnistä laitteesi uudelleen.\n
+6. Asenna FDE.AI ja Premium-paketti.\n\n
+Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="app_icon">Sovelluksen kuvake</string>
     <string name="app_theme">Teema</string>
     <string name="app_update_notification_title">FDE.AI päivitys</string>
@@ -30,8 +40,13 @@
     <string name="arrow_right">Nuoli oikealle</string>
     <string name="arrow_up">Nuoli ylös</string>
     <string name="attempt_root">Odotetaan root-oikeuksia…</string>
+    <string name="auto_art_opt">Automaattinen ART-optimointi</string>
+    <string name="auto_data_save">Tiedonsäästö</string>
+    <string name="auto_data_save_desc">Ota tiedonsäästö automaattisesti käyttöön, kun näyttö on pois päältä.</string>
     <string name="auto_psave">Virransäästötila</string>
     <string name="auto_psave_desc">Ota virransäästötila automaattisesti käyttöön, kun näyttö on pois päältä.</string>
+    <string name="autodatasave_mode">Automaattinen tietojen tallennus</string>
+    <string name="autopowersave_mode">Automaattinen virransäästö</string>
     <string name="autostart">Autostart</string>
     <string name="autostart_delay_hint">Viive asetettu %1$ds</string>
     <string name="autostart_overlay">Aloita tilastojen peitto</string>
@@ -39,101 +54,148 @@
     <string name="batt_resistance">Vastus</string>
     <string name="battery_health_sub">Aseta taso, joka pysäyttää latauksen:</string>
     <string name="battery_health_toggle">Rajoita maksimilataustasoa</string>
-    <string name="battery_level_x" tools:ignore="MissingTranslation">Taso: %1$s</string>
     <string name="battery_status">Akun tila</string>
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Lämpötila: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Jännite: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Wear: %1$s</string>
     <string name="burnit">Kaasutuksen rajoitus</string>
-    <string name="greenbattery_title">Akku</string>
+    <string name="burnit_btn">Poista kuristus käytöstä</string>
     <string name="bypassch_desc">Rajoittaa laturin virtaa raskaiden prosessien aikana laitteen käyttöön ja vähentää akun latausta ja lämmitystä.</string>
     <string name="bypassch_title">Latauksen ohitus</string>
     <string name="cancel">Peruuta</string>
     <string name="changelog">Muutosloki</string>
     <string name="charge_time">Aika täyteen lataukseen</string>
     <string name="charging">latautuu</string>
+    <string name="charging_bypass_enabled">Latauksen ohitus käytössä</string>
+    <string name="charging_cycles">Latausjaksot:</string>
+    <string name="charging_limit">Latausraja</string>
+    <string name="charging_limit_enabled">Latausraja käytössä</string>
     <string name="check_for_updates_about">Tarkista päivitykset käynnistettäessä</string>
     <string name="clean_cache">Puhdista välimuisti</string>
-    <string name="clean_ram">Clean RAM</string>
+    <string name="clean_cache_done_snack">Välimuisti tyhjennetty</string>
+    <string name="clean_cache_running_snack">Tyhjennetään välimuistia…</string>
+    <string name="clean_ram">Puhdista RAM</string>
+    <string name="clean_ram_done_snack">RAM puhdistettu</string>
+    <string name="clean_ram_running_snack">Puhdistetaan RAM:ia…</string>
     <string name="cleaning_desc">Puhdista RAM sulkemalla taustasovelluksia ja ilmaisen tallennustilan poistamalla välimuistitiedostoja.</string>
     <string name="cleaning_title">Puhdistus</string>
+    <string name="clear_selection">Tyhjennä valinta</string>
     <string name="close">Sulje</string>
+    <string name="common_cached">Välimuisti</string>
+    <string name="common_settings">Asetukset</string>
+    <string name="common_swap">Vaihtaminen</string>
+    <string name="common_wear">Kuluminen</string>
+    <string name="common_x_total">%1$s yhteensä</string>
+    <string name="common_x_used">%1$s käytetty</string>
     <string name="completed">valmis</string>
-    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">Suoritin: %1$s%%</string>
+    <string name="core_tweaks_enable">Ytimen muokkaukset</string>
+    <string name="core_tweaks_enable_desc">Ota käyttöön FDE: n tärkeimmät tekstit. Suositellaan jatkaa.</string>
+    <string name="cpu_bandwidth_tune">CPU:n kaistanleveyden viritys</string>
+    <string name="cpu_input_boost_tune">CPU-syötön tehostaminen</string>
     <string name="cpu_top_descr">Peittokuva top 5 CPU-intensiivisiä prosesseja</string>
     <string name="cpu_top_header">Prosessin tilastot</string>
+    <string name="cpu_turbo_support">CPU Turbo -tuki</string>
+    <string name="cpu_turbo_trigger_count">CPU Turbo -triggereiden määrä</string>
     <string name="current_resolution">Nykyinen resoluutio:</string>
     <string name="dark_theme">Tumma</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">Sovellataanko muutokset %1$d sovellukseen?</item>
+        <item quantity="other">Sovellataanko muutokset %1$d sovellukseen?</item>
+    </plurals>
+    <string name="debloat_descr">Täällä voit poistaa käytöstä joitakin järjestelmäsovelluksia, joita pidetään bloatwaresina järjestelmän nopeuttamiseksi. Alla on Universal Debloater Alliancen suosittelema poistettavien sovellusten luettelo.</string>
+    <string name="debloat_no_apps">Ei ei-toivottuja sovelluksia (bloatware).</string>
+    <string name="debloat_processing_progress">Käsittely: %1$d/%2$d</string>
+    <string name="debloat_title">Poista bloatware käytöstä</string>
+    <string name="debloat_uninstall">Poista asennus</string>
     <string name="debug_mode">Vianetsintä</string>
     <string name="description">Kuvaus</string>
-    <string name="enable_ai">Ota AI Käyttöön</string>
     <string name="disable_logs">Poista lokit käytöstä</string>
     <string name="disable_logs_desc">Valitse, jos haluat poistaa käytöstä kaikki lokit ja tilastot (paitsi \"logcat\") ja pienentää logcat-puskurin kokoa 128 kilotavuun.</string>
+    <string name="dontkillmyapp_text">Käytät Shizuku-tilaa. Jotta sovellus toimisi hyvin, poista automaattinen tappaminen käytöstä Shizukulle ja FDE.AI:lle. Haluatko nähdä miten?</string>
     <string name="downscale_btn">Sopeutuva alasajo</string>
     <string name="downscale_desc">Pienempi näytön resoluutio lisätäksesi näytönohjaimen suorituskykyä ja säästääksesi akkua, jossa kuvan laatu on vähäinen. Ei ole suositeltavaa mennä alle puolet näytön leveys mukautettujen ROMien (MIUI, EMUI jne.) välttää käyttöliittymän kaatumista.</string>
-    <string name="warning_no">Ei</string>
-    <string name="warning_title">Varoitus!</string>
-    <string name="warning_yes">Kyllä</string>
+    <string name="downscale_notification" tools:ignore="PluralsCandidate">Paina OK vahvistaaksesi uuden resoluution, tai se nollaa %1$d sekunnissa.</string>
+    <string name="downscale_warning">Jos jokin menee pieleen etkä pääse käyttämään \'Nollaa\'-painiketta, älä käynnistä laitetta uudelleen!\nYhdistä sen sijaan ADB-kuoreen ja anna tämä komento: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI voi laukaista Doze-tilan aikaisemmin. Jos ongelmia ilmenee, listaa sovellukset käyttämällä alla olevaa painiketta.</string>
     <string name="doze_mode">Pakota Doze tila</string>
     <string name="doze_sub_describtion">Ota käyttöön siirtyäksesi Doze-tilaan heti, kun näyttö on pois päältä.</string>
     <string name="doze_system_desc">Doze tila (Android 6.0 +) vähentää akun käyttöä lykkäämällä taustaprosessorin ja verkon toimintaa laitteen ollessa käyttämätön.</string>
     <string name="doze_whitelist">Sovelletaan valkoiseen listaan</string>
+    <string name="dynamic_read_ahead">Dynaaminen eteenpäinluku</string>
+    <string name="emergency_cooldown">Hätätilanteiden Jäähdytys</string>
+    <string name="emergency_cooldown_btn">Jäähdytys</string>
+    <string name="emergency_cooldown_desc">Kun se aktivoituu, se ottaa kurkun uudelleen käyttöön, ota käyttöön lentotila, virransäästötila, tappaa taustasovellukset, poista lataus käytöstä ja aseta tekoäly virransäästötilaan 100 sekunnin ajan ja peru.</string>
+    <string name="enable_ai">Ota AI Käyttöön</string>
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
+    <string name="exit_confirmation_text">Poistu tallentamatta muutoksia?</string>
+    <string name="exit_confirmation_title">Poistetaan?</string>
     <string name="extraopt_btn">Ylimääräinen optimointi</string>
     <string name="extraopt_desc">Optimoi järjestelmä kääntämällä ART-välimuisti uudelleen suorituskykyä varten (käyttää enemmän sisäistä muistia) ja leikata tiedostojärjestelmä parantamaan muistin suorituskykyä.</string>
     <string name="extraopt_do_btn">Aloita</string>
     <string name="extraopt_reset_btn">Nollaa optimointi</string>
+    <string name="extraopt_schedule_title">Ajoita päivittäinen suoritus</string>
+    <string name="extraopt_scheduled_subtitle">Seuraava ajo klo %1$s:00</string>
     <string name="extraopt_warning">Tämä ei ole järjestelmätön optimointi. Voi rikkoa järjestelmän joitakin mukautettuja ROMit (vaatii tyhjentää ART välimuisti recovery). Varmuuskopioi tiedot ennen käyttöä.</string>
-    <string name="acc_warning">Natukoy ang module ng Advanced Charging Controller (ACC). Maaari itong sumalungat sa mga function ng baterya ng FDE.AI.</string>
     <string name="fde_is_active">AI aktiivinen</string>
     <string name="fde_is_inactive">AI inactive</string>
     <string name="fde_on_reset_toast">Kaikki FDE.AI-tiedot nollataan. Sovellus suljetaan.</string>
     <string name="finstall">Installing FDE.AI…</string>
-    <string name="monitoring_floating_window">Seuranta</string>
+    <string name="force_doze_enabled">Pakota torkku käytössä</string>
+    <string name="force_doze_trigger_count">Pakota torkkulaukaisimen määrä</string>
     <string name="fps_checkbox">Laitteistovalvonta &amp; FPS</string>
     <string name="fps_meter_desc">Reaaliaikaiset FPS, CPU, GPU, RAM ja virrankäyttötilastot.</string>
-    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Keskin: %1$s FPS</string>
-    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
-    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s Mt</string>
+    <string name="fs_cache_tune">FS-välimuistin viritys</string>
     <string name="get_premium">Get FDE.AI Premium</string>
     <string name="go_back">Mene takaisin</string>
-    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="gpu_turbo_support">GPU Turbo -tuki</string>
+    <string name="gpu_turbo_trigger_count">GPU Turbo -triggereiden määrä</string>
     <string name="grantit">Saatat joutua manuaalisesti myöntämään käyttöjärjestelmäsi käyttöoikeuksien hallinnassa käyttöoikeuden automaattiseen käynnistykseen, jotta FDE.AI voi aloittaa käyttöjärjestelmän käynnistyksen jälkeen.</string>
     <string name="greenbattery_desc">Laajenna akun kestoa rajoittamalla maksimilataustasoa. Lopeta lataaminen määritetyllä kynnysarvolla ja käynnistä uudelleen 6 prosentin alapuolella.</string>
+    <string name="greenbattery_title">Akku</string>
     <string name="hour">h.</string>
+    <string name="hwinfo">Laite</string>
     <string name="join_forum">XDA</string>
-    <string name="just_battery">Akku</string>
+    <string name="just_check">Tarkista</string>
     <string name="just_ram">RAM</string>
     <string name="just_storage">Tallennustila</string>
+    <string name="kernel_block">Nykyinen ytimen %1$s estää Premium-asennuksen. Harkitse toisen ytimen asentamista.</string>
+    <string name="kernel_entropy_tune">Ytimen entropian viritys</string>
+    <string name="kernel_sched_boost">Ytimen ajastimen tehostus</string>
+    <string name="kernel_tuning_state">Ytimen viritys</string>
+    <string name="kill_bg_apps">Tapa taustasovellukset</string>
     <string name="killbgapps_desc">Lopeta taustasovellukset automaattisesti, kun näyttö on pois päältä.</string>
     <string name="killbgapps_title">Tapa taustasovellukset</string>
+    <string name="lets_go">Suorita</string>
     <string name="light_theme">Vaalea</string>
     <string name="link_open_error" tools:ignore="MissingTranslation">Linkkiä ei voi avata</string>
     <string name="links">Linkit</string>
     <string name="log_saved">Loki tallennettu tiedostoon /sdcard/fde.md</string>
     <string name="low_power_fps">Matala teho FPS</string>
     <string name="low_power_fps_short_desc">Aseta tavoite FPS - CPU/GPU taajuuksia vähennetään säilyttää FPS ja säästää virtaa.</string>
-    <string name="mem_available_x" tools:ignore="MissingTranslation">Saatavissa: %1$s</string>
-    <string name="mem_cached_x" tools:ignore="MissingTranslation">Välimuisti: %1$s</string>
-    <string name="mem_total_x" tools:ignore="MissingTranslation">Yhteensä: %1$s</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Käytetty: %1$s</string>
+    <string name="memory_boost_support">Muistin lisäys</string>
     <string name="menu_dashboard">Koti</string>
+    <string name="migration_error">Tietojen siirron aikana tapahtui odottamaton virhe. Tiedot tyhjennetään.</string>
     <string name="min">min</string>
+    <string name="monitoring_floating_window">Seuranta</string>
     <string name="more_info">Lisää tietoja</string>
+    <string name="multi_core_power_saving_control">Moniytiminen suorittimen virransäästö</string>
     <string name="noroot">EI KÄYTÖSSÄ!</string>
     <string name="notification_ai_state">Pysyvä ilmoitus</string>
     <string name="notification_ai_state_desc">Näyttää ilmoituksen nykyisen tekoälyn tilan</string>
     <string name="notification_battery_state">Akun ilmoitus</string>
     <string name="notification_battery_state_desc">Näyttää lyhyen akun tiedot ilmoituksessa</string>
+    <string name="notifications_and_feedback">Ilmoitukset ja palaute</string>
     <string name="offf">Pois</string>
     <string name="older_changelogs" tools:ignore="MissingTranslation">Vanhemmat muutoslokit</string>
     <string name="onboarding_eula_message">Pyydän teitä hyväksymään suostumuksemme jatkaa</string>
     <string name="onboarding_eula_summary_1">FDE.AI optimoi järjestelmäsi muokkaamalla erilaisia järjestelmäparametreja</string>
     <string name="onboarding_eula_summary_2">Varmista, että sinulla on tietojen varmuuskopio</string>
     <string name="onboarding_eula_summary_3">Emme ole vastuussa mistään vahingosta.</string>
+    <string name="onboarding_eula_summary_4">Älä käytä muita kiinnikkeitä FDE.AI:n kanssa.</string>
     <string name="onboarding_eula_summary_header">Sopimuksen yhteenveto</string>
+    <string name="onboarding_migrate_data">Edellinen versio havaittu</string>
+    <string name="onboarding_migrate_data_description">Siirretäänkö tietosi?</string>
     <string name="onboarding_preset_adaptive_summary">Lisää säätö ja viritä AI säätääksesi automaattisesti. Suositeltu tila.</string>
     <string name="onboarding_preset_adaptive_title">Mukautuva</string>
     <string name="onboarding_preset_off_summary">Ei parannuksia sovellettu. Vain työkalut ovat käytettävissä välittömästi</string>
@@ -144,17 +206,28 @@
     <string name="onboarding_preset_powersave_title">Virtatallennus</string>
     <string name="onboarding_presets">Esiasetukset</string>
     <string name="onboarding_see_full_eula">Katso koko EULA</string>
+    <string name="onboarding_select_mode_title">Valitse tila</string>
     <string name="onboarding_setup">Asetukset</string>
     <string name="onboarding_setup_message">Valitse mitkä säädöt käytetään. Voit muuttaa asetuksia asennuksen jälkeen.</string>
-    <string name="onboarding_eula_summary_4">Älä käytä muita kiinnikkeitä FDE.AI:n kanssa.</string>
-    <string name="onboarding_migrate_data">Edellinen versio havaittu</string>
     <string name="open_os_dev_settings">Avaa Android-kehittäjän asetukset</string>
     <string name="optimize_now">Optimoi nyt</string>
     <string name="other_settings">Muut asetukset</string>
+    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Keskin: %1$s FPS</string>
+    <string name="overlay_battery_temp_x">Akku: %1$s°C</string>
+    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">Suoritin: %1$s%%</string>
     <string name="overlay_desc_text">Aktivoi kelluvat ikkunat reaaliaikaisilla tilastoilla.</string>
+    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
+    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s Mt</string>
+    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
+    <string name="overlay_opacity_main">Overlay opacity</string>
+    <string name="overlay_power_x">Teho: %1$s mAh</string>
+    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
+    <string name="overlay_scale_main">Peittokuvan asteikko</string>
     <string name="performance">Suorituskyky</string>
     <string name="power_checkbox">Virran kulutus</string>
     <string name="powersave">Virtatallennus</string>
+    <string name="preload_pro_required">Tämä ominaisuus vaatii Pro-sovelluksen esilatauksen.</string>
     <string name="preload_title">Automaattinen esilataus</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
     <string name="premium_card_overlays_desc">Räätälöitävät overlay ikkunat erilaisilla tilastoilla, mukaan lukien FPS-mittarilla.</string>
@@ -162,138 +235,72 @@
     <string name="premium_card_profiles_desc">Muokattavissa olevat sovellusprofiilit, joissa on monia vaihtoehtoja.</string>
     <string name="premium_text">Tue FDE.AI ja avata kaikki yksinomaiset ominaisuudet:</string>
     <string name="premium_thanks">Kiitos tuestanne! Voit avata nämä ominaisuudet:</string>
-    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
+    <string name="profile_ai_mode_desc">Valitse tekoälyn tila, kun sovellus on käytössä.</string>
+    <string name="profiles_btn">Sovelluksen profiilit</string>
+    <string name="profiles_descr_txt">Mukautetut profiilit käyttävät FDE.AI asetuksia, kun sovellus on käynnissä ja peruu suljettuna.</string>
     <string name="rate_app">Arvostele FDE.AI</string>
     <string name="releases">Päivitykset</string>
     <string name="reset">Reset</string>
     <string name="reset_all_fde">Nollaa FDE.AI asetukset</string>
-    <string name="reset_downscale_onboot">Nollaa uudelleenkäynnistyksen jälkeen</string>
+    <string name="reset_app_list_confirmation_text">Nollaa sovelluslista?</string>
+    <string name="reset_app_list_confirmation_title">Nollaa lista</string>
     <string name="reset_art_dialog_text">Tyhjennä ART-välimuisti ja käynnistä uudelleen?</string>
-    <string name="start_art_dialog_text">ART-välimuistin optimointi voi viedä aikaa, aiheuttaa laitteen viiveitä ja ylikuumenemista. Jatketaanko?</string>
+    <string name="reset_downscale_onboot">Nollaa uudelleenkäynnistyksen jälkeen</string>
     <string name="reset_fde_dialog_text">Nollaa kaikki FDE.AI asetukset?</string>
     <string name="restart_fde_action">Käynnistä FDE.AI Uudelleen</string>
     <string name="restart_fde_in_progress">Restarting FDE.AI</string>
     <string name="rm_fde_lite">Poista FDE.AI lite versio ensin!</string>
+    <string name="root_mode_descr">Kaikki ominaisuudet. Vaatii pääkäyttäjän oikeudet.</string>
     <string name="run_now">Suorita</string>
     <string name="save_log">Tallenna loki</string>
     <string name="search_no_reset">Etsi</string>
+    <string name="select_all">Valitse kaikki</string>
     <string name="share">Jaa FDE.AI</string>
     <string name="share_txt">Kokeile FDE.AI - hämmästyttävä Android optimoi!</string>
-    <string name="profiles_btn">Sovelluksen profiilit</string>
-    <string name="profiles_descr_txt">Mukautetut profiilit käyttävät FDE.AI asetuksia, kun sovellus on käynnissä ja peruu suljettuna.</string>
+    <string name="shizuku_broken_connection">Virhe! ADB-yhteys katkesi, käynnistä Shizuku-palvelu uudelleen.</string>
+    <string name="shizuku_install_from_play_store">Asenna Play Kaupasta</string>
+    <string name="shizuku_mode_descr">Vähemmän ominaisuuksia, ei rootin tarvetta, Android 7+. Vaatii Shizuku-sovelluksen.</string>
+    <string name="shizuku_open_app">Avaa Shizuku-sovellus</string>
+    <string name="shizuku_setup_instructions_title">Asennusohjeet</string>
+    <string name="shizuku_setup_step_1">Asenna Shizuku</string>
+    <string name="shizuku_setup_step_2">Ota Shizuku-palvelu käyttöön sovelluksessa</string>
+    <string name="shizuku_setup_step_3">Myönnä käyttöoikeudet pyydettäessä</string>
+    <string name="shizuku_setup_step_4">Palaa FDE.AI:hen jatkaaksesi määritystä</string>
+    <string name="shizuku_setup_success">Shizuku on määritetty ja olet valmis lähtöön</string>
+    <string name="shizuku_warning_miui_description">MIUI-käyttäjien on annettava lisäkehittäjien käyttöoikeudet, jotta Shizuku toimisi oikein.</string>
+    <string name="shizuku_warning_miui_title">MIUI-kehittäjän käyttöoikeudet</string>
+    <string name="shizuku_warning_systemless_description_new">Ei-root-tila voi suorittaa toimia, jotka vaikuttavat pysyvästi järjestelmääsi.\n\nJos harkitset tämän sovelluksen poistamista, palauta FDE.AI-asetukset sovelluksessa ennen sitä.</string>
+    <string name="sound_channel_name">Ai Sound Ilmoitukset</string>
     <string name="sound_header">Ääni</string>
-    <string name="start_toast">Käynnistetään FDE.AI…</string>
+    <string name="sound_notifications">Ääni-ilmoitukset</string>
+    <string name="start_art_dialog_text">ART-välimuistin optimointi voi viedä aikaa, aiheuttaa laitteen viiveitä ja ylikuumenemista. Jatketaanko?</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">Odotetaan %1$d sekuntia aloittamaan FDE.AI…</string>
+    <string name="start_toast">Käynnistetään FDE.AI…</string>
     <string name="startup">Startup</string>
     <string name="stop_btn">Pysäytä</string>
     <string name="third_party">Kolmansien osapuolten kirjastot</string>
-    <string name="throttling_description">Sen kytkeminen pois päältä pitää suorituskyvyn, mutta saattaa aiheuttaa ylikuumenemista ja nopea lataaminen tai kamera voi lakata toimimasta.
-\nFDE.AI ottaa kurkun uudelleen käyttöön latauksen aikana. Poista valinta käytöstä poistaaksesi tämä.</string>
+    <string name="throttling_deactivated">Ohjaus poistettu käytöstä</string>
+    <string name="throttling_desc_new">Tämä säilyttää suorituskyvyn, mutta voi aiheuttaa ylikuumenemista ja ongelmia pikalatauksen tai kameran kanssa.</string>
     <string name="throttling_fuse_desc">Ota kaasutus automaattisesti käyttöön tässä lämpötilassa vaurioiden estämiseksi.</string>
     <string name="throttling_fuse_header">Lämpötilan sulake</string>
     <string name="throttling_ignore_charging">Ohita lataus</string>
+    <string name="throttling_ignore_charging_desc">Oletuksena FDE ottaa rajoituksen jälleen käyttöön latauksen aikana. Valitse tämä asetus poistaaksesi tämän käytöksen.</string>
+    <string name="throttling_ignore_on_charge">Latauksen ohituksen rajoitus</string>
     <string name="throttling_system_desc">Throttling estää ylikuumenemisen vähentämällä CPU/GPU taajuuksia.</string>
+    <string name="tile_available">Pikalaatta on saatavilla tilapalkissa.</string>
+    <string name="tweaks_disabled">Kaikki säädökset on poistettu käytöstä</string>
     <string name="un_fde_magisk">Poista FDE.AI Magisk moduuli ensin!</string>
     <string name="unavailable">Unavailable</string>
     <string name="update">Päivitä</string>
     <string name="update_available">Päivitys saatavilla!</string>
     <string name="updating_toast">Ladataan päivitystä…</string>
     <string name="vibration">Värinä kerran</string>
-    <string name="warning_header">Varoitus</string>
-    <string name="welcome">Tervetuloa</string>
-    <string name="overlay_opacity_main">Overlay opacity</string>
-    <string name="tweaks_disabled">Kaikki säädökset on poistettu käytöstä</string>
-    <string name="exit_confirmation_title">Poistetaan?</string>
-    <string name="exit_confirmation_text">Poistu tallentamatta muutoksia?</string>
-    <string name="sound_channel_name">Ai Sound Ilmoitukset</string>
-    <string name="reset_app_list_confirmation_title">Nollaa lista</string>
-    <string name="reset_app_list_confirmation_text">Nollaa sovelluslista?</string>
-    <string name="downscale_notification" tools:ignore="PluralsCandidate">Paina OK vahvistaaksesi uuden resoluution, tai se nollaa %1$d sekunnissa.</string>
-    <string name="onboarding_migrate_data_description">Siirretäänkö tietosi?</string>
-    <string name="kernel_block">Nykyinen ytimen %1$s estää Premium-asennuksen. Harkitse toisen ytimen asentamista.</string>
-    <string name="profile_ai_mode_desc">Valitse tekoälyn tila, kun sovellus on käytössä.</string>
-    <string name="preload_pro_required">Tämä ominaisuus vaatii Pro-sovelluksen esilatauksen.</string>
-    <string name="overlay_power_x">Teho: %1$s mAh</string>
-    <string name="overlay_battery_temp_x">Akku: %1$s°C</string>
-    <string name="overlay_scale_main">Peittokuvan asteikko</string>
-    <string name="emergency_cooldown">Hätätilanteiden Jäähdytys</string>
-    <string name="emergency_cooldown_btn">Jäähdytys</string>
-    <string name="emergency_cooldown_desc">Kun se aktivoituu, se ottaa kurkun uudelleen käyttöön, ota käyttöön lentotila, virransäästötila, tappaa taustasovellukset, poista lataus käytöstä ja aseta tekoäly virransäästötilaan 100 sekunnin ajan ja peru.</string>
-    <string name="hwinfo">Laite</string>
-    <string name="ai_lifetime">Tekoälyn käyttöikä</string>
-    <string name="kernel_tuning_state">Ytimen viritys</string>
-    <string name="cpu_turbo_support">CPU Turbo -tuki</string>
-    <string name="cpu_turbo_trigger_count">CPU Turbo -triggereiden määrä</string>
-    <string name="gpu_turbo_support">GPU Turbo -tuki</string>
-    <string name="gpu_turbo_trigger_count">GPU Turbo -triggereiden määrä</string>
-    <string name="force_doze_enabled">Pakota torkku käytössä</string>
-    <string name="force_doze_trigger_count">Pakota torkkulaukaisimen määrä</string>
-    <string name="throttling_deactivated">Ohjaus poistettu käytöstä</string>
-    <string name="throttling_ignore_on_charge">Latauksen ohituksen rajoitus</string>
-    <string name="kill_bg_apps">Tapa taustasovellukset</string>
-    <string name="auto_art_opt">Automaattinen ART-optimointi</string>
-    <string name="dynamic_read_ahead">Dynaaminen eteenpäinluku</string>
-    <string name="charging_bypass_enabled">Latauksen ohitus käytössä</string>
-    <string name="charging_limit_enabled">Latausraja käytössä</string>
-    <string name="charging_cycles">Latausjaksot:</string>
-    <string name="cpu_bandwidth_tune">CPU:n kaistanleveyden viritys</string>
-    <string name="fs_cache_tune">FS-välimuistin viritys</string>
     <string name="vm_cache_tune">VM-välimuistin viritys</string>
-    <string name="cpu_input_boost_tune">CPU-syötön tehostaminen</string>
-    <string name="kernel_entropy_tune">Ytimen entropian viritys</string>
-    <string name="kernel_sched_boost">Ytimen ajastimen tehostus</string>
-    <string name="multi_core_power_saving_control">Moniytiminen suorittimen virransäästö</string>
-    <string name="extraopt_schedule_title">Ajoita päivittäinen suoritus</string>
-    <string name="extraopt_schedule_time">Aseta päivittäinen automaattisen optimoinnin aika</string>
-    <string name="sound_notifications">Ääni-ilmoitukset</string>
-    <string name="migration_error">Tietojen siirron aikana tapahtui odottamaton virhe. Tiedot tyhjennetään.</string>
-    <string name="onboarding_select_mode_title">Valitse tila</string>
-    <string name="charging_limit">Latausraja</string>
-    <string name="auto_data_save">Tiedonsäästö</string>
-    <string name="auto_data_save_desc">Ota tiedonsäästö automaattisesti käyttöön, kun näyttö on pois päältä.</string>
-    <string name="autopowersave_mode">Automaattinen virransäästö</string>
-    <string name="autodatasave_mode">Automaattinen tietojen tallennus</string>
-    <string name="memory_boost_support">Muistin lisäys</string>
-    <string name="root_mode_descr">Kaikki ominaisuudet. Vaatii pääkäyttäjän oikeudet.</string>
-    <string name="shizuku_mode_descr">Vähemmän ominaisuuksia, ei rootin tarvetta, Android 7+. Vaatii Shizuku-sovelluksen.</string>
-    <string name="lets_go">Suorita</string>
-    <string name="shizuku_setup_success">Shizuku on määritetty ja olet valmis lähtöön</string>
-    <string name="shizuku_setup_instructions_title">Asennusohjeet</string>
-    <string name="shizuku_warning_systemless_title">Huomio</string>
-    <string name="shizuku_warning_miui_title">MIUI-kehittäjän käyttöoikeudet</string>
-    <string name="shizuku_warning_miui_description">MIUI-käyttäjien on annettava lisäkehittäjien käyttöoikeudet, jotta Shizuku toimisi oikein.</string>
-    <string name="shizuku_install_from_play_store">Asenna Play Kaupasta</string>
-    <string name="shizuku_open_app">Avaa Shizuku-sovellus</string>
-    <string name="shizuku_setup_step_1">Asenna Shizuku</string>
-    <string name="shizuku_setup_step_2">Ota Shizuku-palvelu käyttöön sovelluksessa</string>
-    <string name="shizuku_setup_step_3">Myönnä käyttöoikeudet pyydettäessä</string>
-    <string name="shizuku_setup_step_4">Palaa FDE.AI:hen jatkaaksesi määritystä</string>
-    <string name="shizuku_broken_connection">Virhe! ADB-yhteys katkesi, käynnistä Shizuku-palvelu uudelleen.</string>
-    <string name="just_check">Tarkista</string>
-    <string name="dontkillmyapp_text">Käytät Shizuku-tilaa. Jotta sovellus toimisi hyvin, poista automaattinen tappaminen käytöstä Shizukulle ja FDE.AI:lle. Haluatko nähdä miten?</string>
-    <string name="burnit_btn">Poista kuristus käytöstä</string>
-    <string name="already_premium">Onko sinulla jo premium?</string>
-    <string name="already_premium_txt">Jos olet jo ostanut premium-paketin, mutta FDE.AI ei tunnista sitä, toimi seuraavasti:\n\n
-1. Varmista, että latasit FDE.AI-sovelluksen aidon kopion virallisista lähteistä ja tarkista MD5-hajautus.\n
-2. Varmista, että ROM-muistissasi ei ole allekirjoituksen huijausta tai vahvistusta poistettu käytöstä.\n
-3. Poista sekä FDE.AI Premium -paketin että FDE.AI-sovelluksen asennus.\n
-4. Tyhjennä Google Play -sovelluksen tiedot.\n
-5. Käynnistä laitteesi uudelleen.\n
-6. Asenna FDE.AI ja Premium-paketti.\n\n
-Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
-    <string name="wifi_psave_header">Poista Wi-Fi-lepotila käytöstä</string>
+    <string name="warning_header">Varoitus</string>
+    <string name="warning_no">Ei</string>
+    <string name="warning_title">Varoitus!</string>
+    <string name="warning_yes">Kyllä</string>
+    <string name="welcome">Tervetuloa</string>
     <string name="wifi_psave_descr">Voit yrittää poistaa Wi-Fi-lepotilan käytöstä Shizukun yhteyden katkeamisen riskin vähentämiseksi, mutta se voi lisätä lepotilan virrankulutusta.</string>
-    <string name="downscale_warning">Jos jokin menee pieleen etkä pääse käyttämään \'Nollaa\'-painiketta, älä käynnistä laitetta uudelleen!\nYhdistä sen sijaan ADB-kuoreen ja anna tämä komento: \'adb shell wm size reset;wm density reset\'.</string>
-    <string name="shizuku_warning_systemless_description_new">Ei-root-tila voi suorittaa toimia, jotka vaikuttavat pysyvästi järjestelmääsi.\n\nJos harkitset tämän sovelluksen poistamista, palauta FDE.AI-asetukset sovelluksessa ennen sitä.</string>
-    <string name="debloat_title">Poista bloatware käytöstä</string>
-    <string name="debloat_descr">Täällä voit poistaa käytöstä joitakin järjestelmäsovelluksia, joita pidetään bloatwaresina järjestelmän nopeuttamiseksi. Alla on Universal Debloater Alliancen suosittelema poistettavien sovellusten luettelo.</string>
-    <string name="select_all">Valitse kaikki</string>
-    <string name="clear_selection">Tyhjennä valinta</string>
-    <plurals name="debloat_apply_confirm_text">
-        <item quantity="one">Sovellataanko muutokset %1$d sovellukseen?</item>
-        <item quantity="other">Sovellataanko muutokset %1$d sovellukseen?</item>
-    </plurals>
-    <string name="debloat_processing_progress">Käsittely: %1$d/%2$d</string>
-    <string name="debloat_uninstall">Poista asennus</string>
-    <string name="debloat_no_apps">Ei ei-toivottuja sovelluksia (bloatware).</string>
+    <string name="wifi_psave_header">Poista Wi-Fi-lepotila käytöstä</string>
 </resources>

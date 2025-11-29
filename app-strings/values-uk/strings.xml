@@ -11,6 +11,7 @@
     <string name="ai_log">Лог ШІ</string>
     <string name="ai_mode">ШІ</string>
     <string name="ai_mode_auto">Авто</string>
+    <string name="ai_modes">Режими ШІ</string>
     <string name="ai_modes_desc">ШІ працює у фоновому режимі, вивчає використання і застосовує оптимізацію системи.</string>
     <string name="ai_off_detail">Коли ШІ вимкнений, FDE діє як одноразовий оптимізатор і не оптимізує в режимі реального часу.</string>
     <string name="ai_perf_mode">Оптимізація системи для продуктивності. CPU/GPU Turbo і інше будуть спрацьовувати частіше.</string>
@@ -55,7 +56,6 @@
     <string name="batt_resistance">Опір</string>
     <string name="battery_health_sub">Встановіть рівень, щоб зупинити заряджання:</string>
     <string name="battery_health_toggle">Обмежити максимальний рівень заряду</string>
-    <string name="battery_level_x">Рівень: %1$s</string>
     <string name="battery_status">Стан акумулятора</string>
     <string name="battery_temperature_x">Температура: %1$s</string>
     <string name="battery_voltage_x">Вольтаж: %1$s</string>
@@ -74,12 +74,23 @@
     <string name="charging_limit_enabled">Ліміт заряду ввімкнено</string>
     <string name="check_for_updates_about">Перевірка наявності оновлень при старті</string>
     <string name="clean_cache">Очистити кеш</string>
+    <string name="clean_cache_done_snack">Кеш очищено</string>
+    <string name="clean_cache_running_snack">Очищення кешу…</string>
     <string name="clean_ram">Очистити ОЗУ</string>
+    <string name="clean_ram_done_snack">ОЗУ очищено</string>
+    <string name="clean_ram_running_snack">Очищення ОЗУ…</string>
     <string name="cleaning_desc">"Очистіть оперативну пам'ять, закриваючи фонові програми і внутрішню пам\'ять, видаливши файли кешу."</string>
     <string name="cleaning_title">Очищення</string>
+    <string name="clear_selection">Скасувати вибір</string>
     <string name="close">Закрити</string>
+    <string name="common_cached">Кешовано</string>
+    <string name="common_settings">Налаштування</string>
+    <string name="common_swap">Своп</string>
+    <string name="common_wear">Зносу</string>
+    <string name="common_x_total">%1$s всього</string>
+    <string name="common_x_used">%1$s використано</string>
     <string name="completed">завершено</string>
-    <string name="core_tweaks_enable">Увімкнути основні твіки</string>
+    <string name="core_tweaks_enable">Основні твіки</string>
     <string name="core_tweaks_enable_desc">Вмикає основні твіки FDE. Рекомендується застосувати цю опцію.</string>
     <string name="cpu_bandwidth_tune">Налаштування пропускної здатності ЦП</string>
     <string name="cpu_input_boost_tune">Підвищення продуктивності ЦП</string>
@@ -89,6 +100,17 @@
     <string name="cpu_turbo_trigger_count">Кількість спрацювань тригерів CPU Turbo</string>
     <string name="current_resolution">Поточна роздільна здатність:</string>
     <string name="dark_theme">Темна</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">Застосувати зміни до %1$d програми?</item>
+        <item quantity="few">Застосувати зміни до %1$d програми?</item>
+        <item quantity="many">Застосувати зміни до %1$d програм?</item>
+        <item quantity="other">Застосувати зміни до %1$d програм?</item>
+    </plurals>
+    <string name="debloat_descr">Тут ви можете вимкнути деякі системні програми, що вважаються bloatware, щоб пришвидшити систему. Нижче — рекомендований список від Universal‑Debloater‑Alliance.</string>
+    <string name="debloat_no_apps">Немає небажаних додатків.</string>
+    <string name="debloat_processing_progress">Обробка: %1$d/%2$d</string>
+    <string name="debloat_title">Вимкнути зайві програми</string>
+    <string name="debloat_uninstall">Видалити</string>
     <string name="debug_mode">Відлагодження</string>
     <string name="description">Опис</string>
     <string name="disable_logs">Вимкнути логи</string>
@@ -97,6 +119,7 @@
     <string name="downscale_btn">Адаптивна відстань</string>
     <string name="downscale_desc">Дозволяє понизити роздільну здатність екрану для покращеннч продуктивності і енергозбереження ціною якості зображення. Додаток міняє налаштування масштабу для збереження оригінального зображення. При використанні інтерфейсів (MIUI, EMUI и т.д.) не рекомендуеться знижувати роздільну здатність нижче половини від оригінального, в іншому випадку інтерфейс може впасти.</string>
     <string name="downscale_notification">Натисніть ОК, щоб підтвердити нову зменшену роздільну здатність, в іншому випадку воно буде скинуто через %1$d сек.</string>
+    <string name="downscale_warning">Якщо щось піде не так, і ви не зможете отримати доступ до кнопки \'Скидання\' - не перезавантажуйте пристрій!\nНатомість підключіться до оболонки ADB та введіть цю команду: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI може прискорити цей процес. Якщо виникнуть проблеми, добавте додаток в білий список Doze, натиснувши кнопку нижче.</string>
     <string name="doze_mode">Режим Doze</string>
     <string name="doze_sub_describtion">Вкл. або викл. примусовий режим Doze.</string>
@@ -114,8 +137,8 @@
     <string name="extraopt_desc">Тут ви можете додатково оптимізувати систему, перекомпілювавши ART-кеш додатків для максимальної продуктивності (займає більше місця) і очистивши невикористовувані блоки пам\'яті для підвищення продуктивності.</string>
     <string name="extraopt_do_btn">Старт</string>
     <string name="extraopt_reset_btn">Скинути оптимізацію</string>
-    <string name="extraopt_schedule_time">Установити час щоденної автоматичної оптимізації</string>
     <string name="extraopt_schedule_title">Запускати кожний день</string>
+    <string name="extraopt_scheduled_subtitle">Наступний запуск о %1$s:00</string>
     <string name="extraopt_warning">Це не безсистемна оптимізація. Може зламати систему на деяких кастомних прошивках (потрібно очистити кеш ART у recovery). Створіть резервну копію ваших даних перед використанням.</string>
     <string name="fde_is_active">Активний AI</string>
     <string name="fde_is_inactive">AI неактивний</string>
@@ -136,7 +159,6 @@
     <string name="hour">год.</string>
     <string name="hwinfo">Пристрій</string>
     <string name="join_forum">Форум</string>
-    <string name="just_battery">Батарея</string>
     <string name="just_check">Перевірити</string>
     <string name="just_ram">RAM</string>
     <string name="just_storage">Пам\'ять</string>
@@ -154,10 +176,7 @@
     <string name="log_saved">Журнал збережено в /sdcard/fde.md</string>
     <string name="low_power_fps">Енергоефективний FPS</string>
     <string name="low_power_fps_short_desc">Встановлення цільового FPS - частоти процесора/GPU будуть зменшені для підтримки заданого FPS і енергозбереження.</string>
-    <string name="mem_available_x">Доступно: %1$s</string>
-    <string name="mem_cached_x">Кеш.: %1$s</string>
     <string name="mem_swap_x">Підкач.: %1$s</string>
-    <string name="mem_total_x">Всього: %1$s</string>
     <string name="mem_used_x">Використ..: %1$s</string>
     <string name="memory_boost_support">"Прискорення пам'яті"</string>
     <string name="menu_dashboard">Домашній екран</string>
@@ -171,6 +190,7 @@
     <string name="notification_ai_state_desc">Показує поточний режим ШІ в повідомленні</string>
     <string name="notification_battery_state">Сповіщення про заряд акумулятора</string>
     <string name="notification_battery_state_desc">Показ короткої інформації про акумулятор у сповіщенні</string>
+    <string name="notifications_and_feedback">Сповіщення та зворотний зв\'язок</string>
     <string name="offf">Вимкнено</string>
     <string name="older_changelogs">Попередні зміни</string>
     <string name="onboarding_eula_message">Будь ласка, прийміть нашу угоду для продовження</string>
@@ -239,6 +259,7 @@
     <string name="run_now">Запустити</string>
     <string name="save_log">Зберегти лог</string>
     <string name="search_no_reset">Пошук</string>
+    <string name="select_all">Вибрати все</string>
     <string name="share">Поділитися FDE.AI</string>
     <string name="share_txt">Спробуйте FDE.AI - чудовий оптимізатор для Android!</string>
     <string name="shizuku_broken_connection">Помилка! З’єднання з ADB перервано, перезапустіть службу Shizuku.</string>
@@ -253,7 +274,7 @@
     <string name="shizuku_setup_success">Shizuku налаштовано, і ви готові до роботи</string>
     <string name="shizuku_warning_miui_description">Користувачі MIUI повинні надати додаткові дозволи розробника, щоб Shizuku працював належним чином.</string>
     <string name="shizuku_warning_miui_title">Дозволи розробника MIUI</string>
-    <string name="shizuku_warning_systemless_title">Увага</string>
+    <string name="shizuku_warning_systemless_description_new">Режим без прав root може виконувати дії, які безповоротно вплинуть на вашу систему.\n\nЯкщо ви коли-небудь розглядатимете можливість видалення цієї програми - скиньте налаштування FDE.AI в програмі перед цим.</string>
     <string name="sound_channel_name">Звукові сповіщення ШІ</string>
     <string name="sound_header">Звук</string>
     <string name="sound_notifications">Звукові сповіщення</string>
@@ -264,13 +285,14 @@
     <string name="stop_btn">Зупинити</string>
     <string name="third_party">Сторонні бібліотеки</string>
     <string name="throttling_deactivated">Тротлінг вимкнено</string>
-    <string name="throttling_description">"Ви можете відключити тротлінг, щоб не втрачати продуктивність, але пристрій може перегріватися, а також можуть перестати працювати швидка зарядка чи камера.
-За замовчуванням FDE.AI автоматично включає тротлінг, якщо пристрій на зарядці. Ви можете відключити цю функцію, активувавши 'Ігнорувати зарядку' нижче."</string>
+    <string name="throttling_desc_new">Це збереже продуктивність, але може призвести до перегріву та проблем зі швидкою зарядкою або камерою.</string>
     <string name="throttling_fuse_desc">Температура пристрою, при якій тротлінг буде автоматично включений для його охолодження, незалежно від налаштувань тротлінга, щоб запобігти апаратному пошкодженню.</string>
     <string name="throttling_fuse_header">Температурний запобіжник</string>
     <string name="throttling_ignore_charging">Ігнорувати зарядку</string>
+    <string name="throttling_ignore_charging_desc">Типово FDE знову вмикає тротлінг під час заряджання. Позначте цю опцію, щоб вимкнути таку поведінку.</string>
     <string name="throttling_ignore_on_charge">Ігнор. зарядку при тротлінзі</string>
     <string name="throttling_system_desc">Тротлінг - це механізм, що запобігає перегріву пристрою шляхом зниження максимальних частот процесора і графіки.</string>
+    <string name="tile_available">Швидка плитка доступна в рядку стану.</string>
     <string name="tweaks_disabled">Всі твіки вимкнено</string>
     <string name="un_fde_magisk">Спочатку видаліть модуль FDE.AI з Magisk!</string>
     <string name="unavailable">Недоступно</string>
@@ -284,21 +306,6 @@
     <string name="warning_title">Увага!</string>
     <string name="warning_yes">Так</string>
     <string name="welcome">Вітаємо</string>
-    <string name="wifi_psave_header">Вимкнути режим сну Wi-Fi</string>
     <string name="wifi_psave_descr">Щоб зменшити ймовірність відключення від Shizuku, ви можете спробувати вимкнути режим сну Wi-Fi, але це може збільшити споживання енергії в режимі очікування.</string>
-    <string name="downscale_warning">Якщо щось піде не так, і ви не зможете отримати доступ до кнопки \'Скидання\' - не перезавантажуйте пристрій!\nНатомість підключіться до оболонки ADB та введіть цю команду: \'adb shell wm size reset;wm density reset\'.</string>
-    <string name="shizuku_warning_systemless_description_new">Режим без прав root може виконувати дії, які безповоротно вплинуть на вашу систему.\n\nЯкщо ви коли-небудь розглядатимете можливість видалення цієї програми - скиньте налаштування FDE.AI в програмі перед цим.</string>
-    <string name="debloat_title">Вимкнути зайві програми</string>
-    <string name="debloat_descr">Тут ви можете вимкнути деякі системні програми, що вважаються bloatware, щоб пришвидшити систему. Нижче — рекомендований список від Universal‑Debloater‑Alliance.</string>
-    <string name="select_all">Вибрати все</string>
-    <string name="clear_selection">Скасувати вибір</string>
-    <plurals name="debloat_apply_confirm_text">
-        <item quantity="one">Застосувати зміни до %1$d програми?</item>
-        <item quantity="few">Застосувати зміни до %1$d програми?</item>
-        <item quantity="many">Застосувати зміни до %1$d програм?</item>
-        <item quantity="other">Застосувати зміни до %1$d програм?</item>
-    </plurals>
-    <string name="debloat_processing_progress">Обробка: %1$d/%2$d</string>
-    <string name="debloat_uninstall">Видалити</string>
-    <string name="debloat_no_apps">Немає небажаних додатків.</string>
+    <string name="wifi_psave_header">Вимкнути режим сну Wi-Fi</string>
 </resources>

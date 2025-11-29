@@ -2,13 +2,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_app">O aplikaci</string>
     <string name="about_end_txt" tools:ignore="MissingTranslation">Vyrobeno pomocí ❤ od FeraVolt.</string>
+    <string name="acc_warning">Byl zjištěn modul ACC (Advanced Charging Controller). Může být v konfliktu s funkcemi baterie FDE.AI.</string>
     <string name="accept">Přijmout</string>
     <string name="adaptive">Automaticky</string>
     <string name="ai_auto_mode">Vyvážení výkonu a úspora energie na základě využití zařízení. Automatická regulace poskytuje větší úsporu energie.</string>
     <string name="ai_is_disabled">AI zakázáno</string>
+    <string name="ai_lifetime">Doba životnosti AI</string>
     <string name="ai_log">Protokol AI</string>
     <string name="ai_mode">AI</string>
     <string name="ai_mode_auto">Automaticky</string>
+    <string name="ai_modes">Režimy AI</string>
     <string name="ai_modes_desc">AI běží na pozadí, naučuje se používat a aplikuje systémovou optimalizaci.</string>
     <string name="ai_off_detail">Pokud je AI vypnutá, FDE funguje jako jednorázový optimizér a neoptimalizuje se v reálném čase.</string>
     <string name="ai_perf_mode">Optimalizujte pro výkon. Spouštěče CPU/GPU jsou často aktivovány.</string>
@@ -19,8 +22,15 @@
     <string name="ai_state_ready">Práce</string>
     <string name="ai_state_sleeping">Spí…</string>
     <string name="aiinfo">AI info</string>
-    <string name="core_tweaks_enable">Povolit vylepšení jádra</string>
-    <string name="core_tweaks_enable_desc">Povolit hlavní vylepšení FDE. Doporučeno pro zapnutí.</string>
+    <string name="already_premium">Máte již prémii?</string>
+    <string name="already_premium_txt">Pokud jste si již zakoupili prémiový balíček, ale FDE.AI jej nezjistil, postupujte takto:\n\n
+1. Ujistěte se, že jste si stáhli pravou kopii aplikace FDE.AI z oficiálních zdrojů a zkontrolujte hash MD5.\n
+2. Ujistěte se, že vaše ROM nemá falešný podpis nebo deaktivované ověřování.\n
+3. Odinstalujte balíček FDE.AI Premium i aplikaci FDE.AI.\n
+4. Vymažte data aplikace Google Play.\n
+5. Restartujte zařízení.\n
+6. Nainstalujte FDE.AI a balíček Premium.\n\n
+Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="app_icon">Ikona aplikace</string>
     <string name="app_theme">Téma</string>
     <string name="app_update_notification_title">Aktualizace FDE.AI</string>
@@ -30,8 +40,13 @@
     <string name="arrow_right">Šipka vpravo</string>
     <string name="arrow_up">Šipka nahoru</string>
     <string name="attempt_root">Čekání na root přístup…</string>
+    <string name="auto_art_opt">Automatická optimalizace ART</string>
+    <string name="auto_data_save">Spořič dat</string>
+    <string name="auto_data_save_desc">Automaticky povolit spořič dat při vypnuté obrazovce.</string>
     <string name="auto_psave">Úsporný režim</string>
     <string name="auto_psave_desc">Automaticky povolit úsporný režim při vypnuté obrazovce.</string>
+    <string name="autodatasave_mode">Automatické ukládání dat</string>
+    <string name="autopowersave_mode">Automatická úspora energie</string>
     <string name="autostart">Autostart</string>
     <string name="autostart_delay_hint">Zpoždění nastaveno na %1$ds</string>
     <string name="autostart_overlay">Spustit překrytí statistiky</string>
@@ -39,101 +54,150 @@
     <string name="batt_resistance">Odolnost</string>
     <string name="battery_health_sub">Nastavte úroveň pro zastavení nabíjení:</string>
     <string name="battery_health_toggle">Omezit maximální úroveň nabití</string>
-    <string name="battery_level_x" tools:ignore="MissingTranslation">Úroveň %1$s</string>
     <string name="battery_status">Stav baterie</string>
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Teplota: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Napětí: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Vážení: %1$s</string>
     <string name="burnit">Omezení</string>
-    <string name="greenbattery_title">Baterie</string>
+    <string name="burnit_btn">Zakázat omezení</string>
     <string name="bypassch_desc">Omezí proud nabíječky během těžkého běhu tak, aby odpovídal používání zařízení, snižuje nabíjení baterie a ohřev baterie.</string>
     <string name="bypassch_title">Vynechání nabíjení</string>
     <string name="cancel">Zrušit</string>
     <string name="changelog">Seznam změn</string>
     <string name="charge_time">Čas do plného nabití</string>
     <string name="charging">nabíjení</string>
+    <string name="charging_bypass_enabled">Vynechání nabíjení povoleno</string>
+    <string name="charging_cycles">Nabíjecí cykly:</string>
+    <string name="charging_limit">Limit nabíjení</string>
+    <string name="charging_limit_enabled">Limit nabíjení povolen</string>
     <string name="check_for_updates_about">Zkontrolovat aktualizace při spuštění</string>
     <string name="clean_cache">Vyčistit cache</string>
-    <string name="clean_ram">Clean RAM</string>
+    <string name="clean_cache_done_snack">Mezipaměť vymazána</string>
+    <string name="clean_cache_running_snack">Probíhá čištění mezipaměti…</string>
+    <string name="clean_ram">Vyčistit RAM</string>
+    <string name="clean_ram_done_snack">RAM vyčištěn</string>
+    <string name="clean_ram_running_snack">Čištění RAM…</string>
     <string name="cleaning_desc">Vyčistěte RAM zavřením aplikací na pozadí a bezplatným úložištěm smazáním souborů v mezipaměti.</string>
     <string name="cleaning_title">Čištění</string>
+    <string name="clear_selection">Zrušit výběr</string>
     <string name="close">Zavřít</string>
-    <string name="completed">dokončeno</string>
-    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>
+    <string name="common_cached">Uloženo</string>
+    <string name="common_settings">Nastavení</string>
+    <string name="common_swap">Výměna</string>
+    <string name="common_wear">Opotřebení</string>
+    <string name="common_x_total">%1$s celkem</string>
+    <string name="common_x_used">%1$s použito</string>
+    <string name="completed">hotov</string>
+    <string name="core_tweaks_enable">Povolit vylepšení jádra</string>
+    <string name="core_tweaks_enable_desc">Povolit hlavní vylepšení FDE. Doporučeno pro zapnutí.</string>
+    <string name="cpu_bandwidth_tune">Ladění šířky pásma CPU</string>
+    <string name="cpu_input_boost_tune">Zvýšení vstupu CPU</string>
     <string name="cpu_top_descr">Překrytí s top 5 procesy, které jsou náročné na CPU</string>
     <string name="cpu_top_header">Statistiky zpracování</string>
+    <string name="cpu_turbo_support">Podpora CPU Turbo</string>
+    <string name="cpu_turbo_trigger_count">Počet spouštění Turbo CPU</string>
     <string name="current_resolution">Aktuální rozlišení:</string>
     <string name="dark_theme">Tmavý</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">Použít změny na %1$d aplikaci?</item>
+        <item quantity="few">Použít změny na %1$d aplikace?</item>
+        <item quantity="many">Použít změny na %1$d aplikace?</item>
+        <item quantity="other">Použít změny u %1$d aplikací?</item>
+    </plurals>
+    <string name="debloat_descr">Zde můžete deaktivovat některé systémové aplikace považované za bloatware pro zrychlení systému. Níže je doporučený seznam aplikací k odstranění od Universal‑Debloater‑Alliance.</string>
+    <string name="debloat_no_apps">Žádné nežádoucí aplikace (bloatware).</string>
+    <string name="debloat_processing_progress">Zpracování: %1$d/%2$d</string>
+    <string name="debloat_title">Zakázat bloatware</string>
+    <string name="debloat_uninstall">Odinstalovat</string>
     <string name="debug_mode">Ladění</string>
     <string name="description">L 343, 22.12.2009, s. 1).</string>
-    <string name="enable_ai">Povolit AI</string>
     <string name="disable_logs">Zakázat protokoly</string>
     <string name="disable_logs_desc">Vyberte, chcete-li deaktivovat všechny protokoly a statistiky (kromě \"logcat\") a zmenšit velikost vyrovnávací paměti logcat na 128 kB.</string>
+    <string name="dontkillmyapp_text">Používáte režim Shizuku. Aby aplikace dobře fungovala, vypněte automatické zabíjení pro Shizuku a FDE.AI. Chcete vidět jak?</string>
     <string name="downscale_btn">Adaptivní redukce</string>
     <string name="downscale_desc">Nižší rozlišení obrazovky zvyšuje výkon GPU a šetří baterii, s mírnými ztrátami kvality obrazu. Nedoporučuje se přejít pod polovinu šířky obrazovky na vlastní ROM (MIUI, EMUI, atd.), aby se zabránilo pádům uživatelského rozhraní.</string>
-    <string name="warning_no">Ne</string>
-    <string name="warning_title">Varování!</string>
-    <string name="warning_yes">Ano</string>
+    <string name="downscale_notification" tools:ignore="PluralsCandidate">Stisknutím tlačítka OK potvrďte nové rozlišení, nebo se obnoví v %1$d sekund.</string>
+    <string name="downscale_warning">Pokud se něco pokazí a tlačítko \'Reset\' nebudete mít přístup - nerestartujte zařízení!\nMísto toho se připojte k ADB shellu a zadejte tento příkaz: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI může spustit režim Doze dříve. Pokud problémy nastanou, povolených aplikací pomocí tlačítka níže.</string>
     <string name="doze_mode">Vynutit režim Doze</string>
     <string name="doze_sub_describtion">Povolit vstup do režimu Doze, jakmile je obrazovka vypnuta.</string>
     <string name="doze_system_desc">Doze mód (Android 6.0+) snižuje spotřebu baterie odkládáním CPU pozadí a síťové aktivity, když je zařízení v nečinnosti.</string>
     <string name="doze_whitelist">Seznam povolených hráčů Doze</string>
+    <string name="dynamic_read_ahead">Dynamické čtení napřed</string>
+    <string name="emergency_cooldown">Nouzové nastavení</string>
+    <string name="emergency_cooldown_btn">Zmrazení</string>
+    <string name="emergency_cooldown_desc">Po aktivaci se znovu zapne otáčení, zapne režim v letadle, režim úspory energie, zabíjení aplikací na pozadí, vypnutí nabíjení a nastavení AI do úsporného režimu na 100 sekund a zpět.</string>
+    <string name="enable_ai">Povolit AI</string>
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
+    <string name="exit_confirmation_text">Ukončit bez uložení změn?</string>
+    <string name="exit_confirmation_title">Ukončet?</string>
     <string name="extraopt_btn">Extra optimalizace</string>
     <string name="extraopt_desc">Optimalizujte systém rekompilací ART mezipaměti pro výkon (využívá více interní paměti) a ořízněte souborový systém pro zlepšení výkonu paměti.</string>
     <string name="extraopt_do_btn">Začít</string>
     <string name="extraopt_reset_btn">Resetovat optimalizaci</string>
+    <string name="extraopt_schedule_title">Naplánujte spouštění denně</string>
+    <string name="extraopt_scheduled_subtitle">Další spuštění v %1$s:00</string>
     <string name="extraopt_warning">Toto není systémová optimalizace. Může poškodit systém na některých vlastních ROM (vyžaduje vymazání ART mezipaměti v recovery). Zálohujte svá data před použitím.</string>
-    <string name="acc_warning">Byl zjištěn modul ACC (Advanced Charging Controller). Může být v konfliktu s funkcemi baterie FDE.AI.</string>
     <string name="fde_is_active">AI aktivní</string>
     <string name="fde_is_inactive">AI inactive</string>
     <string name="fde_on_reset_toast">Všechna data FDE.AI budou resetována. Aplikace bude ukončena.</string>
     <string name="finstall">Installing FDE.AI…</string>
-    <string name="monitoring_floating_window">Monitorování</string>
+    <string name="force_doze_enabled">Vynucení zdřímnutí povoleno</string>
+    <string name="force_doze_trigger_count">Vynutit počet spouštěčů Doze</string>
     <string name="fps_checkbox">Hardwarové sledování &amp; FPS</string>
     <string name="fps_meter_desc">Statistiky využití energie v reálném čase, FPS, CPU, GPU, RAM a elektrické energie.</string>
-    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Průměr: %1$s FPS</string>
-    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
-    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
+    <string name="fs_cache_tune">Ladění mezipaměti FS</string>
     <string name="get_premium">Get FDE.AI Premium</string>
     <string name="go_back">Vrátit se zpět</string>
-    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="gpu_turbo_support">Podpora GPU Turbo</string>
+    <string name="gpu_turbo_trigger_count">Počet spouštění GPU Turbo</string>
     <string name="grantit">Možná budete muset ručně udělit oprávnění k automatickému spuštění ve správci oprávnění vašeho OS, aby FDE.AI mohl začít po startu OS.</string>
     <string name="greenbattery_desc">Prodloužit životnost baterie omezením maximální úrovně nabití. Zastaví nabíjení na stanovené prahové hodnotě a restartuje se na 6 procent pod ní.</string>
+    <string name="greenbattery_title">Baterie</string>
     <string name="hour">„Technologie“ ve smyslu všeobecné poznámky k technologii pro „vývoj“, „výrobu“ nebo „užití“ zařízení nebo „softwaru“ uvedených v položkách 3A, 3B nebo 3D.</string>
+    <string name="hwinfo">Zařízení</string>
     <string name="join_forum">XDA</string>
-    <string name="just_battery">Baterie</string>
+    <string name="just_check">Zkontrolovat</string>
     <string name="just_ram">RAM</string>
     <string name="just_storage">Úložiště</string>
+    <string name="kernel_block">Aktuální jádro %1$s blokuje prémiovou instalaci. Zvažte prosím instalaci jiného jádra.</string>
+    <string name="kernel_entropy_tune">Ladění entropie jádra</string>
+    <string name="kernel_sched_boost">Posílení plánovače jádra</string>
+    <string name="kernel_tuning_state">Ladění jádra</string>
+    <string name="kill_bg_apps">Ukončení aplikací na pozadí</string>
     <string name="killbgapps_desc">Automaticky ukončit aplikace na pozadí, když je obrazovka vypnutá.</string>
     <string name="killbgapps_title">Ukončit aplikace na pozadí</string>
+    <string name="lets_go">Spustit</string>
     <string name="light_theme">Světlý</string>
     <string name="link_open_error" tools:ignore="MissingTranslation">Nelze otevřít odkaz</string>
     <string name="links">Odkazy</string>
     <string name="log_saved">Log uložen do /sdcard/fde.md</string>
     <string name="low_power_fps">Nízký výkon FPS</string>
     <string name="low_power_fps_short_desc">Nastavení cílového režimu FPS - CPU/GPU frekvence bude sníženo, aby se udržela FPS a ušetřila energie.</string>
-    <string name="mem_available_x" tools:ignore="MissingTranslation">Dostupný: %1$s</string>
-    <string name="mem_cached_x" tools:ignore="MissingTranslation">Uloženo do mezipaměti: %1$s</string>
-    <string name="mem_total_x" tools:ignore="MissingTranslation">Celkem: %1$s</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Použito: %1$s</string>
+    <string name="memory_boost_support">Zvýšení paměti</string>
     <string name="menu_dashboard">Domů</string>
+    <string name="migration_error">Při migraci dat došlo k neočekávané chybě. Data budou vymazána.</string>
     <string name="min">min.</string>
+    <string name="monitoring_floating_window">Monitorování</string>
     <string name="more_info">Více informací</string>
+    <string name="multi_core_power_saving_control">Úspora energie vícejádrového procesoru</string>
     <string name="noroot">ŽÁDNÝ ROOT PŘÍSTUP!</string>
     <string name="notification_ai_state">Trvalé oznámení</string>
     <string name="notification_ai_state_desc">Zobrazí aktuální režim AI v oznámení</string>
     <string name="notification_battery_state">Oznámení o baterii</string>
     <string name="notification_battery_state_desc">Zobrazí stručné informace o baterii v oznámení</string>
+    <string name="notifications_and_feedback">Oznámení a zpětná vazba</string>
     <string name="offf">Vypnuto</string>
     <string name="older_changelogs" tools:ignore="MissingTranslation">Starší seznamy změn</string>
     <string name="onboarding_eula_message">Přijměte prosím naše souhlas, abyste mohli pokračovat</string>
     <string name="onboarding_eula_summary_1">FDE.AI optimalizuje váš systém úpravou různých systémových parametrů</string>
     <string name="onboarding_eula_summary_2">Ujistěte se, že máte zálohu dat</string>
     <string name="onboarding_eula_summary_3">Neseme odpovědnost za žádné škody.</string>
+    <string name="onboarding_eula_summary_4">Nepoužívejte jiná vylepšení s FDE.AI.</string>
     <string name="onboarding_eula_summary_header">Souhrn dohody</string>
+    <string name="onboarding_migrate_data">Zjištěna předchozí verze</string>
+    <string name="onboarding_migrate_data_description">Přenést svá data?</string>
     <string name="onboarding_preset_adaptive_summary">Použít vylepšení a vyladit AI pro automatické nastavení. Doporučený režim.</string>
     <string name="onboarding_preset_adaptive_title">Adaptivní</string>
     <string name="onboarding_preset_off_summary">Žádná vylepšení nejsou použita. Okamžitě budou k dispozici pouze nástroje</string>
@@ -144,17 +208,28 @@
     <string name="onboarding_preset_powersave_title">Napájení</string>
     <string name="onboarding_presets">Předvolby</string>
     <string name="onboarding_see_full_eula">Zobrazit plnou EULA</string>
+    <string name="onboarding_select_mode_title">Vybrat režim</string>
     <string name="onboarding_setup">Nastavení</string>
     <string name="onboarding_setup_message">Vyberte, která vylepšení budou použita. Po nastavení můžete změnit nastavení.</string>
-    <string name="onboarding_eula_summary_4">Nepoužívejte jiná vylepšení s FDE.AI.</string>
-    <string name="onboarding_migrate_data">Zjištěna předchozí verze</string>
     <string name="open_os_dev_settings">Otevřít nastavení vývojáře Androidu</string>
     <string name="optimize_now">Optimalizovat nyní</string>
     <string name="other_settings">Další nastavení</string>
+    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Průměr: %1$s FPS</string>
+    <string name="overlay_battery_temp_x">Baterie: %1$s°C</string>
+    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>
     <string name="overlay_desc_text">Aktivujte plovoucí okna se statistikami v reálném čase pro sledování.</string>
+    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
+    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
+    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
+    <string name="overlay_opacity_main">Overlay opacity</string>
+    <string name="overlay_power_x">Síla: %1$s mAh</string>
+    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
+    <string name="overlay_scale_main">Měřítko překrytí</string>
     <string name="performance">Výkon</string>
     <string name="power_checkbox">Spotřeba energie</string>
     <string name="powersave">Napájení</string>
+    <string name="preload_pro_required">Pro tuto funkci je vyžadována preload Pro aplikace.</string>
     <string name="preload_title">Automatické přednačítání</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
     <string name="premium_card_overlays_desc">Přizpůsobitelné překryvná okna s různými statistikami, včetně FPS metru.</string>
@@ -162,140 +237,72 @@
     <string name="premium_card_profiles_desc">Přizpůsobitelné profily aplikací s mnoha možnostmi.</string>
     <string name="premium_text">Podpořte FDE.AI a odemkněte všechny exkluzivní funkce:</string>
     <string name="premium_thanks">Děkujeme za vaši podporu! Odemkli jste tyto funkce:</string>
-    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
+    <string name="profile_ai_mode_desc">Vyberte režim AI, když se aplikace používá.</string>
+    <string name="profiles_btn">Profily aplikací</string>
+    <string name="profiles_descr_txt">Vlastní profily aplikují nastavení FDE.AI, když je aplikace spuštěna a při zavření se vrátí.</string>
     <string name="rate_app">Ohodnotit FDE.AI</string>
     <string name="releases">Aktualizace</string>
     <string name="reset">Reset</string>
     <string name="reset_all_fde">Resetovat nastavení FDE.AI</string>
-    <string name="reset_downscale_onboot">Obnovit po restartu</string>
+    <string name="reset_app_list_confirmation_text">Obnovit seznam aplikací?</string>
+    <string name="reset_app_list_confirmation_title">Resetovat seznam</string>
     <string name="reset_art_dialog_text">Vymazat ART cache a restartovat?</string>
-    <string name="start_art_dialog_text">Optimalizace ART mezipaměti může nějakou dobu trvat, způsobit zpoždění a přehřátí zařízení. Pokračovat?</string>
+    <string name="reset_downscale_onboot">Obnovit po restartu</string>
     <string name="reset_fde_dialog_text">Obnovit všechna nastavení FDE.AI?</string>
     <string name="restart_fde_action">Restartovat FDE.AI</string>
     <string name="restart_fde_in_progress">Restarting FDE.AI</string>
     <string name="rm_fde_lite">Nejprve odinstalujte verzi FDE.AI lite !</string>
+    <string name="root_mode_descr">Všechny funkce. Vyžaduje přístup root.</string>
     <string name="run_now">Spustit</string>
     <string name="save_log">Uložit log</string>
     <string name="search_no_reset">Hledat</string>
+    <string name="select_all">Vybrat vše</string>
     <string name="share">Sdílet FDE.AI</string>
     <string name="share_txt">Zkuste FDE.AI - úžasný Android optimalizátor!</string>
-    <string name="profiles_btn">Profily aplikací</string>
-    <string name="profiles_descr_txt">Vlastní profily aplikují nastavení FDE.AI, když je aplikace spuštěna a při zavření se vrátí.</string>
+    <string name="shizuku_broken_connection">Chyba! Spojení ADB je přerušeno, restartujte prosím službu Shizuku.</string>
+    <string name="shizuku_install_from_play_store">Instalovat z Obchodu Play</string>
+    <string name="shizuku_mode_descr">Méně funkcí, není potřeba root, Android 7+. Vyžaduje aplikaci Shizuku.</string>
+    <string name="shizuku_open_app">Otevřít aplikaci Shizuku</string>
+    <string name="shizuku_setup_instructions_title">Pokyny k nastavení</string>
+    <string name="shizuku_setup_step_1">Nainstalovat Shizuku</string>
+    <string name="shizuku_setup_step_2">Povolení služby Shizuku v aplikaci</string>
+    <string name="shizuku_setup_step_3">Po zobrazení výzvy udělte oprávnění</string>
+    <string name="shizuku_setup_step_4">Vraťte se na FDE.AI a pokračujte v nastavení</string>
+    <string name="shizuku_setup_success">Shizuku je nastaveno a můžete vyrazit</string>
+    <string name="shizuku_warning_miui_description">Uživatelé MIUI musí povolit další vývojářská oprávnění, aby Shizuku fungovalo správně.</string>
+    <string name="shizuku_warning_miui_title">Oprávnění vývojáře MIUI</string>
+    <string name="shizuku_warning_systemless_description_new">Režim bez oprávnění root může provádět akce, které trvale ovlivní váš systém.\n\nPokud někdy uvažujete o odinstalaci této aplikace - předtím resetujte nastavení FDE.AI v aplikaci.</string>
+    <string name="sound_channel_name">Zvuková upozornění AI</string>
     <string name="sound_header">Zvuk</string>
-    <string name="start_toast">Spouštění FDE.AI…</string>
+    <string name="sound_notifications">Zvuková upozornění</string>
+    <string name="start_art_dialog_text">Optimalizace ART mezipaměti může nějakou dobu trvat, způsobit zpoždění a přehřátí zařízení. Pokračovat?</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">Waiting %1$d sec to start FDE.AI…</string>
+    <string name="start_toast">Spouštění FDE.AI…</string>
     <string name="startup">Startup</string>
     <string name="stop_btn">Zastavit</string>
     <string name="third_party">Knihovny třetích stran</string>
-    <string name="throttling_description">Vypnutí udržuje výkon, ale může způsobit přehřátí a rychlé nabíjení nebo fotoaparát může přestat fungovat.
-\nFDE.AI znovu zapne otáčení při výchozím nabíjení. Zrušte zaškrtnutí políčka pro zakázání.</string>
+    <string name="throttling_deactivated">Omezování deaktivováno</string>
+    <string name="throttling_desc_new">To udrží výkon, ale může způsobit přehřívání a problémy s rychlým nabíjením nebo fotoaparátem.</string>
     <string name="throttling_fuse_desc">Automaticky znovu zapnout otáčení při této teplotě, aby se zabránilo poškození.</string>
     <string name="throttling_fuse_header">Teplotní pojistka</string>
     <string name="throttling_ignore_charging">Ignorovat nabíjení</string>
+    <string name="throttling_ignore_charging_desc">FDE ve výchozím nastavení znovu povolí throttling během nabíjení. Zaškrtněte tuto možnost pro vypnutí tohoto chování.</string>
+    <string name="throttling_ignore_on_charge">Omezování ignorování nabíjení</string>
     <string name="throttling_system_desc">Zhoršení brání přehřátí snížením frekvence CPU/GPU.</string>
+    <string name="tile_available">V oznamovací liště je k dispozici rychlá dlaždice.</string>
+    <string name="tweaks_disabled">Všechna vylepšení jsou vypnuta</string>
     <string name="un_fde_magisk">Nejprve odinstalujte FDE.AI Magisk modul!</string>
     <string name="unavailable">Unavailable</string>
     <string name="update">Aktualizovat</string>
     <string name="update_available">Dostupná aktualizace!</string>
     <string name="updating_toast">Stahování aktualizace…</string>
     <string name="vibration">Vibrace jednou</string>
-    <string name="warning_header">Varování</string>
-    <string name="welcome">Vítejte</string>
-    <string name="overlay_opacity_main">Overlay opacity</string>
-    <string name="tweaks_disabled">Všechna vylepšení jsou vypnuta</string>
-    <string name="exit_confirmation_title">Ukončet?</string>
-    <string name="exit_confirmation_text">Ukončit bez uložení změn?</string>
-    <string name="sound_channel_name">Zvuková upozornění AI</string>
-    <string name="reset_app_list_confirmation_title">Resetovat seznam</string>
-    <string name="reset_app_list_confirmation_text">Obnovit seznam aplikací?</string>
-    <string name="downscale_notification" tools:ignore="PluralsCandidate">Stisknutím tlačítka OK potvrďte nové rozlišení, nebo se obnoví v %1$d sekund.</string>
-    <string name="onboarding_migrate_data_description">Přenést svá data?</string>
-    <string name="kernel_block">Aktuální jádro %1$s blokuje prémiovou instalaci. Zvažte prosím instalaci jiného jádra.</string>
-    <string name="profile_ai_mode_desc">Vyberte režim AI, když se aplikace používá.</string>
-    <string name="preload_pro_required">Pro tuto funkci je vyžadována preload Pro aplikace.</string>
-    <string name="overlay_power_x">Síla: %1$s mAh</string>
-    <string name="overlay_battery_temp_x">Baterie: %1$s°C</string>
-    <string name="overlay_scale_main">Měřítko překrytí</string>
-    <string name="emergency_cooldown">Nouzové nastavení</string>
-    <string name="emergency_cooldown_btn">Zmrazení</string>
-    <string name="emergency_cooldown_desc">Po aktivaci se znovu zapne otáčení, zapne režim v letadle, režim úspory energie, zabíjení aplikací na pozadí, vypnutí nabíjení a nastavení AI do úsporného režimu na 100 sekund a zpět.</string>
-    <string name="hwinfo">Zařízení</string>
-    <string name="ai_lifetime">Doba životnosti AI</string>
-    <string name="kernel_tuning_state">Ladění jádra</string>
-    <string name="cpu_turbo_support">Podpora CPU Turbo</string>
-    <string name="cpu_turbo_trigger_count">Počet spouštění Turbo CPU</string>
-    <string name="gpu_turbo_support">Podpora GPU Turbo</string>
-    <string name="gpu_turbo_trigger_count">Počet spouštění GPU Turbo</string>
-    <string name="force_doze_enabled">Vynucení zdřímnutí povoleno</string>
-    <string name="force_doze_trigger_count">Vynutit počet spouštěčů Doze</string>
-    <string name="throttling_deactivated">Omezování deaktivováno</string>
-    <string name="throttling_ignore_on_charge">Omezování ignorování nabíjení</string>
-    <string name="kill_bg_apps">Ukončení aplikací na pozadí</string>
-    <string name="auto_art_opt">Automatická optimalizace ART</string>
-    <string name="dynamic_read_ahead">Dynamické čtení napřed</string>
-    <string name="charging_bypass_enabled">Vynechání nabíjení povoleno</string>
-    <string name="charging_limit_enabled">Limit nabíjení povolen</string>
-    <string name="charging_cycles">Nabíjecí cykly:</string>
-    <string name="cpu_bandwidth_tune">Ladění šířky pásma CPU</string>
-    <string name="fs_cache_tune">Ladění mezipaměti FS</string>
     <string name="vm_cache_tune">Ladění mezipaměti virtuálního počítače</string>
-    <string name="cpu_input_boost_tune">Zvýšení vstupu CPU</string>
-    <string name="kernel_entropy_tune">Ladění entropie jádra</string>
-    <string name="kernel_sched_boost">Posílení plánovače jádra</string>
-    <string name="multi_core_power_saving_control">Úspora energie vícejádrového procesoru</string>
-    <string name="extraopt_schedule_title">Naplánujte spouštění denně</string>
-    <string name="extraopt_schedule_time">Nastavit denní čas automatické optimalizace</string>
-    <string name="sound_notifications">Zvuková upozornění</string>
-    <string name="migration_error">Při migraci dat došlo k neočekávané chybě. Data budou vymazána.</string>
-    <string name="onboarding_select_mode_title">Vybrat režim</string>
-    <string name="charging_limit">Limit nabíjení</string>
-    <string name="auto_data_save">Spořič dat</string>
-    <string name="auto_data_save_desc">Automaticky povolit spořič dat při vypnuté obrazovce.</string>
-    <string name="autopowersave_mode">Automatická úspora energie</string>
-    <string name="autodatasave_mode">Automatické ukládání dat</string>
-    <string name="memory_boost_support">Zvýšení paměti</string>
-    <string name="root_mode_descr">Všechny funkce. Vyžaduje přístup root.</string>
-    <string name="shizuku_mode_descr">Méně funkcí, není potřeba root, Android 7+. Vyžaduje aplikaci Shizuku.</string>
-    <string name="lets_go">Spustit</string>
-    <string name="shizuku_setup_success">Shizuku je nastaveno a můžete vyrazit</string>
-    <string name="shizuku_setup_instructions_title">Pokyny k nastavení</string>
-    <string name="shizuku_warning_systemless_title">Pozor</string>
-    <string name="shizuku_warning_miui_title">Oprávnění vývojáře MIUI</string>
-    <string name="shizuku_warning_miui_description">Uživatelé MIUI musí povolit další vývojářská oprávnění, aby Shizuku fungovalo správně.</string>
-    <string name="shizuku_install_from_play_store">Instalovat z Obchodu Play</string>
-    <string name="shizuku_open_app">Otevřít aplikaci Shizuku</string>
-    <string name="shizuku_setup_step_1">Nainstalovat Shizuku</string>
-    <string name="shizuku_setup_step_2">Povolení služby Shizuku v aplikaci</string>
-    <string name="shizuku_setup_step_3">Po zobrazení výzvy udělte oprávnění</string>
-    <string name="shizuku_setup_step_4">Vraťte se na FDE.AI a pokračujte v nastavení</string>
-    <string name="shizuku_broken_connection">Chyba! Spojení ADB je přerušeno, restartujte prosím službu Shizuku.</string>
-    <string name="just_check">Zkontrolovat</string>
-    <string name="dontkillmyapp_text">Používáte režim Shizuku. Aby aplikace dobře fungovala, vypněte automatické zabíjení pro Shizuku a FDE.AI. Chcete vidět jak?</string>
-    <string name="burnit_btn">Zakázat omezení</string>
-    <string name="already_premium">Máte již prémii?</string>
-    <string name="already_premium_txt">Pokud jste si již zakoupili prémiový balíček, ale FDE.AI jej nezjistil, postupujte takto:\n\n
-1. Ujistěte se, že jste si stáhli pravou kopii aplikace FDE.AI z oficiálních zdrojů a zkontrolujte hash MD5.\n
-2. Ujistěte se, že vaše ROM nemá falešný podpis nebo deaktivované ověřování.\n
-3. Odinstalujte balíček FDE.AI Premium i aplikaci FDE.AI.\n
-4. Vymažte data aplikace Google Play.\n
-5. Restartujte zařízení.\n
-6. Nainstalujte FDE.AI a balíček Premium.\n\n
-Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
-    <string name="wifi_psave_header">Vypnout režim spánku WiFi</string>
+    <string name="warning_header">Varování</string>
+    <string name="warning_no">Ne</string>
+    <string name="warning_title">Varování!</string>
+    <string name="warning_yes">Ano</string>
+    <string name="welcome">Vítejte</string>
     <string name="wifi_psave_descr">Abyste snížili pravděpodobnost odpojení od Shizuku, můžete zkusit vypnout režim spánku WiFi, ale to může zvýšit spotřebu energie v nečinnosti.</string>
-    <string name="downscale_warning">Pokud se něco pokazí a tlačítko \'Reset\' nebudete mít přístup - nerestartujte zařízení!\nMísto toho se připojte k ADB shellu a zadejte tento příkaz: \'adb shell wm size reset;wm density reset\'.</string>
-    <string name="shizuku_warning_systemless_description_new">Režim bez oprávnění root může provádět akce, které trvale ovlivní váš systém.\n\nPokud někdy uvažujete o odinstalaci této aplikace - předtím resetujte nastavení FDE.AI v aplikaci.</string>
-    <string name="debloat_title">Zakázat bloatware</string>
-    <string name="debloat_descr">Zde můžete deaktivovat některé systémové aplikace považované za bloatware pro zrychlení systému. Níže je doporučený seznam aplikací k odstranění od Universal‑Debloater‑Alliance.</string>
-    <string name="select_all">Vybrat vše</string>
-    <string name="clear_selection">Zrušit výběr</string>
-    <plurals name="debloat_apply_confirm_text">
-        <item quantity="one">Použít změny na %1$d aplikaci?</item>
-        <item quantity="few">Použít změny na %1$d aplikace?</item>
-        <item quantity="many">Použít změny na %1$d aplikace?</item>
-        <item quantity="other">Použít změny u %1$d aplikací?</item>
-    </plurals>
-    <string name="debloat_processing_progress">Zpracování: %1$d/%2$d</string>
-    <string name="debloat_uninstall">Odinstalovat</string>
-    <string name="debloat_no_apps">Žádné nežádoucí aplikace (bloatware).</string>
+    <string name="wifi_psave_header">Vypnout režim spánku WiFi</string>
 </resources>

@@ -2,13 +2,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_app">О приложении</string>
     <string name="about_end_txt" tools:ignore="MissingTranslation">Сделано с ❤ от FeraVolt.</string>
+    <string name="acc_warning">Обнаружен модуль Advanced Charging Controller (ACC). Он может конфликтовать с функциями батареи FDE.AI.</string>
     <string name="accept">Принять</string>
     <string name="adaptive">Авто</string>
     <string name="ai_auto_mode">Автоматическая оптимизация системы по сценарию использования. Автонастройка частот позволяет улучшить энергосбережение.</string>
     <string name="ai_is_disabled">ИИ выключен</string>
+    <string name="ai_lifetime">Время работы ИИ</string>
     <string name="ai_log">Лог ИИ</string>
     <string name="ai_mode">ИИ</string>
     <string name="ai_mode_auto">Авто</string>
+    <string name="ai_modes">Режимы ИИ</string>
     <string name="ai_modes_desc">ИИ в FDE всегда работает в фоне, обучается и анализирует сценарии использования, оптимизируя систему.</string>
     <string name="ai_off_detail">Когда ИИ отключен, FDE срабатывает только один раз (т.е. не оптимизирует систему \"на лету\")</string>
     <string name="ai_perf_mode">Оптимизация системы для производительности. CPU/GPU Turbo и прочее будут срабатывать чаще.</string>
@@ -19,8 +22,15 @@
     <string name="ai_state_ready">Работает</string>
     <string name="ai_state_sleeping">Спит…</string>
     <string name="aiinfo">Инфо об ИИ</string>
-    <string name="core_tweaks_enable">Включить основные твики</string>
-    <string name="core_tweaks_enable_desc">Включает основные твики FDE. Рекомендуется использовать эту опцию.</string>
+    <string name="already_premium">Уже есть премиум?</string>
+    <string name="already_premium_txt">Если вы уже приобрели премиум-пакет, но FDE.AI его не обнаруживает — следуйте этим шагам:\n\n
+        1. Убедитесь, что вы скачали оригинальную копию приложения FDE.AI из официальных источников и проверьте MD5-хэш.\n
+        2. Убедитесь, что в вашей прошивке нет подмены или отключения проверки подписи приложений.\n
+        3. Удалите оба приложения - FDE.AI и премиум-пакет.\n
+        4. Очистите данные приложения Google Play.\n
+        5. Перезагрузите устройство.\n
+        6. Установите FDE.AI и премиум-пакет.\n\n
+        Если проблема осталась, свяжитесь с разработчиком в Telegram.</string>
     <string name="app_icon">Иконка</string>
     <string name="app_theme">Тема</string>
     <string name="app_update_notification_title">Обновление FDE.AI</string>
@@ -30,8 +40,13 @@
     <string name="arrow_right">Вправо</string>
     <string name="arrow_up">Вверх</string>
     <string name="attempt_root">Ожидание рут-доступа…</string>
+    <string name="auto_art_opt">Автоматическая оптимизация ART</string>
+    <string name="auto_data_save">Экономия данных</string>
+    <string name="auto_data_save_desc">Автоматически включать режим экономии трафика при выключеном экране.</string>
     <string name="auto_psave">Энергосбережение</string>
     <string name="auto_psave_desc">Автоматически включать энергосбережение ОС при выключении экрана.</string>
+    <string name="autodatasave_mode">Авто экономия данных</string>
+    <string name="autopowersave_mode">Авто энергосбережение</string>
     <string name="autostart">Автозапуск</string>
     <string name="autostart_delay_hint">Задержка запуска %1$ds</string>
     <string name="autostart_overlay">Запуск плавающего окна статистики</string>
@@ -39,105 +54,151 @@
     <string name="batt_resistance">Сопротивление</string>
     <string name="battery_health_sub">Выберите уровень, при котором остановится зарядка батареи:</string>
     <string name="battery_health_toggle">Ограничить макс. заряд</string>
-    <string name="battery_level_x" tools:ignore="MissingTranslation">Заряд: %1$s</string>
     <string name="battery_status">Статус батареи</string>
-    <string name="battery_temperature_x" tools:ignore="MissingTranslation">Температура: %1$s</string>
-    <string name="battery_voltage_x" tools:ignore="MissingTranslation">Напряжение: %1$s</string>
-    <string name="battery_wear_x" tools:ignore="MissingTranslation">Износ: %1$s</string>
+    <string name="battery_temperature_x">Температура: %1$s</string>
+    <string name="battery_voltage_x">Напряжение: %1$s</string>
+    <string name="battery_wear_x">Износ: %1$s</string>
     <string name="burnit">Троттлинг</string>
-    <string name="greenbattery_title">Батарея</string>
+    <string name="burnit_btn">Отключить трогглинг</string>
     <string name="bypassch_desc">При тяжелых процессах ограничивает входное напряжение зарядки до уровня потребления устройства, чтобы батарея не заряжалась и не нагревалась.</string>
     <string name="bypassch_title">Обход зарядки</string>
     <string name="cancel">Отмена</string>
     <string name="changelog">Изменения</string>
     <string name="charge_time">Время до полной зарядки</string>
     <string name="charging">заряжается</string>
+    <string name="charging_bypass_enabled">Обход зарядки включен</string>
+    <string name="charging_cycles">Циклов заряда:</string>
+    <string name="charging_limit">Ограничение заряда</string>
+    <string name="charging_limit_enabled">Ограничение зарядки включено</string>
     <string name="check_for_updates_about">Проверять обновления при запуске</string>
     <string name="clean_cache">Очистить кэш</string>
+    <string name="clean_cache_done_snack">Хранилище очищено</string>
+    <string name="clean_cache_running_snack">Идёт очистка хранилища</string>
     <string name="clean_ram">Очистить ОЗУ</string>
+    <string name="clean_ram_done_snack">ОЗУ очищено</string>
+    <string name="clean_ram_running_snack">Идёт очистка ОЗУ</string>
     <string name="cleaning_desc">Очистите ОЗУ, закрыв фоновые приложения, и встроенную память, удалив файлы кэша.</string>
     <string name="cleaning_title">Очистка</string>
+    <string name="clear_selection">Снять выделение</string>
     <string name="close">Закрыть</string>
+    <string name="common_cached">Закешировано</string>
+    <string name="common_settings">Настройки</string>
+    <string name="common_swap">Подкачка</string>
+    <string name="common_wear">Износ</string>
+    <string name="common_x_total">%1$s всего</string>
+    <string name="common_x_used">%1$s использовано</string>
     <string name="completed">завершено</string>
-    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">ЦП: %1$s%%</string>
+    <string name="core_tweaks_enable">Основные твики</string>
+    <string name="core_tweaks_enable_desc">Включает основные твики FDE. Рекомендуется использовать эту опцию.</string>
+    <string name="cpu_bandwidth_tune">Пропускная полоса ЦП</string>
+    <string name="cpu_input_boost_tune">Ускорение ввода ЦП</string>
     <string name="cpu_top_descr">Плавающее окно с топ-5 процессов, использующих ЦП.</string>
     <string name="cpu_top_header">Процессы</string>
+    <string name="cpu_turbo_support">Поддержка CPU Turbo</string>
+    <string name="cpu_turbo_trigger_count">Срабатываний CPU Turbo</string>
     <string name="current_resolution">Текущее разрешение:</string>
     <string name="dark_theme">Темная</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">Применить изменения к %1$d приложению?</item>
+        <item quantity="few">Применить изменения к %1$d приложениям?</item>
+        <item quantity="many">Применить изменения к %1$d приложениям?</item>
+        <item quantity="other">Применить изменения к %1$d приложениям?</item>
+    </plurals>
+    <string name="debloat_descr">Здесь вы можете отключить приложения, считающиеся мусорными, чтобы ускорить систему. Ниже приведён рекомендованный список приложений для отключения от Universal Debloater Alliance.</string>
+    <string name="debloat_no_apps">Нет нежелательных приложений.</string>
+    <string name="debloat_processing_progress">Обработка: %1$d/%2$d</string>
+    <string name="debloat_title">Мусорные приложения</string>
+    <string name="debloat_uninstall">Удалить</string>
     <string name="debug_mode">Отладка</string>
     <string name="description">Описание</string>
-    <string name="enable_ai">Включить ИИ</string>
     <string name="disable_logs">Отключить логи</string>
     <string name="disable_logs_desc">Включите чтобы отключить журналы и статистику, кроме \"logcat\", а его буфер уменьшить до 128 КБ.</string>
+    <string name="dontkillmyapp_text">Вы используете режим Shizuku. Чтобы приложение работало корректно, отключите автокилл для Shizuku и FDE.AI. Показать как это сделать?</string>
     <string name="downscale_btn">Даунскейл</string>
     <string name="downscale_desc">Позволяет понизить разрешение экрана для улучшения производительности и энергосбережения ценой качества изображения. Приложение меняет настройки масштаба для сохранения оригинального изображения. При использовании оболочек (MIUI, EMUI и т.д.) не рекомендуется снижать разрешение ниже половины от оригинального, иначе интерфейс может упасть.</string>
-    <string name="warning_no">Нет</string>
-    <string name="warning_title">Внимание!</string>
-    <string name="warning_yes">Да</string>
+    <string name="downscale_notification" tools:ignore="PluralsCandidate">Нажмите ОК, чтобы подтвердить новое уменьшенное разрешение, иначе оно будет сброшено через %1$d сек.</string>
+    <string name="downscale_warning">Если вдруг что-то пойдёт не так и у вас не будет доступа к кнопке \'Сброс\' - не перзагружайте устройство!\nВместо этого подключитесь к ADB shell введите команду: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI может ускорить этот процесс. Если возникнут проблемы, добавьте приложения в белый список Doze, нажав кнопку ниже.</string>
     <string name="doze_mode">Принудит. режим Doze</string>
     <string name="doze_sub_describtion">Вкл. или выкл. принудительный режим Doze.</string>
     <string name="doze_system_desc">В Android 6.0 появился режим Doze, который снижает расход батареи, приостанавливая фоновую работу ЦП и сети для приложений, когда устройство не используется длительное время.</string>
     <string name="doze_whitelist">Белый список Doze</string>
+    <string name="dynamic_read_ahead">Динамическое предсчитывание</string>
+    <string name="emergency_cooldown">Экстренное охлаждение</string>
+    <string name="emergency_cooldown_btn">Охладить</string>
+    <string name="emergency_cooldown_desc">При активации включится троттлинг, режим полета и энергосбережение, отключится зарядка, закроются все фоновые приложения и ИИ перейдет в принудительный режим энергосбережения на 100 секунд, после чего все изменения будут отменены.</string>
+    <string name="enable_ai">Включить ИИ</string>
     <string name="eula" tools:ignore="MissingTranslation">Соглашение</string>
-    <string name="extraopt_schedule_title">Запускать каждый день</string>
-    <string name="extraopt_schedule_time">Назначить время для ежедневной оптимизации</string>
+    <string name="exit_confirmation_text">Вы действительно хотите выйти без сохранения изменений?</string>
+    <string name="exit_confirmation_title">Выйти?</string>
     <string name="extraopt_btn">Доп. оптимизация</string>
     <string name="extraopt_desc">Здесь вы можете дополнительно оптимизировать систему, перекомпилировав ART-кэш приложений для максимальной производительности (занимает больше места) и очистив неиспользуемые блоки памяти для повышения производительности.</string>
     <string name="extraopt_do_btn">Запуск</string>
     <string name="extraopt_reset_btn">Сброс оптимизации</string>
+    <string name="extraopt_schedule_title">Запускать каждый день</string>
+    <string name="extraopt_scheduled_subtitle">Следующий запуск в %1$s:00</string>
     <string name="extraopt_warning">Это не внесистемная оптимизация. На некоторых кастомных прошивках может вызвать ошибки (в таком случае придется очистить ART кеш в recovery). Убедитесь, что у вас есть бэкап данных.</string>
-    <string name="acc_warning">Обнаружен модуль Advanced Charging Controller (ACC). Он может конфликтовать с функциями батареи FDE.AI.</string>
     <string name="fde_is_active">ИИ активен</string>
     <string name="fde_is_inactive">ИИ неактивен</string>
     <string name="fde_on_reset_toast">Все настройки FDE.AI будут сброшены. Приложение закроется.</string>
     <string name="finstall">Установка FDE.AI…</string>
-    <string name="monitoring_floating_window">Мониторинг</string>
+    <string name="force_doze_enabled">Принудительный Doze включен</string>
+    <string name="force_doze_trigger_count">Срабатываний Doze</string>
     <string name="fps_checkbox">Мониторинг железа и FPS</string>
     <string name="fps_meter_desc">Статистика FPS, ЦП, ГП, ОЗУ и потребления энергии в реальном времени.</string>
-    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Сред.: %1$s FPS</string>
-    <string name="overlay_frame_time" tools:ignore="MissingTranslation">%1$s мс</string>
-    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Гц</string>
-    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s МГц</string>
-    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s МБ</string>
+    <string name="fs_cache_tune">Настройка кэша ФС</string>
     <string name="get_premium">Получить FDE.AI Premium</string>
     <string name="go_back">Вернуться</string>
-    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">ГП: %1$s%%</string>
+    <string name="gpu_turbo_support">Поддержка GPU Turbo</string>
+    <string name="gpu_turbo_trigger_count">Срабатываний GPU Turbo</string>
     <string name="grantit">Возможно, вам придется вручную выдать разрешение FDE.AI на запуск после загрузки ОС в системном менеджере разрешений.</string>
     <string name="greenbattery_desc">Продление срока службы батареи, ограничивая максимальный уровень заряда. Зарядка прекращается, когда уровень достигает заданного значения. Зарядка восстанавливается, если уровень упадет на 6 процентов ниже.</string>
+    <string name="greenbattery_title">Батарея</string>
     <string name="hour">ч.</string>
+    <string name="hwinfo">Устройство</string>
     <string name="join_forum">4PDA</string>
-    <string name="just_battery">Батарея</string>
+    <string name="just_check">Проверить</string>
     <string name="just_ram">ОЗУ</string>
     <string name="just_storage">Память</string>
+    <string name="kernel_block">Текущее ядро %1$s блокирует установку пакета Premium. Пожалуйста, установите другое ядро.</string>
+    <string name="kernel_entropy_tune">Настройка энтропии ядра</string>
+    <string name="kernel_sched_boost">Ускорение планировщика ядра</string>
+    <string name="kernel_tuning_state">Состояние настройки ядра</string>
+    <string name="kill_bg_apps">Закрытие фоновых приложений</string>
     <string name="killbgapps_desc">Автоматически закрывает фоновые приложения, когда экран выключен.</string>
     <string name="killbgapps_title">Закрытие фоновых приложений</string>
+    <string name="lets_go">Запустить</string>
     <string name="light_theme">Светлая</string>
     <string name="link_open_error" tools:ignore="MissingTranslation">Не могу открыть ссылку</string>
     <string name="links">Ссылки</string>
     <string name="log_saved">Лог сохранен в /sdcard/fde.md</string>
     <string name="low_power_fps">Энергоэффективный FPS</string>
     <string name="low_power_fps_short_desc">Установите желаемый FPS, и частоты ЦП/ГП будут урезаны для поддержания заданного FPS и энергосбережения.</string>
-    <string name="mem_available_x" tools:ignore="MissingTranslation">Доступно: %1$s</string>
-    <string name="mem_cached_x" tools:ignore="MissingTranslation">Кеш.: %1$s</string>
-    <string name="mem_total_x" tools:ignore="MissingTranslation">Всего: %1$s</string>
-    <string name="mem_used_x" tools:ignore="MissingTranslation">Исп.: %1$s</string>
     <string name="mem_swap_x" tools:ignore="MissingTranslation">Подкач.: %1$s</string>
+    <string name="mem_used_x" tools:ignore="MissingTranslation">Исп.: %1$s</string>
+    <string name="memory_boost_support">Ускорение памяти</string>
     <string name="menu_dashboard">Главная</string>
+    <string name="migration_error">Произошла непредвиденная ошибка при миграции данных. Данные будут очищены.</string>
     <string name="min">мин.</string>
+    <string name="monitoring_floating_window">Мониторинг</string>
     <string name="more_info">Доп. информация</string>
+    <string name="multi_core_power_saving_control">Энергосбережение многояд. ЦП</string>
     <string name="noroot">НЕТ ROOT ДОСТУПА!</string>
     <string name="notification_ai_state">Постоянное уведомление</string>
     <string name="notification_ai_state_desc">Отображает текущий режим ИИ FDE в уведомлении</string>
     <string name="notification_battery_state">Уведомление о батарее</string>
     <string name="notification_battery_state_desc">Отображает краткую информацию о батарее в уведомлении</string>
+    <string name="notifications_and_feedback">Уведомления и обратная связь</string>
     <string name="offf">Выкл.</string>
     <string name="older_changelogs" tools:ignore="MissingTranslation">Пред. изменения</string>
     <string name="onboarding_eula_message">Пожалуйста, примите наше соглашение, чтобы продолжить</string>
     <string name="onboarding_eula_summary_1">FDE.AI оптимизирует систему, модифицируя множество системных настроек</string>
     <string name="onboarding_eula_summary_2">Убедитесь, что у вас есть резервная копия данных</string>
     <string name="onboarding_eula_summary_3">Мы не несём ответственность за возможный ущерб</string>
+    <string name="onboarding_eula_summary_4">Не используйте другие твики вместе с FDE.AI.</string>
     <string name="onboarding_eula_summary_header">Краткое соглашение</string>
+    <string name="onboarding_migrate_data">Обнаружена прошлая версия</string>
+    <string name="onboarding_migrate_data_description">Хотите перенести данные?</string>
     <string name="onboarding_preset_adaptive_summary">Применить твики и настроить ИИ на автоматическую подстройку под сценарий использования. Рекомендуется использовать этот режим.</string>
     <string name="onboarding_preset_adaptive_title">Адаптивный</string>
     <string name="onboarding_preset_off_summary">Не применять никаких твиков. Будут доступны только утилиты.</string>
@@ -148,17 +209,29 @@
     <string name="onboarding_preset_powersave_title">Энергосбережение</string>
     <string name="onboarding_presets">Пресеты</string>
     <string name="onboarding_see_full_eula">Полное соглашение</string>
+    <string name="onboarding_select_mode_title">Выберите режим</string>
     <string name="onboarding_setup">Настройка</string>
     <string name="onboarding_setup_message">Пожалуйста, выберите, какие твики нужно применить. Вы сможете изменить любые настройки после начальной установки.</string>
-    <string name="onboarding_eula_summary_4">Не используйте другие твики вместе с FDE.AI.</string>
-    <string name="onboarding_migrate_data">Обнаружена прошлая версия</string>
     <string name="open_os_dev_settings">Открыть настройки разработчика Android</string>
     <string name="optimize_now">Оптимизировать сейчас</string>
     <string name="other_settings">Другие настройки</string>
+    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Сред.: %1$s FPS</string>
+    <string name="overlay_battery_temp_x">Батарея: %1$s°C</string>
+    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">ЦП: %1$s%%</string>
     <string name="overlay_desc_text">Активируйте плавающие окна мониторинга со статистикой в реальном времени.</string>
+    <string name="overlay_frame_time" tools:ignore="MissingTranslation">%1$s мс</string>
+    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">ГП: %1$s%%</string>
+    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Гц</string>
+    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s МБ</string>
+    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s МГц</string>
+    <string name="overlay_opacity_main">Прозрачность плавающих окон</string>
+    <string name="overlay_power_x">ПИТ: %1$s мАч</string>
+    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">ОЗУ: %1$s%%</string>
+    <string name="overlay_scale_main">Масштаб плавающих окон</string>
     <string name="performance">Скорость</string>
     <string name="power_checkbox">Потребление энергии</string>
     <string name="powersave">Экономия</string>
+    <string name="preload_pro_required">Чтобы использовать эту функцию, нужно приложение Preload Pro.</string>
     <string name="preload_title">Автоматическая предзагрузка</string>
     <string name="premium">⭐️ FDE.AI Премиум ⭐️</string>
     <string name="premium_card_overlays_desc">Настраиваемые плавающие окна с различной статистикой устройства, включая FPS метр.</string>
@@ -166,140 +239,72 @@
     <string name="premium_card_profiles_desc">Расширенная настройка профилей приложений с множеством опций.</string>
     <string name="premium_text">Поддержите проект FDE.AI и разблокируйте все эксклюзивные функции приложения:</string>
     <string name="premium_thanks">Спасибо за поддержку! Вы разблокировали следующие функции:</string>
-    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">ОЗУ: %1$s%%</string>
+    <string name="profile_ai_mode_desc">Выберите режим ИИ для приложения, пока оно активно.</string>
+    <string name="profiles_btn">Профили приложений</string>
+    <string name="profiles_descr_txt">Настраиваемые профили используются для изменения настроек FDE.AI во время работы приложения и их сброса после закрытия.</string>
     <string name="rate_app">Оцените приложение FDE.AI</string>
     <string name="releases">Релизы</string>
     <string name="reset">Сброс</string>
     <string name="reset_all_fde">Сбросить все настройки FDE.AI</string>
-    <string name="reset_downscale_onboot">Сброс при перезагрузке</string>
+    <string name="reset_app_list_confirmation_text">Вы точно хотите сбросить настройки списка приложений?</string>
+    <string name="reset_app_list_confirmation_title">Сбросить список?</string>
     <string name="reset_art_dialog_text">Вы действительно хотите очистить ART-кэш для сброса оптимизации и перезагрузить устройство?</string>
-    <string name="start_art_dialog_text">Оптимизация кэша ART может занять длительное время, устройство может тормозить и греться. Продолжить?</string>
+    <string name="reset_downscale_onboot">Сброс при перезагрузке</string>
     <string name="reset_fde_dialog_text">Вы действительно хотите сбросить все настройки FDE.AI?</string>
     <string name="restart_fde_action">Перезапустить FDE</string>
     <string name="restart_fde_in_progress">FDE перезапускается</string>
     <string name="rm_fde_lite">Пожалуйста, сначала удалите Lite версию FDE.AI!</string>
+    <string name="root_mode_descr">Все функции. Нужен root-доступ.</string>
     <string name="run_now">Запустить</string>
     <string name="save_log">Сохранить лог</string>
     <string name="search_no_reset">Поиск</string>
+    <string name="select_all">Выбрать всё</string>
     <string name="share">Поделиться приложением FDE.AI</string>
     <string name="share_txt">Попробуйте приложение FDE.AI - универсальный оптимизатор Android! Оно замечательное!</string>
-    <string name="profiles_btn">Профили приложений</string>
-    <string name="profiles_descr_txt">Настраиваемые профили используются для изменения настроек FDE.AI во время работы приложения и их сброса после закрытия.</string>
+    <string name="shizuku_broken_connection">Ошибка! Соединение с ADB разорвано, пожалуйста, перезапустите сервис Shizuku.</string>
+    <string name="shizuku_install_from_play_store">Установить из Play Store</string>
+    <string name="shizuku_mode_descr">Меньше функций, не нужен root, Android 7+. Требуется приложение Shizuku.</string>
+    <string name="shizuku_open_app">Открыть приложение Shizuku</string>
+    <string name="shizuku_setup_instructions_title">Инструкция по настройке</string>
+    <string name="shizuku_setup_step_1">Установите Shizuku</string>
+    <string name="shizuku_setup_step_2">Включите сервис Shizuku в приложении</string>
+    <string name="shizuku_setup_step_3">Предоставьте разрешения при запросе</string>
+    <string name="shizuku_setup_step_4">Вернитесь в FDE.AI для продолжения настройки</string>
+    <string name="shizuku_setup_success">Shizuku настроен, всё готово к работе</string>
+    <string name="shizuku_warning_miui_description">Пользователям MIUI нужно включить дополнительные разрешения разработчика для корректной работы Shizuku.</string>
+    <string name="shizuku_warning_miui_title">Разрешения разработчика MIUI</string>
+    <string name="shizuku_warning_systemless_description_new">Режим без root может выполнять действия, которые безвозвратно повлияют на настройки вашей системы.\n\nЕсли вы решите удалить приложение - сначала сбросьте FDE.AI в настройках приложения.</string>
+    <string name="sound_channel_name">Звуковые уведомления ИИ</string>
     <string name="sound_header">Звук</string>
     <string name="sound_notifications">Звуковые уведомления</string>
-    <string name="start_toast">Запуск FDE.AI…</string>
+    <string name="start_art_dialog_text">Оптимизация кэша ART может занять длительное время, устройство может тормозить и греться. Продолжить?</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">Ожидаю %1$d сек. до запуска FDE.AI…</string>
+    <string name="start_toast">Запуск FDE.AI…</string>
     <string name="startup">Запуск</string>
     <string name="stop_btn">Стоп</string>
     <string name="third_party">Сторонние библиотеки</string>
-    <string name="throttling_description">Вы можете отключить троттлинг, чтобы не терять производительность, но устройство может перегреваться, а также могут перестать работать быстрая зарядка или камера.\nПо умолчанию FDE.AI автоматически включает троттлинг, если устройство на зарядке. Вы можете отключить эту функцию, активировав \'Игнорировать зарядку\' ниже.</string>
+    <string name="throttling_deactivated">Троттлинг деактивирован</string>
+    <string name="throttling_desc_new">Это улучшит производительность, но может привести к перегреву и проблемам с быстрой зарядкой или камерой</string>
     <string name="throttling_fuse_desc">Температура устройства, при которой троттлинг будет автоматически включен для его охлаждения, независимо от настроек троттлинга, чтобы предотвратить аппаратные повреждения.</string>
     <string name="throttling_fuse_header">Температурный предохранитель</string>
     <string name="throttling_ignore_charging">Игнорировать зарядку</string>
+    <string name="throttling_ignore_charging_desc">По умолчанию FDE включает троттлинг во время зарядки. Включите этот переключатель, чтобы отключить это поведение</string>
+    <string name="throttling_ignore_on_charge">Игнор. зарядку при троттлинге</string>
     <string name="throttling_system_desc">Троттлинг - это механизм, предотвращающий перегрев устройства путем снижения максимальных частот процессора и графики.</string>
+    <string name="tile_available">Доступна плитка быстрого доступа в статусбаре.</string>
+    <string name="tweaks_disabled">Все твики отключены</string>
     <string name="un_fde_magisk">Сначала удалите модуль FDE.AI из Magisk!</string>
     <string name="unavailable">Недоступно</string>
     <string name="update">Обновить</string>
     <string name="update_available">Доступно обновление</string>
     <string name="updating_toast">Скачивание обновления…</string>
     <string name="vibration">Вибрация</string>
-    <string name="warning_header">Предупреждение</string>
-    <string name="welcome">Здравствуйте</string>
-    <string name="overlay_opacity_main">Прозрачность плавающих окон</string>
-    <string name="overlay_scale_main">Масштаб плавающих окон</string>
-    <string name="tweaks_disabled">Все твики отключены</string>
-    <string name="exit_confirmation_title">Выйти?</string>
-    <string name="exit_confirmation_text">Вы действительно хотите выйти без сохранения изменений?</string>
-    <string name="sound_channel_name">Звуковые уведомления ИИ</string>
-    <string name="reset_app_list_confirmation_title">Сбросить список?</string>
-    <string name="reset_app_list_confirmation_text">Вы точно хотите сбросить настройки списка приложений?</string>
-    <string name="downscale_notification" tools:ignore="PluralsCandidate">Нажмите ОК, чтобы подтвердить новое уменьшенное разрешение, иначе оно будет сброшено через %1$d сек.</string>
-    <string name="onboarding_migrate_data_description">Хотите перенести данные?</string>
-    <string name="kernel_block">Текущее ядро %1$s блокирует установку пакета Premium. Пожалуйста, установите другое ядро.</string>
-    <string name="profile_ai_mode_desc">Выберите режим ИИ для приложения, пока оно активно.</string>
-    <string name="preload_pro_required">Чтобы использовать эту функцию, нужно приложение Preload Pro.</string>
-    <string name="overlay_power_x">ПИТ: %1$s мАч</string>
-    <string name="overlay_battery_temp_x">Батарея: %1$s°C</string>
-    <string name="emergency_cooldown">Экстренное охлаждение</string>
-    <string name="emergency_cooldown_btn">Охладить</string>
-    <string name="emergency_cooldown_desc">При активации включится троттлинг, режим полета и энергосбережение, отключится зарядка, закроются все фоновые приложения и ИИ перейдет в принудительный режим энергосбережения на 100 секунд, после чего все изменения будут отменены.</string>
-    <string name="hwinfo">Устройство</string>
-    <string name="ai_lifetime">Время работы ИИ</string>
-    <string name="kernel_tuning_state">Состояние настройки ядра</string>
-    <string name="cpu_turbo_support">Поддержка CPU Turbo</string>
-    <string name="cpu_turbo_trigger_count">Срабатываний CPU Turbo</string>
-    <string name="gpu_turbo_support">Поддержка GPU Turbo</string>
-    <string name="gpu_turbo_trigger_count">Срабатываний GPU Turbo</string>
-    <string name="force_doze_enabled">Принудительный Doze включен</string>
-    <string name="force_doze_trigger_count">Срабатываний Doze</string>
-    <string name="throttling_deactivated">Троттлинг деактивирован</string>
-    <string name="throttling_ignore_on_charge">Игнор. зарядку при троттлинге</string>
-    <string name="kill_bg_apps">Закрытие фоновых приложений</string>
-    <string name="auto_art_opt">Автоматическая оптимизация ART</string>
-    <string name="dynamic_read_ahead">Динамическое предсчитывание</string>
-    <string name="charging_bypass_enabled">Обход зарядки включен</string>
-    <string name="charging_limit_enabled">Ограничение зарядки включено</string>
-    <string name="charging_cycles">Циклов заряда:</string>
-    <string name="cpu_bandwidth_tune">Пропускная полоса ЦП</string>
-    <string name="fs_cache_tune">Настройка кэша ФС</string>
     <string name="vm_cache_tune">Настройка кэша ВМ</string>
-    <string name="cpu_input_boost_tune">Ускорение ввода ЦП</string>
-    <string name="kernel_entropy_tune">Настройка энтропии ядра</string>
-    <string name="kernel_sched_boost">Ускорение планировщика ядра</string>
-    <string name="multi_core_power_saving_control">Энергосбережение многояд. ЦП</string>
-    <string name="migration_error">Произошла непредвиденная ошибка при миграции данных. Данные будут очищены.</string>
-    <string name="onboarding_select_mode_title">Выберите режим</string>
-    <string name="charging_limit">Ограничение заряда</string>
-    <string name="auto_data_save">Экономия данных</string>
-    <string name="auto_data_save_desc">Автоматически включать режим экономии трафика при выключеном экране.</string>
-    <string name="autopowersave_mode">Авто энергосбережение</string>
-    <string name="autodatasave_mode">Авто экономия данных</string>
-    <string name="memory_boost_support">Ускорение памяти</string>
-    <string name="root_mode_descr">Все функции. Нужен root-доступ.</string>
-    <string name="shizuku_mode_descr">Меньше функций, не нужен root, Android 7+. Требуется приложение Shizuku.</string>
-    <string name="lets_go">Запустить</string>
-    <string name="shizuku_setup_success">Shizuku настроен, всё готово к работе</string>
-    <string name="shizuku_setup_instructions_title">Инструкция по настройке</string>
-    <string name="shizuku_warning_systemless_title">Внимание</string>
-    <string name="shizuku_warning_miui_title">Разрешения разработчика MIUI</string>
-    <string name="shizuku_warning_miui_description">Пользователям MIUI нужно включить дополнительные разрешения разработчика для корректной работы Shizuku.</string>
-    <string name="shizuku_install_from_play_store">Установить из Play Store</string>
-    <string name="shizuku_open_app">Открыть приложение Shizuku</string>
-    <string name="shizuku_setup_step_1">Установите Shizuku</string>
-    <string name="shizuku_setup_step_2">Включите сервис Shizuku в приложении</string>
-    <string name="shizuku_setup_step_3">Предоставьте разрешения при запросе</string>
-    <string name="shizuku_setup_step_4">Вернитесь в FDE.AI для продолжения настройки</string>
-    <string name="shizuku_broken_connection">Ошибка! Соединение с ADB разорвано, пожалуйста, перезапустите сервис Shizuku.</string>
-    <string name="just_check">Проверить</string>
-    <string name="dontkillmyapp_text">Вы используете режим Shizuku. Чтобы приложение работало корректно, отключите автокилл для Shizuku и FDE.AI. Показать как это сделать?</string>
-    <string name="burnit_btn">Отключить трогглинг</string>
-    <string name="already_premium">Уже есть премиум?</string>
-    <string name="already_premium_txt">Если вы уже приобрели премиум пакет, но FDE.AI его не определяет - следуйте этим шагам:\n\n
-    1. Убедитесь что вы скачали оригинальную копию приложения FDE.AI из официальных источников и проверьте MD5 хэш.\n
-    2. Убедитесь что в вашей прошивке нет подмены или отключение проверки подписи приложений.\n
-    3. Удалите оба приложения - FDE.AI и Премиум пакет.\n
-    4. Очистите данные приложения Google Play.\n
-    5. Перезагрузите ваше устройство.\n
-    6. Установите FDE.AI и Премиум пакет.\n\n
-    Если проблема осталась, свяжитесь с разработчиком в Telegram.</string>
-    <string name="wifi_psave_header">Откл. спящий режим WiFi</string>
+    <string name="warning_header">Предупреждение</string>
+    <string name="warning_no">Нет</string>
+    <string name="warning_title">Внимание!</string>
+    <string name="warning_yes">Да</string>
+    <string name="welcome">Здравствуйте</string>
     <string name="wifi_psave_descr">Чтобы уменьшить шанс разрыва соединения с Shizuku вы можете попробовать отключить спящий режим WiFi, но это может увеличить энергопотребление.</string>
-    <string name="downscale_warning">Если вдруг что-то пойдёт не так и у вас не будет доступа к кнопке \'Сброс\' - не перзагружайте устройство!\nВместо этого подключитесь к ADB shell введите команду: \'adb shell wm size reset;wm density reset\'.</string>
-    <string name="shizuku_warning_systemless_description_new">Режим без root может выполнять действия, которые безвозвратно повлияют на настройки вашей системы.\n\nЕсли вдруг вы решите удалить приложение - сначала сбросьте FDE.AI в настройках приложения.</string>
-    <!-- Actions contentDescription -->
-    <string name="select_all">Выбрать всё</string>
-    <string name="clear_selection">Снять выделение</string>
-    <!-- Debloat apply confirm (pluralized) -->
-    <plurals name="debloat_apply_confirm_text">
-        <item quantity="one">Применить изменения к %1$d приложению?</item>
-        <item quantity="few">Применить изменения к %1$d приложениям?</item>
-        <item quantity="many">Применить изменения к %1$d приложениям?</item>
-        <item quantity="other">Применить изменения к %1$d приложениям?</item>
-    </plurals>
-    <!-- Debloat processing progress in dialog -->
-    <string name="debloat_processing_progress">Обработка: %1$d/%2$d</string>
-    <string name="debloat_title">Мусорные приложения</string>
-    <string name="debloat_descr">Здесь вы можете отключить некоторые системные приложения, считающиеся мусорными, чтобы ускорить систему. Ниже приведён рекомендованный список приложений для отключения от Universal Debloater Alliance.</string>
-    <string name="debloat_uninstall">Удалить</string>
-    <string name="debloat_no_apps">Нет нежелательных приложений.</string>
+    <string name="wifi_psave_header">Откл. спящий режим WiFi</string>
 </resources>

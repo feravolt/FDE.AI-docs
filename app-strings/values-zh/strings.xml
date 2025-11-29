@@ -2,13 +2,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_app">关于</string>
     <string name="about_end_txt" tools:ignore="MissingTranslation">使用 ❤️ 由 FeraVolt 制作。</string>
+    <string name="acc_warning">检测到高级充电控制器 (ACC) 模块。它可能与 FDE.AI 电池功能冲突。</string>
     <string name="accept">接受</string>
     <string name="adaptive">自动操作</string>
     <string name="ai_auto_mode">基于设备使用情况的平衡性能和节能。Freqs 自动调节能会提供更多的省电。</string>
     <string name="ai_is_disabled">AI 已禁用</string>
+    <string name="ai_lifetime">AI 生命周期</string>
     <string name="ai_log">AI 日志</string>
     <string name="ai_mode">AI</string>
     <string name="ai_mode_auto">自动操作</string>
+    <string name="ai_modes">AI 模式</string>
     <string name="ai_modes_desc">AI 运行后台，学习用法，并应用系统优化。</string>
     <string name="ai_off_detail">当AI 被禁用时，FDE作为一次性优化器，不能实时优化。</string>
     <string name="ai_perf_mode">优化性能。经常触发 CPU/GPU 涡轮机。</string>
@@ -19,8 +22,15 @@
     <string name="ai_state_ready">工作</string>
     <string name="ai_state_sleeping">Sleeping…</string>
     <string name="aiinfo">AI info</string>
-    <string name="core_tweaks_enable">启用核心调整</string>
-    <string name="core_tweaks_enable_desc">启用主要的FDE调整。建议继续保持。</string>
+    <string name="already_premium">已经拥有高级版？</string>
+    <string name="already_premium_txt">如果您已购买高级套餐，但 FDE.AI 未检测到，请按照以下步骤操作：\n\n
+1. 确保您从官方来源下载了 FDE.AI 应用的正版，并检查 MD5 哈希值。\n
+2. 确保您的 ROM 没有签名欺骗或禁用验证。\n
+3. 卸载 FDE.AI 高级套餐和 FDE.AI 应用。\n
+4. 清除 Google Play 应用数据。\n
+5. 重启您的设备。\n
+6. 安装 FDE.AI 和高级套餐。\n\n
+如果问题仍然存在，请在 Telegram 中联系开发者。</string>
     <string name="app_icon">应用图标</string>
     <string name="app_theme">主题</string>
     <string name="app_update_notification_title">FDE.AI 更新</string>
@@ -30,8 +40,13 @@
     <string name="arrow_right">右箭头</string>
     <string name="arrow_up">向上箭头</string>
     <string name="attempt_root">正在获取root权限</string>
+    <string name="auto_art_opt">自动 ART 优化</string>
+    <string name="auto_data_save">流量节省</string>
+    <string name="auto_data_save_desc">屏幕关闭时自动启用流量节省。</string>
     <string name="auto_psave">省电模式</string>
     <string name="auto_psave_desc">屏幕关闭时自动启用省电模式。</string>
+    <string name="autodatasave_mode">自动流量节省</string>
+    <string name="autopowersave_mode">强制休眠自动省电</string>
     <string name="autostart">Autostart</string>
     <string name="autostart_delay_hint">延迟设置为 %1$d秒</string>
     <string name="autostart_overlay">开始统计叠加</string>
@@ -39,101 +54,147 @@
     <string name="batt_resistance">抗性</string>
     <string name="battery_health_sub">设置停止充电级别：</string>
     <string name="battery_health_toggle">最大充电限制</string>
-    <string name="battery_level_x" tools:ignore="MissingTranslation">等级: %1$s</string>
     <string name="battery_status">电池状态</string>
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">温度： %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">电压: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">墙体: %1$s</string>
     <string name="burnit">节流</string>
-    <string name="greenbattery_title">电池</string>
+    <string name="burnit_btn">禁用限速</string>
     <string name="bypassch_desc">在重压过程中限制充电器电流以匹配设备使用率，降低充电和加热。</string>
     <string name="bypassch_title">充电旁路</string>
     <string name="cancel">取消</string>
     <string name="changelog">更新日志</string>
     <string name="charge_time">付费时间</string>
     <string name="charging">正在充电</string>
+    <string name="charging_bypass_enabled">充电旁路已启用</string>
+    <string name="charging_cycles">充电周期：</string>
+    <string name="charging_limit">充电限制</string>
+    <string name="charging_limit_enabled">充电限制已启用</string>
     <string name="check_for_updates_about">启动时检查更新</string>
     <string name="clean_cache">清理缓存</string>
-    <string name="clean_ram">Clean RAM</string>
+    <string name="clean_cache_done_snack">缓存已清理</string>
+    <string name="clean_cache_running_snack">正在清理缓存…</string>
+    <string name="clean_ram">清理RAM</string>
+    <string name="clean_ram_done_snack">RAM已清理</string>
+    <string name="clean_ram_running_snack">正在清理RAM…</string>
     <string name="cleaning_desc">通过删除缓存文件关闭后台应用和免费存储来清除 RAM 。</string>
     <string name="cleaning_title">清理中</string>
+    <string name="clear_selection">清除选择</string>
     <string name="close">关闭</string>
+    <string name="common_cached">缓存</string>
+    <string name="common_settings">设置</string>
+    <string name="common_swap">交换</string>
+    <string name="common_wear">磨损</string>
+    <string name="common_x_total">%1$s总计</string>
+    <string name="common_x_used">%1$s已用</string>
     <string name="completed">已完成</string>
-    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>
+    <string name="core_tweaks_enable">核心调整</string>
+    <string name="core_tweaks_enable_desc">启用主要的FDE调整。建议继续保持。</string>
+    <string name="cpu_bandwidth_tune">CPU 带宽调整</string>
+    <string name="cpu_input_boost_tune">CPU 输入提升</string>
     <string name="cpu_top_descr">CPU密集程度最高的5个进程叠加层</string>
     <string name="cpu_top_header">流程统计</string>
+    <string name="cpu_turbo_support">CPU Turbo 支持</string>
+    <string name="cpu_turbo_trigger_count">CPU Turbo 触发次数</string>
     <string name="current_resolution">当前决议：</string>
     <string name="dark_theme">深色</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="other">将更改应用到 %1$d 个应用？</item>
+    </plurals>
+    <string name="debloat_descr">在此可禁用一些被认为是臃肿软件的系统应用，以加快系统。下方为 Universal‑Debloater‑Alliance 推荐的可移除应用列表。</string>
+    <string name="debloat_no_apps">没有臃肿软件（不需要的应用）。</string>
+    <string name="debloat_processing_progress">处理中: %1$d/%2$d</string>
+    <string name="debloat_title">禁用臃肿应用</string>
+    <string name="debloat_uninstall">卸载</string>
     <string name="debug_mode">调试</string>
     <string name="description">描述</string>
-    <string name="enable_ai">启用 AI</string>
     <string name="disable_logs">禁用日志</string>
     <string name="disable_logs_desc">选择禁用所有日志和统计信息（“logcat”除外），并将 logcat 缓冲区大小减少至 128 KB。</string>
+    <string name="dontkillmyapp_text">您正在使用 Shizuku 模式。为了保持应用正常运行，请禁用 Shizuku 和 FDE.AI 的自动终止功能。想看看怎么做吗？</string>
     <string name="downscale_btn">自适应降级</string>
     <string name="downscale_desc">降低屏幕分辨率以提高GPU性能并节省电池电量，但图像质量略有下降。 不建议在自定义ROM (MIUI, EMUI 等)上转到屏幕宽度以下，以避免界面崩溃。</string>
-    <string name="warning_no">否</string>
-    <string name="warning_title">警告！</string>
-    <string name="warning_yes">否</string>
+    <string name="downscale_notification" tools:ignore="PluralsCandidate">按 OK 确认新分辨率，否则它将在 %1$d 秒内重置。</string>
+    <string name="downscale_warning">如果出现任何问题，导致您无法访问“重置”按钮，请勿重启设备！\n请连接到 ADB shell 并输入以下命令：“adb shell wm size reset;wm density reset”。</string>
     <string name="doze_description">FDE.AI 可以更早地触发Doze模式。如果出现问题，请使用下面的按钮将应用列入白名单。</string>
     <string name="doze_mode">强制Doze模式</string>
     <string name="doze_sub_describtion">在屏幕关闭时启用进入Doze模式。</string>
     <string name="doze_system_desc">Doze模式 (Android 6.0+) 在设备闲置时延迟背景CPU和网络活动来减少电池使用量。</string>
     <string name="doze_whitelist">Doze白名单</string>
+    <string name="dynamic_read_ahead">动态预读</string>
+    <string name="emergency_cooldown">紧急冷却时间</string>
+    <string name="emergency_cooldown_btn">冷却时间</string>
+    <string name="emergency_cooldown_desc">激活后，它将重新启用节流、启用飞行模式、节能模式， 击杀后台应用，禁用充电，并将 AI 设置为节能模式100秒，然后还原。</string>
+    <string name="enable_ai">启用 AI</string>
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
+    <string name="exit_confirmation_text">退出而不保存更改？</string>
+    <string name="exit_confirmation_title">退出？</string>
     <string name="extraopt_btn">额外优化</string>
     <string name="extraopt_desc">优化系统，为性能重新编译ART缓存(使用更多内部内存)，并修剪文件系统以提高内存性能。</string>
     <string name="extraopt_do_btn">开始</string>
     <string name="extraopt_reset_btn">重置优化</string>
+    <string name="extraopt_schedule_title">安排每日运行</string>
+    <string name="extraopt_scheduled_subtitle">下次运行时间：%1$s:00</string>
     <string name="extraopt_warning">这不是一个系统化的最优化。可能会破坏某些自定义ROM 上的系统 (需要清除ART 缓存以恢复)。在使用前备份您的数据。</string>
-    <string name="acc_warning">检测到高级充电控制器 (ACC) 模块。它可能与 FDE.AI 电池功能冲突。</string>
     <string name="fde_is_active">AI 激活</string>
     <string name="fde_is_inactive">AI inactive</string>
     <string name="fde_on_reset_toast">所有FDE.AI 数据将被重置。应用将关闭。</string>
     <string name="finstall">Installing FDE.AI…</string>
-    <string name="monitoring_floating_window">监测</string>
+    <string name="force_doze_enabled">强制休眠已启用</string>
+    <string name="force_doze_trigger_count">强制休眠触发次数</string>
     <string name="fps_checkbox">硬件监测 &amp; FPS</string>
     <string name="fps_meter_desc">实时FPS、CPU、GPU、RAM和电源使用情况统计。</string>
-    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">平均: %1$s FPS</string>
-    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s 赫兹</string>
-    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
+    <string name="fs_cache_tune">FS 缓存调整</string>
     <string name="get_premium">Get FDE.AI Premium</string>
     <string name="go_back">后退</string>
-    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="gpu_turbo_support">GPU Turbo 支持</string>
+    <string name="gpu_turbo_trigger_count">GPU Turbo 触发次数</string>
     <string name="grantit">您可能需要在您的操作系统权限管理器中手动授予自动启动权限，以允许FDE.AI在操作系统启动后启动。</string>
     <string name="greenbattery_desc">通过限制最大充电级别来延长电池寿命。停止充电并重新启动低于6%的充电。</string>
+    <string name="greenbattery_title">电池</string>
     <string name="hour">h.</string>
+    <string name="hwinfo">设备</string>
     <string name="join_forum">XDA</string>
-    <string name="just_battery">电量：</string>
+    <string name="just_check">检查</string>
     <string name="just_ram">RAM</string>
     <string name="just_storage">存储</string>
+    <string name="kernel_block">当前内核 %1$s 阻止高级安装。请考虑安装另一个内核。</string>
+    <string name="kernel_entropy_tune">内核熵调整</string>
+    <string name="kernel_sched_boost">内核调度程序提升</string>
+    <string name="kernel_tuning_state">内核调整</string>
+    <string name="kill_bg_apps">关闭后台应用</string>
     <string name="killbgapps_desc">屏幕关闭时自动关闭后台应用。</string>
     <string name="killbgapps_title">结束后台应用</string>
+    <string name="lets_go">运行</string>
     <string name="light_theme">亮色的</string>
     <string name="link_open_error" tools:ignore="MissingTranslation">无法打开链接</string>
     <string name="links">链接</string>
     <string name="log_saved">日志保存到 /sdcard/fde.md</string>
     <string name="low_power_fps">低功率FPS</string>
     <string name="low_power_fps_short_desc">设置目标FPS - CPU/GPU频率将会减少，以保持FPS并节省电力。</string>
-    <string name="mem_available_x" tools:ignore="MissingTranslation">可用: %1$s</string>
-    <string name="mem_cached_x" tools:ignore="MissingTranslation">缓存: %1$s</string>
-    <string name="mem_total_x" tools:ignore="MissingTranslation">总计: %1$s</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">已使用: %1$s</string>
+    <string name="memory_boost_support">内存提升</string>
     <string name="menu_dashboard">首页</string>
+    <string name="migration_error">数据迁移时发生意外错误。数据将被清除。</string>
     <string name="min">最小.</string>
+    <string name="monitoring_floating_window">监测</string>
     <string name="more_info">更多信息</string>
+    <string name="multi_core_power_saving_control">多核 CPU 节能</string>
     <string name="noroot">没有ROOT权限！</string>
     <string name="notification_ai_state">持续通知</string>
     <string name="notification_ai_state_desc">在通知中显示当前的 AI 模式</string>
     <string name="notification_battery_state">电池通知</string>
     <string name="notification_battery_state_desc">在通知中显示电池信息</string>
+    <string name="notifications_and_feedback">通知和反馈</string>
     <string name="offf">关闭</string>
     <string name="older_changelogs" tools:ignore="MissingTranslation">旧的更新日志</string>
     <string name="onboarding_eula_message">请接受我们同意继续</string>
     <string name="onboarding_eula_summary_1">FDE.AI 通过修改各种系统参数优化您的系统</string>
     <string name="onboarding_eula_summary_2">确保您有数据备份</string>
     <string name="onboarding_eula_summary_3">我们不对任何损害负责。</string>
+    <string name="onboarding_eula_summary_4">不要使用FDE.AI的其他优点。</string>
     <string name="onboarding_eula_summary_header">协议摘要</string>
+    <string name="onboarding_migrate_data">检测到上一个版本</string>
+    <string name="onboarding_migrate_data_description">迁移您的数据吗？</string>
     <string name="onboarding_preset_adaptive_summary">应用调整 AI 以自动调整。推荐模式。</string>
     <string name="onboarding_preset_adaptive_title">自适应模式</string>
     <string name="onboarding_preset_off_summary">未应用任何调整。只有工具将立即可用</string>
@@ -144,17 +205,28 @@
     <string name="onboarding_preset_powersave_title">省电</string>
     <string name="onboarding_presets">预设值</string>
     <string name="onboarding_see_full_eula">查看完整的 EULA</string>
+    <string name="onboarding_select_mode_title">选择模式</string>
     <string name="onboarding_setup">设置</string>
     <string name="onboarding_setup_message">选择应用哪个调整。您可以在设置后更改设置。</string>
-    <string name="onboarding_eula_summary_4">不要使用FDE.AI的其他优点。</string>
-    <string name="onboarding_migrate_data">检测到上一个版本</string>
     <string name="open_os_dev_settings">打开 Android 开发者设置</string>
     <string name="optimize_now">立即优化</string>
     <string name="other_settings">其他设置</string>
+    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">平均: %1$s FPS</string>
+    <string name="overlay_battery_temp_x">电池： %1$s°C</string>
+    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>
     <string name="overlay_desc_text">激活浮动窗口，使用实时状态进行监测。</string>
+    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s 赫兹</string>
+    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
+    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
+    <string name="overlay_opacity_main">Overlay opacity</string>
+    <string name="overlay_power_x">能量: %1$s mAh</string>
+    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
+    <string name="overlay_scale_main">叠加比例</string>
     <string name="performance">业绩</string>
     <string name="power_checkbox">耗电</string>
     <string name="powersave">省电</string>
+    <string name="preload_pro_required">此功能需要Preload Pro 应用。</string>
     <string name="preload_title">自动预加载</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
     <string name="premium_card_overlays_desc">可自定义的叠加层窗口，拥有包括FPS仪表在内的各种统计信息。</string>
@@ -162,137 +234,72 @@
     <string name="premium_card_profiles_desc">可自定义的应用程序配置文件有许多选项。</string>
     <string name="premium_text">支持FDE.AI并解锁所有独家功能：</string>
     <string name="premium_thanks">感谢您的支持！您解锁了这些功能：</string>
-    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
+    <string name="profile_ai_mode_desc">在应用程序使用时选择 AI 模式。</string>
+    <string name="profiles_btn">应用配置文件</string>
+    <string name="profiles_descr_txt">当应用程序运行时，自定义配置文件应用FDE.AI设置，并在关闭时恢复。</string>
     <string name="rate_app">给FDE.A.I 评分</string>
     <string name="releases">更新</string>
     <string name="reset">Reset</string>
     <string name="reset_all_fde">重置FDE.AI 设置</string>
-    <string name="reset_downscale_onboot">重启后重置</string>
+    <string name="reset_app_list_confirmation_text">重置应用列表？</string>
+    <string name="reset_app_list_confirmation_title">重置列表</string>
     <string name="reset_art_dialog_text">清除ART缓存并重启？</string>
-    <string name="start_art_dialog_text">优化ART缓存可能需要时间，导致设备滞后和过热。是否继续？</string>
+    <string name="reset_downscale_onboot">重启后重置</string>
     <string name="reset_fde_dialog_text">重置所有FDE.AI设置吗？</string>
     <string name="restart_fde_action">重新启动FDE.A.I</string>
     <string name="restart_fde_in_progress">Restarting FDE.AI</string>
     <string name="rm_fde_lite">先卸载FDE.AI lite 版本！</string>
+    <string name="root_mode_descr">所有功能。需要 root 权限。</string>
     <string name="run_now">运行</string>
     <string name="save_log">保存日志</string>
     <string name="search_no_reset">搜索</string>
+    <string name="select_all">全选</string>
     <string name="share">分享FDE.AI</string>
     <string name="share_txt">试试FDE.AI - 一个令人惊叹的安卓优化器！</string>
-    <string name="profiles_btn">应用配置文件</string>
-    <string name="profiles_descr_txt">当应用程序运行时，自定义配置文件应用FDE.AI设置，并在关闭时恢复。</string>
+    <string name="shizuku_broken_connection">错误！ADB 连接已断开，请重新启动 Shizuku 服务。</string>
+    <string name="shizuku_install_from_play_store">从 Play 商店安装</string>
+    <string name="shizuku_mode_descr">功能较少，无需 root，Android 7 及以上系统。需要 Shizuku 应用。</string>
+    <string name="shizuku_open_app">打开Shizuku 应用</string>
+    <string name="shizuku_setup_instructions_title">设置说明</string>
+    <string name="shizuku_setup_step_1">安装 Shizuku</string>
+    <string name="shizuku_setup_step_2">在应用中启用 Shizuku 服务</string>
+    <string name="shizuku_setup_step_3">出现提示时授予权限</string>
+    <string name="shizuku_setup_step_4">返回 FDE.AI 继续设置</string>
+    <string name="shizuku_setup_success">Shizuku 已设置完毕，您可以开始使用了</string>
+    <string name="shizuku_warning_miui_description">MIUI 用户需要启用额外的开发者权限才能使 Shizuku 正常运行。</string>
+    <string name="shizuku_warning_miui_title">MIUI 开发者权限</string>
+    <string name="shizuku_warning_systemless_description_new">非 root 模式可能会执行永久影响系统的操作。\n\n如果您考虑卸载此应用，请先重置应用中的 FDE.AI 设置。</string>
+    <string name="sound_channel_name">AI 声音通知</string>
     <string name="sound_header">声音</string>
-    <string name="start_toast">开始FDE.AI…</string>
+    <string name="sound_notifications">声音通知</string>
+    <string name="start_art_dialog_text">优化ART缓存可能需要时间，导致设备滞后和过热。是否继续？</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">等待 %1$d 秒开始FDE.AI…</string>
+    <string name="start_toast">开始FDE.AI…</string>
     <string name="startup">Startup</string>
     <string name="stop_btn">停止</string>
     <string name="third_party">第三方库</string>
-    <string name="throttling_description">禁用它可以保持性能，但可能会导致过热，快速充电或相机可能会停止工作。
-\nFDE.AI 在默认充电期间重新启用了节流。取消选中以禁用此功能。</string>
+    <string name="throttling_deactivated">节流已停用</string>
+    <string name="throttling_desc_new">这可以保持性能，但可能会导致过热以及快速充电或相机问题。</string>
     <string name="throttling_fuse_desc">在此温度下自动重新启用流水线以防止伤害。</string>
     <string name="throttling_fuse_header">温度引信器</string>
     <string name="throttling_ignore_charging">忽略充电</string>
+    <string name="throttling_ignore_charging_desc">默认情况下，FDE 在充电时会重新启用降频。选中此选项可禁用该行为。</string>
+    <string name="throttling_ignore_on_charge">节流忽略充电</string>
     <string name="throttling_system_desc">通过降低CPU/GPU频率防止过热。</string>
+    <string name="tile_available">状态栏中有可用的快捷开关。</string>
+    <string name="tweaks_disabled">已禁用所有调整</string>
     <string name="un_fde_magisk">先卸载FDE.AI Magisk模块！</string>
     <string name="unavailable">Unavailable</string>
     <string name="update">更新</string>
     <string name="update_available">更新可用！</string>
     <string name="updating_toast">正在下载更新…</string>
     <string name="vibration">振动一次</string>
-    <string name="warning_header">警告</string>
-    <string name="welcome">欢迎使用</string>
-    <string name="overlay_opacity_main">Overlay opacity</string>
-    <string name="tweaks_disabled">已禁用所有调整</string>
-    <string name="exit_confirmation_title">退出？</string>
-    <string name="exit_confirmation_text">退出而不保存更改？</string>
-    <string name="sound_channel_name">AI 声音通知</string>
-    <string name="reset_app_list_confirmation_title">重置列表</string>
-    <string name="reset_app_list_confirmation_text">重置应用列表？</string>
-    <string name="downscale_notification" tools:ignore="PluralsCandidate">按 OK 确认新分辨率，否则它将在 %1$d 秒内重置。</string>
-    <string name="onboarding_migrate_data_description">迁移您的数据吗？</string>
-    <string name="kernel_block">当前内核 %1$s 阻止高级安装。请考虑安装另一个内核。</string>
-    <string name="profile_ai_mode_desc">在应用程序使用时选择 AI 模式。</string>
-    <string name="preload_pro_required">此功能需要Preload Pro 应用。</string>
-    <string name="overlay_power_x">能量: %1$s mAh</string>
-    <string name="overlay_battery_temp_x">电池： %1$s°C</string>
-    <string name="overlay_scale_main">叠加比例</string>
-    <string name="emergency_cooldown">紧急冷却时间</string>
-    <string name="emergency_cooldown_btn">冷却时间</string>
-    <string name="emergency_cooldown_desc">激活后，它将重新启用节流、启用飞行模式、节能模式， 击杀后台应用，禁用充电，并将 AI 设置为节能模式100秒，然后还原。</string>
-    <string name="hwinfo">设备</string>
-    <string name="ai_lifetime">AI 生命周期</string>
-    <string name="kernel_tuning_state">内核调整</string>
-    <string name="cpu_turbo_support">CPU Turbo 支持</string>
-    <string name="cpu_turbo_trigger_count">CPU Turbo 触发次数</string>
-    <string name="gpu_turbo_support">GPU Turbo 支持</string>
-    <string name="gpu_turbo_trigger_count">GPU Turbo 触发次数</string>
-    <string name="force_doze_enabled">强制休眠已启用</string>
-    <string name="force_doze_trigger_count">强制休眠触发次数</string>
-    <string name="autopowersave_mode">强制休眠自动省电</string>
-    <string name="throttling_deactivated">节流已停用</string>
-    <string name="throttling_ignore_on_charge">节流忽略充电</string>
-    <string name="kill_bg_apps">关闭后台应用</string>
-    <string name="auto_art_opt">自动 ART 优化</string>
-    <string name="dynamic_read_ahead">动态预读</string>
-    <string name="charging_bypass_enabled">充电旁路已启用</string>
-    <string name="charging_limit_enabled">充电限制已启用</string>
-    <string name="charging_cycles">充电周期：</string>
-    <string name="cpu_bandwidth_tune">CPU 带宽调整</string>
-    <string name="fs_cache_tune">FS 缓存调整</string>
     <string name="vm_cache_tune">VM 缓存调整</string>
-    <string name="cpu_input_boost_tune">CPU 输入提升</string>
-    <string name="kernel_entropy_tune">内核熵调整</string>
-    <string name="kernel_sched_boost">内核调度程序提升</string>
-    <string name="multi_core_power_saving_control">多核 CPU 节能</string>
-    <string name="extraopt_schedule_title">安排每日运行</string>
-    <string name="extraopt_schedule_time">设置每日自动优化时间</string>
-    <string name="sound_notifications">声音通知</string>
-    <string name="migration_error">数据迁移时发生意外错误。数据将被清除。</string>
-    <string name="onboarding_select_mode_title">选择模式</string>
-    <string name="charging_limit">充电限制</string>
-    <string name="auto_data_save">流量节省</string>
-    <string name="auto_data_save_desc">屏幕关闭时自动启用流量节省。</string>
-    <string name="autodatasave_mode">自动流量节省</string>
-    <string name="memory_boost_support">内存提升</string>
-    <string name="root_mode_descr">所有功能。需要 root 权限。</string>
-    <string name="shizuku_mode_descr">功能较少，无需 root，Android 7 及以上系统。需要 Shizuku 应用。</string>
-    <string name="lets_go">运行</string>
-    <string name="shizuku_setup_success">Shizuku 已设置完毕，您可以开始使用了</string>
-    <string name="shizuku_setup_instructions_title">设置说明</string>
-    <string name="shizuku_warning_systemless_title">注意</string>
-    <string name="shizuku_warning_miui_title">MIUI 开发者权限</string>
-    <string name="shizuku_warning_miui_description">MIUI 用户需要启用额外的开发者权限才能使 Shizuku 正常运行。</string>
-    <string name="shizuku_install_from_play_store">从 Play 商店安装</string>
-    <string name="shizuku_open_app">打开Shizuku 应用</string>
-    <string name="shizuku_setup_step_1">安装 Shizuku</string>
-    <string name="shizuku_setup_step_2">在应用中启用 Shizuku 服务</string>
-    <string name="shizuku_setup_step_3">出现提示时授予权限</string>
-    <string name="shizuku_setup_step_4">返回 FDE.AI 继续设置</string>
-    <string name="shizuku_broken_connection">错误！ADB 连接已断开，请重新启动 Shizuku 服务。</string>
-    <string name="just_check">检查</string>
-    <string name="dontkillmyapp_text">您正在使用 Shizuku 模式。为了保持应用正常运行，请禁用 Shizuku 和 FDE.AI 的自动终止功能。想看看怎么做吗？</string>
-    <string name="burnit_btn">禁用限速</string>
-    <string name="already_premium">已经拥有高级版？</string>
-    <string name="already_premium_txt">如果您已购买高级套餐，但 FDE.AI 未检测到，请按照以下步骤操作：\n\n
-1. 确保您从官方来源下载了 FDE.AI 应用的正版，并检查 MD5 哈希值。\n
-2. 确保您的 ROM 没有签名欺骗或禁用验证。\n
-3. 卸载 FDE.AI 高级套餐和 FDE.AI 应用。\n
-4. 清除 Google Play 应用数据。\n
-5. 重启您的设备。\n
-6. 安装 FDE.AI 和高级套餐。\n\n
-如果问题仍然存在，请在 Telegram 中联系开发者。</string>
-    <string name="wifi_psave_header">禁用 WiFi 睡眠模式</string>
+    <string name="warning_header">警告</string>
+    <string name="warning_no">否</string>
+    <string name="warning_title">警告！</string>
+    <string name="warning_yes">否</string>
+    <string name="welcome">欢迎使用</string>
     <string name="wifi_psave_descr">为了减少与 Shizuku 断开连接的可能性，您可以尝试禁用 WiFi 睡眠模式，但这可能会增加空闲功耗。</string>
-    <string name="downscale_warning">如果出现任何问题，导致您无法访问“重置”按钮，请勿重启设备！\n请连接到 ADB shell 并输入以下命令：“adb shell wm size reset;wm density reset”。</string>
-    <string name="shizuku_warning_systemless_description_new">非 root 模式可能会执行永久影响系统的操作。\n\n如果您考虑卸载此应用，请先重置应用中的 FDE.AI 设置。</string>
-    <string name="debloat_title">禁用臃肿应用</string>
-    <string name="debloat_descr">在此可禁用一些被认为是臃肿软件的系统应用，以加快系统。下方为 Universal‑Debloater‑Alliance 推荐的可移除应用列表。</string>
-    <string name="select_all">全选</string>
-    <string name="clear_selection">清除选择</string>
-    <plurals name="debloat_apply_confirm_text">
-        <item quantity="other">将更改应用到 %1$d 个应用？</item>
-    </plurals>
-    <string name="debloat_processing_progress">处理中: %1$d/%2$d</string>
-    <string name="debloat_uninstall">卸载</string>
-    <string name="debloat_no_apps">没有臃肿软件（不需要的应用）。</string>
+    <string name="wifi_psave_header">禁用 WiFi 睡眠模式</string>
 </resources>

@@ -2,13 +2,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_app">Despre</string>
     <string name="about_end_txt" tools:ignore="MissingTranslation">Făcut cu ❤️ de FeraVolt.</string>
+    <string name="acc_warning">Modulul Advanced Charging Controller (ACC) este detectat. Poate intra în conflict cu funcțiile bateriei FDE.AI.</string>
     <string name="accept">Acceptă</string>
     <string name="adaptive">Automat</string>
     <string name="ai_auto_mode">Soldurile de performanță și economisirea energiei în funcție de utilizarea dispozitivului. Autotune Freqs oferă mai multă economisire de energie.</string>
     <string name="ai_is_disabled">AI dezactivat</string>
+    <string name="ai_lifetime">durată de viață AI</string>
     <string name="ai_log">Jurnal AI</string>
     <string name="ai_mode">AI</string>
     <string name="ai_mode_auto">Automat</string>
+    <string name="ai_modes">Moduri AI</string>
     <string name="ai_modes_desc">AI rulează în fundal, învață utilizarea și aplică optimizări ale sistemului.</string>
     <string name="ai_off_detail">Când AI este dezactivat, FDE acţionează ca un optimizator de unică folosinţă şi nu se optimizează în timp real.</string>
     <string name="ai_perf_mode">Optimizează pentru performanţă. Declanşează frecvent turbos CPU/GPU.</string>
@@ -19,8 +22,15 @@
     <string name="ai_state_ready">Munca</string>
     <string name="ai_state_sleeping">Adormire…</string>
     <string name="aiinfo">AI info</string>
-    <string name="core_tweaks_enable">Activează ajustările pentru nucleu</string>
-    <string name="core_tweaks_enable_desc">Activează adaptările FDE principale. Recomandat să păstreze.</string>
+    <string name="already_premium">Aveți deja premium?</string>
+    <string name="already_premium_txt">Dacă ați cumpărat deja pachet premium, dar FDE.AI nu îl detectează - urmați acești pași:\n\n
+1. Asigurați-vă că ați descărcat o copie autentică a aplicației FDE.AI din surse oficiale și verificați hashul MD5.\n
+2. Asigurați-vă că ROM-ul dvs. nu are falsificarea semnăturii sau verificarea dezactivată.\n
+3. Dezinstalați pachetul FDE.AI Premium și aplicația FDE.AI.\n
+4. Ștergeți datele aplicației Google Play.\n
+5. Reporniți dispozitivul.\n
+6. Instalați pachetul FDE.AI și Premium.\n\n
+Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="app_icon">Pictogramă aplicație</string>
     <string name="app_theme">Tema</string>
     <string name="app_update_notification_title">Actualizare FDE.AI</string>
@@ -30,8 +40,13 @@
     <string name="arrow_right">Săgeată la dreapta</string>
     <string name="arrow_up">Săgeată în sus</string>
     <string name="attempt_root">Aşteptare acces root…</string>
+    <string name="auto_art_opt">Optimizare automată ART</string>
+    <string name="auto_data_save">Economisor de date</string>
+    <string name="auto_data_save_desc">Activați automat economizorul de date când ecranul este oprit.</string>
     <string name="auto_psave">Mod economisire energie</string>
     <string name="auto_psave_desc">Activează automat modul de economisire a energiei când ecranul este oprit.</string>
+    <string name="autodatasave_mode">Salvare automată a datelor</string>
+    <string name="autopowersave_mode">Forțați economisirea automată a puterii Doze</string>
     <string name="autostart">Autostart</string>
     <string name="autostart_delay_hint">Întârziere setată la %1$ds</string>
     <string name="autostart_overlay">Suprapunere statistici de pornire</string>
@@ -39,101 +54,149 @@
     <string name="batt_resistance">Rezistență</string>
     <string name="battery_health_sub">Setați nivelul pentru a opri taxarea:</string>
     <string name="battery_health_toggle">Limita nivelului maxim de încărcare</string>
-    <string name="battery_level_x" tools:ignore="MissingTranslation">Nivel: %1$s</string>
     <string name="battery_status">Stare baterie</string>
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Temperatură: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Voltaj: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Wear: %1$s</string>
     <string name="burnit">Limitare</string>
-    <string name="greenbattery_title">Baterie</string>
+    <string name="burnit_btn">Dezactivați limitarea</string>
     <string name="bypassch_desc">Limitele curentului de încărcare în timpul proceselor grele se potrivesc cu utilizarea dispozitivului, reducând încărcarea bateriei și încălzirea.</string>
     <string name="bypassch_title">Incarcare bypass</string>
     <string name="cancel">Anulează</string>
     <string name="changelog">Jurnal modificări</string>
     <string name="charge_time">Timpul până la încărcarea completă</string>
     <string name="charging">încărcare</string>
+    <string name="charging_bypass_enabled">Ocolirea încărcării este activată</string>
+    <string name="charging_cycles">Ciccuri de încărcare:</string>
+    <string name="charging_limit">Limita de încărcare</string>
+    <string name="charging_limit_enabled">Limita de încărcare activată</string>
     <string name="check_for_updates_about">Verifică actualizări la pornire</string>
     <string name="clean_cache">Curăță geocutia</string>
-    <string name="clean_ram">Clean RAM</string>
+    <string name="clean_cache_done_snack">Cache ștearsă</string>
+    <string name="clean_cache_running_snack">Se șterge cache-ul…</string>
+    <string name="clean_ram">Curăță RAM</string>
+    <string name="clean_ram_done_snack">RAM curățat</string>
+    <string name="clean_ram_running_snack">Curățând RAM…</string>
     <string name="cleaning_desc">Curăță RAM prin închiderea aplicațiilor de fundal și stocare gratuită prin ștergerea fișierelor de geocutie.</string>
     <string name="cleaning_title">Curățare</string>
+    <string name="clear_selection">Golește selecția</string>
     <string name="close">Inchide</string>
+    <string name="common_cached">Memorat</string>
+    <string name="common_settings">Setări</string>
+    <string name="common_swap">Schimbare</string>
+    <string name="common_wear">Uzură</string>
+    <string name="common_x_total">%1$s total</string>
+    <string name="common_x_used">%1$s folosit</string>
     <string name="completed">finalizată</string>
-    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>
+    <string name="core_tweaks_enable">Ajustări pentru nucleu</string>
+    <string name="core_tweaks_enable_desc">Activează adaptările FDE principale. Recomandat să păstreze.</string>
+    <string name="cpu_bandwidth_tune">Reglarea lățimii de bandă a CPU</string>
+    <string name="cpu_input_boost_tune">Amplificare intrare CPU</string>
     <string name="cpu_top_descr">Suprapunere procese intensive de top 5</string>
     <string name="cpu_top_header">Procesează statistici</string>
+    <string name="cpu_turbo_support">Compatibilitate CPU Turbo</string>
+    <string name="cpu_turbo_trigger_count">Număr de declanșări CPU Turbo</string>
     <string name="current_resolution">Rezoluția actuală:</string>
     <string name="dark_theme">Întunecat</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">Aplici modificările pentru %1$d aplicație?</item>
+        <item quantity="few">Aplici modificările pentru %1$d aplicații?</item>
+        <item quantity="other">Aplici modificările pentru %1$d aplicații?</item>
+    </plurals>
+    <string name="debloat_descr">Aici poți dezactiva unele aplicații de sistem considerate bloatware pentru a accelera sistemul. Mai jos se află lista recomandată de aplicații de eliminat de către Universal‑Debloater‑Alliance.</string>
+    <string name="debloat_no_apps">Nu există aplicații nedorite (bloatware).</string>
+    <string name="debloat_processing_progress">Procesare: %1$d/%2$d</string>
+    <string name="debloat_title">Dezactivează bloatware-ul</string>
+    <string name="debloat_uninstall">Dezinstalare</string>
     <string name="debug_mode">Depanare</string>
     <string name="description">Descriere</string>
-    <string name="enable_ai">Activează AI</string>
     <string name="disable_logs">Dezactivați jurnalele</string>
     <string name="disable_logs_desc">Selectați pentru a dezactiva toate jurnalele și statisticile (cu excepția \"logcat\") și pentru a reduce dimensiunea bufferului logcat la 128 KB.</string>
+    <string name="dontkillmyapp_text">Utilizați modul Shizuku. Pentru ca aplicația să funcționeze bine, dezactivați auto-kill pentru Shizuku și FDE.AI. Vrei să vezi cum?</string>
     <string name="downscale_btn">Scară descendentă adaptivă</string>
     <string name="downscale_desc">Scăderea rezoluției ecranului pentru a crește performanța GPU și pentru a economisi baterie, cu pierderea calității imaginii ușoare. Nu se recomandă să treceți sub jumătate din lățimea ecranului în ROM-urile personalizate (MIUI, EMUI etc.) pentru a evita accidentele de interfață.</string>
-    <string name="warning_no">Nr</string>
-    <string name="warning_title">Atenție!</string>
-    <string name="warning_yes">Da</string>
+    <string name="downscale_notification" tools:ignore="PluralsCandidate">Apăsaţi OK pentru a confirma noua rezoluţie, sau se va reseta în %1$d sec.</string>
+    <string name="downscale_warning">Dacă ceva nu merge bine și nu puteți accesa butonul \'Resetare\' - nu reporniți dispozitivul!\nÎn schimb, conectați-vă la shell-ul ADB și introduceți această comandă: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI poate declanşa modul Doze mai devreme. Dacă apar probleme, aplicaţiile tip whitelist folosind butonul de mai jos.</string>
     <string name="doze_mode">Forțează modul Doze</string>
     <string name="doze_sub_describtion">Activează intrarea în modul Doze imediat ce ecranul este oprit.</string>
     <string name="doze_system_desc">Modul Doze (Android 6.0+) reduce utilizarea bateriei prin amânarea activității procesorului de fundal și a activității în rețea atunci când dispozitivul este inactiv.</string>
     <string name="doze_whitelist">Lista permiselor</string>
+    <string name="dynamic_read_ahead">Citire anticipată dinamică</string>
+    <string name="emergency_cooldown">Cooldown de urgență</string>
+    <string name="emergency_cooldown_btn">Cooldown</string>
+    <string name="emergency_cooldown_desc">Când este activat, va reactiva accelerarea, activează modul avion, modul de economisire a energiei, omoară aplicațiile de fundal, dezactivează încărcarea și setează AI la modul de economisire a energiei pentru 100 de secunde, apoi reveniți.</string>
+    <string name="enable_ai">Activează AI</string>
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
+    <string name="exit_confirmation_text">Ieșiți fără a salva modificările?</string>
+    <string name="exit_confirmation_title">Ieşi?</string>
     <string name="extraopt_btn">Optimizare suplimentară</string>
     <string name="extraopt_desc">Optimizați sistemul prin recompilarea ART cache pentru performanțe (utilizează mai mult memorie internă) și tăiați sistemul de fișiere pentru a îmbunătăți performanța memoriei.</string>
     <string name="extraopt_do_btn">Pornire</string>
     <string name="extraopt_reset_btn">Resetare optimizare</string>
+    <string name="extraopt_schedule_title">Programați să ruleze zilnic</string>
+    <string name="extraopt_scheduled_subtitle">Următoarea rulare la %1$s:00</string>
     <string name="extraopt_warning">Aceasta nu este o optimizare fără sistem. Poate întrerupe sistemul de pe unele ROM-uri personalizate (necesită curățarea geocutiei ART în recuperare). Se salvează datele înainte de a le folosi.</string>
-    <string name="acc_warning">Modulul Advanced Charging Controller (ACC) este detectat. Poate intra în conflict cu funcțiile bateriei FDE.AI.</string>
     <string name="fde_is_active">AI activ</string>
     <string name="fde_is_inactive">AI inactive</string>
     <string name="fde_on_reset_toast">Toate datele FDE.AI vor fi resetate. Aplicația se va închide.</string>
     <string name="finstall">Installing FDE.AI…</string>
-    <string name="monitoring_floating_window">Monitorizare</string>
+    <string name="force_doze_enabled">Forțat Doze activat</string>
+    <string name="force_doze_trigger_count">Forțați numărul declanșatorului Doze</string>
     <string name="fps_checkbox">Monitorizare hardware &amp; FPS</string>
     <string name="fps_meter_desc">FPS, CPU, GPU, RAM, și statistici de utilizare a energiei în timp real.</string>
-    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Medie: %1$s FPS</string>
-    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
-    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
+    <string name="fs_cache_tune">Reglare cache FS</string>
     <string name="get_premium">Get FDE.AI Premium</string>
     <string name="go_back">Mergi înapoi</string>
-    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="gpu_turbo_support">Compatibilitate GPU Turbo</string>
+    <string name="gpu_turbo_trigger_count">Număr de declanșări GPU Turbo</string>
     <string name="grantit">S-ar putea să fie nevoie să acordați manual permisiune pentru autopornire în managerul de permisiuni al sistemului dvs. de operare pentru a permite pornește FDE.AI după pornirea sistemului de operare.</string>
     <string name="greenbattery_desc">Extinde durata bateriei prin limitarea nivelului maxim de încărcare. Oprește încărcarea la pragul definit și repornește cu 6 procente sub acesta.</string>
+    <string name="greenbattery_title">Baterie</string>
     <string name="hour">h</string>
+    <string name="hwinfo">Dispozitiv</string>
     <string name="join_forum">XDA</string>
-    <string name="just_battery">Baterie</string>
+    <string name="just_check">Verifică</string>
     <string name="just_ram">RAM</string>
     <string name="just_storage">Depozitare</string>
+    <string name="kernel_block">Actualul nucleu %1$s blochează instalarea Premium. Te rugăm să iei în considerare instalarea unui alt kernel.</string>
+    <string name="kernel_entropy_tune">Reglarea entropiei kernelului</string>
+    <string name="kernel_sched_boost">Îmbunătățirea programatorului de kernel</string>
+    <string name="kernel_tuning_state">Reglarea kernelului</string>
+    <string name="kill_bg_apps">Opriți aplicațiile de fundal</string>
     <string name="killbgapps_desc">Închide automat aplicațiile de fundal atunci când ecranul este oprit.</string>
     <string name="killbgapps_title">Oprește aplicațiile de fundal</string>
+    <string name="lets_go">Rulați</string>
     <string name="light_theme">Lumină</string>
     <string name="link_open_error" tools:ignore="MissingTranslation">Imposibil de deschis linkul</string>
     <string name="links">Link-uri</string>
     <string name="log_saved">Jurnal salvat în /sdcard/fde.md</string>
     <string name="low_power_fps">FPS cu putere scăzută</string>
     <string name="low_power_fps_short_desc">Setaţi FPS ţintă - frecvenţele CPU/GPU vor fi reduse pentru a menţine FPS şi a economisi putere.</string>
-    <string name="mem_available_x" tools:ignore="MissingTranslation">Disponibil: %1$s</string>
-    <string name="mem_cached_x" tools:ignore="MissingTranslation">Geocutie: %1$s</string>
-    <string name="mem_total_x" tools:ignore="MissingTranslation">Total: %1$s</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Utilizat: %1$s</string>
+    <string name="memory_boost_support">Mărire memorie</string>
     <string name="menu_dashboard">Acasă</string>
+    <string name="migration_error">A apărut o eroare neașteptată la migrarea datelor. Datele vor fi șterse.</string>
     <string name="min">min.</string>
+    <string name="monitoring_floating_window">Monitorizare</string>
     <string name="more_info">Mai multe informații</string>
+    <string name="multi_core_power_saving_control">Economisirea energiei procesorului cu mai multe nuclee</string>
     <string name="noroot">NICIO ROOT ACCESUL!</string>
     <string name="notification_ai_state">Notificare persistentă</string>
     <string name="notification_ai_state_desc">Arată modul AI curent în notificare</string>
     <string name="notification_battery_state">Notificare baterie</string>
     <string name="notification_battery_state_desc">Afișează informații scurte despre baterie în notificare</string>
+    <string name="notifications_and_feedback">Notificări și feedback</string>
     <string name="offf">Dezactivat</string>
     <string name="older_changelogs" tools:ignore="MissingTranslation">Schimbari vechi</string>
     <string name="onboarding_eula_message">Vă rugăm să acceptați acordul nostru pentru a continua</string>
     <string name="onboarding_eula_summary_1">FDE.AI optimizează sistemul prin modificarea diverșilor parametri de sistem</string>
     <string name="onboarding_eula_summary_2">Asigurați-vă că aveți o copie de rezervă a datelor</string>
     <string name="onboarding_eula_summary_3">Nu suntem responsabili pentru niciun prejudiciu.</string>
+    <string name="onboarding_eula_summary_4">Nu utilizaţi alte modificări cu FDE.AI.</string>
     <string name="onboarding_eula_summary_header">Rezumatul acordului</string>
+    <string name="onboarding_migrate_data">Versiune anterioară detectată</string>
+    <string name="onboarding_migrate_data_description">Migrați datele?</string>
     <string name="onboarding_preset_adaptive_summary">Aplică adaptările și reglează AI pentru ajustarea automată. Mod recomandat.</string>
     <string name="onboarding_preset_adaptive_title">Adaptiv</string>
     <string name="onboarding_preset_off_summary">Nu s-au aplicat modificări. Numai instrumentele vor fi disponibile imediat</string>
@@ -144,17 +207,28 @@
     <string name="onboarding_preset_powersave_title">Economisire</string>
     <string name="onboarding_presets">Presetări</string>
     <string name="onboarding_see_full_eula">Vezi EULA completă</string>
+    <string name="onboarding_select_mode_title">Selectați modul</string>
     <string name="onboarding_setup">Configurare</string>
     <string name="onboarding_setup_message">Selectați ce modificări să aplicați. Puteți modifica setările după configurare.</string>
-    <string name="onboarding_eula_summary_4">Nu utilizaţi alte modificări cu FDE.AI.</string>
-    <string name="onboarding_migrate_data">Versiune anterioară detectată</string>
     <string name="open_os_dev_settings">Deschide setările dezvoltatorului Android</string>
     <string name="optimize_now">Optimizează acum</string>
     <string name="other_settings">Alte setări</string>
+    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Medie: %1$s FPS</string>
+    <string name="overlay_battery_temp_x">Baterie: %1$s°C</string>
+    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>
     <string name="overlay_desc_text">Activează ferestrele plutitoare cu statistici în timp real pentru monitorizare.</string>
+    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
+    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
+    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
+    <string name="overlay_opacity_main">Overlay opacity</string>
+    <string name="overlay_power_x">Putere: %1$s mAh</string>
+    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
+    <string name="overlay_scale_main">Scara de suprapunere</string>
     <string name="performance">Performanță</string>
     <string name="power_checkbox">Consum de energie</string>
     <string name="powersave">Economisire</string>
+    <string name="preload_pro_required">Pentru această funcție este necesară preîncărcarea aplicației Pro.</string>
     <string name="preload_title">Preîncărcare automată</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
     <string name="premium_card_overlays_desc">Ferestre personalizate suprapuse cu diferite statistici, inclusiv contorul FPS.</string>
@@ -162,139 +236,72 @@
     <string name="premium_card_profiles_desc">Profiluri de aplicații personalizabile cu multe opțiuni.</string>
     <string name="premium_text">Susțineți FDE.AI și deblocați toate funcțiile exclusive:</string>
     <string name="premium_thanks">Vă mulțumim pentru sprijin! Ați deblocat aceste caracteristici:</string>
-    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
+    <string name="profile_ai_mode_desc">Selectați modul AI în timp ce aplicația este în uz.</string>
+    <string name="profiles_btn">Profiluri aplicație</string>
+    <string name="profiles_descr_txt">Profilurile personalizate se aplică setările FDE.AI atunci când o aplicație rulează și revine la închiderea ei.</string>
     <string name="rate_app">Evaluează FDE.AI</string>
     <string name="releases">Actualizări</string>
     <string name="reset">Reset</string>
     <string name="reset_all_fde">Resetează setările FDE.AI</string>
-    <string name="reset_downscale_onboot">Resetare după repornire</string>
+    <string name="reset_app_list_confirmation_text">Resetați lista de aplicații?</string>
+    <string name="reset_app_list_confirmation_title">Resetare listă</string>
     <string name="reset_art_dialog_text">Ștergeți geocutia și reporniți ART?</string>
-    <string name="start_art_dialog_text">Optimizarea geocutiei ART poate dura timp, poate cauza decalajul şi supraîncălzirea dispozitivului. Continuaţi?</string>
+    <string name="reset_downscale_onboot">Resetare după repornire</string>
     <string name="reset_fde_dialog_text">Resetați toate setările FDE.AI?</string>
     <string name="restart_fde_action">Repornește FDE.AI</string>
     <string name="restart_fde_in_progress">Restarting FDE.AI</string>
     <string name="rm_fde_lite">Dezinstalează mai întâi versiunea FDE.AI lite!</string>
+    <string name="root_mode_descr">Toate caracteristicile. Necesită acces root.</string>
     <string name="run_now">Rulează</string>
     <string name="save_log">Salvare jurnal</string>
     <string name="search_no_reset">Caută</string>
+    <string name="select_all">Selectează tot</string>
     <string name="share">Distribuie FDE.AI</string>
     <string name="share_txt">Încearcă FDE.AI - un optimizator Android uimitor!</string>
-    <string name="profiles_btn">Profiluri aplicație</string>
-    <string name="profiles_descr_txt">Profilurile personalizate se aplică setările FDE.AI atunci când o aplicație rulează și revine la închiderea ei.</string>
+    <string name="shizuku_broken_connection">Eroare! Conexiunea ADB este întreruptă, vă rugăm să reporniți serviciul Shizuku.</string>
+    <string name="shizuku_install_from_play_store">Instalați din Magazinul Play</string>
+    <string name="shizuku_mode_descr">Mai puține funcții, nu este nevoie de root, Android 7+. Necesită aplicația Shizuku.</string>
+    <string name="shizuku_open_app">Deschideți aplicația Shizuku</string>
+    <string name="shizuku_setup_instructions_title">Instrucțiuni de configurare</string>
+    <string name="shizuku_setup_step_1">Instalați Shizuku</string>
+    <string name="shizuku_setup_step_2">Activați serviciul Shizuku în aplicație</string>
+    <string name="shizuku_setup_step_3">Acordați permisiuni când vi se solicită</string>
+    <string name="shizuku_setup_step_4">Reveniți la FDE.AI pentru a continua configurarea</string>
+    <string name="shizuku_setup_success">Shizuku este configurat și sunteți gata să plecați</string>
+    <string name="shizuku_warning_miui_description">Utilizatorii MIUI trebuie să activeze permisiuni suplimentare de dezvoltator pentru ca Shizuku să funcționeze corect.</string>
+    <string name="shizuku_warning_miui_title">Permisiuni pentru dezvoltatori MIUI</string>
+    <string name="shizuku_warning_systemless_description_new">Modul non-root poate efectua acțiuni care vor afecta permanent sistemul.\n\nDacă vă gândiți vreodată să dezinstalați această aplicație - resetați setările FDE.AI din aplicație înainte.</string>
+    <string name="sound_channel_name">Notificări sonore AI</string>
     <string name="sound_header">Sunet</string>
-    <string name="start_toast">Pornire FDE.AI…</string>
+    <string name="sound_notifications">Notificări sonore</string>
+    <string name="start_art_dialog_text">Optimizarea geocutiei ART poate dura timp, poate cauza decalajul şi supraîncălzirea dispozitivului. Continuaţi?</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">Se așteaptă %1$d sec pentru a începe FDE.AI…</string>
+    <string name="start_toast">Pornire FDE.AI…</string>
     <string name="startup">Startup</string>
     <string name="stop_btn">Oprește</string>
     <string name="third_party">Biblioteci terțe</string>
-    <string name="throttling_description">Dezactivarea acesteia menține performanța, dar poate cauza supraîncălzire, iar încărcarea rapidă sau camera poate înceta să funcționeze.
-\nFDE.AI reactivează încetinirea în timpul încărcării în mod implicit. Debifați pentru a dezactiva aceasta.</string>
+    <string name="throttling_deactivated">Throttling dezactivat</string>
+    <string name="throttling_desc_new">Aceasta va menține performanța, dar poate provoca supraîncălzire și probleme cu încărcarea rapidă sau camera.</string>
     <string name="throttling_fuse_desc">Reactivați automat strangularea la această temperatură pentru a preveni daunele.</string>
     <string name="throttling_fuse_header">Fuzionarea temperaturii</string>
     <string name="throttling_ignore_charging">Ignoră încărcarea</string>
+    <string name="throttling_ignore_charging_desc">În mod implicit, FDE reactivează throttling-ul în timpul încărcării. Bifează această opțiune pentru a dezactiva acest comportament.</string>
+    <string name="throttling_ignore_on_charge">Throttling ignora încărcarea</string>
     <string name="throttling_system_desc">Limitarea previne supraîncălzirea prin reducerea frecvenţelor CPU/GPU.</string>
+    <string name="tile_available">Un „quick tile” este disponibil în bara de stare.</string>
+    <string name="tweaks_disabled">Toate modificările sunt dezactivate</string>
     <string name="un_fde_magisk">Dezinstalează mai întâi modulul FDE.AI Magisk!</string>
     <string name="unavailable">Unavailable</string>
     <string name="update">Actualizare</string>
     <string name="update_available">Actualizare disponibilă!</string>
     <string name="updating_toast">Descărcare actualizare…</string>
     <string name="vibration">Vibrează o dată</string>
-    <string name="warning_header">Avertizare</string>
-    <string name="welcome">Bun venit</string>
-    <string name="overlay_opacity_main">Overlay opacity</string>
-    <string name="tweaks_disabled">Toate modificările sunt dezactivate</string>
-    <string name="exit_confirmation_title">Ieşi?</string>
-    <string name="exit_confirmation_text">Ieșiți fără a salva modificările?</string>
-    <string name="sound_channel_name">Notificări sonore AI</string>
-    <string name="reset_app_list_confirmation_title">Resetare listă</string>
-    <string name="reset_app_list_confirmation_text">Resetați lista de aplicații?</string>
-    <string name="downscale_notification" tools:ignore="PluralsCandidate">Apăsaţi OK pentru a confirma noua rezoluţie, sau se va reseta în %1$d sec.</string>
-    <string name="onboarding_migrate_data_description">Migrați datele?</string>
-    <string name="kernel_block">Actualul nucleu %1$s blochează instalarea Premium. Te rugăm să iei în considerare instalarea unui alt kernel.</string>
-    <string name="profile_ai_mode_desc">Selectați modul AI în timp ce aplicația este în uz.</string>
-    <string name="preload_pro_required">Pentru această funcție este necesară preîncărcarea aplicației Pro.</string>
-    <string name="overlay_power_x">Putere: %1$s mAh</string>
-    <string name="overlay_battery_temp_x">Baterie: %1$s°C</string>
-    <string name="overlay_scale_main">Scara de suprapunere</string>
-    <string name="emergency_cooldown">Cooldown de urgență</string>
-    <string name="emergency_cooldown_btn">Cooldown</string>
-    <string name="emergency_cooldown_desc">Când este activat, va reactiva accelerarea, activează modul avion, modul de economisire a energiei, omoară aplicațiile de fundal, dezactivează încărcarea și setează AI la modul de economisire a energiei pentru 100 de secunde, apoi reveniți.</string>
-    <string name="hwinfo">Dispozitiv</string>
-    <string name="ai_lifetime">durată de viață AI</string>
-    <string name="kernel_tuning_state">Reglarea kernelului</string>
-    <string name="cpu_turbo_support">Compatibilitate CPU Turbo</string>
-    <string name="cpu_turbo_trigger_count">Număr de declanșări CPU Turbo</string>
-    <string name="gpu_turbo_support">Compatibilitate GPU Turbo</string>
-    <string name="gpu_turbo_trigger_count">Număr de declanșări GPU Turbo</string>
-    <string name="force_doze_enabled">Forțat Doze activat</string>
-    <string name="force_doze_trigger_count">Forțați numărul declanșatorului Doze</string>
-    <string name="autopowersave_mode">Forțați economisirea automată a puterii Doze</string>
-    <string name="throttling_deactivated">Throttling dezactivat</string>
-    <string name="throttling_ignore_on_charge">Throttling ignora încărcarea</string>
-    <string name="kill_bg_apps">Opriți aplicațiile de fundal</string>
-    <string name="auto_art_opt">Optimizare automată ART</string>
-    <string name="dynamic_read_ahead">Citire anticipată dinamică</string>
-    <string name="charging_bypass_enabled">Ocolirea încărcării este activată</string>
-    <string name="charging_limit_enabled">Limita de încărcare activată</string>
-    <string name="charging_cycles">Ciccuri de încărcare:</string>
-    <string name="cpu_bandwidth_tune">Reglarea lățimii de bandă a CPU</string>
-    <string name="fs_cache_tune">Reglare cache FS</string>
     <string name="vm_cache_tune">Reglarea memoriei cache a VM</string>
-    <string name="cpu_input_boost_tune">Amplificare intrare CPU</string>
-    <string name="kernel_entropy_tune">Reglarea entropiei kernelului</string>
-    <string name="kernel_sched_boost">Îmbunătățirea programatorului de kernel</string>
-    <string name="multi_core_power_saving_control">Economisirea energiei procesorului cu mai multe nuclee</string>
-    <string name="extraopt_schedule_title">Programați să ruleze zilnic</string>
-    <string name="extraopt_schedule_time">Setați ora zilnică de optimizare automată</string>
-    <string name="sound_notifications">Notificări sonore</string>
-    <string name="migration_error">A apărut o eroare neașteptată la migrarea datelor. Datele vor fi șterse.</string>
-    <string name="onboarding_select_mode_title">Selectați modul</string>
-    <string name="charging_limit">Limita de încărcare</string>
-    <string name="auto_data_save">Economisor de date</string>
-    <string name="auto_data_save_desc">Activați automat economizorul de date când ecranul este oprit.</string>
-    <string name="autodatasave_mode">Salvare automată a datelor</string>
-    <string name="memory_boost_support">Mărire memorie</string>
-    <string name="root_mode_descr">Toate caracteristicile. Necesită acces root.</string>
-    <string name="shizuku_mode_descr">Mai puține funcții, nu este nevoie de root, Android 7+. Necesită aplicația Shizuku.</string>
-    <string name="lets_go">Rulați</string>
-    <string name="shizuku_setup_success">Shizuku este configurat și sunteți gata să plecați</string>
-    <string name="shizuku_setup_instructions_title">Instrucțiuni de configurare</string>
-    <string name="shizuku_warning_systemless_title">Atenție</string>
-    <string name="shizuku_warning_miui_title">Permisiuni pentru dezvoltatori MIUI</string>
-    <string name="shizuku_warning_miui_description">Utilizatorii MIUI trebuie să activeze permisiuni suplimentare de dezvoltator pentru ca Shizuku să funcționeze corect.</string>
-    <string name="shizuku_install_from_play_store">Instalați din Magazinul Play</string>
-    <string name="shizuku_open_app">Deschideți aplicația Shizuku</string>
-    <string name="shizuku_setup_step_1">Instalați Shizuku</string>
-    <string name="shizuku_setup_step_2">Activați serviciul Shizuku în aplicație</string>
-    <string name="shizuku_setup_step_3">Acordați permisiuni când vi se solicită</string>
-    <string name="shizuku_setup_step_4">Reveniți la FDE.AI pentru a continua configurarea</string>
-    <string name="shizuku_broken_connection">Eroare! Conexiunea ADB este întreruptă, vă rugăm să reporniți serviciul Shizuku.</string>
-    <string name="just_check">Verifică</string>
-    <string name="dontkillmyapp_text">Utilizați modul Shizuku. Pentru ca aplicația să funcționeze bine, dezactivați auto-kill pentru Shizuku și FDE.AI. Vrei să vezi cum?</string>
-    <string name="burnit_btn">Dezactivați limitarea</string>
-    <string name="already_premium">Aveți deja premium?</string>
-    <string name="already_premium_txt">Dacă ați cumpărat deja pachet premium, dar FDE.AI nu îl detectează - urmați acești pași:\n\n
-1. Asigurați-vă că ați descărcat o copie autentică a aplicației FDE.AI din surse oficiale și verificați hashul MD5.\n
-2. Asigurați-vă că ROM-ul dvs. nu are falsificarea semnăturii sau verificarea dezactivată.\n
-3. Dezinstalați pachetul FDE.AI Premium și aplicația FDE.AI.\n
-4. Ștergeți datele aplicației Google Play.\n
-5. Reporniți dispozitivul.\n
-6. Instalați pachetul FDE.AI și Premium.\n\n
-Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
-    <string name="wifi_psave_header">Dezactivați modul de repaus WiFi</string>
+    <string name="warning_header">Avertizare</string>
+    <string name="warning_no">Nr</string>
+    <string name="warning_title">Atenție!</string>
+    <string name="warning_yes">Da</string>
+    <string name="welcome">Bun venit</string>
     <string name="wifi_psave_descr">Pentru a reduce șansele de deconectare de la Shizuku, puteți încerca să dezactivați modul de repaus WiFi, dar acest lucru poate crește consumul de energie în inactivitate.</string>
-    <string name="downscale_warning">Dacă ceva nu merge bine și nu puteți accesa butonul \'Resetare\' - nu reporniți dispozitivul!\nÎn schimb, conectați-vă la shell-ul ADB și introduceți această comandă: \'adb shell wm size reset;wm density reset\'.</string>
-    <string name="shizuku_warning_systemless_description_new">Modul non-root poate efectua acțiuni care vor afecta permanent sistemul.\n\nDacă vă gândiți vreodată să dezinstalați această aplicație - resetați setările FDE.AI din aplicație înainte.</string>
-    <string name="debloat_title">Dezactivează bloatware-ul</string>
-    <string name="debloat_descr">Aici poți dezactiva unele aplicații de sistem considerate bloatware pentru a accelera sistemul. Mai jos se află lista recomandată de aplicații de eliminat de către Universal‑Debloater‑Alliance.</string>
-    <string name="select_all">Selectează tot</string>
-    <string name="clear_selection">Golește selecția</string>
-    <plurals name="debloat_apply_confirm_text">
-        <item quantity="one">Aplici modificările pentru %1$d aplicație?</item>
-        <item quantity="few">Aplici modificările pentru %1$d aplicații?</item>
-        <item quantity="other">Aplici modificările pentru %1$d aplicații?</item>
-    </plurals>
-    <string name="debloat_processing_progress">Procesare: %1$d/%2$d</string>
-    <string name="debloat_uninstall">Dezinstalare</string>
-    <string name="debloat_no_apps">Nu există aplicații nedorite (bloatware).</string>
+    <string name="wifi_psave_header">Dezactivați modul de repaus WiFi</string>
 </resources>

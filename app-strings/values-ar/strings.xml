@@ -2,13 +2,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_app">إضافة لهجه عراقية</string>
     <string name="about_end_txt" tools:ignore="MissingTranslation">صُنع بواسطة ❤ بواسطة FeraVolt.</string>
+    <string name="acc_warning">تم اكتشاف وحدة التحكم في الشحن المتقدم (ACC). قد تتعارض مع وظائف بطارية FDE.AI.</string>
     <string name="accept">قبول</string>
     <string name="adaptive">تلقائي</string>
     <string name="ai_auto_mode">الموازنة بين الأداء وتوفير الطاقة طبقاً لاستخدام الجهاز، الضبط التلقائي للترددات يعمل على زيادة توفير الطاقة.</string>
     <string name="ai_is_disabled">AI معطل</string>
+    <string name="ai_lifetime">عمر الذكاء الاصطناعي</string>
     <string name="ai_log">سجل الذاكرة</string>
     <string name="ai_mode">وضع</string>
     <string name="ai_mode_auto">تلقائي</string>
+    <string name="ai_modes">أوضاع الذكاء الاصطناعي</string>
     <string name="ai_modes_desc">AI يعمل في الخلفية، ويتعلم الاستخدام، ويطبق تحسينات النظام.</string>
     <string name="ai_off_detail">عندما يتم تعطيل الذكاء الاصطناعي، يعمل FDE كعامل تحسين لمرة واحدة ولا يحسن في الوقت الحقيقي.</string>
     <string name="ai_perf_mode">تحسين الأداء. تنشيط المعالج المعالج/تربو بشكل متكرر.</string>
@@ -19,8 +22,15 @@
     <string name="ai_state_ready">العمل</string>
     <string name="ai_state_sleeping">نوم…</string>
     <string name="aiinfo">AI info</string>
-    <string name="core_tweaks_enable">تمكين التعديلات الأساسية</string>
-    <string name="core_tweaks_enable_desc">تمكين أضعفات FDE الرئيسية. موصى بالاستمرار.</string>
+    <string name="already_premium">هل لديك باقة مميزة بالفعل؟</string>
+    <string name="already_premium_txt">إذا كنت قد اشتريت باقة مميزة بالفعل، ولكن FDE.AI لم يكتشفها، فاتبع الخطوات التالية:\n\n
+1. تأكد من تنزيل نسخة أصلية من تطبيق FDE.AI من مصادر رسمية، وتحقق من تجزئة MD5.\n
+2. تأكد من أن ذاكرة القراءة فقط (ROM) لديك لا تحتوي على توقيع مُزيّف أو مُعطّل للتحقق.\n
+3. ألغِ تثبيت كلٍّ من باقة FDE.AI المميزة وتطبيق FDE.AI.\n
+4. امسح بيانات تطبيق جوجل بلاي.\n
+5. أعد تشغيل جهازك.\n
+6. ثبّت باقة FDE.AI المميزة.\n\n
+إذا استمرت المشكلة، تواصل مع المطور عبر تيليجرام.</string>
     <string name="app_icon">أيقونة التطبيق</string>
     <string name="app_theme">السمة</string>
     <string name="app_update_notification_title">تحديث FDE.AI</string>
@@ -30,8 +40,13 @@
     <string name="arrow_right">سهم لليمين</string>
     <string name="arrow_up">السهم للأعلى</string>
     <string name="attempt_root">في انتظار الوصول إلى الجذر…</string>
+    <string name="auto_art_opt">تحسين ART تلقائيًا</string>
+    <string name="auto_data_save">توفير البيانات</string>
+    <string name="auto_data_save_desc">تفعيل توفير البيانات تلقائيًا عند إيقاف تشغيل الشاشة.</string>
     <string name="auto_psave">وضع توفير الطاقة</string>
     <string name="auto_psave_desc">تمكين وضع توفير الطاقة تلقائياً عند إيقاف تشغيل الشاشة.</string>
+    <string name="autodatasave_mode">توفير البيانات التلقائي</string>
+    <string name="autopowersave_mode">توفير الطاقة التلقائي</string>
     <string name="autostart">Autostart</string>
     <string name="autostart_delay_hint">تم تعيين التأخير إلى %1$ds</string>
     <string name="autostart_overlay">بدء تراكب الإحصائيات</string>
@@ -39,101 +54,150 @@
     <string name="batt_resistance">المقاومة</string>
     <string name="battery_health_sub">تعيين المستوى لإيقاف الشحن:</string>
     <string name="battery_health_toggle">الحد من الحد الأقصى لمستوى الشحن</string>
-    <string name="battery_level_x" tools:ignore="MissingTranslation">المستوى: %1$s</string>
     <string name="battery_status">حالة البطارية</string>
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">درجة الحرارة: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">فولتاج: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">عجب: %1$s</string>
     <string name="burnit">خنق</string>
-    <string name="greenbattery_title">البطارية</string>
+    <string name="burnit_btn">تعطيل الكبح</string>
     <string name="bypassch_desc">الحد من تيار الشاحن أثناء العمليات الثقيلة يعمل لتطابق استخدام الجهاز، مما يقلل شحن البطارية والتدفئة.</string>
     <string name="bypassch_title">تجاوز الشحن</string>
     <string name="cancel">إلغاء</string>
     <string name="changelog">تغيير</string>
     <string name="charge_time">وقت الشحن الكامل</string>
     <string name="charging">الشحن</string>
+    <string name="charging_bypass_enabled">تمكين تجاوز الشحن</string>
+    <string name="charging_cycles">دورات الشحن:</string>
+    <string name="charging_limit">حد الشحن</string>
+    <string name="charging_limit_enabled">تمكين حد الشحن</string>
     <string name="check_for_updates_about">التحقق من وجود تحديثات عند بدء التشغيل</string>
     <string name="clean_cache">تنظيف ذاكرة التخزين المؤقت</string>
+    <string name="clean_cache_done_snack">تم مسح ذاكرة التخزين المؤقت</string>
+    <string name="clean_cache_running_snack">جارٍ مسح ذاكرة التخزين المؤقت…</string>
     <string name="clean_ram">Clean RAM</string>
+    <string name="clean_ram_done_snack">تم تنظيف ذاكرة الوصول العشوائي</string>
+    <string name="clean_ram_running_snack">تنظيف ذاكرة الوصول العشوائي…</string>
     <string name="cleaning_desc">تنظيف ذاكرة الوصول العشوائي عن طريق إغلاق تطبيقات الخلفية والتخزين المجاني عن طريق حذف ملفات ذاكرة التخزين المؤقت.</string>
     <string name="cleaning_title">تنظيف</string>
+    <string name="clear_selection">مسح التحديد</string>
     <string name="close">أغلق</string>
+    <string name="common_cached">مُخزّن مؤقتًا</string>
+    <string name="common_settings">الإعدادات</string>
+    <string name="common_swap">مبادلة</string>
+    <string name="common_wear">البلى</string>
     <string name="completed">اكتمل</string>
-    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">المعالج: %1$s%%</string>
+    <string name="core_tweaks_enable">تمكين التعديلات الأساسية</string>
+    <string name="core_tweaks_enable_desc">تمكين أضعفات FDE الرئيسية. موصى بالاستمرار.</string>
+    <string name="cpu_bandwidth_tune">ضبط عرض النطاق الترددي لوحدة المعالجة المركزية</string>
+    <string name="cpu_input_boost_tune">تعزيز مدخلات وحدة المعالجة المركزية</string>
     <string name="cpu_top_descr">التراكب مع أعلى 5 عمليات كثيفة المعالج</string>
     <string name="cpu_top_header">إحصاءات العمليات</string>
+    <string name="cpu_turbo_support">دعم CPU Turbo</string>
+    <string name="cpu_turbo_trigger_count">عدد مشغلات CPU Turbo</string>
     <string name="current_resolution">القرار الحالي:</string>
     <string name="dark_theme">داكن</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="zero">تطبيق التغييرات على %1$d من التطبيقات؟</item>
+        <item quantity="one">تطبيق التغييرات على تطبيق واحد؟</item>
+        <item quantity="two">تطبيق التغييرات على تطبيقين؟</item>
+        <item quantity="few">تطبيق التغييرات على %1$d تطبيقات؟</item>
+        <item quantity="many">تطبيق التغييرات على %1$d تطبيقًا؟</item>
+        <item quantity="other">تطبيق التغييرات على %1$d من التطبيقات؟</item>
+    </plurals>
+    <string name="debloat_descr">هنا يمكنك تعطيل بعض تطبيقات النظام التي تُعد غير مرغوب فيها لتسريع النظام. أدناه توجد قائمة التطبيقات الموصى بإزالتها من Universal‑Debloater‑Alliance.</string>
+    <string name="debloat_no_apps">لا توجد تطبيقات غير مرغوب فيها (bloatware).</string>
+    <string name="debloat_processing_progress">المعالجة: %1$d/%2$d</string>
+    <string name="debloat_title">تعطيل التطبيقات غير المرغوب فيها</string>
+    <string name="debloat_uninstall">إلغاء التثبيت</string>
     <string name="debug_mode">تصحيح الأخطاء</string>
     <string name="description">الوصف</string>
-    <string name="enable_ai">تمكين الذكاء</string>
     <string name="disable_logs">تعطيل السجلات</string>
     <string name="disable_logs_desc">حدد هذا الخيار لتعطيل كافة السجلات والإحصائيات (باستثناء "logcat") وتقليل حجم مخزن logcat إلى 128 كيلوبايت.</string>
+    <string name="dontkillmyapp_text">أنت تستخدم وضع Shizuku. للحفاظ على عمل التطبيق بشكل جيد، يُرجى تعطيل الإيقاف التلقائي لـ Shizuku وFDE.AI. هل تريد معرفة كيفية القيام بذلك؟</string>
     <string name="downscale_btn">خفض حجم التكيف</string>
     <string name="downscale_desc">خفض دقة الشاشة لتعزيز أداء GPU وحفظ البطارية، مع خسارة طفيفة لجودة الصورة. لا ينصح بالذهاب إلى أسفل نصف عرض الشاشة على الأقراص المخصصة (MIUI، EMUI، إلخ.) لتجنب تعطل واجهة المستخدم.</string>
-    <string name="warning_no">لا</string>
-    <string name="warning_title">تحذير!</string>
-    <string name="warning_yes">نعم</string>
+    <string name="downscale_notification" tools:ignore="PluralsCandidate">اضغط على OK لتأكيد الدقة الجديدة، أو سيتم إعادة تعيينها في %1$d ثانية.</string>
+    <string name="downscale_warning">إذا حدث أي خطأ ولم تتمكن من الوصول إلى زر "إعادة الضبط"، فلا تعيد تشغيل الجهاز!\nبدلاً من ذلك، اتصل بواجهة ADB وأدخل هذا الأمر: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="doze_description">يمكن FDE.AI تشغيل وضع Doze قبل ذلك. إذا حدثت مشاكل، تطبيقات القائمة البيضاء باستخدام الزر أدناه.</string>
     <string name="doze_mode">فرض وضع الدوز</string>
     <string name="doze_sub_describtion">تمكين إدخال وضع Doze بمجرد إيقاف تشغيل الشاشة.</string>
     <string name="doze_system_desc">وضع الغموز (أندرويد 6.0+) يقلل من استخدام البطارية عن طريق تأجيل وحدة المعالجة المركزية الخلفية ونشاط الشبكة عندما يكون الجهاز خاملاً.</string>
     <string name="doze_whitelist">القائمة البيضاء الغامضة</string>
+    <string name="dynamic_read_ahead">قراءة مسبقة ديناميكية</string>
+    <string name="emergency_cooldown">تبريد الطوارئ</string>
+    <string name="emergency_cooldown_btn">تبريد</string>
+    <string name="emergency_cooldown_desc">عند التفعيل، سيعيد تمكين الخنق، تمكين وضع الطائرة، وضع توفير الطاقة، قتل تطبيقات الخلفية، تعطيل الشحن، وتعيين الذكاء الاصطناعي إلى وضع توفير الطاقة لمدة 100 ثانية، ثم العودة.</string>
+    <string name="enable_ai">تمكين الذكاء</string>
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
+    <string name="exit_confirmation_text">الخروج دون حفظ التغييرات؟</string>
+    <string name="exit_confirmation_title">خروج ؟</string>
     <string name="extraopt_btn">تحسين إضافي</string>
     <string name="extraopt_desc">تحسين النظام عن طريق إعادة تجميع ذاكرة التخزين المؤقت لـ ART للأداء (استخدام المزيد من الذاكرة الداخلية) وتصحيح نظام الملفات لتحسين أداء الذاكرة.</string>
     <string name="extraopt_do_btn">ابدأ</string>
     <string name="extraopt_reset_btn">إعادة تعيين التحسين</string>
+    <string name="extraopt_schedule_title">جدولة التشغيل يوميًا</string>
+    <string name="extraopt_scheduled_subtitle">التشغيل التالي في %1$s:00</string>
     <string name="extraopt_warning">هذا ليس تحسين لا نظامي. قد يكسر النظام على بعض ذاكرة القراءة فقط (يتطلب مسح ذاكرة التخزين المؤقت للريتوت في الاستعادة). النسخ الاحتياطي للبيانات الخاصة بك قبل الاستخدام.</string>
-    <string name="acc_warning">تم اكتشاف وحدة التحكم في الشحن المتقدم (ACC). قد تتعارض مع وظائف بطارية FDE.AI.</string>
     <string name="fde_is_active">AI نشط</string>
     <string name="fde_is_inactive">AI inactive</string>
     <string name="fde_on_reset_toast">سيتم إعادة تعيين جميع بيانات FDE.AI. سيتم إغلاق التطبيق.</string>
     <string name="finstall">Installing FDE.AI…</string>
-    <string name="monitoring_floating_window">الرصد</string>
+    <string name="force_doze_enabled">تمكين Force Doze</string>
+    <string name="force_doze_trigger_count">عدد مشغلات Force Doze</string>
     <string name="fps_checkbox">مراقبة الأجهزة &amp; FPS</string>
     <string name="fps_meter_desc">إحصائيات استخدام الطاقة في الوقت الحقيقي، وحدة المعالجة المركزية، GPU، ذاكرة الوصول العشوائي.</string>
-    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">متوسط: %1$s FPS</string>
-    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s هرتز</string>
-    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s ميغابايت</string>
+    <string name="fs_cache_tune">ضبط ذاكرة التخزين المؤقت لنظام الملفات</string>
     <string name="get_premium">Get FDE.AI Premium</string>
     <string name="go_back">العودة إلى الوراء</string>
-    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="gpu_turbo_support">دعم GPU Turbo</string>
+    <string name="gpu_turbo_trigger_count">عدد مشغلات GPU Turbo</string>
     <string name="grantit">قد تحتاج إلى منح إذن التشغيل التلقائي يدوياً في مدير إذن OS الخاص بك للسماح لـ FDE.AI بأن يبدأ بعد تشغيل OS.</string>
     <string name="greenbattery_desc">تمديد عمر البطارية عن طريق الحد من الحد الأقصى لمستوى الشحن. يتوقف الشحن عند الحد الأدنى المحدد وإعادة التشغيل عند 6 في المائة أسفله.</string>
+    <string name="greenbattery_title">البطارية</string>
     <string name="hour">(ح)</string>
+    <string name="hwinfo">الجهاز</string>
     <string name="join_forum">XDA</string>
-    <string name="just_battery">البطارية</string>
+    <string name="just_check">تحقق</string>
     <string name="just_ram">RAM</string>
     <string name="just_storage">التخزين</string>
+    <string name="kernel_block">kernel الحالي %1$s كتل التثبيت المتميز. الرجاء النظر في تثبيت كيرنل آخر.</string>
+    <string name="kernel_entropy_tune">ضبط إنتروبيا النواة</string>
+    <string name="kernel_sched_boost">تعزيز جدولة النواة</string>
+    <string name="kernel_tuning_state">ضبط النواة</string>
+    <string name="kill_bg_apps">إيقاف تشغيل تطبيقات الخلفية</string>
     <string name="killbgapps_desc">قتل تطبيقات الخلفية تلقائياً عند إيقاف تشغيل الشاشة.</string>
     <string name="killbgapps_title">إيقاف تطبيقات الخلفية</string>
+    <string name="lets_go">تشغيل</string>
     <string name="light_theme">فاتح</string>
     <string name="link_open_error" tools:ignore="MissingTranslation">تعذر فتح الرابط</string>
     <string name="links">الروابط</string>
     <string name="log_saved">تم حفظ السجل في /sdcard/fde.md</string>
     <string name="low_power_fps">FPS منخفضة الطاقة</string>
     <string name="low_power_fps_short_desc">تعيين هدف FPS - سيتم تقليل ترددات CPU/GPU للحفاظ على FPS وحفظ الطاقة.</string>
-    <string name="mem_available_x" tools:ignore="MissingTranslation">متاح: %1$s</string>
-    <string name="mem_cached_x" tools:ignore="MissingTranslation">التخزين المؤقت: %1$s</string>
-    <string name="mem_total_x" tools:ignore="MissingTranslation">المجموع: %1$s</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">المستخدمة: %1$s</string>
+    <string name="memory_boost_support">تعزيز الذاكرة</string>
     <string name="menu_dashboard">المنزل</string>
+    <string name="migration_error">حدث خطأ غير متوقع أثناء نقل البيانات. سيتم مسح البيانات.</string>
     <string name="min">دقيقة</string>
+    <string name="monitoring_floating_window">الرصد</string>
     <string name="more_info">المزيد من المعلومات</string>
+    <string name="multi_core_power_saving_control">توفير طاقة وحدة المعالجة المركزية متعددة النواة</string>
     <string name="noroot">لا يوجد وصول للروت!</string>
     <string name="notification_ai_state">إشعار مستمر</string>
     <string name="notification_ai_state_desc">عرض وضع الذكاء الاصطناعي الحالي في الإشعار</string>
     <string name="notification_battery_state">إشعار البطارية</string>
     <string name="notification_battery_state_desc">يعرض معلومات البطارية القصيرة في الإشعار</string>
+    <string name="notifications_and_feedback">الإشعارات والملاحظات</string>
     <string name="offf">متوقف</string>
     <string name="older_changelogs" tools:ignore="MissingTranslation">سجلات التغييرات القديمة</string>
     <string name="onboarding_eula_message">يرجى قبول موافقتنا على الاستمرار</string>
     <string name="onboarding_eula_summary_1">FDE.AI يحسّن النظام الخاص بك بتعديل مختلف بارامترات النظام</string>
     <string name="onboarding_eula_summary_2">تأكد من أن لديك نسخة احتياطية للبيانات</string>
     <string name="onboarding_eula_summary_3">ونحن لسنا مسؤولين عن أي ضرر.</string>
+    <string name="onboarding_eula_summary_4">لا تستخدم تعديلات أخرى مع الاستثمار الأجنبي المباشر.</string>
     <string name="onboarding_eula_summary_header">موجز الاتفاق</string>
+    <string name="onboarding_migrate_data">تم اكتشاف الإصدار السابق</string>
+    <string name="onboarding_migrate_data_description">هل تريد ترحيل بياناتك؟</string>
     <string name="onboarding_preset_adaptive_summary">تطبيق التعديلات وضبط الذكاء الاصطناعي للضبط التلقائي. الوضع الموصى به.</string>
     <string name="onboarding_preset_adaptive_title">التكييف</string>
     <string name="onboarding_preset_off_summary">لم يتم تطبيق أي تعديلات. الأدوات فقط ستكون متاحة على الفور</string>
@@ -144,17 +208,28 @@
     <string name="onboarding_preset_powersave_title">توفير الطاقة</string>
     <string name="onboarding_presets">الإعدادات المسبقة</string>
     <string name="onboarding_see_full_eula">راجع كامل اتفاقية ترخيص المستخدم</string>
+    <string name="onboarding_select_mode_title">اختيار الوضع</string>
     <string name="onboarding_setup">الإعداد</string>
     <string name="onboarding_setup_message">حدد التعديلات التي تريد تطبيقها. يمكنك تغيير الإعدادات بعد الإعداد.</string>
-    <string name="onboarding_eula_summary_4">لا تستخدم تعديلات أخرى مع الاستثمار الأجنبي المباشر.</string>
-    <string name="onboarding_migrate_data">تم اكتشاف الإصدار السابق</string>
     <string name="open_os_dev_settings">فتح إعدادات مطور الأندرويد</string>
     <string name="optimize_now">تحسين الآن</string>
     <string name="other_settings">إعدادات أخرى</string>
+    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">متوسط: %1$s FPS</string>
+    <string name="overlay_battery_temp_x">البطارية: %1$s°C</string>
+    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">المعالج: %1$s%%</string>
     <string name="overlay_desc_text">تفعيل النوافذ الطافية مع إحصائيات الوقت الحقيقي للرصد.</string>
+    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s هرتز</string>
+    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s ميغابايت</string>
+    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
+    <string name="overlay_opacity_main">Overlay opacity</string>
+    <string name="overlay_power_x">القوة: %1$s mAh</string>
+    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
+    <string name="overlay_scale_main">مقياس التراكب</string>
     <string name="performance">الأداء</string>
     <string name="power_checkbox">استهلاك الطاقة</string>
     <string name="powersave">توفير الطاقة</string>
+    <string name="preload_pro_required">مطلوب تحميل مسبق لتطبيق Pro لهذه الميزة.</string>
     <string name="preload_title">التحميل التلقائي</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
     <string name="premium_card_overlays_desc">تخصيص نوافذ ذات إحصائيات مختلفة بما في ذلك متر FPS.</string>
@@ -162,142 +237,72 @@
     <string name="premium_card_profiles_desc">ملفات تعريف التطبيق القابلة للتخصيص مع العديد من الخيارات.</string>
     <string name="premium_text">دعم FDE.AI وفتح جميع الميزات الحصرية:</string>
     <string name="premium_thanks">شكرا لك على دعمك! لقد قمت بفتح هذه الميزات:</string>
-    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
+    <string name="profile_ai_mode_desc">حدد وضع الذكاء الاصطناعي أثناء استخدام التطبيق.</string>
+    <string name="profiles_btn">ملفات تعريف التطبيق</string>
+    <string name="profiles_descr_txt">تطبيق ملفات تعريف مخصصة إعدادات FDE.AI عند تشغيل التطبيق والعودة عند إغلاقه.</string>
     <string name="rate_app">تقييم FDE.AI</string>
     <string name="releases">التحديثات</string>
     <string name="reset">Reset</string>
     <string name="reset_all_fde">إعادة تعيين إعدادات FDE.AI</string>
-    <string name="reset_downscale_onboot">إعادة التعيين بعد إعادة التشغيل</string>
+    <string name="reset_app_list_confirmation_text">إعادة تعيين قائمة التطبيقات؟</string>
+    <string name="reset_app_list_confirmation_title">إعادة تعيين القائمة</string>
     <string name="reset_art_dialog_text">مسح ذاكرة التخزين المؤقت لـ ART وإعادة التشغيل؟</string>
-    <string name="start_art_dialog_text">تحسين ذاكرة التخزين المؤقت لـ ART قد يستغرق وقتاً، تسبب في تأخر الجهاز وارتفاع حرارة الجهاز. هل تريد المتابعة؟</string>
+    <string name="reset_downscale_onboot">إعادة التعيين بعد إعادة التشغيل</string>
     <string name="reset_fde_dialog_text">إعادة تعيين كافة إعدادات FDE.AI ؟</string>
     <string name="restart_fde_action">إعادة تشغيل FDE.AI</string>
     <string name="restart_fde_in_progress">Restarting FDE.AI</string>
     <string name="rm_fde_lite">الغاء تثبيت FDE.AI lite اولا !</string>
+    <string name="root_mode_descr">جميع الميزات. يتطلب صلاحيات الروت.</string>
     <string name="run_now">تشغيل</string>
     <string name="save_log">حفظ السجل</string>
     <string name="search_no_reset">البحث</string>
+    <string name="select_all">تحديد الكل</string>
     <string name="share">مشاركة FDE.AI</string>
     <string name="share_txt">جرب FDE.AI - أداة تحسين مدهشة!</string>
-    <string name="profiles_btn">ملفات تعريف التطبيق</string>
-    <string name="profiles_descr_txt">تطبيق ملفات تعريف مخصصة إعدادات FDE.AI عند تشغيل التطبيق والعودة عند إغلاقه.</string>
+    <string name="shizuku_broken_connection">خطأ! اتصال ADB مقطوع، يُرجى إعادة تشغيل خدمة Shizuku.</string>
+    <string name="shizuku_install_from_play_store">التثبيت من متجر Play</string>
+    <string name="shizuku_mode_descr">ميزات أقل، لا حاجة إلى صلاحيات الروت، أندرويد 7+. يتطلب تطبيق Shizuku.</string>
+    <string name="shizuku_open_app">افتح تطبيق Shizuku</string>
+    <string name="shizuku_setup_instructions_title">تعليمات الإعداد</string>
+    <string name="shizuku_setup_step_1">ثبّت Shizuku</string>
+    <string name="shizuku_setup_step_2">فعّل خدمة Shizuku في التطبيق</string>
+    <string name="shizuku_setup_step_3">امنح الأذونات عند الطلب</string>
+    <string name="shizuku_setup_step_4">ارجع إلى FDE.AI لمتابعة الإعداد</string>
+    <string name="shizuku_setup_success">تم إعداد Shizuku وأنت جاهز للاستخدام</string>
+    <string name="shizuku_warning_miui_description">يحتاج مستخدمو MIUI إلى تفعيل أذونات مطور إضافية ليعمل Shizuku بشكل صحيح.</string>
+    <string name="shizuku_warning_miui_title">أذونات مطور MIUI</string>
+    <string name="shizuku_warning_systemless_description_new">قد يؤدي وضع عدم استخدام الجذر إلى تنفيذ إجراءات تؤثر بشكل دائم على نظامك.\n\nإذا فكرت يومًا في إلغاء تثبيت هذا التطبيق، فأعد ضبط إعدادات FDE.AI في التطبيق مسبقًا.</string>
+    <string name="sound_channel_name">إشعارات الصوت AI</string>
     <string name="sound_header">صوت</string>
-    <string name="start_toast">بدء FDE.AI…</string>
+    <string name="sound_notifications">إشعارات صوتية</string>
+    <string name="start_art_dialog_text">تحسين ذاكرة التخزين المؤقت لـ ART قد يستغرق وقتاً، تسبب في تأخر الجهاز وارتفاع حرارة الجهاز. هل تريد المتابعة؟</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">في انتظار %1$d ثانية لبدء FDE.AI…</string>
+    <string name="start_toast">بدء FDE.AI…</string>
     <string name="startup">Startup</string>
     <string name="stop_btn">توقف</string>
     <string name="third_party">مكتبات الطرف الثالث</string>
-    <string name="throttling_description">وتعطيله يبقي الأداء مرتفعا ولكن قد يتسبب في ارتفاع درجة الحرارة وقد يتوقف الشحن السريع أو الكاميرا عن العمل.
-\nFDE.AI إعادة تمكين اختراق أثناء الشحن بشكل افتراضي. قم بإلغاء التحديد لتعطيل هذا.</string>
+    <string name="throttling_deactivated">تم إلغاء تنشيط الكبح</string>
+    <string name="throttling_desc_new">سيحافظ هذا على الأداء، لكنه قد يسبب ارتفاعًا في الحرارة ومشاكل مع الشحن السريع أو الكاميرا.</string>
     <string name="throttling_fuse_desc">إعادة تمكين الاختناق تلقائياً عند هذه الحرارة لمنع التلف.</string>
     <string name="throttling_fuse_header">صمامة الحرارة</string>
     <string name="throttling_ignore_charging">تجاهل الشحن</string>
+    <string name="throttling_ignore_charging_desc">يقوم FDE بإعادة تفعيل تقليل الأداء أثناء الشحن بشكل افتراضي. فعِّل هذا الخيار لتعطيل هذا السلوك.</string>
+    <string name="throttling_ignore_on_charge">الكبح يتجاهل الشحن</string>
     <string name="throttling_system_desc">ويحول الخنق دون ارتفاع درجة الحرارة عن طريق خفض ترددات المعالج/وحدات المعالجة المركزية.</string>
+    <string name="tile_available">مربع إعداد سريع متوفر في شريط الحالة.</string>
+    <string name="tweaks_disabled">كل التعديلات معطلة</string>
     <string name="un_fde_magisk">إلغاء تثبيت FDE.AI Magisk أولاً!</string>
     <string name="unavailable">Unavailable</string>
     <string name="update">تحديث</string>
     <string name="update_available">تحديث متوفر!</string>
     <string name="updating_toast">تحميل التحديث…</string>
     <string name="vibration">اهتزاز مرة واحدة</string>
-    <string name="warning_header">تحذير</string>
-    <string name="welcome">مرحبا بك</string>
-    <string name="overlay_opacity_main">Overlay opacity</string>
-    <string name="tweaks_disabled">كل التعديلات معطلة</string>
-    <string name="exit_confirmation_title">خروج ؟</string>
-    <string name="exit_confirmation_text">الخروج دون حفظ التغييرات؟</string>
-    <string name="sound_channel_name">إشعارات الصوت AI</string>
-    <string name="reset_app_list_confirmation_title">إعادة تعيين القائمة</string>
-    <string name="reset_app_list_confirmation_text">إعادة تعيين قائمة التطبيقات؟</string>
-    <string name="downscale_notification" tools:ignore="PluralsCandidate">اضغط على OK لتأكيد الدقة الجديدة، أو سيتم إعادة تعيينها في %1$d ثانية.</string>
-    <string name="onboarding_migrate_data_description">هل تريد ترحيل بياناتك؟</string>
-    <string name="kernel_block">kernel الحالي %1$s كتل التثبيت المتميز. الرجاء النظر في تثبيت كيرنل آخر.</string>
-    <string name="profile_ai_mode_desc">حدد وضع الذكاء الاصطناعي أثناء استخدام التطبيق.</string>
-    <string name="preload_pro_required">مطلوب تحميل مسبق لتطبيق Pro لهذه الميزة.</string>
-    <string name="overlay_power_x">القوة: %1$s mAh</string>
-    <string name="overlay_battery_temp_x">البطارية: %1$s°C</string>
-    <string name="overlay_scale_main">مقياس التراكب</string>
-    <string name="emergency_cooldown">تبريد الطوارئ</string>
-    <string name="emergency_cooldown_btn">تبريد</string>
-    <string name="emergency_cooldown_desc">عند التفعيل، سيعيد تمكين الخنق، تمكين وضع الطائرة، وضع توفير الطاقة، قتل تطبيقات الخلفية، تعطيل الشحن، وتعيين الذكاء الاصطناعي إلى وضع توفير الطاقة لمدة 100 ثانية، ثم العودة.</string>
-    <string name="hwinfo">الجهاز</string>
-    <string name="ai_lifetime">عمر الذكاء الاصطناعي</string>
-    <string name="kernel_tuning_state">ضبط النواة</string>
-    <string name="cpu_turbo_support">دعم CPU Turbo</string>
-    <string name="cpu_turbo_trigger_count">عدد مشغلات CPU Turbo</string>
-    <string name="gpu_turbo_support">دعم GPU Turbo</string>
-    <string name="gpu_turbo_trigger_count">عدد مشغلات GPU Turbo</string>
-    <string name="force_doze_enabled">تمكين Force Doze</string>
-    <string name="force_doze_trigger_count">عدد مشغلات Force Doze</string>
-    <string name="throttling_deactivated">تم إلغاء تنشيط الكبح</string>
-    <string name="throttling_ignore_on_charge">الكبح يتجاهل الشحن</string>
-    <string name="kill_bg_apps">إيقاف تشغيل تطبيقات الخلفية</string>
-    <string name="auto_art_opt">تحسين ART تلقائيًا</string>
-    <string name="dynamic_read_ahead">قراءة مسبقة ديناميكية</string>
-    <string name="charging_bypass_enabled">تمكين تجاوز الشحن</string>
-    <string name="charging_limit_enabled">تمكين حد الشحن</string>
-    <string name="charging_cycles">دورات الشحن:</string>
-    <string name="cpu_bandwidth_tune">ضبط عرض النطاق الترددي لوحدة المعالجة المركزية</string>
-    <string name="fs_cache_tune">ضبط ذاكرة التخزين المؤقت لنظام الملفات</string>
     <string name="vm_cache_tune">ضبط ذاكرة التخزين المؤقت للآلة الافتراضية</string>
-    <string name="cpu_input_boost_tune">تعزيز مدخلات وحدة المعالجة المركزية</string>
-    <string name="kernel_entropy_tune">ضبط إنتروبيا النواة</string>
-    <string name="kernel_sched_boost">تعزيز جدولة النواة</string>
-    <string name="multi_core_power_saving_control">توفير طاقة وحدة المعالجة المركزية متعددة النواة</string>
-    <string name="extraopt_schedule_title">جدولة التشغيل يوميًا</string>
-    <string name="extraopt_schedule_time">تعيين وقت التحسين التلقائي اليومي</string>
-    <string name="sound_notifications">إشعارات صوتية</string>
-    <string name="migration_error">حدث خطأ غير متوقع أثناء نقل البيانات. سيتم مسح البيانات.</string>
-    <string name="onboarding_select_mode_title">اختيار الوضع</string>
-    <string name="charging_limit">حد الشحن</string>
-    <string name="auto_data_save">توفير البيانات</string>
-    <string name="auto_data_save_desc">تفعيل توفير البيانات تلقائيًا عند إيقاف تشغيل الشاشة.</string>
-    <string name="autopowersave_mode">توفير الطاقة التلقائي</string>
-    <string name="autodatasave_mode">توفير البيانات التلقائي</string>
-    <string name="memory_boost_support">تعزيز الذاكرة</string>
-    <string name="root_mode_descr">جميع الميزات. يتطلب صلاحيات الروت.</string>
-    <string name="shizuku_mode_descr">ميزات أقل، لا حاجة إلى صلاحيات الروت، أندرويد 7+. يتطلب تطبيق Shizuku.</string>
-    <string name="lets_go">تشغيل</string>
-    <string name="shizuku_setup_success">تم إعداد Shizuku وأنت جاهز للاستخدام</string>
-    <string name="shizuku_setup_instructions_title">تعليمات الإعداد</string>
-    <string name="shizuku_warning_systemless_title">تنبيه</string>
-    <string name="shizuku_warning_miui_title">أذونات مطور MIUI</string>
-    <string name="shizuku_warning_miui_description">يحتاج مستخدمو MIUI إلى تفعيل أذونات مطور إضافية ليعمل Shizuku بشكل صحيح.</string>
-    <string name="shizuku_install_from_play_store">التثبيت من متجر Play</string>
-    <string name="shizuku_open_app">افتح تطبيق Shizuku</string>
-    <string name="shizuku_setup_step_1">ثبّت Shizuku</string>
-    <string name="shizuku_setup_step_2">فعّل خدمة Shizuku في التطبيق</string>
-    <string name="shizuku_setup_step_3">امنح الأذونات عند الطلب</string>
-    <string name="shizuku_setup_step_4">ارجع إلى FDE.AI لمتابعة الإعداد</string>
-    <string name="shizuku_broken_connection">خطأ! اتصال ADB مقطوع، يُرجى إعادة تشغيل خدمة Shizuku.</string>
-    <string name="just_check">تحقق</string>
-    <string name="dontkillmyapp_text">أنت تستخدم وضع Shizuku. للحفاظ على عمل التطبيق بشكل جيد، يُرجى تعطيل الإيقاف التلقائي لـ Shizuku وFDE.AI. هل تريد معرفة كيفية القيام بذلك؟</string>
-    <string name="burnit_btn">تعطيل الكبح</string>
-    <string name="already_premium">هل لديك باقة مميزة بالفعل؟</string>
-    <string name="already_premium_txt">إذا كنت قد اشتريت باقة مميزة بالفعل، ولكن FDE.AI لم يكتشفها، فاتبع الخطوات التالية:\n\n
-1. تأكد من تنزيل نسخة أصلية من تطبيق FDE.AI من مصادر رسمية، وتحقق من تجزئة MD5.\n
-2. تأكد من أن ذاكرة القراءة فقط (ROM) لديك لا تحتوي على توقيع مُزيّف أو مُعطّل للتحقق.\n
-3. ألغِ تثبيت كلٍّ من باقة FDE.AI المميزة وتطبيق FDE.AI.\n
-4. امسح بيانات تطبيق جوجل بلاي.\n
-5. أعد تشغيل جهازك.\n
-6. ثبّت باقة FDE.AI المميزة.\n\n
-إذا استمرت المشكلة، تواصل مع المطور عبر تيليجرام.</string>
-    <string name="wifi_psave_header">تعطيل وضع السكون للواي فاي</string>
+    <string name="warning_header">تحذير</string>
+    <string name="warning_no">لا</string>
+    <string name="warning_title">تحذير!</string>
+    <string name="warning_yes">نعم</string>
+    <string name="welcome">مرحبا بك</string>
     <string name="wifi_psave_descr">لتقليل احتمالية انقطاع الاتصال مع شيزوكو، يمكنك محاولة تعطيل وضع السكون للواي فاي، ولكن هذا قد يزيد من استهلاك الطاقة في وضع الخمول.</string>
-    <string name="downscale_warning">إذا حدث أي خطأ ولم تتمكن من الوصول إلى زر "إعادة الضبط"، فلا تعيد تشغيل الجهاز!\nبدلاً من ذلك، اتصل بواجهة ADB وأدخل هذا الأمر: \'adb shell wm size reset;wm density reset\'.</string>
-    <string name="shizuku_warning_systemless_description_new">قد يؤدي وضع عدم استخدام الجذر إلى تنفيذ إجراءات تؤثر بشكل دائم على نظامك.\n\nإذا فكرت يومًا في إلغاء تثبيت هذا التطبيق، فأعد ضبط إعدادات FDE.AI في التطبيق مسبقًا.</string>
-    <string name="debloat_title">تعطيل التطبيقات غير المرغوب فيها</string>
-    <string name="debloat_descr">هنا يمكنك تعطيل بعض تطبيقات النظام التي تُعد غير مرغوب فيها لتسريع النظام. أدناه توجد قائمة التطبيقات الموصى بإزالتها من Universal‑Debloater‑Alliance.</string>
-    <string name="select_all">تحديد الكل</string>
-    <string name="clear_selection">مسح التحديد</string>
-    <plurals name="debloat_apply_confirm_text">
-        <item quantity="zero">تطبيق التغييرات على %1$d من التطبيقات؟</item>
-        <item quantity="one">تطبيق التغييرات على تطبيق واحد؟</item>
-        <item quantity="two">تطبيق التغييرات على تطبيقين؟</item>
-        <item quantity="few">تطبيق التغييرات على %1$d تطبيقات؟</item>
-        <item quantity="many">تطبيق التغييرات على %1$d تطبيقًا؟</item>
-        <item quantity="other">تطبيق التغييرات على %1$d من التطبيقات؟</item>
-    </plurals>
-    <string name="debloat_processing_progress">المعالجة: %1$d/%2$d</string>
-    <string name="debloat_uninstall">إلغاء التثبيت</string>
-    <string name="debloat_no_apps">لا توجد تطبيقات غير مرغوب فيها (bloatware).</string>
+    <string name="wifi_psave_header">تعطيل وضع السكون للواي فاي</string>
 </resources>

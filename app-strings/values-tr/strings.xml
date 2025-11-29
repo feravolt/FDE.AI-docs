@@ -2,13 +2,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_app">Uygulama Hakkında</string>
     <string name="about_end_txt" tools:ignore="MissingTranslation">FeraVolt tarafından yapılmıştır.</string>
+    <string name="acc_warning">Gelişmiş Şarj Kontrolörü (ACC) modülü algılandı. FDE.AI pil işlevleriyle çakışabilir.</string>
     <string name="accept">Kabul Et</string>
     <string name="adaptive">Otomatik</string>
     <string name="ai_auto_mode">Cihaz kullanımına bağlı olarak performansı ve güç tasarrufunu dengeler. Frekansların otomatik ayarı daha fazla güç tasarrufu sağlar.</string>
     <string name="ai_is_disabled">AI devre dışı</string>
+    <string name="ai_lifetime">AI ömrü</string>
     <string name="ai_log">AI Günlüğü</string>
     <string name="ai_mode">AI</string>
     <string name="ai_mode_auto">Otomatik</string>
+    <string name="ai_modes">Yapay zeka modları</string>
     <string name="ai_modes_desc">Yapay zeka arka planda çalışır, kullanımı öğrenir ve sistem optimizasyonlarını uygular.</string>
     <string name="ai_off_detail">Yapay zeka devre dışı bırakıldığında, FDE tek seferlik bir optimize edici görevi görür ve gerçek zamanlı olarak optimize etmez.</string>
     <string name="ai_perf_mode">Performans için optimize edin. CPU/GPU turbolarını sık-sık tetikler.</string>
@@ -19,8 +22,15 @@
     <string name="ai_state_ready">Çalışıyor</string>
     <string name="ai_state_sleeping">Uyuyor…</string>
     <string name="aiinfo">Yapay zeka bilgisi</string>
-    <string name="core_tweaks_enable">Çekirdek ince ayarlarını etkinleştir</string>
-    <string name="core_tweaks_enable_desc">Ana FDE ince ayarlarını etkinleştir. Devam etmeniz önerilir.</string>
+    <string name="already_premium">Premium\'unuz var mı?</string>
+    <string name="already_premium_txt">Zaten premium paketi satın aldıysanız ancak FDE.AI bunu algılamıyorsa - şu adımları izleyin:\n\n
+1. FDE.AI uygulamasının orijinal kopyasını resmi kaynaklardan indirdiğinizden ve MD5 karma değerini kontrol ettiğinizden emin olun.\n
+2. ROM\'unuzda imza sahtekarlığı veya devre dışı bırakılmış doğrulama olmadığından emin olun.\n
+3. Hem FDE.AI Premium paketini hem de FDE.AI uygulamasını kaldırın.\n
+4. Google Play uygulamasının verilerini temizleyin.\n
+5. Cihazınızı yeniden başlatın.\n
+6. FDE.AI ve Premium paketini yükleyin.\n\n
+Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="app_icon">Uygulama simgesi</string>
     <string name="app_theme">Tema</string>
     <string name="app_update_notification_title">FDE.AI güncellemesi</string>
@@ -30,8 +40,13 @@
     <string name="arrow_right">Sağ ok</string>
     <string name="arrow_up">Yukarı ok</string>
     <string name="attempt_root">Kök erişimi bekleniyor…</string>
+    <string name="auto_art_opt">Otomatik ART optimizasyonu</string>
+    <string name="auto_data_save">Veri tasarrufu</string>
+    <string name="auto_data_save_desc">Ekran kapalıyken veri tasarrufunu otomatik olarak etkinleştir.</string>
     <string name="auto_psave">Güç tasarrufu modu</string>
     <string name="auto_psave_desc">Ekran kapalıyken güç tasarrufu modunu otomatik olarak etkinleştirin.</string>
+    <string name="autodatasave_mode">Otomatik veri tasarrufu</string>
+    <string name="autopowersave_mode">Otomatik güç tasarrufu</string>
     <string name="autostart">Otomatik başlat</string>
     <string name="autostart_delay_hint">Gecikme %1$ds olarak ayarlandı</string>
     <string name="autostart_overlay">İstatistik katmanını başlat</string>
@@ -39,101 +54,148 @@
     <string name="batt_resistance">Direnç</string>
     <string name="battery_health_sub">Şarjı durdurmak için seviyeyi ayarlayın:</string>
     <string name="battery_health_toggle">Maksimum şarj seviyesini sınırla</string>
-    <string name="battery_level_x" tools:ignore="MissingTranslation">Seviye: %1$s</string>
     <string name="battery_status">Pil durumu</string>
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Sıcaklık: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Voltaj: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Aşınma: %1$s</string>
     <string name="burnit">Kısıtlama</string>
-    <string name="greenbattery_title">Pil</string>
+    <string name="burnit_btn">Kısıtlamayı devre dışı bırak</string>
     <string name="bypassch_desc">Ağır işlemler sırasında şarj cihazının akımını cihaz kullanımına uyacak şekilde sınırlayarak pil şarjını ve ısınmasını azaltır.</string>
     <string name="bypassch_title">Şarj baypası</string>
     <string name="cancel">İptal</string>
     <string name="changelog">Değişiklik Günlüğü</string>
     <string name="charge_time">Tam şarj olma süresi</string>
     <string name="charging">şarj</string>
+    <string name="charging_bypass_enabled">Şarj atlama etkin</string>
+    <string name="charging_cycles">Şarj döngüleri:</string>
+    <string name="charging_limit">Şarj sınırı</string>
+    <string name="charging_limit_enabled">Şarj sınırı etkin</string>
     <string name="check_for_updates_about">Başlangıçta güncellemeleri kontrol edin</string>
     <string name="clean_cache">Önbelleği temizle</string>
+    <string name="clean_cache_done_snack">Önbellek temizlendi</string>
+    <string name="clean_cache_running_snack">Önbellek temizleniyor…</string>
     <string name="clean_ram">RAM\'i temizle</string>
+    <string name="clean_ram_done_snack">RAM temizlendi</string>
+    <string name="clean_ram_running_snack">RAM temizleniyor…</string>
     <string name="cleaning_desc">Arka plan uygulamalarını kapatarak RAM\'i ve önbellek dosyalarını silerek ücretsiz depolama alanını temizleyin.</string>
     <string name="cleaning_title">Temizlik</string>
+    <string name="clear_selection">Seçimi temizle</string>
     <string name="close">Kapat</string>
+    <string name="common_cached">Önbellekte</string>
+    <string name="common_settings">Ayarlar</string>
+    <string name="common_swap">Takas</string>
+    <string name="common_wear">Aşınma</string>
+    <string name="common_x_total">%1$s toplam</string>
+    <string name="common_x_used">%1$s kullanılan</string>
     <string name="completed">tamamlandı</string>
-    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">İşlemci: %1$s%%</string>
+    <string name="core_tweaks_enable">Çekirdek ince ayarları</string>
+    <string name="core_tweaks_enable_desc">Ana FDE ince ayarlarını etkinleştir. Devam etmeniz önerilir.</string>
+    <string name="cpu_bandwidth_tune">CPU bant genişliği ayarı</string>
+    <string name="cpu_input_boost_tune">CPU giriş artışı</string>
     <string name="cpu_top_descr">CPU yoğun en iyi 5 süreçle yer paylaşımı</string>
     <string name="cpu_top_header">Süreç istatistikleri</string>
+    <string name="cpu_turbo_support">CPU Turbo desteği</string>
+    <string name="cpu_turbo_trigger_count">CPU Turbo tetikleyici sayısı</string>
     <string name="current_resolution">Mevcut çözünürlük:</string>
     <string name="dark_theme">Koyu</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">%1$d uygulamaya değişiklik uygulansın mı?</item>
+        <item quantity="other">%1$d uygulamaya değişiklik uygulansın mı?</item>
+    </plurals>
+    <string name="debloat_descr">Burada sisteminizi hızlandırmak için gereksiz (bloatware) sayılan bazı sistem uygulamalarını devre dışı bırakabilirsiniz. Aşağıda Universal‑Debloater‑Alliance tarafından önerilen kaldırılabilir uygulamalar listesi bulunur.</string>
+    <string name="debloat_no_apps">Gereksiz (istenmeyen) uygulama yok.</string>
+    <string name="debloat_processing_progress">İşleniyor: %1$d/%2$d</string>
+    <string name="debloat_title">Gereksiz yazılımları devre dışı bırak</string>
+    <string name="debloat_uninstall">Kaldır</string>
     <string name="debug_mode">Hata ayıklama</string>
     <string name="description">Açıklama</string>
-    <string name="enable_ai">Yapay Zekayı Etkinleştir</string>
     <string name="disable_logs">Günlükleri devre dışı bırak</string>
     <string name="disable_logs_desc">Tüm günlükleri ve istatistikleri (\"logcat\" hariç) devre dışı bırakmak ve logcat arabellek boyutunu 128 KB\'a düşürmek için seçin.</string>
+    <string name="dontkillmyapp_text">Shizuku modunu kullanıyorsunuz. Uygulamanın düzgün çalışmasını sağlamak için lütfen Shizuku ve FDE.AI için otomatik öldürmeyi devre dışı bırakın. Nasıl olduğunu görmek ister misiniz?</string>
     <string name="downscale_btn">Uyarlanabilir alt ölçek</string>
     <string name="downscale_desc">GPU performansını artırmak ve hafif görüntü kalitesi kaybıyla pil tasarrufu sağlamak için daha düşük ekran çözünürlüğü. Kullanıcı arayüzü çökmelerini önlemek için özel ROM\'larda (MIUI, EMUI, vb.) ekran genişliğinin yarısının altına inmeniz önerilmez.</string>
-    <string name="warning_no">Hayır</string>
-    <string name="warning_title">Uyarı!</string>
-    <string name="warning_yes">Evet</string>
+    <string name="downscale_notification" tools:ignore="PluralsCandidate">Yeni çözünürlüğü onaylamak için Tamam\'a basın, aksi takdirde %1$d saniye içinde sıfırlanacaktır.</string>
+    <string name="downscale_warning">Bir sorun çıkarsa ve \'Sıfırla\' düğmesine erişemiyorsanız, cihazı yeniden başlatmayın!\nBunun yerine ADB kabuğuna bağlanın ve şu komutu girin: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI, Uyku modunu daha erken tetikleyebilir. Sorun ortaya çıkarsa, aşağıdaki düğmeyi kullanarak uygulamaları beyaz listeye alın.</string>
     <string name="doze_mode">Uyku modunu zorla</string>
     <string name="doze_sub_describtion">Ekran kapanır kapanmaz Uyku moduna girmek için etkinleştirin.</string>
     <string name="doze_system_desc">Uyku modu (Android 6.0+), cihaz boştayken arka plan CPU\'sunu ve ağ etkinliğini erteleyerek pil kullanımını azaltır.</string>
     <string name="doze_whitelist">Uyku beyaz liste</string>
+    <string name="dynamic_read_ahead">Dinamik okuma-önceden</string>
+    <string name="emergency_cooldown">Acil Durum Beklemesi</string>
+    <string name="emergency_cooldown_btn">Bekleme</string>
+    <string name="emergency_cooldown_desc">Etkinleştirildiğinde, kısmayı yeniden etkinleştirir, uçak modunu, güç tasarrufu modunu etkinleştirir, arka plan uygulamalarını öldürür, şarjı devre dışı bırakır ve AI\'yı 100 saniye boyunca güç tasarrufu moduna ayarlar, ardından geri döner.</string>
+    <string name="enable_ai">Yapay Zekayı Etkinleştir</string>
     <string name="eula" tools:ignore="MissingTranslation">SKLA</string>
+    <string name="exit_confirmation_text">Değişiklikleri kaydetmeden çıkılsın mı?</string>
+    <string name="exit_confirmation_title">Çık?</string>
     <string name="extraopt_btn">Ekstra optimizasyon</string>
     <string name="extraopt_desc">ART önbelleğini performans için yeniden derleyerek sistemi optimize edin (daha fazla dahili bellek kullanır) ve bellek performansını artırmak için dosya sistemini kırpın.</string>
     <string name="extraopt_do_btn">Başlat</string>
     <string name="extraopt_reset_btn">Optimizasyonu sıfırla</string>
+    <string name="extraopt_schedule_title">Günlük olarak çalışacak şekilde zamanlayın</string>
+    <string name="extraopt_scheduled_subtitle">Sonraki çalışma %1$s:00</string>
     <string name="extraopt_warning">Bu sistemsiz bir optimizasyon değildir. Bazı özel ROM\'larda sistemi bozabilir (kurtarma sırasında ART önbelleği temizlemeyi gerektirir). Kullanmadan önce verilerinizi yedekleyin.</string>
-    <string name="acc_warning">Gelişmiş Şarj Kontrolörü (ACC) modülü algılandı. FDE.AI pil işlevleriyle çakışabilir.</string>
     <string name="fde_is_active">AI aktif</string>
     <string name="fde_is_inactive">Yapay Zeka etkin değil</string>
     <string name="fde_on_reset_toast">Tüm FDE.AI verileri sıfırlanacaktır. Uygulama kapanacak.</string>
     <string name="finstall">FDE.AI yükleniyor…</string>
-    <string name="monitoring_floating_window">İzleme</string>
+    <string name="force_doze_enabled">Zorunlu Doze etkin</string>
+    <string name="force_doze_trigger_count">Zorunlu Doze tetikleyici sayısı</string>
     <string name="fps_checkbox">Donanım izleme ve fps</string>
     <string name="fps_meter_desc">Gerçek zamanlı fps, CPU, GPU, RAM ve güç kullanım istatistikleri.</string>
-    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Ortalama: %1$s fps</string>
-    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
-    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
+    <string name="fs_cache_tune">FS önbellek ayarı</string>
     <string name="get_premium">FDE.AI Premium alın</string>
     <string name="go_back">Geri dön</string>
-    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="gpu_turbo_support">GPU Turbo desteği</string>
+    <string name="gpu_turbo_trigger_count">GPU Turbo tetikleyici sayısı</string>
     <string name="grantit">İşletim sistemi önyüklemesinden sonra FDE.AI\'nin başlamasına izin vermek için işletim sisteminizin izin yöneticisinde otomatik başlatma iznini manuel olarak vermeniz gerekebilir.</string>
     <string name="greenbattery_desc">Maksimum şarj seviyesini sınırlayarak pil ömrünü uzatın. Tanımlanan eşikte şarjı durdurur ve yüzde 6 altında yeniden başlatır.</string>
+    <string name="greenbattery_title">Pil</string>
     <string name="hour">s.</string>
+    <string name="hwinfo">Cihaz</string>
     <string name="join_forum">XDA</string>
-    <string name="just_battery">Pil</string>
+    <string name="just_check">Kontrol et</string>
     <string name="just_ram">RAM</string>
     <string name="just_storage">Depolama</string>
+    <string name="kernel_block">Mevcut çekirdek %1$s Premium kurulumu engelliyor. Lütfen başka bir çekirdek kurmayı düşünün.</string>
+    <string name="kernel_entropy_tune">Çekirdek entropi ayarı</string>
+    <string name="kernel_sched_boost">Çekirdek zamanlayıcı artışı</string>
+    <string name="kernel_tuning_state">Çekirdek ayarı</string>
+    <string name="kill_bg_apps">Arka plan uygulamaları sonlandırma</string>
     <string name="killbgapps_desc">Ekran kapalıyken arka plan uygulamalarını otomatik olarak kapat.</string>
     <string name="killbgapps_title">Arka plan uygulamalarını sonlandır</string>
+    <string name="lets_go">Çalıştır</string>
     <string name="light_theme">Açık</string>
     <string name="link_open_error" tools:ignore="MissingTranslation">Bağlantı açılamıyor</string>
     <string name="links">Bağlantılar</string>
     <string name="log_saved">Günlükler /sdcard/fde.md dosyasına kaydedildi</string>
     <string name="low_power_fps">Düşük güç fps</string>
     <string name="low_power_fps_short_desc">Ayarlanan hedef FPS-CPU/GPU frekansları, FPS\'Yİ korumak ve güç tasarrufu sağlamak için azaltılacaktır.</string>
-    <string name="mem_available_x" tools:ignore="MissingTranslation">Uygun: %1$s</string>
-    <string name="mem_cached_x" tools:ignore="MissingTranslation">Önbellek: %1$s</string>
-    <string name="mem_total_x" tools:ignore="MissingTranslation">Toplam: %1$s</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Kullanılan: %1$s</string>
+    <string name="memory_boost_support">Bellek artırma</string>
     <string name="menu_dashboard">Ana Sayfa</string>
+    <string name="migration_error">Veri geçişi sırasında beklenmeyen bir hata oluştu. Veriler temizlenecek.</string>
     <string name="min">min.</string>
+    <string name="monitoring_floating_window">İzleme</string>
     <string name="more_info">Daha fazla bilgi</string>
+    <string name="multi_core_power_saving_control">Çok çekirdekli CPU güç tasarrufu</string>
     <string name="noroot">KÖK ERİŞİMİ YOK!</string>
     <string name="notification_ai_state">Kalıcı bildirim</string>
     <string name="notification_ai_state_desc">Bildirimde mevcut AI modunu gösterir</string>
     <string name="notification_battery_state">Pil bildirimi</string>
     <string name="notification_battery_state_desc">Bildirimde kısa pil bilgilerini gösterir</string>
+    <string name="notifications_and_feedback">Bildirimler ve Geri Bildirim</string>
     <string name="offf">Kapalı</string>
     <string name="older_changelogs" tools:ignore="MissingTranslation">Eski değişiklik günlükleri</string>
     <string name="onboarding_eula_message">Devam etmek için lütfen sözleşmemizi kabul edin</string>
     <string name="onboarding_eula_summary_1">FDE.AI, çeşitli sistem parametrelerini değiştirerek sisteminizi optimize eder</string>
     <string name="onboarding_eula_summary_2">Veri yedeğiniz olduğundan emin olun</string>
     <string name="onboarding_eula_summary_3">Herhangi bir zarardan sorumlu değiliz.</string>
+    <string name="onboarding_eula_summary_4">FDE.AI ile başka ince ayar kullanmayın.</string>
     <string name="onboarding_eula_summary_header">Sözleşme özeti</string>
+    <string name="onboarding_migrate_data">Önceki sürüm algılandı</string>
+    <string name="onboarding_migrate_data_description">Verileriniz taşınsın mı?</string>
     <string name="onboarding_preset_adaptive_summary">Otomatik olarak ayarlamak için ince ayarlar yapın ve yapay zekayı ayarlayın. Önerilen mod.</string>
     <string name="onboarding_preset_adaptive_title">Uyarlanabilir</string>
     <string name="onboarding_preset_off_summary">İnce ayar uygulanmadı. Hemen yalnızca araçlar kullanılabilir olacak</string>
@@ -144,17 +206,28 @@
     <string name="onboarding_preset_powersave_title">Güç tasarrufu</string>
     <string name="onboarding_presets">Ön ayarlar</string>
     <string name="onboarding_see_full_eula">SKLA\'nın tamamını gör</string>
+    <string name="onboarding_select_mode_title">Mod seç</string>
     <string name="onboarding_setup">Kurulum</string>
     <string name="onboarding_setup_message">Uygulanacak ince ayarları seçin. Kurulumdan sonra ayarları değiştirebilirsiniz.</string>
-    <string name="onboarding_eula_summary_4">FDE.AI ile başka ince ayar kullanmayın.</string>
-    <string name="onboarding_migrate_data">Önceki sürüm algılandı</string>
     <string name="open_os_dev_settings">Android geliştirici ayarlarını açın</string>
     <string name="optimize_now">Şimdi optimize et</string>
     <string name="other_settings">Diğer ayarlar</string>
+    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Ortalama: %1$s fps</string>
+    <string name="overlay_battery_temp_x">Pil: %1$s°C</string>
+    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">İşlemci: %1$s%%</string>
     <string name="overlay_desc_text">İzleme için gerçek zamanlı istatistiklerle değişken pencereleri etkinleştirin.</string>
+    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
+    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
+    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
+    <string name="overlay_opacity_main">Kaplama opaklığı</string>
+    <string name="overlay_power_x">Güç: %1$s mAh</string>
+    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
+    <string name="overlay_scale_main">Kaplama ölçeği</string>
     <string name="performance">Performans</string>
     <string name="power_checkbox">Güç tüketimi</string>
     <string name="powersave">Güç tasarrufu</string>
+    <string name="preload_pro_required">Bu özellik için Preload Pro uygulaması gereklidir.</string>
     <string name="preload_title">Otomatik ön yükleme</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
     <string name="premium_card_overlays_desc">Fps ölçer dahil olmak üzere çeşitli istatistiklere sahip özelleştirilebilir bindirme pencereleri.</string>
@@ -162,138 +235,72 @@
     <string name="premium_card_profiles_desc">Birçok seçenekle özelleştirilebilir uygulama profilleri.</string>
     <string name="premium_text">FDE.AI\'yi destekleyin ve tüm özel özelliklerin kilidini açın:</string>
     <string name="premium_thanks">Desteğiniz için teşekkürler! Bu özelliklerin kilidini açtınız:</string>
-    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
+    <string name="profile_ai_mode_desc">Uygulama kullanımdayken AI modunu seçin.</string>
+    <string name="profiles_btn">Uygulama profilleri</string>
+    <string name="profiles_descr_txt">Özel profiller, bir uygulama çalışırken FDE.AI ayarlarını uygular ve kapatıldığında geri döner.</string>
     <string name="rate_app">FDE.AI\'yi oyla</string>
     <string name="releases">Güncellemeler</string>
     <string name="reset">Sıfırla</string>
     <string name="reset_all_fde">FDE.AI ayarlarını sıfırla</string>
-    <string name="reset_downscale_onboot">Yeniden başlatmadan sonra sıfırla</string>
+    <string name="reset_app_list_confirmation_text">Uygulama listesi sıfırlansın mı?</string>
+    <string name="reset_app_list_confirmation_title">Listeyi sıfırla</string>
     <string name="reset_art_dialog_text">ART önbelleği temizlensin ve yeniden başlatılsın mı?</string>
-    <string name="start_art_dialog_text">ART önbelleğini optimize etmek zaman alabilir, cihaz gecikmesine ve aşırı ısınmaya neden olabilir. Devam edilsin mi?</string>
+    <string name="reset_downscale_onboot">Yeniden başlatmadan sonra sıfırla</string>
     <string name="reset_fde_dialog_text">Tüm FDE.AI ayarları sıfırlansın mı?</string>
     <string name="restart_fde_action">FDE.AI\'yi yeniden başlat</string>
     <string name="restart_fde_in_progress">FDE.AI yeniden başlatılıyor</string>
     <string name="rm_fde_lite">Önce FDE.AI lite sürümünü kaldırın!</string>
+    <string name="root_mode_descr">Tüm özellikler. Root erişimi gerektirir.</string>
     <string name="run_now">Çalıştır</string>
     <string name="save_log">Günlüğü kaydet</string>
     <string name="search_no_reset">Ara</string>
+    <string name="select_all">Tümünü seç</string>
     <string name="share">FDE.AI\'yi paylaş</string>
     <string name="share_txt">Harika bir Android iyileştirici olan FDE.AI\'yi deneyin!</string>
-    <string name="profiles_btn">Uygulama profilleri</string>
-    <string name="profiles_descr_txt">Özel profiller, bir uygulama çalışırken FDE.AI ayarlarını uygular ve kapatıldığında geri döner.</string>
+    <string name="shizuku_broken_connection">Hata! ADB bağlantısı koptu, lütfen Shizuku hizmetini yeniden başlatın.</string>
+    <string name="shizuku_install_from_play_store">Play\'den Yükle Mağaza</string>
+    <string name="shizuku_mode_descr">Daha az özellik, root gerekmez, Android 7+. Shizuku uygulaması gereklidir.</string>
+    <string name="shizuku_open_app">Shizuku Uygulamasını Aç</string>
+    <string name="shizuku_setup_instructions_title">Kurulum Talimatları</string>
+    <string name="shizuku_setup_step_1">Shizuku\'yu yükle</string>
+    <string name="shizuku_setup_step_2">Uygulamada Shizuku hizmetini etkinleştir</string>
+    <string name="shizuku_setup_step_3">İstendiğinde izinleri ver</string>
+    <string name="shizuku_setup_step_4">Kuruluma devam etmek için FDE.AI\'ye geri dön</string>
+    <string name="shizuku_setup_success">Shizuku kuruldu ve artık hazırsınız</string>
+    <string name="shizuku_warning_miui_description">MIUI kullanıcılarının Shizuku\'nun düzgün çalışması için ek geliştirici izinlerini etkinleştirmeleri gerekir.</string>
+    <string name="shizuku_warning_miui_title">MIUI Geliştirici İzinleri</string>
+    <string name="shizuku_warning_systemless_description_new">Kök olmayan mod, sisteminizi kalıcı olarak etkileyecek eylemler gerçekleştirebilir.\n\nBu uygulamayı kaldırmayı düşünürseniz, uygulamadaki FDE.AI ayarlarını sıfırlayın.</string>
+    <string name="sound_channel_name">Yapay Zeka Ses Bildirimleri</string>
     <string name="sound_header">Ses</string>
-    <string name="start_toast">FDE.AI başlatılıyor…</string>
+    <string name="sound_notifications">Sesli bildirimler</string>
+    <string name="start_art_dialog_text">ART önbelleğini optimize etmek zaman alabilir, cihaz gecikmesine ve aşırı ısınmaya neden olabilir. Devam edilsin mi?</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">FDE.AI\'yi başlatmak için %1$d saniye bekleniyor…</string>
+    <string name="start_toast">FDE.AI başlatılıyor…</string>
     <string name="startup">Başlatma</string>
     <string name="stop_btn">Durdur</string>
     <string name="third_party">Üçüncü taraf kütüphaneleri</string>
-    <string name="throttling_description">Devre dışı bırakılması performansı korur ancak aşırı ısınmaya neden olabilir ve hızlı şarj veya kamera çalışmayı durdurabilir.
-\nFDE.AI, varsayılan olarak şarj sırasında kısmayı yeniden etkinleştirir. Bunu devre dışı bırakmak için işareti kaldırın.</string>
+    <string name="throttling_deactivated">Kısıtlama devre dışı bırakıldı</string>
+    <string name="throttling_desc_new">Bu, performansı korur ancak aşırı ısınmaya ve hızlı şarj veya kamera ile ilgili sorunlara neden olabilir.</string>
     <string name="throttling_fuse_desc">Hasarı önlemek için bu sıcaklıkta kısmayı otomatik olarak yeniden etkinleştirin.</string>
     <string name="throttling_fuse_header">Sıcaklık sigortası</string>
     <string name="throttling_ignore_charging">Şarjı yoksay</string>
+    <string name="throttling_ignore_charging_desc">Varsayılan olarak FDE, şarj sırasında tekrar kısıtlama (throttling) uygular. Bu davranışı devre dışı bırakmak için bu seçeneği işaretleyin.</string>
+    <string name="throttling_ignore_on_charge">Kısıtlama şarjı yoksay</string>
     <string name="throttling_system_desc">Kısma, CPU/GPU frekanslarını azaltarak aşırı ısınmayı önler.</string>
+    <string name="tile_available">Durum çubuğunda hızlı döşeme mevcuttur.</string>
+    <string name="tweaks_disabled">Tüm ince ayarlar devre dışı</string>
     <string name="un_fde_magisk">Önce FDE.AI Magisk modülünü kaldırın!</string>
     <string name="unavailable">Uygun değil</string>
     <string name="update">Güncelle</string>
     <string name="update_available">Güncelleme mevcut!</string>
     <string name="updating_toast">Güncelleme indiriliyor…</string>
     <string name="vibration">Bir kez titreştir</string>
-    <string name="warning_header">Uyarı</string>
-    <string name="welcome">Hoş geldiniz</string>
-    <string name="overlay_opacity_main">Kaplama opaklığı</string>
-    <string name="overlay_scale_main">Kaplama ölçeği</string>
-    <string name="tweaks_disabled">Tüm ince ayarlar devre dışı</string>
-    <string name="exit_confirmation_title">Çık?</string>
-    <string name="exit_confirmation_text">Değişiklikleri kaydetmeden çıkılsın mı?</string>
-    <string name="sound_channel_name">Yapay Zeka Ses Bildirimleri</string>
-    <string name="reset_app_list_confirmation_title">Listeyi sıfırla</string>
-    <string name="reset_app_list_confirmation_text">Uygulama listesi sıfırlansın mı?</string>
-    <string name="downscale_notification" tools:ignore="PluralsCandidate">Yeni çözünürlüğü onaylamak için Tamam\'a basın, aksi takdirde %1$d saniye içinde sıfırlanacaktır.</string>
-    <string name="onboarding_migrate_data_description">Verileriniz taşınsın mı?</string>
-    <string name="kernel_block">Mevcut çekirdek %1$s Premium kurulumu engelliyor. Lütfen başka bir çekirdek kurmayı düşünün.</string>
-    <string name="profile_ai_mode_desc">Uygulama kullanımdayken AI modunu seçin.</string>
-    <string name="preload_pro_required">Bu özellik için Preload Pro uygulaması gereklidir.</string>
-    <string name="overlay_power_x">Güç: %1$s mAh</string>
-    <string name="overlay_battery_temp_x">Pil: %1$s°C</string>
-    <string name="emergency_cooldown">Acil Durum Beklemesi</string>
-    <string name="emergency_cooldown_btn">Bekleme</string>
-    <string name="emergency_cooldown_desc">Etkinleştirildiğinde, kısmayı yeniden etkinleştirir, uçak modunu, güç tasarrufu modunu etkinleştirir, arka plan uygulamalarını öldürür, şarjı devre dışı bırakır ve AI\'yı 100 saniye boyunca güç tasarrufu moduna ayarlar, ardından geri döner.</string>
-    <string name="hwinfo">Cihaz</string>
-    <string name="ai_lifetime">AI ömrü</string>
-    <string name="kernel_tuning_state">Çekirdek ayarı</string>
-    <string name="cpu_turbo_support">CPU Turbo desteği</string>
-    <string name="cpu_turbo_trigger_count">CPU Turbo tetikleyici sayısı</string>
-    <string name="gpu_turbo_support">GPU Turbo desteği</string>
-    <string name="gpu_turbo_trigger_count">GPU Turbo tetikleyici sayısı</string>
-    <string name="force_doze_enabled">Zorunlu Doze etkin</string>
-    <string name="force_doze_trigger_count">Zorunlu Doze tetikleyici sayısı</string>
-    <string name="throttling_deactivated">Kısıtlama devre dışı bırakıldı</string>
-    <string name="throttling_ignore_on_charge">Kısıtlama şarjı yoksay</string>
-    <string name="kill_bg_apps">Arka plan uygulamaları sonlandırma</string>
-    <string name="auto_art_opt">Otomatik ART optimizasyonu</string>
-    <string name="dynamic_read_ahead">Dinamik okuma-önceden</string>
-    <string name="charging_bypass_enabled">Şarj atlama etkin</string>
-    <string name="charging_limit_enabled">Şarj sınırı etkin</string>
-    <string name="charging_cycles">Şarj döngüleri:</string>
-    <string name="cpu_bandwidth_tune">CPU bant genişliği ayarı</string>
-    <string name="fs_cache_tune">FS önbellek ayarı</string>
     <string name="vm_cache_tune">VM önbellek ayarı</string>
-    <string name="cpu_input_boost_tune">CPU giriş artışı</string>
-    <string name="kernel_entropy_tune">Çekirdek entropi ayarı</string>
-    <string name="kernel_sched_boost">Çekirdek zamanlayıcı artışı</string>
-    <string name="multi_core_power_saving_control">Çok çekirdekli CPU güç tasarrufu</string>
-    <string name="extraopt_schedule_title">Günlük olarak çalışacak şekilde zamanlayın</string>
-    <string name="extraopt_schedule_time">Günlük otomatik optimizasyon zamanını ayarlayın</string>
-    <string name="sound_notifications">Sesli bildirimler</string>
-    <string name="migration_error">Veri geçişi sırasında beklenmeyen bir hata oluştu. Veriler temizlenecek.</string>
-    <string name="onboarding_select_mode_title">Mod seç</string>
-    <string name="charging_limit">Şarj sınırı</string>
-    <string name="auto_data_save">Veri tasarrufu</string>
-    <string name="auto_data_save_desc">Ekran kapalıyken veri tasarrufunu otomatik olarak etkinleştir.</string>
-    <string name="autopowersave_mode">Otomatik güç tasarrufu</string>
-    <string name="autodatasave_mode">Otomatik veri tasarrufu</string>
-    <string name="memory_boost_support">Bellek artırma</string>
-    <string name="root_mode_descr">Tüm özellikler. Root erişimi gerektirir.</string>
-    <string name="shizuku_mode_descr">Daha az özellik, root gerekmez, Android 7+. Shizuku uygulaması gereklidir.</string>
-    <string name="lets_go">Çalıştır</string>
-    <string name="shizuku_setup_success">Shizuku kuruldu ve artık hazırsınız</string>
-    <string name="shizuku_setup_instructions_title">Kurulum Talimatları</string>
-    <string name="shizuku_warning_systemless_title">Dikkat</string>
-    <string name="shizuku_warning_miui_title">MIUI Geliştirici İzinleri</string>
-    <string name="shizuku_warning_miui_description">MIUI kullanıcılarının Shizuku\'nun düzgün çalışması için ek geliştirici izinlerini etkinleştirmeleri gerekir.</string>
-    <string name="shizuku_install_from_play_store">Play\'den Yükle Mağaza</string>
-    <string name="shizuku_open_app">Shizuku Uygulamasını Aç</string>
-    <string name="shizuku_setup_step_1">Shizuku\'yu yükle</string>
-    <string name="shizuku_setup_step_2">Uygulamada Shizuku hizmetini etkinleştir</string>
-    <string name="shizuku_setup_step_3">İstendiğinde izinleri ver</string>
-    <string name="shizuku_setup_step_4">Kuruluma devam etmek için FDE.AI\'ye geri dön</string>
-    <string name="shizuku_broken_connection">Hata! ADB bağlantısı koptu, lütfen Shizuku hizmetini yeniden başlatın.</string>
-    <string name="just_check">Kontrol et</string>
-    <string name="dontkillmyapp_text">Shizuku modunu kullanıyorsunuz. Uygulamanın düzgün çalışmasını sağlamak için lütfen Shizuku ve FDE.AI için otomatik öldürmeyi devre dışı bırakın. Nasıl olduğunu görmek ister misiniz?</string>
-    <string name="burnit_btn">Kısıtlamayı devre dışı bırak</string>
-    <string name="already_premium">Premium\'unuz var mı?</string>
-    <string name="already_premium_txt">Zaten premium paketi satın aldıysanız ancak FDE.AI bunu algılamıyorsa - şu adımları izleyin:\n\n
-1. FDE.AI uygulamasının orijinal kopyasını resmi kaynaklardan indirdiğinizden ve MD5 karma değerini kontrol ettiğinizden emin olun.\n
-2. ROM\'unuzda imza sahtekarlığı veya devre dışı bırakılmış doğrulama olmadığından emin olun.\n
-3. Hem FDE.AI Premium paketini hem de FDE.AI uygulamasını kaldırın.\n
-4. Google Play uygulamasının verilerini temizleyin.\n
-5. Cihazınızı yeniden başlatın.\n
-6. FDE.AI ve Premium paketini yükleyin.\n\n
-Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
-    <string name="wifi_psave_header">WiFi uyku modunu kapat</string>
+    <string name="warning_header">Uyarı</string>
+    <string name="warning_no">Hayır</string>
+    <string name="warning_title">Uyarı!</string>
+    <string name="warning_yes">Evet</string>
+    <string name="welcome">Hoş geldiniz</string>
     <string name="wifi_psave_descr">Shizuku ile bağlantınızın kesilme olasılığını azaltmak için Wi-Fi uyku modunu devre dışı bırakmayı deneyebilirsiniz, ancak bu durum boşta güç tüketimini artırabilir.</string>
-    <string name="downscale_warning">Bir sorun çıkarsa ve \'Sıfırla\' düğmesine erişemiyorsanız, cihazı yeniden başlatmayın!\nBunun yerine ADB kabuğuna bağlanın ve şu komutu girin: \'adb shell wm size reset;wm density reset\'.</string>
-    <string name="shizuku_warning_systemless_description_new">Kök olmayan mod, sisteminizi kalıcı olarak etkileyecek eylemler gerçekleştirebilir.\n\nBu uygulamayı kaldırmayı düşünürseniz, uygulamadaki FDE.AI ayarlarını sıfırlayın.</string>
-    <string name="debloat_title">Gereksiz yazılımları devre dışı bırak</string>
-    <string name="debloat_descr">Burada sisteminizi hızlandırmak için gereksiz (bloatware) sayılan bazı sistem uygulamalarını devre dışı bırakabilirsiniz. Aşağıda Universal‑Debloater‑Alliance tarafından önerilen kaldırılabilir uygulamalar listesi bulunur.</string>
-    <string name="select_all">Tümünü seç</string>
-    <string name="clear_selection">Seçimi temizle</string>
-    <plurals name="debloat_apply_confirm_text">
-        <item quantity="one">%1$d uygulamaya değişiklik uygulansın mı?</item>
-        <item quantity="other">%1$d uygulamaya değişiklik uygulansın mı?</item>
-    </plurals>
-    <string name="debloat_processing_progress">İşleniyor: %1$d/%2$d</string>
-    <string name="debloat_uninstall">Kaldır</string>
-    <string name="debloat_no_apps">Gereksiz (istenmeyen) uygulama yok.</string>
+    <string name="wifi_psave_header">WiFi uyku modunu kapat</string>
 </resources>

@@ -2,13 +2,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_app">정보</string>
     <string name="about_end_txt" tools:ignore="MissingTranslation">FeraVolt가 ❤를 담아 만듬.</string>
+    <string name="acc_warning">Advanced Charging Controller(ACC) 모듈이 감지되었습니다. FDE.AI 배터리 기능과 충돌할 수 있습니다.</string>
     <string name="accept">수락</string>
     <string name="adaptive">자동</string>
     <string name="ai_auto_mode">기기 사용 패턴에 따라 성능과 전력 소비의 밸런스를 조정합니다. 클럭 자동 조정으로 전력 소비를 줄일 수 있습니다.</string>
     <string name="ai_is_disabled">AI 비활성화됨</string>
+    <string name="ai_lifetime">AI 수명</string>
     <string name="ai_log">AI 로그</string>
     <string name="ai_mode">AI</string>
     <string name="ai_mode_auto">자동</string>
+    <string name="ai_modes">AI 모드</string>
     <string name="ai_modes_desc">AI는 백그라운드에서 사용 패턴을 분석하며, 시스템을 최적화합니다.</string>
     <string name="ai_off_detail">AI가 비활성화되었다면, FDE는 일회성 최적화를 진행하며, 실시간으로 최적화를 진행하지 않습니다.</string>
     <string name="ai_perf_mode">성능을 위해 최적화합니다. CPU/GPU 터보를 더 잦게 촉발시킵니다.</string>
@@ -19,8 +22,15 @@
     <string name="ai_state_ready">작동 중</string>
     <string name="ai_state_sleeping">수면 중…</string>
     <string name="aiinfo">AI 정보</string>
-    <string name="core_tweaks_enable">핵심 수정 활성화</string>
-    <string name="core_tweaks_enable_desc">주요 FDE 수정사항을 활성화합니다. 켜두는 것을 추천합니다.</string>
+    <string name="already_premium">이미 프리미엄을 사용 중이신가요?</string>
+    <string name="already_premium_txt">이미 프리미엄 패키지를 구매했지만 FDE.AI에서 인식하지 못하는 경우, 다음 단계를 따르세요.\n\n
+1. 공식 출처에서 FDE.AI 앱의 정품을 다운로드하고 MD5 해시를 확인하세요.\n
+2. ROM에 서명 스푸핑이나 비활성화된 인증이 없는지 확인하세요.\n
+3. FDE.AI 프리미엄 패키지와 FDE.AI 앱을 모두 제거하세요.\n
+4. Google Play 앱의 데이터를 삭제하세요.\n
+5. 기기를 재부팅하세요.\n
+6. FDE.AI와 프리미엄 패키지를 설치하세요.\n\n
+문제가 지속되면 Telegram에서 개발자에게 문의하세요.</string>
     <string name="app_icon">앱 아이콘</string>
     <string name="app_theme">테마</string>
     <string name="app_update_notification_title">FDE.AI 업데이트</string>
@@ -30,8 +40,13 @@
     <string name="arrow_right">오른쪽 화살표</string>
     <string name="arrow_up">위쪽 화살표</string>
     <string name="attempt_root">루트 권한 부여를 기다리는 중…</string>
+    <string name="auto_art_opt">자동 ART 최적화</string>
+    <string name="auto_data_save">데이터 세이버</string>
+    <string name="auto_data_save_desc">화면이 꺼지면 데이터 세이버가 자동으로 활성화됩니다.</string>
     <string name="auto_psave">절전 모드</string>
     <string name="auto_psave_desc">화면이 꺼져있을 때 자동으로 절전 모드를 활성화합니다.</string>
+    <string name="autodatasave_mode">자동 데이터 절약</string>
+    <string name="autopowersave_mode">자동 절전</string>
     <string name="autostart">Autostart</string>
     <string name="autostart_delay_hint">딜레이가 %1$d초로 설정됨</string>
     <string name="autostart_overlay">스탯 오버레이 시작</string>
@@ -39,101 +54,147 @@
     <string name="batt_resistance">저항</string>
     <string name="battery_health_sub">충전을 중지할 잔량 설정:</string>
     <string name="battery_health_toggle">최대 충전 잔량 제한</string>
-    <string name="battery_level_x" tools:ignore="MissingTranslation">잔량: %1$s</string>
     <string name="battery_status">배터리 상태</string>
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">온도: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">전압: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">웨어율: %1$s</string>
     <string name="burnit">스로틀링</string>
-    <string name="greenbattery_title">배터리</string>
+    <string name="burnit_btn">속도 조절 비활성화</string>
     <string name="bypassch_desc">부하가 높은 작업을 할때는 충전 전류 제한하여 배터리의 과열을 방지합니다.</string>
     <string name="bypassch_title">충전 바이패스</string>
     <string name="cancel">취소</string>
     <string name="changelog">변경내역</string>
     <string name="charge_time">충전 완료</string>
     <string name="charging">충전 중</string>
+    <string name="charging_bypass_enabled">충전 우회 활성화</string>
+    <string name="charging_cycles">충전 주기:</string>
+    <string name="charging_limit">충전 제한</string>
+    <string name="charging_limit_enabled">충전 제한 활성화</string>
     <string name="check_for_updates_about">실행시 업데이트 확인</string>
     <string name="clean_cache">캐시 정리</string>
+    <string name="clean_cache_done_snack">캐시가 삭제되었습니다</string>
+    <string name="clean_cache_running_snack">캐시 삭제 중…</string>
     <string name="clean_ram">램 정리</string>
+    <string name="clean_ram_done_snack">RAM 정리됨</string>
+    <string name="clean_ram_running_snack">RAM 정리 중…</string>
     <string name="cleaning_desc">백그라운드 앱을 닫아 RAM을 청소하고 캐시 파일을 삭제하여 저장 공간을 확보합니다.</string>
     <string name="cleaning_title">정리</string>
+    <string name="clear_selection">선택 해제</string>
     <string name="close">닫기</string>
+    <string name="common_cached">캐시됨</string>
+    <string name="common_settings">설정</string>
+    <string name="common_swap">스왑</string>
+    <string name="common_wear">마모</string>
+    <string name="common_x_total">%1$s합계</string>
+    <string name="common_x_used">%1$s사용됨</string>
     <string name="completed">완료</string>
-    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>
+    <string name="core_tweaks_enable">핵심 수정</string>
+    <string name="core_tweaks_enable_desc">주요 FDE 수정사항을 활성화합니다. 켜두는 것을 추천합니다.</string>
+    <string name="cpu_bandwidth_tune">CPU 대역폭 튜닝</string>
+    <string name="cpu_input_boost_tune">CPU 입력 부스트</string>
     <string name="cpu_top_descr">CPU 사용량이 많은 상위 5개 프로세스로 오버레이</string>
     <string name="cpu_top_header">프로세스 통계</string>
+    <string name="cpu_turbo_support">CPU 터보 지원</string>
+    <string name="cpu_turbo_trigger_count">CPU 터보 트리거 카운트</string>
     <string name="current_resolution">현재 해상도</string>
     <string name="dark_theme">어둡게</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="other">%1$d개의 앱에 변경사항을 적용하시겠습니까?</item>
+    </plurals>
+    <string name="debloat_descr">여기에서 시스템 속도를 높이기 위해 불필요한 앱으로 간주되는 일부 시스템 앱을 비활성화할 수 있습니다. 아래는 Universal Debloater Alliance에서 제거하도록 권장하는 앱 목록입니다.</string>
+    <string name="debloat_no_apps">불필요한 앱이 없습니다.</string>
+    <string name="debloat_processing_progress">처리 중: %1$d/%2$d</string>
+    <string name="debloat_title">불필요한 앱 비활성화</string>
+    <string name="debloat_uninstall">제거</string>
     <string name="debug_mode">디버깅</string>
     <string name="description">설명</string>
-    <string name="enable_ai">AI 활성화</string>
     <string name="disable_logs">로그 비활성화</string>
     <string name="disable_logs_desc">모든 로그와 통계(\"logcat\" 제외)를 비활성화하고 logcat 버퍼 크기를 128KB로 줄이려면 선택합니다.</string>
+    <string name="dontkillmyapp_text">Shizuku 모드를 사용 중입니다. 앱이 계속 작동하도록 Shizuku 및 FDE.AI의 자동 종료 기능을 비활성화하세요. 방법을 확인해 보시겠습니까?</string>
     <string name="downscale_btn">적응형 다운스케일</string>
     <string name="downscale_desc">화면 해상도를 낮춰서 GPU 성능을 높이고 배터리를 절약할수 있지만 약간의 화질 손실이 있을수 있습니다. UI 충돌을 피하기 위해 커스텀 ROM(MIUI, EMUI 등) 에서 화면 폭을 절반 이하로 설정하지 않는 것이 좋습니다.</string>
-    <string name="warning_no">아니요</string>
-    <string name="warning_title">경고!</string>
-    <string name="warning_yes">네</string>
+    <string name="downscale_notification" tools:ignore="PluralsCandidate">확인을 눌러 새 해상도를 확인하세요. 그렇지 않으면 %1$d초 후에 재설정됩니다.</string>
+    <string name="downscale_warning">문제가 발생하여 \'재설정\' 버튼에 접근할 수 없는 경우 기기를 재부팅하지 마세요!\n대신 ADB 셸에 연결하여 다음 명령어를 입력하세요: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI는 잠자기 모드를 더 일찍 시작할 수 있습니다. 문제가 발생하면 아래 버튼을 사용하여 앱을 허용 목록에 추가하세요.</string>
     <string name="doze_mode">강제 슬립모드</string>
     <string name="doze_sub_describtion">화면이 꺼지면 바로 슬립 모드로 들어가도록 활성화 합니다</string>
     <string name="doze_system_desc">슬립 모드(Android 6.0+) 는 기기가 유휴 상태일 때 백그라운드 CPU 및 네트워크 활동을 지연시켜 배터리 사용량을 줄여줍니다.</string>
     <string name="doze_whitelist">슬립모드 제외 리스트</string>
+    <string name="dynamic_read_ahead">동적 미리 읽기</string>
+    <string name="emergency_cooldown">긴급 쿨링다운</string>
+    <string name="emergency_cooldown_btn">쿨링다운</string>
+    <string name="emergency_cooldown_desc">활성화되면 조절을 다시 활성화하고, 비행기 모드, 절전 모드를 활성화하고, 백그라운드 앱을 종료하고, 충전을 비활성화하고, AI를 100초 동안 절전 모드로 설정한 다음 되돌립니다.</string>
+    <string name="enable_ai">AI 활성화</string>
     <string name="eula" tools:ignore="MissingTranslation">최종 사용자 라이센스 계약</string>
+    <string name="exit_confirmation_text">변경사항을 저장하지않고 종료하시겠습니까?</string>
+    <string name="exit_confirmation_title">종료하시겠습니까?</string>
     <string name="extraopt_btn">최적화 추가</string>
     <string name="extraopt_desc">성능을 위해 ART 캐시를 다시 컴파일하여 시스템을 최적화하고(더 많은 내부 메모리 사용) 파일 시스템을 최적화해 메모리 성능을 향상시킵니다.</string>
     <string name="extraopt_do_btn">시작</string>
     <string name="extraopt_reset_btn">최적화 재설정</string>
+    <string name="extraopt_schedule_title">매일 실행 일정</string>
+    <string name="extraopt_scheduled_subtitle">다음 실행 시간: %1$s:00</string>
     <string name="extraopt_warning">이것은 시스템을 건드리는 작업이므로 일부 사용자 지정 ROM에서는 시스템 파일이 손상될 수 있습니다 (복구 시 ART 캐시를 지워야 함). 사용하기 전에 데이터를 백업하세요.</string>
-    <string name="acc_warning">Advanced Charging Controller(ACC) 모듈이 감지되었습니다. FDE.AI 배터리 기능과 충돌할 수 있습니다.</string>
     <string name="fde_is_active">AI 활성</string>
     <string name="fde_is_inactive">AI 비활성</string>
     <string name="fde_on_reset_toast">모든 FDE.AI의 데이터가 리셋되고 앱이 종료됩니다.</string>
     <string name="finstall">FDE.AI 설치 중…</string>
-    <string name="monitoring_floating_window">모니터링</string>
+    <string name="force_doze_enabled">강제 Doze 활성화</string>
+    <string name="force_doze_trigger_count">강제 Doze 트리거 카운트</string>
     <string name="fps_checkbox">하드웨어 모니터링 &amp; FPS</string>
     <string name="fps_meter_desc">실시간 FPS, CPU, GPU, RAM, 전력 사용 통계.</string>
-    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">평균: %1$s FPS</string>
-    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
-    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
+    <string name="fs_cache_tune">FS 캐시 튜닝</string>
     <string name="get_premium">FDE.AI 프리미엄 구매하기</string>
     <string name="go_back">뒤로가기</string>
-    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="gpu_turbo_support">GPU 터보 지원</string>
+    <string name="gpu_turbo_trigger_count">GPU 터보 트리거 카운트</string>
     <string name="grantit">OS 부팅 후 FDE.AI가 시작되도록 하려면 OS 권한 관리자에서 자동 시작 권한을 수동으로 부여해야 할 수도 있습니다.</string>
     <string name="greenbattery_desc">최대 충전 수준을 제한하여 배터리 수명을 연장하세요. 정의된 임계값에서 충전을 멈추고 그보다 낮은 6%에서 다시 시작합니다.</string>
+    <string name="greenbattery_title">배터리</string>
     <string name="hour">h.</string>
+    <string name="hwinfo">장치</string>
     <string name="join_forum">XDA</string>
-    <string name="just_battery">배터리</string>
+    <string name="just_check">확인</string>
     <string name="just_ram">램</string>
     <string name="just_storage">저장소</string>
+    <string name="kernel_block">현재 커널 %1$s가 추가 설치를 차단합니다. 다른 커널로 설치해 적용해보세요.</string>
+    <string name="kernel_entropy_tune">커널 엔트로피 튜닝</string>
+    <string name="kernel_sched_boost">커널 스케줄러 부스트</string>
+    <string name="kernel_tuning_state">커널 튜닝</string>
+    <string name="kill_bg_apps">백그라운드 앱 종료</string>
     <string name="killbgapps_desc">화면이 꺼질때 백그라운드 앱들을 자동으로 종료 합니다.</string>
     <string name="killbgapps_title">백그라운드 앱 끄기</string>
+    <string name="lets_go">실행</string>
     <string name="light_theme">밝기</string>
     <string name="link_open_error" tools:ignore="MissingTranslation">링크를 열수 없습니다.</string>
     <string name="links">링크</string>
     <string name="log_saved">/sdcard/fde.md 에 로그 파일에 저장되었습니다</string>
     <string name="low_power_fps">저전력 FPS</string>
     <string name="low_power_fps_short_desc">목표 FPS 설정 - FPS를 유지하고 전력을 절약하기 위해 CPU/GPU 속도가 감소됩니다.</string>
-    <string name="mem_available_x" tools:ignore="MissingTranslation">사용가능: %1$s</string>
-    <string name="mem_cached_x" tools:ignore="MissingTranslation">캐쉬됨: %1$s</string>
-    <string name="mem_total_x" tools:ignore="MissingTranslation">총합: %1$s</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">사용됨: %1$s</string>
+    <string name="memory_boost_support">메모리 부스트</string>
     <string name="menu_dashboard">홈</string>
+    <string name="migration_error">데이터 마이그레이션 중 예상치 못한 오류가 발생했습니다. 데이터가 지워집니다.</string>
     <string name="min">min.</string>
+    <string name="monitoring_floating_window">모니터링</string>
     <string name="more_info">추가 정보</string>
+    <string name="multi_core_power_saving_control">멀티코어 CPU 절전</string>
     <string name="noroot">루트 권한을 찾을수 없습니다.</string>
     <string name="notification_ai_state">지속적인 알림</string>
     <string name="notification_ai_state_desc">AI 모드 상태를 알림바로 보여주기</string>
     <string name="notification_battery_state">배터리 상태 알림</string>
     <string name="notification_battery_state_desc">알림에 간략한 배터리 상태를 표시</string>
+    <string name="notifications_and_feedback">알림 및 피드백</string>
     <string name="offf">끄기</string>
     <string name="older_changelogs" tools:ignore="MissingTranslation">예전 변경내역</string>
     <string name="onboarding_eula_message">계속 하시려면 계약에 동의해주세요.</string>
     <string name="onboarding_eula_summary_1">FDE.AI는 다양한 시스템 매개변수를 수정하여 시스템을 최적화합니다.</string>
     <string name="onboarding_eula_summary_2">백업을 했는지 확인하세요</string>
     <string name="onboarding_eula_summary_3">우리는 어떤 손상도 책임을 지지 않습니다.</string>
+    <string name="onboarding_eula_summary_4">FDE.AI 에 다른 설정들을 적용하지 않습니다.</string>
     <string name="onboarding_eula_summary_header">약관 요약</string>
+    <string name="onboarding_migrate_data">이전 버전이 감지되었습니다.</string>
+    <string name="onboarding_migrate_data_description">데이터를 이전하시겠습니까?</string>
     <string name="onboarding_preset_adaptive_summary">자동으로 AI를 조정하여 적용합니다. 추천하는 모드 입니다.</string>
     <string name="onboarding_preset_adaptive_title">적용</string>
     <string name="onboarding_preset_off_summary">적용된 조정이 없습니다. 도구만 즉시 사용할 수 있습니다.</string>
@@ -144,17 +205,28 @@
     <string name="onboarding_preset_powersave_title">배터리 절약</string>
     <string name="onboarding_presets">사전설정</string>
     <string name="onboarding_see_full_eula">전체 EULA 보기</string>
+    <string name="onboarding_select_mode_title">모드 선택</string>
     <string name="onboarding_setup">설정</string>
     <string name="onboarding_setup_message">적용할 설정을 선택합니다. 설정 후 설정을 변경할 수 있습니다.</string>
-    <string name="onboarding_eula_summary_4">FDE.AI 에 다른 설정들을 적용하지 않습니다.</string>
-    <string name="onboarding_migrate_data">이전 버전이 감지되었습니다.</string>
     <string name="open_os_dev_settings">안드로이드 개발자 설정 열기</string>
     <string name="optimize_now">최적화 하기</string>
     <string name="other_settings">기타 설정</string>
+    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">평균: %1$s FPS</string>
+    <string name="overlay_battery_temp_x">배터리: %1$s°C</string>
+    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>
     <string name="overlay_desc_text">모니터링을 위해 실시간 통계창을 활성화합니다.</string>
+    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
+    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
+    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
+    <string name="overlay_opacity_main">오버레이 불투명도</string>
+    <string name="overlay_power_x">전력: %1$s mAh</string>
+    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">램: %1$s%%</string>
+    <string name="overlay_scale_main">오버레이 크기</string>
     <string name="performance">성능</string>
     <string name="power_checkbox">전력 소비</string>
     <string name="powersave">전력절약</string>
+    <string name="preload_pro_required">이기능을 사용하기 위해선 Preload Pro 앱이 필요합니다.</string>
     <string name="preload_title">자동 사전로드</string>
     <string name="premium">⭐️ FDE.AI 프리미엄 ⭐️</string>
     <string name="premium_card_overlays_desc">FPS 미터를 포함한 다양한 통계를 포함하는 사용자 정의 가능한 오버레이 창.</string>
@@ -162,137 +234,72 @@
     <string name="premium_card_profiles_desc">다양한 옵션으로 사용자 설정 가능한 앱 프로필</string>
     <string name="premium_text">FDE.AI를 지원해주시고 모든 기능들을 잠금해제보세요:</string>
     <string name="premium_thanks">당신의 지원에 감사합니다! 다음 기능들이 해제되었습니다:</string>
-    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">램: %1$s%%</string>
+    <string name="profile_ai_mode_desc">앱 사용에 적용할 AI 모드를 선택하세요.</string>
+    <string name="profiles_btn">앱 프로필</string>
+    <string name="profiles_descr_txt">사용자 정의 프로파일은 앱이 실행 중일 때 FDE.AI 설정을 적용하고 닫으면 되돌립니다.</string>
     <string name="rate_app">FDE.AI 평가</string>
     <string name="releases">업데이트</string>
     <string name="reset">재설정</string>
     <string name="reset_all_fde">FDE.AI 모든 설정을 초기화 합니다</string>
-    <string name="reset_downscale_onboot">재설정 후 재부팅</string>
+    <string name="reset_app_list_confirmation_text">앱 리스트를 재설정 하시겠습니까?</string>
+    <string name="reset_app_list_confirmation_title">리스트 재설정</string>
     <string name="reset_art_dialog_text">ART 캐시를 정리하고 재실행하시겠습니까?</string>
-    <string name="start_art_dialog_text">ART 캐시 최적화에는 시간이 걸리고 장치 지연 및 과열이 발생할 수 있습니다. 계속하시겠습니까?</string>
+    <string name="reset_downscale_onboot">재설정 후 재부팅</string>
     <string name="reset_fde_dialog_text">FDE.AI 모든 설정을 초기화 하시겠습니까?</string>
     <string name="restart_fde_action">FDE.AI 재실행</string>
     <string name="restart_fde_in_progress">FDE.AI 재실행</string>
     <string name="rm_fde_lite">FDE.AI 라이트 버전을 먼저 삭제하세요!</string>
+    <string name="root_mode_descr">모든 기능. 루트 권한이 필요합니다.</string>
     <string name="run_now">실행</string>
     <string name="save_log">로그 저장</string>
     <string name="search_no_reset">검색</string>
+    <string name="select_all">모두 선택</string>
     <string name="share">FDE.AI 공유</string>
     <string name="share_txt">FDE.AI를 시도해 보세요 - 환상적인 안드로이드 최적화 앱!</string>
-    <string name="profiles_btn">앱 프로필</string>
-    <string name="profiles_descr_txt">사용자 정의 프로파일은 앱이 실행 중일 때 FDE.AI 설정을 적용하고 닫으면 되돌립니다.</string>
+    <string name="shizuku_broken_connection">오류! ADB 연결이 끊어졌습니다. Shizuku 서비스를 다시 시작하세요.</string>
+    <string name="shizuku_install_from_play_store">Play 스토어에서 설치</string>
+    <string name="shizuku_mode_descr">기능이 적고 루트가 필요하지 않으며 Android 7 이상입니다. Shizuku 앱이 필요합니다.</string>
+    <string name="shizuku_open_app">열기 Shizuku 앱</string>
+    <string name="shizuku_setup_instructions_title">설정 지침</string>
+    <string name="shizuku_setup_step_1">Shizuku 설치</string>
+    <string name="shizuku_setup_step_2">앱에서 Shizuku 서비스 활성화</string>
+    <string name="shizuku_setup_step_3">메시지가 표시되면 권한 부여</string>
+    <string name="shizuku_setup_step_4">FDE.AI로 돌아가서 설정을 계속하세요</string>
+    <string name="shizuku_setup_success">Shizuku가 설정되었으며 사용할 준비가 되었습니다.</string>
+    <string name="shizuku_warning_miui_description">Shizuku가 제대로 작동하려면 MIUI 사용자가 추가 개발자 권한을 활성화해야 합니다.</string>
+    <string name="shizuku_warning_miui_title">MIUI 개발자 권한</string>
+    <string name="shizuku_warning_systemless_description_new">루트 모드가 아니면 시스템에 영구적인 영향을 미치는 작업이 수행될 수 있습니다.\n\n이 앱을 제거할 생각이 있다면, 먼저 앱에서 FDE.AI 설정을 재설정하세요.</string>
+    <string name="sound_channel_name">AI 사운드 알림</string>
     <string name="sound_header">사운드</string>
-    <string name="start_toast">FDE.AI 시작중…</string>
+    <string name="sound_notifications">사운드 알림</string>
+    <string name="start_art_dialog_text">ART 캐시 최적화에는 시간이 걸리고 장치 지연 및 과열이 발생할 수 있습니다. 계속하시겠습니까?</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">기다리는 중 %1$d sec to start FDE.AI…</string>
+    <string name="start_toast">FDE.AI 시작중…</string>
     <string name="startup">시작</string>
     <string name="stop_btn">멈춤</string>
     <string name="third_party">서드파티 라이브러리</string>
-    <string name="throttling_description">비활성화하면 성능이 계속 향상되지만 과열을 유발할 수 있으며 급속 충전 또는 카메라가 작동을 멈출 수 있습니다.
-\nFDE.AI는 기본적으로 충전 중 트윅을 다시 활성화합니다. 이를 비활성화하려면 이 옵션을 선택 취소합니다.</string>
+    <string name="throttling_deactivated">제한 비활성화</string>
+    <string name="throttling_desc_new">성능은 유지되지만, 과열이나 고속 충전 또는 카메라 문제를 일으킬 수 있습니다.</string>
     <string name="throttling_fuse_desc">이 온도에서 자동으로 조절을 다시 활성화하여 손상을 방지합니다.</string>
     <string name="throttling_fuse_header">온도 제한</string>
     <string name="throttling_ignore_charging">충전 무시</string>
+    <string name="throttling_ignore_charging_desc">기본적으로 FDE는 충전 중에 속도 제한을 다시 활성화합니다. 이 동작을 비활성화하려면 이 옵션을 선택하십시오.</string>
+    <string name="throttling_ignore_on_charge">제한 충전 무시</string>
     <string name="throttling_system_desc">CPU/GPU 속도를 줄여 과열을 방지합니다.</string>
+    <string name="tile_available">상태 표시줄에 빠른 타일이 제공됩니다.</string>
+    <string name="tweaks_disabled">모든 조정 끄기</string>
     <string name="un_fde_magisk">FDE.AI 매지스크 모듈을 먼저 삭제하세요!</string>
     <string name="unavailable">사용할수 없음</string>
     <string name="update">업데이트</string>
     <string name="update_available">업데이트 가능!</string>
     <string name="updating_toast">업데이트 다운로드 중…</string>
     <string name="vibration">한번 진동</string>
-    <string name="warning_header">위험</string>
-    <string name="welcome">환영합니다</string>
-    <string name="overlay_opacity_main">오버레이 불투명도</string>
-    <string name="tweaks_disabled">모든 조정 끄기</string>
-    <string name="exit_confirmation_title">종료하시겠습니까?</string>
-    <string name="exit_confirmation_text">변경사항을 저장하지않고 종료하시겠습니까?</string>
-    <string name="sound_channel_name">AI 사운드 알림</string>
-    <string name="reset_app_list_confirmation_title">리스트 재설정</string>
-    <string name="reset_app_list_confirmation_text">앱 리스트를 재설정 하시겠습니까?</string>
-    <string name="downscale_notification" tools:ignore="PluralsCandidate">확인을 눌러 새 해상도를 확인하세요. 그렇지 않으면 %1$d초 후에 재설정됩니다.</string>
-    <string name="onboarding_migrate_data_description">데이터를 이전하시겠습니까?</string>
-    <string name="kernel_block">현재 커널 %1$s가 추가 설치를 차단합니다. 다른 커널로 설치해 적용해보세요.</string>
-    <string name="profile_ai_mode_desc">앱 사용에 적용할 AI 모드를 선택하세요.</string>
-    <string name="preload_pro_required">이기능을 사용하기 위해선 Preload Pro 앱이 필요합니다.</string>
-    <string name="overlay_power_x">전력: %1$s mAh</string>
-    <string name="overlay_battery_temp_x">배터리: %1$s°C</string>
-    <string name="overlay_scale_main">오버레이 크기</string>
-    <string name="emergency_cooldown">긴급 쿨링다운</string>
-    <string name="emergency_cooldown_btn">쿨링다운</string>
-    <string name="emergency_cooldown_desc">활성화되면 조절을 다시 활성화하고, 비행기 모드, 절전 모드를 활성화하고, 백그라운드 앱을 종료하고, 충전을 비활성화하고, AI를 100초 동안 절전 모드로 설정한 다음 되돌립니다.</string>
-    <string name="hwinfo">장치</string>
-    <string name="ai_lifetime">AI 수명</string>
-    <string name="kernel_tuning_state">커널 튜닝</string>
-    <string name="cpu_turbo_support">CPU 터보 지원</string>
-    <string name="cpu_turbo_trigger_count">CPU 터보 트리거 카운트</string>
-    <string name="gpu_turbo_support">GPU 터보 지원</string>
-    <string name="gpu_turbo_trigger_count">GPU 터보 트리거 카운트</string>
-    <string name="force_doze_enabled">강제 Doze 활성화</string>
-    <string name="force_doze_trigger_count">강제 Doze 트리거 카운트</string>
-    <string name="throttling_deactivated">제한 비활성화</string>
-    <string name="throttling_ignore_on_charge">제한 충전 무시</string>
-    <string name="kill_bg_apps">백그라운드 앱 종료</string>
-    <string name="auto_art_opt">자동 ART 최적화</string>
-    <string name="dynamic_read_ahead">동적 미리 읽기</string>
-    <string name="charging_bypass_enabled">충전 우회 활성화</string>
-    <string name="charging_limit_enabled">충전 제한 활성화</string>
-    <string name="charging_cycles">충전 주기:</string>
-    <string name="cpu_bandwidth_tune">CPU 대역폭 튜닝</string>
-    <string name="fs_cache_tune">FS 캐시 튜닝</string>
     <string name="vm_cache_tune">VM 캐시 튜닝</string>
-    <string name="cpu_input_boost_tune">CPU 입력 부스트</string>
-    <string name="kernel_entropy_tune">커널 엔트로피 튜닝</string>
-    <string name="kernel_sched_boost">커널 스케줄러 부스트</string>
-    <string name="multi_core_power_saving_control">멀티코어 CPU 절전</string>
-    <string name="extraopt_schedule_title">매일 실행 일정</string>
-    <string name="extraopt_schedule_time">매일 자동 최적화 시간 설정</string>
-    <string name="sound_notifications">사운드 알림</string>
-    <string name="migration_error">데이터 마이그레이션 중 예상치 못한 오류가 발생했습니다. 데이터가 지워집니다.</string>
-    <string name="onboarding_select_mode_title">모드 선택</string>
-    <string name="charging_limit">충전 제한</string>
-    <string name="auto_data_save">데이터 세이버</string>
-    <string name="auto_data_save_desc">화면이 꺼지면 데이터 세이버가 자동으로 활성화됩니다.</string>
-    <string name="autopowersave_mode">자동 절전</string>
-    <string name="autodatasave_mode">자동 데이터 절약</string>
-    <string name="memory_boost_support">메모리 부스트</string>
-    <string name="root_mode_descr">모든 기능. 루트 권한이 필요합니다.</string>
-    <string name="shizuku_mode_descr">기능이 적고 루트가 필요하지 않으며 Android 7 이상입니다. Shizuku 앱이 필요합니다.</string>
-    <string name="lets_go">실행</string>
-    <string name="shizuku_setup_success">Shizuku가 설정되었으며 사용할 준비가 되었습니다.</string>
-    <string name="shizuku_setup_instructions_title">설정 지침</string>
-    <string name="shizuku_warning_systemless_title">주의</string>
-    <string name="shizuku_warning_miui_title">MIUI 개발자 권한</string>
-    <string name="shizuku_warning_miui_description">Shizuku가 제대로 작동하려면 MIUI 사용자가 추가 개발자 권한을 활성화해야 합니다.</string>
-    <string name="shizuku_install_from_play_store">Play 스토어에서 설치</string>
-    <string name="shizuku_open_app">열기 Shizuku 앱</string>
-    <string name="shizuku_setup_step_1">Shizuku 설치</string>
-    <string name="shizuku_setup_step_2">앱에서 Shizuku 서비스 활성화</string>
-    <string name="shizuku_setup_step_3">메시지가 표시되면 권한 부여</string>
-    <string name="shizuku_setup_step_4">FDE.AI로 돌아가서 설정을 계속하세요</string>
-    <string name="shizuku_broken_connection">오류! ADB 연결이 끊어졌습니다. Shizuku 서비스를 다시 시작하세요.</string>
-    <string name="just_check">확인</string>
-    <string name="dontkillmyapp_text">Shizuku 모드를 사용 중입니다. 앱이 계속 작동하도록 Shizuku 및 FDE.AI의 자동 종료 기능을 비활성화하세요. 방법을 확인해 보시겠습니까?</string>
-    <string name="burnit_btn">속도 조절 비활성화</string>
-    <string name="already_premium">이미 프리미엄을 사용 중이신가요?</string>
-    <string name="already_premium_txt">이미 프리미엄 패키지를 구매했지만 FDE.AI에서 인식하지 못하는 경우, 다음 단계를 따르세요.\n\n
-1. 공식 출처에서 FDE.AI 앱의 정품을 다운로드하고 MD5 해시를 확인하세요.\n
-2. ROM에 서명 스푸핑이나 비활성화된 인증이 없는지 확인하세요.\n
-3. FDE.AI 프리미엄 패키지와 FDE.AI 앱을 모두 제거하세요.\n
-4. Google Play 앱의 데이터를 삭제하세요.\n
-5. 기기를 재부팅하세요.\n
-6. FDE.AI와 프리미엄 패키지를 설치하세요.\n\n
-문제가 지속되면 Telegram에서 개발자에게 문의하세요.</string>
-    <string name="wifi_psave_header">WiFi 절전 모드 비활성화</string>
+    <string name="warning_header">위험</string>
+    <string name="warning_no">아니요</string>
+    <string name="warning_title">경고!</string>
+    <string name="warning_yes">네</string>
+    <string name="welcome">환영합니다</string>
     <string name="wifi_psave_descr">시즈쿠와의 연결 끊김 가능성을 줄이려면 WiFi 절전 모드를 비활성화해 보세요. 하지만 유휴 전력 소비가 증가할 수 있습니다.</string>
-    <string name="downscale_warning">문제가 발생하여 \'재설정\' 버튼에 접근할 수 없는 경우 기기를 재부팅하지 마세요!\n대신 ADB 셸에 연결하여 다음 명령어를 입력하세요: \'adb shell wm size reset;wm density reset\'.</string>
-    <string name="shizuku_warning_systemless_description_new">루트 모드가 아니면 시스템에 영구적인 영향을 미치는 작업이 수행될 수 있습니다.\n\n이 앱을 제거할 생각이 있다면, 먼저 앱에서 FDE.AI 설정을 재설정하세요.</string>
-    <string name="debloat_title">불필요한 앱 비활성화</string>
-    <string name="debloat_descr">여기에서 시스템 속도를 높이기 위해 불필요한 앱으로 간주되는 일부 시스템 앱을 비활성화할 수 있습니다. 아래는 Universal Debloater Alliance에서 제거하도록 권장하는 앱 목록입니다.</string>
-    <string name="select_all">모두 선택</string>
-    <string name="clear_selection">선택 해제</string>
-    <plurals name="debloat_apply_confirm_text">
-        <item quantity="other">%1$d개의 앱에 변경사항을 적용하시겠습니까?</item>
-    </plurals>
-    <string name="debloat_processing_progress">처리 중: %1$d/%2$d</string>
-    <string name="debloat_uninstall">제거</string>
-    <string name="debloat_no_apps">불필요한 앱이 없습니다.</string>
+    <string name="wifi_psave_header">WiFi 절전 모드 비활성화</string>
 </resources>

@@ -2,13 +2,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_app">Om</string>
     <string name="about_end_txt" tools:ignore="MissingTranslation">Gjord med ❤️ av FeraVolt.</string>
+    <string name="acc_warning">Advanced Charging Controller (ACC)-modul har upptäckts. Det kan komma i konflikt med FDE.AI-batterifunktionerna.</string>
     <string name="accept">Acceptera</string>
     <string name="adaptive">Automatiskt</string>
     <string name="ai_auto_mode">Balanserar prestanda och energisparande baserat på enhetsanvändning. Freqs auto-tune ger mer strömsparande.</string>
     <string name="ai_is_disabled">AI inaktiverad</string>
+    <string name="ai_lifetime">AI-livstid</string>
     <string name="ai_log">AI-logg</string>
     <string name="ai_mode">AI</string>
     <string name="ai_mode_auto">Automatiskt</string>
+    <string name="ai_modes">AI-lägen</string>
     <string name="ai_modes_desc">AI körs i bakgrunden, lär sig användning, och tillämpar systemoptimeringar.</string>
     <string name="ai_off_detail">När AI är inaktiverad, FDE fungerar som en engångsoptimerare och optimerar inte i realtid.</string>
     <string name="ai_perf_mode">Optimera för prestanda. Utlösare CPU/GPU-turboer ofta.</string>
@@ -19,8 +22,15 @@
     <string name="ai_state_ready">Arbetar</string>
     <string name="ai_state_sleeping">Sovande…</string>
     <string name="aiinfo">AI info</string>
-    <string name="core_tweaks_enable">Aktivera kärna tweaks</string>
-    <string name="core_tweaks_enable_desc">Aktivera huvudsakliga FDE-tweaks. Rekommenderas att fortsätta.</string>
+    <string name="already_premium">Har du redan premium?</string>
+    <string name="already_premium_txt">Om du redan har köpt premiumpaket, men FDE.AI inte upptäcker det - följ dessa steg:\n\n
+1. Se till att du laddade ner en äkta kopia av FDE.AI-appen från officiella källor och kontrollera MD5-hash.\n
+2. Se till att ditt ROM inte har signaturförfalskning eller inaktiverad verifiering.\n
+3. Avinstallera både FDE.AI Premium-paketet och FDE.AI-appen.\n
+4. Rensa Google Play-appens data.\n
+5. Starta om enheten.\n
+6. Installera FDE.AI och Premium-paketet.\n\n
+Om problemet kvarstår, kontakta utvecklaren i Telegram.</string>
     <string name="app_icon">App ikon</string>
     <string name="app_theme">Tema</string>
     <string name="app_update_notification_title">Uppdatering av FDE.AI</string>
@@ -30,8 +40,13 @@
     <string name="arrow_right">Pil höger</string>
     <string name="arrow_up">Pil upp</string>
     <string name="attempt_root">Väntar på root-åtkomst…</string>
+    <string name="auto_art_opt">Automatisk ART-optimering</string>
+    <string name="auto_data_save">Datasparare</string>
+    <string name="auto_data_save_desc">Aktivera databesparing automatiskt när skärmen är avstängd.</string>
     <string name="auto_psave">Strömsparläge</string>
     <string name="auto_psave_desc">Auto-aktivera strömsparläge när skärmen är avstängd.</string>
+    <string name="autodatasave_mode">Automatisk datasparning</string>
+    <string name="autopowersave_mode">Automatisk energibesparing</string>
     <string name="autostart">Autostart</string>
     <string name="autostart_delay_hint">Fördröjning inställd på %1$ds</string>
     <string name="autostart_overlay">Starta överlagrad statistik</string>
@@ -39,101 +54,148 @@
     <string name="batt_resistance">Motstånd</string>
     <string name="battery_health_sub">Ställ in nivån för att stoppa laddning:</string>
     <string name="battery_health_toggle">Begränsa max laddningsnivå</string>
-    <string name="battery_level_x" tools:ignore="MissingTranslation">Nivå: %1$s</string>
     <string name="battery_status">Batteri status</string>
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Temperatur: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Spänning: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Bär: %1$s</string>
     <string name="burnit">Strålning</string>
-    <string name="greenbattery_title">Batteri</string>
+    <string name="burnit_btn">Inaktivera strypning</string>
     <string name="bypassch_desc">Begränsar laddarströmmen under tunga processer för att matcha enhetens användning, minska batteriladdning och uppvärmning.</string>
     <string name="bypassch_title">Laddar bypass</string>
     <string name="cancel">Avbryt</string>
     <string name="changelog">Ändringslogg</string>
     <string name="charge_time">Tid till full laddning</string>
     <string name="charging">laddar</string>
+    <string name="charging_bypass_enabled">Charging bypass aktiverad</string>
+    <string name="charging_cycles">Laddningscykler:</string>
+    <string name="charging_limit">Laddningsgräns</string>
+    <string name="charging_limit_enabled">Laddningsgräns aktiverad</string>
     <string name="check_for_updates_about">Sök efter uppdateringar vid start</string>
     <string name="clean_cache">Rensa cache</string>
-    <string name="clean_ram">Clean RAM</string>
+    <string name="clean_cache_done_snack">Cache rensad</string>
+    <string name="clean_cache_running_snack">Rensar cache…</string>
+    <string name="clean_ram">Rensa RAM</string>
+    <string name="clean_ram_done_snack">RAM rensad</string>
+    <string name="clean_ram_running_snack">Rensar RAM…</string>
     <string name="cleaning_desc">Rensa RAM genom att stänga bakgrundsappar och gratis lagring genom att ta bort cache-filer.</string>
     <string name="cleaning_title">Rengöring</string>
+    <string name="clear_selection">Rensa markering</string>
     <string name="close">Stäng</string>
+    <string name="common_cached">Cache</string>
+    <string name="common_settings">Inställningar</string>
+    <string name="common_swap">Byta</string>
+    <string name="common_wear">Slitage</string>
+    <string name="common_x_total">%1$s totalt</string>
+    <string name="common_x_used">%1$s använd</string>
     <string name="completed">slutförd</string>
-    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>
+    <string name="core_tweaks_enable">Kärna tweaks</string>
+    <string name="core_tweaks_enable_desc">Aktivera huvudsakliga FDE-tweaks. Rekommenderas att fortsätta.</string>
+    <string name="cpu_bandwidth_tune">CPU-bandbreddsinställning</string>
+    <string name="cpu_input_boost_tune">CPU-ingångsförstärkning</string>
     <string name="cpu_top_descr">Överlägg med topp 5 processorintensiva processer</string>
     <string name="cpu_top_header">Bearbeta statistik</string>
+    <string name="cpu_turbo_support">CPU Turbo-stöd</string>
+    <string name="cpu_turbo_trigger_count">CPU Turbo-utlösare</string>
     <string name="current_resolution">Aktuell upplösning:</string>
     <string name="dark_theme">Mörk</string>
+    <plurals name="debloat_apply_confirm_text">
+        <item quantity="one">Tillämpa ändringar på %1$d app?</item>
+        <item quantity="other">Tillämpa ändringar på %1$d appar?</item>
+    </plurals>
+    <string name="debloat_descr">Här kan du inaktivera vissa systemappar som anses vara bloatware för att snabba upp systemet. Nedan finns den rekommenderade listan över appar att ta bort från Universal‑Debloater‑Alliance.</string>
+    <string name="debloat_no_apps">Inga oönskade appar (bloatware).</string>
+    <string name="debloat_processing_progress">Bearbetar: %1$d/%2$d</string>
+    <string name="debloat_title">Inaktivera bloatware</string>
+    <string name="debloat_uninstall">Avinstallera</string>
     <string name="debug_mode">Felsökning</string>
     <string name="description">Beskrivning</string>
-    <string name="enable_ai">Aktivera AI</string>
     <string name="disable_logs">Inaktivera loggar</string>
     <string name="disable_logs_desc">Välj för att inaktivera alla loggar och statistik (förutom \"logcat\") och minska logcat-buffertstorleken till 128 kB.</string>
+    <string name="dontkillmyapp_text">Du använder Shizuku-läget. För att appen ska fungera bra, vänligen inaktivera auto-kill för Shizuku och FDE.AI. Vill du se hur?</string>
     <string name="downscale_btn">Adaptiv nedskalning</string>
     <string name="downscale_desc">Lägre skärmupplösning för att öka GPU-prestanda och spara batteri, med liten förlust av bildkvalitet. Rekommenderas inte att gå under halva skärmbredden på anpassade ROM (MIUI, EMUI, etc.) för att undvika UI-krascher.</string>
-    <string name="warning_no">Nej</string>
-    <string name="warning_title">Varning!</string>
-    <string name="warning_yes">Ja</string>
+    <string name="downscale_notification" tools:ignore="PluralsCandidate">Tryck OK för att bekräfta den nya upplösningen, annars återställs den i %1$d sek.</string>
+    <string name="downscale_warning">Om något går fel och du inte kan komma åt knappen "Återställ" - starta inte om enheten!\nAnslut istället till ADB-skalet och skriv följande kommando: \'adb shell wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI kan utlösa Doze läge tidigare. Om problem uppstår, vitlista appar med knappen nedan.</string>
     <string name="doze_mode">Tvinga Doze läge</string>
     <string name="doze_sub_describtion">Aktivera för att komma in i Doze läge så snart skärmen är avstängd.</string>
     <string name="doze_system_desc">Doze-läge (Android 6.0+) minskar batterianvändningen genom att skjuta upp bakgrunden CPU och nätverksaktivitet när enheten är inaktiv.</string>
     <string name="doze_whitelist">Doze vit lista</string>
+    <string name="dynamic_read_ahead">Dynamisk läsning</string>
+    <string name="emergency_cooldown">Nödnedkylning</string>
+    <string name="emergency_cooldown_btn">Nedkylning</string>
+    <string name="emergency_cooldown_desc">När den är aktiverad kommer den att återaktivera strypning, aktivera flygplansläge, energisparläge, döda bakgrundsappar, inaktivera laddning, och ställ AI till energisparläge i 100 sekunder, sedan återställa.</string>
+    <string name="enable_ai">Aktivera AI</string>
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
+    <string name="exit_confirmation_text">Avsluta utan att spara ändringar?</string>
+    <string name="exit_confirmation_title">Avsluta?</string>
     <string name="extraopt_btn">Extra optimering</string>
     <string name="extraopt_desc">Optimera systemet genom att kompilera om ART cache för prestanda (använder mer internt minne) och trimma filsystemet för att förbättra minnesprestandan.</string>
     <string name="extraopt_do_btn">Starta</string>
     <string name="extraopt_reset_btn">Återställ optimering</string>
+    <string name="extraopt_schedule_title">Schemalägg för att köras dagligen</string>
+    <string name="extraopt_scheduled_subtitle">Nästa körning kl %1$s:00</string>
     <string name="extraopt_warning">Detta är inte en systemlös optimering. Kan bryta systemet på vissa anpassade Rom (kräver rensning ART cache i återställning). Säkerhetskopiera dina data innan användning.</string>
-    <string name="acc_warning">Advanced Charging Controller (ACC)-modul har upptäckts. Det kan komma i konflikt med FDE.AI-batterifunktionerna.</string>
     <string name="fde_is_active">AI aktiv</string>
     <string name="fde_is_inactive">AI inactive</string>
     <string name="fde_on_reset_toast">Alla FDE.AI data kommer att återställas. Appen stängs.</string>
     <string name="finstall">Installing FDE.AI…</string>
-    <string name="monitoring_floating_window">Övervakning</string>
+    <string name="force_doze_enabled">Force Doze aktiverad</string>
+    <string name="force_doze_trigger_count">Tvinga antal utlösare för slumra</string>
     <string name="fps_checkbox">Maskinvaruövervakning &amp; FPS</string>
     <string name="fps_meter_desc">Realtid FPS, CPU, GPU, RAM-minne och statistik strömförbrukning.</string>
-    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Genomsnitt: %1$s FPS</string>
-    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
-    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
+    <string name="fs_cache_tune">FS-cachejustering</string>
     <string name="get_premium">Get FDE.AI Premium</string>
     <string name="go_back">Gå tillbaka</string>
-    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="gpu_turbo_support">GPU Turbo-stöd</string>
+    <string name="gpu_turbo_trigger_count">GPU-turbotriggerantal</string>
     <string name="grantit">Du kan behöva manuellt bevilja autostart tillstånd i operativsystemets behörighetshanterare för att tillåta FDE.AI att starta efter OS uppstart.</string>
     <string name="greenbattery_desc">Förläng batteritiden genom att begränsa max laddningsnivån. Stoppar laddning vid den definierade tröskeln och startar om till 6 procent under den.</string>
+    <string name="greenbattery_title">Batteri</string>
     <string name="hour">h.</string>
+    <string name="hwinfo">Enhet</string>
     <string name="join_forum">XDA</string>
-    <string name="just_battery">Batteri</string>
+    <string name="just_check">Kontrollera</string>
     <string name="just_ram">RAM</string>
     <string name="just_storage">Lagring</string>
+    <string name="kernel_block">Nuvarande kärna %1$s blockerar Premium-installation. Överväg att installera en annan kärna.</string>
+    <string name="kernel_entropy_tune">Kärnantropijustering</string>
+    <string name="kernel_sched_boost">Kärnschemaläggare förstärkning</string>
+    <string name="kernel_tuning_state">Kärnjustering</string>
+    <string name="kill_bg_apps">Döda bakgrundsappar</string>
     <string name="killbgapps_desc">Döda automatiskt bakgrundsappar när skärmen är avstängd.</string>
     <string name="killbgapps_title">Döda bakgrundsappar</string>
+    <string name="lets_go">Kör</string>
     <string name="light_theme">Ljus</string>
     <string name="link_open_error" tools:ignore="MissingTranslation">Kunde inte öppna länk</string>
     <string name="links">Länkar</string>
     <string name="log_saved">Logga sparad till /sdcard/fde.md</string>
     <string name="low_power_fps">FPS med låg effekt</string>
     <string name="low_power_fps_short_desc">Ange FPS - CPU / GPU frekvenser kommer att reduceras för att upprätthålla FPS och spara ström.</string>
-    <string name="mem_available_x" tools:ignore="MissingTranslation">Tillgänglig: %1$s</string>
-    <string name="mem_cached_x" tools:ignore="MissingTranslation">Cachad: %1$s</string>
-    <string name="mem_total_x" tools:ignore="MissingTranslation">Totalt: %1$s</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Använd: %1$s</string>
+    <string name="memory_boost_support">Minnesförstärkning</string>
     <string name="menu_dashboard">Hem</string>
+    <string name="migration_error">Ett oväntat fel uppstod under datamigreringen. Data kommer att rensas.</string>
     <string name="min">min.</string>
+    <string name="monitoring_floating_window">Övervakning</string>
     <string name="more_info">Mer information</string>
+    <string name="multi_core_power_saving_control">Multi-core CPU energibesparing</string>
     <string name="noroot">INGEN ROOT ACCESS!</string>
     <string name="notification_ai_state">Beständig avisering</string>
     <string name="notification_ai_state_desc">Visar aktuellt AI-läge i aviseringen</string>
     <string name="notification_battery_state">Batteri avisering</string>
     <string name="notification_battery_state_desc">Visar kort batteriinformation i aviseringen</string>
+    <string name="notifications_and_feedback">Aviseringar och återkoppling</string>
     <string name="offf">Av</string>
     <string name="older_changelogs" tools:ignore="MissingTranslation">Äldre ändringsloggar</string>
     <string name="onboarding_eula_message">Vänligen acceptera vårt avtal för att fortsätta</string>
     <string name="onboarding_eula_summary_1">FDE.AI optimerar ditt system genom att ändra olika systemparametrar</string>
     <string name="onboarding_eula_summary_2">Se till att du har en säkerhetskopiering av data</string>
     <string name="onboarding_eula_summary_3">Vi är inte ansvariga för någon skada.</string>
+    <string name="onboarding_eula_summary_4">Använd inte andra tweaks med FDE.AI.</string>
     <string name="onboarding_eula_summary_header">Sammanfattning av avtal</string>
+    <string name="onboarding_migrate_data">Tidigare version upptäckt</string>
+    <string name="onboarding_migrate_data_description">Migrera dina uppgifter?</string>
     <string name="onboarding_preset_adaptive_summary">Använd tweaks och justera AI för att justera automatiskt. Rekommenderat läge.</string>
     <string name="onboarding_preset_adaptive_title">Adaptiv</string>
     <string name="onboarding_preset_off_summary">Inga tweaks tillämpas. Endast verktyg kommer att finnas tillgängliga omedelbart</string>
@@ -144,17 +206,28 @@
     <string name="onboarding_preset_powersave_title">Powersave</string>
     <string name="onboarding_presets">Förval</string>
     <string name="onboarding_see_full_eula">Se hela EULA</string>
+    <string name="onboarding_select_mode_title">Välj läge</string>
     <string name="onboarding_setup">Konfiguration</string>
     <string name="onboarding_setup_message">Välj vilka tweaks som ska tillämpas. Du kan ändra inställningar efter installationen.</string>
-    <string name="onboarding_eula_summary_4">Använd inte andra tweaks med FDE.AI.</string>
-    <string name="onboarding_migrate_data">Tidigare version upptäckt</string>
     <string name="open_os_dev_settings">Öppna Android utvecklarinställningar</string>
     <string name="optimize_now">Optimera nu</string>
     <string name="other_settings">Andra inställningar</string>
+    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Genomsnitt: %1$s FPS</string>
+    <string name="overlay_battery_temp_x">Batteri: %1$s°C</string>
+    <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>
     <string name="overlay_desc_text">Aktivera flytande fönster med realtidsstatistik för övervakning.</string>
+    <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
+    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
+    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
+    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
+    <string name="overlay_opacity_main">Overlay opacity</string>
+    <string name="overlay_power_x">Kraft: %1$s mAh</string>
+    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
+    <string name="overlay_scale_main">Överlagringsskala</string>
     <string name="performance">Prestation</string>
     <string name="power_checkbox">Strömförbrukning</string>
     <string name="powersave">Powersave</string>
+    <string name="preload_pro_required">Preload Pro-appen krävs för den här funktionen.</string>
     <string name="preload_title">Automatisk förladdning</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
     <string name="premium_card_overlays_desc">Anpassningsbara overlay fönster med olika statistik, inklusive FPS meter.</string>
@@ -162,138 +235,72 @@
     <string name="premium_card_profiles_desc">Anpassningsbara appprofiler med många alternativ.</string>
     <string name="premium_text">Stöd FDE.AI och lås upp alla exklusiva funktioner:</string>
     <string name="premium_thanks">Tack för ditt stöd! Du låste upp dessa funktioner:</string>
-    <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
+    <string name="profile_ai_mode_desc">Välj AI-läge medan appen används.</string>
+    <string name="profiles_btn">Appens profiler</string>
+    <string name="profiles_descr_txt">Anpassade profiler gäller FDE.AI-inställningar när en app körs och återställs när den stängs.</string>
     <string name="rate_app">Betygsätt FDE.AI</string>
     <string name="releases">Uppdateringar</string>
     <string name="reset">Reset</string>
     <string name="reset_all_fde">Återställ FDE.AI-inställningar</string>
-    <string name="reset_downscale_onboot">Återställ efter omstart</string>
+    <string name="reset_app_list_confirmation_text">Återställ applistan?</string>
+    <string name="reset_app_list_confirmation_title">Återställ lista</string>
     <string name="reset_art_dialog_text">Rensa ART cache och starta om?</string>
-    <string name="start_art_dialog_text">Optimering av ART cache kan ta tid, orsaka enhetsfördröjning och överhettning. Vill du fortsätta?</string>
+    <string name="reset_downscale_onboot">Återställ efter omstart</string>
     <string name="reset_fde_dialog_text">Återställ alla FDE.AI inställningar?</string>
     <string name="restart_fde_action">Starta om FDE.AI</string>
     <string name="restart_fde_in_progress">Restarting FDE.AI</string>
     <string name="rm_fde_lite">Avinstallera FDE.AI lite versionen först!</string>
+    <string name="root_mode_descr">Alla funktioner. Kräver root-åtkomst.</string>
     <string name="run_now">Kör</string>
     <string name="save_log">Spara logg</string>
     <string name="search_no_reset">Sök</string>
+    <string name="select_all">Markera alla</string>
     <string name="share">Dela FDE.AI</string>
     <string name="share_txt">Prova FDE.AI - en fantastisk Android-optimering!</string>
-    <string name="profiles_btn">Appens profiler</string>
-    <string name="profiles_descr_txt">Anpassade profiler gäller FDE.AI-inställningar när en app körs och återställs när den stängs.</string>
+    <string name="shizuku_broken_connection">Fel! ADB-anslutningen är bruten, vänligen starta om Shizuku-tjänsten.</string>
+    <string name="shizuku_install_from_play_store">Installera från Play Butik</string>
+    <string name="shizuku_mode_descr">Färre funktioner, ingen root behövs, Android 7+. Kräver Shizuku-appen.</string>
+    <string name="shizuku_open_app">Öppna Shizuku-appen</string>
+    <string name="shizuku_setup_instructions_title">Installationsinstruktioner</string>
+    <string name="shizuku_setup_step_1">Installera Shizuku</string>
+    <string name="shizuku_setup_step_2">Aktivera Shizuku-tjänsten i appen</string>
+    <string name="shizuku_setup_step_3">Ge behörigheter när du uppmanas att göra det</string>
+    <string name="shizuku_setup_step_4">Återgå till FDE.AI för att fortsätta konfigurationen</string>
+    <string name="shizuku_setup_success">Shizuku är konfigurerat och du är redo att börja</string>
+    <string name="shizuku_warning_miui_description">MIUI-användare måste aktivera ytterligare utvecklarbehörigheter för att Shizuku ska fungera korrekt.</string>
+    <string name="shizuku_warning_miui_title">MIUI-utvecklarbehörigheter</string>
+    <string name="shizuku_warning_systemless_description_new">Icke-root-läge kan utföra åtgärder som permanent påverkar ditt system.\n\nOm du någonsin funderar på att avinstallera den här appen - återställ FDE.AI-inställningarna i appen innan.</string>
+    <string name="sound_channel_name">AI-ljudaviseringar</string>
     <string name="sound_header">Ljud</string>
-    <string name="start_toast">Startar FDE.AI…</string>
+    <string name="sound_notifications">Ljudaviseringar</string>
+    <string name="start_art_dialog_text">Optimering av ART cache kan ta tid, orsaka enhetsfördröjning och överhettning. Vill du fortsätta?</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">Väntar på %1$d sek för att starta FDE.AI…</string>
+    <string name="start_toast">Startar FDE.AI…</string>
     <string name="startup">Startup</string>
     <string name="stop_btn">Stoppa</string>
     <string name="third_party">Tredjepartsbibliotek</string>
-    <string name="throttling_description">Inaktivera den håller prestandan uppe men kan orsaka överhettning och den snabba laddningen eller kameran kan sluta fungera.
-\nFDE.AI återaktiverar strypning under laddning som standard. Avmarkera för att inaktivera detta.</string>
+    <string name="throttling_deactivated">Strypning avaktiverad</string>
+    <string name="throttling_desc_new">Detta behåller prestandan men kan orsaka överhettning och problem med snabbladdning eller kamera.</string>
     <string name="throttling_fuse_desc">Automatiskt återaktivera strypning vid denna temperatur för att förhindra skador.</string>
     <string name="throttling_fuse_header">Temperatursäkring</string>
     <string name="throttling_ignore_charging">Ignorera laddning</string>
+    <string name="throttling_ignore_charging_desc">Som standard aktiverar FDE begränsning igen under laddning. Markera detta alternativ för att inaktivera beteendet.</string>
+    <string name="throttling_ignore_on_charge">Strypning ignorerar laddning</string>
     <string name="throttling_system_desc">Spänningen förhindrar överhettning genom att minska CPU/GPU-frekvenser.</string>
+    <string name="tile_available">En snabbflik är tillgänglig i statusfältet.</string>
+    <string name="tweaks_disabled">Alla tweaks är inaktiverade</string>
     <string name="un_fde_magisk">Avinstallera FDE.AI Magisk modul först!</string>
     <string name="unavailable">Unavailable</string>
     <string name="update">Uppdatera</string>
     <string name="update_available">Uppdatering tillgänglig!</string>
     <string name="updating_toast">Laddar ner uppdatering…</string>
     <string name="vibration">Vibrera en gång</string>
-    <string name="warning_header">Varning</string>
-    <string name="welcome">Välkommen</string>
-    <string name="overlay_opacity_main">Overlay opacity</string>
-    <string name="tweaks_disabled">Alla tweaks är inaktiverade</string>
-    <string name="exit_confirmation_title">Avsluta?</string>
-    <string name="exit_confirmation_text">Avsluta utan att spara ändringar?</string>
-    <string name="sound_channel_name">AI-ljudaviseringar</string>
-    <string name="reset_app_list_confirmation_title">Återställ lista</string>
-    <string name="reset_app_list_confirmation_text">Återställ applistan?</string>
-    <string name="downscale_notification" tools:ignore="PluralsCandidate">Tryck OK för att bekräfta den nya upplösningen, annars återställs den i %1$d sek.</string>
-    <string name="onboarding_migrate_data_description">Migrera dina uppgifter?</string>
-    <string name="kernel_block">Nuvarande kärna %1$s blockerar Premium-installation. Överväg att installera en annan kärna.</string>
-    <string name="profile_ai_mode_desc">Välj AI-läge medan appen används.</string>
-    <string name="preload_pro_required">Preload Pro-appen krävs för den här funktionen.</string>
-    <string name="overlay_power_x">Kraft: %1$s mAh</string>
-    <string name="overlay_battery_temp_x">Batteri: %1$s°C</string>
-    <string name="overlay_scale_main">Överlagringsskala</string>
-    <string name="emergency_cooldown">Nödnedkylning</string>
-    <string name="emergency_cooldown_btn">Nedkylning</string>
-    <string name="emergency_cooldown_desc">När den är aktiverad kommer den att återaktivera strypning, aktivera flygplansläge, energisparläge, döda bakgrundsappar, inaktivera laddning, och ställ AI till energisparläge i 100 sekunder, sedan återställa.</string>
-    <string name="hwinfo">Enhet</string>
-    <string name="ai_lifetime">AI-livstid</string>
-    <string name="kernel_tuning_state">Kärnjustering</string>
-    <string name="cpu_turbo_support">CPU Turbo-stöd</string>
-    <string name="cpu_turbo_trigger_count">CPU Turbo-utlösare</string>
-    <string name="gpu_turbo_support">GPU Turbo-stöd</string>
-    <string name="gpu_turbo_trigger_count">GPU-turbotriggerantal</string>
-    <string name="force_doze_enabled">Force Doze aktiverad</string>
-    <string name="force_doze_trigger_count">Tvinga antal utlösare för slumra</string>
-    <string name="throttling_deactivated">Strypning avaktiverad</string>
-    <string name="throttling_ignore_on_charge">Strypning ignorerar laddning</string>
-    <string name="kill_bg_apps">Döda bakgrundsappar</string>
-    <string name="auto_art_opt">Automatisk ART-optimering</string>
-    <string name="dynamic_read_ahead">Dynamisk läsning</string>
-    <string name="charging_bypass_enabled">Charging bypass aktiverad</string>
-    <string name="charging_limit_enabled">Laddningsgräns aktiverad</string>
-    <string name="charging_cycles">Laddningscykler:</string>
-    <string name="cpu_bandwidth_tune">CPU-bandbreddsinställning</string>
-    <string name="fs_cache_tune">FS-cachejustering</string>
     <string name="vm_cache_tune">VM-cachejustering</string>
-    <string name="cpu_input_boost_tune">CPU-ingångsförstärkning</string>
-    <string name="kernel_entropy_tune">Kärnantropijustering</string>
-    <string name="kernel_sched_boost">Kärnschemaläggare förstärkning</string>
-    <string name="multi_core_power_saving_control">Multi-core CPU energibesparing</string>
-    <string name="extraopt_schedule_title">Schemalägg för att köras dagligen</string>
-    <string name="extraopt_schedule_time">Ställ in daglig tid för automatisk optimering</string>
-    <string name="sound_notifications">Ljudaviseringar</string>
-    <string name="migration_error">Ett oväntat fel uppstod under datamigreringen. Data kommer att rensas.</string>
-    <string name="onboarding_select_mode_title">Välj läge</string>
-    <string name="charging_limit">Laddningsgräns</string>
-    <string name="auto_data_save">Datasparare</string>
-    <string name="auto_data_save_desc">Aktivera databesparing automatiskt när skärmen är avstängd.</string>
-    <string name="autopowersave_mode">Automatisk energibesparing</string>
-    <string name="autodatasave_mode">Automatisk datasparning</string>
-    <string name="memory_boost_support">Minnesförstärkning</string>
-    <string name="root_mode_descr">Alla funktioner. Kräver root-åtkomst.</string>
-    <string name="shizuku_mode_descr">Färre funktioner, ingen root behövs, Android 7+. Kräver Shizuku-appen.</string>
-    <string name="lets_go">Kör</string>
-    <string name="shizuku_setup_success">Shizuku är konfigurerat och du är redo att börja</string>
-    <string name="shizuku_setup_instructions_title">Installationsinstruktioner</string>
-    <string name="shizuku_warning_systemless_title">Obs</string>
-    <string name="shizuku_warning_miui_title">MIUI-utvecklarbehörigheter</string>
-    <string name="shizuku_warning_miui_description">MIUI-användare måste aktivera ytterligare utvecklarbehörigheter för att Shizuku ska fungera korrekt.</string>
-    <string name="shizuku_install_from_play_store">Installera från Play Butik</string>
-    <string name="shizuku_open_app">Öppna Shizuku-appen</string>
-    <string name="shizuku_setup_step_1">Installera Shizuku</string>
-    <string name="shizuku_setup_step_2">Aktivera Shizuku-tjänsten i appen</string>
-    <string name="shizuku_setup_step_3">Ge behörigheter när du uppmanas att göra det</string>
-    <string name="shizuku_setup_step_4">Återgå till FDE.AI för att fortsätta konfigurationen</string>
-    <string name="shizuku_broken_connection">Fel! ADB-anslutningen är bruten, vänligen starta om Shizuku-tjänsten.</string>
-    <string name="just_check">Kontrollera</string>
-    <string name="dontkillmyapp_text">Du använder Shizuku-läget. För att appen ska fungera bra, vänligen inaktivera auto-kill för Shizuku och FDE.AI. Vill du se hur?</string>
-    <string name="burnit_btn">Inaktivera strypning</string>
-    <string name="already_premium">Har du redan premium?</string>
-    <string name="already_premium_txt">Om du redan har köpt premiumpaket, men FDE.AI inte upptäcker det - följ dessa steg:\n\n
-1. Se till att du laddade ner en äkta kopia av FDE.AI-appen från officiella källor och kontrollera MD5-hash.\n
-2. Se till att ditt ROM inte har signaturförfalskning eller inaktiverad verifiering.\n
-3. Avinstallera både FDE.AI Premium-paketet och FDE.AI-appen.\n
-4. Rensa Google Play-appens data.\n
-5. Starta om enheten.\n
-6. Installera FDE.AI och Premium-paketet.\n\n
-Om problemet kvarstår, kontakta utvecklaren i Telegram.</string>
-    <string name="wifi_psave_header">Inaktivera WiFi-viloläge</string>
+    <string name="warning_header">Varning</string>
+    <string name="warning_no">Nej</string>
+    <string name="warning_title">Varning!</string>
+    <string name="warning_yes">Ja</string>
+    <string name="welcome">Välkommen</string>
     <string name="wifi_psave_descr">För att minska risken för att du kopplas bort från Shizuku kan du försöka inaktivera WiFi-viloläge, men det kan öka strömförbrukningen vid viloläge.</string>
-    <string name="downscale_warning">Om något går fel och du inte kan komma åt knappen "Återställ" - starta inte om enheten!\nAnslut istället till ADB-skalet och skriv följande kommando: \'adb shell wm size reset;wm density reset\'.</string>
-    <string name="shizuku_warning_systemless_description_new">Icke-root-läge kan utföra åtgärder som permanent påverkar ditt system.\n\nOm du någonsin funderar på att avinstallera den här appen - återställ FDE.AI-inställningarna i appen innan.</string>
-    <string name="debloat_title">Inaktivera bloatware</string>
-    <string name="debloat_descr">Här kan du inaktivera vissa systemappar som anses vara bloatware för att snabba upp systemet. Nedan finns den rekommenderade listan över appar att ta bort från Universal‑Debloater‑Alliance.</string>
-    <string name="select_all">Markera alla</string>
-    <string name="clear_selection">Rensa markering</string>
-    <plurals name="debloat_apply_confirm_text">
-        <item quantity="one">Tillämpa ändringar på %1$d app?</item>
-        <item quantity="other">Tillämpa ändringar på %1$d appar?</item>
-    </plurals>
-    <string name="debloat_processing_progress">Bearbetar: %1$d/%2$d</string>
-    <string name="debloat_uninstall">Avinstallera</string>
-    <string name="debloat_no_apps">Inga oönskade appar (bloatware).</string>
+    <string name="wifi_psave_header">Inaktivera WiFi-viloläge</string>
 </resources>
