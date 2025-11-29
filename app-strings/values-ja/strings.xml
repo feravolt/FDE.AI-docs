@@ -23,14 +23,14 @@
     <string name="ai_state_sleeping">スリープ中…</string>
     <string name="aiinfo">AI情報</string>
     <string name="already_premium">すでにプレミアムをお持ちですか？</string>
-    <string name="already_premium_txt">すでにプレミアムパッケージを購入しているが、FDE.AIがそれを検出しない場合は、次の手順に従ってください。\n\n
-        1. 公式ソースから正規のFDE.AIをダウンロードしたことを確認し、MD5ハッシュを検証する。\n
-        2. OSで署名の偽装が有効になっていないか、署名の検証が無効になっていないかを確認する。\n
-        3. FDE.AIプレミアムパッケージとFDE.AIの両方をアンインストールする。\n
-        4. Google Play ストアのアプリデータを消去する。\n
-        5. デバイスを再起動する。\n
-        6. FDE.AIとプレミアムパッケージを再インストールする。\n\n
-        上記を試しても問題が解決しない場合は、Telegramで開発者に連絡してください。</string>
+    <string name="already_premium_txt">すでにプレミアムパッケージを購入しているが、FDE.AIがそれを検出しない場合は、次の手順に従ってください:\n\n
+1. 公式ソースから正規のFDE.AIをダウンロードしたことを確認し、MD5ハッシュを検証する。\n
+2. OSで署名の偽装が有効になっていないか、署名の検証が無効になっていないかを確認する。\n
+3. FDE.AIプレミアムパッケージとFDE.AIの両方をアンインストールする。\n
+4. Google Playストアのアプリデータを消去する\n
+5. デバイスを再起動する。\n
+6. FDE.AIとプレミアムパッケージを再インストールする。\n\n
+上記を試しても問題が解決しない場合は、Telegramで開発者に連絡してください。</string>
     <string name="app_icon">アプリアイコン</string>
     <string name="app_theme">テーマ</string>
     <string name="app_update_notification_title">FDE.AIの更新</string>
@@ -44,7 +44,7 @@
     <string name="auto_data_save">データセーバー</string>
     <string name="auto_data_save_desc">画面オフ時にデータセーバーを自動的に有効にします。</string>
     <string name="auto_psave">省電力モード</string>
-    <string name="auto_psave_desc">画面オフ時に自動的に省電力モードを有効にします。</string>
+    <string name="auto_psave_desc">画面がオフのときに自動的に省電力モードを有効にします。</string>
     <string name="autodatasave_mode">自動でデータ通信量を節約</string>
     <string name="autopowersave_mode">自動で電力を節約</string>
     <string name="autostart">自動起動</string>
@@ -76,8 +76,8 @@
     <string name="clean_cache_done_snack">キャッシュを消去しました。</string>
     <string name="clean_cache_running_snack">キャッシュを消去しています…</string>
     <string name="clean_ram">RAMを最適化</string>
-    <string name="clean_ram_done_snack">RAMをクリーンしました</string>
-    <string name="clean_ram_running_snack">RAMをクリーンしています…</string>
+    <string name="clean_ram_done_snack">RAMをクリーンアップしました</string>
+    <string name="clean_ram_running_snack">RAMをクリーンアップしています…</string>
     <string name="cleaning_desc">バックグラウンドアプリを終了してRAMをクリーンアップし、キャッシュファイルを削除してストレージ容量を解放します。</string>
     <string name="cleaning_title">クリーニング</string>
     <string name="clear_selection">選択をクリア</string>
@@ -89,8 +89,8 @@
     <string name="common_x_total" tools:ignore="MissingTranslation">合計: %1$s</string>
     <string name="common_x_used" tools:ignore="MissingTranslation">使用済み: %1$s</string>
     <string name="completed">完了</string>
-    <string name="core_tweaks_enable">コアの調整</string>
-    <string name="core_tweaks_enable_desc">メインのFDEの微調整を有効化します。オンのままにすることをおすすめします。</string>
+    <string name="core_tweaks_enable">コアの微調整</string>
+    <string name="core_tweaks_enable_desc">メインのFDEの微調整を有効にします。オンのままにすることをおすすめします。</string>
     <string name="cpu_bandwidth_tune">CPU帯域幅の調整</string>
     <string name="cpu_input_boost_tune">CPUインプットブースト</string>
     <string name="cpu_top_descr">CPU使用率が高い上位5つのプロセスをオーバーレイ表示します</string>
@@ -102,8 +102,8 @@
     <plurals name="debloat_apply_confirm_text">
         <item quantity="other">%1$d個のアプリに変更を適用しますか？</item>
     </plurals>
-    <string name="debloat_descr">ここでは、ブロートウェアとみなされるアプリを無効にして、デバイスの速度を向上させることができます。以下は、Universal Debloater Allianceが削除を推奨するアプリの一覧です。</string>
-    <string name="debloat_no_apps">不要なアプリ(ブロートウェア)はありません。</string>
+    <string name="debloat_descr">ここでは、ブロートウェア(不要なシステムアプリ)とみなされるアプリを無効にして、デバイスの速度を向上させることができます。以下は、Universal Debloater Allianceが削除を推奨するアプリの一覧です。</string>
+    <string name="debloat_no_apps">ブロートウェア(不要なシステムアプリ)はありません。</string>
     <string name="debloat_processing_progress">処理中: %1$d/%2$d</string>
     <string name="debloat_title">ブロートウェアを無効化</string>
     <string name="debloat_uninstall">アンインストール</string>
