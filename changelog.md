@@ -1,5 +1,28 @@
 ### Changelog
 
+## **v25.11.1**
+
+### New:
+
+— App design
+
+### Improved:
+
+— UI and performance\
+— Reduced app size\
+— Reduced power consumption\
+— Core: performance\
+— Core: hardware detection\
+— Core: throttling control\
+— Core: system optimization tweaks\
+— Core: AI logic
+
+### Fixed:
+
+— Low power FPS
+
+---
+
 ## **v25.10.1**
 
 ### New:
