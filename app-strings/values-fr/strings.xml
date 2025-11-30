@@ -115,7 +115,7 @@ Si le problème persiste, contactez le développeur sur Telegram.</string>
     <string name="downscale_btn">Écaille adaptative</string>
     <string name="downscale_desc">Diminuer la résolution de l\'écran pour augmenter les performances du GPU et économiser la batterie, avec une légère perte de qualité d\'image. Il n\'est pas recommandé de passer en dessous de la moitié de la largeur de l\'écran sur les ROMs personnalisées (MIUI, EMUI, etc.) pour éviter les plantages de l\'interface utilisateur.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Appuyez sur OK pour confirmer la nouvelle résolution, sinon elle sera réinitialisée dans %1$d secondes.</string>
-    <string name="downscale_warning">Jika terjadi kesalahan dan Anda tidak dapat mengakses tombol \'Reset\' - jangan mulai ulang perangkat!\nSebaliknya, hubungkan ke shell ADB dan masukkan perintah ini: \'adb shell wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">Jika terjadi kesalahan dan Anda tidak dapat mengakses tombol \'Reset\' - jangan mulai ulang perangkat!\nSebaliknya, hubungkan ke shell ADB dan masukkan perintah ini: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI peut déclencher le mode Doze plus tôt. Si des problèmes surviennent, mettez les applications sur la liste blanche en utilisant le bouton ci-dessous.</string>
     <string name="doze_mode">Forcer le mode Doze</string>
     <string name="doze_sub_describtion">Activez pour entrer en mode Doze dès que l\'écran est éteint.</string>
@@ -225,7 +225,6 @@ Si le problème persiste, contactez le développeur sur Telegram.</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Échelle de superposition</string>
     <string name="performance">Performances</string>
-    <string name="power_checkbox">Consommation d\'énergie</string>
     <string name="powersave">Énergie</string>
     <string name="preload_pro_required">L\'application de préchargement Pro est requise pour cette fonctionnalité.</string>
     <string name="preload_title">Préchargement automatique</string>

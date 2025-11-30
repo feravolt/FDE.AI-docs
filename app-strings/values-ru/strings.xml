@@ -117,7 +117,7 @@
     <string name="downscale_btn">Даунскейл</string>
     <string name="downscale_desc">Позволяет понизить разрешение экрана для улучшения производительности и энергосбережения ценой качества изображения. Приложение меняет настройки масштаба для сохранения оригинального изображения. При использовании оболочек (MIUI, EMUI и т.д.) не рекомендуется снижать разрешение ниже половины от оригинального, иначе интерфейс может упасть.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Нажмите ОК, чтобы подтвердить новое уменьшенное разрешение, иначе оно будет сброшено через %1$d сек.</string>
-    <string name="downscale_warning">Если вдруг что-то пойдёт не так и у вас не будет доступа к кнопке \'Сброс\' - не перзагружайте устройство!\nВместо этого подключитесь к ADB shell введите команду: \'adb shell wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">Если вдруг что-то пойдёт не так и у вас не будет доступа к кнопке \'Сброс\' - не перзагружайте устройство!\nВместо этого подключитесь к ADB shell введите команду: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI может ускорить этот процесс. Если возникнут проблемы, добавьте приложения в белый список Doze, нажав кнопку ниже.</string>
     <string name="doze_mode">Принудит. режим Doze</string>
     <string name="doze_sub_describtion">Вкл. или выкл. принудительный режим Doze.</string>
@@ -229,7 +229,6 @@
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">ОЗУ: %1$s%%</string>
     <string name="overlay_scale_main">Масштаб плавающих окон</string>
     <string name="performance">Скорость</string>
-    <string name="power_checkbox">Потребление энергии</string>
     <string name="powersave">Экономия</string>
     <string name="preload_pro_required">Чтобы использовать эту функцию, нужно приложение Preload Pro.</string>
     <string name="preload_title">Автоматическая предзагрузка</string>

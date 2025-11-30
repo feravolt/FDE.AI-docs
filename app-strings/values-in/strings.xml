@@ -114,7 +114,7 @@ Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="downscale_btn">Penyesuaian Ukuran Otomatis</string>
     <string name="downscale_desc">Turunkan resolusi layar untuk meningkatkan kinerja GPU dan menghemat baterai, dengan sedikit penurunan kualitas gambar. Tidak disarankan untuk menurunkan resolusi hingga di bawah setengah lebar layar pada ROM khusus (seperti MIUI, EMUI, d. l. l.) agar antarmuka pengguna tidak mengalami gangguan.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Tekan OK untuk mengonfirmasi resolusi baru, atau resolusi akan disetel ulang dalam %1$d detik.</string>
-    <string name="downscale_warning">Jika terjadi kesalahan dan Anda tidak dapat mengakses tombol \'Reset\' - jangan mulai ulang perangkat!\nSebaliknya, hubungkan ke shell ADB dan masukkan perintah ini: \'adb shell wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">Jika terjadi kesalahan dan Anda tidak dapat mengakses tombol \'Reset\' - jangan mulai ulang perangkat!\nSebaliknya, hubungkan ke shell ADB dan masukkan perintah ini: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI dapat mengaktifkan mode Doze lebih awal. Jika terjadi masalah, daftarkan aplikasi ke daftar putih menggunakan tombol di bawah ini.</string>
     <string name="doze_mode">Paksa Mode Doze</string>
     <string name="doze_sub_describtion">Aktifkan untuk masuk ke Mode Doze segera setelah layar mati.</string>
@@ -222,7 +222,6 @@ Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Skala hamparan</string>
     <string name="performance">Performa</string>
-    <string name="power_checkbox">Konsumsi daya</string>
     <string name="powersave">Hemat daya</string>
     <string name="preload_pro_required">Aplikasi Preload Pro diperlukan untuk fitur ini.</string>
     <string name="preload_title">Pemuatan awal otomatis</string>

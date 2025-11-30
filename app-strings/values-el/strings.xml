@@ -225,7 +225,6 @@
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Κλίμακα επικάλυψης</string>
     <string name="performance">Επιδόσεις</string>
-    <string name="power_checkbox">Κατανάλωση ισχύος</string>
     <string name="powersave">Powersave</string>
     <string name="preload_pro_required">Απαιτείται προφόρτωση εφαρμογής Pro για αυτήν τη δυνατότητα.</string>
     <string name="preload_title">Αυτόματη προφόρτωση</string>

@@ -119,7 +119,7 @@
     <string name="downscale_btn">Adaptive downscale</string>
     <string name="downscale_desc">Lower screen resolution to boost GPU performance and save battery, with slight image quality loss. Not recommended to go below half the screen width on custom ROMs (MIUI, EMUI, etc.) to avoid UI crashes.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Press OK to confirm the new resolution, or it will reset in %1$d sec.</string>
-    <string name="downscale_warning">If anything goes wrong and you can\'t access \'Reset\' button - do not reboot the device!\nInstead connect to ADB shell and enter this command: \'adb shell wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">If anything goes wrong and you can\'t access \'Reset\' button - do not reboot the device!\nInstead connect to ADB shell and enter this command: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI can trigger Doze mode earlier. If issues arise, whitelist apps using the button below.</string>
     <string name="doze_mode">Force Doze mode</string>
     <string name="doze_sub_describtion">Enable to enter Doze mode as soon as the screen is off.</string>
@@ -241,7 +241,6 @@
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Overlay scale</string>
     <string name="performance">Performance</string>
-    <string name="power_checkbox">Power consumption</string>
     <string name="powersave">Powersave</string>
     <string name="preload_pro_required">Preload Pro app is required for this feature.</string>
     <string name="preload_title">Auto preload</string>

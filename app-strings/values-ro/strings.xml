@@ -116,7 +116,7 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="downscale_btn">Scară descendentă adaptivă</string>
     <string name="downscale_desc">Scăderea rezoluției ecranului pentru a crește performanța GPU și pentru a economisi baterie, cu pierderea calității imaginii ușoare. Nu se recomandă să treceți sub jumătate din lățimea ecranului în ROM-urile personalizate (MIUI, EMUI etc.) pentru a evita accidentele de interfață.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Apăsaţi OK pentru a confirma noua rezoluţie, sau se va reseta în %1$d sec.</string>
-    <string name="downscale_warning">Dacă ceva nu merge bine și nu puteți accesa butonul \'Resetare\' - nu reporniți dispozitivul!\nÎn schimb, conectați-vă la shell-ul ADB și introduceți această comandă: \'adb shell wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">Dacă ceva nu merge bine și nu puteți accesa butonul \'Resetare\' - nu reporniți dispozitivul!\nÎn schimb, conectați-vă la shell-ul ADB și introduceți această comandă: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI poate declanşa modul Doze mai devreme. Dacă apar probleme, aplicaţiile tip whitelist folosind butonul de mai jos.</string>
     <string name="doze_mode">Forțează modul Doze</string>
     <string name="doze_sub_describtion">Activează intrarea în modul Doze imediat ce ecranul este oprit.</string>
@@ -226,7 +226,6 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Scara de suprapunere</string>
     <string name="performance">Performanță</string>
-    <string name="power_checkbox">Consum de energie</string>
     <string name="powersave">Economisire</string>
     <string name="preload_pro_required">Pentru această funcție este necesară preîncărcarea aplicației Pro.</string>
     <string name="preload_title">Preîncărcare automată</string>

@@ -119,7 +119,7 @@
     <string name="downscale_btn">Адаптивна відстань</string>
     <string name="downscale_desc">Дозволяє понизити роздільну здатність екрану для покращеннч продуктивності і енергозбереження ціною якості зображення. Додаток міняє налаштування масштабу для збереження оригінального зображення. При використанні інтерфейсів (MIUI, EMUI и т.д.) не рекомендуеться знижувати роздільну здатність нижче половини від оригінального, в іншому випадку інтерфейс може впасти.</string>
     <string name="downscale_notification">Натисніть ОК, щоб підтвердити нову зменшену роздільну здатність, в іншому випадку воно буде скинуто через %1$d сек.</string>
-    <string name="downscale_warning">Якщо щось піде не так, і ви не зможете отримати доступ до кнопки \'Скидання\' - не перезавантажуйте пристрій!\nНатомість підключіться до оболонки ADB та введіть цю команду: \'adb shell wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">Якщо щось піде не так, і ви не зможете отримати доступ до кнопки \'Скидання\' - не перезавантажуйте пристрій!\nНатомість підключіться до оболонки ADB та введіть цю команду: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI може прискорити цей процес. Якщо виникнуть проблеми, добавте додаток в білий список Doze, натиснувши кнопку нижче.</string>
     <string name="doze_mode">Режим Doze</string>
     <string name="doze_sub_describtion">Вкл. або викл. примусовий режим Doze.</string>
@@ -230,7 +230,6 @@
     <string name="overlay_ram_x_percent">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Масштаб плаваючих вікон</string>
     <string name="performance">Продуктивність</string>
-    <string name="power_checkbox">Споживання енергії</string>
     <string name="powersave">Енергозбереження</string>
     <string name="preload_pro_required">Для цієї можливості необхідний додаток Preload Pro.</string>
     <string name="preload_title">Автоматичне передзавантаження</string>

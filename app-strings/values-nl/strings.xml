@@ -115,7 +115,7 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="downscale_btn">Adaptieve downscale</string>
     <string name="downscale_desc">Lagere schermomolutie om de GPU prestaties te verhogen en batterij te besparen, met een geringe beeldkwaliteit. Niet aanbevolen om onder de helft van de schermbreedte op aangepaste ROM\'s (MIUI, EMUI, etc.) te gaan om crashes van de UI te voorkomen.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Druk op OK om de nieuwe resolutie te bevestigen, anders wordt deze gereset in %1$d sec.</string>
-    <string name="downscale_warning">Als er iets misgaat en u de knop \'Reset\' niet kunt gebruiken, start het apparaat dan niet opnieuw op! Maak in plaats daarvan verbinding met de ADB-shell en voer deze opdracht in: \'adb shell wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">Als er iets misgaat en u de knop \'Reset\' niet kunt gebruiken, start het apparaat dan niet opnieuw op! Maak in plaats daarvan verbinding met de ADB-shell en voer deze opdracht in: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI kan Doze-modus eerder activeren. Als zich problemen voordoen, witte lijst apps met de knop hieronder.</string>
     <string name="doze_mode">Doze modus forceren</string>
     <string name="doze_sub_describtion">Inschakelen om Doze modus in te schakelen zodra het scherm uit is.</string>
@@ -225,7 +225,6 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Overlayschaal</string>
     <string name="performance">Prestaties</string>
-    <string name="power_checkbox">Stroomverbruik</string>
     <string name="powersave">Energiebesparing</string>
     <string name="preload_pro_required">Preload Pro app is vereist voor deze functie.</string>
     <string name="preload_title">Automatisch voorladen</string>

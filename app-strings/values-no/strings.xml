@@ -225,7 +225,6 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Overleggsskala</string>
     <string name="performance">Ytelse</string>
-    <string name="power_checkbox">Strømforbruk</string>
     <string name="powersave">Strømsparing</string>
     <string name="preload_pro_required">Preload Pro-app er påkrevd for denne funksjonen.</string>
     <string name="preload_title">Automatisk forspenning</string>

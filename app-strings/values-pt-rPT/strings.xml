@@ -225,7 +225,6 @@ Se o problema persistir, contacte o programador no Telegram.</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Escala de sobreposição</string>
     <string name="performance">Desempenho</string>
-    <string name="power_checkbox">Consumo Potência</string>
     <string name="powersave">Economia</string>
     <string name="preload_pro_required">O aplicativo Pro de pré-carga é necessário para este recurso.</string>
     <string name="preload_title">Pré-carregar automaticamente</string>

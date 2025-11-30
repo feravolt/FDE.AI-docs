@@ -115,7 +115,7 @@ Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="downscale_btn">Uyarlanabilir alt ölçek</string>
     <string name="downscale_desc">GPU performansını artırmak ve hafif görüntü kalitesi kaybıyla pil tasarrufu sağlamak için daha düşük ekran çözünürlüğü. Kullanıcı arayüzü çökmelerini önlemek için özel ROM\'larda (MIUI, EMUI, vb.) ekran genişliğinin yarısının altına inmeniz önerilmez.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Yeni çözünürlüğü onaylamak için Tamam\'a basın, aksi takdirde %1$d saniye içinde sıfırlanacaktır.</string>
-    <string name="downscale_warning">Bir sorun çıkarsa ve \'Sıfırla\' düğmesine erişemiyorsanız, cihazı yeniden başlatmayın!\nBunun yerine ADB kabuğuna bağlanın ve şu komutu girin: \'adb shell wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">Bir sorun çıkarsa ve \'Sıfırla\' düğmesine erişemiyorsanız, cihazı yeniden başlatmayın!\nBunun yerine ADB kabuğuna bağlanın ve şu komutu girin: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI, Uyku modunu daha erken tetikleyebilir. Sorun ortaya çıkarsa, aşağıdaki düğmeyi kullanarak uygulamaları beyaz listeye alın.</string>
     <string name="doze_mode">Uyku modunu zorla</string>
     <string name="doze_sub_describtion">Ekran kapanır kapanmaz Uyku moduna girmek için etkinleştirin.</string>
@@ -225,7 +225,6 @@ Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Kaplama ölçeği</string>
     <string name="performance">Performans</string>
-    <string name="power_checkbox">Güç tüketimi</string>
     <string name="powersave">Güç tasarrufu</string>
     <string name="preload_pro_required">Bu özellik için Preload Pro uygulaması gereklidir.</string>
     <string name="preload_title">Otomatik ön yükleme</string>

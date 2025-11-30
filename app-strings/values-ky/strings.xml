@@ -115,7 +115,7 @@
     <string name="downscale_btn">Адаптивдүү төмөндөтүү</string>
     <string name="downscale_desc">Сүрөттүн сапатын бир аз жоготуу менен GPU иштешин жогорулатуу жана батареяны үнөмдөө үчүн экрандын дааналыгы төмөндөйт. UI бузулуп калбашы үчүн, ыңгайлаштырылган ROM\'ларда (MIUI, EMUI, ж. б.) экрандын туурасынын жарымынан төмөн түшүү сунушталбайт.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Жаңы токтомду ырастоо үчүн OK баскычын басыңыз, болбосо ал %1$d сек. дан кийин баштапкы абалга келтирилет.</string>
-    <string name="downscale_warning">Эгерде бир нерсе туура эмес болуп, \'Калыбына келтирүү\' баскычына кире албасаңыз - түзмөктү кайра жүктөбөңүз!\nАнын ордуна ADB кабыгына туташып, төмөнкү буйрукту киргизиңиз: \'adb shell wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">Эгерде бир нерсе туура эмес болуп, \'Калыбына келтирүү\' баскычына кире албасаңыз - түзмөктү кайра жүктөбөңүз!\nАнын ордуна ADB кабыгына туташып, төмөнкү буйрукту киргизиңиз: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI Doze режимин эртерээк иштете алат. Эгер көйгөйлөр пайда болсо, төмөнкү баскычты колдонуп, колдонмолорду ак тизмеге киргизиңиз.</string>
     <string name="doze_mode">Force Doze режими</string>
     <string name="doze_sub_describtion">Экран өчүп калганда Doze режимине кирүүнү иштетиңиз.</string>
@@ -225,7 +225,6 @@
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Үстөмөндөп коюу масштабы</string>
     <string name="performance">Ылдамдык</string>
-    <string name="power_checkbox">Кубаттулук колдонуусу</string>
     <string name="powersave">Энергияны үнөмдөө</string>
     <string name="preload_pro_required">Бул функция үчүн Preload Pro колдонмосу талап кылынат.</string>
     <string name="preload_title">Авто алдын ала жүктөө</string>

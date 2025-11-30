@@ -114,7 +114,7 @@ Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển tr
     <string name="downscale_btn">Giảm độ phân giải linh hoạt</string>
     <string name="downscale_desc">Giảm độ phân giải màn hình để tăng hiệu năng GPU và tiết kiệm năng lượng, và làm mất chất lượng hình ảnh nhẹ. Không khuyến nghị giảm xuống quá nửa độ rộng mà hình ở các ROM tự chế (MIUI, EMUI, vv.) để tránh làm sập UI.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Bấm OK để xác nhận độ phân giải mới, hoặc thiết lập sẽ hoàn tác trong %1$d giây.</string>
-    <string name="downscale_warning">Nếu có bất kỳ sự cố nào xảy ra và bạn không thể truy cập nút \'Đặt lại\' - đừng khởi động lại thiết bị!\nThay vào đó, hãy kết nối với shell ADB và nhập lệnh này: \'adb shell wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">Nếu có bất kỳ sự cố nào xảy ra và bạn không thể truy cập nút \'Đặt lại\' - đừng khởi động lại thiết bị!\nThay vào đó, hãy kết nối với shell ADB và nhập lệnh này: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI có thể kích hoạt chế độ Doze sớm hơn. Nếu xảy ra vấn đề, hãy cho ứng dụng vào danh sách trắng ở dưới.</string>
     <string name="doze_mode">Buộc Chế Độ Doze</string>
     <string name="doze_sub_describtion">Mở để bắt thiết bị vào chế độ Doze ngay khi màn hình tắt.</string>
@@ -224,7 +224,6 @@ Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển tr
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Tỷ lệ lớp phủ</string>
     <string name="performance">Hiệu năng</string>
-    <string name="power_checkbox">Công suất tiêu thụ</string>
     <string name="powersave">Hiệu suất</string>
     <string name="preload_pro_required">Ứng dụng Preload Pro cần thiết cho chức năng này.</string>
     <string name="preload_title">Tự động tải trước</string>

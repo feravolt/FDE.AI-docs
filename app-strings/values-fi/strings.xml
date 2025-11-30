@@ -115,7 +115,7 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="downscale_btn">Sopeutuva alasajo</string>
     <string name="downscale_desc">Pienempi näytön resoluutio lisätäksesi näytönohjaimen suorituskykyä ja säästääksesi akkua, jossa kuvan laatu on vähäinen. Ei ole suositeltavaa mennä alle puolet näytön leveys mukautettujen ROMien (MIUI, EMUI jne.) välttää käyttöliittymän kaatumista.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Paina OK vahvistaaksesi uuden resoluution, tai se nollaa %1$d sekunnissa.</string>
-    <string name="downscale_warning">Jos jokin menee pieleen etkä pääse käyttämään \'Nollaa\'-painiketta, älä käynnistä laitetta uudelleen!\nYhdistä sen sijaan ADB-kuoreen ja anna tämä komento: \'adb shell wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">Jos jokin menee pieleen etkä pääse käyttämään \'Nollaa\'-painiketta, älä käynnistä laitetta uudelleen!\nYhdistä sen sijaan ADB-kuoreen ja anna tämä komento: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI voi laukaista Doze-tilan aikaisemmin. Jos ongelmia ilmenee, listaa sovellukset käyttämällä alla olevaa painiketta.</string>
     <string name="doze_mode">Pakota Doze tila</string>
     <string name="doze_sub_describtion">Ota käyttöön siirtyäksesi Doze-tilaan heti, kun näyttö on pois päältä.</string>
@@ -225,7 +225,6 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Peittokuvan asteikko</string>
     <string name="performance">Suorituskyky</string>
-    <string name="power_checkbox">Virran kulutus</string>
     <string name="powersave">Virtatallennus</string>
     <string name="preload_pro_required">Tämä ominaisuus vaatii Pro-sovelluksen esilatauksen.</string>
     <string name="preload_title">Automaattinen esilataus</string>

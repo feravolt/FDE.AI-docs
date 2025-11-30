@@ -224,7 +224,6 @@
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">疊加比例</string>
     <string name="performance">效能</string>
-    <string name="power_checkbox">耗電量</string>
     <string name="powersave">省電</string>
     <string name="preload_pro_required">此功能需要Preload Pro的應用程式。</string>
     <string name="preload_title">自動預先載入</string>

@@ -117,7 +117,7 @@
     <string name="downscale_btn">خفض حجم التكيف</string>
     <string name="downscale_desc">خفض دقة الشاشة لتعزيز أداء GPU وحفظ البطارية، مع خسارة طفيفة لجودة الصورة. لا ينصح بالذهاب إلى أسفل نصف عرض الشاشة على الأقراص المخصصة (MIUI، EMUI، إلخ.) لتجنب تعطل واجهة المستخدم.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">اضغط على OK لتأكيد الدقة الجديدة، أو سيتم إعادة تعيينها في %1$d ثانية.</string>
-    <string name="downscale_warning">إذا حدث أي خطأ ولم تتمكن من الوصول إلى زر "إعادة الضبط"، فلا تعيد تشغيل الجهاز!\nبدلاً من ذلك، اتصل بواجهة ADB وأدخل هذا الأمر: \'adb shell wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">إذا حدث أي خطأ ولم تتمكن من الوصول إلى زر "إعادة الضبط"، فلا تعيد تشغيل الجهاز!\nبدلاً من ذلك، اتصل بواجهة ADB وأدخل هذا الأمر: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">يمكن FDE.AI تشغيل وضع Doze قبل ذلك. إذا حدثت مشاكل، تطبيقات القائمة البيضاء باستخدام الزر أدناه.</string>
     <string name="doze_mode">فرض وضع الدوز</string>
     <string name="doze_sub_describtion">تمكين إدخال وضع Doze بمجرد إيقاف تشغيل الشاشة.</string>
@@ -227,7 +227,6 @@
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">مقياس التراكب</string>
     <string name="performance">الأداء</string>
-    <string name="power_checkbox">استهلاك الطاقة</string>
     <string name="powersave">توفير الطاقة</string>
     <string name="preload_pro_required">مطلوب تحميل مسبق لتطبيق Pro لهذه الميزة.</string>
     <string name="preload_title">التحميل التلقائي</string>
