@@ -16,7 +16,6 @@
     <string name="ai_off_detail">När AI är inaktiverad, FDE fungerar som en engångsoptimerare och optimerar inte i realtid.</string>
     <string name="ai_perf_mode">Optimera för prestanda. Utlösare CPU/GPU-turboer ofta.</string>
     <string name="ai_psave_mode">Optimera för energisparande. CPU/GPU-turboer utlöses inte.</string>
-    <string name="ai_settings_extra">Extra AI-inställningar</string>
     <string name="ai_state_busy">Bearbetar</string>
     <string name="ai_state_disabled">Avaktiverad</string>
     <string name="ai_state_ready">Arbetar</string>
@@ -211,7 +210,6 @@ Om problemet kvarstår, kontakta utvecklaren i Telegram.</string>
     <string name="onboarding_setup_message">Välj vilka tweaks som ska tillämpas. Du kan ändra inställningar efter installationen.</string>
     <string name="open_os_dev_settings">Öppna Android utvecklarinställningar</string>
     <string name="optimize_now">Optimera nu</string>
-    <string name="other_settings">Andra inställningar</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Genomsnitt: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Batteri: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

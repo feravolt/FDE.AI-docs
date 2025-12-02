@@ -16,7 +16,6 @@
     <string name="ai_off_detail">Kun tekoäly on poistettu käytöstä, FDE toimii kertakäyttöisenä optimointilaitteena eikä optimoi reaaliajassa.</string>
     <string name="ai_perf_mode">Optimoi suorituskykyä. Käynnistää CPU/GPU turboja usein.</string>
     <string name="ai_psave_mode">Optimoi virransäästöä varten. CPU/GPU-turboja ei käynnistetty.</string>
-    <string name="ai_settings_extra">Extra AI asetukset</string>
     <string name="ai_state_busy">Käsitellään</string>
     <string name="ai_state_disabled">Deaktivoitu</string>
     <string name="ai_state_ready">Työskentely</string>
@@ -211,7 +210,6 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="onboarding_setup_message">Valitse mitkä säädöt käytetään. Voit muuttaa asetuksia asennuksen jälkeen.</string>
     <string name="open_os_dev_settings">Avaa Android-kehittäjän asetukset</string>
     <string name="optimize_now">Optimoi nyt</string>
-    <string name="other_settings">Muut asetukset</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Keskin: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Akku: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">Suoritin: %1$s%%</string>

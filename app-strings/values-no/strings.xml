@@ -16,7 +16,6 @@
     <string name="ai_off_detail">Når AI er deaktivert, fungerer FDE som en engangsoptimaliser og optimaliserer ikke optimaliserer i sanntid.</string>
     <string name="ai_perf_mode">Optimaliser for ytelse. Triggers CPU/GPU-turboer hyppig.</string>
     <string name="ai_psave_mode">Optimaliserer for batterisparing. CPU/GPU-turboer ikke utløst.</string>
-    <string name="ai_settings_extra">Ekstra AI innstillinger</string>
     <string name="ai_state_busy">Behandler</string>
     <string name="ai_state_disabled">Deaktivert</string>
     <string name="ai_state_ready">Arbeider</string>
@@ -211,7 +210,6 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="onboarding_setup_message">Velg hvilke steder som skal brukes. Du kan endre innstillinger etter oppsett.</string>
     <string name="open_os_dev_settings">Åpne innstillinger for Android-utvikler</string>
     <string name="optimize_now">Optimaliser nå</string>
-    <string name="other_settings">Andre instillinger</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Av: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Batteri: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

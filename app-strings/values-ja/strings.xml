@@ -16,7 +16,6 @@
     <string name="ai_off_detail">AIが無効になっている場合、FDE.AIは1回限りの最適化ツールとして動作し、リアルタイムでの最適化は行いません。</string>
     <string name="ai_perf_mode">パフォーマンス向けに最適化します。CPU/GPUターボを頻繁に実行します。</string>
     <string name="ai_psave_mode">省電力向けに最適化します。CPU/GPUターボは実行されません。</string>
-    <string name="ai_settings_extra">追加のAI設定</string>
     <string name="ai_state_busy">処理中</string>
     <string name="ai_state_disabled">無効化されました</string>
     <string name="ai_state_ready">動作中</string>
@@ -211,7 +210,6 @@
     <string name="onboarding_setup_message">適用する微調整を選択してください。初期設定の完了後に設定を変更することもできます。</string>
     <string name="open_os_dev_settings">Androidの開発者設定を開く</string>
     <string name="optimize_now">今すぐ最適化</string>
-    <string name="other_settings">その他の設定</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">平均: %1$sFPS</string>
     <string name="overlay_battery_temp_x">バッテリー: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

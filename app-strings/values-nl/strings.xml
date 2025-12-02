@@ -16,7 +16,6 @@
     <string name="ai_off_detail">Als AI is uitgeschakeld, werkt FDE als eenmalige optimalisator en wordt niet in realtime geoptimaliseerd.</string>
     <string name="ai_perf_mode">Optimaliseer voor prestaties. Triggers CPU/GPU turbos regelmatig.</string>
     <string name="ai_psave_mode">Optimaliseren voor power-saving. CPU/GPU turbos worden niet geactiveerd.</string>
-    <string name="ai_settings_extra">Extra AI instellingen</string>
     <string name="ai_state_busy">Verwerken</string>
     <string name="ai_state_disabled">Gedeactiveerd</string>
     <string name="ai_state_ready">Werken</string>
@@ -211,7 +210,6 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="onboarding_setup_message">Selecteer welke aanpassingen van toepassing zijn. U kunt de instellingen wijzigen na installatie.</string>
     <string name="open_os_dev_settings">Open instellingen voor Android-ontwikkelaars</string>
     <string name="optimize_now">Nu optimaliseren</string>
-    <string name="other_settings">Andere instellingen</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Gem. %1$s FPS</string>
     <string name="overlay_battery_temp_x">Batterij: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

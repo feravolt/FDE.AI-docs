@@ -16,7 +16,6 @@
     <string name="ai_off_detail">Nếu tắt AI, FDE sẽ thành công cụ tối ưu hóa một lần và sẽ không tối ưu theo thời gian thực.</string>
     <string name="ai_perf_mode">Tối ưu cho hiệu năng. Kích xung CPU/GPU thường xuyên.</string>
     <string name="ai_psave_mode">Tối ưu cho hiệu suất. Không kích xung CPU/GPU.</string>
-    <string name="ai_settings_extra">Cài đặt AI bổ sung</string>
     <string name="ai_state_busy">Đang xử lý</string>
     <string name="ai_state_disabled">Đã vô hiệu hóa</string>
     <string name="ai_state_ready">Đang hoạt động</string>
@@ -210,7 +209,6 @@ Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển tr
     <string name="onboarding_setup_message">Chọn chỉnh sửa để áp dụng. Bạn có thể đổi cài đặt sau khi thiết lập.</string>
     <string name="open_os_dev_settings">Mở cài đặt nhà phát triển Android</string>
     <string name="optimize_now">Tối ưu ngay</string>
-    <string name="other_settings">Các thiết lập khác</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">T. bình: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Pin: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

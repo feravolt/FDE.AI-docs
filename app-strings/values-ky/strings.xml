@@ -16,7 +16,6 @@
     <string name="ai_off_detail">ЖИ өчүрүлгөндө, FDE бир жолку оптимализатор катары иштейт жана реалдуу убакытта оптималдаштырбайт.</string>
     <string name="ai_perf_mode">Ылдам иштөөнү камсыз кылуу. CPU/GPU турбосун тез-тез иштетет.</string>
     <string name="ai_psave_mode">Энергияны үнөмдөө үчүн оптималдаштыруу. CPU/GPU турболору иштетилбейт.</string>
-    <string name="ai_settings_extra">ЖИнин кошумча жөндөөлөрү</string>
     <string name="ai_state_busy">Процессте</string>
     <string name="ai_state_disabled">Өчүрүлгөн</string>
     <string name="ai_state_ready">Иштөөдө</string>
@@ -211,7 +210,6 @@
     <string name="onboarding_setup_message">Кайсы өзгөртүүлөр колдонуларын тандаңыз. Орнотуудан кийин жөндөөлөрдү өзгөртө аласыз.</string>
     <string name="open_os_dev_settings">Android иштеп чыгуучунун жөндөөлөрүн ачыңыз</string>
     <string name="optimize_now">Азыр оптимизацияла</string>
-    <string name="other_settings">Башка жөндөөлөрү</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Орточо: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Батарея: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

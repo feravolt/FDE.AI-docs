@@ -16,7 +16,6 @@
     <string name="ai_off_detail">Wenn die KI deaktiviert ist, fungiert FDE als einmaliger Optimierer und optimiert nicht in Echtzeit.</string>
     <string name="ai_perf_mode">Optimiert die Leistung. Trigger oft CPU/GPU Turbos.</string>
     <string name="ai_psave_mode">Optimieren für Energieeinsparung. CPU/GPU Turbos werden nicht ausgelöst.</string>
-    <string name="ai_settings_extra">Zusätzliche KI-Einstellungen</string>
     <string name="ai_state_busy">Verarbeitung</string>
     <string name="ai_state_disabled">Deaktiviert</string>
     <string name="ai_state_ready">Arbeiten</string>
@@ -211,7 +210,6 @@ Wenn das Problem weiterhin besteht, wenden Sie sich per Telegram an den Entwickl
     <string name="onboarding_setup_message">Wählen Sie aus, welche Optimierungen angewendet werden sollen. Sie können die Einstellungen nach dem Setup ändern.</string>
     <string name="open_os_dev_settings">Android-Entwickler-Einstellungen öffnen</string>
     <string name="optimize_now">Jetzt optimieren</string>
-    <string name="other_settings">Andere Einstellungen</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Durchschnitt: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Akku: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

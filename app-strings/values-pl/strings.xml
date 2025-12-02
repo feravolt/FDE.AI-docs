@@ -16,7 +16,6 @@
     <string name="ai_off_detail">Gdy AI jest wyłączony, FDE działa jako jednorazowy optymalizator i nie optymalizuje w czasie rzeczywistym.</string>
     <string name="ai_perf_mode">Optymalizuj pod kątem wydajności. Wyzwala często turbiny CPU/GPU.</string>
     <string name="ai_psave_mode">Optymalizuj pod kątem oszczędzania energii. CPU/GPU turbos nie wyzwalany.</string>
-    <string name="ai_settings_extra">Dodatkowe ustawienia AI</string>
     <string name="ai_state_busy">Przetwarzanie</string>
     <string name="ai_state_disabled">Dezaktywowane</string>
     <string name="ai_state_ready">Praca</string>
@@ -213,7 +212,6 @@ Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegra
     <string name="onboarding_setup_message">Wybierz, które ulepszenia mają być zastosowane. Możesz zmienić ustawienia po ustawieniu.</string>
     <string name="open_os_dev_settings">Otwórz ustawienia programisty Androida</string>
     <string name="optimize_now">Optymalizuj teraz</string>
-    <string name="other_settings">Inne ustawienia</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Średnia: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Bateria: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

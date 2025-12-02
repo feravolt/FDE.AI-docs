@@ -16,7 +16,6 @@
     <string name="ai_off_detail">Όταν το AI είναι απενεργοποιημένο, το FDE ενεργεί μία φορά τη βελτιστοποίηση του συστήματος και δεν βελτιστοποιεί σε πραγματικό χρόνο.</string>
     <string name="ai_perf_mode">Βελτιστοποίηση απόδοσης. Ενεργοποιεί συχνά την επιτάχυνση της CPU/GPU.</string>
     <string name="ai_psave_mode">Βελτιστοποίηση για εξοικονόμηση ενέργειας. Δεν θα ενεργοποιείται η επιτάχυνση της CPU/GPU.</string>
-    <string name="ai_settings_extra">Επιπλέον ρυθμίσεις AI</string>
     <string name="ai_state_busy">Επεξεργασία</string>
     <string name="ai_state_disabled">Απενεργοποιημένο</string>
     <string name="ai_state_ready">Σε Εργασία</string>
@@ -211,7 +210,6 @@
     <string name="onboarding_setup_message">Επιλέξτε ποιες τροποποιήσεις θα εφαρμοστούν. Μπορείτε να αλλάξετε τις ρυθμίσεις μετά τη ρύθμιση.</string>
     <string name="open_os_dev_settings">Άνοιγμα ρυθμίσεων προγραμματιστή Android</string>
     <string name="optimize_now">Βελτιστοποίηση τώρα</string>
-    <string name="other_settings">Άλλες ρυθμίσεις</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Μέσος Όρος: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Μπαταρία: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

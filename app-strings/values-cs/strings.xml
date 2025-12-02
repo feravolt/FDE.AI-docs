@@ -16,7 +16,6 @@
     <string name="ai_off_detail">Pokud je AI vypnutá, FDE funguje jako jednorázový optimizér a neoptimalizuje se v reálném čase.</string>
     <string name="ai_perf_mode">Optimalizujte pro výkon. Spouštěče CPU/GPU jsou často aktivovány.</string>
     <string name="ai_psave_mode">Optimalizujte pro úsporu výkonu. CPU/GPU turbiny nejsou spuštěny.</string>
-    <string name="ai_settings_extra">Extra AI nastavení</string>
     <string name="ai_state_busy">Zpracovávání</string>
     <string name="ai_state_disabled">Deaktivováno</string>
     <string name="ai_state_ready">Práce</string>
@@ -213,7 +212,6 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="onboarding_setup_message">Vyberte, která vylepšení budou použita. Po nastavení můžete změnit nastavení.</string>
     <string name="open_os_dev_settings">Otevřít nastavení vývojáře Androidu</string>
     <string name="optimize_now">Optimalizovat nyní</string>
-    <string name="other_settings">Další nastavení</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Průměr: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Baterie: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

@@ -16,7 +16,6 @@
     <string name="ai_off_detail">Ketika AI dinonaktifkan, FDE berfungsi sebagai pengoptimal satu kali dan tidak mengoptimalkan secara waktu nyata.</string>
     <string name="ai_perf_mode">Optimalkan untuk kinerja. Sering memicu turbo CPU/GPU.</string>
     <string name="ai_psave_mode">Optimalkan untuk penghematan daya. Turbo CPU/GPU tidak diaktifkan.</string>
-    <string name="ai_settings_extra">Pengaturan AI tambahan</string>
     <string name="ai_state_busy">Memproses</string>
     <string name="ai_state_disabled">Dinonaktifkan</string>
     <string name="ai_state_ready">Sedang Bekerja</string>
@@ -210,7 +209,6 @@ Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="onboarding_setup_message">Pilih penyesuaian mana yang akan diterapkan. Anda dapat mengubah pengaturan setelah penyiapan.</string>
     <string name="open_os_dev_settings">Buka pengaturan pengembang Android</string>
     <string name="optimize_now">Optimalkan sekarang</string>
-    <string name="other_settings">Pengaturan lainnya</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Rata-rata: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Battery: %1$s°C</string>
     <string name="overlay_desc_text">Aktifkan jendela mengambang dengan statistik waktu nyata untuk pemantauan.</string>

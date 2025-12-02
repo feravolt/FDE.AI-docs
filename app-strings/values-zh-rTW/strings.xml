@@ -16,7 +16,6 @@
     <string name="ai_off_detail">當人工智慧停用時，FDE 只會優化一次，並不會即時優化。</string>
     <string name="ai_perf_mode">優化成性能模式， 經常觸發 CPU/GPU Turbo。</string>
     <string name="ai_psave_mode">優化成省電模式， 不會觸發 CPU/GPU Turbo</string>
-    <string name="ai_settings_extra">額外的人工智慧設定</string>
     <string name="ai_state_busy">處理中</string>
     <string name="ai_state_disabled">已停用</string>
     <string name="ai_state_ready">運行中</string>
@@ -210,7 +209,6 @@
     <string name="onboarding_setup_message">選擇要套用的調整。 您可以在設定後，再更改設定。</string>
     <string name="open_os_dev_settings">開啟 Android 開發者設定</string>
     <string name="optimize_now">立刻優化</string>
-    <string name="other_settings">其他設定</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">平均：%1$s FPS</string>
     <string name="overlay_battery_temp_x">電池：%1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

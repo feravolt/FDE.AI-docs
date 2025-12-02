@@ -16,7 +16,6 @@
     <string name="ai_off_detail">Când AI este dezactivat, FDE acţionează ca un optimizator de unică folosinţă şi nu se optimizează în timp real.</string>
     <string name="ai_perf_mode">Optimizează pentru performanţă. Declanşează frecvent turbos CPU/GPU.</string>
     <string name="ai_psave_mode">Optimizează pentru economisirea de energie. Turbourile CPU/GPU nu sunt declanșate.</string>
-    <string name="ai_settings_extra">Setări AI suplimentare</string>
     <string name="ai_state_busy">Prelucrare</string>
     <string name="ai_state_disabled">Dezactivată</string>
     <string name="ai_state_ready">Munca</string>
@@ -212,7 +211,6 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="onboarding_setup_message">Selectați ce modificări să aplicați. Puteți modifica setările după configurare.</string>
     <string name="open_os_dev_settings">Deschide setările dezvoltatorului Android</string>
     <string name="optimize_now">Optimizează acum</string>
-    <string name="other_settings">Alte setări</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Medie: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Baterie: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

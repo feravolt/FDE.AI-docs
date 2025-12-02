@@ -16,7 +16,6 @@
     <string name="ai_off_detail">عندما يتم تعطيل الذكاء الاصطناعي، يعمل FDE كعامل تحسين لمرة واحدة ولا يحسن في الوقت الحقيقي.</string>
     <string name="ai_perf_mode">تحسين الأداء. تنشيط المعالج المعالج/تربو بشكل متكرر.</string>
     <string name="ai_psave_mode">تحسين لتوفير الطاقة. لم يتم تشغيل تربوت وحدة المعالجة المركزية/وحدة PU</string>
-    <string name="ai_settings_extra">إعدادات الذكاء الاضافي</string>
     <string name="ai_state_busy">معالجة</string>
     <string name="ai_state_disabled">معطلة</string>
     <string name="ai_state_ready">العمل</string>
@@ -213,7 +212,6 @@
     <string name="onboarding_setup_message">حدد التعديلات التي تريد تطبيقها. يمكنك تغيير الإعدادات بعد الإعداد.</string>
     <string name="open_os_dev_settings">فتح إعدادات مطور الأندرويد</string>
     <string name="optimize_now">تحسين الآن</string>
-    <string name="other_settings">إعدادات أخرى</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">متوسط: %1$s FPS</string>
     <string name="overlay_battery_temp_x">البطارية: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">المعالج: %1$s%%</string>

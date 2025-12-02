@@ -16,7 +16,6 @@
     <string name="ai_off_detail">当AI 被禁用时，FDE作为一次性优化器，不能实时优化。</string>
     <string name="ai_perf_mode">优化性能。经常触发 CPU/GPU 涡轮机。</string>
     <string name="ai_psave_mode">优化节能。CPU/GPU炮塔未触发。</string>
-    <string name="ai_settings_extra">额外的 AI 设置</string>
     <string name="ai_state_busy">处理中</string>
     <string name="ai_state_disabled">已停用</string>
     <string name="ai_state_ready">工作</string>
@@ -210,7 +209,6 @@
     <string name="onboarding_setup_message">选择应用哪个调整。您可以在设置后更改设置。</string>
     <string name="open_os_dev_settings">打开 Android 开发者设置</string>
     <string name="optimize_now">立即优化</string>
-    <string name="other_settings">其他设置</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">平均: %1$s FPS</string>
     <string name="overlay_battery_temp_x">电池： %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

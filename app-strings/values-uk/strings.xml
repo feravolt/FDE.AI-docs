@@ -16,7 +16,6 @@
     <string name="ai_off_detail">Коли ШІ вимкнений, FDE діє як одноразовий оптимізатор і не оптимізує в режимі реального часу.</string>
     <string name="ai_perf_mode">Оптимізація системи для продуктивності. CPU/GPU Turbo і інше будуть спрацьовувати частіше.</string>
     <string name="ai_psave_mode">Оптимізація системи для енергозбереження. CPU/GPU Turbo і інше перестануть спрацьовувати.</string>
-    <string name="ai_settings_extra">Додаткові параметри AI</string>
     <string name="ai_state_busy">Обробка</string>
     <string name="ai_state_disabled">Деактивовано</string>
     <string name="ai_state_ready">Працюю</string>
@@ -216,7 +215,6 @@
     <string name="onboarding_setup_message">Виберіть параметри які будуть застосовуватися. Після налаштування ви можете змінити їх після початкового встановлення.</string>
     <string name="open_os_dev_settings">Відкрити налаштування розробника Android</string>
     <string name="optimize_now">Оптимізувати зараз</string>
-    <string name="other_settings">Інші параметри</string>
     <string name="overlay_avg_fps">Середнє: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Батарея: %1$s°C</string>
     <string name="overlay_cpu_load">CPU: %1$s%%</string>

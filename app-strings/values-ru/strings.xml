@@ -16,7 +16,6 @@
     <string name="ai_off_detail">Когда ИИ отключен, FDE срабатывает только один раз (т.е. не оптимизирует систему \"на лету\")</string>
     <string name="ai_perf_mode">Оптимизация системы для производительности. CPU/GPU Turbo и прочее будут срабатывать чаще.</string>
     <string name="ai_psave_mode">Оптимизация системы для энергосбережения. CPU/GPU Turbo и прочее перестанут срабатывать.</string>
-    <string name="ai_settings_extra">Доп. настройки ИИ</string>
     <string name="ai_state_busy">Обработка</string>
     <string name="ai_state_disabled">Отключен</string>
     <string name="ai_state_ready">Работает</string>
@@ -214,7 +213,6 @@
     <string name="onboarding_setup_message">Пожалуйста, выберите, какие твики нужно применить. Вы сможете изменить любые настройки после начальной установки.</string>
     <string name="open_os_dev_settings">Открыть настройки разработчика Android</string>
     <string name="optimize_now">Оптимизировать сейчас</string>
-    <string name="other_settings">Другие настройки</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Сред.: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Батарея: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">ЦП: %1$s%%</string>
@@ -298,7 +296,7 @@
     <string name="update_available">Доступно обновление</string>
     <string name="updating_toast">Скачивание обновления…</string>
     <string name="vibration">Вибрация</string>
-    <string name="vm_cache_tune">Настройка кэша ВМ</string>
+    <string name="vm_cache_tune">Настройка кэша VM</string>
     <string name="warning_header">Предупреждение</string>
     <string name="warning_no">Нет</string>
     <string name="warning_title">Внимание!</string>

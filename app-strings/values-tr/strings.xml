@@ -16,7 +16,6 @@
     <string name="ai_off_detail">Yapay zeka devre dışı bırakıldığında, FDE tek seferlik bir optimize edici görevi görür ve gerçek zamanlı olarak optimize etmez.</string>
     <string name="ai_perf_mode">Performans için optimize edin. CPU/GPU turbolarını sık-sık tetikler.</string>
     <string name="ai_psave_mode">Güç tasarrufu için optimize edin. CPU/GPU turbolarını tetiklemez.</string>
-    <string name="ai_settings_extra">Ekstra AI ayarları</string>
     <string name="ai_state_busy">İşleniyor</string>
     <string name="ai_state_disabled">Devre dışı bırakıldı</string>
     <string name="ai_state_ready">Çalışıyor</string>
@@ -211,7 +210,6 @@ Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="onboarding_setup_message">Uygulanacak ince ayarları seçin. Kurulumdan sonra ayarları değiştirebilirsiniz.</string>
     <string name="open_os_dev_settings">Android geliştirici ayarlarını açın</string>
     <string name="optimize_now">Şimdi optimize et</string>
-    <string name="other_settings">Diğer ayarlar</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Ortalama: %1$s fps</string>
     <string name="overlay_battery_temp_x">Pil: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">İşlemci: %1$s%%</string>

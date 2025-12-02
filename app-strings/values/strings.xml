@@ -17,7 +17,6 @@
     <string name="ai_off_detail">When AI is disabled, FDE acts as a one-time optimizer and doesn\’t optimize in real time.</string>
     <string name="ai_perf_mode">Optimize for performance. Triggers CPU/GPU turbos frequently.</string>
     <string name="ai_psave_mode">Optimize for power-saving. CPU/GPU turbos not triggered.</string>
-    <string name="ai_settings_extra">Extra AI settings</string>
     <string name="ai_state_busy">Processing</string>
     <string name="ai_state_disabled">Deactivated</string>
     <string name="ai_state_ready">Working</string>
@@ -225,7 +224,6 @@
     <string name="onboarding_setup_message">Select which tweaks to apply. You can change settings after setup.</string>
     <string name="open_os_dev_settings">Open Android developer settings</string>
     <string name="optimize_now">Optimize now</string>
-    <string name="other_settings">Other settings</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Avg: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Battery: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

@@ -16,7 +16,6 @@
     <string name="ai_off_detail">Quando AI está desativado, o FDE atua como um otimizador único e não é otimizado em tempo real.</string>
     <string name="ai_perf_mode">Otimizar por performance. Desencadeia os turbos da CPU/GPU frequentemente.</string>
     <string name="ai_psave_mode">Otimizar para economizar energia. Turbos da CPU/GPU não ativados.</string>
-    <string name="ai_settings_extra">Configurações AI adicionais</string>
     <string name="ai_state_busy">Processando</string>
     <string name="ai_state_disabled">Desativado</string>
     <string name="ai_state_ready">Trabalhando</string>
@@ -211,7 +210,6 @@ Se o problema persistir, contacte o programador no Telegram.</string>
     <string name="onboarding_setup_message">Selecione quais tweaks serão aplicados. Você pode alterar as configurações após a configuração.</string>
     <string name="open_os_dev_settings">Abrir configurações do desenvolvedor do Android</string>
     <string name="optimize_now">Otimizar agora</string>
-    <string name="other_settings">Outras configurações</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Média: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Bateria: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>
