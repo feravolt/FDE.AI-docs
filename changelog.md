@@ -1,6 +1,6 @@
 ### Changelog
 
-## **v25.12.1**
+## **v25.12.2**
 
 ### New:
 
@@ -11,6 +11,7 @@
 — UI and performance\
 — Reduced app size\
 — Reduced power consumption\
+— Shizuku mode\
 — Core: performance\
 — Core: hardware detection\
 — Core: throttling control\

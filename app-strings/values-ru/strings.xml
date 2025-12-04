@@ -116,7 +116,7 @@
     <string name="downscale_btn">Даунскейл</string>
     <string name="downscale_desc">Позволяет понизить разрешение экрана для улучшения производительности и энергосбережения ценой качества изображения. Приложение меняет настройки масштаба для сохранения оригинального изображения. При использовании оболочек (MIUI, EMUI и т.д.) не рекомендуется снижать разрешение ниже половины от оригинального, иначе интерфейс может упасть.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Нажмите ОК, чтобы подтвердить новое уменьшенное разрешение, иначе оно будет сброшено через %1$d сек.</string>
-    <string name="downscale_warning">Если вдруг что-то пойдёт не так и у вас не будет доступа к кнопке \'Сброс\' - не перзагружайте устройство!\nВместо этого подключитесь к ADB shell введите команду: adb shell \'wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">Если вдруг что-то пойдёт не так и у вас не будет доступа к кнопке \'Сброс\' - не перезагружайте устройство!\nВместо этого подключитесь к ADB shell введите команду: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI может ускорить этот процесс. Если возникнут проблемы, добавьте приложения в белый список Doze, нажав кнопку ниже.</string>
     <string name="doze_mode">Принудит. режим Doze</string>
     <string name="doze_sub_describtion">Вкл. или выкл. принудительный режим Doze.</string>
@@ -304,4 +304,7 @@
     <string name="welcome">Здравствуйте</string>
     <string name="wifi_psave_descr">Чтобы уменьшить шанс разрыва соединения с Shizuku вы можете попробовать отключить спящий режим WiFi, но это может увеличить энергопотребление.</string>
     <string name="wifi_psave_header">Откл. спящий режим WiFi</string>
+    <string name="changelog_link" tools:ignore="MissingTranslation">https://github.com/feravolt/FDE.AI-docs/blob/RU/changelog.md</string>
+    <string name="forum" tools:ignore="MissingTranslation,TypographyDashes">https://4pda.to/forum/index.php?showtopic=716174</string>
+    <string name="telegram" tools:ignore="MissingTranslation">https://t.me/feralab_news_rus</string>
 </resources>
