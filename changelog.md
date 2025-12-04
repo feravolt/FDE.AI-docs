@@ -1,160 +1,161 @@
-### Список изменений
+### Changelog
 
-## **v25.11.1**
+## **v25.12.2**
 
-### Новое:
+### New:
 
-— Дизайн приложения
+— App design
 
-### Улучшено:
+### Improved:
 
-— Интерфейс и производительность\
-— Уменьшен размер приложения\
-— Снижено энергопотребление\
-— База: производительность\
-— База: обнаружение оборудования\
-— База: управление троттлингом\
-— База: твики системной оптимизации\
-— База: логика ИИ
+— UI and performance\
+— Reduced app size\
+— Reduced power consumption\
+— Shizuku mode\
+— Core: performance\
+— Core: hardware detection\
+— Core: throttling control\
+— Core: system optimization tweaks\
+— Core: AI logic
 
-### Исправлено:
+### Fixed:
 
-— Энергоэффективный FPS
+— Low power FPS
 
 ---
 
 ## **v25.10.1**
 
-### Новое:
+### New:
 
-— Удаление мусорных приложений (деблоатер)\
-— Автоматическое переподключение к Shizuku\
-— Отображение времени работы в уведомлении ИИ
+— System apps debloater\
+— Auto re-connect to Shizuku\
+— Life time in AI notification
 
-### Улучшено:
+### Improved:
 
-— Стабильность режима Shizuku\
-— Интерфейс и производительность приложения\
-— FPS метр\
-— База: производительность
+— Shizuku mode stability\
+— Application UI and performance\
+— FPS meter\
+— Core: performance
 
-### Исправлено:
+### Fixed:
 
-— Переопределение языка для служб\
-— Переопределение темы для сплэш экрана\
-— Зависания приложения в режиме Shizuku
+— Language override for services\
+— Theme override for splash screen\
+— App freezes in Shizuku mode
 
 ---
 
 ## **v25.07.6**
 
-### Новое:
+### New:
 
-— Постоянное уведомление режима ИИ в режиме Shizuku\
-— Поддержка режима Shizuku на Android 7+\
-— Переключение спящего режима WiFi для улучшения соединения Shizuku\
-— Поддержка подсказок производительности (performance hint) Android в режиме Shizuku
+— Constant AI mode notification in Shizuku mode\
+— Android 7+ Shizuku mode support\
+— WiFi sleep mode toggle to improve Shizuku connection\
+— Android performance hint support for Shizuku mode
 
-### Улучшено:
+### Improved:
 
-— Производительность оверлея мониторинга\
-— Диаграмма ИИ и документация\
-— Кнопка сброса теперь частично сбрасывает системные изменения в режиме Shizuku\
-— База: скорость ИИ\
-— База: твики производительности в режиме Shizuku
+— Monitoring overlay performance\
+— AI diagram and documentation\
+— Reset button now partially resets system changes in Shizuku mode\
+— Core: AI speed\
+— Core: performance tweaks in Shizuku mode
 
-### Исправлено:
+### Fixed:
 
-— Уведомление о блокировке ядра в режиме Shizuku\
-— База: повышенное потребление энергии в фоне
+— Kernel block warning for Shizuku mode\
+— Core: idle battery drain
 
 ---
 
 ## **v25.06.7**
 
-### Новое:
+### New:
 
-— Поддержка Shizuku без root\
-— Поддержка KernelSU Next\
-— Авто-экономия данных\
-— База: интеграция Android Game API в профили приложений\
-— База: поддержка ускорения DDR/L3/UFS
+— Support Shizuku for non-root users\
+— Support KernelSU Next\
+— Add auto data saver\
+— Integrate Android Game API into app profiles\
+— Core: enable DDR/L3/UFS boost
 
-### Улучшено:
+### Improved:
 
-— Интерфейс и его производительность\
-— Функция CoolDown\
-— Очистка ОЗУ\
-— Производительность сервисов и оверлея мониторинга\
-— Отображение видеопамяти в оверлее\
-— База: управление троттлингом\
-— База: оптимизация фоновой файловой системы\
-— База: опция отключения логов\
-— База: оптимизация кеша ART
+— UI and its performance\
+— Cooldown feature\
+— RAM cleaning\
+— Service and monitoring overlay performance\
+— VRAM in monitoring overlay\
+— Core: throttling control\
+— Core: background filesystem optimization\
+— Core: option to disable logs\
+— Core: optimize ART cache
 
-### Исправлено:
+### Fixed:
 
-— FPS-метр на старых версиях ОС\
-— База: определение частоты ЦП
+— Fix FPS meter on older OS versions\
+— Core: CPU frequency detection
 
 ---
 
 ## **v25.04.3**
 
-### Новое:
+### New:
 
-— Удалена авто-настройка частот ИИ\
-— Удален пользовательский период цикла ИИ\
-— База: фоновая оптимизация ФС\
-— База: режим ИИ привязан к режиму энергосбережения ОС\
-— База: твики WALT
+— Removed AI freqs auto-tune\
+— Removed AI custom cycle period\
+— Core: background FS optimization\
+— Core: AI mode bound to OS powersave mode\
+— Core: WALT tweaks
 
-### Улучшено:
+### Improved:
 
-— Интерфейс и производительность приложения\
-— База: скорость выполнения\
-— База: настройки ФС\
-— База: логика CPU и GPU Turbo\
-— База: управление троттлингом\
-— База: оптимизация частот ЦП\
-— База: Adreno GPU Turbo
+— Application UI and performance\
+— Core: execution speed\
+— Core: FS tweaks\
+— Core: CPU & GPU Turbo logic\
+— Core: throttling control\
+— Core: CPU freq optimization\
+— Core: Adreno GPU Turbo
 
-### Исправлено:
+### Fixed:
 
-— Вылеты на некоторых устройствах\
-— Неправильное определение Premium версии\
-— База: микро-лаги на некоторых устройствах\
-— База: функция ограничения заряда
+— Crashes on some devices\
+— Premium not detected properly\
+— Core: minor lags on some devices\
+— Core: charging limit function
 
 ---
 
 ## **v25.03.7**
 
-### Новое:
+### New:
 
-— Бесплатные звуковые пакеты для всех пользователей\
-— Профили приложений теперь доступны только премиум-пользователям\
-— Прокручиваемый график оверлея мониторинга\
-— Поддержка APatch root\
-— Контроль троттлинга в профилях\
-— Поддержка Android 16
+— Free soundpacks for all users\
+— App profiles are now exclusive to premium users\
+— Scrollable monitoring overlay graph\
+— APatch root support\
+— Throttling control in profiles\
+— Android 16 support
 
-### Улучшено:
+### Improved:
 
-— Интерфейс и производительность приложения\
-— Обновленный BusyBox\
-— Счетчик FPS\
-— База: оптимизация кэша ART\
-— База: твики ФС\
-— База: твики ядра\
-— База: энергоэффективный FPS\
-— База: функция ограничения зарядки\
-— База: скорость исполнения\
-— База: CPU Turbo\
-— База: удалены твики build.prop
+— Application UI and performance\
+— Updated internal BusyBox\
+— FPS meter\
+— Core: ART cache optimization\
+— Core: FS tweaks\
+— Core: kernel tweaks\
+— Core: low-power FPS module\
+— Core: charging limit feature\
+— Core: execution speed\
+— Core: CPU Turbo\
+— Core: removed build.prop tweaks
 
-### Исправлено:
+### Fixed:
 
-— Проблемы с миграцией данных\
-— База: управление памятью VM\
-— База: удалена автоматическая герцовка в LPFPS
+— Data migration issues\
+— Core: VM memory management\
+— Core: removed AutoHZ in LPFPS
