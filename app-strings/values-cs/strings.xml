@@ -300,6 +300,6 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="warning_title">Varování!</string>
     <string name="warning_yes">Ano</string>
     <string name="welcome">Vítejte</string>
-    <string name="wifi_psave_descr">Abyste snížili pravděpodobnost odpojení od Shizuku, můžete zkusit vypnout režim spánku WiFi, ale to může zvýšit spotřebu energie v nečinnosti.</string>
-    <string name="wifi_psave_header">Vypnout režim spánku WiFi</string>
+    <string name="wifi_psave_descr">Abyste snížili pravděpodobnost odpojení od Shizuku, můžete zkusit vypnout režim spánku Wi-Fi, ale to může zvýšit spotřebu energie v nečinnosti.</string>
+    <string name="wifi_psave_header">Vypnout režim spánku Wi-Fi</string>
 </resources>

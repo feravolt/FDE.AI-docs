@@ -298,6 +298,6 @@ Si el problema persiste, contacta con el desarrollador en Telegram.</string>
     <string name="warning_title">¡Advertencia!</string>
     <string name="warning_yes">Sí</string>
     <string name="welcome">Bienvenido</string>
-    <string name="wifi_psave_descr">Para reducir la posibilidad de desconectarse de Shizuku, puedes intentar desactivar el modo de suspensión de WiFi, pero esto podría aumentar el consumo de energía en inactividad.</string>
-    <string name="wifi_psave_header">Desactivar el modo de suspensión de WiFi</string>
+    <string name="wifi_psave_descr">Para reducir la posibilidad de desconectarse de Shizuku, puedes intentar desactivar el modo de suspensión de Wi-Fi, pero esto podría aumentar el consumo de energía en inactividad.</string>
+    <string name="wifi_psave_header">Desactivar el modo de suspensión de Wi-Fi</string>
 </resources>

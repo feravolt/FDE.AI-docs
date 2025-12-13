@@ -297,6 +297,6 @@ Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="warning_title">Amaran!</string>
     <string name="warning_yes">Ya</string>
     <string name="welcome">Selamat Datang</string>
-    <string name="wifi_psave_descr">Untuk mengurangkan kemungkinan memutuskan sambungan dengan Shizuku, anda boleh cuba melumpuhkan mod tidur WiFi, tetapi ini mungkin meningkatkan penggunaan kuasa melahu.</string>
-    <string name="wifi_psave_header">Lumpuhkan mod tidur WiFi</string>
+    <string name="wifi_psave_descr">Untuk mengurangkan kemungkinan memutuskan sambungan dengan Shizuku, anda boleh cuba melumpuhkan mod tidur Wi-Fi, tetapi ini mungkin meningkatkan penggunaan kuasa melahu.</string>
+    <string name="wifi_psave_header">Lumpuhkan mod tidur Wi-Fi</string>
 </resources>

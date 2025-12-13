@@ -298,6 +298,6 @@ Om problemet kvarstår, kontakta utvecklaren i Telegram.</string>
     <string name="warning_title">Varning!</string>
     <string name="warning_yes">Ja</string>
     <string name="welcome">Välkommen</string>
-    <string name="wifi_psave_descr">För att minska risken för att du kopplas bort från Shizuku kan du försöka inaktivera WiFi-viloläge, men det kan öka strömförbrukningen vid viloläge.</string>
-    <string name="wifi_psave_header">Inaktivera WiFi-viloläge</string>
+    <string name="wifi_psave_descr">För att minska risken för att du kopplas bort från Shizuku kan du försöka inaktivera Wi-Fi-viloläge, men det kan öka strömförbrukningen vid viloläge.</string>
+    <string name="wifi_psave_header">Inaktivera Wi-Fi-viloläge</string>
 </resources>

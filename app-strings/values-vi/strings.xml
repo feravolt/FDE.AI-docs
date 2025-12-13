@@ -297,6 +297,6 @@ Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển tr
     <string name="warning_title">Cảnh báo!</string>
     <string name="warning_yes">Có</string>
     <string name="welcome">Chào mừng</string>
-    <string name="wifi_psave_descr">Để giảm nguy cơ mất kết nối với Shizuku, bạn có thể thử tắt chế độ ngủ WiFi, nhưng điều này có thể làm tăng mức tiêu thụ điện năng khi không sử dụng.</string>
-    <string name="wifi_psave_header">Tắt chế độ ngủ WiFi</string>
+    <string name="wifi_psave_descr">Để giảm nguy cơ mất kết nối với Shizuku, bạn có thể thử tắt chế độ ngủ Wi-Fi, nhưng điều này có thể làm tăng mức tiêu thụ điện năng khi không sử dụng.</string>
+    <string name="wifi_psave_header">Tắt chế độ ngủ Wi-Fi</string>
 </resources>

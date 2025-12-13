@@ -297,6 +297,6 @@
     <string name="warning_title">警告！</string>
     <string name="warning_yes">否</string>
     <string name="welcome">欢迎使用</string>
-    <string name="wifi_psave_descr">为了减少与 Shizuku 断开连接的可能性，您可以尝试禁用 WiFi 睡眠模式，但这可能会增加空闲功耗。</string>
-    <string name="wifi_psave_header">禁用 WiFi 睡眠模式</string>
+    <string name="wifi_psave_descr">为了减少与 Shizuku 断开连接的可能性，您可以尝试禁用 Wi-Fi 睡眠模式，但这可能会增加空闲功耗。</string>
+    <string name="wifi_psave_header">禁用 Wi-Fi 睡眠模式</string>
 </resources>

@@ -299,5 +299,5 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="warning_yes">ja</string>
     <string name="welcome">Verwelkoming</string>
     <string name="wifi_psave_descr">Om de kans te verkleinen dat de verbinding met Shizuku wordt verbroken, kunt u proberen de wifi-slaapstand uit te schakelen. Dit kan echter het stroomverbruik in rust verhogen.</string>
-    <string name="wifi_psave_header">WiFi-slaapstand uitschakelen</string>
+    <string name="wifi_psave_header">Wi-Fi-slaapstand uitschakelen</string>
 </resources>

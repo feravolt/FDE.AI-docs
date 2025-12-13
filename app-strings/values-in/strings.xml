@@ -295,6 +295,6 @@ Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="warning_title">Peringatan!</string>
     <string name="warning_yes">Ya</string>
     <string name="welcome">Selamat Datang</string>
-    <string name="wifi_psave_descr">Untuk mengurangi risiko terputusnya koneksi dengan Shizuku, Anda dapat mencoba menonaktifkan mode tidur WiFi, tetapi hal ini dapat meningkatkan konsumsi daya saat tidak digunakan.</string>
-    <string name="wifi_psave_header">Nonaktifkan mode tidur WiFi</string>
+    <string name="wifi_psave_descr">Untuk mengurangi risiko terputusnya koneksi dengan Shizuku, Anda dapat mencoba menonaktifkan mode tidur Wi-Fi, tetapi hal ini dapat meningkatkan konsumsi daya saat tidak digunakan.</string>
+    <string name="wifi_psave_header">Nonaktifkan mode tidur Wi-Fi</string>
 </resources>

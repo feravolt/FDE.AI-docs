@@ -298,6 +298,6 @@ Hvis problemet fortsætter, kontakt udvikleren i Telegram.</string>
     <string name="warning_title">Advarsel!</string>
     <string name="warning_yes">Ja</string>
     <string name="welcome">Velkommen</string>
-    <string name="wifi_psave_descr">For at mindske risikoen for at afbryde forbindelsen med Shizuku kan du prøve at deaktivere WiFi-dvaletilstand, men dette kan øge strømforbruget i tomgang.</string>
-    <string name="wifi_psave_header">Deaktiver WiFi-dvaletilstand</string>
+    <string name="wifi_psave_descr">For at mindske risikoen for at afbryde forbindelsen med Shizuku kan du prøve at deaktivere Wi-Fi-dvaletilstand, men dette kan øge strømforbruget i tomgang.</string>
+    <string name="wifi_psave_header">Deaktiver Wi-Fi-dvaletilstand</string>
 </resources>

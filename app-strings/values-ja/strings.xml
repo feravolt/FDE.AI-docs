@@ -299,6 +299,6 @@
     <string name="warning_title">警告！</string>
     <string name="warning_yes">はい</string>
     <string name="welcome">ようこそ！</string>
-    <string name="wifi_psave_descr">Shizukuとの接続が切断される可能性を減らすために、WiFiスリープモードを無効にすることもできますが、これによりアイドル時の電力消費が増加する可能性があります。</string>
-    <string name="wifi_psave_header">WiFiスリープモードを無効化</string>
+    <string name="wifi_psave_descr">Shizukuとの接続が切断される可能性を減らすために、Wi-Fiスリープモードを無効にすることもできますが、これによりアイドル時の電力消費が増加する可能性があります。</string>
+    <string name="wifi_psave_header">Wi-Fiスリープモードを無効化</string>
 </resources>

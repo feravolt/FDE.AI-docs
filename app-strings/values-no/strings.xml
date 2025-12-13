@@ -298,6 +298,6 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="warning_title">Advarsel!</string>
     <string name="warning_yes">Ja</string>
     <string name="welcome">Velkommen</string>
-    <string name="wifi_psave_descr">For å redusere sjansen for å koble fra Shizuku kan du prøve å deaktivere WiFi-hvilemodus, men dette kan øke strømforbruket ved inaktivitet.</string>
-    <string name="wifi_psave_header">Deaktiver WiFi-hvilemodus</string>
+    <string name="wifi_psave_descr">For å redusere sjansen for å koble fra Shizuku kan du prøve å deaktivere Wi-Fi-hvilemodus, men dette kan øke strømforbruket ved inaktivitet.</string>
+    <string name="wifi_psave_header">Deaktiver Wi-Fi-hvilemodus</string>
 </resources>

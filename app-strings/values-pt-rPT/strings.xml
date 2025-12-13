@@ -298,6 +298,6 @@ Se o problema persistir, contacte o programador no Telegram.</string>
     <string name="warning_title">Aviso!</string>
     <string name="warning_yes">sim</string>
     <string name="welcome">Boas-vindas</string>
-    <string name="wifi_psave_descr">Para reduzir a possibilidade de desconexão com o Shizuku, pode tentar desativar o modo de espera do WiFi, mas isso pode aumentar o consumo de energia em modo inativo.</string>
-    <string name="wifi_psave_header">Desativar o modo de espera WiFi</string>
+    <string name="wifi_psave_descr">Para reduzir a possibilidade de desconexão com o Shizuku, pode tentar desativar o modo de espera do Wi-Fi, mas isso pode aumentar o consumo de energia em modo inativo.</string>
+    <string name="wifi_psave_header">Desativar o modo de espera Wi-Fi</string>
 </resources>

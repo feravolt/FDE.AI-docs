@@ -299,5 +299,5 @@ Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="warning_yes">Evet</string>
     <string name="welcome">Hoş geldiniz</string>
     <string name="wifi_psave_descr">Shizuku ile bağlantınızın kesilme olasılığını azaltmak için Wi-Fi uyku modunu devre dışı bırakmayı deneyebilirsiniz, ancak bu durum boşta güç tüketimini artırabilir.</string>
-    <string name="wifi_psave_header">WiFi uyku modunu kapat</string>
+    <string name="wifi_psave_header">Wi-Fi uyku modunu kapat</string>
 </resources>

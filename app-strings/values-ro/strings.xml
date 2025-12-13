@@ -299,6 +299,6 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="warning_title">Atenție!</string>
     <string name="warning_yes">Da</string>
     <string name="welcome">Bun venit</string>
-    <string name="wifi_psave_descr">Pentru a reduce șansele de deconectare de la Shizuku, puteți încerca să dezactivați modul de repaus WiFi, dar acest lucru poate crește consumul de energie în inactivitate.</string>
-    <string name="wifi_psave_header">Dezactivați modul de repaus WiFi</string>
+    <string name="wifi_psave_descr">Pentru a reduce șansele de deconectare de la Shizuku, puteți încerca să dezactivați modul de repaus Wi-Fi, dar acest lucru poate crește consumul de energie în inactivitate.</string>
+    <string name="wifi_psave_header">Dezactivați modul de repaus Wi-Fi</string>
 </resources>

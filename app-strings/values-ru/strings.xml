@@ -63,6 +63,7 @@
     <string name="bypassch_title">Обход зарядки</string>
     <string name="cancel">Отмена</string>
     <string name="changelog">Изменения</string>
+    <string name="changelog_link" tools:ignore="MissingTranslation">https://github.com/feravolt/FDE.AI-docs/blob/RU/changelog.md</string>
     <string name="charge_time">Время до полной зарядки</string>
     <string name="charging">заряжается</string>
     <string name="charging_bypass_enabled">Обход зарядки включен</string>
@@ -143,6 +144,7 @@
     <string name="finstall">Установка FDE.AI…</string>
     <string name="force_doze_enabled">Принудительный Doze включен</string>
     <string name="force_doze_trigger_count">Срабатываний Doze</string>
+    <string name="forum" tools:ignore="MissingTranslation,TypographyDashes">https://4pda.to/forum/index.php?showtopic=716174</string>
     <string name="fps_checkbox">Мониторинг железа и FPS</string>
     <string name="fps_meter_desc">Статистика FPS, ЦП, ГП, ОЗУ и потребления энергии в реальном времени.</string>
     <string name="fs_cache_tune">Настройка кэша ФС</string>
@@ -279,6 +281,7 @@
     <string name="start_toast">Запуск FDE.AI…</string>
     <string name="startup">Запуск</string>
     <string name="stop_btn">Стоп</string>
+    <string name="telegram" tools:ignore="MissingTranslation">https://t.me/feralab_news_rus</string>
     <string name="third_party">Сторонние библиотеки</string>
     <string name="throttling_deactivated">Троттлинг деактивирован</string>
     <string name="throttling_desc_new">Это улучшит производительность, но может привести к перегреву и проблемам с быстрой зарядкой или камерой</string>
@@ -302,9 +305,6 @@
     <string name="warning_title">Внимание!</string>
     <string name="warning_yes">Да</string>
     <string name="welcome">Здравствуйте</string>
-    <string name="wifi_psave_descr">Чтобы уменьшить шанс разрыва соединения с Shizuku вы можете попробовать отключить спящий режим WiFi, но это может увеличить энергопотребление.</string>
-    <string name="wifi_psave_header">Откл. спящий режим WiFi</string>
-    <string name="changelog_link" tools:ignore="MissingTranslation">https://github.com/feravolt/FDE.AI-docs/blob/RU/changelog.md</string>
-    <string name="forum" tools:ignore="MissingTranslation,TypographyDashes">https://4pda.to/forum/index.php?showtopic=716174</string>
-    <string name="telegram" tools:ignore="MissingTranslation">https://t.me/feralab_news_rus</string>
+    <string name="wifi_psave_descr">Чтобы уменьшить шанс разрыва соединения с Shizuku вы можете попробовать отключить спящий режим Wi-Fi, но это может увеличить энергопотребление.</string>
+    <string name="wifi_psave_header">Откл. спящий режим Wi-Fi</string>
 </resources>

@@ -298,6 +298,6 @@
     <string name="warning_title">Эскертүү!</string>
     <string name="warning_yes">Ооба</string>
     <string name="welcome">Кош келиңиз</string>
-    <string name="wifi_psave_descr">Шидзуку менен байланышты үзүү мүмкүнчүлүгүн азайтуу үчүн WiFi уйку режимин өчүрүүгө аракет кылсаңыз болот, бирок бул иштебей турган энергияны керектөөнү көбөйтүшү мүмкүн.</string>
-    <string name="wifi_psave_header">WiFi уйку режимин өчүрүү</string>
+    <string name="wifi_psave_descr">Шидзуку менен байланышты үзүү мүмкүнчүлүгүн азайтуу үчүн Wi-Fi уйку режимин өчүрүүгө аракет кылсаңыз болот, бирок бул иштебей турган энергияны керектөөнү көбөйтүшү мүмкүн.</string>
+    <string name="wifi_psave_header">Wi-Fi уйку режимин өчүрүү</string>
 </resources>
