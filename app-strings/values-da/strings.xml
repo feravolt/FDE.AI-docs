@@ -114,11 +114,11 @@ Hvis problemet fortsætter, kontakt udvikleren i Telegram.</string>
     <string name="downscale_btn">Adaptiv nedskalering</string>
     <string name="downscale_desc">Lavere skærmopløsning for at øge GPU\'s ydeevne og spare batteri, med let tab af billedkvalitet. Anbefales ikke at gå under halvdelen af skærmbredden på brugerdefinerede ROM\'er (MIUI, EMUI osv.) for at undgå UI nedbrud.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Tryk OK for at bekræfte den nye opløsning, ellers nulstilles den i %1$d sek.</string>
-    <string name="downscale_warning">Hvis noget går galt, og du ikke kan få adgang til knappen \'Nulstil\', skal du ikke genstarte enheden!\nOpret i stedet forbindelse til ADB shell, og indtast denne kommando: adb shell \'wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">Hvis noget går galt, skal du ikke genstarte enheden. Opret i stedet forbindelse til ADB Shell, og indtast denne kommando for at nulstille manuelt: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI kan udløse Doze tilstand tidligere. Hvis problemer opstår, whiteliste apps ved hjælp af knappen nedenfor.</string>
     <string name="doze_mode">Tving doze tilstand</string>
-    <string name="doze_sub_describtion">Aktivér for at gå ind i doze tilstand, så snart skærmen er slukket.</string>
-    <string name="doze_system_desc">Doseringstilstand (Android 6.0+) reducerer batteriforbruget ved at udsætte baggrunds-CPU og netværksaktivitet, når enheden er inaktiv.</string>
+    <string name="doze_sub_description">Aktivér for at gå ind i doze tilstand, så snart skærmen er slukket.</string>
+    <string name="doze_system_desc">Doseringstilstand reducerer batteriforbruget ved at udsætte baggrunds-CPU og netværksaktivitet, når enheden er inaktiv.</string>
     <string name="doze_whitelist">Dys hvidliste</string>
     <string name="dynamic_read_ahead">Dynamisk læsning</string>
     <string name="emergency_cooldown">Nødkøling</string>

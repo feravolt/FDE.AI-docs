@@ -114,11 +114,11 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="downscale_btn">Tilpassende nedskalering</string>
     <string name="downscale_desc">Lavere skjermoppløsning for å øke GPU-ytelse og spare batteri, med lite bildekvalitet. Det anbefales ikke å gå under halve skjermens bredde på tilpassede ROMs (MIUI, EMUI, etc.) for å unngå UI krasj.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Trykk OK for å bekrefte den nye oppløsningen, ellers vil den tilbakestilles i %1$d sek.</string>
-    <string name="downscale_warning">Hvis noe går galt og du ikke får tilgang til «Tilbakestill»-knappen – ikke start enheten på nytt! Koble i stedet til ADB-skallet og skriv inn denne kommandoen: «adb shell wm size reset;wm density reset».</string>
+    <string name="downscale_warning">Hvis noe går galt, må du ikke starte enheten på nytt. Koble i stedet til ADB Shell og skriv inn denne kommandoen for å tilbakestille manuelt: «adb shell wm size reset;wm density reset».</string>
     <string name="doze_description">FDE.AI kan aktivere Doze modus tidligere. Hvis problemer oppstår, får jeg en hviteliste apper med knappen nedenfor.</string>
     <string name="doze_mode">Tving Doze modus</string>
-    <string name="doze_sub_describtion">Aktiver dette for å angi dør-modus så snart skjermen er av.</string>
-    <string name="doze_system_desc">Doz-modus (Android 6.0+) reduserer batteribruk ved å utsette bakgrunns CPU og nettverksaktivitet når enheten er uvirksom.</string>
+    <string name="doze_sub_description">Gå inn i dvale-modus så snart skjermen er av.</string>
+    <string name="doze_system_desc">Doz-modus reduserer batteribruk ved å utsette bakgrunns CPU og nettverksaktivitet når enheten er uvirksom.</string>
     <string name="doze_whitelist">Doze whitelist</string>
     <string name="dynamic_read_ahead">Dynamisk avlesning</string>
     <string name="emergency_cooldown">Nødavkjøling</string>

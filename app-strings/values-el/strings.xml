@@ -114,11 +114,11 @@
     <string name="downscale_btn">Προσαρμοστική φθίνουσα κλίμακα</string>
     <string name="downscale_desc">Χαμηλότερη ανάλυση οθόνης για την ενίσχυση της απόδοσης της GPU και την εξοικονόμηση μπαταρίας, με μικρή απώλεια ποιότητας εικόνας. Δεν συνιστάται να πάτε κάτω από το μισό πλάτος οθόνης σε προσαρμοσμένες ROMs (MIUI, EMUI, κλπ.) για να αποφύγετε συντριβές UI.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Πατήστε OK για επιβεβαίωση της νέας ανάλυσης, ή θα γίνει επαναφορά στο %1$d sec.</string>
-    <string name="downscale_warning">Εάν κάτι πάει στραβά και δεν μπορείτε να αποκτήσετε πρόσβαση στο κουμπί \'Επαναφορά\' - μην επανεκκινήσετε τη συσκευή!\nΑντίθετα, συνδεθείτε στο κέλυφος ADB και εισαγάγετε αυτήν την εντολή: \'adb shell wm size reset;wm densite reset\'.</string>
+    <string name="downscale_warning">Εάν κάτι πάει στραβά, μην επανεκκινήσετε τη συσκευή. Αντίθετα, συνδεθείτε στο ADB Shell και εισαγάγετε αυτήν την εντολή για επαναφορά χειροκίνητα: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">Το FDE.AI μπορεί να ενεργοποιήσει τη λειτουργία Doze νωρίτερα. Αν προκύψουν προβλήματα, οι εφαρμογές whitelist χρησιμοποιούν το παρακάτω κουμπί.</string>
     <string name="doze_mode">Εξαναγκασμός λειτουργίας Doze</string>
-    <string name="doze_sub_describtion">Ενεργοποιήστε για να μπείτε στη λειτουργία Doze μόλις η οθόνη είναι απενεργοποιημένη.</string>
-    <string name="doze_system_desc">Η λειτουργία Doze (Android 6.0+) μειώνει τη χρήση της μπαταρίας αναβάλλοντας τη χρήση της CPU στο παρασκήνιο και τη δραστηριότητα δικτύου όταν η συσκευή είναι αδρανής.</string>
+    <string name="doze_sub_description">Μπείτε στη λειτουργία Doze μόλις η οθόνη είναι απενεργοποιημένη.</string>
+    <string name="doze_system_desc">Η λειτουργία Doze μειώνει τη χρήση της μπαταρίας αναβάλλοντας τη χρήση της CPU στο παρασκήνιο και τη δραστηριότητα δικτύου όταν η συσκευή είναι αδρανής.</string>
     <string name="doze_whitelist">Κυνηγός λίστα επιτρεπόμενων</string>
     <string name="dynamic_read_ahead">Δυναμική ανάγνωση μπροστά</string>
     <string name="emergency_cooldown">Ψύξη Έκτακτης Ανάγκης</string>

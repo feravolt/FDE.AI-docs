@@ -117,11 +117,11 @@
     <string name="downscale_btn">Даунскейл</string>
     <string name="downscale_desc">Позволяет понизить разрешение экрана для улучшения производительности и энергосбережения ценой качества изображения. Приложение меняет настройки масштаба для сохранения оригинального изображения. При использовании оболочек (MIUI, EMUI и т.д.) не рекомендуется снижать разрешение ниже половины от оригинального, иначе интерфейс может упасть.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Нажмите ОК, чтобы подтвердить новое уменьшенное разрешение, иначе оно будет сброшено через %1$d сек.</string>
-    <string name="downscale_warning">Если вдруг что-то пойдёт не так и у вас не будет доступа к кнопке \'Сброс\' - не перезагружайте устройство!\nВместо этого подключитесь к ADB shell введите команду: adb shell \'wm size reset;wm density reset\'.</string>
-    <string name="doze_description">FDE.AI может ускорить этот процесс. Если возникнут проблемы, добавьте приложения в белый список Doze, нажав кнопку ниже.</string>
+    <string name="downscale_warning">Если что-то пойдёт не так, не перезагружайте устройство. Вместо этого подключитесь к ADB Shell и введите эту команду для ручного сброса: adb shell \'wm size reset;wm density reset\'.</string>
+    <string name="doze_description">FDE.AI может ускорить вход в этот режим. Если возникнут проблемы, добавьте приложения в белый список по кнопке ниже.</string>
     <string name="doze_mode">Принудит. режим Doze</string>
-    <string name="doze_sub_describtion">Вкл. или выкл. принудительный режим Doze.</string>
-    <string name="doze_system_desc">В Android 6.0 появился режим Doze, который снижает расход батареи, приостанавливая фоновую работу ЦП и сети для приложений, когда устройство не используется длительное время.</string>
+    <string name="doze_sub_description">Перейти в режим Doze, как только экран выключится.</string>
+    <string name="doze_system_desc">Режим Doze снижает расход батареи, приостанавливая фоновую работу приложений, когда устройство долго не используется.</string>
     <string name="doze_whitelist">Белый список Doze</string>
     <string name="dynamic_read_ahead">Динамическое предсчитывание</string>
     <string name="emergency_cooldown">Экстренное охлаждение</string>

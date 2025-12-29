@@ -113,11 +113,11 @@
     <string name="downscale_btn">自適應縮減</string>
     <string name="downscale_desc">降低螢幕解析度以提高 GPU 效能並節省電池，但影像品質略有下降。 不建議在自訂 ROM（MIUI、EMUI 等）上，將螢幕寬度設定低於一半，以避免 UI 崩潰。</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">按下“確定”確認新的分辨率，否則它將在 %1$d 秒後還原。</string>
-    <string name="downscale_warning">如果出現任何問題，導致您無法存取「重設」按鈕，請勿重新啟動裝置！ \n請連線到 ADB shell 並輸入以下指令：「adb shell wm size reset;wm density reset」。</string>
+    <string name="downscale_warning">如果出現問題，請勿重新啟動裝置。請連線到 ADB Shell 並輸入下列指令進行手動重設：adb shell \'wm size reset;wm density reset\'。</string>
     <string name="doze_description">FDE.AI可以更早觸發Doze模式。 如果出現問題，請使用下面的按鈕將應用程式列入白名單。</string>
     <string name="doze_mode">強制Doze模式</string>
-    <string name="doze_sub_describtion">啟用螢幕關閉後，立即進入打Doze模式。</string>
-    <string name="doze_system_desc">Doze模式 (Android 6.0+) 透過在裝置空閒時，減少後台 CPU 和網路活動來減少電池使用。</string>
+    <string name="doze_sub_description">螢幕關閉時立即進入 Doze 模式。</string>
+    <string name="doze_system_desc">Doze模式 透過在裝置空閒時，減少後台 CPU 和網路活動來減少電池使用。</string>
     <string name="doze_whitelist">Doze白名單</string>
     <string name="dynamic_read_ahead">動態預讀</string>
     <string name="emergency_cooldown">緊急冷卻</string>

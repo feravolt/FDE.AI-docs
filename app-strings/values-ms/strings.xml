@@ -113,11 +113,11 @@ Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="downscale_btn">Penyesuaian penurunan skala</string>
     <string name="downscale_desc">Menurunkan resolusi skrin untuk menggalakkan prestasi GPU dan menjimatkan bateri, dengan sedikit perendahan kualiti gambar. Tidak digalakkan untuk merendahkan lebih dari setengah kelebaran skrin untuk ROM penyesuai (MIUI, EMUI, etc) untuk mengelakkan UI berserabut.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Tekan OK untuk mengesahkan peleraian baharu, atau ia akan ditetapkan semula dalam %1$d saat.</string>
-    <string name="downscale_warning">Jika apa-apa berlaku dan anda tidak boleh mengakses butang \'Reset\' - jangan but semula peranti!\nSebaliknya sambungkan ke shell ADB dan masukkan arahan ini: adb shell \'wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">Jika ada masalah, jangan mulai semula peranti. Sebaliknya, sambungkan ke shell ADB dan masukkan arahan ini untuk penetapan semula manual: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI boleh mencetuskan mod Doze lebih awal. Jika isu timbul, senarai putih apl menggunakan butang di bawah.</string>
     <string name="doze_mode">Paksa mod lelap</string>
-    <string name="doze_sub_describtion">Membolehkan untuk ke mod lelap selepas skrin padam.</string>
-    <string name="doze_system_desc">Mod lelapkan (Android 6.0+) mengurangkan penggunaan bateri dengan menangguhkan CPU latar belakang dan aktiviti rangkaian apabila peranti melahu.</string>
+    <string name="doze_sub_description">Masuk ke mod tidur sebaik sahaja skrin padam.</string>
+    <string name="doze_system_desc">Mod lelapkan mengurangkan penggunaan bateri dengan menangguhkan CPU latar belakang dan aktiviti rangkaian apabila peranti melahu.</string>
     <string name="doze_whitelist">Senarai putih lelap</string>
     <string name="dynamic_read_ahead">Baca ke hadapan dinamik</string>
     <string name="emergency_cooldown">Cooldown Kecemasan</string>

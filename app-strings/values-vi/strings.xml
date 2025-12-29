@@ -113,11 +113,11 @@ Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển tr
     <string name="downscale_btn">Giảm độ phân giải linh hoạt</string>
     <string name="downscale_desc">Giảm độ phân giải màn hình để tăng hiệu năng GPU và tiết kiệm năng lượng, và làm mất chất lượng hình ảnh nhẹ. Không khuyến nghị giảm xuống quá nửa độ rộng mà hình ở các ROM tự chế (MIUI, EMUI, vv.) để tránh làm sập UI.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Bấm OK để xác nhận độ phân giải mới, hoặc thiết lập sẽ hoàn tác trong %1$d giây.</string>
-    <string name="downscale_warning">Nếu có bất kỳ sự cố nào xảy ra và bạn không thể truy cập nút \'Đặt lại\' - đừng khởi động lại thiết bị!\nThay vào đó, hãy kết nối với shell ADB và nhập lệnh này: adb shell \'wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">Nếu có bất kỳ sự cố nào xảy ra, đừng khởi động lại thiết bị. Thay vào đó, hãy kết nối với ADB Shell và nhập lệnh này để đặt lại thủ công: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI có thể kích hoạt chế độ Doze sớm hơn. Nếu xảy ra vấn đề, hãy cho ứng dụng vào danh sách trắng ở dưới.</string>
     <string name="doze_mode">Buộc Chế Độ Doze</string>
-    <string name="doze_sub_describtion">Mở để bắt thiết bị vào chế độ Doze ngay khi màn hình tắt.</string>
-    <string name="doze_system_desc">Chế độ Doze (Android 6.0+) giảm việc sử dụng pin bằng cách giảm thiểu hoạt động CPU nền và hoạt động mạng khi thiết bị rảnh rỗi.</string>
+    <string name="doze_sub_description">Vào chế độ Doze ngay khi màn hình tắt.</string>
+    <string name="doze_system_desc">Chế độ Doze giảm việc sử dụng pin bằng cách giảm thiểu hoạt động CPU nền và hoạt động mạng khi thiết bị rảnh rỗi.</string>
     <string name="doze_whitelist">Danh sách trắng Doze</string>
     <string name="dynamic_read_ahead">Đọc trước động</string>
     <string name="emergency_cooldown">Làm mát khẩn cấp</string>

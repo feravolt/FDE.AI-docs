@@ -114,11 +114,11 @@ Si le problème persiste, contactez le développeur sur Telegram.</string>
     <string name="downscale_btn">Écaille adaptative</string>
     <string name="downscale_desc">Diminuer la résolution de l\'écran pour augmenter les performances du GPU et économiser la batterie, avec une légère perte de qualité d\'image. Il n\'est pas recommandé de passer en dessous de la moitié de la largeur de l\'écran sur les ROMs personnalisées (MIUI, EMUI, etc.) pour éviter les plantages de l\'interface utilisateur.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Appuyez sur OK pour confirmer la nouvelle résolution, sinon elle sera réinitialisée dans %1$d secondes.</string>
-    <string name="downscale_warning">Jika terjadi kesalahan dan Anda tidak dapat mengakses tombol \'Reset\' - jangan mulai ulang perangkat!\nSebaliknya, hubungkan ke shell ADB dan masukkan perintah ini: adb shell \'wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">Si quelque chose se passe mal, ne redémarrez pas l\'appareil. Connectez-vous plutôt à ADB Shell et entrez cette commande pour réinitialiser manuellement: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI peut déclencher le mode Doze plus tôt. Si des problèmes surviennent, mettez les applications sur la liste blanche en utilisant le bouton ci-dessous.</string>
     <string name="doze_mode">Forcer le mode Doze</string>
-    <string name="doze_sub_describtion">Activez pour entrer en mode Doze dès que l\'écran est éteint.</string>
-    <string name="doze_system_desc">Le mode Doze (Android 6.0+) réduit l\'utilisation de la batterie en reportant l\'activité du processeur en arrière-plan et du réseau lorsque l\'appareil est inactif.</string>
+    <string name="doze_sub_description">Entrez en mode Doze dès que l\'écran s\'éteint.</string>
+    <string name="doze_system_desc">Le mode Doze réduit l\'utilisation de la batterie en reportant l\'activité du processeur en arrière-plan et du réseau lorsque l\'appareil est inactif.</string>
     <string name="doze_whitelist">Mettre la liste blanche en veille</string>
     <string name="dynamic_read_ahead">Lecture anticipée dynamique</string>
     <string name="emergency_cooldown">Refroidissement d\'urgence</string>

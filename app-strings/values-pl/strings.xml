@@ -116,11 +116,11 @@ Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegra
     <string name="downscale_btn">Adaptacyjna skala spadkowa</string>
     <string name="downscale_desc">Niższa rozdzielczość ekranu, aby zwiększyć wydajność GPU i zaoszczędzić baterię, przy niewielkiej utracie jakości obrazu. Nie zaleca się przejścia poniżej połowy szerokości ekranu na niestandardowych ROMach (MIUI, EMUI itp.), aby uniknąć awarii interfejsu.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Naciśnij OK, aby potwierdzić nową rozdzielczość, lub zresetuje się za %1$d sek.</string>
-    <string name="downscale_warning">Jeśli coś pójdzie nie tak i nie będziesz mieć dostępu do przycisku „Reset” – nie restartuj urządzenia!\nZamiast tego połącz się z powłoką ADB i wpisz to polecenie: adb shell \'wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">Jeśli coś pójdzie nie tak, nie restartuj urządzenia. Zamiast tego połącz się z powłoką ADB i wpisz to polecenie, aby ręcznie zresetować: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI może wcześniej uruchomić tryb Doze. Jeśli pojawią się problemy, aplikacja na białej liście za pomocą przycisku poniżej.</string>
     <string name="doze_mode">Wymuś tryb Doze</string>
-    <string name="doze_sub_describtion">Włącz tryb Doze gdy ekran jest wyłączony.</string>
-    <string name="doze_system_desc">Tryb Doze (Android 6.0+) zmniejsza zużycie baterii poprzez odraczanie procesora w tle i aktywności sieci podczas bezczynności urządzenia.</string>
+    <string name="doze_sub_description">Włącz tryb Doze zaraz po wyłączeniu ekranu.</string>
+    <string name="doze_system_desc">Tryb Doze zmniejsza zużycie baterii poprzez odraczanie procesora w tle i aktywności sieci podczas bezczynności urządzenia.</string>
     <string name="doze_whitelist">Biała lista drzemki</string>
     <string name="dynamic_read_ahead">Dynamiczny odczyt z wyprzedzeniem</string>
     <string name="emergency_cooldown">Opóźnienie awaryjne</string>

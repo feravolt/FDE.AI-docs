@@ -114,11 +114,11 @@ Se il problema persiste, contatta lo sviluppatore su Telegram.</string>
     <string name="downscale_btn">Ridimensionamento adattivo</string>
     <string name="downscale_desc">Ridurre la risoluzione dello schermo per aumentare le prestazioni della GPU e risparmiare batteria, con una leggera perdita di qualità dell\'immagine. Sconsigliato di scendere al di sotto della metà della larghezza dello schermo su ROM personalizzate (MIUI, EMUI, ecc.) per evitare crash dell\'interfaccia utente.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Premi OK per confermare la nuova risoluzione, o verrà reimpostata in %1$d sec.</string>
-    <string name="downscale_warning">Se qualcosa va storto e non riesci ad accedere al pulsante "Reset", non riavviare il dispositivo!\nConnettiti invece alla shell ADB e inserisci questo comando: "adb shell wm size reset;wm density reset".</string>
+    <string name="downscale_warning">Se qualcosa va storto, non riavviare il dispositivo. Connettiti invece a ADB Shell e inserisci questo comando per reimpostare manualmente: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI può attivare la modalità Doze prima. Se sorgono problemi, whitelist applicazioni utilizzando il pulsante qui sotto.</string>
     <string name="doze_mode">Forza modalità Doze</string>
-    <string name="doze_sub_describtion">Abilita per entrare in modalità Doze non appena lo schermo è spento.</string>
-    <string name="doze_system_desc">La modalità Doze (Android 6.0+) riduce l\'utilizzo della batteria rimandando la CPU in background e l\'attività di rete quando il dispositivo è inattivo.</string>
+    <string name="doze_sub_description">Entra in modalità Doze non appena lo schermo è spento.</string>
+    <string name="doze_system_desc">La modalità Doze riduce l\'utilizzo della batteria rimandando la CPU in background e l\'attività di rete quando il dispositivo è inattivo.</string>
     <string name="doze_whitelist">Whitelist doze</string>
     <string name="dynamic_read_ahead">Lettura dinamica anticipata</string>
     <string name="emergency_cooldown">Raffreddamento Di Emergenza</string>

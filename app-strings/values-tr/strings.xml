@@ -114,11 +114,11 @@ Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="downscale_btn">Uyarlanabilir alt ölçek</string>
     <string name="downscale_desc">GPU performansını artırmak ve hafif görüntü kalitesi kaybıyla pil tasarrufu sağlamak için daha düşük ekran çözünürlüğü. Kullanıcı arayüzü çökmelerini önlemek için özel ROM\'larda (MIUI, EMUI, vb.) ekran genişliğinin yarısının altına inmeniz önerilmez.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Yeni çözünürlüğü onaylamak için Tamam\'a basın, aksi takdirde %1$d saniye içinde sıfırlanacaktır.</string>
-    <string name="downscale_warning">Bir sorun çıkarsa ve \'Sıfırla\' düğmesine erişemiyorsanız, cihazı yeniden başlatmayın!\nBunun yerine ADB kabuğuna bağlanın ve şu komutu girin: adb shell \'wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">Bir sorun çıkarsa, cihazı yeniden başlatmayın. Bunun yerine ADB Shell\'e bağlanın ve manuel olarak sıfırlamak için bu komutu girin: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI, Uyku modunu daha erken tetikleyebilir. Sorun ortaya çıkarsa, aşağıdaki düğmeyi kullanarak uygulamaları beyaz listeye alın.</string>
     <string name="doze_mode">Uyku modunu zorla</string>
-    <string name="doze_sub_describtion">Ekran kapanır kapanmaz Uyku moduna girmek için etkinleştirin.</string>
-    <string name="doze_system_desc">Uyku modu (Android 6.0+), cihaz boştayken arka plan CPU\'sunu ve ağ etkinliğini erteleyerek pil kullanımını azaltır.</string>
+    <string name="doze_sub_description">Ekran kapanır kapanmaz Uyku moduna girin.</string>
+    <string name="doze_system_desc">Uyku modu, cihaz boştayken arka plan CPU\'sunu ve ağ etkinliğini erteleyerek pil kullanımını azaltır.</string>
     <string name="doze_whitelist">Uyku beyaz liste</string>
     <string name="dynamic_read_ahead">Dinamik okuma-önceden</string>
     <string name="emergency_cooldown">Acil Durum Beklemesi</string>

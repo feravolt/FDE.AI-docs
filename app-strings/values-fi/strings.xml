@@ -114,11 +114,11 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="downscale_btn">Sopeutuva alasajo</string>
     <string name="downscale_desc">Pienempi näytön resoluutio lisätäksesi näytönohjaimen suorituskykyä ja säästääksesi akkua, jossa kuvan laatu on vähäinen. Ei ole suositeltavaa mennä alle puolet näytön leveys mukautettujen ROMien (MIUI, EMUI jne.) välttää käyttöliittymän kaatumista.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Paina OK vahvistaaksesi uuden resoluution, tai se nollaa %1$d sekunnissa.</string>
-    <string name="downscale_warning">Jos jokin menee pieleen etkä pääse käyttämään \'Nollaa\'-painiketta, älä käynnistä laitetta uudelleen!\nYhdistä sen sijaan ADB-kuoreen ja anna tämä komento: adb shell \'wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">Jos jokin menee pieleen, älä käynnistä laitetta uudelleen. Yhdistä sen sijaan ADB Shell -kuoreen ja anna tämä komento manuaalista nollausta varten: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI voi laukaista Doze-tilan aikaisemmin. Jos ongelmia ilmenee, listaa sovellukset käyttämällä alla olevaa painiketta.</string>
     <string name="doze_mode">Pakota Doze tila</string>
-    <string name="doze_sub_describtion">Ota käyttöön siirtyäksesi Doze-tilaan heti, kun näyttö on pois päältä.</string>
-    <string name="doze_system_desc">Doze tila (Android 6.0 +) vähentää akun käyttöä lykkäämällä taustaprosessorin ja verkon toimintaa laitteen ollessa käyttämätön.</string>
+    <string name="doze_sub_description">Ota käyttöön siirtyäksesi Doze-tilaan heti, kun näyttö on pois päältä.</string>
+    <string name="doze_system_desc">Doze tila vähentää akun käyttöä lykkäämällä taustaprosessorin ja verkon toimintaa laitteen ollessa käyttämätön.</string>
     <string name="doze_whitelist">Sovelletaan valkoiseen listaan</string>
     <string name="dynamic_read_ahead">Dynaaminen eteenpäinluku</string>
     <string name="emergency_cooldown">Hätätilanteiden Jäähdytys</string>

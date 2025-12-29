@@ -114,11 +114,11 @@ Se o problema persistir, entre em contato com o desenvolvedor no Telegram.</stri
     <string name="downscale_btn">Escala descendente adaptável</string>
     <string name="downscale_desc">Resolução mais baixa para aumentar o desempenho da GPU e economizar bateria, com uma ligeira perda de qualidade de imagem. Não recomendado que vá abaixo da metade da largura da tela em ROMs personalizadas (MIUI, EMUI, etc.) para evitar falhas na interface.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Pressione OK para confirmar a nova resolução, ou ela será redefinida em %1$d seg.</string>
-    <string name="downscale_warning">Se algo der errado e você não conseguir acessar o botão "Redefinir", não reinicie o dispositivo! Em vez disso, conecte-se ao shell ADB e digite este comando: "adb shell wm size reset;wm density reset".</string>
+    <string name="downscale_warning">Se algo der errado, não reinicie o dispositivo. Em vez disso, conecte-se ao shell ADB e digite este comando para redefinir manualmente: "adb shell wm size reset;wm density reset".</string>
     <string name="doze_description">FDE.AI pode ativar o modo Doze mais cedo. Se surgirem problemas, apps da lista branca usando o botão abaixo.</string>
     <string name="doze_mode">Forçar modo Doze</string>
-    <string name="doze_sub_describtion">Ative para entrar no modo Doze assim que a tela estiver desligada.</string>
-    <string name="doze_system_desc">Modo Doze (Android 6.0+) reduz o uso de bateria ao adiar a CPU e a atividade de rede em segundo plano quando o dispositivo está inativo.</string>
+    <string name="doze_sub_description">Entre no modo Doze assim que a tela desligar.</string>
+    <string name="doze_system_desc">Modo Doze reduz o uso de bateria ao adiar a CPU e a atividade de rede em segundo plano quando o dispositivo está inativo.</string>
     <string name="doze_whitelist">Doze: whitelist</string>
     <string name="dynamic_read_ahead">Leitura dinâmica antecipada</string>
     <string name="emergency_cooldown">Resfriamento de emergência</string>

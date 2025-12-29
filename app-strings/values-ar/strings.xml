@@ -116,11 +116,11 @@
     <string name="downscale_btn">خفض حجم التكيف</string>
     <string name="downscale_desc">خفض دقة الشاشة لتعزيز أداء GPU وحفظ البطارية، مع خسارة طفيفة لجودة الصورة. لا ينصح بالذهاب إلى أسفل نصف عرض الشاشة على الأقراص المخصصة (MIUI، EMUI، إلخ.) لتجنب تعطل واجهة المستخدم.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">اضغط على OK لتأكيد الدقة الجديدة، أو سيتم إعادة تعيينها في %1$d ثانية.</string>
-    <string name="downscale_warning">إذا حدث أي خطأ ولم تتمكن من الوصول إلى زر "إعادة الضبط"، فلا تعيد تشغيل الجهاز!\nبدلاً من ذلك، اتصل بواجهة ADB وأدخل هذا الأمر: adb shell \'wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">إذا حدث خطأ ما، فلا تعيد تشغيل الجهاز. بدلاً من ذلك، اتصل بـ ADB Shell وأدخل هذا الأمر لإعادة تعيين يدوية: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">يمكن FDE.AI تشغيل وضع Doze قبل ذلك. إذا حدثت مشاكل، تطبيقات القائمة البيضاء باستخدام الزر أدناه.</string>
     <string name="doze_mode">فرض وضع الدوز</string>
-    <string name="doze_sub_describtion">تمكين إدخال وضع Doze بمجرد إيقاف تشغيل الشاشة.</string>
-    <string name="doze_system_desc">وضع الغموز (أندرويد 6.0+) يقلل من استخدام البطارية عن طريق تأجيل وحدة المعالجة المركزية الخلفية ونشاط الشبكة عندما يكون الجهاز خاملاً.</string>
+    <string name="doze_sub_description">تمكين إدخال وضع Doze بمجرد إيقاف تشغيل الشاشة.</string>
+    <string name="doze_system_desc">وضع الغموز يقلل من استخدام البطارية عن طريق تأجيل وحدة المعالجة المركزية الخلفية ونشاط الشبكة عندما يكون الجهاز خاملاً.</string>
     <string name="doze_whitelist">القائمة البيضاء الغامضة</string>
     <string name="dynamic_read_ahead">قراءة مسبقة ديناميكية</string>
     <string name="emergency_cooldown">تبريد الطوارئ</string>

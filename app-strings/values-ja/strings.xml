@@ -113,11 +113,11 @@
     <string name="downscale_btn">画面幅を変更</string>
     <string name="downscale_desc">GPUのパフォーマンスを向上させ、バッテリーを節約するために画面の解像度を下げます。わずかに画質が悪くなる可能性があります。UIのクラッシュを避けるためにカスタムROM(MIUI、EMUIなど)の画面幅を半分以下にすることはおすすめしません。</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">[OK] をタップして新しい解像度を確認するか、 %1$d 秒後にリセットされます。</string>
-    <string name="downscale_warning">何か問題が発生し、[リセット] ボタンにアクセスできない場合は、デバイスを再起動しないでください。代わりに、ADBシェルに接続して次のコマンドを入力してください: adb shell wm size reset;wm density reset</string>
+    <string name="downscale_warning">問題が発生した場合は、デバイスを再起動しないでください。代わりに ADB Shell に接続し、次のコマンドを入力して手動でリセットしてください：adb shell \'wm size reset;wm density reset\'。</string>
     <string name="doze_description">FDE.AIは「電池の最適化」の開始を早めることができます。問題が発生した場合は、以下のボタンでアプリをホワイトリストに登録してください。</string>
     <string name="doze_mode">強制的に電池の最適化を有効化</string>
-    <string name="doze_sub_describtion">画面がオフになるとすぐに「電池の最適化」モードに入るようにします。</string>
-    <string name="doze_system_desc">「電池の最適化」(Android 6.0以降)は、デバイスがスリープ状態の時にバックグラウンドのCPUやネットワークの動作を遅延させることでバッテリー消費を減らします。</string>
+    <string name="doze_sub_description">画面がオフになるとすぐに「電池の最適化」モードに入ります。</string>
+    <string name="doze_system_desc">「電池の最適化」は、デバイスがスリープ状態の時にバックグラウンドのCPUやネットワークの動作を遅延させることでバッテリー消費を減らします。</string>
     <string name="doze_whitelist">「電池の最適化」のホワイトリスト</string>
     <string name="dynamic_read_ahead">動的read-ahead</string>
     <string name="emergency_cooldown">緊急冷却</string>

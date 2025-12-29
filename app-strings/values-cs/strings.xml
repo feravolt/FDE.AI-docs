@@ -116,11 +116,11 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="downscale_btn">Adaptivní redukce</string>
     <string name="downscale_desc">Nižší rozlišení obrazovky zvyšuje výkon GPU a šetří baterii, s mírnými ztrátami kvality obrazu. Nedoporučuje se přejít pod polovinu šířky obrazovky na vlastní ROM (MIUI, EMUI, atd.), aby se zabránilo pádům uživatelského rozhraní.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Stisknutím tlačítka OK potvrďte nové rozlišení, nebo se obnoví v %1$d sekund.</string>
-    <string name="downscale_warning">Pokud se něco pokazí a tlačítko \'Reset\' nebudete mít přístup - nerestartujte zařízení!\nMísto toho se připojte k ADB shellu a zadejte tento příkaz: adb shell \'wm size reset;wm density reset\'.</string>
+    <string name="downscale_warning">Pokud se něco pokazí, nerestartujte zařízení. Místo toho se připojte k ADB Shell a zadejte tento příkaz pro ruční resetování: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI může spustit režim Doze dříve. Pokud problémy nastanou, povolených aplikací pomocí tlačítka níže.</string>
     <string name="doze_mode">Vynutit režim Doze</string>
-    <string name="doze_sub_describtion">Povolit vstup do režimu Doze, jakmile je obrazovka vypnuta.</string>
-    <string name="doze_system_desc">Doze mód (Android 6.0+) snižuje spotřebu baterie odkládáním CPU pozadí a síťové aktivity, když je zařízení v nečinnosti.</string>
+    <string name="doze_sub_description">Povolit vstup do režimu Doze, jakmile je obrazovka vypnuta.</string>
+    <string name="doze_system_desc">Doze mód snižuje spotřebu baterie odkládáním CPU pozadí a síťové aktivity, když je zařízení v nečinnosti.</string>
     <string name="doze_whitelist">Seznam povolených hráčů Doze</string>
     <string name="dynamic_read_ahead">Dynamické čtení napřed</string>
     <string name="emergency_cooldown">Nouzové nastavení</string>
