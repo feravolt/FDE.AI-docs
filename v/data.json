@@ -1,5 +1,5 @@
 {
-	"version": "25.12.4",
+	"version": "25.12.5",
 	"changelog": "### New:\n* App design\n### Improved:\n* UI and performance\n* Reduced app size\n* Reduced power consumption\n* Shizuku mode\n* Core: performance\n* Core: hardware detection\n* Core: throttling control\n* Core: system optimization tweaks\n* Core: AI logic\n### Fixed:\n* Low power FPS",
 	"changelogrus": "### Новое:\n* Дизайн приложения\n### Улучшено:\n* Интерфейс и производительность\n* Уменьшен размер приложения\n* Снижено энергопотребление\n* Режим Shizuku\n* База: производительность\n* База: обнаружение оборудования\n* База: управление троттлингом\n* База: твики системной оптимизации\n* База: логика ИИ\n### Исправлено:\n* Энергоэффективный FPS"
 }
