@@ -26,7 +26,7 @@
 1. 公式ソースから正規のFDE.AIをダウンロードしたことを確認し、MD5ハッシュを検証する。\n
 2. OSで署名の偽装が有効になっていないか、署名の検証が無効になっていないかを確認する。\n
 3. FDE.AIプレミアムパッケージとFDE.AIの両方をアンインストールする。\n
-4. Google Playストアのアプリデータを消去する。\n
+4. Google Playストアのアプリデータを消去する\n
 5. デバイスを再起動する。\n
 6. FDE.AIとプレミアムパッケージを再インストールする。\n\n
 上記を試しても問題が解決しない場合は、Telegramで開発者に連絡してください。</string>
@@ -63,6 +63,7 @@
     <string name="bypassch_title">バイパス充電</string>
     <string name="cancel">キャンセル</string>
     <string name="changelog">更新履歴</string>
+    <string name="changelog_link" tools:ignore="MissingTranslation">https://github.com/feravolt/FDE.AI-docs/blob/master/changelog.md</string>
     <string name="charge_time">フル充電までの時間</string>
     <string name="charging">充電中</string>
     <string name="charging_bypass_enabled">バイパス充電が有効か</string>
@@ -113,12 +114,12 @@
     <string name="downscale_btn">画面幅を変更</string>
     <string name="downscale_desc">GPUのパフォーマンスを向上させ、バッテリーを節約するために画面の解像度を下げます。わずかに画質が悪くなる可能性があります。UIのクラッシュを避けるためにカスタムROM(MIUI、EMUIなど)の画面幅を半分以下にすることはおすすめしません。</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">[OK] をタップして新しい解像度を確認するか、 %1$d 秒後にリセットされます。</string>
-    <string name="downscale_warning">問題が発生した場合は、デバイスを再起動しないでください。代わりに ADB Shell に接続し、次のコマンドを入力して手動でリセットしてください：adb shell \'wm size reset;wm density reset\'。</string>
-    <string name="doze_description">FDE.AIは「電池の最適化」の開始を早めることができます。問題が発生した場合は、以下のボタンでアプリをホワイトリストに登録してください。</string>
-    <string name="doze_mode">強制的に電池の最適化を有効化</string>
-    <string name="doze_sub_description">画面がオフになるとすぐに「電池の最適化」モードに入ります。</string>
-    <string name="doze_system_desc">「電池の最適化」は、デバイスがスリープ状態の時にバックグラウンドのCPUやネットワークの動作を遅延させることでバッテリー消費を減らします。</string>
-    <string name="doze_whitelist">「電池の最適化」のホワイトリスト</string>
+    <string name="downscale_warning">何か問題が発生した場合は再起動しないでください。代わりにADB Shellに接続し、次のコマンドを入力して手動でリセットしてください: 「adb shell \'wm size reset;wm density reset」</string>
+    <string name="doze_description">FDE.AIは、画面がオフになるとすぐにDozeモードを起動できます。問題が発生した場合は、下のボタンでアプリをホワイトリストに追加してください。</string>
+    <string name="doze_mode">Dozeモードを強制</string>
+    <string name="doze_sub_description">画面がオフになるとすぐにDozeモードに入ります。</string>
+    <string name="doze_system_desc">Dozeモード(電池の最適化)は、デバイスがアイドル状態のときにバックグラウンドのCPUおよびネットワークアクティビティを遅延させることでバッテリーの使用量を削減します。</string>
+    <string name="doze_whitelist">Dozeモードから除外するアプリを選択</string>
     <string name="dynamic_read_ahead">動的read-ahead</string>
     <string name="emergency_cooldown">緊急冷却</string>
     <string name="emergency_cooldown_btn">クールダウン</string>
@@ -138,8 +139,9 @@
     <string name="fde_is_inactive">AIは無効です。</string>
     <string name="fde_on_reset_toast">FDE.AIのデータはすべてリセットされます。アプリを閉じます。</string>
     <string name="finstall">FDE.AIをインストール中…</string>
-    <string name="force_doze_enabled">[強制的に「電池の最適化」] が有効か</string>
-    <string name="force_doze_trigger_count">[強制的に「電池の最適化」] の実行回数</string>
+    <string name="force_doze_enabled">[Dozeモードを強制] が有効か</string>
+    <string name="force_doze_trigger_count">[Dozeモードを強制] の実行回数</string>
+    <string name="forum" tools:ignore="MissingTranslation,TypographyDashes">https://xdaforums.com/t/app-6-0-root-fde-ai-v23-08-3-powerful-aio-android-devices-optimizer-12-08-2023.4055657/</string>
     <string name="fps_checkbox">ハードウェアモニタリングとFPS</string>
     <string name="fps_meter_desc">リアルタイムでFPS、CPU、GPU、RAM、および電力使用量の統計を表示します。</string>
     <string name="fs_cache_tune">FSキャッシュの調整</string>
@@ -276,6 +278,7 @@
     <string name="start_toast">FDE.AIを起動しています…</string>
     <string name="startup">起動</string>
     <string name="stop_btn">停止</string>
+    <string name="telegram" tools:ignore="MissingTranslation">https://t.me/feralab_news_eng</string>
     <string name="third_party">ライブラリと翻訳貢献者のリスト</string>
     <string name="throttling_deactivated">スロットリングが無効か</string>
     <string name="throttling_desc_new">これによりパフォーマンスは維持されますが、発熱や急速充電、カメラの使用に問題が発生する可能性があります。</string>
@@ -285,6 +288,7 @@
     <string name="throttling_ignore_charging_desc">FDE.AIは充電中にデフォルトでスロットリングを再度有効にします。この動作を無効にするには、このオプションをオンにしてください。</string>
     <string name="throttling_ignore_on_charge">充電中のスロットリングを無視</string>
     <string name="throttling_system_desc">スロットリングは、CPU/GPUの周波数を低下させることで過熱を防ぎます。</string>
+    <string name="tiktok" tools:ignore="MissingTranslation">https://www.tiktok.com/@feralab</string>
     <string name="tile_available">ステータスバーでクイックタイルを利用できます。</string>
     <string name="tweaks_disabled">すべての微調整は無効になっています。</string>
     <string name="un_fde_magisk">最初に、FDE.AIのMagiskモジュールをアンインストールしてください！</string>
@@ -301,4 +305,5 @@
     <string name="welcome">ようこそ！</string>
     <string name="wifi_psave_descr">Shizukuとの接続が切断される可能性を減らすために、Wi-Fiスリープモードを無効にすることもできますが、これによりアイドル時の電力消費が増加する可能性があります。</string>
     <string name="wifi_psave_header">Wi-Fiスリープモードを無効化</string>
+    <string name="youtube" tools:ignore="MissingTranslation">https://www.youtube.com/@FeraLab</string>
 </resources>
