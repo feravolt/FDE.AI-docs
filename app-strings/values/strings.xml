@@ -116,8 +116,10 @@
     <string name="disable_logs_desc">Select to disable all logs and stats (except \"logcat\") and reduce logcat buffer size to 128 KB.</string>
     <string name="dontkillmyapp_text">You are using Shizuku mode. To keep the app working well, please disable auto-kill for Shizuku and FDE.AI. Do you want to see how?</string>
     <string name="downscale_btn">Adaptive downscale</string>
-    <string name="downscale_desc">Lower screen resolution to boost GPU performance and save battery, with slight image quality loss. Not recommended to go below half the screen width on custom ROMs (MIUI, EMUI, etc.) to avoid UI crashes.</string>
-    <string name="downscale_notification" tools:ignore="PluralsCandidate">Press OK to confirm the new resolution, or it will reset in %1$d sec.</string>
+    <string name="downscale_preset_max">Max resolution</string>
+    <string name="downscale_preset_high">High resolution</string>
+    <string name="downscale_preset_balanced">Low resolution</string>
+    <string name="downscale_preset_crop">Crop 16:9</string>
     <string name="downscale_warning">Do not reboot if something went wrong. Instead, connect to ADB Shell and enter this command to reset manually: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI can trigger Doze mode faster, as soon as the screen turns off. If issues arise, whitelist apps using the button below.</string>
     <string name="doze_mode">Force Doze mode</string>
@@ -125,6 +127,8 @@
     <string name="doze_system_desc">Doze mode reduces battery use by deferring background CPU and network activity when the device is idle.</string>
     <string name="doze_whitelist">Doze whitelist</string>
     <string name="dynamic_read_ahead">Dynamic read-ahead</string>
+    <string name="downscale_desc">Lower screen resolution to boost GPU performance and save battery, with slight image quality loss. Not recommended to go below half the screen width on custom ROMs (MIUI, EMUI, etc.) to avoid UI crashes.</string>
+    <string name="downscale_notification" tools:ignore="PluralsCandidate">Press OK to confirm the new resolution, or it will reset in %1$d sec.</string>
     <string name="emergency_cooldown">Emergency Cooldown</string>
     <string name="emergency_cooldown_btn">Cooldown</string>
     <string name="emergency_cooldown_desc">When activated, it will re-enable throttling, enable airplane mode, power-saving mode, kill background apps, disable charging, and set AI to power-saving mode for 100 seconds, then revert.</string>

@@ -115,6 +115,10 @@ Se o problema persistir, entre em contato com o desenvolvedor no Telegram.</stri
     <string name="downscale_desc">Resolução mais baixa para aumentar o desempenho da GPU e economizar bateria, com uma ligeira perda de qualidade de imagem. Não recomendado que vá abaixo da metade da largura da tela em ROMs personalizadas (MIUI, EMUI, etc.) para evitar falhas na interface.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Pressione OK para confirmar a nova resolução, ou ela será redefinida em %1$d seg.</string>
     <string name="downscale_warning">Se algo der errado, não reinicie o dispositivo. Em vez disso, conecte-se ao shell ADB e digite este comando para redefinir manualmente: "adb shell wm size reset;wm density reset".</string>
+    <string name="downscale_preset_max">Resolução máxima</string>
+    <string name="downscale_preset_high">Resolução alta</string>
+    <string name="downscale_preset_balanced">Resolução baixa</string>
+    <string name="downscale_preset_crop">Corte 16:9</string>
     <string name="doze_description">FDE.AI pode ativar o modo Doze mais cedo. Se surgirem problemas, apps da lista branca usando o botão abaixo.</string>
     <string name="doze_mode">Forçar modo Doze</string>
     <string name="doze_sub_description">Entre no modo Doze assim que a tela desligar.</string>

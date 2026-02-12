@@ -114,6 +114,10 @@
     <string name="downscale_desc">降低屏幕分辨率以提高GPU性能并节省电池电量，但图像质量略有下降。 不建议在自定义ROM (MIUI, EMUI 等)上转到屏幕宽度以下，以避免界面崩溃。</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">按 OK 确认新分辨率，否则它将在 %1$d 秒内重置。</string>
     <string name="downscale_warning">如果出现问题，请勿重启设备。请连接到 ADB Shell 并输入以下命令进行手动重置：adb shell \'wm size reset;wm density reset\'。</string>
+    <string name="downscale_preset_max">最大分辨率</string>
+    <string name="downscale_preset_high">高分辨率</string>
+    <string name="downscale_preset_balanced">低分辨率</string>
+    <string name="downscale_preset_crop">裁剪 16:9</string>
     <string name="doze_description">FDE.AI 可以更早地触发Doze模式。如果出现问题，请使用下面的按钮将应用列入白名单。</string>
     <string name="doze_mode">强制Doze模式</string>
     <string name="doze_sub_description">屏幕关闭时立即进入 Doze 模式。</string>

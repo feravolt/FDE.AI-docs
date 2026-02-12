@@ -114,6 +114,10 @@ Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển tr
     <string name="downscale_desc">Giảm độ phân giải màn hình để tăng hiệu năng GPU và tiết kiệm năng lượng, và làm mất chất lượng hình ảnh nhẹ. Không khuyến nghị giảm xuống quá nửa độ rộng mà hình ở các ROM tự chế (MIUI, EMUI, vv.) để tránh làm sập UI.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Bấm OK để xác nhận độ phân giải mới, hoặc thiết lập sẽ hoàn tác trong %1$d giây.</string>
     <string name="downscale_warning">Nếu có bất kỳ sự cố nào xảy ra, đừng khởi động lại thiết bị. Thay vào đó, hãy kết nối với ADB Shell và nhập lệnh này để đặt lại thủ công: adb shell \'wm size reset;wm density reset\'.</string>
+    <string name="downscale_preset_max">Độ phân giải tối đa</string>
+    <string name="downscale_preset_high">Độ phân giải cao</string>
+    <string name="downscale_preset_balanced">Độ phân giải thấp</string>
+    <string name="downscale_preset_crop">Cắt 16:9</string>
     <string name="doze_description">FDE.AI có thể kích hoạt chế độ Doze sớm hơn. Nếu xảy ra vấn đề, hãy cho ứng dụng vào danh sách trắng ở dưới.</string>
     <string name="doze_mode">Buộc Chế Độ Doze</string>
     <string name="doze_sub_description">Vào chế độ Doze ngay khi màn hình tắt.</string>

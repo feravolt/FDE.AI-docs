@@ -115,6 +115,10 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="downscale_desc">Pienempi näytön resoluutio lisätäksesi näytönohjaimen suorituskykyä ja säästääksesi akkua, jossa kuvan laatu on vähäinen. Ei ole suositeltavaa mennä alle puolet näytön leveys mukautettujen ROMien (MIUI, EMUI jne.) välttää käyttöliittymän kaatumista.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Paina OK vahvistaaksesi uuden resoluution, tai se nollaa %1$d sekunnissa.</string>
     <string name="downscale_warning">Jos jokin menee pieleen, älä käynnistä laitetta uudelleen. Yhdistä sen sijaan ADB Shell -kuoreen ja anna tämä komento manuaalista nollausta varten: adb shell \'wm size reset;wm density reset\'.</string>
+    <string name="downscale_preset_max">Enimmäisresoluutio</string>
+    <string name="downscale_preset_high">Korkea resoluutio</string>
+    <string name="downscale_preset_balanced">Matala resoluutio</string>
+    <string name="downscale_preset_crop">Rajaus 16:9</string>
     <string name="doze_description">FDE.AI voi laukaista Doze-tilan aikaisemmin. Jos ongelmia ilmenee, listaa sovellukset käyttämällä alla olevaa painiketta.</string>
     <string name="doze_mode">Pakota Doze tila</string>
     <string name="doze_sub_description">Ota käyttöön siirtyäksesi Doze-tilaan heti, kun näyttö on pois päältä.</string>

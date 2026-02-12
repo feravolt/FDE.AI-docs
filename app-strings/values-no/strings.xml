@@ -115,6 +115,10 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="downscale_desc">Lavere skjermoppløsning for å øke GPU-ytelse og spare batteri, med lite bildekvalitet. Det anbefales ikke å gå under halve skjermens bredde på tilpassede ROMs (MIUI, EMUI, etc.) for å unngå UI krasj.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Trykk OK for å bekrefte den nye oppløsningen, ellers vil den tilbakestilles i %1$d sek.</string>
     <string name="downscale_warning">Hvis noe går galt, må du ikke starte enheten på nytt. Koble i stedet til ADB Shell og skriv inn denne kommandoen for å tilbakestille manuelt: «adb shell wm size reset;wm density reset».</string>
+    <string name="downscale_preset_max">Maks oppløsning</string>
+    <string name="downscale_preset_high">Høy oppløsning</string>
+    <string name="downscale_preset_balanced">Lav oppløsning</string>
+    <string name="downscale_preset_crop">Beskjæring 16:9</string>
     <string name="doze_description">FDE.AI kan aktivere Doze modus tidligere. Hvis problemer oppstår, får jeg en hviteliste apper med knappen nedenfor.</string>
     <string name="doze_mode">Tving Doze modus</string>
     <string name="doze_sub_description">Gå inn i dvale-modus så snart skjermen er av.</string>
