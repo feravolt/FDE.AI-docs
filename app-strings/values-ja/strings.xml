@@ -115,10 +115,10 @@
     <string name="downscale_desc">GPU のパフォーマンスを向上させ、バッテリーを節約するために画面の解像度を下げます。わずかに画質が悪くなる可能性があります。UI のクラッシュを避けるためにカスタム ROM (MIUI、EMUI など)の画面幅を半分以下にすることはおすすめしません。</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">[OK] をタップして新しい解像度を確認するか、 %1$d 秒後にリセットされます。</string>
     <string name="downscale_preset_balanced">低解像度</string>
-    <string name="downscale_preset_crop">トリミング 16:9</string>
+    <string name="downscale_preset_crop">16:9 にクロップ</string>
     <string name="downscale_preset_high">高解像度</string>
     <string name="downscale_preset_max">最大解像度</string>
-    <string name="downscale_warning">何か問題が発生した場合は再起動しないでください。代わりに ADB Shell に接続し、次のコマンドを入力して手動でリセットしてください: 「adb shell \'wm size reset;wm density reset」</string>
+    <string name="downscale_warning">何か問題が発生した場合は再起動しないでください。代わりに ADB Shell に接続し、次のコマンドを入力して手動でリセットしてください: 「adb shell wm size reset;wm density reset」</string>
     <string name="doze_description">FDE.AI は、画面がオフになるとすぐに Doze モードを起動できます。問題が発生した場合は、下のボタンでアプリをホワイトリストに追加してください。</string>
     <string name="doze_mode">Doze モードを強制</string>
     <string name="doze_sub_description">画面がオフになるとすぐに Doze モードに入ります。</string>
