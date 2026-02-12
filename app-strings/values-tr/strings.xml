@@ -114,11 +114,11 @@ Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="downscale_btn">Uyarlanabilir alt ölçek</string>
     <string name="downscale_desc">GPU performansını artırmak ve hafif görüntü kalitesi kaybıyla pil tasarrufu sağlamak için daha düşük ekran çözünürlüğü. Kullanıcı arayüzü çökmelerini önlemek için özel ROM\'larda (MIUI, EMUI, vb.) ekran genişliğinin yarısının altına inmeniz önerilmez.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Yeni çözünürlüğü onaylamak için Tamam\'a basın, aksi takdirde %1$d saniye içinde sıfırlanacaktır.</string>
-    <string name="downscale_warning">Bir sorun çıkarsa, cihazı yeniden başlatmayın. Bunun yerine ADB Shell\'e bağlanın ve manuel olarak sıfırlamak için bu komutu girin: adb shell \'wm size reset;wm density reset\'.</string>
-    <string name="downscale_preset_max">Maks çözünürlük</string>
-    <string name="downscale_preset_high">Yüksek çözünürlük</string>
     <string name="downscale_preset_balanced">Düşük çözünürlük</string>
     <string name="downscale_preset_crop">Kırp 16:9</string>
+    <string name="downscale_preset_high">Yüksek çözünürlük</string>
+    <string name="downscale_preset_max">Maks çözünürlük</string>
+    <string name="downscale_warning">Bir sorun çıkarsa, cihazı yeniden başlatmayın. Bunun yerine ADB Shell\'e bağlanın ve manuel olarak sıfırlamak için bu komutu girin: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI, Uyku modunu daha erken tetikleyebilir. Sorun ortaya çıkarsa, aşağıdaki düğmeyi kullanarak uygulamaları beyaz listeye alın.</string>
     <string name="doze_mode">Uyku modunu zorla</string>
     <string name="doze_sub_description">Ekran kapanır kapanmaz Uyku moduna girin.</string>

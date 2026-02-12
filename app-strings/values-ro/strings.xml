@@ -115,11 +115,11 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="downscale_btn">Scară descendentă adaptivă</string>
     <string name="downscale_desc">Scăderea rezoluției ecranului pentru a crește performanța GPU și pentru a economisi baterie, cu pierderea calității imaginii ușoare. Nu se recomandă să treceți sub jumătate din lățimea ecranului în ROM-urile personalizate (MIUI, EMUI etc.) pentru a evita accidentele de interfață.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Apăsaţi OK pentru a confirma noua rezoluţie, sau se va reseta în %1$d sec.</string>
-    <string name="downscale_warning">Dacă ceva nu merge bine, nu reporniți dispozitivul. În schimb, conectați-vă la shell-ul ADB și introduceți această comandă pentru a reseta manual: adb shell \'wm size reset;wm density reset\'.</string>
-    <string name="downscale_preset_max">Rezoluție max.</string>
-    <string name="downscale_preset_high">Rezoluție înaltă</string>
     <string name="downscale_preset_balanced">Rezoluție joasă</string>
     <string name="downscale_preset_crop">Decupare 16:9</string>
+    <string name="downscale_preset_high">Rezoluție înaltă</string>
+    <string name="downscale_preset_max">Rezoluție max.</string>
+    <string name="downscale_warning">Dacă ceva nu merge bine, nu reporniți dispozitivul. În schimb, conectați-vă la shell-ul ADB și introduceți această comandă pentru a reseta manual: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI poate declanşa modul Doze mai devreme. Dacă apar probleme, aplicaţiile tip whitelist folosind butonul de mai jos.</string>
     <string name="doze_mode">Forțează modul Doze</string>
     <string name="doze_sub_description">Intrați în modul Doze imediat ce ecranul este oprit.</string>

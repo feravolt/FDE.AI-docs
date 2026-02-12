@@ -118,11 +118,11 @@
     <string name="downscale_btn">Адаптивна відстань</string>
     <string name="downscale_desc">Дозволяє понизити роздільну здатність екрану для покращеннч продуктивності і енергозбереження ціною якості зображення. Додаток міняє налаштування масштабу для збереження оригінального зображення. При використанні інтерфейсів (MIUI, EMUI и т.д.) не рекомендуеться знижувати роздільну здатність нижче половини від оригінального, в іншому випадку інтерфейс може впасти.</string>
     <string name="downscale_notification">Натисніть ОК, щоб підтвердити нову зменшену роздільну здатність, в іншому випадку воно буде скинуто через %1$d сек.</string>
-    <string name="downscale_warning">Якщо щось піде не так, не перезавантажуйте пристрій. Натомість підключіться до ADB Shell та введіть цю команду для ручного скидання: adb shell \'wm size reset;wm density reset\'.</string>
-    <string name="downscale_preset_max">Макс. роздільна здатність</string>
-    <string name="downscale_preset_high">Висока роздільна здатність</string>
     <string name="downscale_preset_balanced">Низька роздільна здатність</string>
     <string name="downscale_preset_crop">Обрізка 16:9</string>
+    <string name="downscale_preset_high">Висока роздільна здатність</string>
+    <string name="downscale_preset_max">Макс. роздільна здатність</string>
+    <string name="downscale_warning">Якщо щось піде не так, не перезавантажуйте пристрій. Натомість підключіться до ADB Shell та введіть цю команду для ручного скидання: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI може прискорити цей процес. Якщо виникнуть проблеми, добавте додаток в білий список Doze, натиснувши кнопку нижче.</string>
     <string name="doze_mode">Режим Doze</string>
     <string name="doze_sub_description">Увійти в режим Doze, як тільки екран вимкнеться.</string>

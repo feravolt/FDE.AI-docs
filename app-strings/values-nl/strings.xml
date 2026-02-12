@@ -114,11 +114,11 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="downscale_btn">Adaptieve downscale</string>
     <string name="downscale_desc">Lagere schermomolutie om de GPU prestaties te verhogen en batterij te besparen, met een geringe beeldkwaliteit. Niet aanbevolen om onder de helft van de schermbreedte op aangepaste ROM\'s (MIUI, EMUI, etc.) te gaan om crashes van de UI te voorkomen.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Druk op OK om de nieuwe resolutie te bevestigen, anders wordt deze gereset in %1$d sec.</string>
-    <string name="downscale_warning">Als er iets misgaat, start het apparaat dan niet opnieuw op. Maak in plaats daarvan verbinding met ADB Shell en voer deze opdracht in voor handmatig opnieuw instellen: adb shell \'wm size reset;wm density reset\'.</string>
-    <string name="downscale_preset_max">Max resolutie</string>
-    <string name="downscale_preset_high">Hoge resolutie</string>
     <string name="downscale_preset_balanced">Lage resolutie</string>
     <string name="downscale_preset_crop">Uitsnede 16:9</string>
+    <string name="downscale_preset_high">Hoge resolutie</string>
+    <string name="downscale_preset_max">Max resolutie</string>
+    <string name="downscale_warning">Als er iets misgaat, start het apparaat dan niet opnieuw op. Maak in plaats daarvan verbinding met ADB Shell en voer deze opdracht in voor handmatig opnieuw instellen: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI kan Doze-modus eerder activeren. Als zich problemen voordoen, witte lijst apps met de knop hieronder.</string>
     <string name="doze_mode">Doze modus forceren</string>
     <string name="doze_sub_description">Ga in slaapmodus zodra het scherm uit is.</string>

@@ -114,11 +114,11 @@
     <string name="downscale_btn">Адаптивдүү төмөндөтүү</string>
     <string name="downscale_desc">Сүрөттүн сапатын бир аз жоготуу менен GPU иштешин жогорулатуу жана батареяны үнөмдөө үчүн экрандын дааналыгы төмөндөйт. UI бузулуп калбашы үчүн, ыңгайлаштырылган ROM\'ларда (MIUI, EMUI, ж. б.) экрандын туурасынын жарымынан төмөн түшүү сунушталбайт.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Жаңы токтомду ырастоо үчүн OK баскычын басыңыз, болбосо ал %1$d сек. дан кийин баштапкы абалга келтирилет.</string>
-    <string name="downscale_warning">Эгерде нерсе туура эмес болсо, түзмөктү кайра жүктөбөңүз. Анын ордуна ADB Shell-ге туташып, төмөнкү буйрукту киргизип кол менен калыбына келтириңиз: adb shell \'wm size reset;wm density reset\'.</string>
-    <string name="downscale_preset_max">Макс. дааналык</string>
-    <string name="downscale_preset_high">Жогорку дааналык</string>
     <string name="downscale_preset_balanced">Төмөн дааналык</string>
     <string name="downscale_preset_crop">Кесүү 16:9</string>
+    <string name="downscale_preset_high">Жогорку дааналык</string>
+    <string name="downscale_preset_max">Макс. дааналык</string>
+    <string name="downscale_warning">Эгерде нерсе туура эмес болсо, түзмөктү кайра жүктөбөңүз. Анын ордуна ADB Shell-ге туташып, төмөнкү буйрукту киргизип кол менен калыбына келтириңиз: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI Doze режимин эртерээк иштете алат. Эгер көйгөйлөр пайда болсо, төмөнкү баскычты колдонуп, колдонмолорду ак тизмеге киргизиңиз.</string>
     <string name="doze_mode">Force Doze режими</string>
     <string name="doze_sub_description">Экран өчүп калгандан кийин Doze режимине кирүү.</string>

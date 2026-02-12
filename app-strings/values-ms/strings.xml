@@ -113,11 +113,11 @@ Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="downscale_btn">Penyesuaian penurunan skala</string>
     <string name="downscale_desc">Menurunkan resolusi skrin untuk menggalakkan prestasi GPU dan menjimatkan bateri, dengan sedikit perendahan kualiti gambar. Tidak digalakkan untuk merendahkan lebih dari setengah kelebaran skrin untuk ROM penyesuai (MIUI, EMUI, etc) untuk mengelakkan UI berserabut.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Tekan OK untuk mengesahkan peleraian baharu, atau ia akan ditetapkan semula dalam %1$d saat.</string>
-    <string name="downscale_warning">Jika ada masalah, jangan mulai semula peranti. Sebaliknya, sambungkan ke shell ADB dan masukkan arahan ini untuk penetapan semula manual: adb shell \'wm size reset;wm density reset\'.</string>
-    <string name="downscale_preset_max">Resolusi Maks</string>
-    <string name="downscale_preset_high">Resolusi Tinggi</string>
     <string name="downscale_preset_balanced">Resolusi Rendah</string>
     <string name="downscale_preset_crop">Potong 16:9</string>
+    <string name="downscale_preset_high">Resolusi Tinggi</string>
+    <string name="downscale_preset_max">Resolusi Maks</string>
+    <string name="downscale_warning">Jika ada masalah, jangan mulai semula peranti. Sebaliknya, sambungkan ke shell ADB dan masukkan arahan ini untuk penetapan semula manual: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI boleh mencetuskan mod Doze lebih awal. Jika isu timbul, senarai putih apl menggunakan butang di bawah.</string>
     <string name="doze_mode">Paksa mod lelap</string>
     <string name="doze_sub_description">Masuk ke mod tidur sebaik sahaja skrin padam.</string>

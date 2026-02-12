@@ -117,11 +117,11 @@
     <string name="downscale_btn">Даунскейл</string>
     <string name="downscale_desc">Позволяет понизить разрешение экрана для улучшения производительности и энергосбережения ценой качества изображения. Приложение меняет настройки масштаба для сохранения оригинального изображения. При использовании оболочек (MIUI, EMUI и т.д.) не рекомендуется снижать разрешение ниже половины от оригинального, иначе интерфейс может упасть.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Нажмите ОК, чтобы подтвердить новое уменьшенное разрешение, иначе оно будет сброшено через %1$d сек.</string>
-    <string name="downscale_warning">Если что-то пойдёт не так, не перезагружайте устройство. Вместо этого подключитесь к ADB Shell и введите эту команду для ручного сброса: adb shell \'wm size reset;wm density reset\'.</string>
-    <string name="downscale_preset_max">Макс. разрешение</string>
-    <string name="downscale_preset_high">Высокое разрешение</string>
     <string name="downscale_preset_balanced">Низкое разрешение</string>
     <string name="downscale_preset_crop">Обрезка 16:9</string>
+    <string name="downscale_preset_high">Высокое разрешение</string>
+    <string name="downscale_preset_max">Макс. разрешение</string>
+    <string name="downscale_warning">Если что-то пойдёт не так, не перезагружайте устройство. Вместо этого подключитесь к ADB Shell и введите эту команду для ручного сброса: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI может ускорить вход в этот режим. Если возникнут проблемы, добавьте приложения в белый список по кнопке ниже.</string>
     <string name="doze_mode">Принудит. режим Doze</string>
     <string name="doze_sub_description">Перейти в режим Doze, как только экран выключится.</string>
