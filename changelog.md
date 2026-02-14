@@ -1,6 +1,31 @@
 ### Changelog
 
-## **v25.12.3**
+## **v26.02.1**
+
+### New:
+
+— App design\
+— 0.1% FPS in monitoring overlay\
+— ART cache reset in Shizuku mode\
+— Core: storage type based I/O tweaks
+
+### Improved:
+
+— UI and performance\
+— Core: dynamic read-ahead\
+— Core: power saving\
+— Core: OS tweaks\
+— Core: AI tuning logic
+
+### Fixed:
+
+— Crashes and bootloops\
+— Core: Exynos CPU control\
+— Core: throttling control
+
+---
+
+## **v25.12.5**
 
 ### New:
 
@@ -53,7 +78,7 @@
 
 — Constant AI mode notification in Shizuku mode\
 — Android 7+ Shizuku mode support\
-— WiFi sleep mode toggle to improve Shizuku connection\
+— Wi-Fi sleep mode toggle to improve Shizuku connection\
 — Android performance hint support for Shizuku mode
 
 ### Improved:
