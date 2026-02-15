@@ -95,7 +95,6 @@ Wenn das Problem weiterhin besteht, wenden Sie sich per Telegram an den Entwickl
     <string name="cpu_top_header">Prozessstatistik</string>
     <string name="cpu_turbo_support">CPU-Turbo-Unterstützung</string>
     <string name="cpu_turbo_trigger_count">Anzahl der CPU-Turbo-Trigger</string>
-    <string name="current_resolution">Aktuelle Auflösung:</string>
     <string name="dark_theme">Dunkel</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="one">Änderungen auf %1$d App anwenden?</item>
@@ -114,6 +113,10 @@ Wenn das Problem weiterhin besteht, wenden Sie sich per Telegram an den Entwickl
     <string name="downscale_btn">Adaptive Downscale</string>
     <string name="downscale_desc">Niedrige Bildschirmauflösung, um die GPU-Leistung zu steigern und Batterie zu sparen, mit geringerem Verlust an Bildqualität. Nicht empfohlen zu gehen unter die Hälfte der Bildschirmbreite auf benutzerdefinierten ROMs (MIUI, EMUI, etc.) um UI-Abstürze zu vermeiden.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Drücken Sie OK, um die neue Auflösung zu bestätigen, oder es wird in %1$d Sekunden zurückgesetzt.</string>
+    <string name="downscale_preset_balanced">Niedrige Auflösung</string>
+    <string name="downscale_preset_crop">Zuschnitt 16:9</string>
+    <string name="downscale_preset_high">Hohe Auflösung</string>
+    <string name="downscale_preset_max">Max. Auflösung</string>
     <string name="downscale_warning">Falls ein Fehler auftritt, starten Sie das Gerät nicht neu. Verbinden Sie sich stattdessen mit ADB Shell und geben Sie diesen Befehl ein, um manuell zurückzusetzen: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI kann den Schlummermodus früher auslösen. Wenn Probleme auftreten, werden Apps mit dem unten stehenden Button in der Whitelist gelistet.</string>
     <string name="doze_mode">Doze-Modus erzwingen</string>
@@ -133,7 +136,7 @@ Wenn das Problem weiterhin besteht, wenden Sie sich per Telegram an den Entwickl
     <string name="extraopt_do_btn">Start</string>
     <string name="extraopt_reset_btn">Optimierung zurücksetzen</string>
     <string name="extraopt_schedule_title">Tägliche Ausführung planen</string>
-    <string name="extraopt_scheduled_subtitle">Nächster Lauf um %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">Nächster Lauf um %1$s:%2$s</string>
     <string name="extraopt_warning">Dies ist keine systemlose Optimierung. Kann das System auf einigen benutzerdefinierten ROMs beschädigen (erfordert das Löschen des ART-Caches in der Recovery). Sichern Sie Ihre Daten vor der Verwendung.</string>
     <string name="fde_is_active">AI aktiv</string>
     <string name="fde_is_inactive">AI inactive</string>
@@ -209,7 +212,6 @@ Wenn das Problem weiterhin besteht, wenden Sie sich per Telegram an den Entwickl
     <string name="onboarding_setup">Setup</string>
     <string name="onboarding_setup_message">Wählen Sie aus, welche Optimierungen angewendet werden sollen. Sie können die Einstellungen nach dem Setup ändern.</string>
     <string name="open_os_dev_settings">Android-Entwickler-Einstellungen öffnen</string>
-    <string name="optimize_now">Jetzt optimieren</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Durchschnitt: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Akku: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

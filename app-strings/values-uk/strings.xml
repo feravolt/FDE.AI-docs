@@ -97,7 +97,6 @@
     <string name="cpu_top_header">Статистика процесу</string>
     <string name="cpu_turbo_support">Підтримка CPU Turbo</string>
     <string name="cpu_turbo_trigger_count">Кількість спрацювань тригерів CPU Turbo</string>
-    <string name="current_resolution">Поточна роздільна здатність:</string>
     <string name="dark_theme">Темна</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="one">Застосувати зміни до %1$d програми?</item>
@@ -141,7 +140,7 @@
     <string name="extraopt_do_btn">Старт</string>
     <string name="extraopt_reset_btn">Скинути оптимізацію</string>
     <string name="extraopt_schedule_title">Запускати кожний день</string>
-    <string name="extraopt_scheduled_subtitle">Наступний запуск о %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">Наступний запуск о %1$s:%2$s</string>
     <string name="extraopt_warning">Це не безсистемна оптимізація. Може зламати систему на деяких кастомних прошивках (потрібно очистити кеш ART у recovery). Створіть резервну копію ваших даних перед використанням.</string>
     <string name="fde_is_active">Активний AI</string>
     <string name="fde_is_inactive">AI неактивний</string>
@@ -218,7 +217,6 @@
     <string name="onboarding_setup">Налаштування</string>
     <string name="onboarding_setup_message">Виберіть параметри які будуть застосовуватися. Після налаштування ви можете змінити їх після початкового встановлення.</string>
     <string name="open_os_dev_settings">Відкрити налаштування розробника Android</string>
-    <string name="optimize_now">Оптимізувати зараз</string>
     <string name="overlay_avg_fps">Середнє: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Батарея: %1$s°C</string>
     <string name="overlay_cpu_load">CPU: %1$s%%</string>

@@ -95,7 +95,6 @@ Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="cpu_top_header">Statistik proses</string>
     <string name="cpu_turbo_support">Sokongan CPU Turbo</string>
     <string name="cpu_turbo_trigger_count">Kiraan pencetus Turbo Turbo</string>
-    <string name="current_resolution">Resolusi sekarang:</string>
     <string name="dark_theme">Gelap</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="other">Terapkan perubahan kepada %1$d apl?</item>
@@ -136,7 +135,7 @@ Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="extraopt_do_btn">Mula</string>
     <string name="extraopt_reset_btn">Set semula pengoptimuman</string>
     <string name="extraopt_schedule_title">Jadualkan untuk dijalankan setiap hari</string>
-    <string name="extraopt_scheduled_subtitle">Larian seterusnya pada %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">Larian seterusnya pada %1$s:%2$s</string>
     <string name="extraopt_warning">Ini bukan pengoptimuman sistemless. Mungkin akan merosakkan sistem untuk sebahagian ROMs penyesuai (memerlukan pembersihan ART cache di recovery). Simpan salinan data sebelum guna.</string>
     <string name="fde_is_active">AI aktif</string>
     <string name="fde_is_inactive">AI tidak aktif</string>
@@ -212,7 +211,6 @@ Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="onboarding_setup">Penyediaan</string>
     <string name="onboarding_setup_message">Pilih ubahsuai untuk digunakan. Anda boleh mengubah tetapan selepas penyediaan.</string>
     <string name="open_os_dev_settings">Buka tetapan pembangunan Android</string>
-    <string name="optimize_now">Optimumkan sekarang</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Avg: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Battery: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

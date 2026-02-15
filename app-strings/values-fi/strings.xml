@@ -95,7 +95,6 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="cpu_top_header">Prosessin tilastot</string>
     <string name="cpu_turbo_support">CPU Turbo -tuki</string>
     <string name="cpu_turbo_trigger_count">CPU Turbo -triggereiden määrä</string>
-    <string name="current_resolution">Nykyinen resoluutio:</string>
     <string name="dark_theme">Tumma</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="one">Sovellataanko muutokset %1$d sovellukseen?</item>
@@ -137,7 +136,7 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="extraopt_do_btn">Aloita</string>
     <string name="extraopt_reset_btn">Nollaa optimointi</string>
     <string name="extraopt_schedule_title">Ajoita päivittäinen suoritus</string>
-    <string name="extraopt_scheduled_subtitle">Seuraava ajo klo %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">Seuraava ajo klo %1$s:%2$s</string>
     <string name="extraopt_warning">Tämä ei ole järjestelmätön optimointi. Voi rikkoa järjestelmän joitakin mukautettuja ROMit (vaatii tyhjentää ART välimuisti recovery). Varmuuskopioi tiedot ennen käyttöä.</string>
     <string name="fde_is_active">AI aktiivinen</string>
     <string name="fde_is_inactive">AI inactive</string>
@@ -213,7 +212,6 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="onboarding_setup">Asetukset</string>
     <string name="onboarding_setup_message">Valitse mitkä säädöt käytetään. Voit muuttaa asetuksia asennuksen jälkeen.</string>
     <string name="open_os_dev_settings">Avaa Android-kehittäjän asetukset</string>
-    <string name="optimize_now">Optimoi nyt</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Keskin: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Akku: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">Suoritin: %1$s%%</string>

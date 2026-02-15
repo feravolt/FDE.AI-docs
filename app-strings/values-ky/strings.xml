@@ -95,7 +95,6 @@
     <string name="cpu_top_header">Процесс статистикасы</string>
     <string name="cpu_turbo_support">CPU Turbo колдоосу</string>
     <string name="cpu_turbo_trigger_count">CPU Turbo триггеринин саны</string>
-    <string name="current_resolution">Учурдагы чечим:</string>
     <string name="dark_theme">Караңгы</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="one">%1$d тиркеме үчүн өзгөртүүлөр колдонулсунбу?</item>
@@ -137,7 +136,7 @@
     <string name="extraopt_do_btn">Баштоо</string>
     <string name="extraopt_reset_btn">Оптимизацияны баштапкы калыбына келтир</string>
     <string name="extraopt_schedule_title">Күн сайын иштөө графиги</string>
-    <string name="extraopt_scheduled_subtitle">Кийинки иштетүү %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">Кийинки иштетүү %1$s:%2$s</string>
     <string name="extraopt_warning">Бул системасыз оптималдаштыруу эмес. Кээ бир ыңгайлаштырылган ROM\'ларда системаны бузуп салышы мүмкүн (калыбына келтирүүдө ART кэшин тазалоону талап кылат). Колдонуудан мурун маалыматтарыңыздын камдык көчүрмөсүн сактаңыз.</string>
     <string name="fde_is_active">ЖА иштөөдө</string>
     <string name="fde_is_inactive">ЖА өчүк</string>
@@ -213,7 +212,6 @@
     <string name="onboarding_setup">Орнотуу</string>
     <string name="onboarding_setup_message">Кайсы өзгөртүүлөр колдонуларын тандаңыз. Орнотуудан кийин жөндөөлөрдү өзгөртө аласыз.</string>
     <string name="open_os_dev_settings">Android иштеп чыгуучунун жөндөөлөрүн ачыңыз</string>
-    <string name="optimize_now">Азыр оптимизацияла</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Орточо: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Батарея: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

@@ -95,7 +95,6 @@ Se o problema persistir, entre em contato com o desenvolvedor no Telegram.</stri
     <string name="cpu_top_header">Estatísticas de processo</string>
     <string name="cpu_turbo_support">Suporte ao CPU Turbo</string>
     <string name="cpu_turbo_trigger_count">Contagem de acionamentos do CPU Turbo</string>
-    <string name="current_resolution">Resolução atual:</string>
     <string name="dark_theme">Escuro</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="one">Aplicar alterações em %1$d app?</item>
@@ -137,7 +136,7 @@ Se o problema persistir, entre em contato com o desenvolvedor no Telegram.</stri
     <string name="extraopt_do_btn">Iniciar</string>
     <string name="extraopt_reset_btn">Redefinir otimização</string>
     <string name="extraopt_schedule_title">Programar para execução diária</string>
-    <string name="extraopt_scheduled_subtitle">Próxima execução às %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">Próxima execução às %1$s:%2$s</string>
     <string name="extraopt_warning">Esta não é uma otimização sem sistema. Pode quebrar o sistema em algumas ROMs personalizadas (requer limpeza do cache ART em recuperação). Faça backup de seus dados antes do uso.</string>
     <string name="fde_is_active">IA ativa</string>
     <string name="fde_is_inactive">AI inactive</string>
@@ -213,7 +212,6 @@ Se o problema persistir, entre em contato com o desenvolvedor no Telegram.</stri
     <string name="onboarding_setup">Configuração</string>
     <string name="onboarding_setup_message">Selecione quais tweaks serão aplicados. Você pode alterar as configurações após a configuração.</string>
     <string name="open_os_dev_settings">Abrir configurações do desenvolvedor do Android</string>
-    <string name="optimize_now">Otimizar agora</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Média: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Bateria: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

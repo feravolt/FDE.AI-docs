@@ -96,7 +96,6 @@
     <string name="cpu_top_header">プロセスの統計</string>
     <string name="cpu_turbo_support">CPU ターボに対応しているか</string>
     <string name="cpu_turbo_trigger_count">CPU ターボの実行回数</string>
-    <string name="current_resolution">現在の解像度:</string>
     <string name="dark_theme">ダーク</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="other">%1$d 個のアプリに変更を適用しますか？</item>
@@ -118,7 +117,7 @@
     <string name="downscale_preset_crop">16:9 にクロップ</string>
     <string name="downscale_preset_high">高解像度</string>
     <string name="downscale_preset_max">最大解像度</string>
-    <string name="downscale_warning">何か問題が発生した場合は再起動しないでください。代わりに ADB Shell に接続し、次のコマンドを入力して手動でリセットしてください: 「adb shell wm size reset;wm density reset」</string>
+    <string name="downscale_warning">何か問題が発生した場合は再起動しないでください。代わりに ADB Shell に接続し、次のコマンドを入力して手動でリセットしてください: 「adb shell \'wm size reset;wm density reset\'」</string>
     <string name="doze_description">FDE.AI は、画面がオフになるとすぐに Doze モードを起動できます。問題が発生した場合は、下のボタンでアプリをホワイトリストに追加してください。</string>
     <string name="doze_mode">Doze モードを強制</string>
     <string name="doze_sub_description">画面がオフになるとすぐに Doze モードに入ります。</string>
@@ -137,7 +136,7 @@
     <string name="extraopt_do_btn">開始</string>
     <string name="extraopt_reset_btn">最適化をリセット</string>
     <string name="extraopt_schedule_title">毎日実行するスケジュール</string>
-    <string name="extraopt_scheduled_subtitle">次回実行時刻: %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">次回実行時刻: %1$s:%2$s</string>
     <string name="extraopt_warning">これはシステムレベルの最適化です。一部のカスタム ROM では破損する可能性があります (リカバリーで ART キャッシュをクリアする必要があります)。使用前にデータをバックアップしてください。</string>
     <string name="fde_is_active">AI は有効です。</string>
     <string name="fde_is_inactive">AI は無効です。</string>
@@ -215,7 +214,6 @@
     <string name="onboarding_setup">設定</string>
     <string name="onboarding_setup_message">適用する微調整を選択してください。初期設定の完了後に設定を変更することもできます。</string>
     <string name="open_os_dev_settings">Android の開発者設定を開く</string>
-    <string name="optimize_now">今すぐ最適化</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">平均: %1$sFPS</string>
     <string name="overlay_battery_temp_x">バッテリー: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

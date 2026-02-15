@@ -95,7 +95,6 @@ Se il problema persiste, contatta lo sviluppatore su Telegram.</string>
     <string name="cpu_top_header">Statistiche di processo</string>
     <string name="cpu_turbo_support">Supporto CPU Turbo</string>
     <string name="cpu_turbo_trigger_count">Conteggio trigger CPU Turbo</string>
-    <string name="current_resolution">Risoluzione attuale:</string>
     <string name="dark_theme">Scuro</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="one">Applicare le modifiche a %1$d app?</item>
@@ -137,7 +136,7 @@ Se il problema persiste, contatta lo sviluppatore su Telegram.</string>
     <string name="extraopt_do_btn">Inizia</string>
     <string name="extraopt_reset_btn">Ripristina ottimizzazione</string>
     <string name="extraopt_schedule_title">Pianifica l\'esecuzione giornaliera</string>
-    <string name="extraopt_scheduled_subtitle">Prossima esecuzione alle %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">Prossima esecuzione alle %1$s:%2$s</string>
     <string name="extraopt_warning">Questa non è un\'ottimizzazione senza sistema. Potrebbe rompere il sistema su alcune ROM personalizzate (richiede la cancellazione della cache ART in recupero). Backup dei dati prima dell\'uso.</string>
     <string name="fde_is_active">AI attivo</string>
     <string name="fde_is_inactive">AI inactive</string>
@@ -213,7 +212,6 @@ Se il problema persiste, contatta lo sviluppatore su Telegram.</string>
     <string name="onboarding_setup">Configurazione</string>
     <string name="onboarding_setup_message">Seleziona le modifiche da applicare. Puoi modificare le impostazioni dopo l\'installazione.</string>
     <string name="open_os_dev_settings">Apri impostazioni sviluppatore Android</string>
-    <string name="optimize_now">Ottimizza ora</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Media: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Batteria: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

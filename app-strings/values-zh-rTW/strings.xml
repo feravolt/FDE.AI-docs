@@ -95,7 +95,6 @@
     <string name="cpu_top_header">進程統計</string>
     <string name="cpu_turbo_support">CPU Turbo 支援</string>
     <string name="cpu_turbo_trigger_count">CPU Turbo 觸發計數</string>
-    <string name="current_resolution">目前解析度：</string>
     <string name="dark_theme">深色</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="other">將變更套用到 %1$d 個應用程式？</item>
@@ -136,7 +135,7 @@
     <string name="extraopt_do_btn">開始</string>
     <string name="extraopt_reset_btn">還原優化</string>
     <string name="extraopt_schedule_title">每天運行的計劃</string>
-    <string name="extraopt_scheduled_subtitle">下次執行時間：%1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">下次執行時間：%1$s:%2$s</string>
     <string name="extraopt_warning">這不是systemless的優化。 可能會破壞某些自訂 ROM 上的系統（需要在recovery裡清除 ART 快取才會恢復）。 使用前備份您的資料。</string>
     <string name="fde_is_active">人工智慧活躍中</string>
     <string name="fde_is_inactive">人工智慧不活躍</string>
@@ -212,7 +211,6 @@
     <string name="onboarding_setup">設定</string>
     <string name="onboarding_setup_message">選擇要套用的調整。 您可以在設定後，再更改設定。</string>
     <string name="open_os_dev_settings">開啟 Android 開發者設定</string>
-    <string name="optimize_now">立刻優化</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">平均：%1$s FPS</string>
     <string name="overlay_battery_temp_x">電池：%1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

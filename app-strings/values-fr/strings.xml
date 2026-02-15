@@ -95,7 +95,6 @@ Si le problème persiste, contactez le développeur sur Telegram.</string>
     <string name="cpu_top_header">Statistiques du processus</string>
     <string name="cpu_turbo_support">Prise en charge de la fonction Turbo du processeur</string>
     <string name="cpu_turbo_trigger_count">Nombre de déclencheurs de la fonction Turbo du processeur</string>
-    <string name="current_resolution">Résolution actuelle:</string>
     <string name="dark_theme">Sombre</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="one">Appliquer les modifications à %1$d app ?</item>
@@ -137,7 +136,7 @@ Si le problème persiste, contactez le développeur sur Telegram.</string>
     <string name="extraopt_do_btn">Début</string>
     <string name="extraopt_reset_btn">Réinitialiser l\'optimisation</string>
     <string name="extraopt_schedule_title">Programmer l\'exécution quotidienne</string>
-    <string name="extraopt_scheduled_subtitle">Prochaine exécution à %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">Prochaine exécution à %1$s:%2$s</string>
     <string name="extraopt_warning">Ceci n\'est pas une optimisation sans système. Peut casser le système sur certaines ROM personnalisées (nécessite la suppression du cache ART dans la récupération). Sauvegardez vos données avant utilisation.</string>
     <string name="fde_is_active">IA active</string>
     <string name="fde_is_inactive">AI inactive</string>
@@ -213,7 +212,6 @@ Si le problème persiste, contactez le développeur sur Telegram.</string>
     <string name="onboarding_setup">Configuration</string>
     <string name="onboarding_setup_message">Sélectionnez les réglages à appliquer. Vous pouvez modifier les paramètres après l\'installation.</string>
     <string name="open_os_dev_settings">Ouvrir les paramètres du développeur Android</string>
-    <string name="optimize_now">Optimiser maintenant</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Moyenne : %1$s FPS</string>
     <string name="overlay_battery_temp_x">Batterie : %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">Processeur : %1$s%%</string>

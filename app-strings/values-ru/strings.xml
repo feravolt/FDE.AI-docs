@@ -96,7 +96,6 @@
     <string name="cpu_top_header">Процессы</string>
     <string name="cpu_turbo_support">Поддержка CPU Turbo</string>
     <string name="cpu_turbo_trigger_count">Срабатываний CPU Turbo</string>
-    <string name="current_resolution">Текущее разрешение:</string>
     <string name="dark_theme">Темная</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="one">Применить изменения к %1$d приложению?</item>
@@ -140,7 +139,7 @@
     <string name="extraopt_do_btn">Запуск</string>
     <string name="extraopt_reset_btn">Сброс оптимизации</string>
     <string name="extraopt_schedule_title">Запускать каждый день</string>
-    <string name="extraopt_scheduled_subtitle">Следующий запуск в %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">Следующий запуск в %1$s:%2$s</string>
     <string name="extraopt_warning">Это не внесистемная оптимизация. На некоторых кастомных прошивках может вызвать ошибки (в таком случае придется очистить ART кеш в recovery). Убедитесь, что у вас есть бэкап данных.</string>
     <string name="fde_is_active">ИИ активен</string>
     <string name="fde_is_inactive">ИИ неактивен</string>
@@ -218,7 +217,6 @@
     <string name="onboarding_setup">Настройка</string>
     <string name="onboarding_setup_message">Пожалуйста, выберите, какие твики нужно применить. Вы сможете изменить любые настройки после начальной установки.</string>
     <string name="open_os_dev_settings">Открыть настройки разработчика Android</string>
-    <string name="optimize_now">Оптимизировать сейчас</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Сред.: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Батарея: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">ЦП: %1$s%%</string>

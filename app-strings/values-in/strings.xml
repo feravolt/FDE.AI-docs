@@ -95,7 +95,6 @@ Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="cpu_top_header">Statistik Proses</string>
     <string name="cpu_turbo_support">Dukungan Turbo CPU</string>
     <string name="cpu_turbo_trigger_count">Jumlah pemicu Turbo CPU</string>
-    <string name="current_resolution">Resolusi saat ini:</string>
     <string name="dark_theme">Gelap</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="other">Terapkan perubahan ke %1$d aplikasi?</item>
@@ -136,7 +135,7 @@ Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="extraopt_do_btn">Mulai</string>
     <string name="extraopt_reset_btn">Atur Ulang Optimasi</string>
     <string name="extraopt_schedule_title">Jadwal untuk dijalankan setiap hari</string>
-    <string name="extraopt_scheduled_subtitle">Jalankan berikutnya pada %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">Jalankan berikutnya pada %1$s:%2$s</string>
     <string name="extraopt_warning">Ini bukan optimasi tanpa sistem. Mungkin merusak sistem pada beberapa ROM kustom (memerlukan pembersihan cache ART di mode pemulihan). Cadangkan data Anda sebelum menggunakan.</string>
     <string name="fde_is_active">AI aktif</string>
     <string name="fde_is_inactive">AI tidak aktif</string>
@@ -212,7 +211,6 @@ Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="onboarding_setup">Pengaturan</string>
     <string name="onboarding_setup_message">Pilih penyesuaian mana yang akan diterapkan. Anda dapat mengubah pengaturan setelah penyiapan.</string>
     <string name="open_os_dev_settings">Buka pengaturan pengembang Android</string>
-    <string name="optimize_now">Optimalkan sekarang</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Rata-rata: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Battery: %1$s°C</string>
     <string name="overlay_desc_text">Aktifkan jendela mengambang dengan statistik waktu nyata untuk pemantauan.</string>

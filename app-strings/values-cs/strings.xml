@@ -95,7 +95,6 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="cpu_top_header">Statistiky zpracování</string>
     <string name="cpu_turbo_support">Podpora CPU Turbo</string>
     <string name="cpu_turbo_trigger_count">Počet spouštění Turbo CPU</string>
-    <string name="current_resolution">Aktuální rozlišení:</string>
     <string name="dark_theme">Tmavý</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="one">Použít změny na %1$d aplikaci?</item>
@@ -116,6 +115,10 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="downscale_btn">Adaptivní redukce</string>
     <string name="downscale_desc">Nižší rozlišení obrazovky zvyšuje výkon GPU a šetří baterii, s mírnými ztrátami kvality obrazu. Nedoporučuje se přejít pod polovinu šířky obrazovky na vlastní ROM (MIUI, EMUI, atd.), aby se zabránilo pádům uživatelského rozhraní.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Stisknutím tlačítka OK potvrďte nové rozlišení, nebo se obnoví v %1$d sekund.</string>
+    <string name="downscale_preset_balanced">Nízké rozlišení</string>
+    <string name="downscale_preset_crop">Ořez 16:9</string>
+    <string name="downscale_preset_high">Vysoké rozlišení</string>
+    <string name="downscale_preset_max">Maximální rozlišení</string>
     <string name="downscale_warning">Pokud se něco pokazí, nerestartujte zařízení. Místo toho se připojte k ADB Shell a zadejte tento příkaz pro ruční resetování: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">FDE.AI může spustit režim Doze dříve. Pokud problémy nastanou, povolených aplikací pomocí tlačítka níže.</string>
     <string name="doze_mode">Vynutit režim Doze</string>
@@ -135,7 +138,7 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="extraopt_do_btn">Začít</string>
     <string name="extraopt_reset_btn">Resetovat optimalizaci</string>
     <string name="extraopt_schedule_title">Naplánujte spouštění denně</string>
-    <string name="extraopt_scheduled_subtitle">Další spuštění v %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">Další spuštění v %1$s:%2$s</string>
     <string name="extraopt_warning">Toto není systémová optimalizace. Může poškodit systém na některých vlastních ROM (vyžaduje vymazání ART mezipaměti v recovery). Zálohujte svá data před použitím.</string>
     <string name="fde_is_active">AI aktivní</string>
     <string name="fde_is_inactive">AI inactive</string>
@@ -211,7 +214,6 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="onboarding_setup">Nastavení</string>
     <string name="onboarding_setup_message">Vyberte, která vylepšení budou použita. Po nastavení můžete změnit nastavení.</string>
     <string name="open_os_dev_settings">Otevřít nastavení vývojáře Androidu</string>
-    <string name="optimize_now">Optimalizovat nyní</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Průměr: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Baterie: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

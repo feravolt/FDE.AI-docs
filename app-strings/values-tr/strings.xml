@@ -95,7 +95,6 @@ Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="cpu_top_header">Süreç istatistikleri</string>
     <string name="cpu_turbo_support">CPU Turbo desteği</string>
     <string name="cpu_turbo_trigger_count">CPU Turbo tetikleyici sayısı</string>
-    <string name="current_resolution">Mevcut çözünürlük:</string>
     <string name="dark_theme">Koyu</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="one">%1$d uygulamaya değişiklik uygulansın mı?</item>
@@ -137,7 +136,7 @@ Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="extraopt_do_btn">Başlat</string>
     <string name="extraopt_reset_btn">Optimizasyonu sıfırla</string>
     <string name="extraopt_schedule_title">Günlük olarak çalışacak şekilde zamanlayın</string>
-    <string name="extraopt_scheduled_subtitle">Sonraki çalışma %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">Sonraki çalışma %1$s:%2$s</string>
     <string name="extraopt_warning">Bu sistemsiz bir optimizasyon değildir. Bazı özel ROM\'larda sistemi bozabilir (kurtarma sırasında ART önbelleği temizlemeyi gerektirir). Kullanmadan önce verilerinizi yedekleyin.</string>
     <string name="fde_is_active">AI aktif</string>
     <string name="fde_is_inactive">Yapay Zeka etkin değil</string>
@@ -213,7 +212,6 @@ Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="onboarding_setup">Kurulum</string>
     <string name="onboarding_setup_message">Uygulanacak ince ayarları seçin. Kurulumdan sonra ayarları değiştirebilirsiniz.</string>
     <string name="open_os_dev_settings">Android geliştirici ayarlarını açın</string>
-    <string name="optimize_now">Şimdi optimize et</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Ortalama: %1$s fps</string>
     <string name="overlay_battery_temp_x">Pil: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">İşlemci: %1$s%%</string>

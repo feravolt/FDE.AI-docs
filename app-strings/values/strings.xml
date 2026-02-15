@@ -99,7 +99,6 @@
     <string name="cpu_top_header">Process statistics</string>
     <string name="cpu_turbo_support">CPU Turbo support</string>
     <string name="cpu_turbo_trigger_count">CPU Turbo trigger count</string>
-    <string name="current_resolution">Current resolution:</string>
     <string name="dark_theme">Dark</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="one">Apply changes to %1$d app?</item>
@@ -142,7 +141,7 @@
     <string name="extraopt_do_btn">Start</string>
     <string name="extraopt_reset_btn">Reset optimization</string>
     <string name="extraopt_schedule_title">Schedule to run daily</string>
-    <string name="extraopt_scheduled_subtitle">Next run at %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">Next run at %1$s:%2$s</string>
     <string name="extraopt_warning">This is not a systemless optimization. May break the system on some custom ROMs (requires clearing ART cache in recovery). Backup your data before use.</string>
     <string name="faq" translatable="false">FAQ</string>
     <string name="fde_is_active">AI active</string>
@@ -227,7 +226,6 @@
     <string name="onboarding_setup">Setup</string>
     <string name="onboarding_setup_message">Select which tweaks to apply. You can change settings after setup.</string>
     <string name="open_os_dev_settings">Open Android developer settings</string>
-    <string name="optimize_now">Optimize now</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Avg: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Battery: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

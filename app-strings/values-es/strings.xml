@@ -95,7 +95,6 @@ Si el problema persiste, contacta con el desarrollador en Telegram.</string>
     <string name="cpu_top_header">Estadísticas del proceso</string>
     <string name="cpu_turbo_support">Compatibilidad con CPU Turbo</string>
     <string name="cpu_turbo_trigger_count">Recuento de activaciones de CPU Turbo</string>
-    <string name="current_resolution">Resolución actual:</string>
     <string name="dark_theme">Oscuro</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="one">¿Aplicar cambios a %1$d aplicación?</item>
@@ -137,7 +136,7 @@ Si el problema persiste, contacta con el desarrollador en Telegram.</string>
     <string name="extraopt_do_btn">Empezar</string>
     <string name="extraopt_reset_btn">Restablecer optimización</string>
     <string name="extraopt_schedule_title">Programar para ejecutar diariamente</string>
-    <string name="extraopt_scheduled_subtitle">Próxima ejecución a las %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">Próxima ejecución a las %1$s:%2$s</string>
     <string name="extraopt_warning">No se trata de una optimización sin sistema. Puede romper el sistema en algunas ROMs personalizadas (requiere borrar la caché de ART en el recovery). Copia de seguridad de sus datos antes de su uso.</string>
     <string name="fde_is_active">IA activa</string>
     <string name="fde_is_inactive">IA inactiva</string>
@@ -213,7 +212,6 @@ Si el problema persiste, contacta con el desarrollador en Telegram.</string>
     <string name="onboarding_setup">Configurar</string>
     <string name="onboarding_setup_message">Seleccione los ajustes que desea aplicar. Puedes cambiar los ajustes después de la configuración.</string>
     <string name="open_os_dev_settings">Abrir las opciones de desarrollador de Android</string>
-    <string name="optimize_now">Optimizar ahora</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Promedio: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Batería: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

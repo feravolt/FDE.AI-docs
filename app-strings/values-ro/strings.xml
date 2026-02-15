@@ -95,7 +95,6 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="cpu_top_header">Procesează statistici</string>
     <string name="cpu_turbo_support">Compatibilitate CPU Turbo</string>
     <string name="cpu_turbo_trigger_count">Număr de declanșări CPU Turbo</string>
-    <string name="current_resolution">Rezoluția actuală:</string>
     <string name="dark_theme">Întunecat</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="one">Aplici modificările pentru %1$d aplicație?</item>
@@ -138,7 +137,7 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="extraopt_do_btn">Pornire</string>
     <string name="extraopt_reset_btn">Resetare optimizare</string>
     <string name="extraopt_schedule_title">Programați să ruleze zilnic</string>
-    <string name="extraopt_scheduled_subtitle">Următoarea rulare la %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">Următoarea rulare la %1$s:%2$s</string>
     <string name="extraopt_warning">Aceasta nu este o optimizare fără sistem. Poate întrerupe sistemul de pe unele ROM-uri personalizate (necesită curățarea geocutiei ART în recuperare). Se salvează datele înainte de a le folosi.</string>
     <string name="fde_is_active">AI activ</string>
     <string name="fde_is_inactive">AI inactive</string>
@@ -214,7 +213,6 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="onboarding_setup">Configurare</string>
     <string name="onboarding_setup_message">Selectați ce modificări să aplicați. Puteți modifica setările după configurare.</string>
     <string name="open_os_dev_settings">Deschide setările dezvoltatorului Android</string>
-    <string name="optimize_now">Optimizează acum</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Medie: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Baterie: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

@@ -95,7 +95,6 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="cpu_top_header">Prosessen statistikk</string>
     <string name="cpu_turbo_support">CPU Turbo-støtte</string>
     <string name="cpu_turbo_trigger_count">CPU Turbo-utløserantall</string>
-    <string name="current_resolution">Gjeldende oppløsning:</string>
     <string name="dark_theme">Mørk</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="one">Bruke endringer på %1$d app?</item>
@@ -137,7 +136,7 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="extraopt_do_btn">Begynn</string>
     <string name="extraopt_reset_btn">Tilbakestille optimalisering</string>
     <string name="extraopt_schedule_title">Plan for å kjøre daglig</string>
-    <string name="extraopt_scheduled_subtitle">Neste kjøring kl. %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">Neste kjøring kl. %1$s:%2$s</string>
     <string name="extraopt_warning">Dette er ikke en systemløs optimalisering. Kan ødelegge systemet på noen tilpassede ROMs (krever å tømme hurtigbufferen for ART i recovery). Sikkerhetskopier dataene dine før bruk.</string>
     <string name="fde_is_active">AI aktiv</string>
     <string name="fde_is_inactive">AI inactive</string>
@@ -213,7 +212,6 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="onboarding_setup">Oppsett</string>
     <string name="onboarding_setup_message">Velg hvilke steder som skal brukes. Du kan endre innstillinger etter oppsett.</string>
     <string name="open_os_dev_settings">Åpne innstillinger for Android-utvikler</string>
-    <string name="optimize_now">Optimaliser nå</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Av: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Batteri: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

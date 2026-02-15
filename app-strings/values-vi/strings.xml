@@ -95,7 +95,6 @@ Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển tr
     <string name="cpu_top_header">Thống kê tác vụ</string>
     <string name="cpu_turbo_support">Hỗ trợ CPU Turbo</string>
     <string name="cpu_turbo_trigger_count">Số lần kích hoạt CPU Turbo</string>
-    <string name="current_resolution">Độ phân giải hiện tại:</string>
     <string name="dark_theme">Tối</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="other">Áp dụng thay đổi cho %1$d ứng dụng?</item>
@@ -136,7 +135,7 @@ Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển tr
     <string name="extraopt_do_btn">Khởi động</string>
     <string name="extraopt_reset_btn">Hoàn tác việc tối ưu</string>
     <string name="extraopt_schedule_title">Lên lịch chạy hàng ngày</string>
-    <string name="extraopt_scheduled_subtitle">Lần chạy tiếp theo lúc %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">Lần chạy tiếp theo lúc %1$s:%2$s</string>
     <string name="extraopt_warning">Đây là thiết lập tối ưu có can thiệp vào hệ thống. Có thể làm hỏng hệ thống ở một số ROM tự chế (cần dọn bộ đệm ART trong recovery để khôi phục). Hãy sao lưu dữ liệu trước khi dùng.</string>
     <string name="fde_is_active">AI hoạt động</string>
     <string name="fde_is_inactive">AI bất hoạt</string>
@@ -212,7 +211,6 @@ Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển tr
     <string name="onboarding_setup">Thiết lập</string>
     <string name="onboarding_setup_message">Chọn chỉnh sửa để áp dụng. Bạn có thể đổi cài đặt sau khi thiết lập.</string>
     <string name="open_os_dev_settings">Mở cài đặt nhà phát triển Android</string>
-    <string name="optimize_now">Tối ưu ngay</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">T. bình: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Pin: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

@@ -95,7 +95,6 @@ Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegra
     <string name="cpu_top_header">Statystyki procesu</string>
     <string name="cpu_turbo_support">Obsługa CPU Turbo</string>
     <string name="cpu_turbo_trigger_count">Liczba wyzwalaczy CPU Turbo</string>
-    <string name="current_resolution">Aktualna rozdzielczość:</string>
     <string name="dark_theme">Ciemny</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="one">Zastosować zmiany do %1$d aplikacji?</item>
@@ -139,7 +138,7 @@ Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegra
     <string name="extraopt_do_btn">Rozpocznij</string>
     <string name="extraopt_reset_btn">Zresetuj optymalizację</string>
     <string name="extraopt_schedule_title">Harmonogram uruchamiania codziennie</string>
-    <string name="extraopt_scheduled_subtitle">Następne uruchomienie o %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">Następne uruchomienie o %1$s:%2$s</string>
     <string name="extraopt_warning">To nie jest bezsystemowa optymalizacja. Może to uszkodzić system na niektórych niestandardowych ROMach (wymaga czyszczenia pamięci podręcznej ART w odzyskiwaniu). Zrób kopię zapasową swoich danych przed użyciem.</string>
     <string name="fde_is_active">Aktywna SI</string>
     <string name="fde_is_inactive">AI inactive</string>
@@ -215,7 +214,6 @@ Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegra
     <string name="onboarding_setup">Ustawienia</string>
     <string name="onboarding_setup_message">Wybierz, które ulepszenia mają być zastosowane. Możesz zmienić ustawienia po ustawieniu.</string>
     <string name="open_os_dev_settings">Otwórz ustawienia programisty Androida</string>
-    <string name="optimize_now">Optymalizuj teraz</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Średnia: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Bateria: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

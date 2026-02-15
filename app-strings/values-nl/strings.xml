@@ -95,7 +95,6 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="cpu_top_header">Verwerk statistieken</string>
     <string name="cpu_turbo_support">CPU Turbo-ondersteuning</string>
     <string name="cpu_turbo_trigger_count">CPU Turbo-triggeraantal</string>
-    <string name="current_resolution">Huidige resolutie:</string>
     <string name="dark_theme">Donker</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="one">Wijzigingen toepassen op %1$d app?</item>
@@ -137,7 +136,7 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="extraopt_do_btn">Beginnen</string>
     <string name="extraopt_reset_btn">Reset optimalisatie</string>
     <string name="extraopt_schedule_title">Plannen om dagelijks uit te voeren</string>
-    <string name="extraopt_scheduled_subtitle">Volgende uitvoering om %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">Volgende uitvoering om %1$s:%2$s</string>
     <string name="extraopt_warning">Dit is geen systeemloze optimalisatie. Kan het systeem op sommige aangepaste ROM\'s breken (vereist het wissen van ART cache in herstel). Back-up uw gegevens voor gebruik.</string>
     <string name="fde_is_active">AI actief</string>
     <string name="fde_is_inactive">AI inactive</string>
@@ -213,7 +212,6 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="onboarding_setup">Instellen</string>
     <string name="onboarding_setup_message">Selecteer welke aanpassingen van toepassing zijn. U kunt de instellingen wijzigen na installatie.</string>
     <string name="open_os_dev_settings">Open instellingen voor Android-ontwikkelaars</string>
-    <string name="optimize_now">Nu optimaliseren</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Gem. %1$s FPS</string>
     <string name="overlay_battery_temp_x">Batterij: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

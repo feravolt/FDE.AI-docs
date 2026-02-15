@@ -95,7 +95,6 @@
     <string name="cpu_top_header">Στατιστικά επεξεργασίας</string>
     <string name="cpu_turbo_support">Υποστήριξη CPU Turbo</string>
     <string name="cpu_turbo_trigger_count">Αριθμός ενεργοποίησης CPU Turbo</string>
-    <string name="current_resolution">Τρέχουσα ανάλυση:</string>
     <string name="dark_theme">Σκοτεινό</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="one">Εφαρμογή αλλαγών σε %1$d εφαρμογή;</item>
@@ -114,6 +113,10 @@
     <string name="downscale_btn">Προσαρμοστική φθίνουσα κλίμακα</string>
     <string name="downscale_desc">Χαμηλότερη ανάλυση οθόνης για την ενίσχυση της απόδοσης της GPU και την εξοικονόμηση μπαταρίας, με μικρή απώλεια ποιότητας εικόνας. Δεν συνιστάται να πάτε κάτω από το μισό πλάτος οθόνης σε προσαρμοσμένες ROMs (MIUI, EMUI, κλπ.) για να αποφύγετε συντριβές UI.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Πατήστε OK για επιβεβαίωση της νέας ανάλυσης, ή θα γίνει επαναφορά στο %1$d sec.</string>
+    <string name="downscale_preset_balanced">Χαμηλή ανάλυση</string>
+    <string name="downscale_preset_crop">Περικοπή 16:9</string>
+    <string name="downscale_preset_high">Υψηλή ανάλυση</string>
+    <string name="downscale_preset_max">Μέγιστη ανάλυση</string>
     <string name="downscale_warning">Εάν κάτι πάει στραβά, μην επανεκκινήσετε τη συσκευή. Αντίθετα, συνδεθείτε στο ADB Shell και εισαγάγετε αυτήν την εντολή για επαναφορά χειροκίνητα: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">Το FDE.AI μπορεί να ενεργοποιήσει τη λειτουργία Doze νωρίτερα. Αν προκύψουν προβλήματα, οι εφαρμογές whitelist χρησιμοποιούν το παρακάτω κουμπί.</string>
     <string name="doze_mode">Εξαναγκασμός λειτουργίας Doze</string>
@@ -133,7 +136,7 @@
     <string name="extraopt_do_btn">Έναρξη</string>
     <string name="extraopt_reset_btn">Επαναφορά βελτιστοποίησης</string>
     <string name="extraopt_schedule_title">Προγραμματισμός για καθημερινή εκτέλεση</string>
-    <string name="extraopt_scheduled_subtitle">Επόμενη εκτέλεση στις %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">Επόμενη εκτέλεση στις %1$s:%2$s</string>
     <string name="extraopt_warning">Αυτό δεν είναι μια βελτιστοποίηση χωρίς σύστημα. Μπορεί να σπάσει το σύστημα σε κάποια προσαρμοσμένη ROMs (απαιτεί εκκαθάριση ART cache σε ανάκτηση).</string>
     <string name="fde_is_active">AI ενεργό</string>
     <string name="fde_is_inactive">AI inactive</string>
@@ -209,7 +212,6 @@
     <string name="onboarding_setup">Ρύθμιση</string>
     <string name="onboarding_setup_message">Επιλέξτε ποιες τροποποιήσεις θα εφαρμοστούν. Μπορείτε να αλλάξετε τις ρυθμίσεις μετά τη ρύθμιση.</string>
     <string name="open_os_dev_settings">Άνοιγμα ρυθμίσεων προγραμματιστή Android</string>
-    <string name="optimize_now">Βελτιστοποίηση τώρα</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Μέσος Όρος: %1$s FPS</string>
     <string name="overlay_battery_temp_x">Μπαταρία: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>

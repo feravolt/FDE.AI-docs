@@ -93,7 +93,6 @@
     <string name="cpu_top_header">إحصاءات العمليات</string>
     <string name="cpu_turbo_support">دعم CPU Turbo</string>
     <string name="cpu_turbo_trigger_count">عدد مشغلات CPU Turbo</string>
-    <string name="current_resolution">القرار الحالي:</string>
     <string name="dark_theme">داكن</string>
     <plurals name="debloat_apply_confirm_text">
         <item quantity="zero">تطبيق التغييرات على %1$d من التطبيقات؟</item>
@@ -116,6 +115,10 @@
     <string name="downscale_btn">خفض حجم التكيف</string>
     <string name="downscale_desc">خفض دقة الشاشة لتعزيز أداء GPU وحفظ البطارية، مع خسارة طفيفة لجودة الصورة. لا ينصح بالذهاب إلى أسفل نصف عرض الشاشة على الأقراص المخصصة (MIUI، EMUI، إلخ.) لتجنب تعطل واجهة المستخدم.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">اضغط على OK لتأكيد الدقة الجديدة، أو سيتم إعادة تعيينها في %1$d ثانية.</string>
+    <string name="downscale_preset_balanced">دقة منخفضة</string>
+    <string name="downscale_preset_crop">قص 16:9</string>
+    <string name="downscale_preset_high">دقة عالية</string>
+    <string name="downscale_preset_max">أقصى دقة</string>
     <string name="downscale_warning">إذا حدث خطأ ما، فلا تعيد تشغيل الجهاز. بدلاً من ذلك، اتصل بـ ADB Shell وأدخل هذا الأمر لإعادة تعيين يدوية: adb shell \'wm size reset;wm density reset\'.</string>
     <string name="doze_description">يمكن FDE.AI تشغيل وضع Doze قبل ذلك. إذا حدثت مشاكل، تطبيقات القائمة البيضاء باستخدام الزر أدناه.</string>
     <string name="doze_mode">فرض وضع الدوز</string>
@@ -135,7 +138,7 @@
     <string name="extraopt_do_btn">ابدأ</string>
     <string name="extraopt_reset_btn">إعادة تعيين التحسين</string>
     <string name="extraopt_schedule_title">جدولة التشغيل يوميًا</string>
-    <string name="extraopt_scheduled_subtitle">التشغيل التالي في %1$s:00</string>
+    <string name="extraopt_scheduled_subtitle">التشغيل التالي في %1$s:%2$s</string>
     <string name="extraopt_warning">هذا ليس تحسين لا نظامي. قد يكسر النظام على بعض ذاكرة القراءة فقط (يتطلب مسح ذاكرة التخزين المؤقت للريتوت في الاستعادة). النسخ الاحتياطي للبيانات الخاصة بك قبل الاستخدام.</string>
     <string name="fde_is_active">AI نشط</string>
     <string name="fde_is_inactive">AI inactive</string>
@@ -211,7 +214,6 @@
     <string name="onboarding_setup">الإعداد</string>
     <string name="onboarding_setup_message">حدد التعديلات التي تريد تطبيقها. يمكنك تغيير الإعدادات بعد الإعداد.</string>
     <string name="open_os_dev_settings">فتح إعدادات مطور الأندرويد</string>
-    <string name="optimize_now">تحسين الآن</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">متوسط: %1$s FPS</string>
     <string name="overlay_battery_temp_x">البطارية: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">المعالج: %1$s%%</string>

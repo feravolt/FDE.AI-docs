@@ -1,6 +1,6 @@
 ### Changelog
 
-## **v26.02.1**
+## **v26.02.2**
 
 ### New:
 
@@ -12,9 +12,11 @@
 ### Improved:
 
 — UI and performance\
+— Auto ART cache optimization\
 — Core: dynamic read-ahead\
 — Core: power saving\
 — Core: OS tweaks\
+— Core: CPU/GPU turbo logic\
 — Core: AI tuning logic
 
 ### Fixed:
