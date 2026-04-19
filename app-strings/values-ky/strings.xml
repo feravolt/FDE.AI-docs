@@ -4,6 +4,11 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">FeraVolt тон ❤ менен жаралган.</string>
     <string name="acc_warning">Өркүндөтүлгөн заряддоо контроллери (ACC) модулу аныкталды. Ал FDE.AI батарея функцияларына карама-каршы келиши мүмкүн.</string>
     <string name="accept">Кабыл ал</string>
+    <string name="action_app_settings">Жөндөөлөр</string>
+    <string name="action_disable">Өчүрүү</string>
+    <string name="action_enable">Иштетүү</string>
+    <string name="action_force_stop">Мажбурлап токтотуу</string>
+    <string name="action_launch">Баштоо</string>
     <string name="adaptive">Авто</string>
     <string name="ai_auto_mode">Түзмөктүн колдонулушуна жараша майнаптуулук менен энергияны үнөмдөөнү тең салмактайт. Freqs авто-түздөө көбүрөөк энергия үнөмдөө берет.</string>
     <string name="ai_is_disabled">ЖА өчүк</string>
@@ -31,6 +36,7 @@
 6. FDE.AI жана Premium топтомун орнотуңуз.\n\n
 Эгер көйгөй чечилбесе, Telegramдагы иштеп чыгуучуга кайрылыңыз.</string>
     <string name="app_icon">Тиркеме иконкасы</string>
+    <string name="app_management_title">Колдонмолорду башкаруу</string>
     <string name="app_theme">Тема</string>
     <string name="app_update_notification_title">FDE.AI жаңыртуу</string>
     <string name="apply">Колдонуу</string>
@@ -49,6 +55,8 @@
     <string name="autostart">Автостарт</string>
     <string name="autostart_delay_hint">Кечигүү %1$ds деп коюлду</string>
     <string name="autostart_overlay">Статистика катмарын баштоо</string>
+    <string name="badge_disabled">Өчүрүлгөн</string>
+    <string name="badge_profile">Профиль</string>
     <string name="batt_capacity">Көлөмү</string>
     <string name="batt_resistance">Туруктуулук</string>
     <string name="battery_health_sub">Заряддоону токтотуу үчүн деңгээлди коюңуз:</string>
@@ -134,6 +142,8 @@
     <string name="extraopt_btn">Кошумча оптималдаштыруу</string>
     <string name="extraopt_desc">Ишти аткаруу үчүн ART кэшин кайра компиляциялоо менен системаны оптималдаштырыңыз (көбүрөөк ички эстутумду колдонот) жана эс тутумдун иштешин жакшыртуу үчүн файл тутумун кыркыңыз.</string>
     <string name="extraopt_do_btn">Баштоо</string>
+    <string name="extraopt_only_when_charging_desc">Түзмөк заряддалбаса, иштетүүнү өткөрүп жибер</string>
+    <string name="extraopt_only_when_charging_title">Заряддоодо гана иштетүү</string>
     <string name="extraopt_reset_btn">Оптимизацияны баштапкы калыбына келтир</string>
     <string name="extraopt_schedule_title">Күн сайын иштөө графиги</string>
     <string name="extraopt_scheduled_subtitle">Кийинки иштетүү %1$s:%2$s</string>
@@ -141,6 +151,10 @@
     <string name="fde_is_active">ЖА иштөөдө</string>
     <string name="fde_is_inactive">ЖА өчүк</string>
     <string name="fde_on_reset_toast">Бардык FDE.AI дайындары баштапкы абалга келтирилет. Колдонмо жабылат.</string>
+    <string name="filter_all_apps">Баары</string>
+    <string name="filter_apps">Колдонмолорду чыпкалоо</string>
+    <string name="filter_system_apps">Система</string>
+    <string name="filter_user_apps">Колдонуучу</string>
     <string name="finstall">FDE.AI орнотулууда…</string>
     <string name="force_doze_enabled">Мажбурлоо режими иштетилди</string>
     <string name="force_doze_trigger_count">Мажбурлап Doze триггер саны</string>
@@ -174,6 +188,7 @@
     <string name="log_saved">Журнал /sdcard/fde.md сакталды</string>
     <string name="low_power_fps">Төмөн кубаттуулуктагы FPS</string>
     <string name="low_power_fps_short_desc">Максаттуу FPS коюңуз - CPU/GPU жыштыктары FPSти сактоо жана энергияны үнөмдөө үчүн кыскартылат.</string>
+    <string name="management_actions_header">Башкаруу</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Колдонулууда: %1$s</string>
     <string name="memory_boost_support">Эс тутумду көбөйтүү</string>
     <string name="menu_dashboard">Башкы бет</string>
@@ -232,6 +247,7 @@
     <string name="premium_card_overlays_desc">FPS өлчөгүч, анын ичинде ар кандай статистика менен өзгөчөлөштүрүлүүчү кабатталган терезелер.</string>
     <string name="premium_card_profiles">Кеңейтилген колдонмо профилдери</string>
     <string name="premium_card_profiles_desc">Көптөгөн параметрлери бар ыңгайлаштырылган колдонмо профилдери.</string>
+    <string name="premium_required_for_profiles">Ар бир колдонмо үчүн AI профильдерин конфигурациялоо үчүн Premium жазылуу талап кылынат</string>
     <string name="premium_text">FDE.AIди колдоп, бардык эксклюзивдүү функцияларды ачыңыз:</string>
     <string name="premium_thanks">Колдооңуз үчүн рахмат! Сиз бул функциялардын кулпусун ачтыңыз:</string>
     <string name="profile_ai_mode_desc">Колдонмо колдонулуп жатканда AI режимин тандаңыз.</string>
@@ -277,6 +293,8 @@
     <string name="start_toast">Күйгүзүлүүдө FDE.AI…</string>
     <string name="startup">Баштоо</string>
     <string name="stop_btn">Токтот</string>
+    <string name="tab_debloat">Bloatware жок кылуу</string>
+    <string name="tab_manage">Башкаруу</string>
     <string name="third_party">Үчүнчү тараптын библиотекалары</string>
     <string name="throttling_deactivated">Бөгөттөө өчүрүлгөн</string>
     <string name="throttling_desc_new">Бул өндүрүмдүүлүктү сактайт, бирок ысып кетүүгө жана тез кубаттоо же камера менен маселелерге алып келиши мүмкүн.</string>
@@ -300,6 +318,6 @@
     <string name="warning_title">Эскертүү!</string>
     <string name="warning_yes">Ооба</string>
     <string name="welcome">Кош келиңиз</string>
-    <string name="wifi_psave_descr">Шидзуку менен байланышты үзүү мүмкүнчүлүгүн азайтуу үчүн Wi-Fi уйку режимин өчүрүүгө аракет кылсаңыз болот, бирок бул иштебей турган энергияны керектөөнү көбөйтүшү мүмкүн.</string>
+    <string name="wifi_psave_descr">Бул Шидзуку байланышын туруктуу сактоого жардам берет, бирок иштебей турган энергияны керектөөнү көбөйтүшү мүмкүн.</string>
     <string name="wifi_psave_header">Wi-Fi уйку режимин өчүрүү</string>
 </resources>

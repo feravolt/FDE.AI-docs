@@ -4,6 +4,11 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">FeraVolt가 ❤를 담아 만듬.</string>
     <string name="acc_warning">Advanced Charging Controller(ACC) 모듈이 감지되었습니다. FDE.AI 배터리 기능과 충돌할 수 있습니다.</string>
     <string name="accept">수락</string>
+    <string name="action_app_settings">설정</string>
+    <string name="action_disable">비활성화</string>
+    <string name="action_enable">활성화</string>
+    <string name="action_force_stop">강제 종료</string>
+    <string name="action_launch">실행</string>
     <string name="adaptive">자동</string>
     <string name="ai_auto_mode">기기 사용 패턴에 따라 성능과 전력 소비의 밸런스를 조정합니다. 클럭 자동 조정으로 전력 소비를 줄일 수 있습니다.</string>
     <string name="ai_is_disabled">AI 비활성화됨</string>
@@ -31,6 +36,7 @@
 6. FDE.AI와 프리미엄 패키지를 설치하세요.\n\n
 문제가 지속되면 Telegram에서 개발자에게 문의하세요.</string>
     <string name="app_icon">앱 아이콘</string>
+    <string name="app_management_title">앱 관리</string>
     <string name="app_theme">테마</string>
     <string name="app_update_notification_title">FDE.AI 업데이트</string>
     <string name="apply">적용</string>
@@ -49,6 +55,8 @@
     <string name="autostart">Autostart</string>
     <string name="autostart_delay_hint">딜레이가 %1$d초로 설정됨</string>
     <string name="autostart_overlay">스탯 오버레이 시작</string>
+    <string name="badge_disabled">비활성화됨</string>
+    <string name="badge_profile">프로필</string>
     <string name="batt_capacity">용량</string>
     <string name="batt_resistance">저항</string>
     <string name="battery_health_sub">충전을 중지할 잔량 설정:</string>
@@ -133,6 +141,8 @@
     <string name="extraopt_btn">최적화 추가</string>
     <string name="extraopt_desc">성능을 위해 ART 캐시를 다시 컴파일하여 시스템을 최적화하고(더 많은 내부 메모리 사용) 파일 시스템을 최적화해 메모리 성능을 향상시킵니다.</string>
     <string name="extraopt_do_btn">시작</string>
+    <string name="extraopt_only_when_charging_desc">기기가 충전 중이 아니면 예약 실행을 건너뜁니다</string>
+    <string name="extraopt_only_when_charging_title">충전 중에만 실행</string>
     <string name="extraopt_reset_btn">최적화 재설정</string>
     <string name="extraopt_schedule_title">매일 실행 일정</string>
     <string name="extraopt_scheduled_subtitle">다음 실행 시간: %1$s:%2$s</string>
@@ -140,6 +150,10 @@
     <string name="fde_is_active">AI 활성</string>
     <string name="fde_is_inactive">AI 비활성</string>
     <string name="fde_on_reset_toast">모든 FDE.AI의 데이터가 리셋되고 앱이 종료됩니다.</string>
+    <string name="filter_all_apps">전체</string>
+    <string name="filter_apps">앱 필터</string>
+    <string name="filter_system_apps">시스템</string>
+    <string name="filter_user_apps">사용자</string>
     <string name="finstall">FDE.AI 설치 중…</string>
     <string name="force_doze_enabled">강제 Doze 활성화</string>
     <string name="force_doze_trigger_count">강제 Doze 트리거 카운트</string>
@@ -173,6 +187,7 @@
     <string name="log_saved">/sdcard/fde.md 에 로그 파일에 저장되었습니다</string>
     <string name="low_power_fps">저전력 FPS</string>
     <string name="low_power_fps_short_desc">목표 FPS 설정 - FPS를 유지하고 전력을 절약하기 위해 CPU/GPU 속도가 감소됩니다.</string>
+    <string name="management_actions_header">관리</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">사용됨: %1$s</string>
     <string name="memory_boost_support">메모리 부스트</string>
     <string name="menu_dashboard">홈</string>
@@ -231,6 +246,7 @@
     <string name="premium_card_overlays_desc">FPS 미터를 포함한 다양한 통계를 포함하는 사용자 정의 가능한 오버레이 창.</string>
     <string name="premium_card_profiles">확장된 앱 프로필</string>
     <string name="premium_card_profiles_desc">다양한 옵션으로 사용자 설정 가능한 앱 프로필</string>
+    <string name="premium_required_for_profiles">앱별 AI 프로필을 구성하려면 프리미엄 구독이 필요합니다</string>
     <string name="premium_text">FDE.AI를 지원해주시고 모든 기능들을 잠금해제보세요:</string>
     <string name="premium_thanks">당신의 지원에 감사합니다! 다음 기능들이 해제되었습니다:</string>
     <string name="profile_ai_mode_desc">앱 사용에 적용할 AI 모드를 선택하세요.</string>
@@ -276,6 +292,8 @@
     <string name="start_toast">FDE.AI 시작중…</string>
     <string name="startup">시작</string>
     <string name="stop_btn">멈춤</string>
+    <string name="tab_debloat">블로트웨어 제거</string>
+    <string name="tab_manage">관리</string>
     <string name="third_party">서드파티 라이브러리</string>
     <string name="throttling_deactivated">제한 비활성화</string>
     <string name="throttling_desc_new">성능은 유지되지만, 과열이나 고속 충전 또는 카메라 문제를 일으킬 수 있습니다.</string>
@@ -299,6 +317,6 @@
     <string name="warning_title">경고!</string>
     <string name="warning_yes">네</string>
     <string name="welcome">환영합니다</string>
-    <string name="wifi_psave_descr">시즈쿠와의 연결 끊김 가능성을 줄이려면 Wi-Fi 절전 모드를 비활성화해 보세요. 하지만 유휴 전력 소비가 증가할 수 있습니다.</string>
+    <string name="wifi_psave_descr">이것은 Shizuku 연결을 안정적으로 유지하는 데 도움이 될 수 있지만, 유휴 전력 소비가 증가할 수 있습니다.</string>
     <string name="wifi_psave_header">Wi-Fi 절전 모드 비활성화</string>
 </resources>

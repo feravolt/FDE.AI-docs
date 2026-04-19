@@ -4,6 +4,11 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">FeraVolt tarafından yapılmıştır.</string>
     <string name="acc_warning">Gelişmiş Şarj Kontrolörü (ACC) modülü algılandı. FDE.AI pil işlevleriyle çakışabilir.</string>
     <string name="accept">Kabul Et</string>
+    <string name="action_app_settings">Ayarlar</string>
+    <string name="action_disable">Devre dışı bırak</string>
+    <string name="action_enable">Etkinleştir</string>
+    <string name="action_force_stop">Zorla durdur</string>
+    <string name="action_launch">Başlat</string>
     <string name="adaptive">Otomatik</string>
     <string name="ai_auto_mode">Cihaz kullanımına bağlı olarak performansı ve güç tasarrufunu dengeler. Frekansların otomatik ayarı daha fazla güç tasarrufu sağlar.</string>
     <string name="ai_is_disabled">AI devre dışı</string>
@@ -31,6 +36,7 @@
 6. FDE.AI ve Premium paketini yükleyin.\n\n
 Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="app_icon">Uygulama simgesi</string>
+    <string name="app_management_title">Uygulama yönetimi</string>
     <string name="app_theme">Tema</string>
     <string name="app_update_notification_title">FDE.AI güncellemesi</string>
     <string name="apply">Uygula</string>
@@ -49,6 +55,8 @@ Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="autostart">Otomatik başlat</string>
     <string name="autostart_delay_hint">Gecikme %1$ds olarak ayarlandı</string>
     <string name="autostart_overlay">İstatistik katmanını başlat</string>
+    <string name="badge_disabled">Devre dışı</string>
+    <string name="badge_profile">Profil</string>
     <string name="batt_capacity">Kapasite</string>
     <string name="batt_resistance">Direnç</string>
     <string name="battery_health_sub">Şarjı durdurmak için seviyeyi ayarlayın:</string>
@@ -134,6 +142,8 @@ Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="extraopt_btn">Ekstra optimizasyon</string>
     <string name="extraopt_desc">ART önbelleğini performans için yeniden derleyerek sistemi optimize edin (daha fazla dahili bellek kullanır) ve bellek performansını artırmak için dosya sistemini kırpın.</string>
     <string name="extraopt_do_btn">Başlat</string>
+    <string name="extraopt_only_when_charging_desc">Cihaz şarjda değilse planlanan çalışmayı atla</string>
+    <string name="extraopt_only_when_charging_title">Yalnızca şarj ederken çalıştır</string>
     <string name="extraopt_reset_btn">Optimizasyonu sıfırla</string>
     <string name="extraopt_schedule_title">Günlük olarak çalışacak şekilde zamanlayın</string>
     <string name="extraopt_scheduled_subtitle">Sonraki çalışma %1$s:%2$s</string>
@@ -141,6 +151,10 @@ Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="fde_is_active">AI aktif</string>
     <string name="fde_is_inactive">Yapay Zeka etkin değil</string>
     <string name="fde_on_reset_toast">Tüm FDE.AI verileri sıfırlanacaktır. Uygulama kapanacak.</string>
+    <string name="filter_all_apps">Tümü</string>
+    <string name="filter_apps">Uygulamaları filtrele</string>
+    <string name="filter_system_apps">Sistem</string>
+    <string name="filter_user_apps">Kullanıcı</string>
     <string name="finstall">FDE.AI yükleniyor…</string>
     <string name="force_doze_enabled">Zorunlu Doze etkin</string>
     <string name="force_doze_trigger_count">Zorunlu Doze tetikleyici sayısı</string>
@@ -174,6 +188,7 @@ Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="log_saved">Günlükler /sdcard/fde.md dosyasına kaydedildi</string>
     <string name="low_power_fps">Düşük güç fps</string>
     <string name="low_power_fps_short_desc">Ayarlanan hedef FPS-CPU/GPU frekansları, FPS\'Yİ korumak ve güç tasarrufu sağlamak için azaltılacaktır.</string>
+    <string name="management_actions_header">Yönetim</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Kullanılan: %1$s</string>
     <string name="memory_boost_support">Bellek artırma</string>
     <string name="menu_dashboard">Ana Sayfa</string>
@@ -232,6 +247,7 @@ Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="premium_card_overlays_desc">Fps ölçer dahil olmak üzere çeşitli istatistiklere sahip özelleştirilebilir bindirme pencereleri.</string>
     <string name="premium_card_profiles">Genişletilmiş uygulama profilleri</string>
     <string name="premium_card_profiles_desc">Birçok seçenekle özelleştirilebilir uygulama profilleri.</string>
+    <string name="premium_required_for_profiles">Uygulama başına AI profilleri yapılandırmak için Premium abonelik gereklidir</string>
     <string name="premium_text">FDE.AI\'yi destekleyin ve tüm özel özelliklerin kilidini açın:</string>
     <string name="premium_thanks">Desteğiniz için teşekkürler! Bu özelliklerin kilidini açtınız:</string>
     <string name="profile_ai_mode_desc">Uygulama kullanımdayken AI modunu seçin.</string>
@@ -277,6 +293,8 @@ Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="start_toast">FDE.AI başlatılıyor…</string>
     <string name="startup">Başlatma</string>
     <string name="stop_btn">Durdur</string>
+    <string name="tab_debloat">Bloatware\'i kaldır</string>
+    <string name="tab_manage">Yönet</string>
     <string name="third_party">Üçüncü taraf kütüphaneleri</string>
     <string name="throttling_deactivated">Kısıtlama devre dışı bırakıldı</string>
     <string name="throttling_desc_new">Bu, performansı korur ancak aşırı ısınmaya ve hızlı şarj veya kamera ile ilgili sorunlara neden olabilir.</string>
@@ -300,6 +318,6 @@ Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="warning_title">Uyarı!</string>
     <string name="warning_yes">Evet</string>
     <string name="welcome">Hoş geldiniz</string>
-    <string name="wifi_psave_descr">Shizuku ile bağlantınızın kesilme olasılığını azaltmak için Wi-Fi uyku modunu devre dışı bırakmayı deneyebilirsiniz, ancak bu durum boşta güç tüketimini artırabilir.</string>
+    <string name="wifi_psave_descr">Bu, Shizuku bağlantısının kararlı kalmasına yardımcı olabilir, ancak boşta güç tüketimini artırabilir.</string>
     <string name="wifi_psave_header">Wi-Fi uyku modunu kapat</string>
 </resources>

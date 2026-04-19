@@ -4,6 +4,11 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Laget med ❤️ av FeraVolt.</string>
     <string name="acc_warning">Advanced Charging Controller (ACC)-modul er oppdaget. Det kan komme i konflikt med FDE.AI-batterifunksjonene.</string>
     <string name="accept">Godta</string>
+    <string name="action_app_settings">Innstillinger</string>
+    <string name="action_disable">Deaktiver</string>
+    <string name="action_enable">Aktiver</string>
+    <string name="action_force_stop">Tving stopp</string>
+    <string name="action_launch">Start</string>
     <string name="adaptive">Automatisk</string>
     <string name="ai_auto_mode">Balanser ytelse og strømsparing basert på enhetens bruk. Friqs auto-Tune gir mer strømsparing.</string>
     <string name="ai_is_disabled">AI deaktivert</string>
@@ -31,6 +36,7 @@
 6. Installer FDE.AI og Premium-pakken.\n\n
 Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="app_icon">App ikon</string>
+    <string name="app_management_title">Appadministrasjon</string>
     <string name="app_theme">Tema</string>
     <string name="app_update_notification_title">FDE.AI oppdatering</string>
     <string name="apply">Bruk</string>
@@ -49,6 +55,8 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="autostart">Autostart</string>
     <string name="autostart_delay_hint">Forsinkelse satt til %1$ds</string>
     <string name="autostart_overlay">Start statistikkoverlegg</string>
+    <string name="badge_disabled">Deaktivert</string>
+    <string name="badge_profile">Profil</string>
     <string name="batt_capacity">Kapasitet</string>
     <string name="batt_resistance">Motstand</string>
     <string name="battery_health_sub">Sett nivået for å stoppe lading:</string>
@@ -134,6 +142,8 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="extraopt_btn">Ekstra optimalisering</string>
     <string name="extraopt_desc">Optimalisere systemet ved å rekompilere ART cache for ytelse (bruker mer intern minne) og trim filsystemet for å forbedre minneytelsen.</string>
     <string name="extraopt_do_btn">Begynn</string>
+    <string name="extraopt_only_when_charging_desc">Hopp over den planlagte kjøringen hvis enheten ikke lades</string>
+    <string name="extraopt_only_when_charging_title">Kjør bare under lading</string>
     <string name="extraopt_reset_btn">Tilbakestille optimalisering</string>
     <string name="extraopt_schedule_title">Plan for å kjøre daglig</string>
     <string name="extraopt_scheduled_subtitle">Neste kjøring kl. %1$s:%2$s</string>
@@ -141,6 +151,10 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="fde_is_active">AI aktiv</string>
     <string name="fde_is_inactive">AI inactive</string>
     <string name="fde_on_reset_toast">Alle FDE.AI data vil bli tilbakestilt. Appen vil lukkes.</string>
+    <string name="filter_all_apps">Alle</string>
+    <string name="filter_apps">Filtrer apper</string>
+    <string name="filter_system_apps">System</string>
+    <string name="filter_user_apps">Bruker</string>
     <string name="finstall">Installing FDE.AI…</string>
     <string name="force_doze_enabled">Tvungen døse aktivert</string>
     <string name="force_doze_trigger_count">Forsering av slumreutløsertelling</string>
@@ -174,6 +188,7 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="log_saved">Logg lagret til /sdcard/fde.md</string>
     <string name="low_power_fps">Lavt strømforbruk FPS</string>
     <string name="low_power_fps_short_desc">Sett mål FPS - CPU/GPU frekvenser vil bli redusert for å vedlikeholde FPS og spare strøm.</string>
+    <string name="management_actions_header">Administrasjon</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Brukt: %1$s</string>
     <string name="memory_boost_support">Minneforsterkning</string>
     <string name="menu_dashboard">Hjem</string>
@@ -232,6 +247,7 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="premium_card_overlays_desc">Tilpassbare overleggsvinduer med ulik statistikk også FPS-måleren.</string>
     <string name="premium_card_profiles">Utvidede appprofiler</string>
     <string name="premium_card_profiles_desc">Tilpassbare appprofiler med mange alternativer.</string>
+    <string name="premium_required_for_profiles">Premium-abonnement kreves for å konfigurere AI-profiler per app</string>
     <string name="premium_text">Støtt FDE.AI og lås opp alle eksklusive funksjoner:</string>
     <string name="premium_thanks">Takk for din støtte! Du har låst opp disse funksjonene:</string>
     <string name="profile_ai_mode_desc">Velg AI-modus mens appen er i bruk.</string>
@@ -277,6 +293,8 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="start_toast">Starter FDE.AI…</string>
     <string name="startup">Startup</string>
     <string name="stop_btn">Stopp</string>
+    <string name="tab_debloat">Fjern bloatware</string>
+    <string name="tab_manage">Administrer</string>
     <string name="third_party">Tredjeparts biblioteker</string>
     <string name="throttling_deactivated">Stropping deaktivert</string>
     <string name="throttling_desc_new">Dette vil holde ytelsen oppe, men kan føre til overoppheting og problemer med hurtiglading eller kamera.</string>
@@ -300,6 +318,6 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="warning_title">Advarsel!</string>
     <string name="warning_yes">Ja</string>
     <string name="welcome">Velkommen</string>
-    <string name="wifi_psave_descr">For å redusere sjansen for å koble fra Shizuku kan du prøve å deaktivere Wi-Fi-hvilemodus, men dette kan øke strømforbruket ved inaktivitet.</string>
+    <string name="wifi_psave_descr">Dette kan hjelpe med å holde Shizuku-tilkoblingen stabil, men kan øke strømforbruket ved inaktivitet.</string>
     <string name="wifi_psave_header">Deaktiver Wi-Fi-hvilemodus</string>
 </resources>

@@ -4,6 +4,11 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Vyrobeno pomocí ❤ od FeraVolt.</string>
     <string name="acc_warning">Byl zjištěn modul ACC (Advanced Charging Controller). Může být v konfliktu s funkcemi baterie FDE.AI.</string>
     <string name="accept">Přijmout</string>
+    <string name="action_app_settings">Nastavení</string>
+    <string name="action_disable">Zakázat</string>
+    <string name="action_enable">Povolit</string>
+    <string name="action_force_stop">Vynucené zastavení</string>
+    <string name="action_launch">Spustit</string>
     <string name="adaptive">Automaticky</string>
     <string name="ai_auto_mode">Vyvážení výkonu a úspora energie na základě využití zařízení. Automatická regulace poskytuje větší úsporu energie.</string>
     <string name="ai_is_disabled">AI zakázáno</string>
@@ -31,6 +36,7 @@
 6. Nainstalujte FDE.AI a balíček Premium.\n\n
 Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="app_icon">Ikona aplikace</string>
+    <string name="app_management_title">Správa aplikací</string>
     <string name="app_theme">Téma</string>
     <string name="app_update_notification_title">Aktualizace FDE.AI</string>
     <string name="apply">Použít</string>
@@ -49,6 +55,8 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="autostart">Autostart</string>
     <string name="autostart_delay_hint">Zpoždění nastaveno na %1$ds</string>
     <string name="autostart_overlay">Spustit překrytí statistiky</string>
+    <string name="badge_disabled">Zakázáno</string>
+    <string name="badge_profile">Profil</string>
     <string name="batt_capacity">Kapacita</string>
     <string name="batt_resistance">Odolnost</string>
     <string name="battery_health_sub">Nastavte úroveň pro zastavení nabíjení:</string>
@@ -136,6 +144,8 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="extraopt_btn">Extra optimalizace</string>
     <string name="extraopt_desc">Optimalizujte systém rekompilací ART mezipaměti pro výkon (využívá více interní paměti) a ořízněte souborový systém pro zlepšení výkonu paměti.</string>
     <string name="extraopt_do_btn">Začít</string>
+    <string name="extraopt_only_when_charging_desc">Přeskočit naplánované spuštění, pokud zařízení není připojeno k nabíječce</string>
+    <string name="extraopt_only_when_charging_title">Spustit pouze při nabíjení</string>
     <string name="extraopt_reset_btn">Resetovat optimalizaci</string>
     <string name="extraopt_schedule_title">Naplánujte spouštění denně</string>
     <string name="extraopt_scheduled_subtitle">Další spuštění v %1$s:%2$s</string>
@@ -143,6 +153,10 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="fde_is_active">AI aktivní</string>
     <string name="fde_is_inactive">AI inactive</string>
     <string name="fde_on_reset_toast">Všechna data FDE.AI budou resetována. Aplikace bude ukončena.</string>
+    <string name="filter_all_apps">Vše</string>
+    <string name="filter_apps">Filtrovat aplikace</string>
+    <string name="filter_system_apps">Systémové</string>
+    <string name="filter_user_apps">Uživatelské</string>
     <string name="finstall">Installing FDE.AI…</string>
     <string name="force_doze_enabled">Vynucení zdřímnutí povoleno</string>
     <string name="force_doze_trigger_count">Vynutit počet spouštěčů Doze</string>
@@ -176,6 +190,7 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="log_saved">Log uložen do /sdcard/fde.md</string>
     <string name="low_power_fps">Nízký výkon FPS</string>
     <string name="low_power_fps_short_desc">Nastavení cílového režimu FPS - CPU/GPU frekvence bude sníženo, aby se udržela FPS a ušetřila energie.</string>
+    <string name="management_actions_header">Správa</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Použito: %1$s</string>
     <string name="memory_boost_support">Zvýšení paměti</string>
     <string name="menu_dashboard">Domů</string>
@@ -234,6 +249,7 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="premium_card_overlays_desc">Přizpůsobitelné překryvná okna s různými statistikami, včetně FPS metru.</string>
     <string name="premium_card_profiles">Rozšířené profily aplikací</string>
     <string name="premium_card_profiles_desc">Přizpůsobitelné profily aplikací s mnoha možnostmi.</string>
+    <string name="premium_required_for_profiles">Pro konfiguraci profilů AI pro jednotlivé aplikace je vyžadováno prémiové předplatné</string>
     <string name="premium_text">Podpořte FDE.AI a odemkněte všechny exkluzivní funkce:</string>
     <string name="premium_thanks">Děkujeme za vaši podporu! Odemkli jste tyto funkce:</string>
     <string name="profile_ai_mode_desc">Vyberte režim AI, když se aplikace používá.</string>
@@ -279,6 +295,8 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="start_toast">Spouštění FDE.AI…</string>
     <string name="startup">Startup</string>
     <string name="stop_btn">Zastavit</string>
+    <string name="tab_debloat">Odebrat bloatware</string>
+    <string name="tab_manage">Spravovat</string>
     <string name="third_party">Knihovny třetích stran</string>
     <string name="throttling_deactivated">Omezování deaktivováno</string>
     <string name="throttling_desc_new">To udrží výkon, ale může způsobit přehřívání a problémy s rychlým nabíjením nebo fotoaparátem.</string>

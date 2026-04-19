@@ -4,6 +4,11 @@
     <string name="about_end_txt">Зроблено з ❤️ FeraVolt.</string>
     <string name="acc_warning">Виявлено модуль розширеного контролера заряджання (ACC). Це може конфліктувати з функціями акумулятора FDE.AI.</string>
     <string name="accept">Прийняти</string>
+    <string name="action_app_settings">Налаштування</string>
+    <string name="action_disable">Вимкнути</string>
+    <string name="action_enable">Увімкнути</string>
+    <string name="action_force_stop">Примусово зупинити</string>
+    <string name="action_launch">Запустити</string>
     <string name="adaptive">Авто</string>
     <string name="ai_auto_mode">Автоматична оптимізація системи по сценарію використаннч. Автоналаштування частот дозволяє покращити енергозбереження.</string>
     <string name="ai_is_disabled">AI вимкнено</string>
@@ -33,6 +38,7 @@
 
  Якщо проблема не зникає, зверніться до розробника в Telegram."</string>
     <string name="app_icon">Іконка додатка</string>
+    <string name="app_management_title">Керування додатками</string>
     <string name="app_theme">Тема</string>
     <string name="app_update_notification_title">Оновлення AI</string>
     <string name="apply">Прийняти</string>
@@ -51,6 +57,8 @@
     <string name="autostart">Autostart</string>
     <string name="autostart_delay_hint">Затримка запуску %1$ds</string>
     <string name="autostart_overlay">Запуск плаваючого вікна статистики</string>
+    <string name="badge_disabled">Вимкнено</string>
+    <string name="badge_profile">Профіль</string>
     <string name="batt_capacity">Ємність</string>
     <string name="batt_resistance">Опір</string>
     <string name="battery_health_sub">Встановіть рівень, щоб зупинити заряджання:</string>
@@ -138,6 +146,8 @@
     <string name="extraopt_btn">Додаткова оптимізація</string>
     <string name="extraopt_desc">Тут ви можете додатково оптимізувати систему, перекомпілювавши ART-кеш додатків для максимальної продуктивності (займає більше місця) і очистивши невикористовувані блоки пам\'яті для підвищення продуктивності.</string>
     <string name="extraopt_do_btn">Старт</string>
+    <string name="extraopt_only_when_charging_desc">Пропускати запланований запуск, якщо пристрій не заряджається</string>
+    <string name="extraopt_only_when_charging_title">Запускати лише при зарядці</string>
     <string name="extraopt_reset_btn">Скинути оптимізацію</string>
     <string name="extraopt_schedule_title">Запускати кожний день</string>
     <string name="extraopt_scheduled_subtitle">Наступний запуск о %1$s:%2$s</string>
@@ -145,6 +155,10 @@
     <string name="fde_is_active">Активний AI</string>
     <string name="fde_is_inactive">AI неактивний</string>
     <string name="fde_on_reset_toast">Всі дані FDE.AI будуть скинуті. Додаток буде закрито.</string>
+    <string name="filter_all_apps">Усі</string>
+    <string name="filter_apps">Фільтр додатків</string>
+    <string name="filter_system_apps">Системні</string>
+    <string name="filter_user_apps">Користувацькі</string>
     <string name="finstall">Встановлення FDE.AI…</string>
     <string name="force_doze_enabled">Примусовий Doze увімкнено</string>
     <string name="force_doze_trigger_count">Спрацювань Doze</string>
@@ -178,6 +192,7 @@
     <string name="log_saved">Журнал збережено в /sdcard/fde.md</string>
     <string name="low_power_fps">Енергоефективний FPS</string>
     <string name="low_power_fps_short_desc">Встановлення цільового FPS - частоти процесора/GPU будуть зменшені для підтримки заданого FPS і енергозбереження.</string>
+    <string name="management_actions_header">Керування</string>
     <string name="mem_swap_x">Підкач.: %1$s</string>
     <string name="mem_used_x">Використ..: %1$s</string>
     <string name="memory_boost_support">"Прискорення пам'яті"</string>
@@ -237,6 +252,7 @@
     <string name="premium_card_overlays_desc">Налаштовувані плаваючі вікна з різною статистикою пристрою, включаючи FPS метр.</string>
     <string name="premium_card_profiles">Розширені профілі програм</string>
     <string name="premium_card_profiles_desc">Розширене налаштування профілів додатків з великою кількістю опцій.</string>
+    <string name="premium_required_for_profiles">Для налаштування профілів ШІ для кожного додатку необхідна підписка Premium</string>
     <string name="premium_text">Підтримка FDE.AI та розблокування усіх ексклюзивних функцій:</string>
     <string name="premium_thanks">Дякуємо за підтримку! Ви розблокували слідуючі функції:</string>
     <string name="profile_ai_mode_desc">Виберіть режим ШІ для застосунку, поки він активний.</string>
@@ -282,6 +298,8 @@
     <string name="start_toast">Запуск FDE.AI…</string>
     <string name="startup">Запуск</string>
     <string name="stop_btn">Зупинити</string>
+    <string name="tab_debloat">Видалити bloatware</string>
+    <string name="tab_manage">Керувати</string>
     <string name="third_party">Сторонні бібліотеки</string>
     <string name="throttling_deactivated">Тротлінг вимкнено</string>
     <string name="throttling_desc_new">Це збереже продуктивність, але може призвести до перегріву та проблем зі швидкою зарядкою або камерою.</string>
@@ -305,6 +323,6 @@
     <string name="warning_title">Увага!</string>
     <string name="warning_yes">Так</string>
     <string name="welcome">Вітаємо</string>
-    <string name="wifi_psave_descr">Щоб зменшити ймовірність відключення від Shizuku, ви можете спробувати вимкнути режим сну Wi-Fi, але це може збільшити споживання енергії в режимі очікування.</string>
+    <string name="wifi_psave_descr">Це може допомогти зберегти стабільне з\'єднання з Shizuku, але може збільшити споживання енергії в режимі очікування.</string>
     <string name="wifi_psave_header">Вимкнути режим сну Wi-Fi</string>
 </resources>

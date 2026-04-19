@@ -4,6 +4,11 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">FeraVolt が ❤ を込めて作りました。</string>
     <string name="acc_warning">Advanced Charging Controller (ACC) モジュールが検出されました。FDE.AI のバッテリー機能と競合する可能性があります。</string>
     <string name="accept">同意</string>
+    <string name="action_app_settings">設定</string>
+    <string name="action_disable">無効化</string>
+    <string name="action_enable">有効化</string>
+    <string name="action_force_stop">強制停止</string>
+    <string name="action_launch">起動</string>
     <string name="adaptive">自動</string>
     <string name="ai_auto_mode">デバイスの使用状況に基づいて、パフォーマンスと省電力のバランスを調整します。</string>
     <string name="ai_is_disabled">AI は無効になっています。</string>
@@ -31,6 +36,7 @@
 6. FDE.AI とプレミアムパッケージを再インストールする。\n\n
 上記を試しても問題が解決しない場合は、Telegram で開発者に連絡してください。</string>
     <string name="app_icon">アプリアイコン</string>
+    <string name="app_management_title">アプリ管理</string>
     <string name="app_theme">テーマ</string>
     <string name="app_update_notification_title">FDE.AI の更新</string>
     <string name="apply">適用</string>
@@ -49,6 +55,8 @@
     <string name="autostart">自動起動</string>
     <string name="autostart_delay_hint">遅延を %1$d 秒に設定しました</string>
     <string name="autostart_overlay">統計のオーバーレイ表示を開始</string>
+    <string name="badge_disabled">無効</string>
+    <string name="badge_profile">プロファイル</string>
     <string name="batt_capacity">容量</string>
     <string name="batt_resistance">抵抗値</string>
     <string name="battery_health_sub">以下で設定したバッテリー残量で充電を止めます。</string>
@@ -134,6 +142,8 @@
     <string name="extraopt_btn">追加の最適化</string>
     <string name="extraopt_desc">パフォーマンス向上のために ART キャッシュを再コンパイル (さらに RAM を消費) し、メモリパフォーマンスを向上させるためにファイルシステムをトリミングします。</string>
     <string name="extraopt_do_btn">開始</string>
+    <string name="extraopt_only_when_charging_desc">充電していない場合はスケジュール実行をスキップします</string>
+    <string name="extraopt_only_when_charging_title">充電中のみ実行</string>
     <string name="extraopt_reset_btn">最適化をリセット</string>
     <string name="extraopt_schedule_title">毎日実行するスケジュール</string>
     <string name="extraopt_scheduled_subtitle">次回実行時刻: %1$s:%2$s</string>
@@ -141,6 +151,10 @@
     <string name="fde_is_active">AI は有効です。</string>
     <string name="fde_is_inactive">AI は無効です。</string>
     <string name="fde_on_reset_toast">FDE.AI のデータをすべてリセットします。アプリを閉じます。</string>
+    <string name="filter_all_apps">すべて</string>
+    <string name="filter_apps">アプリをフィルター</string>
+    <string name="filter_system_apps">システム</string>
+    <string name="filter_user_apps">ユーザー</string>
     <string name="finstall">FDE.AIをインストール中…</string>
     <string name="force_doze_enabled">[Doze モードを強制] が有効か</string>
     <string name="force_doze_trigger_count">[Doze モードを強制] の実行回数</string>
@@ -175,6 +189,7 @@
     <string name="log_saved">ログは [/sdcard/fde.md] に保存しました。</string>
     <string name="low_power_fps">低電力 FPS</string>
     <string name="low_power_fps_short_desc">目標の FPS を設定 - CPU/GPU の周波数を下げて FPS を維持し、電力を節約します。</string>
+    <string name="management_actions_header">管理</string>
     <string name="mem_swap_x" tools:ignore="MissingTranslation">スワップ: %1$s</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">使用済み: %1$s</string>
     <string name="memory_boost_support">メモリブースト</string>
@@ -235,6 +250,7 @@
     <string name="premium_card_overlays_desc">FPS メーターを含む様々なステータスのオーバーレイ表示をカスタマイズできます。</string>
     <string name="premium_card_profiles">拡張アプリプロファイル</string>
     <string name="premium_card_profiles_desc">多くのオプションを備えたカスタマイズ可能なアプリプロファイルです。</string>
+    <string name="premium_required_for_profiles">アプリごとのAIプロファイルを設定するにはプレミアムサブスクリプションが必要です</string>
     <string name="premium_text">FDE.AI の開発を支援し、すべての独自機能のロックを解除しましょう！</string>
     <string name="premium_thanks">ご支援ありがとうございます！以下の機能をアンロックしました。</string>
     <string name="profile_ai_mode_desc">アプリ使用時の AI モードを選択してください。</string>
@@ -280,6 +296,8 @@
     <string name="start_toast">FDE.AI を起動しています…</string>
     <string name="startup">起動</string>
     <string name="stop_btn">停止</string>
+    <string name="tab_debloat">ブロートウェアを削除</string>
+    <string name="tab_manage">管理</string>
     <string name="telegram" tools:ignore="MissingTranslation">https://t.me/feralab_news_eng</string>
     <string name="third_party">ライブラリと翻訳貢献者のリスト</string>
     <string name="throttling_deactivated">スロットリングが無効か</string>
@@ -305,7 +323,7 @@
     <string name="warning_title">警告！</string>
     <string name="warning_yes">はい</string>
     <string name="welcome">ようこそ！</string>
-    <string name="wifi_psave_descr">Shizuku との接続が切断される可能性を減らすために、Wi-Fi スリープモードを無効にすることもできますが、これによりアイドル時の電力消費が増加する可能性があります。</string>
+    <string name="wifi_psave_descr">これにより Shizuku の接続が安定する可能性がありますが、アイドル時の電力消費が増加する場合があります。</string>
     <string name="wifi_psave_header">Wi-Fi スリープモードを無効化</string>
     <string name="youtube" tools:ignore="MissingTranslation">https://www.youtube.com/@FeraLab</string>
 </resources>

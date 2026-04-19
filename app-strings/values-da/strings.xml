@@ -4,6 +4,11 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Lavet med ❤ af FeraVolt.</string>
     <string name="acc_warning">Advanced Charging Controller (ACC)-modul er fundet. Det kan være i konflikt med FDE.AI batterifunktioner.</string>
     <string name="accept">Accepter</string>
+    <string name="action_app_settings">Indstillinger</string>
+    <string name="action_disable">Deaktiver</string>
+    <string name="action_enable">Aktiver</string>
+    <string name="action_force_stop">Tving stop</string>
+    <string name="action_launch">Start</string>
     <string name="adaptive">Automatisk</string>
     <string name="ai_auto_mode">Balancer ydeevne og strømbesparende baseret på enhedsforbrug. Freqs auto-tune giver mere strømbesparende.</string>
     <string name="ai_is_disabled">AI deaktiveret</string>
@@ -31,6 +36,7 @@
 6. Installer FDE.AI og Premium-pakken.\n\n
 Hvis problemet fortsætter, kontakt udvikleren i Telegram.</string>
     <string name="app_icon">App ikon</string>
+    <string name="app_management_title">App-administration</string>
     <string name="app_theme">Tema</string>
     <string name="app_update_notification_title">FDE.AI opdatering</string>
     <string name="apply">Anvend</string>
@@ -49,6 +55,8 @@ Hvis problemet fortsætter, kontakt udvikleren i Telegram.</string>
     <string name="autostart">Autostart</string>
     <string name="autostart_delay_hint">Forsinkelse sat til %1$ds</string>
     <string name="autostart_overlay">Start statistik overlay</string>
+    <string name="badge_disabled">Deaktiveret</string>
+    <string name="badge_profile">Profil</string>
     <string name="batt_capacity">Kapacitet</string>
     <string name="batt_resistance">Resistens</string>
     <string name="battery_health_sub">Indstil niveauet til at stoppe opladning:</string>
@@ -134,6 +142,8 @@ Hvis problemet fortsætter, kontakt udvikleren i Telegram.</string>
     <string name="extraopt_btn">Ekstra optimering</string>
     <string name="extraopt_desc">Optimer systemet ved at omlægge ART cache til ydeevne (bruger mere intern hukommelse) og trim filsystemet for at forbedre hukommelsens ydeevne.</string>
     <string name="extraopt_do_btn">Start</string>
+    <string name="extraopt_only_when_charging_desc">Spring den planlagte kørsel over, hvis enheden ikke oplades</string>
+    <string name="extraopt_only_when_charging_title">Kør kun ved opladning</string>
     <string name="extraopt_reset_btn">Nulstil optimering</string>
     <string name="extraopt_schedule_title">Planlæg til at køre dagligt</string>
     <string name="extraopt_scheduled_subtitle">Næste kørsel kl. %1$s:%2$s</string>
@@ -141,6 +151,10 @@ Hvis problemet fortsætter, kontakt udvikleren i Telegram.</string>
     <string name="fde_is_active">AI aktiv</string>
     <string name="fde_is_inactive">AI inactive</string>
     <string name="fde_on_reset_toast">Alle FDE.AI data vil blive nulstillet. App vil lukke.</string>
+    <string name="filter_all_apps">Alle</string>
+    <string name="filter_apps">Filtrer apps</string>
+    <string name="filter_system_apps">System</string>
+    <string name="filter_user_apps">Bruger</string>
     <string name="finstall">Installing FDE.AI…</string>
     <string name="force_doze_enabled">Force-doze aktiveret</string>
     <string name="force_doze_trigger_count">Tvungen optælling af udløser for slumre</string>
@@ -174,6 +188,7 @@ Hvis problemet fortsætter, kontakt udvikleren i Telegram.</string>
     <string name="log_saved">Log gemt i /sdcard/fde.md</string>
     <string name="low_power_fps">Lavt strømforbrug FPS</string>
     <string name="low_power_fps_short_desc">Angiv mål FPS - CPU/GPU frekvenser vil blive reduceret for at opretholde FPS og spare strøm.</string>
+    <string name="management_actions_header">Administration</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Brugt: %1$s</string>
     <string name="memory_boost_support">Hukommelsesboost</string>
     <string name="menu_dashboard">Hjem</string>
@@ -232,6 +247,7 @@ Hvis problemet fortsætter, kontakt udvikleren i Telegram.</string>
     <string name="premium_card_overlays_desc">Brugerdefinerbare overlay vinduer med forskellige statistikker, herunder FPS meter.</string>
     <string name="premium_card_profiles">Udvidet app-profiler</string>
     <string name="premium_card_profiles_desc">Tilpasselige app-profiler med mange muligheder.</string>
+    <string name="premium_required_for_profiles">Premium-abonnement er påkrævet for at konfigurere AI-profiler pr. app</string>
     <string name="premium_text">Support FDE.AI og låse op for alle eksklusive funktioner:</string>
     <string name="premium_thanks">Tak for din støtte! Du låste disse funktioner op:</string>
     <string name="profile_ai_mode_desc">Vælg AI-tilstand, mens appen er i brug.</string>
@@ -277,6 +293,8 @@ Hvis problemet fortsætter, kontakt udvikleren i Telegram.</string>
     <string name="start_toast">Starter FDE.AI…</string>
     <string name="startup">Startup</string>
     <string name="stop_btn">Stop</string>
+    <string name="tab_debloat">Fjern bloatware</string>
+    <string name="tab_manage">Administrer</string>
     <string name="third_party">Tredjepartsbiblioteker</string>
     <string name="throttling_deactivated">Throttling deaktiveret</string>
     <string name="throttling_desc_new">Dette bevarer ydeevnen, men kan medføre overophedning og problemer med hurtigopladning eller kamera.</string>

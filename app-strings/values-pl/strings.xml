@@ -4,6 +4,11 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Wykonane z ❤️ przez FeraVolt.</string>
     <string name="acc_warning">Wykryto moduł Advanced Charging Controller (ACC). Może on kolidować z funkcjami baterii FDE.AI.</string>
     <string name="accept">Zaakceptuj</string>
+    <string name="action_app_settings">Ustawienia</string>
+    <string name="action_disable">Wyłącz</string>
+    <string name="action_enable">Włącz</string>
+    <string name="action_force_stop">Wymuś zatrzymanie</string>
+    <string name="action_launch">Uruchom</string>
     <string name="adaptive">Auto</string>
     <string name="ai_auto_mode">Bilans wydajności i oszczędzanie energii w oparciu o użycie urządzenia. Automatyczna modyfikacja Freqs daje więcej oszczędności energii.</string>
     <string name="ai_is_disabled">AI wyłączony</string>
@@ -31,6 +36,7 @@
 6. Zainstaluj pakiet FDE.AI i pakiet Premium.\n\n
 Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegramie.</string>
     <string name="app_icon">Ikona aplikacji</string>
+    <string name="app_management_title">Zarządzanie aplikacjami</string>
     <string name="app_theme">Motyw</string>
     <string name="app_update_notification_title">Aktualizacja FDE.AI</string>
     <string name="apply">Zastosuj</string>
@@ -49,6 +55,8 @@ Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegra
     <string name="autostart">Autostart</string>
     <string name="autostart_delay_hint">Opóźnienie ustawione na %1$d</string>
     <string name="autostart_overlay">Początek nakładki statystyk</string>
+    <string name="badge_disabled">Wyłączona</string>
+    <string name="badge_profile">Profil</string>
     <string name="batt_capacity">Pojemność</string>
     <string name="batt_resistance">Odporność</string>
     <string name="battery_health_sub">Ustaw poziom, aby zatrzymać ładowanie:</string>
@@ -136,6 +144,8 @@ Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegra
     <string name="extraopt_btn">Dodatkowa optymalizacja</string>
     <string name="extraopt_desc">Optymalizacja systemu poprzez przekompilowanie pamięci podręcznej ART dla wydajności (używa więcej pamięci wewnętrznej) i przycięcie systemu plików w celu poprawy wydajności pamięci.</string>
     <string name="extraopt_do_btn">Rozpocznij</string>
+    <string name="extraopt_only_when_charging_desc">Pomiń zaplanowane uruchomienie, jeśli urządzenie nie jest ładowane</string>
+    <string name="extraopt_only_when_charging_title">Uruchamiaj tylko podczas ładowania</string>
     <string name="extraopt_reset_btn">Zresetuj optymalizację</string>
     <string name="extraopt_schedule_title">Harmonogram uruchamiania codziennie</string>
     <string name="extraopt_scheduled_subtitle">Następne uruchomienie o %1$s:%2$s</string>
@@ -143,6 +153,10 @@ Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegra
     <string name="fde_is_active">Aktywna SI</string>
     <string name="fde_is_inactive">AI inactive</string>
     <string name="fde_on_reset_toast">Wszystkie dane FDE.AI zostaną zresetowane. Aplikacja zostanie zamknięta.</string>
+    <string name="filter_all_apps">Wszystkie</string>
+    <string name="filter_apps">Filtruj aplikacje</string>
+    <string name="filter_system_apps">Systemowe</string>
+    <string name="filter_user_apps">Użytkownika</string>
     <string name="finstall">Installing FDE.AI…</string>
     <string name="force_doze_enabled">Włączono Force Doze</string>
     <string name="force_doze_trigger_count">Liczba wyzwalaczy Force Doze</string>
@@ -176,6 +190,7 @@ Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegra
     <string name="log_saved">Dziennik zapisany do /sdcard/fde.md</string>
     <string name="low_power_fps">FPS o niskiej mocy</string>
     <string name="low_power_fps_short_desc">Ustaw docelowy FPS - częstotliwość CPU/GPU zostanie zmniejszona, aby utrzymać FPS i zaoszczędzić moc.</string>
+    <string name="management_actions_header">Zarządzanie</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Użyto: %1$s</string>
     <string name="memory_boost_support">Wzmocnienie pamięci</string>
     <string name="menu_dashboard">Strona główna</string>
@@ -234,6 +249,7 @@ Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegra
     <string name="premium_card_overlays_desc">Konfigurowalne okno nakładki z różnymi statystykami, w tym licznikiem FSP.</string>
     <string name="premium_card_profiles">Rozszerzone profile aplikacji</string>
     <string name="premium_card_profiles_desc">Konfigurowalne profile aplikacji z wieloma opcjami.</string>
+    <string name="premium_required_for_profiles">Subskrypcja Premium jest wymagana do konfigurowania profili AI dla poszczególnych aplikacji</string>
     <string name="premium_text">Wspieraj FDE.AI i odblokuj wszystkie ekskluzywne funkcje:</string>
     <string name="premium_thanks">Dziękujemy za wsparcie! Odblokowałeś te funkcje:</string>
     <string name="profile_ai_mode_desc">Wybierz tryb AI, gdy aplikacja jest w użyciu.</string>
@@ -279,6 +295,8 @@ Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegra
     <string name="start_toast">Uruchamianie FDE.AI…</string>
     <string name="startup">Startup</string>
     <string name="stop_btn">Zatrzymaj</string>
+    <string name="tab_debloat">Usuń bloatware</string>
+    <string name="tab_manage">Zarządzaj</string>
     <string name="third_party">Biblioteki osób trzecich</string>
     <string name="throttling_deactivated">Dławienie wyłączone</string>
     <string name="throttling_desc_new">To utrzyma wydajność, ale może powodować przegrzewanie i problemy z szybkim ładowaniem lub aparatem.</string>
@@ -302,6 +320,6 @@ Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegra
     <string name="warning_title">Uwaga!</string>
     <string name="warning_yes">Tak</string>
     <string name="welcome">Witaj</string>
-    <string name="wifi_psave_descr">Aby zmniejszyć ryzyko rozłączenia z Shizuku, możesz spróbować wyłączyć tryb uśpienia Wi-Fi, ale może to zwiększyć zużycie energii w stanie bezczynności.</string>
+    <string name="wifi_psave_descr">Może to pomóc w utrzymaniu stabilnego połączenia z Shizuku, ale może zwiększyć zużycie energii w stanie bezczynności.</string>
     <string name="wifi_psave_header">Wyłącz tryb uśpienia Wi-Fi</string>
 </resources>

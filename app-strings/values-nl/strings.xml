@@ -4,6 +4,11 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Gemaakt met ❤️ door FeraVolt.</string>
     <string name="acc_warning">Advanced Charging Controller (ACC) module is gedetecteerd. Deze kan conflicteren met FDE.AI batterijfuncties.</string>
     <string name="accept">Accepteren</string>
+    <string name="action_app_settings">Instellingen</string>
+    <string name="action_disable">Uitschakelen</string>
+    <string name="action_enable">Inschakelen</string>
+    <string name="action_force_stop">Geforceerd stoppen</string>
+    <string name="action_launch">Starten</string>
     <string name="adaptive">Automatisch</string>
     <string name="ai_auto_mode">Saldo en energiebesparing op basis van apparaatgebruik. Freqs auto-tune geeft meer energiebesparing.</string>
     <string name="ai_is_disabled">AI uitgeschakeld</string>
@@ -31,6 +36,7 @@
 6. Installeer FDE.AI en het premiumpakket.\n\n
 Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.</string>
     <string name="app_icon">App pictogram</string>
+    <string name="app_management_title">App-beheer</string>
     <string name="app_theme">Thema</string>
     <string name="app_update_notification_title">FDE.AI update</string>
     <string name="apply">Toepassen</string>
@@ -49,6 +55,8 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="autostart">Autostart</string>
     <string name="autostart_delay_hint">Vertraging ingesteld op %1$ds</string>
     <string name="autostart_overlay">Start stats overlay</string>
+    <string name="badge_disabled">Uitgeschakeld</string>
+    <string name="badge_profile">Profiel</string>
     <string name="batt_capacity">Capaciteit</string>
     <string name="batt_resistance">Weerstand</string>
     <string name="battery_health_sub">Stel het niveau in om het opladen te stoppen:</string>
@@ -134,6 +142,8 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="extraopt_btn">Extra optimalisatie</string>
     <string name="extraopt_desc">Optimaliseer systeem door ART cache opnieuw te compileren voor prestaties (gebruikt meer interne geheugen) en pak het bestandssysteem bij om de geheugenprestaties te verbeteren.</string>
     <string name="extraopt_do_btn">Beginnen</string>
+    <string name="extraopt_only_when_charging_desc">Geplande uitvoering overslaan als het apparaat niet is opgeladen</string>
+    <string name="extraopt_only_when_charging_title">Alleen uitvoeren bij opladen</string>
     <string name="extraopt_reset_btn">Reset optimalisatie</string>
     <string name="extraopt_schedule_title">Plannen om dagelijks uit te voeren</string>
     <string name="extraopt_scheduled_subtitle">Volgende uitvoering om %1$s:%2$s</string>
@@ -141,6 +151,10 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="fde_is_active">AI actief</string>
     <string name="fde_is_inactive">AI inactive</string>
     <string name="fde_on_reset_toast">Alle gegevens van FDE.AI worden gereset. App zal sluiten.</string>
+    <string name="filter_all_apps">Alles</string>
+    <string name="filter_apps">Apps filteren</string>
+    <string name="filter_system_apps">Systeem</string>
+    <string name="filter_user_apps">Gebruiker</string>
     <string name="finstall">Installing FDE.AI…</string>
     <string name="force_doze_enabled">Force Doze ingeschakeld</string>
     <string name="force_doze_trigger_count">Force Doze-triggeraantal</string>
@@ -174,6 +188,7 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="log_saved">Log opgeslagen in /sdcard/fde.md</string>
     <string name="low_power_fps">Laag vermogen FPS</string>
     <string name="low_power_fps_short_desc">Stel doel-FPS in - CPU/GPU-frequenties zullen worden verminderd om FPS te onderhouden en energie te besparen.</string>
+    <string name="management_actions_header">Beheer</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Gebruikt: %1$s</string>
     <string name="memory_boost_support">Geheugenboost</string>
     <string name="menu_dashboard">Startpagina</string>
@@ -232,6 +247,7 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="premium_card_overlays_desc">Aanpasbare overlay-vensters met verschillende statistieken, waaronder FPS-meter.</string>
     <string name="premium_card_profiles">Uitgebreide app-profielen</string>
     <string name="premium_card_profiles_desc">Aanpasbare app-profielen met vele opties.</string>
+    <string name="premium_required_for_profiles">Premium-abonnement vereist voor het configureren van AI-profielen per app</string>
     <string name="premium_text">Steun FDE.AI en ontgrendel alle exclusieve functies:</string>
     <string name="premium_thanks">Bedankt voor je steun! Je hebt deze functies ontgrendeld:</string>
     <string name="profile_ai_mode_desc">Selecteer AI-modus terwijl de app in gebruik is.</string>
@@ -277,6 +293,8 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="start_toast">FDE.AI… opstarten.</string>
     <string name="startup">Startup</string>
     <string name="stop_btn">Stoppen</string>
+    <string name="tab_debloat">Bloatware verwijderen</string>
+    <string name="tab_manage">Beheren</string>
     <string name="third_party">Bibliotheken van derden</string>
     <string name="throttling_deactivated">Throttling gedeactiveerd</string>
     <string name="throttling_desc_new">Dit behoudt de prestaties, maar kan oververhitting en problemen met snelladen of de camera veroorzaken.</string>
@@ -300,6 +318,6 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="warning_title">Waarschuwing!</string>
     <string name="warning_yes">ja</string>
     <string name="welcome">Verwelkoming</string>
-    <string name="wifi_psave_descr">Om de kans te verkleinen dat de verbinding met Shizuku wordt verbroken, kunt u proberen de wifi-slaapstand uit te schakelen. Dit kan echter het stroomverbruik in rust verhogen.</string>
+    <string name="wifi_psave_descr">Dit kan helpen de Shizuku-verbinding stabiel te houden, maar kan het stroomverbruik in rust verhogen.</string>
     <string name="wifi_psave_header">Wi-Fi-slaapstand uitschakelen</string>
 </resources>

@@ -4,6 +4,11 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Сделано с ❤ от FeraVolt.</string>
     <string name="acc_warning">Обнаружен модуль Advanced Charging Controller (ACC). Он может конфликтовать с функциями батареи FDE.AI.</string>
     <string name="accept">Принять</string>
+    <string name="action_app_settings">Настройки</string>
+    <string name="action_disable">Отключить</string>
+    <string name="action_enable">Включить</string>
+    <string name="action_force_stop">Принудительно остановить</string>
+    <string name="action_launch">Запустить</string>
     <string name="adaptive">Авто</string>
     <string name="ai_auto_mode">Автоматическая оптимизация системы по сценарию использования. Автонастройка частот позволяет улучшить энергосбережение.</string>
     <string name="ai_is_disabled">ИИ выключен</string>
@@ -31,6 +36,7 @@
         6. Установите FDE.AI и премиум-пакет.\n\n
         Если проблема осталась, свяжитесь с разработчиком в Telegram.</string>
     <string name="app_icon">Иконка</string>
+    <string name="app_management_title">Управление приложениями</string>
     <string name="app_theme">Тема</string>
     <string name="app_update_notification_title">Обновление FDE.AI</string>
     <string name="apply">Применить</string>
@@ -49,6 +55,8 @@
     <string name="autostart">Автозапуск</string>
     <string name="autostart_delay_hint">Задержка запуска %1$ds</string>
     <string name="autostart_overlay">Запуск плавающего окна статистики</string>
+    <string name="badge_disabled">Отключено</string>
+    <string name="badge_profile">Профиль</string>
     <string name="batt_capacity">Емкость</string>
     <string name="batt_resistance">Сопротивление</string>
     <string name="battery_health_sub">Выберите уровень, при котором остановится зарядка батареи:</string>
@@ -137,6 +145,8 @@
     <string name="extraopt_btn">Доп. оптимизация</string>
     <string name="extraopt_desc">Здесь вы можете дополнительно оптимизировать систему, перекомпилировав ART-кэш приложений для максимальной производительности (занимает больше места) и очистив неиспользуемые блоки памяти для повышения производительности.</string>
     <string name="extraopt_do_btn">Запуск</string>
+    <string name="extraopt_only_when_charging_desc">Пропускать запланированный запуск, если устройство не заряжается</string>
+    <string name="extraopt_only_when_charging_title">Запускать только при зарядке</string>
     <string name="extraopt_reset_btn">Сброс оптимизации</string>
     <string name="extraopt_schedule_title">Запускать каждый день</string>
     <string name="extraopt_scheduled_subtitle">Следующий запуск в %1$s:%2$s</string>
@@ -144,6 +154,10 @@
     <string name="fde_is_active">ИИ активен</string>
     <string name="fde_is_inactive">ИИ неактивен</string>
     <string name="fde_on_reset_toast">Все настройки FDE.AI будут сброшены. Приложение закроется.</string>
+    <string name="filter_all_apps">Все</string>
+    <string name="filter_apps">Фильтр приложений</string>
+    <string name="filter_system_apps">Системные</string>
+    <string name="filter_user_apps">Пользовательские</string>
     <string name="finstall">Установка FDE.AI…</string>
     <string name="force_doze_enabled">Принудительный Doze включен</string>
     <string name="force_doze_trigger_count">Срабатываний Doze</string>
@@ -178,6 +192,7 @@
     <string name="log_saved">Лог сохранен в /sdcard/fde.md</string>
     <string name="low_power_fps">Энергоэффективный FPS</string>
     <string name="low_power_fps_short_desc">Установите желаемый FPS, и частоты ЦП/ГП будут урезаны для поддержания заданного FPS и энергосбережения.</string>
+    <string name="management_actions_header">Управление</string>
     <string name="mem_swap_x" tools:ignore="MissingTranslation">Подкач.: %1$s</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Исп.: %1$s</string>
     <string name="memory_boost_support">Ускорение памяти</string>
@@ -238,6 +253,7 @@
     <string name="premium_card_overlays_desc">Настраиваемые плавающие окна с различной статистикой устройства, включая FPS метр.</string>
     <string name="premium_card_profiles">Расширенные профили приложений</string>
     <string name="premium_card_profiles_desc">Расширенная настройка профилей приложений с множеством опций.</string>
+    <string name="premium_required_for_profiles">Для настройки профилей ИИ для каждого приложения необходима подписка Premium</string>
     <string name="premium_text">Поддержите проект FDE.AI и разблокируйте все эксклюзивные функции приложения:</string>
     <string name="premium_thanks">Спасибо за поддержку! Вы разблокировали следующие функции:</string>
     <string name="profile_ai_mode_desc">Выберите режим ИИ для приложения, пока оно активно.</string>
@@ -283,6 +299,8 @@
     <string name="start_toast">Запуск FDE.AI…</string>
     <string name="startup">Запуск</string>
     <string name="stop_btn">Стоп</string>
+    <string name="tab_debloat">Дебloat</string>
+    <string name="tab_manage">Управлять</string>
     <string name="telegram" tools:ignore="MissingTranslation">https://t.me/feralab_news_rus</string>
     <string name="third_party">Сторонние библиотеки</string>
     <string name="throttling_deactivated">Троттлинг деактивирован</string>
@@ -307,6 +325,6 @@
     <string name="warning_title">Внимание!</string>
     <string name="warning_yes">Да</string>
     <string name="welcome">Здравствуйте</string>
-    <string name="wifi_psave_descr">Чтобы уменьшить шанс разрыва соединения с Shizuku вы можете попробовать отключить спящий режим Wi-Fi, но это может увеличить энергопотребление.</string>
-    <string name="wifi_psave_header">Откл. спящий режим Wi-Fi</string>
+    <string name="wifi_psave_descr">Это может помочь сохранить стабильное соединение с Shizuku, но может увеличить энергопотребление в режиме ожидания.</string>
+    <string name="wifi_psave_header">Отключить спящий режим Wi-Fi</string>
 </resources>

@@ -4,6 +4,11 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Dibuat dengan ❤️ oleh FeraVolt.</string>
     <string name="acc_warning">Modul Pengawal Pengecasan Lanjutan (ACC) dikesan. Ia mungkin bercanggah dengan fungsi bateri FDE.AI.</string>
     <string name="accept">Terima</string>
+    <string name="action_app_settings">Tetapan</string>
+    <string name="action_disable">Lumpuhkan</string>
+    <string name="action_enable">Dayakan</string>
+    <string name="action_force_stop">Paksa berhenti</string>
+    <string name="action_launch">Lancar</string>
     <string name="adaptive">Automatik</string>
     <string name="ai_auto_mode">Prestasi seimbang dan jimat-tenaga berdasarkan penggunaan peranti. Pelarasan-automatik frekuensi memberi lebih banyak penjimatan-tenaga.</string>
     <string name="ai_is_disabled">AI dimatikan</string>
@@ -31,6 +36,7 @@
 6. Pasang pakej FDE.AI dan Premium.\n\n
 Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="app_icon">Icon aplikasi</string>
+    <string name="app_management_title">Pengurusan apl</string>
     <string name="app_theme">Tema</string>
     <string name="app_update_notification_title">Kemaskini FDE.AI</string>
     <string name="apply">Tetapkan</string>
@@ -49,6 +55,8 @@ Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="autostart">Automula</string>
     <string name="autostart_delay_hint">Lengah ditetapkan ke %1$ds</string>
     <string name="autostart_overlay">Mulakan statistik tindihan atas</string>
+    <string name="badge_disabled">Dilumpuhkan</string>
+    <string name="badge_profile">Profil</string>
     <string name="batt_capacity">Kapasiti</string>
     <string name="batt_resistance">Rintangan</string>
     <string name="battery_health_sub">Tetapkan level untuk berhenti cas:</string>
@@ -133,6 +141,8 @@ Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="extraopt_btn">Pengoptimuman tambahan</string>
     <string name="extraopt_desc">Optimumkan sistem dengan menyusun semula cache ART untuk prestasi (menggunakan lebih banyak memori dalaman) dan memangkas sistem fail untuk meningkatkan prestasi memori.</string>
     <string name="extraopt_do_btn">Mula</string>
+    <string name="extraopt_only_when_charging_desc">Langkau jadual jika peranti tidak bersambung kepada pengecas</string>
+    <string name="extraopt_only_when_charging_title">Jalankan hanya semasa mengecas</string>
     <string name="extraopt_reset_btn">Set semula pengoptimuman</string>
     <string name="extraopt_schedule_title">Jadualkan untuk dijalankan setiap hari</string>
     <string name="extraopt_scheduled_subtitle">Larian seterusnya pada %1$s:%2$s</string>
@@ -140,6 +150,10 @@ Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="fde_is_active">AI aktif</string>
     <string name="fde_is_inactive">AI tidak aktif</string>
     <string name="fde_on_reset_toast">Semua data FDE.AI akan ditetapkan semula. Apl akan ditutup.</string>
+    <string name="filter_all_apps">Semua</string>
+    <string name="filter_apps">Tapis apl</string>
+    <string name="filter_system_apps">Sistem</string>
+    <string name="filter_user_apps">Pengguna</string>
     <string name="finstall">Memulakan FDE.AI…</string>
     <string name="force_doze_enabled">Paksa Lelap didayakan</string>
     <string name="force_doze_trigger_count">Paksa Lelapkan kiraan pencetus</string>
@@ -173,6 +187,7 @@ Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="log_saved">Log disimpan ke /sdcard/fde.md</string>
     <string name="low_power_fps">FPS kuasa rendah</string>
     <string name="low_power_fps_short_desc">Tetapkan sasaran FPS - Frekuensi CPU/GPU akan dikurangkan untuk mengekalkan FPS dan menjimatkan kuasa.</string>
+    <string name="management_actions_header">Pengurusan</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Gunakan: %1$s</string>
     <string name="memory_boost_support">Tingkatkan ingatan</string>
     <string name="menu_dashboard">Utama</string>
@@ -231,6 +246,7 @@ Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="premium_card_overlays_desc">Tingkap tindanan yang boleh disesuaikan dengan pelbagai statistik termasuk meter FPS.</string>
     <string name="premium_card_profiles">Profil apl lanjutan</string>
     <string name="premium_card_profiles_desc">Profil aplikasi yang boleh disesuaikan dengan banyak pilihan.</string>
+    <string name="premium_required_for_profiles">Langganan Premium diperlukan untuk mengkonfigurasi profil AI setiap apl</string>
     <string name="premium_text">Sokong FDE.AI dan buka kunci semua ciri eksklusif:</string>
     <string name="premium_thanks">Terima kasih atas sokongan anda! Anda membuka kunci ciri ini:</string>
     <string name="profile_ai_mode_desc">Pilih mod AI semasa apl sedang digunakan.</string>
@@ -276,6 +292,8 @@ Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="start_toast">Memulakan FDE.AI…</string>
     <string name="startup">Permulaan</string>
     <string name="stop_btn">Henti</string>
+    <string name="tab_debloat">Buang bloatware</string>
+    <string name="tab_manage">Urus</string>
     <string name="third_party">Perpustakaan pihak ketiga</string>
     <string name="throttling_deactivated">Pendikit dinyahaktifkan</string>
     <string name="throttling_desc_new">Ini akan mengekalkan prestasi, tetapi boleh menyebabkan terlalu panas dan masalah dengan pengecasan pantas atau kamera.</string>
@@ -299,6 +317,6 @@ Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="warning_title">Amaran!</string>
     <string name="warning_yes">Ya</string>
     <string name="welcome">Selamat Datang</string>
-    <string name="wifi_psave_descr">Untuk mengurangkan kemungkinan memutuskan sambungan dengan Shizuku, anda boleh cuba melumpuhkan mod tidur Wi-Fi, tetapi ini mungkin meningkatkan penggunaan kuasa melahu.</string>
+    <string name="wifi_psave_descr">Ini mungkin membantu mengekalkan sambungan Shizuku yang stabil, tetapi mungkin meningkatkan penggunaan kuasa melahu.</string>
     <string name="wifi_psave_header">Lumpuhkan mod tidur Wi-Fi</string>
 </resources>

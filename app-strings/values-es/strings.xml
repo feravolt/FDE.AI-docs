@@ -4,6 +4,11 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Hecho con ❤️ por FeraVolt.</string>
     <string name="acc_warning">Se detectó el módulo del controlador de carga avanzado (ACC). Puede entrar en conflicto con las funciones de batería de FDE.AI.</string>
     <string name="accept">Aceptar</string>
+    <string name="action_app_settings">Configuración</string>
+    <string name="action_disable">Desactivar</string>
+    <string name="action_enable">Activar</string>
+    <string name="action_force_stop">Forzar detención</string>
+    <string name="action_launch">Iniciar</string>
     <string name="adaptive">Automático</string>
     <string name="ai_auto_mode">Equilibra el rendimiento y el ahorro de energía en función del uso del dispositivo. El ajuste automático de frecuencias aumenta el ahorro de energía.</string>
     <string name="ai_is_disabled">IA desactivada</string>
@@ -31,6 +36,7 @@
 6. Instala FDE.AI y el paquete premium.\n\n
 Si el problema persiste, contacta con el desarrollador en Telegram.</string>
     <string name="app_icon">Icono App</string>
+    <string name="app_management_title">Gestión de aplicaciones</string>
     <string name="app_theme">Tema</string>
     <string name="app_update_notification_title">Actualización de FDE.AI</string>
     <string name="apply">Aplicar</string>
@@ -49,6 +55,8 @@ Si el problema persiste, contacta con el desarrollador en Telegram.</string>
     <string name="autostart">Inicio automático</string>
     <string name="autostart_delay_hint">Retraso establecido en %1$ds</string>
     <string name="autostart_overlay">Capa estadísticas de inicio</string>
+    <string name="badge_disabled">Desactivado</string>
+    <string name="badge_profile">Perfil</string>
     <string name="batt_capacity">Capacidad</string>
     <string name="batt_resistance">Resistencia</string>
     <string name="battery_health_sub">Establecer el nivel para detener la carga:</string>
@@ -134,6 +142,8 @@ Si el problema persiste, contacta con el desarrollador en Telegram.</string>
     <string name="extraopt_btn">Optimización adicional</string>
     <string name="extraopt_desc">Optimizar el sistema recompilando la caché ART para mejorar el rendimiento (utiliza más memoria interna) y recortar el sistema de archivos para mejorar el rendimiento de la memoria.</string>
     <string name="extraopt_do_btn">Empezar</string>
+    <string name="extraopt_only_when_charging_desc">Omitir la ejecución programada si el dispositivo no está conectado</string>
+    <string name="extraopt_only_when_charging_title">Ejecutar solo al cargar</string>
     <string name="extraopt_reset_btn">Restablecer optimización</string>
     <string name="extraopt_schedule_title">Programar para ejecutar diariamente</string>
     <string name="extraopt_scheduled_subtitle">Próxima ejecución a las %1$s:%2$s</string>
@@ -141,6 +151,10 @@ Si el problema persiste, contacta con el desarrollador en Telegram.</string>
     <string name="fde_is_active">IA activa</string>
     <string name="fde_is_inactive">IA inactiva</string>
     <string name="fde_on_reset_toast">Se restablecerán todos los datos de FDE.AI. La aplicación se cerrará.</string>
+    <string name="filter_all_apps">Todo</string>
+    <string name="filter_apps">Filtrar aplicaciones</string>
+    <string name="filter_system_apps">Sistema</string>
+    <string name="filter_user_apps">Usuario</string>
     <string name="finstall">Instalando FDE.AI…</string>
     <string name="force_doze_enabled">Forzar Doze habilitado</string>
     <string name="force_doze_trigger_count">Recuento de activaciones de Forzar Doze</string>
@@ -174,6 +188,7 @@ Si el problema persiste, contacta con el desarrollador en Telegram.</string>
     <string name="log_saved">Registro guardado en /sdcard/fde.md</string>
     <string name="low_power_fps">FPS de bajo consumo</string>
     <string name="low_power_fps_short_desc">Establecer FPS objetivo - Las frecuencias de la CPU/GPU se reducirán para mantener los FPS y ahorrar energía.</string>
+    <string name="management_actions_header">Gestión</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Usado: %1$s</string>
     <string name="memory_boost_support">Aumento de memoria</string>
     <string name="menu_dashboard">Inicio</string>
@@ -232,6 +247,7 @@ Si el problema persiste, contacta con el desarrollador en Telegram.</string>
     <string name="premium_card_overlays_desc">Ventanas superpuestas personalizables con varias estadísticas, incluido el medidor de FPS.</string>
     <string name="premium_card_profiles">Perfiles de aplicación extendidos</string>
     <string name="premium_card_profiles_desc">Perfiles de aplicación personalizables con muchas opciones.</string>
+    <string name="premium_required_for_profiles">Se requiere suscripción Premium para configurar perfiles de IA por aplicación</string>
     <string name="premium_text">Apoyar FDE.AI para desbloquear todas las funciones exclusivas:</string>
     <string name="premium_thanks">¡Gracias por tu apoyo! Desbloqueaste estas características:</string>
     <string name="profile_ai_mode_desc">Selecciona el modo IA mientras la aplicación está en uso.</string>
@@ -277,6 +293,8 @@ Si el problema persiste, contacta con el desarrollador en Telegram.</string>
     <string name="start_toast">Iniciando FDE.AI…</string>
     <string name="startup">Arranque</string>
     <string name="stop_btn">Detener</string>
+    <string name="tab_debloat">Eliminar bloatware</string>
+    <string name="tab_manage">Gestionar</string>
     <string name="third_party">Bibliotecas de terceros</string>
     <string name="throttling_deactivated">Limitación desactivada</string>
     <string name="throttling_desc_new">Esto mantendrá el rendimiento, pero puede causar sobrecalentamiento y problemas con la carga rápida o la cámara.</string>

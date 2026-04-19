@@ -4,6 +4,11 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">由 FeraVolt ❤ 製作。</string>
     <string name="acc_warning">偵測到高階充電控制器 (ACC) 模組。可能與FDE.AI電池功能衝突。</string>
     <string name="accept">接受</string>
+    <string name="action_app_settings">設定</string>
+    <string name="action_disable">停用</string>
+    <string name="action_enable">啟用</string>
+    <string name="action_force_stop">強制停止</string>
+    <string name="action_launch">啟動</string>
     <string name="adaptive">自動</string>
     <string name="ai_auto_mode">根據設備使用情況調整，平衡、性能、省電。 頻率自動調整可以更加省電。</string>
     <string name="ai_is_disabled">禁用人工智慧</string>
@@ -31,6 +36,7 @@
 6. 安裝 FDE.AI 和高級套餐。\n\n
 如果問題仍然存在，請在 Telegram 中聯絡開發者。</string>
     <string name="app_icon">應用程式圖示</string>
+    <string name="app_management_title">應用程式管理</string>
     <string name="app_theme">主題</string>
     <string name="app_update_notification_title">FDE.AI 更新</string>
     <string name="apply">采用</string>
@@ -49,6 +55,8 @@
     <string name="autostart">自動啟動</string>
     <string name="autostart_delay_hint">延遲設定為%1$ds</string>
     <string name="autostart_overlay">開始統計數據疊加</string>
+    <string name="badge_disabled">已停用</string>
+    <string name="badge_profile">設定檔</string>
     <string name="batt_capacity">容量</string>
     <string name="batt_resistance">電阻</string>
     <string name="battery_health_sub">設定停止充電的電量：</string>
@@ -133,6 +141,8 @@
     <string name="extraopt_btn">額外的優化</string>
     <string name="extraopt_desc">透過重新編譯 ART 快取以提高效能（使用更多手機內部儲存空間）來最佳化系統，並修整檔案系統以提高記憶體效能。</string>
     <string name="extraopt_do_btn">開始</string>
+    <string name="extraopt_only_when_charging_desc">若裝置未插電，則略過排程執行</string>
+    <string name="extraopt_only_when_charging_title">僅在充電時執行</string>
     <string name="extraopt_reset_btn">還原優化</string>
     <string name="extraopt_schedule_title">每天運行的計劃</string>
     <string name="extraopt_scheduled_subtitle">下次執行時間：%1$s:%2$s</string>
@@ -140,6 +150,10 @@
     <string name="fde_is_active">人工智慧活躍中</string>
     <string name="fde_is_inactive">人工智慧不活躍</string>
     <string name="fde_on_reset_toast">所有 FDE.AI 數據將被重置。 應用程式將關閉。</string>
+    <string name="filter_all_apps">全部</string>
+    <string name="filter_apps">篩選應用程式</string>
+    <string name="filter_system_apps">系統</string>
+    <string name="filter_user_apps">使用者</string>
     <string name="finstall">正在安裝 FDE.AI…</string>
     <string name="force_doze_enabled">強制打盹已啟用</string>
     <string name="force_doze_trigger_count">強制打盹觸發計數</string>
@@ -173,6 +187,7 @@
     <string name="log_saved">日誌保存到/sdcard/fde.md</string>
     <string name="low_power_fps">低功耗 FPS</string>
     <string name="low_power_fps_short_desc">設定程式的 FPS - CPU/GPU 頻率降低，以維持 FPS 並節省電力。</string>
+    <string name="management_actions_header">管理</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">使用：%1$s</string>
     <string name="memory_boost_support">記憶體提升</string>
     <string name="menu_dashboard">首頁</string>
@@ -231,6 +246,7 @@
     <string name="premium_card_overlays_desc">可自訂覆蓋小視窗，各種統計數據，包括 FPS 。</string>
     <string name="premium_card_profiles">擴展應用程式設定檔</string>
     <string name="premium_card_profiles_desc">有多種選項，可自訂應用程式設定檔。</string>
+    <string name="premium_required_for_profiles">設定每個應用程式的 AI 設定檔需要 Premium 訂閱</string>
     <string name="premium_text">贊助FDE.AI並解鎖所有獨家功能：</string>
     <string name="premium_thanks">感謝您的贊助！ 您解鎖了以下功能：</string>
     <string name="profile_ai_mode_desc">當使用應用程式時，選擇 AI 的模式。</string>
@@ -276,6 +292,8 @@
     <string name="start_toast">啟動 FDE.AI…</string>
     <string name="startup">啟動</string>
     <string name="stop_btn">停止</string>
+    <string name="tab_debloat">移除臃腫軟體</string>
+    <string name="tab_manage">管理</string>
     <string name="third_party">第三方函式庫</string>
     <string name="throttling_deactivated">節流已停用</string>
     <string name="throttling_desc_new">這將維持效能，但可能導致裝置過熱，以及快充或相機出現問題。</string>
@@ -299,6 +317,6 @@
     <string name="warning_title">警告</string>
     <string name="warning_yes">可以</string>
     <string name="welcome">歡迎</string>
-    <string name="wifi_psave_descr">為了減少與 Shizuku 斷開連接的可能性，您可以嘗試停用 Wi-Fi 睡眠模式，但這可能會增加空閒功耗。</string>
+    <string name="wifi_psave_descr">這可能有助於保持 Shizuku 連線穩定，但可能會增加空閒功耗。</string>
     <string name="wifi_psave_header">停用 Wi-Fi 睡眠模式</string>
 </resources>

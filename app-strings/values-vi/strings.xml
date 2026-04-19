@@ -4,6 +4,11 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Được làm với ❤️ bởi FeraVolt.</string>
     <string name="acc_warning">Đã phát hiện mô-đun Bộ điều khiển sạc nâng cao (ACC). Mô-đun này có thể xung đột với các chức năng pin FDE.AI.</string>
     <string name="accept">Chấp nhận</string>
+    <string name="action_app_settings">Cài đặt</string>
+    <string name="action_disable">Tắt</string>
+    <string name="action_enable">Bật</string>
+    <string name="action_force_stop">Buộc dừng</string>
+    <string name="action_launch">Khởi chạy</string>
     <string name="adaptive">Tự động</string>
     <string name="ai_auto_mode">Cân bằng hiệu năng và hiệu suất dựa trên thói quen sử dụng thiết bị. Việc điều hòa tần số sẽ giúp tiết kiệm năng lượng hơn.</string>
     <string name="ai_is_disabled">AI đã vô hiệu hóa</string>
@@ -31,6 +36,7 @@
 6. Cài đặt FDE.AI và gói cao cấp.\n\n
 Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển trong Telegram.</string>
     <string name="app_icon">Biểu tượng ứng dụng</string>
+    <string name="app_management_title">Quản lý ứng dụng</string>
     <string name="app_theme">Chủ đề</string>
     <string name="app_update_notification_title">Cập nhật FDE.AI</string>
     <string name="apply">Áp dụng</string>
@@ -49,6 +55,8 @@ Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển tr
     <string name="autostart">Tự khởi động</string>
     <string name="autostart_delay_hint">Thiết lập trì hoãn %1$ds</string>
     <string name="autostart_overlay">Khởi tạo thông số trạng thái nổi</string>
+    <string name="badge_disabled">Đã tắt</string>
+    <string name="badge_profile">Hồ sơ</string>
     <string name="batt_capacity">Dung lượng</string>
     <string name="batt_resistance">Điện trở</string>
     <string name="battery_health_sub">Thiết lập mức dừng sạc:</string>
@@ -133,6 +141,8 @@ Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển tr
     <string name="extraopt_btn">Tối ưu hóa tăng cường</string>
     <string name="extraopt_desc">Tối ưu hệ thống bằng cách biên dịch lại bộ nhớ đệm ART để tăng hiệu năng (sử dụng nhiều bộ nhớ trong hơn) và tinh giản hệ thống tệp để cải thiện hiệu năng bộ nhớ.</string>
     <string name="extraopt_do_btn">Khởi động</string>
+    <string name="extraopt_only_when_charging_desc">Bỏ qua lần chạy theo lịch nếu thiết bị không được cắm sạc</string>
+    <string name="extraopt_only_when_charging_title">Chỉ chạy khi đang sạc</string>
     <string name="extraopt_reset_btn">Hoàn tác việc tối ưu</string>
     <string name="extraopt_schedule_title">Lên lịch chạy hàng ngày</string>
     <string name="extraopt_scheduled_subtitle">Lần chạy tiếp theo lúc %1$s:%2$s</string>
@@ -140,6 +150,10 @@ Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển tr
     <string name="fde_is_active">AI hoạt động</string>
     <string name="fde_is_inactive">AI bất hoạt</string>
     <string name="fde_on_reset_toast">Tất cả dữ liệu FDE.AI sẽ trả về mặc định. Ứng dụng sẽ đóng.</string>
+    <string name="filter_all_apps">Tất cả</string>
+    <string name="filter_apps">Lọc ứng dụng</string>
+    <string name="filter_system_apps">Hệ thống</string>
+    <string name="filter_user_apps">Người dùng</string>
     <string name="finstall">Cài đặt FDE.AI…</string>
     <string name="force_doze_enabled">Đã bật Force Doze</string>
     <string name="force_doze_trigger_count">Số lần kích hoạt Force Doze</string>
@@ -173,6 +187,7 @@ Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển tr
     <string name="log_saved">Nhật ký đã lưu vào /sdcard/fde.md</string>
     <string name="low_power_fps">FPS năng lượng thấp</string>
     <string name="low_power_fps_short_desc">Đặt mức FPS mong muốn - Xung CPU/GPU sẽ được giảm để duy trì FPS và tiết kiệm năng lượng.</string>
+    <string name="management_actions_header">Quản lý</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Đã dùng: %1$s</string>
     <string name="memory_boost_support">Tăng cường bộ nhớ</string>
     <string name="menu_dashboard">Trang chủ</string>
@@ -231,6 +246,7 @@ Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển tr
     <string name="premium_card_overlays_desc">Tùy chỉnh cửa sổ nổi với đa dạng các chỉ số bao gồm bộ đo FPS.</string>
     <string name="premium_card_profiles">Hồ sơ ứng dụng mở rộng</string>
     <string name="premium_card_profiles_desc">Tùy chỉnh hồ sơ ứng dụng với nhiều lựa chọn.</string>
+    <string name="premium_required_for_profiles">Cần đăng ký Premium để cấu hình hồ sơ AI theo từng ứng dụng</string>
     <string name="premium_text">Hỗ trợ FDE.AI và mở khóa tất cả tính năng độc đáo:</string>
     <string name="premium_thanks">Cảm ơn bạn đã hỗ trợ! Bạn đã mở khóa những tính năng này:</string>
     <string name="profile_ai_mode_desc">Lựa chọn chế độ AI khi ứng dụng được sử dụng.</string>
@@ -276,6 +292,8 @@ Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển tr
     <string name="start_toast">Khởi động FDE.AI…</string>
     <string name="startup">Khởi tạo</string>
     <string name="stop_btn">Dừng</string>
+    <string name="tab_debloat">Xóa bloatware</string>
+    <string name="tab_manage">Quản lý</string>
     <string name="third_party">Thư viện bên thứ ba</string>
     <string name="throttling_deactivated">Đã vô hiệu hóa việc điều chỉnh</string>
     <string name="throttling_desc_new">Điều này sẽ giữ hiệu năng, nhưng có thể gây quá nhiệt và vấn đề với sạc nhanh hoặc camera.</string>
@@ -299,6 +317,6 @@ Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển tr
     <string name="warning_title">Cảnh báo!</string>
     <string name="warning_yes">Có</string>
     <string name="welcome">Chào mừng</string>
-    <string name="wifi_psave_descr">Để giảm nguy cơ mất kết nối với Shizuku, bạn có thể thử tắt chế độ ngủ Wi-Fi, nhưng điều này có thể làm tăng mức tiêu thụ điện năng khi không sử dụng.</string>
+    <string name="wifi_psave_descr">Điều này có thể giúp duy trì kết nối Shizuku ổn định, nhưng có thể làm tăng mức tiêu thụ điện năng khi không hoạt động.</string>
     <string name="wifi_psave_header">Tắt chế độ ngủ Wi-Fi</string>
 </resources>

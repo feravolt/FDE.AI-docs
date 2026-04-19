@@ -4,6 +4,11 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Dibuat oleh ❤ oleh FeraVolt.</string>
     <string name="acc_warning">Modul Pengontrol Pengisian Daya Lanjutan (ACC) terdeteksi. Modul ini mungkin berbenturan dengan fungsi baterai FDE.AI.</string>
     <string name="accept">Terima</string>
+    <string name="action_app_settings">Pengaturan</string>
+    <string name="action_disable">Nonaktifkan</string>
+    <string name="action_enable">Aktifkan</string>
+    <string name="action_force_stop">Paksa berhenti</string>
+    <string name="action_launch">Buka</string>
     <string name="adaptive">Otomatis</string>
     <string name="ai_auto_mode">Menyeimbangkan kinerja dan penghematan daya berdasarkan penggunaan perangkat. Penyetelan otomatis frekuensi memberikan penghematan daya yang lebih besar.</string>
     <string name="ai_is_disabled">AI dinonaktifkan</string>
@@ -31,6 +36,7 @@
 6. Instal paket FDE.AI dan Premium.\n\n
 Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="app_icon">Icon aplikasi</string>
+    <string name="app_management_title">Manajemen aplikasi</string>
     <string name="app_theme">Tema</string>
     <string name="app_update_notification_title">Pembaharuan FDE.AI</string>
     <string name="apply">Terapkan</string>
@@ -49,6 +55,8 @@ Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="autostart">Mulai otomatis</string>
     <string name="autostart_delay_hint">Jeda diatur ke %1$d detik</string>
     <string name="autostart_overlay">Memulai overlay statistik</string>
+    <string name="badge_disabled">Dinonaktifkan</string>
+    <string name="badge_profile">Profil</string>
     <string name="batt_capacity">Kapasitas</string>
     <string name="batt_resistance">Resistansi</string>
     <string name="battery_health_sub">Atur level untuk berhenti mengisi daya:</string>
@@ -133,6 +141,8 @@ Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="extraopt_btn">Optimasi ekstra</string>
     <string name="extraopt_desc">Tingkatkan kinerja sistem dengan mengatur ulang cache ART (akan memakan memori lebih) dan atur sistem file untuk performa memori yang lebih baik.</string>
     <string name="extraopt_do_btn">Mulai</string>
+    <string name="extraopt_only_when_charging_desc">Lewati jadwal jika perangkat tidak terhubung ke pengisi daya</string>
+    <string name="extraopt_only_when_charging_title">Jalankan hanya saat mengisi daya</string>
     <string name="extraopt_reset_btn">Atur Ulang Optimasi</string>
     <string name="extraopt_schedule_title">Jadwal untuk dijalankan setiap hari</string>
     <string name="extraopt_scheduled_subtitle">Jalankan berikutnya pada %1$s:%2$s</string>
@@ -140,6 +150,10 @@ Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="fde_is_active">AI aktif</string>
     <string name="fde_is_inactive">AI tidak aktif</string>
     <string name="fde_on_reset_toast">Semua data FDE.AI akan diatur ulang. Aplikasi akan ditutup.</string>
+    <string name="filter_all_apps">Semua</string>
+    <string name="filter_apps">Filter aplikasi</string>
+    <string name="filter_system_apps">Sistem</string>
+    <string name="filter_user_apps">Pengguna</string>
     <string name="finstall">Memasang FDE.AI…</string>
     <string name="force_doze_enabled">Paksa Doze diaktifkan</string>
     <string name="force_doze_trigger_count">Jumlah pemicu Paksa Doze</string>
@@ -173,6 +187,7 @@ Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="log_saved">Log tersimpan di /sdcard/fde.md</string>
     <string name="low_power_fps">FPS Daya Rendah</string>
     <string name="low_power_fps_short_desc">Setel target FPS-CPU/GPU mengurangi frekuensi mempertahankan FPS dan menghemat daya.</string>
+    <string name="management_actions_header">Manajemen</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Digunakan: %1$s</string>
     <string name="memory_boost_support">Peningkatan memori</string>
     <string name="menu_dashboard">Rumah</string>
@@ -229,6 +244,7 @@ Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="premium_card_overlays_desc">Jendela hamparan yang dapat disesuaikan dengan berbagai statistik termasuk pengukur FPS.</string>
     <string name="premium_card_profiles">Profil aplikasi yang diperluas</string>
     <string name="premium_card_profiles_desc">Profil aplikasi yang dapat disesuaikan dengan banyak pilihan.</string>
+    <string name="premium_required_for_profiles">Berlangganan Premium diperlukan untuk mengonfigurasi profil AI per aplikasi</string>
     <string name="premium_text">Dukung FDE.AI dan buka semua fitur eksklusif:</string>
     <string name="premium_thanks">Terima kasih atas dukungan Anda! Anda telah membuka kunci fitur-fitur ini:</string>
     <string name="profile_ai_mode_desc">Pilih mode AI saat aplikasi sedang digunakan.</string>
@@ -274,6 +290,8 @@ Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="start_toast">Memulai FDE.AI…</string>
     <string name="startup">Memulai</string>
     <string name="stop_btn">Berhenti</string>
+    <string name="tab_debloat">Hapus bloatware</string>
+    <string name="tab_manage">Kelola</string>
     <string name="third_party">Perpustakaan pihak ketiga</string>
     <string name="throttling_deactivated">Pembatasan dinonaktifkan</string>
     <string name="throttling_desc_new">Ini akan menjaga performa, tetapi dapat menyebabkan panas berlebih dan masalah dengan pengisian cepat atau kamera.</string>

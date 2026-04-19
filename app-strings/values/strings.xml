@@ -5,6 +5,11 @@
     <string name="about_version" translatable="false">FDE.AI v%s</string>
     <string name="acc_warning">Advanced Charging Controller (ACC) module is detected. It may conflict with FDE.AI battery functions.</string>
     <string name="accept">Accept</string>
+    <string name="action_app_settings">Settings</string>
+    <string name="action_disable">Disable</string>
+    <string name="action_enable">Enable</string>
+    <string name="action_force_stop">Force stop</string>
+    <string name="action_launch">Launch</string>
     <string name="adaptive">Auto</string>
     <string name="ai_auto_mode">Balances performance and power-saving based on device usage. Freqs auto-tune gives more power-saving.</string>
     <string name="ai_is_disabled">AI disabled</string>
@@ -33,6 +38,7 @@
         6. Reinstall the FDE.AI app and the Premium package.\n\n
         If the problem persists, contact the developer on Telegram.</string>
     <string name="app_icon">App icon</string>
+    <string name="app_management_title">App management</string>
     <string name="app_name" translatable="false" tools:ignore="MissingTranslation">FDE.AI</string>
     <string name="app_theme">Theme</string>
     <string name="app_update_notification_title">FDE.AI update</string>
@@ -52,6 +58,8 @@
     <string name="autostart">Autostart</string>
     <string name="autostart_delay_hint">Delay set to %1$ds</string>
     <string name="autostart_overlay">Start stats overlay</string>
+    <string name="badge_disabled">Disabled</string>
+    <string name="badge_profile">Profile</string>
     <string name="batt_capacity">Capacity</string>
     <string name="batt_resistance">Resistance</string>
     <string name="battery_health_sub">Set the level to stop charging:</string>
@@ -139,6 +147,8 @@
     <string name="extraopt_btn">Extra optimization</string>
     <string name="extraopt_desc">Optimize system by recompiling ART cache for performance (uses more internal memory) and trim the file system to improve memory performance.</string>
     <string name="extraopt_do_btn">Start</string>
+    <string name="extraopt_only_when_charging_desc">Skip the scheduled run if the device is not plugged in</string>
+    <string name="extraopt_only_when_charging_title">Only run when charging</string>
     <string name="extraopt_reset_btn">Reset optimization</string>
     <string name="extraopt_schedule_title">Schedule to run daily</string>
     <string name="extraopt_scheduled_subtitle">Next run at %1$s:%2$s</string>
@@ -147,6 +157,10 @@
     <string name="fde_is_active">AI active</string>
     <string name="fde_is_inactive">AI inactive</string>
     <string name="fde_on_reset_toast">All FDE.AI data will be reset. App will close.</string>
+    <string name="filter_all_apps">All</string>
+    <string name="filter_apps">Filter apps</string>
+    <string name="filter_system_apps">System</string>
+    <string name="filter_user_apps">User</string>
     <string name="finstall">Installing FDE.AI…</string>
     <string name="force_doze_enabled">Force Doze enabled</string>
     <string name="force_doze_trigger_count">Force Doze trigger count</string>
@@ -185,6 +199,7 @@
     <string name="log_saved">Log saved to /sdcard/fde.md</string>
     <string name="low_power_fps">Low power FPS</string>
     <string name="low_power_fps_short_desc">Set target FPS - CPU/GPU frequencies will be reduced to maintain FPS and save power.</string>
+    <string name="management_actions_header">Management</string>
     <string name="mem_swap_x" tools:ignore="MissingTranslation">Swap: %1$s</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Used: %1$s</string>
     <string name="memory_boost_support">Memory boost</string>
@@ -248,6 +263,7 @@
     <string name="premium_card_overlays_desc">Customizable overlay windows with various stats including FPS meter.</string>
     <string name="premium_card_profiles">Extended app profiles</string>
     <string name="premium_card_profiles_desc">Customizable app profiles with many options.</string>
+    <string name="premium_required_for_profiles">Premium subscription is required to configure per-app AI profiles</string>
     <string name="premium_text">Support FDE.AI and unlock all exclusive features:</string>
     <string name="premium_thanks">Thank you for your support! You unlocked these features:</string>
     <string name="profile_ai_mode_desc">Select AI mode while the app is in use.</string>
@@ -285,7 +301,7 @@
     <string name="shizuku_setup_success">Shizuku is set up and you\'re ready to go</string>
     <string name="shizuku_warning_miui_description">MIUI users need to enable additional developer permissions for Shizuku to work properly.</string>
     <string name="shizuku_warning_miui_title">MIUI Developer Permissions</string>
-    <string name="shizuku_warning_systemless_description_new">Non-root mode may perform actions that will permanently affect your system.\n\nIf you ever consider uninstalling this app - reset FDE.AI settings in app before.</string>
+    <string name="shizuku_warning_systemless_description_new">Non-root mode may perform actions that will permanently affect your system.\n\nIf you will ever want to uninstall this app, please reset the settings from the application first.</string>
     <string name="sound_channel_name">AI Sound Notifications</string>
     <string name="sound_header">Sound</string>
     <string name="sound_notifications">Sound notifications</string>
@@ -302,6 +318,8 @@
     <string name="start_toast">Starting FDE.AI…</string>
     <string name="startup">Startup</string>
     <string name="stop_btn">Stop</string>
+    <string name="tab_debloat">Debloat</string>
+    <string name="tab_manage">Manage</string>
     <string name="telegram" tools:ignore="MissingTranslation">https://t.me/feralab_news_eng</string>
     <string name="third_party">Third-party libraries</string>
     <string name="throttling_deactivated">Throttling deactivated</string>
@@ -328,7 +346,7 @@
     <string name="warning_title">Warning!</string>
     <string name="warning_yes">Yes</string>
     <string name="welcome">Welcome</string>
-    <string name="wifi_psave_descr">In order to reduce chance of disconnecting with Shizuku you may try to disable Wi-Fi sleep mode, but this may increase idle power consumption.</string>
+    <string name="wifi_psave_descr">This might help in keeping the Shizuku connection stable, but may increase idle power draw.</string>
     <string name="wifi_psave_header">Disable Wi-Fi sleep mode</string>
     <string name="youtube" tools:ignore="MissingTranslation">https://www.youtube.com/@FeraLab</string>
     <string name="youtube_str" translatable="false">YouTube</string>

@@ -4,6 +4,11 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Făcut cu ❤️ de FeraVolt.</string>
     <string name="acc_warning">Modulul Advanced Charging Controller (ACC) este detectat. Poate intra în conflict cu funcțiile bateriei FDE.AI.</string>
     <string name="accept">Acceptă</string>
+    <string name="action_app_settings">Setări</string>
+    <string name="action_disable">Dezactivează</string>
+    <string name="action_enable">Activează</string>
+    <string name="action_force_stop">Oprire forțată</string>
+    <string name="action_launch">Lansează</string>
     <string name="adaptive">Automat</string>
     <string name="ai_auto_mode">Soldurile de performanță și economisirea energiei în funcție de utilizarea dispozitivului. Autotune Freqs oferă mai multă economisire de energie.</string>
     <string name="ai_is_disabled">AI dezactivat</string>
@@ -31,6 +36,7 @@
 6. Instalați pachetul FDE.AI și Premium.\n\n
 Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="app_icon">Pictogramă aplicație</string>
+    <string name="app_management_title">Gestionare aplicații</string>
     <string name="app_theme">Tema</string>
     <string name="app_update_notification_title">Actualizare FDE.AI</string>
     <string name="apply">Aplică</string>
@@ -49,6 +55,8 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="autostart">Autostart</string>
     <string name="autostart_delay_hint">Întârziere setată la %1$ds</string>
     <string name="autostart_overlay">Suprapunere statistici de pornire</string>
+    <string name="badge_disabled">Dezactivat</string>
+    <string name="badge_profile">Profil</string>
     <string name="batt_capacity">Capacitate</string>
     <string name="batt_resistance">Rezistență</string>
     <string name="battery_health_sub">Setați nivelul pentru a opri taxarea:</string>
@@ -135,6 +143,8 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="extraopt_btn">Optimizare suplimentară</string>
     <string name="extraopt_desc">Optimizați sistemul prin recompilarea ART cache pentru performanțe (utilizează mai mult memorie internă) și tăiați sistemul de fișiere pentru a îmbunătăți performanța memoriei.</string>
     <string name="extraopt_do_btn">Pornire</string>
+    <string name="extraopt_only_when_charging_desc">Omiteți rularea programată dacă dispozitivul nu este conectat</string>
+    <string name="extraopt_only_when_charging_title">Rulați doar la încărcare</string>
     <string name="extraopt_reset_btn">Resetare optimizare</string>
     <string name="extraopt_schedule_title">Programați să ruleze zilnic</string>
     <string name="extraopt_scheduled_subtitle">Următoarea rulare la %1$s:%2$s</string>
@@ -142,6 +152,10 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="fde_is_active">AI activ</string>
     <string name="fde_is_inactive">AI inactive</string>
     <string name="fde_on_reset_toast">Toate datele FDE.AI vor fi resetate. Aplicația se va închide.</string>
+    <string name="filter_all_apps">Toate</string>
+    <string name="filter_apps">Filtrează aplicații</string>
+    <string name="filter_system_apps">Sistem</string>
+    <string name="filter_user_apps">Utilizator</string>
     <string name="finstall">Installing FDE.AI…</string>
     <string name="force_doze_enabled">Forțat Doze activat</string>
     <string name="force_doze_trigger_count">Forțați numărul declanșatorului Doze</string>
@@ -175,6 +189,7 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="log_saved">Jurnal salvat în /sdcard/fde.md</string>
     <string name="low_power_fps">FPS cu putere scăzută</string>
     <string name="low_power_fps_short_desc">Setaţi FPS ţintă - frecvenţele CPU/GPU vor fi reduse pentru a menţine FPS şi a economisi putere.</string>
+    <string name="management_actions_header">Gestionare</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Utilizat: %1$s</string>
     <string name="memory_boost_support">Mărire memorie</string>
     <string name="menu_dashboard">Acasă</string>
@@ -233,6 +248,7 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="premium_card_overlays_desc">Ferestre personalizate suprapuse cu diferite statistici, inclusiv contorul FPS.</string>
     <string name="premium_card_profiles">Profil de aplicații extins</string>
     <string name="premium_card_profiles_desc">Profiluri de aplicații personalizabile cu multe opțiuni.</string>
+    <string name="premium_required_for_profiles">Abonamentul Premium este necesar pentru a configura profiluri AI per aplicație</string>
     <string name="premium_text">Susțineți FDE.AI și deblocați toate funcțiile exclusive:</string>
     <string name="premium_thanks">Vă mulțumim pentru sprijin! Ați deblocat aceste caracteristici:</string>
     <string name="profile_ai_mode_desc">Selectați modul AI în timp ce aplicația este în uz.</string>
@@ -278,6 +294,8 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="start_toast">Pornire FDE.AI…</string>
     <string name="startup">Startup</string>
     <string name="stop_btn">Oprește</string>
+    <string name="tab_debloat">Eliminare bloatware</string>
+    <string name="tab_manage">Gestionează</string>
     <string name="third_party">Biblioteci terțe</string>
     <string name="throttling_deactivated">Throttling dezactivat</string>
     <string name="throttling_desc_new">Aceasta va menține performanța, dar poate provoca supraîncălzire și probleme cu încărcarea rapidă sau camera.</string>
@@ -301,6 +319,6 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="warning_title">Atenție!</string>
     <string name="warning_yes">Da</string>
     <string name="welcome">Bun venit</string>
-    <string name="wifi_psave_descr">Pentru a reduce șansele de deconectare de la Shizuku, puteți încerca să dezactivați modul de repaus Wi-Fi, dar acest lucru poate crește consumul de energie în inactivitate.</string>
+    <string name="wifi_psave_descr">Aceasta poate ajuta la menținerea conexiunii Shizuku stabilă, dar poate crește consumul de energie în inactivitate.</string>
     <string name="wifi_psave_header">Dezactivați modul de repaus Wi-Fi</string>
 </resources>

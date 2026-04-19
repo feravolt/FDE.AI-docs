@@ -4,6 +4,11 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Valmistettu ❤️ FeraVoltin toimesta.</string>
     <string name="acc_warning">Natukoy ang module ng Advanced Charging Controller (ACC). Maaari itong sumalungat sa mga function ng baterya ng FDE.AI.</string>
     <string name="accept">Hyväksy</string>
+    <string name="action_app_settings">Asetukset</string>
+    <string name="action_disable">Poista käytöstä</string>
+    <string name="action_enable">Ota käyttöön</string>
+    <string name="action_force_stop">Pakota pysäytys</string>
+    <string name="action_launch">Käynnistä</string>
     <string name="adaptive">Automaattinen</string>
     <string name="ai_auto_mode">Vaakojen suorituskyky ja laitteen käyttöön perustuva virransäästö. Freqs auto-tune lisää virransäästöä.</string>
     <string name="ai_is_disabled">Tekoäly poistettu käytöstä</string>
@@ -31,6 +36,7 @@
 6. Asenna FDE.AI ja Premium-paketti.\n\n
 Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="app_icon">Sovelluksen kuvake</string>
+    <string name="app_management_title">Sovellusten hallinta</string>
     <string name="app_theme">Teema</string>
     <string name="app_update_notification_title">FDE.AI päivitys</string>
     <string name="apply">Käytä</string>
@@ -49,6 +55,8 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="autostart">Autostart</string>
     <string name="autostart_delay_hint">Viive asetettu %1$ds</string>
     <string name="autostart_overlay">Aloita tilastojen peitto</string>
+    <string name="badge_disabled">Poistettu käytöstä</string>
+    <string name="badge_profile">Profiili</string>
     <string name="batt_capacity">Tilavuus</string>
     <string name="batt_resistance">Vastus</string>
     <string name="battery_health_sub">Aseta taso, joka pysäyttää latauksen:</string>
@@ -134,6 +142,8 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="extraopt_btn">Ylimääräinen optimointi</string>
     <string name="extraopt_desc">Optimoi järjestelmä kääntämällä ART-välimuisti uudelleen suorituskykyä varten (käyttää enemmän sisäistä muistia) ja leikata tiedostojärjestelmä parantamaan muistin suorituskykyä.</string>
     <string name="extraopt_do_btn">Aloita</string>
+    <string name="extraopt_only_when_charging_desc">Ohita ajastettu ajo, jos laite ei ole latauksessa</string>
+    <string name="extraopt_only_when_charging_title">Suorita vain ladattaessa</string>
     <string name="extraopt_reset_btn">Nollaa optimointi</string>
     <string name="extraopt_schedule_title">Ajoita päivittäinen suoritus</string>
     <string name="extraopt_scheduled_subtitle">Seuraava ajo klo %1$s:%2$s</string>
@@ -141,6 +151,10 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="fde_is_active">AI aktiivinen</string>
     <string name="fde_is_inactive">AI inactive</string>
     <string name="fde_on_reset_toast">Kaikki FDE.AI-tiedot nollataan. Sovellus suljetaan.</string>
+    <string name="filter_all_apps">Kaikki</string>
+    <string name="filter_apps">Suodata sovelluksia</string>
+    <string name="filter_system_apps">Järjestelmä</string>
+    <string name="filter_user_apps">Käyttäjä</string>
     <string name="finstall">Installing FDE.AI…</string>
     <string name="force_doze_enabled">Pakota torkku käytössä</string>
     <string name="force_doze_trigger_count">Pakota torkkulaukaisimen määrä</string>
@@ -174,6 +188,7 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="log_saved">Loki tallennettu tiedostoon /sdcard/fde.md</string>
     <string name="low_power_fps">Matala teho FPS</string>
     <string name="low_power_fps_short_desc">Aseta tavoite FPS - CPU/GPU taajuuksia vähennetään säilyttää FPS ja säästää virtaa.</string>
+    <string name="management_actions_header">Hallinta</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Käytetty: %1$s</string>
     <string name="memory_boost_support">Muistin lisäys</string>
     <string name="menu_dashboard">Koti</string>
@@ -232,6 +247,7 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="premium_card_overlays_desc">Räätälöitävät overlay ikkunat erilaisilla tilastoilla, mukaan lukien FPS-mittarilla.</string>
     <string name="premium_card_profiles">Laajennetut sovellusprofiilit</string>
     <string name="premium_card_profiles_desc">Muokattavissa olevat sovellusprofiilit, joissa on monia vaihtoehtoja.</string>
+    <string name="premium_required_for_profiles">Premium-tilaus vaaditaan sovelluskohtaisten AI-profiilien määrittämiseen</string>
     <string name="premium_text">Tue FDE.AI ja avata kaikki yksinomaiset ominaisuudet:</string>
     <string name="premium_thanks">Kiitos tuestanne! Voit avata nämä ominaisuudet:</string>
     <string name="profile_ai_mode_desc">Valitse tekoälyn tila, kun sovellus on käytössä.</string>
@@ -277,6 +293,8 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="start_toast">Käynnistetään FDE.AI…</string>
     <string name="startup">Startup</string>
     <string name="stop_btn">Pysäytä</string>
+    <string name="tab_debloat">Poista bloatware</string>
+    <string name="tab_manage">Hallitse</string>
     <string name="third_party">Kolmansien osapuolten kirjastot</string>
     <string name="throttling_deactivated">Ohjaus poistettu käytöstä</string>
     <string name="throttling_desc_new">Tämä säilyttää suorituskyvyn, mutta voi aiheuttaa ylikuumenemista ja ongelmia pikalatauksen tai kameran kanssa.</string>

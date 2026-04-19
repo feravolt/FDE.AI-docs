@@ -4,6 +4,11 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">صُنع بواسطة ❤ بواسطة FeraVolt.</string>
     <string name="acc_warning">تم اكتشاف وحدة التحكم في الشحن المتقدم (ACC). قد تتعارض مع وظائف بطارية FDE.AI.</string>
     <string name="accept">قبول</string>
+    <string name="action_app_settings">الإعدادات</string>
+    <string name="action_disable">تعطيل</string>
+    <string name="action_enable">تفعيل</string>
+    <string name="action_force_stop">إيقاف قسري</string>
+    <string name="action_launch">تشغيل</string>
     <string name="adaptive">تلقائي</string>
     <string name="ai_auto_mode">الموازنة بين الأداء وتوفير الطاقة طبقاً لاستخدام الجهاز، الضبط التلقائي للترددات يعمل على زيادة توفير الطاقة.</string>
     <string name="ai_is_disabled">AI معطل</string>
@@ -31,6 +36,7 @@
 6. ثبّت باقة FDE.AI المميزة.\n\n
 إذا استمرت المشكلة، تواصل مع المطور عبر تيليجرام.</string>
     <string name="app_icon">أيقونة التطبيق</string>
+    <string name="app_management_title">إدارة التطبيقات</string>
     <string name="app_theme">السمة</string>
     <string name="app_update_notification_title">تحديث FDE.AI</string>
     <string name="apply">تطبيق</string>
@@ -49,6 +55,8 @@
     <string name="autostart">Autostart</string>
     <string name="autostart_delay_hint">تم تعيين التأخير إلى %1$ds</string>
     <string name="autostart_overlay">بدء تراكب الإحصائيات</string>
+    <string name="badge_disabled">معطّل</string>
+    <string name="badge_profile">ملف تعريفي</string>
     <string name="batt_capacity">السعة</string>
     <string name="batt_resistance">المقاومة</string>
     <string name="battery_health_sub">تعيين المستوى لإيقاف الشحن:</string>
@@ -136,6 +144,8 @@
     <string name="extraopt_btn">تحسين إضافي</string>
     <string name="extraopt_desc">تحسين النظام عن طريق إعادة تجميع ذاكرة التخزين المؤقت لـ ART للأداء (استخدام المزيد من الذاكرة الداخلية) وتصحيح نظام الملفات لتحسين أداء الذاكرة.</string>
     <string name="extraopt_do_btn">ابدأ</string>
+    <string name="extraopt_only_when_charging_desc">تخطي التشغيل المجدول إذا لم يكن الجهاز متصلاً بالشاحن</string>
+    <string name="extraopt_only_when_charging_title">التشغيل فقط عند الشحن</string>
     <string name="extraopt_reset_btn">إعادة تعيين التحسين</string>
     <string name="extraopt_schedule_title">جدولة التشغيل يوميًا</string>
     <string name="extraopt_scheduled_subtitle">التشغيل التالي في %1$s:%2$s</string>
@@ -143,6 +153,10 @@
     <string name="fde_is_active">AI نشط</string>
     <string name="fde_is_inactive">AI inactive</string>
     <string name="fde_on_reset_toast">سيتم إعادة تعيين جميع بيانات FDE.AI. سيتم إغلاق التطبيق.</string>
+    <string name="filter_all_apps">الكل</string>
+    <string name="filter_apps">فلترة التطبيقات</string>
+    <string name="filter_system_apps">النظام</string>
+    <string name="filter_user_apps">المستخدم</string>
     <string name="finstall">Installing FDE.AI…</string>
     <string name="force_doze_enabled">تمكين Force Doze</string>
     <string name="force_doze_trigger_count">عدد مشغلات Force Doze</string>
@@ -176,6 +190,7 @@
     <string name="log_saved">تم حفظ السجل في /sdcard/fde.md</string>
     <string name="low_power_fps">FPS منخفضة الطاقة</string>
     <string name="low_power_fps_short_desc">تعيين هدف FPS - سيتم تقليل ترددات CPU/GPU للحفاظ على FPS وحفظ الطاقة.</string>
+    <string name="management_actions_header">الإدارة</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">المستخدمة: %1$s</string>
     <string name="memory_boost_support">تعزيز الذاكرة</string>
     <string name="menu_dashboard">المنزل</string>
@@ -234,6 +249,7 @@
     <string name="premium_card_overlays_desc">تخصيص نوافذ ذات إحصائيات مختلفة بما في ذلك متر FPS.</string>
     <string name="premium_card_profiles">ملفات تعريف التطبيق الموسعة</string>
     <string name="premium_card_profiles_desc">ملفات تعريف التطبيق القابلة للتخصيص مع العديد من الخيارات.</string>
+    <string name="premium_required_for_profiles">الاشتراك المميز مطلوب لتكوين ملفات تعريف AI لكل تطبيق</string>
     <string name="premium_text">دعم FDE.AI وفتح جميع الميزات الحصرية:</string>
     <string name="premium_thanks">شكرا لك على دعمك! لقد قمت بفتح هذه الميزات:</string>
     <string name="profile_ai_mode_desc">حدد وضع الذكاء الاصطناعي أثناء استخدام التطبيق.</string>
@@ -279,6 +295,8 @@
     <string name="start_toast">بدء FDE.AI…</string>
     <string name="startup">Startup</string>
     <string name="stop_btn">توقف</string>
+    <string name="tab_debloat">إزالة البرامج الغير ضرورية</string>
+    <string name="tab_manage">إدارة</string>
     <string name="third_party">مكتبات الطرف الثالث</string>
     <string name="throttling_deactivated">تم إلغاء تنشيط الكبح</string>
     <string name="throttling_desc_new">سيحافظ هذا على الأداء، لكنه قد يسبب ارتفاعًا في الحرارة ومشاكل مع الشحن السريع أو الكاميرا.</string>

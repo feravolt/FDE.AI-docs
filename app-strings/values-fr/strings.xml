@@ -4,6 +4,11 @@
     <string name="about_end_txt" tools:ignore="MissingTranslation">Fait avec ❤️ par FeraVolt.</string>
     <string name="acc_warning">Le module Advanced Charging Controller (ACC) est détecté. Il peut entrer en conflit avec les fonctions de batterie FDE.AI.</string>
     <string name="accept">Accepter</string>
+    <string name="action_app_settings">Paramètres</string>
+    <string name="action_disable">Désactiver</string>
+    <string name="action_enable">Activer</string>
+    <string name="action_force_stop">Forcer l\'arrêt</string>
+    <string name="action_launch">Lancer</string>
     <string name="adaptive">Automatique</string>
     <string name="ai_auto_mode">Balance les performances et l\'économie d\'énergie en fonction de l\'utilisation de l\'appareil. La fréquence d\'auto-tuning donne plus d\'économie d\'énergie.</string>
     <string name="ai_is_disabled">IA désactivée</string>
@@ -31,6 +36,7 @@
 6. Installez FDE.AI et l\'abonnement Premium.\n\n
 Si le problème persiste, contactez le développeur sur Telegram.</string>
     <string name="app_icon">Icône de l\'application</string>
+    <string name="app_management_title">Gestion des applications</string>
     <string name="app_theme">Thème</string>
     <string name="app_update_notification_title">Mise à jour FDE.AI</string>
     <string name="apply">Appliquer</string>
@@ -49,6 +55,8 @@ Si le problème persiste, contactez le développeur sur Telegram.</string>
     <string name="autostart">Autostart</string>
     <string name="autostart_delay_hint">Délai défini à %1$ds</string>
     <string name="autostart_overlay">Début de la superposition des statistiques</string>
+    <string name="badge_disabled">Désactivé</string>
+    <string name="badge_profile">Profil</string>
     <string name="batt_capacity">Capacité</string>
     <string name="batt_resistance">Résistance</string>
     <string name="battery_health_sub">Régler le niveau pour arrêter la charge :</string>
@@ -134,6 +142,8 @@ Si le problème persiste, contactez le développeur sur Telegram.</string>
     <string name="extraopt_btn">Optimisation supplémentaire</string>
     <string name="extraopt_desc">Optimisez le système en recompilant le cache ART pour des performances (utilise plus de mémoire interne) et découpez le système de fichiers pour améliorer les performances de la mémoire.</string>
     <string name="extraopt_do_btn">Début</string>
+    <string name="extraopt_only_when_charging_desc">Ignorer l\'exécution planifiée si l\'appareil n\'est pas branché</string>
+    <string name="extraopt_only_when_charging_title">Exécuter uniquement lors de la charge</string>
     <string name="extraopt_reset_btn">Réinitialiser l\'optimisation</string>
     <string name="extraopt_schedule_title">Programmer l\'exécution quotidienne</string>
     <string name="extraopt_scheduled_subtitle">Prochaine exécution à %1$s:%2$s</string>
@@ -141,6 +151,10 @@ Si le problème persiste, contactez le développeur sur Telegram.</string>
     <string name="fde_is_active">IA active</string>
     <string name="fde_is_inactive">AI inactive</string>
     <string name="fde_on_reset_toast">Toutes les données FDE.AI seront réinitialisées. L\'application se fermera.</string>
+    <string name="filter_all_apps">Tout</string>
+    <string name="filter_apps">Filtrer les applications</string>
+    <string name="filter_system_apps">Système</string>
+    <string name="filter_user_apps">Utilisateur</string>
     <string name="finstall">Installing FDE.AI…</string>
     <string name="force_doze_enabled">Force Doze activé</string>
     <string name="force_doze_trigger_count">Nombre de déclencheurs de la fonction Doze forcé</string>
@@ -174,6 +188,7 @@ Si le problème persiste, contactez le développeur sur Telegram.</string>
     <string name="log_saved">Journal enregistré dans /sdcard/fde.md</string>
     <string name="low_power_fps">FPS basse puissance</string>
     <string name="low_power_fps_short_desc">Définir le FPS cible - les fréquences CPU/GPU seront réduites pour maintenir le FPS et économiser de l\'énergie.</string>
+    <string name="management_actions_header">Gestion</string>
     <string name="mem_used_x" tools:ignore="MissingTranslation">Utilisé : %1$s</string>
     <string name="memory_boost_support">Augmentation de la mémoire</string>
     <string name="menu_dashboard">Domicile</string>
@@ -232,6 +247,7 @@ Si le problème persiste, contactez le développeur sur Telegram.</string>
     <string name="premium_card_overlays_desc">Fenêtres de superposition personnalisables avec diverses stats incluant le compteur FPS.</string>
     <string name="premium_card_profiles">Profils de l\'application étendue</string>
     <string name="premium_card_profiles_desc">Profils d\'application personnalisables avec de nombreuses options.</string>
+    <string name="premium_required_for_profiles">Un abonnement Premium est requis pour configurer les profils IA par application</string>
     <string name="premium_text">Soutenez FDE.AI et débloquez toutes les fonctionnalités exclusives :</string>
     <string name="premium_thanks">Merci pour votre soutien ! Vous avez débloqué ces fonctionnalités :</string>
     <string name="profile_ai_mode_desc">Sélectionnez le mode IA lorsque l\'application est en cours d\'utilisation.</string>
@@ -277,6 +293,8 @@ Si le problème persiste, contactez le développeur sur Telegram.</string>
     <string name="start_toast">Démarrage de FDE.AI…</string>
     <string name="startup">Startup</string>
     <string name="stop_btn">Arrêter</string>
+    <string name="tab_debloat">Supprimer les bloatwares</string>
+    <string name="tab_manage">Gérer</string>
     <string name="third_party">Bibliothèques tierces</string>
     <string name="throttling_deactivated">Limitation désactivée</string>
     <string name="throttling_desc_new">Cela maintiendra les performances, mais peut entraîner une surchauffe et des problèmes avec la charge rapide ou la caméra.</string>
@@ -300,6 +318,6 @@ Si le problème persiste, contactez le développeur sur Telegram.</string>
     <string name="warning_title">Attention !</string>
     <string name="warning_yes">Oui</string>
     <string name="welcome">Bienvenue</string>
-    <string name="wifi_psave_descr">Afin de réduire les risques de déconnexion avec Shizuku, vous pouvez essayer de désactiver le mode veille du Wi-Fi, mais cela peut augmenter la consommation d\'énergie en veille.</string>
+    <string name="wifi_psave_descr">Cela peut aider à maintenir la connexion Shizuku stable, mais peut augmenter la consommation d\'énergie en veille.</string>
     <string name="wifi_psave_header">Désactiver le mode veille du Wi-Fi</string>
 </resources>
