@@ -25,7 +25,7 @@
     <string name="ai_state_disabled">Deaktivoitu</string>
     <string name="ai_state_ready">Työskentely</string>
     <string name="ai_state_sleeping">Nukkuminen…</string>
-    <string name="aiinfo">AI info</string>
+    <string name="aiinfo">AI-tiedot</string>
     <string name="already_premium">Onko sinulla jo premium?</string>
     <string name="already_premium_txt">Jos olet jo ostanut premium-paketin, mutta FDE.AI ei tunnista sitä, toimi seuraavasti:\n\n
 1. Varmista, että latasit FDE.AI-sovelluksen aidon kopion virallisista lähteistä ja tarkista MD5-hajautus.\n
@@ -52,7 +52,7 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="auto_psave_desc">Ota virransäästötila automaattisesti käyttöön, kun näyttö on pois päältä.</string>
     <string name="autodatasave_mode">Automaattinen tietojen tallennus</string>
     <string name="autopowersave_mode">Automaattinen virransäästö</string>
-    <string name="autostart">Autostart</string>
+    <string name="autostart">Automaattinen käynnistys</string>
     <string name="autostart_delay_hint">Viive asetettu %1$ds</string>
     <string name="autostart_overlay">Aloita tilastojen peitto</string>
     <string name="badge_disabled">Poistettu käytöstä</string>
@@ -88,6 +88,7 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="cleaning_title">Puhdistus</string>
     <string name="clear_selection">Tyhjennä valinta</string>
     <string name="close">Sulje</string>
+    <string name="collapse_profiles">Pienennä sovellusprofiileja</string>
     <string name="common_cached">Välimuisti</string>
     <string name="common_settings">Asetukset</string>
     <string name="common_swap">Vaihtaminen</string>
@@ -139,6 +140,7 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
     <string name="exit_confirmation_text">Poistu tallentamatta muutoksia?</string>
     <string name="exit_confirmation_title">Poistetaan?</string>
+    <string name="expand_profiles">Laajenna sovellusprofiileja</string>
     <string name="extraopt_btn">Ylimääräinen optimointi</string>
     <string name="extraopt_desc">Optimoi järjestelmä kääntämällä ART-välimuisti uudelleen suorituskykyä varten (käyttää enemmän sisäistä muistia) ja leikata tiedostojärjestelmä parantamaan muistin suorituskykyä.</string>
     <string name="extraopt_do_btn">Aloita</string>
@@ -149,26 +151,26 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="extraopt_scheduled_subtitle">Seuraava ajo klo %1$s:%2$s</string>
     <string name="extraopt_warning">Tämä ei ole järjestelmätön optimointi. Voi rikkoa järjestelmän joitakin mukautettuja ROMit (vaatii tyhjentää ART välimuisti recovery). Varmuuskopioi tiedot ennen käyttöä.</string>
     <string name="fde_is_active">AI aktiivinen</string>
-    <string name="fde_is_inactive">AI inactive</string>
+    <string name="fde_is_inactive">AI ei aktiivinen</string>
     <string name="fde_on_reset_toast">Kaikki FDE.AI-tiedot nollataan. Sovellus suljetaan.</string>
     <string name="filter_all_apps">Kaikki</string>
     <string name="filter_apps">Suodata sovelluksia</string>
     <string name="filter_system_apps">Järjestelmä</string>
     <string name="filter_user_apps">Käyttäjä</string>
-    <string name="finstall">Installing FDE.AI…</string>
+    <string name="finstall">Asennetaan FDE.AI…</string>
     <string name="force_doze_enabled">Pakota torkku käytössä</string>
     <string name="force_doze_trigger_count">Pakota torkkulaukaisimen määrä</string>
     <string name="fps_checkbox">Laitteistovalvonta &amp; FPS</string>
     <string name="fps_meter_desc">Reaaliaikaiset FPS, CPU, GPU, RAM ja virrankäyttötilastot.</string>
     <string name="fs_cache_tune">FS-välimuistin viritys</string>
-    <string name="get_premium">Get FDE.AI Premium</string>
+    <string name="get_premium">Hanki FDE.AI Premium</string>
     <string name="go_back">Mene takaisin</string>
     <string name="gpu_turbo_support">GPU Turbo -tuki</string>
     <string name="gpu_turbo_trigger_count">GPU Turbo -triggereiden määrä</string>
     <string name="grantit">Saatat joutua manuaalisesti myöntämään käyttöjärjestelmäsi käyttöoikeuksien hallinnassa käyttöoikeuden automaattiseen käynnistykseen, jotta FDE.AI voi aloittaa käyttöjärjestelmän käynnistyksen jälkeen.</string>
     <string name="greenbattery_desc">Laajenna akun kestoa rajoittamalla maksimilataustasoa. Lopeta lataaminen määritetyllä kynnysarvolla ja käynnistä uudelleen 6 prosentin alapuolella.</string>
     <string name="greenbattery_title">Akku</string>
-    <string name="hour">h.</string>
+    <string name="hour">t.</string>
     <string name="hwinfo">Laite</string>
     <string name="join_forum">XDA</string>
     <string name="just_check">Tarkista</string>
@@ -235,7 +237,7 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
     <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s Mt</string>
     <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_opacity_main">Overlay opacity</string>
+    <string name="overlay_opacity_main">Päällekkäisyysläpäisevyys</string>
     <string name="overlay_power_x">Teho: %1$s mAh</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Peittokuvan asteikko</string>
@@ -255,7 +257,7 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="profiles_descr_txt">Mukautetut profiilit käyttävät FDE.AI asetuksia, kun sovellus on käynnissä ja peruu suljettuna.</string>
     <string name="rate_app">Arvostele FDE.AI</string>
     <string name="releases">Päivitykset</string>
-    <string name="reset">Reset</string>
+    <string name="reset">Nollaa</string>
     <string name="reset_all_fde">Nollaa FDE.AI asetukset</string>
     <string name="reset_app_list_confirmation_text">Nollaa sovelluslista?</string>
     <string name="reset_app_list_confirmation_title">Nollaa lista</string>
@@ -263,7 +265,7 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="reset_downscale_onboot">Nollaa uudelleenkäynnistyksen jälkeen</string>
     <string name="reset_fde_dialog_text">Nollaa kaikki FDE.AI asetukset?</string>
     <string name="restart_fde_action">Käynnistä FDE.AI Uudelleen</string>
-    <string name="restart_fde_in_progress">Restarting FDE.AI</string>
+    <string name="restart_fde_in_progress">FDE.AI käynnistetään uudelleen</string>
     <string name="rm_fde_lite">Poista FDE.AI lite versio ensin!</string>
     <string name="root_mode_descr">Kaikki ominaisuudet. Vaatii pääkäyttäjän oikeudet.</string>
     <string name="run_now">Suorita</string>
@@ -291,7 +293,7 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="start_art_dialog_text">ART-välimuistin optimointi voi viedä aikaa, aiheuttaa laitteen viiveitä ja ylikuumenemista. Jatketaanko?</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">Odotetaan %1$d sekuntia aloittamaan FDE.AI…</string>
     <string name="start_toast">Käynnistetään FDE.AI…</string>
-    <string name="startup">Startup</string>
+    <string name="startup">Käynnistys</string>
     <string name="stop_btn">Pysäytä</string>
     <string name="tab_debloat">Poista bloatware</string>
     <string name="tab_manage">Hallitse</string>
@@ -307,9 +309,32 @@ Jos ongelma jatkuu, ota yhteyttä kehittäjään Telegramissa.</string>
     <string name="tile_available">Pikalaatta on saatavilla tilapalkissa.</string>
     <string name="tweaks_disabled">Kaikki säädökset on poistettu käytöstä</string>
     <string name="un_fde_magisk">Poista FDE.AI Magisk moduuli ensin!</string>
-    <string name="unavailable">Unavailable</string>
+    <string name="unavailable">Ei saatavilla</string>
     <string name="update">Päivitä</string>
     <string name="update_available">Päivitys saatavilla!</string>
+    <string name="update_download_enqueue_failed">Päivitystä ei voitu lisätä latausjonoon.</string>
+    <string name="update_download_failed">Päivityksen lataus epäonnistui.</string>
+    <string name="update_download_failed_with_reason">Päivityksen lataus epäonnistui: %1$s</string>
+    <string name="update_download_file_not_found">Ladattua päivitystiedostoa ei löytynyt.</string>
+    <string name="update_download_no_failure_reason">Järjestelmä ei antanut virhesyytä.</string>
+    <string name="update_download_reason_cannot_resume">Latausta ei voi jatkaa.</string>
+    <string name="update_download_reason_code">Järjestelmä ilmoitti latauksen syykoodin %1$d.</string>
+    <string name="update_download_reason_device_not_found">Ulkoista tallennuslaitetta ei löytynyt.</string>
+    <string name="update_download_reason_file_already_exists">Kohdetiedosto on jo olemassa.</string>
+    <string name="update_download_reason_file_error">Ladattua tiedostoa ei voitu kirjoittaa.</string>
+    <string name="update_download_reason_http_data_error">Verkkovirhe keskeytti latauksen.</string>
+    <string name="update_download_reason_http_status">Palvelin palautti HTTP %1$d.</string>
+    <string name="update_download_reason_insufficient_space">Päivitykselle ei ole tarpeeksi tallennustilaa.</string>
+    <string name="update_download_reason_paused_unknown">Lataus on keskeytetty tuntemattomasta syystä.</string>
+    <string name="update_download_reason_queued_for_wifi">Lataus odottaa Wi‑Fi-yhteyttä.</string>
+    <string name="update_download_reason_too_many_redirects">Lataus-URL ohjasi uudelleen liian monta kertaa.</string>
+    <string name="update_download_reason_unhandled_http_code">Palvelin palautti tukemattoman HTTP-vastauksen.</string>
+    <string name="update_download_reason_unknown">Järjestelmä ilmoitti tuntemattomasta latausvirheestä.</string>
+    <string name="update_download_reason_waiting_for_network">Lataus odottaa verkkoyhteyttä.</string>
+    <string name="update_download_reason_waiting_to_retry">Lataus odottaa uutta yritystä.</string>
+    <string name="update_download_status_unavailable">Latauksen tila ei ole saatavilla.</string>
+    <string name="update_storage_permission_required">Salli tallennustilan käyttö päivityksen lataamista varten ja yritä sitten uudelleen.</string>
+    <string name="update_unknown_sources_required">Salli FDE.AI:n asentaa tuntemattomia sovelluksia ja yritä sitten uudelleen.</string>
     <string name="updating_toast">Ladataan päivitystä…</string>
     <string name="vibration">Värinä kerran</string>
     <string name="vm_cache_tune">VM-välimuistin viritys</string>

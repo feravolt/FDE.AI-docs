@@ -88,6 +88,7 @@ Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="cleaning_title">Membersihkan</string>
     <string name="clear_selection">Hapus pilihan</string>
     <string name="close">Menutup</string>
+    <string name="collapse_profiles">Ciutkan profil aplikasi</string>
     <string name="common_cached">Tersimpan</string>
     <string name="common_settings">Setelan</string>
     <string name="common_swap">Pertukaran</string>
@@ -112,7 +113,7 @@ Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="debloat_processing_progress">Memproses: %1$d/%2$d</string>
     <string name="debloat_title">Nonaktifkan bloatware</string>
     <string name="debloat_uninstall">Copot pemasangan</string>
-    <string name="debug_mode">Debugging</string>
+    <string name="debug_mode">Mode Debug</string>
     <string name="description">Deskripsi</string>
     <string name="disable_logs">Nonaktifkan log</string>
     <string name="disable_logs_desc">Pilih untuk menonaktifkan semua log dan statistik (kecuali \"logcat\") dan mengurangi ukuran buffer logcat menjadi 128 KB.</string>
@@ -138,6 +139,7 @@ Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="eula" tools:ignore="MissingTranslation">Perjanjian Lisensi Pengguna Akhir</string>
     <string name="exit_confirmation_text">Keluar tanpa menyimpan perubahan?</string>
     <string name="exit_confirmation_title">Keluar?</string>
+    <string name="expand_profiles">Perluas profil aplikasi</string>
     <string name="extraopt_btn">Optimasi ekstra</string>
     <string name="extraopt_desc">Tingkatkan kinerja sistem dengan mengatur ulang cache ART (akan memakan memori lebih) dan atur sistem file untuk performa memori yang lebih baik.</string>
     <string name="extraopt_do_btn">Mulai</string>
@@ -192,7 +194,7 @@ Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="memory_boost_support">Peningkatan memori</string>
     <string name="menu_dashboard">Rumah</string>
     <string name="migration_error">Terjadi kesalahan tak terduga saat migrasi data. Data akan dihapus.</string>
-    <string name="min">min.</string>
+    <string name="min">mnt.</string>
     <string name="monitoring_floating_window">Pengamatan</string>
     <string name="more_info">Informasi lanjut</string>
     <string name="multi_core_power_saving_control">Penghematan daya CPU multi-inti</string>
@@ -219,7 +221,7 @@ Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="onboarding_preset_performance_summary">Menerapkan penyesuaian dan menyetel AI untuk meningkatkan kinerja dan daya tanggap</string>
     <string name="onboarding_preset_performance_title">Performa</string>
     <string name="onboarding_preset_powersave_summary">Terapkan penyesuaian dan setel AI untuk penghematan baterai dan mengurangi panas</string>
-    <string name="onboarding_preset_powersave_title">Powersave</string>
+    <string name="onboarding_preset_powersave_title">Hemat Daya</string>
     <string name="onboarding_presets">Preset</string>
     <string name="onboarding_see_full_eula">Lihat EULA lengkap</string>
     <string name="onboarding_select_mode_title">Pilih mode</string>
@@ -227,7 +229,7 @@ Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="onboarding_setup_message">Pilih penyesuaian mana yang akan diterapkan. Anda dapat mengubah pengaturan setelah penyiapan.</string>
     <string name="open_os_dev_settings">Buka pengaturan pengembang Android</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Rata-rata: %1$s FPS</string>
-    <string name="overlay_battery_temp_x">Battery: %1$s°C</string>
+    <string name="overlay_battery_temp_x">Baterai: %1$s°C</string>
     <string name="overlay_desc_text">Aktifkan jendela mengambang dengan statistik waktu nyata untuk pemantauan.</string>
     <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
     <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
@@ -295,7 +297,7 @@ Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="third_party">Perpustakaan pihak ketiga</string>
     <string name="throttling_deactivated">Pembatasan dinonaktifkan</string>
     <string name="throttling_desc_new">Ini akan menjaga performa, tetapi dapat menyebabkan panas berlebih dan masalah dengan pengisian cepat atau kamera.</string>
-    <string name="throttling_fuse_desc">Automatically re-enable throttling at this temperature to prevent damage.</string>
+    <string name="throttling_fuse_desc">Aktifkan kembali throttle secara otomatis pada suhu ini untuk mencegah kerusakan.</string>
     <string name="throttling_fuse_header">Sekering temperatur</string>
     <string name="throttling_ignore_charging">Abaikan pengisian daya</string>
     <string name="throttling_ignore_charging_desc">Secara bawaan, FDE mengaktifkan kembali throttling saat pengisian daya. Centang opsi ini untuk menonaktifkan perilaku tersebut.</string>
@@ -307,6 +309,29 @@ Jika masalah berlanjut, hubungi pengembang di Telegram.</string>
     <string name="unavailable">Tidak tersedia</string>
     <string name="update">Pembaruan</string>
     <string name="update_available">Pembaruan tersedia!</string>
+    <string name="update_download_enqueue_failed">Pembaruan tidak dapat dimasukkan ke antrean unduhan.</string>
+    <string name="update_download_failed">Pengunduhan pembaruan gagal.</string>
+    <string name="update_download_failed_with_reason">Pengunduhan pembaruan gagal: %1$s</string>
+    <string name="update_download_file_not_found">Berkas pembaruan yang diunduh tidak ditemukan.</string>
+    <string name="update_download_no_failure_reason">Sistem tidak memberikan alasan kegagalan.</string>
+    <string name="update_download_reason_cannot_resume">Unduhan tidak dapat dilanjutkan.</string>
+    <string name="update_download_reason_code">Sistem melaporkan kode alasan unduhan %1$d.</string>
+    <string name="update_download_reason_device_not_found">Perangkat penyimpanan eksternal tidak ditemukan.</string>
+    <string name="update_download_reason_file_already_exists">Berkas tujuan sudah ada.</string>
+    <string name="update_download_reason_file_error">Berkas yang diunduh tidak dapat ditulis.</string>
+    <string name="update_download_reason_http_data_error">Kesalahan jaringan mengganggu unduhan.</string>
+    <string name="update_download_reason_http_status">Server mengembalikan HTTP %1$d.</string>
+    <string name="update_download_reason_insufficient_space">Ruang penyimpanan tidak cukup untuk pembaruan.</string>
+    <string name="update_download_reason_paused_unknown">Unduhan dijeda karena alasan yang tidak diketahui.</string>
+    <string name="update_download_reason_queued_for_wifi">Unduhan menunggu koneksi Wi‑Fi.</string>
+    <string name="update_download_reason_too_many_redirects">URL unduhan terlalu sering dialihkan.</string>
+    <string name="update_download_reason_unhandled_http_code">Server mengembalikan respons HTTP yang tidak didukung.</string>
+    <string name="update_download_reason_unknown">Sistem melaporkan kesalahan unduhan yang tidak diketahui.</string>
+    <string name="update_download_reason_waiting_for_network">Unduhan menunggu koneksi jaringan.</string>
+    <string name="update_download_reason_waiting_to_retry">Unduhan menunggu untuk mencoba lagi.</string>
+    <string name="update_download_status_unavailable">Status unduhan tidak tersedia.</string>
+    <string name="update_storage_permission_required">Izinkan akses penyimpanan untuk mengunduh pembaruan, lalu coba lagi.</string>
+    <string name="update_unknown_sources_required">Izinkan FDE.AI memasang aplikasi dari sumber tidak dikenal, lalu coba lagi.</string>
     <string name="updating_toast">Mengunduh pembaruan…</string>
     <string name="vibration">Bergetar sekali</string>
     <string name="vm_cache_tune">Penyetelan cache VM</string>

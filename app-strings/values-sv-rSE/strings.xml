@@ -25,7 +25,7 @@
     <string name="ai_state_disabled">Avaktiverad</string>
     <string name="ai_state_ready">Arbetar</string>
     <string name="ai_state_sleeping">Sovande…</string>
-    <string name="aiinfo">AI info</string>
+    <string name="aiinfo">AI-info</string>
     <string name="already_premium">Har du redan premium?</string>
     <string name="already_premium_txt">Om du redan har köpt premiumpaket, men FDE.AI inte upptäcker det - följ dessa steg:\n\n
 1. Se till att du laddade ner en äkta kopia av FDE.AI-appen från officiella källor och kontrollera MD5-hash.\n
@@ -88,6 +88,7 @@ Om problemet kvarstår, kontakta utvecklaren i Telegram.</string>
     <string name="cleaning_title">Rengöring</string>
     <string name="clear_selection">Rensa markering</string>
     <string name="close">Stäng</string>
+    <string name="collapse_profiles">Dölj app-profiler</string>
     <string name="common_cached">Cache</string>
     <string name="common_settings">Inställningar</string>
     <string name="common_swap">Byta</string>
@@ -139,6 +140,7 @@ Om problemet kvarstår, kontakta utvecklaren i Telegram.</string>
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
     <string name="exit_confirmation_text">Avsluta utan att spara ändringar?</string>
     <string name="exit_confirmation_title">Avsluta?</string>
+    <string name="expand_profiles">Visa app-profiler</string>
     <string name="extraopt_btn">Extra optimering</string>
     <string name="extraopt_desc">Optimera systemet genom att kompilera om ART cache för prestanda (använder mer internt minne) och trimma filsystemet för att förbättra minnesprestandan.</string>
     <string name="extraopt_do_btn">Starta</string>
@@ -149,26 +151,26 @@ Om problemet kvarstår, kontakta utvecklaren i Telegram.</string>
     <string name="extraopt_scheduled_subtitle">Nästa körning kl %1$s:%2$s</string>
     <string name="extraopt_warning">Detta är inte en systemlös optimering. Kan bryta systemet på vissa anpassade Rom (kräver rensning ART cache i återställning). Säkerhetskopiera dina data innan användning.</string>
     <string name="fde_is_active">AI aktiv</string>
-    <string name="fde_is_inactive">AI inactive</string>
+    <string name="fde_is_inactive">AI inaktiv</string>
     <string name="fde_on_reset_toast">Alla FDE.AI data kommer att återställas. Appen stängs.</string>
     <string name="filter_all_apps">Alla</string>
     <string name="filter_apps">Filtrera appar</string>
     <string name="filter_system_apps">System</string>
     <string name="filter_user_apps">Användare</string>
-    <string name="finstall">Installing FDE.AI…</string>
+    <string name="finstall">Installerar FDE.AI…</string>
     <string name="force_doze_enabled">Force Doze aktiverad</string>
     <string name="force_doze_trigger_count">Tvinga antal utlösare för slumra</string>
     <string name="fps_checkbox">Maskinvaruövervakning &amp; FPS</string>
     <string name="fps_meter_desc">Realtid FPS, CPU, GPU, RAM-minne och statistik strömförbrukning.</string>
     <string name="fs_cache_tune">FS-cachejustering</string>
-    <string name="get_premium">Get FDE.AI Premium</string>
+    <string name="get_premium">Skaffa FDE.AI Premium</string>
     <string name="go_back">Gå tillbaka</string>
     <string name="gpu_turbo_support">GPU Turbo-stöd</string>
     <string name="gpu_turbo_trigger_count">GPU-turbotriggerantal</string>
     <string name="grantit">Du kan behöva manuellt bevilja autostart tillstånd i operativsystemets behörighetshanterare för att tillåta FDE.AI att starta efter OS uppstart.</string>
     <string name="greenbattery_desc">Förläng batteritiden genom att begränsa max laddningsnivån. Stoppar laddning vid den definierade tröskeln och startar om till 6 procent under den.</string>
     <string name="greenbattery_title">Batteri</string>
-    <string name="hour">h.</string>
+    <string name="hour">t.</string>
     <string name="hwinfo">Enhet</string>
     <string name="join_forum">XDA</string>
     <string name="just_check">Kontrollera</string>
@@ -220,7 +222,7 @@ Om problemet kvarstår, kontakta utvecklaren i Telegram.</string>
     <string name="onboarding_preset_performance_summary">Applicera tweaks och trimma AI för ökad prestanda och lyhördhet</string>
     <string name="onboarding_preset_performance_title">Prestation</string>
     <string name="onboarding_preset_powersave_summary">Applicera tweaks och trimma AI för batterisparande och minskad värme</string>
-    <string name="onboarding_preset_powersave_title">Powersave</string>
+    <string name="onboarding_preset_powersave_title">Energispar</string>
     <string name="onboarding_presets">Förval</string>
     <string name="onboarding_see_full_eula">Se hela EULA</string>
     <string name="onboarding_select_mode_title">Välj läge</string>
@@ -235,12 +237,12 @@ Om problemet kvarstår, kontakta utvecklaren i Telegram.</string>
     <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
     <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
     <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_opacity_main">Overlay opacity</string>
+    <string name="overlay_opacity_main">Overlaytransparens</string>
     <string name="overlay_power_x">Kraft: %1$s mAh</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Överlagringsskala</string>
     <string name="performance">Prestation</string>
-    <string name="powersave">Powersave</string>
+    <string name="powersave">Energispar</string>
     <string name="preload_pro_required">Preload Pro-appen krävs för den här funktionen.</string>
     <string name="preload_title">Automatisk förladdning</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
@@ -255,7 +257,7 @@ Om problemet kvarstår, kontakta utvecklaren i Telegram.</string>
     <string name="profiles_descr_txt">Anpassade profiler gäller FDE.AI-inställningar när en app körs och återställs när den stängs.</string>
     <string name="rate_app">Betygsätt FDE.AI</string>
     <string name="releases">Uppdateringar</string>
-    <string name="reset">Reset</string>
+    <string name="reset">Återställ</string>
     <string name="reset_all_fde">Återställ FDE.AI-inställningar</string>
     <string name="reset_app_list_confirmation_text">Återställ applistan?</string>
     <string name="reset_app_list_confirmation_title">Återställ lista</string>
@@ -263,7 +265,7 @@ Om problemet kvarstår, kontakta utvecklaren i Telegram.</string>
     <string name="reset_downscale_onboot">Återställ efter omstart</string>
     <string name="reset_fde_dialog_text">Återställ alla FDE.AI inställningar?</string>
     <string name="restart_fde_action">Starta om FDE.AI</string>
-    <string name="restart_fde_in_progress">Restarting FDE.AI</string>
+    <string name="restart_fde_in_progress">Startar om FDE.AI</string>
     <string name="rm_fde_lite">Avinstallera FDE.AI lite versionen först!</string>
     <string name="root_mode_descr">Alla funktioner. Kräver root-åtkomst.</string>
     <string name="run_now">Kör</string>
@@ -291,7 +293,7 @@ Om problemet kvarstår, kontakta utvecklaren i Telegram.</string>
     <string name="start_art_dialog_text">Optimering av ART cache kan ta tid, orsaka enhetsfördröjning och överhettning. Vill du fortsätta?</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">Väntar på %1$d sek för att starta FDE.AI…</string>
     <string name="start_toast">Startar FDE.AI…</string>
-    <string name="startup">Startup</string>
+    <string name="startup">Start</string>
     <string name="stop_btn">Stoppa</string>
     <string name="tab_debloat">Ta bort bloatware</string>
     <string name="tab_manage">Hantera</string>
@@ -307,9 +309,32 @@ Om problemet kvarstår, kontakta utvecklaren i Telegram.</string>
     <string name="tile_available">En snabbflik är tillgänglig i statusfältet.</string>
     <string name="tweaks_disabled">Alla tweaks är inaktiverade</string>
     <string name="un_fde_magisk">Avinstallera FDE.AI Magisk modul först!</string>
-    <string name="unavailable">Unavailable</string>
+    <string name="unavailable">Ej tillgängligt</string>
     <string name="update">Uppdatera</string>
     <string name="update_available">Uppdatering tillgänglig!</string>
+    <string name="update_download_enqueue_failed">Det gick inte att köa uppdateringen för nedladdning.</string>
+    <string name="update_download_failed">Nedladdning av uppdatering misslyckades.</string>
+    <string name="update_download_failed_with_reason">Nedladdning av uppdatering misslyckades: %1$s</string>
+    <string name="update_download_file_not_found">Den nedladdade uppdateringsfilen hittades inte.</string>
+    <string name="update_download_no_failure_reason">Systemet angav ingen orsak till felet.</string>
+    <string name="update_download_reason_cannot_resume">Nedladdningen kan inte återupptas.</string>
+    <string name="update_download_reason_code">Systemet rapporterade nedladdningsorsakskoden %1$d.</string>
+    <string name="update_download_reason_device_not_found">Den externa lagringsenheten hittades inte.</string>
+    <string name="update_download_reason_file_already_exists">Målfilen finns redan.</string>
+    <string name="update_download_reason_file_error">Den nedladdade filen kunde inte skrivas.</string>
+    <string name="update_download_reason_http_data_error">Ett nätverksfel avbröt nedladdningen.</string>
+    <string name="update_download_reason_http_status">Servern returnerade HTTP %1$d.</string>
+    <string name="update_download_reason_insufficient_space">Det finns inte tillräckligt med lagringsutrymme för uppdateringen.</string>
+    <string name="update_download_reason_paused_unknown">Nedladdningen är pausad av okänd anledning.</string>
+    <string name="update_download_reason_queued_for_wifi">Nedladdningen väntar på en Wi‑Fi-anslutning.</string>
+    <string name="update_download_reason_too_many_redirects">Nedladdnings-URL:en omdirigerade för många gånger.</string>
+    <string name="update_download_reason_unhandled_http_code">Servern returnerade ett HTTP-svar som inte stöds.</string>
+    <string name="update_download_reason_unknown">Systemet rapporterade ett okänt nedladdningsfel.</string>
+    <string name="update_download_reason_waiting_for_network">Nedladdningen väntar på en nätverksanslutning.</string>
+    <string name="update_download_reason_waiting_to_retry">Nedladdningen väntar på att försöka igen.</string>
+    <string name="update_download_status_unavailable">Nedladdningsstatus är inte tillgänglig.</string>
+    <string name="update_storage_permission_required">Tillåt lagringsåtkomst för att ladda ner uppdateringen och försök sedan igen.</string>
+    <string name="update_unknown_sources_required">Tillåt FDE.AI att installera okända appar och försök sedan igen.</string>
     <string name="updating_toast">Laddar ner uppdatering…</string>
     <string name="vibration">Vibrera en gång</string>
     <string name="vm_cache_tune">VM-cachejustering</string>

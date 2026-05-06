@@ -89,6 +89,7 @@
     <string name="cleaning_title">Очистка</string>
     <string name="clear_selection">Снять выделение</string>
     <string name="close">Закрыть</string>
+    <string name="collapse_profiles">Свернуть профили приложений</string>
     <string name="common_cached">Закешировано</string>
     <string name="common_settings">Настройки</string>
     <string name="common_swap">Подкачка</string>
@@ -142,6 +143,7 @@
     <string name="eula" tools:ignore="MissingTranslation">Соглашение</string>
     <string name="exit_confirmation_text">Вы действительно хотите выйти без сохранения изменений?</string>
     <string name="exit_confirmation_title">Выйти?</string>
+    <string name="expand_profiles">Развернуть профили приложений</string>
     <string name="extraopt_btn">Доп. оптимизация</string>
     <string name="extraopt_desc">Здесь вы можете дополнительно оптимизировать систему, перекомпилировав ART-кэш приложений для максимальной производительности (занимает больше места) и очистив неиспользуемые блоки памяти для повышения производительности.</string>
     <string name="extraopt_do_btn">Запуск</string>
@@ -317,6 +319,29 @@
     <string name="unavailable">Недоступно</string>
     <string name="update">Обновить</string>
     <string name="update_available">Доступно обновление</string>
+    <string name="update_download_enqueue_failed">Не удалось поставить обновление в очередь на загрузку.</string>
+    <string name="update_download_failed">Не удалось загрузить обновление.</string>
+    <string name="update_download_failed_with_reason">Не удалось загрузить обновление: %1$s</string>
+    <string name="update_download_file_not_found">Загруженный файл обновления не найден.</string>
+    <string name="update_download_no_failure_reason">Система не указала причину сбоя.</string>
+    <string name="update_download_reason_cannot_resume">Невозможно продолжить загрузку.</string>
+    <string name="update_download_reason_code">Система сообщила код причины загрузки %1$d.</string>
+    <string name="update_download_reason_device_not_found">Внешнее устройство хранения не найдено.</string>
+    <string name="update_download_reason_file_already_exists">Файл назначения уже существует.</string>
+    <string name="update_download_reason_file_error">Не удалось записать загруженный файл.</string>
+    <string name="update_download_reason_http_data_error">Сетевая ошибка прервала загрузку.</string>
+    <string name="update_download_reason_http_status">Сервер вернул HTTP %1$d.</string>
+    <string name="update_download_reason_insufficient_space">Недостаточно места для установки обновления.</string>
+    <string name="update_download_reason_paused_unknown">Загрузка приостановлена по неизвестной причине.</string>
+    <string name="update_download_reason_queued_for_wifi">Загрузка ожидает подключения к Wi‑Fi.</string>
+    <string name="update_download_reason_too_many_redirects">URL загрузки перенаправлял слишком много раз.</string>
+    <string name="update_download_reason_unhandled_http_code">Сервер вернул неподдерживаемый HTTP-ответ.</string>
+    <string name="update_download_reason_unknown">Система сообщила о неизвестной ошибке загрузки.</string>
+    <string name="update_download_reason_waiting_for_network">Загрузка ожидает сетевого подключения.</string>
+    <string name="update_download_reason_waiting_to_retry">Загрузка ожидает повторной попытки.</string>
+    <string name="update_download_status_unavailable">Статус загрузки недоступен.</string>
+    <string name="update_storage_permission_required">Разрешите доступ к хранилищу для загрузки обновления и попробуйте снова.</string>
+    <string name="update_unknown_sources_required">Разрешите FDE.AI устанавливать приложения из неизвестных источников и попробуйте снова.</string>
     <string name="updating_toast">Скачивание обновления…</string>
     <string name="vibration">Вибрация</string>
     <string name="vm_cache_tune">Настройка кэша VM</string>

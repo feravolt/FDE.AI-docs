@@ -92,6 +92,7 @@
     <string name="cleaning_title">Cleaning</string>
     <string name="clear_selection">Clear selection</string>
     <string name="close">Close</string>
+    <string name="collapse_profiles">Collapse app profiles</string>
     <string name="common_cached" tools:ignore="MissingTranslation">Cached</string>
     <string name="common_settings">Settings</string>
     <string name="common_swap">Swap</string>
@@ -144,6 +145,7 @@
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
     <string name="exit_confirmation_text">Exit without saving changes?</string>
     <string name="exit_confirmation_title">Exit?</string>
+    <string name="expand_profiles">Expand app profiles</string>
     <string name="extraopt_btn">Extra optimization</string>
     <string name="extraopt_desc">Optimize system by recompiling ART cache for performance (uses more internal memory) and trim the file system to improve memory performance.</string>
     <string name="extraopt_do_btn">Start</string>
@@ -338,6 +340,29 @@
     <string name="unavailable">Unavailable</string>
     <string name="update">Update</string>
     <string name="update_available">Update available!</string>
+    <string name="update_download_enqueue_failed">The update could not be queued for download.</string>
+    <string name="update_download_failed">Update download failed.</string>
+    <string name="update_download_failed_with_reason">Update download failed: %1$s</string>
+    <string name="update_download_file_not_found">The downloaded update file could not be found.</string>
+    <string name="update_download_no_failure_reason">The system did not provide a failure reason.</string>
+    <string name="update_download_reason_cannot_resume">The download cannot be resumed.</string>
+    <string name="update_download_reason_code">The system reported download reason code %1$d.</string>
+    <string name="update_download_reason_device_not_found">The external storage device could not be found.</string>
+    <string name="update_download_reason_file_already_exists">The destination file already exists.</string>
+    <string name="update_download_reason_file_error">The downloaded file could not be written.</string>
+    <string name="update_download_reason_http_data_error">A network error interrupted the download.</string>
+    <string name="update_download_reason_http_status">The server returned HTTP %1$d.</string>
+    <string name="update_download_reason_insufficient_space">There is not enough storage space for the update.</string>
+    <string name="update_download_reason_paused_unknown">The download is paused for an unknown reason.</string>
+    <string name="update_download_reason_queued_for_wifi">The download is waiting for a Wi‑Fi connection.</string>
+    <string name="update_download_reason_too_many_redirects">The download URL redirected too many times.</string>
+    <string name="update_download_reason_unhandled_http_code">The server returned an unsupported HTTP response.</string>
+    <string name="update_download_reason_unknown">The system reported an unknown download error.</string>
+    <string name="update_download_reason_waiting_for_network">The download is waiting for a network connection.</string>
+    <string name="update_download_reason_waiting_to_retry">The download is waiting to retry.</string>
+    <string name="update_download_status_unavailable">The download status is unavailable.</string>
+    <string name="update_storage_permission_required">Allow storage access to download the update, then try again.</string>
+    <string name="update_unknown_sources_required">Allow installing unknown apps for FDE.AI, then try again.</string>
     <string name="updating_toast">Downloading update…</string>
     <string name="vibration">Vibrate once</string>
     <string name="vm_cache_tune">VM cache tuning</string>

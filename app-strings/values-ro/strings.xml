@@ -25,7 +25,7 @@
     <string name="ai_state_disabled">Dezactivată</string>
     <string name="ai_state_ready">Munca</string>
     <string name="ai_state_sleeping">Adormire…</string>
-    <string name="aiinfo">AI info</string>
+    <string name="aiinfo">Informații AI</string>
     <string name="already_premium">Aveți deja premium?</string>
     <string name="already_premium_txt">Dacă ați cumpărat deja pachet premium, dar FDE.AI nu îl detectează - urmați acești pași:\n\n
 1. Asigurați-vă că ați descărcat o copie autentică a aplicației FDE.AI din surse oficiale și verificați hashul MD5.\n
@@ -52,7 +52,7 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="auto_psave_desc">Activează automat modul de economisire a energiei când ecranul este oprit.</string>
     <string name="autodatasave_mode">Salvare automată a datelor</string>
     <string name="autopowersave_mode">Forțați economisirea automată a puterii Doze</string>
-    <string name="autostart">Autostart</string>
+    <string name="autostart">Pornire automată</string>
     <string name="autostart_delay_hint">Întârziere setată la %1$ds</string>
     <string name="autostart_overlay">Suprapunere statistici de pornire</string>
     <string name="badge_disabled">Dezactivat</string>
@@ -88,6 +88,7 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="cleaning_title">Curățare</string>
     <string name="clear_selection">Golește selecția</string>
     <string name="close">Inchide</string>
+    <string name="collapse_profiles">Restrânge profilurile aplicației</string>
     <string name="common_cached">Memorat</string>
     <string name="common_settings">Setări</string>
     <string name="common_swap">Schimbare</string>
@@ -134,12 +135,13 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="doze_whitelist">Lista permiselor</string>
     <string name="dynamic_read_ahead">Citire anticipată dinamică</string>
     <string name="emergency_cooldown">Cooldown de urgență</string>
-    <string name="emergency_cooldown_btn">Cooldown</string>
+    <string name="emergency_cooldown_btn">Răcire</string>
     <string name="emergency_cooldown_desc">Când este activat, va reactiva accelerarea, activează modul avion, modul de economisire a energiei, omoară aplicațiile de fundal, dezactivează încărcarea și setează AI la modul de economisire a energiei pentru 100 de secunde, apoi reveniți.</string>
     <string name="enable_ai">Activează AI</string>
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
     <string name="exit_confirmation_text">Ieșiți fără a salva modificările?</string>
     <string name="exit_confirmation_title">Ieşi?</string>
+    <string name="expand_profiles">Extinde profilurile aplicației</string>
     <string name="extraopt_btn">Optimizare suplimentară</string>
     <string name="extraopt_desc">Optimizați sistemul prin recompilarea ART cache pentru performanțe (utilizează mai mult memorie internă) și tăiați sistemul de fișiere pentru a îmbunătăți performanța memoriei.</string>
     <string name="extraopt_do_btn">Pornire</string>
@@ -150,19 +152,19 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="extraopt_scheduled_subtitle">Următoarea rulare la %1$s:%2$s</string>
     <string name="extraopt_warning">Aceasta nu este o optimizare fără sistem. Poate întrerupe sistemul de pe unele ROM-uri personalizate (necesită curățarea geocutiei ART în recuperare). Se salvează datele înainte de a le folosi.</string>
     <string name="fde_is_active">AI activ</string>
-    <string name="fde_is_inactive">AI inactive</string>
+    <string name="fde_is_inactive">AI inactiv</string>
     <string name="fde_on_reset_toast">Toate datele FDE.AI vor fi resetate. Aplicația se va închide.</string>
     <string name="filter_all_apps">Toate</string>
     <string name="filter_apps">Filtrează aplicații</string>
     <string name="filter_system_apps">Sistem</string>
     <string name="filter_user_apps">Utilizator</string>
-    <string name="finstall">Installing FDE.AI…</string>
+    <string name="finstall">Se instalează FDE.AI…</string>
     <string name="force_doze_enabled">Forțat Doze activat</string>
     <string name="force_doze_trigger_count">Forțați numărul declanșatorului Doze</string>
     <string name="fps_checkbox">Monitorizare hardware &amp; FPS</string>
     <string name="fps_meter_desc">FPS, CPU, GPU, RAM, și statistici de utilizare a energiei în timp real.</string>
     <string name="fs_cache_tune">Reglare cache FS</string>
-    <string name="get_premium">Get FDE.AI Premium</string>
+    <string name="get_premium">Obține FDE.AI Premium</string>
     <string name="go_back">Mergi înapoi</string>
     <string name="gpu_turbo_support">Compatibilitate GPU Turbo</string>
     <string name="gpu_turbo_trigger_count">Număr de declanșări GPU Turbo</string>
@@ -236,7 +238,7 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
     <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
     <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_opacity_main">Overlay opacity</string>
+    <string name="overlay_opacity_main">Opacitatea suprapunerii</string>
     <string name="overlay_power_x">Putere: %1$s mAh</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Scara de suprapunere</string>
@@ -256,7 +258,7 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="profiles_descr_txt">Profilurile personalizate se aplică setările FDE.AI atunci când o aplicație rulează și revine la închiderea ei.</string>
     <string name="rate_app">Evaluează FDE.AI</string>
     <string name="releases">Actualizări</string>
-    <string name="reset">Reset</string>
+    <string name="reset">Resetare</string>
     <string name="reset_all_fde">Resetează setările FDE.AI</string>
     <string name="reset_app_list_confirmation_text">Resetați lista de aplicații?</string>
     <string name="reset_app_list_confirmation_title">Resetare listă</string>
@@ -264,7 +266,7 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="reset_downscale_onboot">Resetare după repornire</string>
     <string name="reset_fde_dialog_text">Resetați toate setările FDE.AI?</string>
     <string name="restart_fde_action">Repornește FDE.AI</string>
-    <string name="restart_fde_in_progress">Restarting FDE.AI</string>
+    <string name="restart_fde_in_progress">Se repornește FDE.AI</string>
     <string name="rm_fde_lite">Dezinstalează mai întâi versiunea FDE.AI lite!</string>
     <string name="root_mode_descr">Toate caracteristicile. Necesită acces root.</string>
     <string name="run_now">Rulează</string>
@@ -292,7 +294,7 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="start_art_dialog_text">Optimizarea geocutiei ART poate dura timp, poate cauza decalajul şi supraîncălzirea dispozitivului. Continuaţi?</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">Se așteaptă %1$d sec pentru a începe FDE.AI…</string>
     <string name="start_toast">Pornire FDE.AI…</string>
-    <string name="startup">Startup</string>
+    <string name="startup">Pornire</string>
     <string name="stop_btn">Oprește</string>
     <string name="tab_debloat">Eliminare bloatware</string>
     <string name="tab_manage">Gestionează</string>
@@ -308,9 +310,32 @@ Dacă problema persistă, contactați dezvoltatorul în Telegram.</string>
     <string name="tile_available">Un „quick tile” este disponibil în bara de stare.</string>
     <string name="tweaks_disabled">Toate modificările sunt dezactivate</string>
     <string name="un_fde_magisk">Dezinstalează mai întâi modulul FDE.AI Magisk!</string>
-    <string name="unavailable">Unavailable</string>
+    <string name="unavailable">Indisponibil</string>
     <string name="update">Actualizare</string>
     <string name="update_available">Actualizare disponibilă!</string>
+    <string name="update_download_enqueue_failed">Actualizarea nu a putut fi pusă în coada de descărcare.</string>
+    <string name="update_download_failed">Descărcarea actualizării a eșuat.</string>
+    <string name="update_download_failed_with_reason">Descărcarea actualizării a eșuat: %1$s</string>
+    <string name="update_download_file_not_found">Fișierul de actualizare descărcat nu a fost găsit.</string>
+    <string name="update_download_no_failure_reason">Sistemul nu a oferit un motiv al eșecului.</string>
+    <string name="update_download_reason_cannot_resume">Descărcarea nu poate fi reluată.</string>
+    <string name="update_download_reason_code">Sistemul a raportat codul motivului descărcării %1$d.</string>
+    <string name="update_download_reason_device_not_found">Dispozitivul de stocare extern nu a fost găsit.</string>
+    <string name="update_download_reason_file_already_exists">Fișierul de destinație există deja.</string>
+    <string name="update_download_reason_file_error">Fișierul descărcat nu a putut fi scris.</string>
+    <string name="update_download_reason_http_data_error">O eroare de rețea a întrerupt descărcarea.</string>
+    <string name="update_download_reason_http_status">Serverul a returnat HTTP %1$d.</string>
+    <string name="update_download_reason_insufficient_space">Nu există suficient spațiu de stocare pentru actualizare.</string>
+    <string name="update_download_reason_paused_unknown">Descărcarea este întreruptă dintr-un motiv necunoscut.</string>
+    <string name="update_download_reason_queued_for_wifi">Descărcarea așteaptă o conexiune Wi‑Fi.</string>
+    <string name="update_download_reason_too_many_redirects">URL-ul de descărcare a redirecționat de prea multe ori.</string>
+    <string name="update_download_reason_unhandled_http_code">Serverul a returnat un răspuns HTTP nesuportat.</string>
+    <string name="update_download_reason_unknown">Sistemul a raportat o eroare de descărcare necunoscută.</string>
+    <string name="update_download_reason_waiting_for_network">Descărcarea așteaptă o conexiune de rețea.</string>
+    <string name="update_download_reason_waiting_to_retry">Descărcarea așteaptă pentru a încerca din nou.</string>
+    <string name="update_download_status_unavailable">Starea descărcării nu este disponibilă.</string>
+    <string name="update_storage_permission_required">Permite accesul la stocare pentru a descărca actualizarea, apoi încearcă din nou.</string>
+    <string name="update_unknown_sources_required">Permite FDE.AI să instaleze aplicații necunoscute, apoi încearcă din nou.</string>
     <string name="updating_toast">Descărcare actualizare…</string>
     <string name="vibration">Vibrează o dată</string>
     <string name="vm_cache_tune">Reglarea memoriei cache a VM</string>

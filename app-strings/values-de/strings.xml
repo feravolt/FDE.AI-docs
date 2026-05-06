@@ -25,7 +25,7 @@
     <string name="ai_state_disabled">Deaktiviert</string>
     <string name="ai_state_ready">Arbeiten</string>
     <string name="ai_state_sleeping">Schlafen…</string>
-    <string name="aiinfo">AI info</string>
+    <string name="aiinfo">KI-Info</string>
     <string name="already_premium">Besitzen Sie bereits Premium?</string>
     <string name="already_premium_txt">Wenn Sie bereits ein Premium-Paket erworben haben, FDE.AI es aber nicht erkennt, befolgen Sie diese Schritte:\n\n
 1. Stellen Sie sicher, dass Sie die Originalversion der FDE.AI-App von offiziellen Quellen heruntergeladen haben und überprüfen Sie den MD5-Hash.\n
@@ -88,6 +88,7 @@ Wenn das Problem weiterhin besteht, wenden Sie sich per Telegram an den Entwickl
     <string name="cleaning_title">Reinigung</string>
     <string name="clear_selection">Auswahl aufheben</string>
     <string name="close">Schließen</string>
+    <string name="collapse_profiles">App-Profile einklappen</string>
     <string name="common_cached">Zwischengespeichert</string>
     <string name="common_settings">Einstellungen</string>
     <string name="common_swap">Auslagerung</string>
@@ -118,7 +119,7 @@ Wenn das Problem weiterhin besteht, wenden Sie sich per Telegram an den Entwickl
     <string name="disable_logs">Protokolle deaktivieren</string>
     <string name="disable_logs_desc">Wählen Sie diese Option aus, um alle Protokolle und Statistiken (außer "logcat") zu deaktivieren und die Logcat-Puffergröße auf 128 KB zu reduzieren.</string>
     <string name="dontkillmyapp_text">Sie verwenden den Shizuku-Modus. Damit die App weiterhin einwandfrei funktioniert, deaktivieren Sie bitte die automatische Beenden-Funktion für Shizuku und FDE.AI. Möchten Sie sehen, wie das geht?</string>
-    <string name="downscale_btn">Adaptive Downscale</string>
+    <string name="downscale_btn">Adaptive Auflösungsreduzierung</string>
     <string name="downscale_desc">Niedrige Bildschirmauflösung, um die GPU-Leistung zu steigern und Batterie zu sparen, mit geringerem Verlust an Bildqualität. Nicht empfohlen zu gehen unter die Hälfte der Bildschirmbreite auf benutzerdefinierten ROMs (MIUI, EMUI, etc.) um UI-Abstürze zu vermeiden.</string>
     <string name="downscale_notification" tools:ignore="PluralsCandidate">Drücken Sie OK, um die neue Auflösung zu bestätigen, oder es wird in %1$d Sekunden zurückgesetzt.</string>
     <string name="downscale_preset_balanced">Niedrige Auflösung</string>
@@ -139,9 +140,10 @@ Wenn das Problem weiterhin besteht, wenden Sie sich per Telegram an den Entwickl
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
     <string name="exit_confirmation_text">Beenden, ohne Änderungen zu speichern?</string>
     <string name="exit_confirmation_title">Beenden?</string>
+    <string name="expand_profiles">App-Profile ausklappen</string>
     <string name="extraopt_btn">Zusätzliche Optimierung</string>
     <string name="extraopt_desc">Optimieren Sie das System durch Neukompilieren des ART-Caches für Leistung (verwendet mehr internen Speicher) und schneiden Sie das Dateisystem, um die Speicherleistung zu verbessern.</string>
-    <string name="extraopt_do_btn">Start</string>
+    <string name="extraopt_do_btn">Starten</string>
     <string name="extraopt_only_when_charging_desc">Geplanten Lauf überspringen, wenn das Gerät nicht aufgeladen wird</string>
     <string name="extraopt_only_when_charging_title">Nur beim Laden ausführen</string>
     <string name="extraopt_reset_btn">Optimierung zurücksetzen</string>
@@ -149,26 +151,26 @@ Wenn das Problem weiterhin besteht, wenden Sie sich per Telegram an den Entwickl
     <string name="extraopt_scheduled_subtitle">Nächster Lauf um %1$s:%2$s</string>
     <string name="extraopt_warning">Dies ist keine systemlose Optimierung. Kann das System auf einigen benutzerdefinierten ROMs beschädigen (erfordert das Löschen des ART-Caches in der Recovery). Sichern Sie Ihre Daten vor der Verwendung.</string>
     <string name="fde_is_active">AI aktiv</string>
-    <string name="fde_is_inactive">AI inactive</string>
+    <string name="fde_is_inactive">KI inaktiv</string>
     <string name="fde_on_reset_toast">Alle FDE.AI Daten werden zurückgesetzt. Die App wird geschlossen.</string>
     <string name="filter_all_apps">Alle</string>
     <string name="filter_apps">Apps filtern</string>
     <string name="filter_system_apps">System</string>
     <string name="filter_user_apps">Benutzer</string>
-    <string name="finstall">Installing FDE.AI…</string>
+    <string name="finstall">FDE.AI wird installiert…</string>
     <string name="force_doze_enabled">Force Doze aktiviert</string>
     <string name="force_doze_trigger_count">Anzahl der Force-Doze-Trigger</string>
     <string name="fps_checkbox">Hardware-Überwachung &amp; FPS</string>
     <string name="fps_meter_desc">Realtime FPS, CPU, GPU, RAM und Energieverbrauchsstatistiken.</string>
     <string name="fs_cache_tune">FS-Cacheoptimierung</string>
-    <string name="get_premium">Get FDE.AI Premium</string>
+    <string name="get_premium">FDE.AI Premium erhalten</string>
     <string name="go_back">Zurück</string>
     <string name="gpu_turbo_support">GPU-Turbo-Unterstützung</string>
     <string name="gpu_turbo_trigger_count">Anzahl der GPU-Turbo-Trigger</string>
     <string name="grantit">Möglicherweise müssen Sie im Berechtigungsmanager Ihres Betriebs manuell die Berechtigung zum Autostart erteilen, damit FDE.AI nach dem Starten des Betriebs starten kann.</string>
     <string name="greenbattery_desc">Verlängern Sie die Batterielebensdauer durch Begrenzung des maximalen Ladestandards. Haltet das Laden an der festgelegten Schwelle ab und startet 6 Prozent darunter.</string>
     <string name="greenbattery_title">Batterie</string>
-    <string name="hour">h.</string>
+    <string name="hour">Std.</string>
     <string name="hwinfo">Gerät</string>
     <string name="join_forum">XDA</string>
     <string name="just_check">Überprüfen</string>
@@ -193,7 +195,7 @@ Wenn das Problem weiterhin besteht, wenden Sie sich per Telegram an den Entwickl
     <string name="memory_boost_support">Speicher-Boost</string>
     <string name="menu_dashboard">Zuhause</string>
     <string name="migration_error">Während der Datenmigration ist ein unerwarteter Fehler aufgetreten. Daten werden gelöscht.</string>
-    <string name="min">min.</string>
+    <string name="min">Min.</string>
     <string name="monitoring_floating_window">Überwachung</string>
     <string name="more_info">Mehr Info</string>
     <string name="multi_core_power_saving_control">Multi-Core-CPU-Energiesparen</string>
@@ -224,7 +226,7 @@ Wenn das Problem weiterhin besteht, wenden Sie sich per Telegram an den Entwickl
     <string name="onboarding_presets">Vorlagen</string>
     <string name="onboarding_see_full_eula">Zeige volle EULA</string>
     <string name="onboarding_select_mode_title">Modus auswählen</string>
-    <string name="onboarding_setup">Setup</string>
+    <string name="onboarding_setup">Einrichtung</string>
     <string name="onboarding_setup_message">Wählen Sie aus, welche Optimierungen angewendet werden sollen. Sie können die Einstellungen nach dem Setup ändern.</string>
     <string name="open_os_dev_settings">Android-Entwickler-Einstellungen öffnen</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Durchschnitt: %1$s FPS</string>
@@ -235,7 +237,7 @@ Wenn das Problem weiterhin besteht, wenden Sie sich per Telegram an den Entwickl
     <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
     <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
     <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_opacity_main">Overlay opacity</string>
+    <string name="overlay_opacity_main">Overlay-Deckkraft</string>
     <string name="overlay_power_x">Stärke: %1$s mAh</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Overlay-Skala</string>
@@ -255,7 +257,7 @@ Wenn das Problem weiterhin besteht, wenden Sie sich per Telegram an den Entwickl
     <string name="profiles_descr_txt">Benutzerdefinierte Profile übernehmen die FDE.AI-Einstellungen, wenn eine App ausgeführt und beim Schließen zurückgesetzt wird.</string>
     <string name="rate_app">FDE.AI bewerten</string>
     <string name="releases">Updates</string>
-    <string name="reset">Reset</string>
+    <string name="reset">Zurücksetzen</string>
     <string name="reset_all_fde">FDE.AI Einstellungen zurücksetzen</string>
     <string name="reset_app_list_confirmation_text">App-Liste zurücksetzen?</string>
     <string name="reset_app_list_confirmation_title">Liste zurücksetzen</string>
@@ -263,7 +265,7 @@ Wenn das Problem weiterhin besteht, wenden Sie sich per Telegram an den Entwickl
     <string name="reset_downscale_onboot">Nach Neustart zurücksetzen</string>
     <string name="reset_fde_dialog_text">Alle FDE.AI-Einstellungen zurücksetzen?</string>
     <string name="restart_fde_action">FDE.AI neu starten</string>
-    <string name="restart_fde_in_progress">Restarting FDE.AI</string>
+    <string name="restart_fde_in_progress">FDE.AI wird neu gestartet</string>
     <string name="rm_fde_lite">Deinstallieren Sie zuerst FDE.AI lite Version!</string>
     <string name="root_mode_descr">Alle Funktionen. Root-Zugriff erforderlich.</string>
     <string name="run_now">Ausführen</string>
@@ -291,7 +293,7 @@ Wenn das Problem weiterhin besteht, wenden Sie sich per Telegram an den Entwickl
     <string name="start_art_dialog_text">Das Optimieren des ART-Caches kann Zeit dauern, Geräteverzögerung und Überhitzung verursachen. Fortfahren?</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">Warte %1$d sec um FDE.AI… zu starten</string>
     <string name="start_toast">FDE.AI… starten</string>
-    <string name="startup">Startup</string>
+    <string name="startup">Start</string>
     <string name="stop_btn">Stoppen</string>
     <string name="tab_debloat">Bloatware entfernen</string>
     <string name="tab_manage">Verwalten</string>
@@ -307,9 +309,32 @@ Wenn das Problem weiterhin besteht, wenden Sie sich per Telegram an den Entwickl
     <string name="tile_available">Eine Schnellkachel ist in der Statusleiste verfügbar.</string>
     <string name="tweaks_disabled">Alle Tweaks sind deaktiviert</string>
     <string name="un_fde_magisk">Deinstalliere zuerst das FDE.AI Magisk Modul!</string>
-    <string name="unavailable">Unavailable</string>
+    <string name="unavailable">Nicht verfügbar</string>
     <string name="update">Aktualisieren</string>
     <string name="update_available">Update verfügbar!</string>
+    <string name="update_download_enqueue_failed">Das Update konnte nicht zum Download vorgemerkt werden.</string>
+    <string name="update_download_failed">Update-Download fehlgeschlagen.</string>
+    <string name="update_download_failed_with_reason">Update-Download fehlgeschlagen: %1$s</string>
+    <string name="update_download_file_not_found">Die heruntergeladene Update-Datei wurde nicht gefunden.</string>
+    <string name="update_download_no_failure_reason">Das System hat keinen Fehlergrund angegeben.</string>
+    <string name="update_download_reason_cannot_resume">Der Download kann nicht fortgesetzt werden.</string>
+    <string name="update_download_reason_code">Das System meldete den Download-Grundcode %1$d.</string>
+    <string name="update_download_reason_device_not_found">Das externe Speichergerät wurde nicht gefunden.</string>
+    <string name="update_download_reason_file_already_exists">Die Zieldatei existiert bereits.</string>
+    <string name="update_download_reason_file_error">Die heruntergeladene Datei konnte nicht geschrieben werden.</string>
+    <string name="update_download_reason_http_data_error">Ein Netzwerkfehler hat den Download unterbrochen.</string>
+    <string name="update_download_reason_http_status">Der Server gab HTTP %1$d zurück.</string>
+    <string name="update_download_reason_insufficient_space">Es ist nicht genügend Speicherplatz für das Update vorhanden.</string>
+    <string name="update_download_reason_paused_unknown">Der Download ist aus unbekanntem Grund pausiert.</string>
+    <string name="update_download_reason_queued_for_wifi">Der Download wartet auf eine Wi‑Fi-Verbindung.</string>
+    <string name="update_download_reason_too_many_redirects">Die Download-URL hat zu oft weitergeleitet.</string>
+    <string name="update_download_reason_unhandled_http_code">Der Server gab eine nicht unterstützte HTTP-Antwort zurück.</string>
+    <string name="update_download_reason_unknown">Das System meldete einen unbekannten Downloadfehler.</string>
+    <string name="update_download_reason_waiting_for_network">Der Download wartet auf eine Netzwerkverbindung.</string>
+    <string name="update_download_reason_waiting_to_retry">Der Download wartet auf einen erneuten Versuch.</string>
+    <string name="update_download_status_unavailable">Der Downloadstatus ist nicht verfügbar.</string>
+    <string name="update_storage_permission_required">Erlaube den Speicherzugriff, um das Update herunterzuladen, und versuche es dann erneut.</string>
+    <string name="update_unknown_sources_required">Erlaube FDE.AI die Installation unbekannter Apps und versuche es dann erneut.</string>
     <string name="updating_toast">Update wird heruntergeladen…</string>
     <string name="vibration">Einmal vibrieren</string>
     <string name="vm_cache_tune">VM-Cacheoptimierung</string>

@@ -88,6 +88,7 @@ Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển tr
     <string name="cleaning_title">Dọn dẹp</string>
     <string name="clear_selection">Xóa lựa chọn</string>
     <string name="close">Đóng</string>
+    <string name="collapse_profiles">Thu gọn hồ sơ ứng dụng</string>
     <string name="common_cached">Bộ nhớ đệm</string>
     <string name="common_settings">Cài đặt</string>
     <string name="common_swap">Hoán đổi</string>
@@ -138,6 +139,7 @@ Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển tr
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
     <string name="exit_confirmation_text">Thoát mà không lưu thay đổi?</string>
     <string name="exit_confirmation_title">Xác nhận thoát?</string>
+    <string name="expand_profiles">Mở rộng hồ sơ ứng dụng</string>
     <string name="extraopt_btn">Tối ưu hóa tăng cường</string>
     <string name="extraopt_desc">Tối ưu hệ thống bằng cách biên dịch lại bộ nhớ đệm ART để tăng hiệu năng (sử dụng nhiều bộ nhớ trong hơn) và tinh giản hệ thống tệp để cải thiện hiệu năng bộ nhớ.</string>
     <string name="extraopt_do_btn">Khởi động</string>
@@ -309,6 +311,29 @@ Nếu sự cố vẫn tiếp diễn, hãy liên hệ với nhà phát triển tr
     <string name="unavailable">Không khả dụng</string>
     <string name="update">Cập nhật</string>
     <string name="update_available">Có bản cập nhật mới!</string>
+    <string name="update_download_enqueue_failed">Không thể đưa bản cập nhật vào hàng đợi tải xuống.</string>
+    <string name="update_download_failed">Tải bản cập nhật thất bại.</string>
+    <string name="update_download_failed_with_reason">Tải bản cập nhật thất bại: %1$s</string>
+    <string name="update_download_file_not_found">Không tìm thấy tệp cập nhật đã tải xuống.</string>
+    <string name="update_download_no_failure_reason">Hệ thống không cung cấp lý do lỗi.</string>
+    <string name="update_download_reason_cannot_resume">Không thể tiếp tục tải xuống.</string>
+    <string name="update_download_reason_code">Hệ thống báo mã lý do tải xuống %1$d.</string>
+    <string name="update_download_reason_device_not_found">Không tìm thấy thiết bị lưu trữ ngoài.</string>
+    <string name="update_download_reason_file_already_exists">Tệp đích đã tồn tại.</string>
+    <string name="update_download_reason_file_error">Không thể ghi tệp đã tải xuống.</string>
+    <string name="update_download_reason_http_data_error">Lỗi mạng đã làm gián đoạn việc tải xuống.</string>
+    <string name="update_download_reason_http_status">Máy chủ trả về HTTP %1$d.</string>
+    <string name="update_download_reason_insufficient_space">Không đủ dung lượng lưu trữ cho bản cập nhật.</string>
+    <string name="update_download_reason_paused_unknown">Việc tải xuống bị tạm dừng vì lý do không xác định.</string>
+    <string name="update_download_reason_queued_for_wifi">Việc tải xuống đang chờ kết nối Wi‑Fi.</string>
+    <string name="update_download_reason_too_many_redirects">URL tải xuống đã chuyển hướng quá nhiều lần.</string>
+    <string name="update_download_reason_unhandled_http_code">Máy chủ trả về phản hồi HTTP không được hỗ trợ.</string>
+    <string name="update_download_reason_unknown">Hệ thống báo lỗi tải xuống không xác định.</string>
+    <string name="update_download_reason_waiting_for_network">Việc tải xuống đang chờ kết nối mạng.</string>
+    <string name="update_download_reason_waiting_to_retry">Việc tải xuống đang chờ để thử lại.</string>
+    <string name="update_download_status_unavailable">Trạng thái tải xuống không khả dụng.</string>
+    <string name="update_storage_permission_required">Hãy cho phép truy cập bộ nhớ để tải bản cập nhật, rồi thử lại.</string>
+    <string name="update_unknown_sources_required">Hãy cho phép FDE.AI cài đặt ứng dụng không xác định, rồi thử lại.</string>
     <string name="updating_toast">Đang tải bản cập nhật…</string>
     <string name="vibration">Rung một lần</string>
     <string name="vm_cache_tune">Điều chỉnh bộ đệm VM</string>

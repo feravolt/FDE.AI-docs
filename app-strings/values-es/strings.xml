@@ -65,7 +65,7 @@ Si el problema persiste, contacta con el desarrollador en Telegram.</string>
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Temperatura: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Voltaje: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Desgaste: %1$s</string>
-    <string name="burnit">Throttling</string>
+    <string name="burnit">Limitación de rendimiento</string>
     <string name="burnit_btn">Desactivar la limitación</string>
     <string name="bypassch_desc">Limita la corriente del cargador durante la ejecución de procesos pesados para que coincida con el uso del dispositivo, reduciendo la carga y el calentamiento de la batería.</string>
     <string name="bypassch_title">Bypass de carga</string>
@@ -88,6 +88,7 @@ Si el problema persiste, contacta con el desarrollador en Telegram.</string>
     <string name="cleaning_title">Limpieza</string>
     <string name="clear_selection">Borrar selección</string>
     <string name="close">Cerrar</string>
+    <string name="collapse_profiles">Contraer perfiles de aplicación</string>
     <string name="common_cached">En caché</string>
     <string name="common_settings">Configuración</string>
     <string name="common_swap">Intercambio</string>
@@ -139,6 +140,7 @@ Si el problema persiste, contacta con el desarrollador en Telegram.</string>
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
     <string name="exit_confirmation_text">¿Salir sin guardar los cambios?</string>
     <string name="exit_confirmation_title">¿Salir?</string>
+    <string name="expand_profiles">Expandir perfiles de aplicación</string>
     <string name="extraopt_btn">Optimización adicional</string>
     <string name="extraopt_desc">Optimizar el sistema recompilando la caché ART para mejorar el rendimiento (utiliza más memoria interna) y recortar el sistema de archivos para mejorar el rendimiento de la memoria.</string>
     <string name="extraopt_do_btn">Empezar</string>
@@ -310,6 +312,29 @@ Si el problema persiste, contacta con el desarrollador en Telegram.</string>
     <string name="unavailable">No disponible</string>
     <string name="update">Actualizar</string>
     <string name="update_available">¡Actualización disponible!</string>
+    <string name="update_download_enqueue_failed">No se pudo poner la actualización en cola para descargarla.</string>
+    <string name="update_download_failed">La descarga de la actualización falló.</string>
+    <string name="update_download_failed_with_reason">La descarga de la actualización falló: %1$s</string>
+    <string name="update_download_file_not_found">No se encontró el archivo de actualización descargado.</string>
+    <string name="update_download_no_failure_reason">El sistema no proporcionó un motivo del fallo.</string>
+    <string name="update_download_reason_cannot_resume">No se puede reanudar la descarga.</string>
+    <string name="update_download_reason_code">El sistema informó el código de motivo de descarga %1$d.</string>
+    <string name="update_download_reason_device_not_found">No se encontró el dispositivo de almacenamiento externo.</string>
+    <string name="update_download_reason_file_already_exists">El archivo de destino ya existe.</string>
+    <string name="update_download_reason_file_error">No se pudo escribir el archivo descargado.</string>
+    <string name="update_download_reason_http_data_error">Un error de red interrumpió la descarga.</string>
+    <string name="update_download_reason_http_status">El servidor devolvió HTTP %1$d.</string>
+    <string name="update_download_reason_insufficient_space">No hay suficiente espacio de almacenamiento para la actualización.</string>
+    <string name="update_download_reason_paused_unknown">La descarga está en pausa por un motivo desconocido.</string>
+    <string name="update_download_reason_queued_for_wifi">La descarga está esperando una conexión Wi‑Fi.</string>
+    <string name="update_download_reason_too_many_redirects">La URL de descarga redirigió demasiadas veces.</string>
+    <string name="update_download_reason_unhandled_http_code">El servidor devolvió una respuesta HTTP no compatible.</string>
+    <string name="update_download_reason_unknown">El sistema informó un error de descarga desconocido.</string>
+    <string name="update_download_reason_waiting_for_network">La descarga está esperando una conexión de red.</string>
+    <string name="update_download_reason_waiting_to_retry">La descarga está esperando para reintentarlo.</string>
+    <string name="update_download_status_unavailable">El estado de la descarga no está disponible.</string>
+    <string name="update_storage_permission_required">Permite el acceso al almacenamiento para descargar la actualización y vuelve a intentarlo.</string>
+    <string name="update_unknown_sources_required">Permite que FDE.AI instale aplicaciones desconocidas y vuelve a intentarlo.</string>
     <string name="updating_toast">Descargando actualización…</string>
     <string name="vibration">Vibrar una vez</string>
     <string name="vm_cache_tune">Ajuste de la memoria caché de VM</string>

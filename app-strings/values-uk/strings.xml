@@ -25,7 +25,7 @@
     <string name="ai_state_disabled">Деактивовано</string>
     <string name="ai_state_ready">Працюю</string>
     <string name="ai_state_sleeping">В режимі сну…</string>
-    <string name="aiinfo">AI info</string>
+    <string name="aiinfo">Інфо про ШІ</string>
     <string name="already_premium">Вже маєте преміум?</string>
     <string name="already_premium_txt">"Якщо ви вже купили пакет преміум-класу, але FDE.AI не виявляє його, виконайте такі дії:
 
@@ -54,7 +54,7 @@
     <string name="auto_psave_desc">Автоматичне увімкнення режиму енергозбереження при вимкненому екрані.</string>
     <string name="autodatasave_mode">Автоматична економія даних</string>
     <string name="autopowersave_mode">Автоматичне енергозбереження</string>
-    <string name="autostart">Autostart</string>
+    <string name="autostart">Автозапуск</string>
     <string name="autostart_delay_hint">Затримка запуску %1$ds</string>
     <string name="autostart_overlay">Запуск плаваючого вікна статистики</string>
     <string name="badge_disabled">Вимкнено</string>
@@ -90,6 +90,7 @@
     <string name="cleaning_title">Очищення</string>
     <string name="clear_selection">Скасувати вибір</string>
     <string name="close">Закрити</string>
+    <string name="collapse_profiles">Згорнути профілі додатків</string>
     <string name="common_cached">Кешовано</string>
     <string name="common_settings">Налаштування</string>
     <string name="common_swap">Своп</string>
@@ -143,6 +144,7 @@
     <string name="eula">Згода</string>
     <string name="exit_confirmation_text">Вийти без збереження змін?</string>
     <string name="exit_confirmation_title">Вийти?</string>
+    <string name="expand_profiles">Розгорнути профілі додатків</string>
     <string name="extraopt_btn">Додаткова оптимізація</string>
     <string name="extraopt_desc">Тут ви можете додатково оптимізувати систему, перекомпілювавши ART-кеш додатків для максимальної продуктивності (займає більше місця) і очистивши невикористовувані блоки пам\'яті для підвищення продуктивності.</string>
     <string name="extraopt_do_btn">Старт</string>
@@ -260,7 +262,7 @@
     <string name="profiles_descr_txt">Налаштовувані профілі використовуються для зміни налаштувань FDE.AI підчас роботи додатка і їх скидання після закриття.</string>
     <string name="rate_app">Оцінити FDE.AI</string>
     <string name="releases">Оновлення</string>
-    <string name="reset">Reset</string>
+    <string name="reset">Скинути</string>
     <string name="reset_all_fde">Скинути налаштування FDE.AI</string>
     <string name="reset_app_list_confirmation_text">Скинути список застосунків?</string>
     <string name="reset_app_list_confirmation_title">Скинути список</string>
@@ -268,7 +270,7 @@
     <string name="reset_downscale_onboot">Скинути після перезавантаження</string>
     <string name="reset_fde_dialog_text">Скинути всі налаштування FDE.AI?</string>
     <string name="restart_fde_action">Перезапустити AI</string>
-    <string name="restart_fde_in_progress">Restarting FDE.AI</string>
+    <string name="restart_fde_in_progress">Перезапуск FDE.AI</string>
     <string name="rm_fde_lite">Спочатку видалити версію FDE.AI lit!</string>
     <string name="root_mode_descr">Усі функції. Потрібен доступ root.</string>
     <string name="run_now">Запустити</string>
@@ -315,6 +317,29 @@
     <string name="unavailable">Недоступно</string>
     <string name="update">Оновити</string>
     <string name="update_available">Доступне оновлення!</string>
+    <string name="update_download_enqueue_failed">Не вдалося поставити оновлення в чергу на завантаження.</string>
+    <string name="update_download_failed">Не вдалося завантажити оновлення.</string>
+    <string name="update_download_failed_with_reason">Не вдалося завантажити оновлення: %1$s</string>
+    <string name="update_download_file_not_found">Завантажений файл оновлення не знайдено.</string>
+    <string name="update_download_no_failure_reason">Система не вказала причину збою.</string>
+    <string name="update_download_reason_cannot_resume">Неможливо відновити завантаження.</string>
+    <string name="update_download_reason_code">Система повідомила код причини завантаження %1$d.</string>
+    <string name="update_download_reason_device_not_found">Зовнішній пристрій зберігання не знайдено.</string>
+    <string name="update_download_reason_file_already_exists">Цільовий файл уже існує.</string>
+    <string name="update_download_reason_file_error">Не вдалося записати завантажений файл.</string>
+    <string name="update_download_reason_http_data_error">Мережева помилка перервала завантаження.</string>
+    <string name="update_download_reason_http_status">Сервер повернув HTTP %1$d.</string>
+    <string name="update_download_reason_insufficient_space">Недостатньо місця для оновлення.</string>
+    <string name="update_download_reason_paused_unknown">Завантаження призупинено з невідомої причини.</string>
+    <string name="update_download_reason_queued_for_wifi">Завантаження очікує на підключення до Wi‑Fi.</string>
+    <string name="update_download_reason_too_many_redirects">URL завантаження перенаправляв занадто багато разів.</string>
+    <string name="update_download_reason_unhandled_http_code">Сервер повернув непідтримувану HTTP-відповідь.</string>
+    <string name="update_download_reason_unknown">Система повідомила про невідому помилку завантаження.</string>
+    <string name="update_download_reason_waiting_for_network">Завантаження очікує на мережеве підключення.</string>
+    <string name="update_download_reason_waiting_to_retry">Завантаження очікує на повторну спробу.</string>
+    <string name="update_download_status_unavailable">Статус завантаження недоступний.</string>
+    <string name="update_storage_permission_required">Дозвольте доступ до сховища для завантаження оновлення, а потім спробуйте ще раз.</string>
+    <string name="update_unknown_sources_required">Дозвольте FDE.AI встановлювати невідомі застосунки, а потім спробуйте ще раз.</string>
     <string name="updating_toast">Завантажується оновлення…</string>
     <string name="vibration">Вібрація</string>
     <string name="vm_cache_tune">Налаштування кешу віртуальної машини</string>

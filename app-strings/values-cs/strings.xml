@@ -25,7 +25,7 @@
     <string name="ai_state_disabled">Deaktivováno</string>
     <string name="ai_state_ready">Práce</string>
     <string name="ai_state_sleeping">Spí…</string>
-    <string name="aiinfo">AI info</string>
+    <string name="aiinfo">Informace o AI</string>
     <string name="already_premium">Máte již prémii?</string>
     <string name="already_premium_txt">Pokud jste si již zakoupili prémiový balíček, ale FDE.AI jej nezjistil, postupujte takto:\n\n
 1. Ujistěte se, že jste si stáhli pravou kopii aplikace FDE.AI z oficiálních zdrojů a zkontrolujte hash MD5.\n
@@ -52,7 +52,7 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="auto_psave_desc">Automaticky povolit úsporný režim při vypnuté obrazovce.</string>
     <string name="autodatasave_mode">Automatické ukládání dat</string>
     <string name="autopowersave_mode">Automatická úspora energie</string>
-    <string name="autostart">Autostart</string>
+    <string name="autostart">Automatické spuštění</string>
     <string name="autostart_delay_hint">Zpoždění nastaveno na %1$ds</string>
     <string name="autostart_overlay">Spustit překrytí statistiky</string>
     <string name="badge_disabled">Zakázáno</string>
@@ -88,6 +88,7 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="cleaning_title">Čištění</string>
     <string name="clear_selection">Zrušit výběr</string>
     <string name="close">Zavřít</string>
+    <string name="collapse_profiles">Sbalit profily aplikací</string>
     <string name="common_cached">Uloženo</string>
     <string name="common_settings">Nastavení</string>
     <string name="common_swap">Výměna</string>
@@ -141,6 +142,7 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
     <string name="exit_confirmation_text">Ukončit bez uložení změn?</string>
     <string name="exit_confirmation_title">Ukončet?</string>
+    <string name="expand_profiles">Rozbalit profily aplikací</string>
     <string name="extraopt_btn">Extra optimalizace</string>
     <string name="extraopt_desc">Optimalizujte systém rekompilací ART mezipaměti pro výkon (využívá více interní paměti) a ořízněte souborový systém pro zlepšení výkonu paměti.</string>
     <string name="extraopt_do_btn">Začít</string>
@@ -151,19 +153,19 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="extraopt_scheduled_subtitle">Další spuštění v %1$s:%2$s</string>
     <string name="extraopt_warning">Toto není systémová optimalizace. Může poškodit systém na některých vlastních ROM (vyžaduje vymazání ART mezipaměti v recovery). Zálohujte svá data před použitím.</string>
     <string name="fde_is_active">AI aktivní</string>
-    <string name="fde_is_inactive">AI inactive</string>
+    <string name="fde_is_inactive">AI neaktivní</string>
     <string name="fde_on_reset_toast">Všechna data FDE.AI budou resetována. Aplikace bude ukončena.</string>
     <string name="filter_all_apps">Vše</string>
     <string name="filter_apps">Filtrovat aplikace</string>
     <string name="filter_system_apps">Systémové</string>
     <string name="filter_user_apps">Uživatelské</string>
-    <string name="finstall">Installing FDE.AI…</string>
+    <string name="finstall">Instalace FDE.AI…</string>
     <string name="force_doze_enabled">Vynucení zdřímnutí povoleno</string>
     <string name="force_doze_trigger_count">Vynutit počet spouštěčů Doze</string>
     <string name="fps_checkbox">Hardwarové sledování &amp; FPS</string>
     <string name="fps_meter_desc">Statistiky využití energie v reálném čase, FPS, CPU, GPU, RAM a elektrické energie.</string>
     <string name="fs_cache_tune">Ladění mezipaměti FS</string>
-    <string name="get_premium">Get FDE.AI Premium</string>
+    <string name="get_premium">Získat FDE.AI Premium</string>
     <string name="go_back">Vrátit se zpět</string>
     <string name="gpu_turbo_support">Podpora GPU Turbo</string>
     <string name="gpu_turbo_trigger_count">Počet spouštění GPU Turbo</string>
@@ -237,7 +239,7 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
     <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
     <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_opacity_main">Overlay opacity</string>
+    <string name="overlay_opacity_main">Průhlednost překrytí</string>
     <string name="overlay_power_x">Síla: %1$s mAh</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Měřítko překrytí</string>
@@ -257,7 +259,7 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="profiles_descr_txt">Vlastní profily aplikují nastavení FDE.AI, když je aplikace spuštěna a při zavření se vrátí.</string>
     <string name="rate_app">Ohodnotit FDE.AI</string>
     <string name="releases">Aktualizace</string>
-    <string name="reset">Reset</string>
+    <string name="reset">Resetovat</string>
     <string name="reset_all_fde">Resetovat nastavení FDE.AI</string>
     <string name="reset_app_list_confirmation_text">Obnovit seznam aplikací?</string>
     <string name="reset_app_list_confirmation_title">Resetovat seznam</string>
@@ -265,7 +267,7 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="reset_downscale_onboot">Obnovit po restartu</string>
     <string name="reset_fde_dialog_text">Obnovit všechna nastavení FDE.AI?</string>
     <string name="restart_fde_action">Restartovat FDE.AI</string>
-    <string name="restart_fde_in_progress">Restarting FDE.AI</string>
+    <string name="restart_fde_in_progress">Restartování FDE.AI</string>
     <string name="rm_fde_lite">Nejprve odinstalujte verzi FDE.AI lite !</string>
     <string name="root_mode_descr">Všechny funkce. Vyžaduje přístup root.</string>
     <string name="run_now">Spustit</string>
@@ -291,9 +293,9 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="sound_header">Zvuk</string>
     <string name="sound_notifications">Zvuková upozornění</string>
     <string name="start_art_dialog_text">Optimalizace ART mezipaměti může nějakou dobu trvat, způsobit zpoždění a přehřátí zařízení. Pokračovat?</string>
-    <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">Waiting %1$d sec to start FDE.AI…</string>
+    <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">Čekám %1$d s na spuštění FDE.AI…</string>
     <string name="start_toast">Spouštění FDE.AI…</string>
-    <string name="startup">Startup</string>
+    <string name="startup">Spuštění</string>
     <string name="stop_btn">Zastavit</string>
     <string name="tab_debloat">Odebrat bloatware</string>
     <string name="tab_manage">Spravovat</string>
@@ -309,9 +311,32 @@ Pokud problém přetrvává, kontaktujte vývojáře v Telegramu.</string>
     <string name="tile_available">V oznamovací liště je k dispozici rychlá dlaždice.</string>
     <string name="tweaks_disabled">Všechna vylepšení jsou vypnuta</string>
     <string name="un_fde_magisk">Nejprve odinstalujte FDE.AI Magisk modul!</string>
-    <string name="unavailable">Unavailable</string>
+    <string name="unavailable">Nedostupné</string>
     <string name="update">Aktualizovat</string>
     <string name="update_available">Dostupná aktualizace!</string>
+    <string name="update_download_enqueue_failed">Aktualizaci se nepodařilo zařadit do fronty ke stažení.</string>
+    <string name="update_download_failed">Stažení aktualizace se nezdařilo.</string>
+    <string name="update_download_failed_with_reason">Stažení aktualizace se nezdařilo: %1$s</string>
+    <string name="update_download_file_not_found">Stažený soubor aktualizace nebyl nalezen.</string>
+    <string name="update_download_no_failure_reason">Systém neposkytl důvod selhání.</string>
+    <string name="update_download_reason_cannot_resume">Ve stahování nelze pokračovat.</string>
+    <string name="update_download_reason_code">Systém nahlásil kód důvodu stahování %1$d.</string>
+    <string name="update_download_reason_device_not_found">Externí úložné zařízení nebylo nalezeno.</string>
+    <string name="update_download_reason_file_already_exists">Cílový soubor již existuje.</string>
+    <string name="update_download_reason_file_error">Stažený soubor se nepodařilo zapsat.</string>
+    <string name="update_download_reason_http_data_error">Stahování přerušila síťová chyba.</string>
+    <string name="update_download_reason_http_status">Server vrátil HTTP %1$d.</string>
+    <string name="update_download_reason_insufficient_space">Pro aktualizaci není dostatek úložného místa.</string>
+    <string name="update_download_reason_paused_unknown">Stahování je pozastaveno z neznámého důvodu.</string>
+    <string name="update_download_reason_queued_for_wifi">Stahování čeká na připojení Wi‑Fi.</string>
+    <string name="update_download_reason_too_many_redirects">URL stahování přesměrovalo příliš mnohokrát.</string>
+    <string name="update_download_reason_unhandled_http_code">Server vrátil nepodporovanou odpověď HTTP.</string>
+    <string name="update_download_reason_unknown">Systém nahlásil neznámou chybu stahování.</string>
+    <string name="update_download_reason_waiting_for_network">Stahování čeká na síťové připojení.</string>
+    <string name="update_download_reason_waiting_to_retry">Stahování čeká na další pokus.</string>
+    <string name="update_download_status_unavailable">Stav stahování není k dispozici.</string>
+    <string name="update_storage_permission_required">Povolte přístup k úložišti pro stažení aktualizace a zkuste to znovu.</string>
+    <string name="update_unknown_sources_required">Povolte FDE.AI instalaci aplikací z neznámých zdrojů a zkuste to znovu.</string>
     <string name="updating_toast">Stahování aktualizace…</string>
     <string name="vibration">Vibrace jednou</string>
     <string name="vm_cache_tune">Ladění mezipaměti virtuálního počítače</string>

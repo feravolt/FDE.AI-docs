@@ -25,7 +25,7 @@
     <string name="ai_state_disabled">معطلة</string>
     <string name="ai_state_ready">العمل</string>
     <string name="ai_state_sleeping">نوم…</string>
-    <string name="aiinfo">AI info</string>
+    <string name="aiinfo">معلومات الذكاء الاصطناعي</string>
     <string name="already_premium">هل لديك باقة مميزة بالفعل؟</string>
     <string name="already_premium_txt">إذا كنت قد اشتريت باقة مميزة بالفعل، ولكن FDE.AI لم يكتشفها، فاتبع الخطوات التالية:\n\n
 1. تأكد من تنزيل نسخة أصلية من تطبيق FDE.AI من مصادر رسمية، وتحقق من تجزئة MD5.\n
@@ -52,7 +52,7 @@
     <string name="auto_psave_desc">تمكين وضع توفير الطاقة تلقائياً عند إيقاف تشغيل الشاشة.</string>
     <string name="autodatasave_mode">توفير البيانات التلقائي</string>
     <string name="autopowersave_mode">توفير الطاقة التلقائي</string>
-    <string name="autostart">Autostart</string>
+    <string name="autostart">بدء تلقائي</string>
     <string name="autostart_delay_hint">تم تعيين التأخير إلى %1$ds</string>
     <string name="autostart_overlay">بدء تراكب الإحصائيات</string>
     <string name="badge_disabled">معطّل</string>
@@ -81,13 +81,14 @@
     <string name="clean_cache">تنظيف ذاكرة التخزين المؤقت</string>
     <string name="clean_cache_done_snack">تم مسح ذاكرة التخزين المؤقت</string>
     <string name="clean_cache_running_snack">جارٍ مسح ذاكرة التخزين المؤقت…</string>
-    <string name="clean_ram">Clean RAM</string>
+    <string name="clean_ram">مسح الذاكرة العشوائية</string>
     <string name="clean_ram_done_snack">تم تنظيف ذاكرة الوصول العشوائي</string>
     <string name="clean_ram_running_snack">تنظيف ذاكرة الوصول العشوائي…</string>
     <string name="cleaning_desc">تنظيف ذاكرة الوصول العشوائي عن طريق إغلاق تطبيقات الخلفية والتخزين المجاني عن طريق حذف ملفات ذاكرة التخزين المؤقت.</string>
     <string name="cleaning_title">تنظيف</string>
     <string name="clear_selection">مسح التحديد</string>
     <string name="close">أغلق</string>
+    <string name="collapse_profiles">طي ملفات تعريف التطبيقات</string>
     <string name="common_cached">مُخزّن مؤقتًا</string>
     <string name="common_settings">الإعدادات</string>
     <string name="common_swap">مبادلة</string>
@@ -141,6 +142,7 @@
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
     <string name="exit_confirmation_text">الخروج دون حفظ التغييرات؟</string>
     <string name="exit_confirmation_title">خروج ؟</string>
+    <string name="expand_profiles">توسيع ملفات تعريف التطبيقات</string>
     <string name="extraopt_btn">تحسين إضافي</string>
     <string name="extraopt_desc">تحسين النظام عن طريق إعادة تجميع ذاكرة التخزين المؤقت لـ ART للأداء (استخدام المزيد من الذاكرة الداخلية) وتصحيح نظام الملفات لتحسين أداء الذاكرة.</string>
     <string name="extraopt_do_btn">ابدأ</string>
@@ -151,19 +153,19 @@
     <string name="extraopt_scheduled_subtitle">التشغيل التالي في %1$s:%2$s</string>
     <string name="extraopt_warning">هذا ليس تحسين لا نظامي. قد يكسر النظام على بعض ذاكرة القراءة فقط (يتطلب مسح ذاكرة التخزين المؤقت للريتوت في الاستعادة). النسخ الاحتياطي للبيانات الخاصة بك قبل الاستخدام.</string>
     <string name="fde_is_active">AI نشط</string>
-    <string name="fde_is_inactive">AI inactive</string>
+    <string name="fde_is_inactive">الذكاء الاصطناعي غير نشط</string>
     <string name="fde_on_reset_toast">سيتم إعادة تعيين جميع بيانات FDE.AI. سيتم إغلاق التطبيق.</string>
     <string name="filter_all_apps">الكل</string>
     <string name="filter_apps">فلترة التطبيقات</string>
     <string name="filter_system_apps">النظام</string>
     <string name="filter_user_apps">المستخدم</string>
-    <string name="finstall">Installing FDE.AI…</string>
+    <string name="finstall">جارٍ تثبيت FDE.AI…</string>
     <string name="force_doze_enabled">تمكين Force Doze</string>
     <string name="force_doze_trigger_count">عدد مشغلات Force Doze</string>
     <string name="fps_checkbox">مراقبة الأجهزة &amp; FPS</string>
     <string name="fps_meter_desc">إحصائيات استخدام الطاقة في الوقت الحقيقي، وحدة المعالجة المركزية، GPU، ذاكرة الوصول العشوائي.</string>
     <string name="fs_cache_tune">ضبط ذاكرة التخزين المؤقت لنظام الملفات</string>
-    <string name="get_premium">Get FDE.AI Premium</string>
+    <string name="get_premium">احصل على FDE.AI Premium</string>
     <string name="go_back">العودة إلى الوراء</string>
     <string name="gpu_turbo_support">دعم GPU Turbo</string>
     <string name="gpu_turbo_trigger_count">عدد مشغلات GPU Turbo</string>
@@ -237,7 +239,7 @@
     <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s هرتز</string>
     <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s ميغابايت</string>
     <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_opacity_main">Overlay opacity</string>
+    <string name="overlay_opacity_main">شفافية الطبقة العلوية</string>
     <string name="overlay_power_x">القوة: %1$s mAh</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">مقياس التراكب</string>
@@ -257,7 +259,7 @@
     <string name="profiles_descr_txt">تطبيق ملفات تعريف مخصصة إعدادات FDE.AI عند تشغيل التطبيق والعودة عند إغلاقه.</string>
     <string name="rate_app">تقييم FDE.AI</string>
     <string name="releases">التحديثات</string>
-    <string name="reset">Reset</string>
+    <string name="reset">إعادة تعيين</string>
     <string name="reset_all_fde">إعادة تعيين إعدادات FDE.AI</string>
     <string name="reset_app_list_confirmation_text">إعادة تعيين قائمة التطبيقات؟</string>
     <string name="reset_app_list_confirmation_title">إعادة تعيين القائمة</string>
@@ -265,7 +267,7 @@
     <string name="reset_downscale_onboot">إعادة التعيين بعد إعادة التشغيل</string>
     <string name="reset_fde_dialog_text">إعادة تعيين كافة إعدادات FDE.AI ؟</string>
     <string name="restart_fde_action">إعادة تشغيل FDE.AI</string>
-    <string name="restart_fde_in_progress">Restarting FDE.AI</string>
+    <string name="restart_fde_in_progress">جارٍ إعادة تشغيل FDE.AI</string>
     <string name="rm_fde_lite">الغاء تثبيت FDE.AI lite اولا !</string>
     <string name="root_mode_descr">جميع الميزات. يتطلب صلاحيات الروت.</string>
     <string name="run_now">تشغيل</string>
@@ -293,7 +295,7 @@
     <string name="start_art_dialog_text">تحسين ذاكرة التخزين المؤقت لـ ART قد يستغرق وقتاً، تسبب في تأخر الجهاز وارتفاع حرارة الجهاز. هل تريد المتابعة؟</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">في انتظار %1$d ثانية لبدء FDE.AI…</string>
     <string name="start_toast">بدء FDE.AI…</string>
-    <string name="startup">Startup</string>
+    <string name="startup">بدء التشغيل</string>
     <string name="stop_btn">توقف</string>
     <string name="tab_debloat">إزالة البرامج الغير ضرورية</string>
     <string name="tab_manage">إدارة</string>
@@ -309,9 +311,32 @@
     <string name="tile_available">مربع إعداد سريع متوفر في شريط الحالة.</string>
     <string name="tweaks_disabled">كل التعديلات معطلة</string>
     <string name="un_fde_magisk">إلغاء تثبيت FDE.AI Magisk أولاً!</string>
-    <string name="unavailable">Unavailable</string>
+    <string name="unavailable">غير متاح</string>
     <string name="update">تحديث</string>
     <string name="update_available">تحديث متوفر!</string>
+    <string name="update_download_enqueue_failed">تعذر وضع التحديث في قائمة التنزيل.</string>
+    <string name="update_download_failed">فشل تنزيل التحديث.</string>
+    <string name="update_download_failed_with_reason">فشل تنزيل التحديث: %1$s</string>
+    <string name="update_download_file_not_found">تعذر العثور على ملف التحديث الذي تم تنزيله.</string>
+    <string name="update_download_no_failure_reason">لم يقدّم النظام سببًا للفشل.</string>
+    <string name="update_download_reason_cannot_resume">لا يمكن استئناف التنزيل.</string>
+    <string name="update_download_reason_code">أبلغ النظام عن رمز سبب التنزيل %1$d.</string>
+    <string name="update_download_reason_device_not_found">تعذر العثور على جهاز التخزين الخارجي.</string>
+    <string name="update_download_reason_file_already_exists">ملف الوجهة موجود بالفعل.</string>
+    <string name="update_download_reason_file_error">تعذر كتابة الملف الذي تم تنزيله.</string>
+    <string name="update_download_reason_http_data_error">أدّى خطأ في الشبكة إلى مقاطعة التنزيل.</string>
+    <string name="update_download_reason_http_status">أعاد الخادم HTTP %1$d.</string>
+    <string name="update_download_reason_insufficient_space">لا توجد مساحة تخزين كافية للتحديث.</string>
+    <string name="update_download_reason_paused_unknown">تم إيقاف التنزيل مؤقتًا لسبب غير معروف.</string>
+    <string name="update_download_reason_queued_for_wifi">ينتظر التنزيل اتصال Wi‑Fi.</string>
+    <string name="update_download_reason_too_many_redirects">أعاد رابط التنزيل التوجيه مرات كثيرة جدًا.</string>
+    <string name="update_download_reason_unhandled_http_code">أعاد الخادم استجابة HTTP غير مدعومة.</string>
+    <string name="update_download_reason_unknown">أبلغ النظام عن خطأ تنزيل غير معروف.</string>
+    <string name="update_download_reason_waiting_for_network">ينتظر التنزيل اتصالاً بالشبكة.</string>
+    <string name="update_download_reason_waiting_to_retry">ينتظر التنزيل إعادة المحاولة.</string>
+    <string name="update_download_status_unavailable">حالة التنزيل غير متاحة.</string>
+    <string name="update_storage_permission_required">اسمح بالوصول إلى التخزين لتنزيل التحديث، ثم حاول مرة أخرى.</string>
+    <string name="update_unknown_sources_required">اسمح لـ FDE.AI بتثبيت التطبيقات من مصادر غير معروفة، ثم حاول مرة أخرى.</string>
     <string name="updating_toast">تحميل التحديث…</string>
     <string name="vibration">اهتزاز مرة واحدة</string>
     <string name="vm_cache_tune">ضبط ذاكرة التخزين المؤقت للآلة الافتراضية</string>

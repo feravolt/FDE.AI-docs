@@ -88,6 +88,7 @@
     <string name="cleaning_title">清理中</string>
     <string name="clear_selection">清除選取</string>
     <string name="close">關閉</string>
+    <string name="collapse_profiles">折疊應用程式設定檔</string>
     <string name="common_cached">快取</string>
     <string name="common_settings">設定</string>
     <string name="common_swap">虛擬記憶</string>
@@ -138,6 +139,7 @@
     <string name="eula" tools:ignore="MissingTranslation">最終用戶許可協議</string>
     <string name="exit_confirmation_text">退出而不儲存變更？</string>
     <string name="exit_confirmation_title">退出?</string>
+    <string name="expand_profiles">展開應用程式設定檔</string>
     <string name="extraopt_btn">額外的優化</string>
     <string name="extraopt_desc">透過重新編譯 ART 快取以提高效能（使用更多手機內部儲存空間）來最佳化系統，並修整檔案系統以提高記憶體效能。</string>
     <string name="extraopt_do_btn">開始</string>
@@ -192,7 +194,7 @@
     <string name="memory_boost_support">記憶體提升</string>
     <string name="menu_dashboard">首頁</string>
     <string name="migration_error">資料遷移時發生意外錯誤。資料將被清除。</string>
-    <string name="min">min.</string>
+    <string name="min">分</string>
     <string name="monitoring_floating_window">監控</string>
     <string name="more_info">更多資訊</string>
     <string name="multi_core_power_saving_control">多核心CPU省電</string>
@@ -309,6 +311,29 @@
     <string name="unavailable">不可使用</string>
     <string name="update">更新</string>
     <string name="update_available">有可用的更新！</string>
+    <string name="update_download_enqueue_failed">無法將更新加入下載佇列。</string>
+    <string name="update_download_failed">更新下載失敗。</string>
+    <string name="update_download_failed_with_reason">更新下載失敗：%1$s</string>
+    <string name="update_download_file_not_found">找不到已下載的更新檔案。</string>
+    <string name="update_download_no_failure_reason">系統未提供失敗原因。</string>
+    <string name="update_download_reason_cannot_resume">無法繼續下載。</string>
+    <string name="update_download_reason_code">系統回報了下載原因代碼 %1$d。</string>
+    <string name="update_download_reason_device_not_found">找不到外部儲存裝置。</string>
+    <string name="update_download_reason_file_already_exists">目標檔案已存在。</string>
+    <string name="update_download_reason_file_error">無法寫入已下載的檔案。</string>
+    <string name="update_download_reason_http_data_error">網路錯誤中斷了下載。</string>
+    <string name="update_download_reason_http_status">伺服器回傳了 HTTP %1$d。</string>
+    <string name="update_download_reason_insufficient_space">沒有足夠的儲存空間可用於更新。</string>
+    <string name="update_download_reason_paused_unknown">下載因未知原因已暫停。</string>
+    <string name="update_download_reason_queued_for_wifi">下載正在等待 Wi‑Fi 連線。</string>
+    <string name="update_download_reason_too_many_redirects">下載網址重新導向次數過多。</string>
+    <string name="update_download_reason_unhandled_http_code">伺服器回傳了不支援的 HTTP 回應。</string>
+    <string name="update_download_reason_unknown">系統回報了未知的下載錯誤。</string>
+    <string name="update_download_reason_waiting_for_network">下載正在等待網路連線。</string>
+    <string name="update_download_reason_waiting_to_retry">下載正在等待重試。</string>
+    <string name="update_download_status_unavailable">下載狀態無法取得。</string>
+    <string name="update_storage_permission_required">請允許存取儲存空間以下載更新，然後再試一次。</string>
+    <string name="update_unknown_sources_required">請允許 FDE.AI 安裝未知應用程式，然後再試一次。</string>
     <string name="updating_toast">正在下載更新…</string>
     <string name="vibration">震動一次</string>
     <string name="vm_cache_tune">虛擬機器快取調整</string>

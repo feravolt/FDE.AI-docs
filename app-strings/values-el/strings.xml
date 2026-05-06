@@ -52,7 +52,7 @@
     <string name="auto_psave_desc">Αυτόματη ενεργοποίηση λειτουργίας εξοικονόμησης ενέργειας όταν η οθόνη είναι απενεργοποιημένη.</string>
     <string name="autodatasave_mode">Αυτόματη αποθήκευση δεδομένων</string>
     <string name="autopowersave_mode">Αυτόματη εξοικονόμηση ενέργειας</string>
-    <string name="autostart">Autostart</string>
+    <string name="autostart">Αυτόματη εκκίνηση</string>
     <string name="autostart_delay_hint">Καθυστέρηση εκκίνησης σε %1$d δευτ.</string>
     <string name="autostart_overlay">Εκκίνηση επικάλυψης στατιστικών</string>
     <string name="badge_disabled">Απενεργοποιημένο</string>
@@ -88,6 +88,7 @@
     <string name="cleaning_title">Καθαρισμός</string>
     <string name="clear_selection">Εκκαθάριση επιλογής</string>
     <string name="close">Κλείσιμο</string>
+    <string name="collapse_profiles">Σύμπτυξη προφίλ εφαρμογών</string>
     <string name="common_cached">Προσωρινή αποθήκευση</string>
     <string name="common_settings">Ρυθμίσεις</string>
     <string name="common_swap">Ανταλλαγή</string>
@@ -139,6 +140,7 @@
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
     <string name="exit_confirmation_text">Έξοδος χωρίς αποθήκευση αλλαγών?</string>
     <string name="exit_confirmation_title">Έξοδος?</string>
+    <string name="expand_profiles">Ανάπτυξη προφίλ εφαρμογών</string>
     <string name="extraopt_btn">Επιπλέον βελτιστοποίηση</string>
     <string name="extraopt_desc">Βελτιστοποίηση του συστήματος με την ανασύνταξη ART cache για την απόδοση (χρησιμοποιεί περισσότερη εσωτερική μνήμη) και περικοπή του συστήματος αρχείων για τη βελτίωση της απόδοσης της μνήμης.</string>
     <string name="extraopt_do_btn">Έναρξη</string>
@@ -149,19 +151,19 @@
     <string name="extraopt_scheduled_subtitle">Επόμενη εκτέλεση στις %1$s:%2$s</string>
     <string name="extraopt_warning">Αυτό δεν είναι μια βελτιστοποίηση χωρίς σύστημα. Μπορεί να σπάσει το σύστημα σε κάποια προσαρμοσμένη ROMs (απαιτεί εκκαθάριση ART cache σε ανάκτηση).</string>
     <string name="fde_is_active">AI ενεργό</string>
-    <string name="fde_is_inactive">AI inactive</string>
+    <string name="fde_is_inactive">Η ΑΙ είναι ανενεργή</string>
     <string name="fde_on_reset_toast">Όλα τα δεδομένα FDE.AI θα επαναφερθούν. App θα κλείσει.</string>
     <string name="filter_all_apps">Όλα</string>
     <string name="filter_apps">Φιλτράρισμα εφαρμογών</string>
     <string name="filter_system_apps">Σύστημα</string>
     <string name="filter_user_apps">Χρήστης</string>
-    <string name="finstall">Installing FDE.AI…</string>
+    <string name="finstall">Εγκατάσταση FDE.AI…</string>
     <string name="force_doze_enabled">Ενεργοποιήθηκε το Force Doze</string>
     <string name="force_doze_trigger_count">Αριθμός σκανδάλης Force Doze</string>
     <string name="fps_checkbox">Παρακολούθηση υλικού &amp; FPS</string>
     <string name="fps_meter_desc">FPS, CPU, GPU, RAM, και στατιστικά χρήσης ισχύος.</string>
     <string name="fs_cache_tune">Συντονισμός προσωρινής μνήμης FS</string>
-    <string name="get_premium">Get FDE.AI Premium</string>
+    <string name="get_premium">Αποκτήστε FDE.AI Premium</string>
     <string name="go_back">Μετάβαση πίσω</string>
     <string name="gpu_turbo_support">Υποστήριξη GPU Turbo</string>
     <string name="gpu_turbo_trigger_count">Αριθμός ενεργοποίησης GPU Turbo</string>
@@ -193,7 +195,7 @@
     <string name="memory_boost_support">Ενίσχυση μνήμης</string>
     <string name="menu_dashboard">Αρχική</string>
     <string name="migration_error">Παρουσιάστηκε μη αναμενόμενο σφάλμα κατά τη μετεγκατάσταση δεδομένων. Τα δεδομένα θα διαγραφούν.</string>
-    <string name="min">min.</string>
+    <string name="min">λεπ.</string>
     <string name="monitoring_floating_window">Παρακολούθηση</string>
     <string name="more_info">Περισσότερες πληροφορίες</string>
     <string name="multi_core_power_saving_control">Εξοικονόμηση ενέργειας CPU πολλαπλών πυρήνων</string>
@@ -220,7 +222,7 @@
     <string name="onboarding_preset_performance_summary">Εφαρμόστε tweaks και συντονίστε το AI για αυξημένη απόδοση και ανταπόκριση</string>
     <string name="onboarding_preset_performance_title">Επιδόσεις</string>
     <string name="onboarding_preset_powersave_summary">Εφαρμόστε tweaks και συντονίστε AI για εξοικονόμηση μπαταρίας και μειωμένη θερμότητα</string>
-    <string name="onboarding_preset_powersave_title">Powersave</string>
+    <string name="onboarding_preset_powersave_title">Εξοικονόμηση ενέργειας</string>
     <string name="onboarding_presets">Προεπιλογές</string>
     <string name="onboarding_see_full_eula">Δείτε το πλήρες EULA</string>
     <string name="onboarding_select_mode_title">Επιλογή λειτουργίας</string>
@@ -235,12 +237,12 @@
     <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
     <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
     <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_opacity_main">Overlay opacity</string>
+    <string name="overlay_opacity_main">Αδιαφάνεια επικάλυψης</string>
     <string name="overlay_power_x">Ισχύς: %1$s mAh</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Κλίμακα επικάλυψης</string>
     <string name="performance">Επιδόσεις</string>
-    <string name="powersave">Powersave</string>
+    <string name="powersave">Εξοικονόμηση</string>
     <string name="preload_pro_required">Απαιτείται προφόρτωση εφαρμογής Pro για αυτήν τη δυνατότητα.</string>
     <string name="preload_title">Αυτόματη προφόρτωση</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
@@ -255,7 +257,7 @@
     <string name="profiles_descr_txt">Τα προσαρμοσμένα προφίλ εφαρμόζουν τις ρυθμίσεις FDE.AI όταν εκτελείται μια εφαρμογή και επανέρχεται όταν κλείσει.</string>
     <string name="rate_app">Αξιολογήστε Το Fde.Ai</string>
     <string name="releases">Ενημερώσεις</string>
-    <string name="reset">Reset</string>
+    <string name="reset">Επαναφορά</string>
     <string name="reset_all_fde">Επαναφορά ρυθμίσεων FDE.AI</string>
     <string name="reset_app_list_confirmation_text">Επαναφορά λίστας εφαρμογών?</string>
     <string name="reset_app_list_confirmation_title">Επαναφορά λίστας</string>
@@ -263,7 +265,7 @@
     <string name="reset_downscale_onboot">Επαναφορά μετά την επανεκκίνηση</string>
     <string name="reset_fde_dialog_text">Επαναφορά όλων των ρυθμίσεων FDE.AI?</string>
     <string name="restart_fde_action">Επανεκκίνηση FDE.AI</string>
-    <string name="restart_fde_in_progress">Restarting FDE.AI</string>
+    <string name="restart_fde_in_progress">Επανεκκίνηση FDE.AI</string>
     <string name="rm_fde_lite">Απεγκατάσταση FDE.AI lite έκδοση πρώτα!</string>
     <string name="root_mode_descr">Όλες οι δυνατότητες. Απαιτεί πρόσβαση root.</string>
     <string name="run_now">Εκτέλεση</string>
@@ -291,7 +293,7 @@
     <string name="start_art_dialog_text">Βελτιστοποίηση της μνήμης cache ART μπορεί να πάρει χρόνο, αιτία καθυστέρησης της συσκευής και υπερθέρμανση. Συνέχεια?</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">Αναμονή %1$d sec για έναρξη FDE.AI…</string>
     <string name="start_toast">Ξεκινώντας FDE.AI…</string>
-    <string name="startup">Startup</string>
+    <string name="startup">Εκκίνηση</string>
     <string name="stop_btn">Διακοπή</string>
     <string name="tab_debloat">Αφαίρεση bloatware</string>
     <string name="tab_manage">Διαχείριση</string>
@@ -307,9 +309,32 @@
     <string name="tile_available">Μια γρήγορη συντόμευση είναι διαθέσιμη στη γραμμή κατάστασης.</string>
     <string name="tweaks_disabled">Όλες οι tweaks είναι απενεργοποιημένες</string>
     <string name="un_fde_magisk">Απεγκατάσταση του FDE.AI Magisk module πρώτα!</string>
-    <string name="unavailable">Unavailable</string>
+    <string name="unavailable">Μη διαθέσιμο</string>
     <string name="update">Ενημέρωση</string>
     <string name="update_available">Διαθέσιμη ενημέρωση!</string>
+    <string name="update_download_enqueue_failed">Δεν ήταν δυνατή η προσθήκη της ενημέρωσης στην ουρά λήψης.</string>
+    <string name="update_download_failed">Η λήψη της ενημέρωσης απέτυχε.</string>
+    <string name="update_download_failed_with_reason">Η λήψη της ενημέρωσης απέτυχε: %1$s</string>
+    <string name="update_download_file_not_found">Δεν βρέθηκε το ληφθέν αρχείο ενημέρωσης.</string>
+    <string name="update_download_no_failure_reason">Το σύστημα δεν παρείχε αιτία αποτυχίας.</string>
+    <string name="update_download_reason_cannot_resume">Δεν είναι δυνατή η συνέχιση της λήψης.</string>
+    <string name="update_download_reason_code">Το σύστημα ανέφερε τον κωδικό αιτίας λήψης %1$d.</string>
+    <string name="update_download_reason_device_not_found">Δεν βρέθηκε η εξωτερική συσκευή αποθήκευσης.</string>
+    <string name="update_download_reason_file_already_exists">Το αρχείο προορισμού υπάρχει ήδη.</string>
+    <string name="update_download_reason_file_error">Δεν ήταν δυνατή η εγγραφή του ληφθέντος αρχείου.</string>
+    <string name="update_download_reason_http_data_error">Ένα σφάλμα δικτύου διέκοψε τη λήψη.</string>
+    <string name="update_download_reason_http_status">Ο διακομιστής επέστρεψε HTTP %1$d.</string>
+    <string name="update_download_reason_insufficient_space">Δεν υπάρχει αρκετός αποθηκευτικός χώρος για την ενημέρωση.</string>
+    <string name="update_download_reason_paused_unknown">Η λήψη έχει τεθεί σε παύση για άγνωστο λόγο.</string>
+    <string name="update_download_reason_queued_for_wifi">Η λήψη περιμένει σύνδεση Wi‑Fi.</string>
+    <string name="update_download_reason_too_many_redirects">Η διεύθυνση λήψης ανακατεύθυνε πάρα πολλές φορές.</string>
+    <string name="update_download_reason_unhandled_http_code">Ο διακομιστής επέστρεψε μη υποστηριζόμενη απόκριση HTTP.</string>
+    <string name="update_download_reason_unknown">Το σύστημα ανέφερε άγνωστο σφάλμα λήψης.</string>
+    <string name="update_download_reason_waiting_for_network">Η λήψη περιμένει σύνδεση δικτύου.</string>
+    <string name="update_download_reason_waiting_to_retry">Η λήψη περιμένει για νέα προσπάθεια.</string>
+    <string name="update_download_status_unavailable">Η κατάσταση λήψης δεν είναι διαθέσιμη.</string>
+    <string name="update_storage_permission_required">Επιτρέψτε την πρόσβαση στον χώρο αποθήκευσης για λήψη της ενημέρωσης και δοκιμάστε ξανά.</string>
+    <string name="update_unknown_sources_required">Επιτρέψτε στο FDE.AI να εγκαθιστά εφαρμογές από άγνωστες πηγές και δοκιμάστε ξανά.</string>
     <string name="updating_toast">Λήψη αναβάθμισης…</string>
     <string name="vibration">Δόνηση μία φορά</string>
     <string name="vm_cache_tune">Συντονισμός προσωρινής μνήμης VM</string>

@@ -25,7 +25,7 @@
     <string name="ai_state_disabled">Disattivato</string>
     <string name="ai_state_ready">Lavorare</string>
     <string name="ai_state_sleeping">Dormire…</string>
-    <string name="aiinfo">AI info</string>
+    <string name="aiinfo">Informazioni AI</string>
     <string name="already_premium">Hai già un pacchetto premium?</string>
     <string name="already_premium_txt">Se hai già acquistato il pacchetto premium, ma FDE.AI non lo rileva, segui questi passaggi:\n\n
 1. Assicurati di aver scaricato una copia autentica dell\'app FDE.AI da fonti ufficiali e controlla l\'hash MD5.\n
@@ -52,7 +52,7 @@ Se il problema persiste, contatta lo sviluppatore su Telegram.</string>
     <string name="auto_psave_desc">Abilita automaticamente la modalità di risparmio energetico quando lo schermo è spento.</string>
     <string name="autodatasave_mode">Risparmio dati automatico</string>
     <string name="autopowersave_mode">Risparmio energetico automatico</string>
-    <string name="autostart">Autostart</string>
+    <string name="autostart">Avvio automatico</string>
     <string name="autostart_delay_hint">Ritardo impostato su %1$ds</string>
     <string name="autostart_overlay">Avvia sovrapposizione statistiche</string>
     <string name="badge_disabled">Disattivato</string>
@@ -70,7 +70,7 @@ Se il problema persiste, contatta lo sviluppatore su Telegram.</string>
     <string name="bypassch_desc">Limita la corrente del caricabatterie durante i processi pesanti in esecuzione per abbinare l\'uso del dispositivo, riducendo la carica della batteria e il riscaldamento.</string>
     <string name="bypassch_title">Bypass di ricarica</string>
     <string name="cancel">Annulla</string>
-    <string name="changelog">Changelog</string>
+    <string name="changelog">Registro modifiche</string>
     <string name="charge_time">Tempo di ricarica completa</string>
     <string name="charging">ricarica</string>
     <string name="charging_bypass_enabled">Bypass di ricarica abilitato</string>
@@ -88,6 +88,7 @@ Se il problema persiste, contatta lo sviluppatore su Telegram.</string>
     <string name="cleaning_title">Pulizia</string>
     <string name="clear_selection">Pulisci selezione</string>
     <string name="close">Chiudi</string>
+    <string name="collapse_profiles">Comprimi profili app</string>
     <string name="common_cached">Memorizzato</string>
     <string name="common_settings">Impostazioni</string>
     <string name="common_swap">Scambio</string>
@@ -139,6 +140,7 @@ Se il problema persiste, contatta lo sviluppatore su Telegram.</string>
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
     <string name="exit_confirmation_text">Uscire senza salvare le modifiche?</string>
     <string name="exit_confirmation_title">Uscita?</string>
+    <string name="expand_profiles">Espandi profili app</string>
     <string name="extraopt_btn">Ottimizzazione extra</string>
     <string name="extraopt_desc">Ottimizzare il sistema ricompilando la cache ART per le prestazioni (utilizza più memoria interna) e tagliare il file system per migliorare le prestazioni della memoria.</string>
     <string name="extraopt_do_btn">Inizia</string>
@@ -149,19 +151,19 @@ Se il problema persiste, contatta lo sviluppatore su Telegram.</string>
     <string name="extraopt_scheduled_subtitle">Prossima esecuzione alle %1$s:%2$s</string>
     <string name="extraopt_warning">Questa non è un\'ottimizzazione senza sistema. Potrebbe rompere il sistema su alcune ROM personalizzate (richiede la cancellazione della cache ART in recupero). Backup dei dati prima dell\'uso.</string>
     <string name="fde_is_active">AI attivo</string>
-    <string name="fde_is_inactive">AI inactive</string>
+    <string name="fde_is_inactive">AI inattiva</string>
     <string name="fde_on_reset_toast">Tutti i dati FDE.AI verranno resettati. L\'app si chiuderà.</string>
     <string name="filter_all_apps">Tutto</string>
     <string name="filter_apps">Filtra app</string>
     <string name="filter_system_apps">Sistema</string>
     <string name="filter_user_apps">Utente</string>
-    <string name="finstall">Installing FDE.AI…</string>
+    <string name="finstall">Installazione di FDE.AI…</string>
     <string name="force_doze_enabled">Force Doze abilitato</string>
     <string name="force_doze_trigger_count">Conteggio trigger Force Doze</string>
     <string name="fps_checkbox">Monitoraggio hardware &amp; FPS</string>
     <string name="fps_meter_desc">Statistiche di utilizzo FPS, CPU, GPU, RAM, e potenza in tempo reale.</string>
     <string name="fs_cache_tune">Regolazione della cache FS</string>
-    <string name="get_premium">Get FDE.AI Premium</string>
+    <string name="get_premium">Ottieni FDE.AI Premium</string>
     <string name="go_back">Torna indietro</string>
     <string name="gpu_turbo_support">Supporto GPU Turbo</string>
     <string name="gpu_turbo_trigger_count">Conteggio trigger GPU Turbo</string>
@@ -203,7 +205,7 @@ Se il problema persiste, contatta lo sviluppatore su Telegram.</string>
     <string name="notification_battery_state">Notifica batteria</string>
     <string name="notification_battery_state_desc">Mostra brevi informazioni sulla batteria nella notifica</string>
     <string name="notifications_and_feedback">Notifiche e feedback</string>
-    <string name="offf">Off</string>
+    <string name="offf">Spento</string>
     <string name="older_changelogs" tools:ignore="MissingTranslation">Cambiamenti più vecchi</string>
     <string name="onboarding_eula_message">Si prega di accettare il nostro accordo per continuare</string>
     <string name="onboarding_eula_summary_1">FDE.AI ottimizza il sistema modificando vari parametri di sistema</string>
@@ -220,7 +222,7 @@ Se il problema persiste, contatta lo sviluppatore su Telegram.</string>
     <string name="onboarding_preset_performance_summary">Applica modifiche e sintonizza l\'IA per aumentare le prestazioni e la reattività</string>
     <string name="onboarding_preset_performance_title">Prestazioni</string>
     <string name="onboarding_preset_powersave_summary">Applica modifiche e sintonizza l\'IA per risparmiare batteria e ridurre il calore</string>
-    <string name="onboarding_preset_powersave_title">Powersave</string>
+    <string name="onboarding_preset_powersave_title">Risparmio energetico</string>
     <string name="onboarding_presets">Predefiniti</string>
     <string name="onboarding_see_full_eula">Cfr. EULA completa</string>
     <string name="onboarding_select_mode_title">Seleziona modalità</string>
@@ -235,12 +237,12 @@ Se il problema persiste, contatta lo sviluppatore su Telegram.</string>
     <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
     <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
     <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_opacity_main">Overlay opacity</string>
+    <string name="overlay_opacity_main">Opacità della sovrapposizione</string>
     <string name="overlay_power_x">Potenza: %1$s mAh</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Scala sovrapposta</string>
     <string name="performance">Prestazioni</string>
-    <string name="powersave">Powersave</string>
+    <string name="powersave">Risparmio</string>
     <string name="preload_pro_required">Per questa funzione è necessaria l\'app Preload Pro.</string>
     <string name="preload_title">Precaricamento automatico</string>
     <string name="premium">⭐️ FDE.AI Premium ⭐️</string>
@@ -255,7 +257,7 @@ Se il problema persiste, contatta lo sviluppatore su Telegram.</string>
     <string name="profiles_descr_txt">I profili personalizzati applicano le impostazioni FDE.AI quando un\'app è in esecuzione e ripristina quando è chiusa.</string>
     <string name="rate_app">Vota FDE.AI</string>
     <string name="releases">Aggiornamenti</string>
-    <string name="reset">Reset</string>
+    <string name="reset">Ripristina</string>
     <string name="reset_all_fde">Ripristina impostazioni FDE.AI</string>
     <string name="reset_app_list_confirmation_text">Ripristinare l\'elenco delle app?</string>
     <string name="reset_app_list_confirmation_title">Reimposta elenco</string>
@@ -263,7 +265,7 @@ Se il problema persiste, contatta lo sviluppatore su Telegram.</string>
     <string name="reset_downscale_onboot">Ripristina dopo il riavvio</string>
     <string name="reset_fde_dialog_text">Ripristinare tutte le impostazioni FDE.AI?</string>
     <string name="restart_fde_action">Riavvia FDE.AI</string>
-    <string name="restart_fde_in_progress">Restarting FDE.AI</string>
+    <string name="restart_fde_in_progress">Riavvio di FDE.AI</string>
     <string name="rm_fde_lite">Prima disinstalla la versione di FDE.AI lite!</string>
     <string name="root_mode_descr">Tutte le funzionalità. Richiede accesso root.</string>
     <string name="run_now">Esegui</string>
@@ -291,7 +293,7 @@ Se il problema persiste, contatta lo sviluppatore su Telegram.</string>
     <string name="start_art_dialog_text">Ottimizzare la cache ART può richiedere tempo, causare ritardo e surriscaldamento del dispositivo. Continuare?</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">In attesa di %1$d sec per avviare FDE.AI…</string>
     <string name="start_toast">Avvio FDE.AI…</string>
-    <string name="startup">Startup</string>
+    <string name="startup">Avvio</string>
     <string name="stop_btn">Ferma</string>
     <string name="tab_debloat">Rimuovi bloatware</string>
     <string name="tab_manage">Gestisci</string>
@@ -307,9 +309,32 @@ Se il problema persiste, contatta lo sviluppatore su Telegram.</string>
     <string name="tile_available">È disponibile un riquadro rapido nella barra di stato.</string>
     <string name="tweaks_disabled">Tutti i tweaks sono disabilitati</string>
     <string name="un_fde_magisk">Prima disinstalla il modulo FDE.AI Magisk!</string>
-    <string name="unavailable">Unavailable</string>
+    <string name="unavailable">Non disponibile</string>
     <string name="update">Aggiorna</string>
     <string name="update_available">Aggiornamento disponibile!</string>
+    <string name="update_download_enqueue_failed">Impossibile mettere in coda l’aggiornamento per il download.</string>
+    <string name="update_download_failed">Download dell’aggiornamento non riuscito.</string>
+    <string name="update_download_failed_with_reason">Download dell’aggiornamento non riuscito: %1$s</string>
+    <string name="update_download_file_not_found">Il file di aggiornamento scaricato non è stato trovato.</string>
+    <string name="update_download_no_failure_reason">Il sistema non ha fornito un motivo dell’errore.</string>
+    <string name="update_download_reason_cannot_resume">Impossibile riprendere il download.</string>
+    <string name="update_download_reason_code">Il sistema ha segnalato il codice motivo del download %1$d.</string>
+    <string name="update_download_reason_device_not_found">Il dispositivo di archiviazione esterno non è stato trovato.</string>
+    <string name="update_download_reason_file_already_exists">Il file di destinazione esiste già.</string>
+    <string name="update_download_reason_file_error">Impossibile scrivere il file scaricato.</string>
+    <string name="update_download_reason_http_data_error">Un errore di rete ha interrotto il download.</string>
+    <string name="update_download_reason_http_status">Il server ha restituito HTTP %1$d.</string>
+    <string name="update_download_reason_insufficient_space">Spazio di archiviazione insufficiente per l’aggiornamento.</string>
+    <string name="update_download_reason_paused_unknown">Il download è in pausa per un motivo sconosciuto.</string>
+    <string name="update_download_reason_queued_for_wifi">Il download è in attesa di una connessione Wi‑Fi.</string>
+    <string name="update_download_reason_too_many_redirects">L’URL di download ha reindirizzato troppe volte.</string>
+    <string name="update_download_reason_unhandled_http_code">Il server ha restituito una risposta HTTP non supportata.</string>
+    <string name="update_download_reason_unknown">Il sistema ha segnalato un errore di download sconosciuto.</string>
+    <string name="update_download_reason_waiting_for_network">Il download è in attesa di una connessione di rete.</string>
+    <string name="update_download_reason_waiting_to_retry">Il download è in attesa di riprovare.</string>
+    <string name="update_download_status_unavailable">Lo stato del download non è disponibile.</string>
+    <string name="update_storage_permission_required">Consenti l’accesso all’archiviazione per scaricare l’aggiornamento, poi riprova.</string>
+    <string name="update_unknown_sources_required">Consenti a FDE.AI di installare app sconosciute, poi riprova.</string>
     <string name="updating_toast">Scaricamento aggiornamento…</string>
     <string name="vibration">Vibra una volta</string>
     <string name="vm_cache_tune">Regolazione della cache VM</string>

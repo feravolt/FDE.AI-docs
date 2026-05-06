@@ -25,7 +25,7 @@
     <string name="ai_state_disabled">Gedeactiveerd</string>
     <string name="ai_state_ready">Werken</string>
     <string name="ai_state_sleeping">Slapen…</string>
-    <string name="aiinfo">AI info</string>
+    <string name="aiinfo">AI-info</string>
     <string name="already_premium">Heb je al premium?</string>
     <string name="already_premium_txt">Als je al een premiumpakket hebt gekocht, maar FDE.AI het niet detecteert, volg dan deze stappen:\n\n
 1. Zorg ervoor dat je een origineel exemplaar van de FDE.AI-app hebt gedownload van officiële bronnen en controleer de MD5-hash.\n
@@ -38,7 +38,7 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="app_icon">App pictogram</string>
     <string name="app_management_title">App-beheer</string>
     <string name="app_theme">Thema</string>
-    <string name="app_update_notification_title">FDE.AI update</string>
+    <string name="app_update_notification_title">FDE.AI-update</string>
     <string name="apply">Toepassen</string>
     <string name="arrow_down">Pijl omlaag</string>
     <string name="arrow_left">Pijl links</string>
@@ -54,7 +54,7 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="autopowersave_mode">Automatische energiebesparing</string>
     <string name="autostart">Autostart</string>
     <string name="autostart_delay_hint">Vertraging ingesteld op %1$ds</string>
-    <string name="autostart_overlay">Start stats overlay</string>
+    <string name="autostart_overlay">Statistiekenoverlay starten</string>
     <string name="badge_disabled">Uitgeschakeld</string>
     <string name="badge_profile">Profiel</string>
     <string name="batt_capacity">Capaciteit</string>
@@ -65,7 +65,7 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="battery_temperature_x" tools:ignore="MissingTranslation">Temperatuur: %1$s</string>
     <string name="battery_voltage_x" tools:ignore="MissingTranslation">Spanning: %1$s</string>
     <string name="battery_wear_x" tools:ignore="MissingTranslation">Woord: %1$s</string>
-    <string name="burnit">Throttling</string>
+    <string name="burnit">Beperking</string>
     <string name="burnit_btn">Schakel throttling uit</string>
     <string name="bypassch_desc">Limit laadstroom tijdens zware processen wordt uitgevoerd om het apparaatgebruik gelijk te stellen, het opladen van de batterij en de verwarming te verminderen.</string>
     <string name="bypassch_title">Opladen bypass</string>
@@ -88,6 +88,7 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="cleaning_title">Reiniging</string>
     <string name="clear_selection">Selectie wissen</string>
     <string name="close">Afsluiten</string>
+    <string name="collapse_profiles">App-profielen inklappen</string>
     <string name="common_cached">Gecacht</string>
     <string name="common_settings">Instellingen</string>
     <string name="common_swap">Wisselgeheugen</string>
@@ -130,7 +131,7 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="doze_mode">Doze modus forceren</string>
     <string name="doze_sub_description">Ga in slaapmodus zodra het scherm uit is.</string>
     <string name="doze_system_desc">Doze modus vermindert het batterijgebruik door de achtergrond CPU en netwerkactiviteit uit te stellen wanneer het apparaat niet actief is.</string>
-    <string name="doze_whitelist">Doze whitelist</string>
+    <string name="doze_whitelist">Doze-whitelist</string>
     <string name="dynamic_read_ahead">Dynamisch vooruitlezen</string>
     <string name="emergency_cooldown">Noodgevallen afkoeltijd</string>
     <string name="emergency_cooldown_btn">Afkoeltijd</string>
@@ -139,6 +140,7 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
     <string name="exit_confirmation_text">Afsluiten zonder wijzigingen op te slaan?</string>
     <string name="exit_confirmation_title">Sluiten?</string>
+    <string name="expand_profiles">App-profielen uitklappen</string>
     <string name="extraopt_btn">Extra optimalisatie</string>
     <string name="extraopt_desc">Optimaliseer systeem door ART cache opnieuw te compileren voor prestaties (gebruikt meer interne geheugen) en pak het bestandssysteem bij om de geheugenprestaties te verbeteren.</string>
     <string name="extraopt_do_btn">Beginnen</string>
@@ -149,19 +151,19 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="extraopt_scheduled_subtitle">Volgende uitvoering om %1$s:%2$s</string>
     <string name="extraopt_warning">Dit is geen systeemloze optimalisatie. Kan het systeem op sommige aangepaste ROM\'s breken (vereist het wissen van ART cache in herstel). Back-up uw gegevens voor gebruik.</string>
     <string name="fde_is_active">AI actief</string>
-    <string name="fde_is_inactive">AI inactive</string>
+    <string name="fde_is_inactive">AI inactief</string>
     <string name="fde_on_reset_toast">Alle gegevens van FDE.AI worden gereset. App zal sluiten.</string>
     <string name="filter_all_apps">Alles</string>
     <string name="filter_apps">Apps filteren</string>
     <string name="filter_system_apps">Systeem</string>
     <string name="filter_user_apps">Gebruiker</string>
-    <string name="finstall">Installing FDE.AI…</string>
+    <string name="finstall">FDE.AI installeren…</string>
     <string name="force_doze_enabled">Force Doze ingeschakeld</string>
     <string name="force_doze_trigger_count">Force Doze-triggeraantal</string>
-    <string name="fps_checkbox">Hardware monitoring &amp; FPS</string>
+    <string name="fps_checkbox">Hardware-monitoring &amp; FPS</string>
     <string name="fps_meter_desc">Realtime FPS, CPU, GPU, RAM, en statistieken van stroomverbruik.</string>
     <string name="fs_cache_tune">FS-cache-afstemming</string>
-    <string name="get_premium">Get FDE.AI Premium</string>
+    <string name="get_premium">FDE.AI Premium krijgen</string>
     <string name="go_back">Ga terug</string>
     <string name="gpu_turbo_support">GPU Turbo-ondersteuning</string>
     <string name="gpu_turbo_trigger_count">GPU Turbo-triggeraantal</string>
@@ -235,7 +237,7 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
     <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
     <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_opacity_main">Overlay opacity</string>
+    <string name="overlay_opacity_main">Overlay-dekking</string>
     <string name="overlay_power_x">Kracht: %1$s mAh</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Overlayschaal</string>
@@ -255,7 +257,7 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="profiles_descr_txt">Aangepaste profielen passen instellingen van FDE.AI toe wanneer een app wordt uitgevoerd en terugkeren wanneer deze wordt gesloten.</string>
     <string name="rate_app">Beoordeel FDE.AI</string>
     <string name="releases">Bijwerken</string>
-    <string name="reset">Reset</string>
+    <string name="reset">Resetten</string>
     <string name="reset_all_fde">Reset FDE.AI instellingen</string>
     <string name="reset_app_list_confirmation_text">De app-lijst opnieuw instellen?</string>
     <string name="reset_app_list_confirmation_title">Lijst resetten</string>
@@ -263,7 +265,7 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="reset_downscale_onboot">Reset na herstart</string>
     <string name="reset_fde_dialog_text">Alle instellingen van FDE.AI resetten?</string>
     <string name="restart_fde_action">FDE.AI herstarten</string>
-    <string name="restart_fde_in_progress">Restarting FDE.AI</string>
+    <string name="restart_fde_in_progress">FDE.AI wordt herstart</string>
     <string name="rm_fde_lite">Verwijder eerst FDE.AI Lite versie!</string>
     <string name="root_mode_descr">Alle functies. Vereist root-toegang.</string>
     <string name="run_now">Uitvoeren</string>
@@ -291,7 +293,7 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="start_art_dialog_text">ART cache optimaliseren kan tijd kosten, vertraging en oververhitting veroorzaken. Doorgaan?</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">Wachten %1$d sec om FDE.AI… te starten</string>
     <string name="start_toast">FDE.AI… opstarten.</string>
-    <string name="startup">Startup</string>
+    <string name="startup">Opstarten</string>
     <string name="stop_btn">Stoppen</string>
     <string name="tab_debloat">Bloatware verwijderen</string>
     <string name="tab_manage">Beheren</string>
@@ -307,9 +309,32 @@ Als het probleem aanhoudt, neem dan contact op met de ontwikkelaar via Telegram.
     <string name="tile_available">Er is een snelle tegel beschikbaar in de statusbalk.</string>
     <string name="tweaks_disabled">Alle tweaks zijn uitgeschakeld</string>
     <string name="un_fde_magisk">FDE.AI Magisk module eerst verwijderen!</string>
-    <string name="unavailable">Unavailable</string>
+    <string name="unavailable">Niet beschikbaar</string>
     <string name="update">Vernieuwen</string>
     <string name="update_available">Update beschikbaar!</string>
+    <string name="update_download_enqueue_failed">De update kon niet in de downloadwachtrij worden geplaatst.</string>
+    <string name="update_download_failed">Downloaden van update mislukt.</string>
+    <string name="update_download_failed_with_reason">Downloaden van update mislukt: %1$s</string>
+    <string name="update_download_file_not_found">Het gedownloade updatebestand is niet gevonden.</string>
+    <string name="update_download_no_failure_reason">Het systeem gaf geen foutreden op.</string>
+    <string name="update_download_reason_cannot_resume">De download kan niet worden hervat.</string>
+    <string name="update_download_reason_code">Het systeem meldde download-redencode %1$d.</string>
+    <string name="update_download_reason_device_not_found">Het externe opslagapparaat is niet gevonden.</string>
+    <string name="update_download_reason_file_already_exists">Het doelbestand bestaat al.</string>
+    <string name="update_download_reason_file_error">Het gedownloade bestand kon niet worden geschreven.</string>
+    <string name="update_download_reason_http_data_error">Een netwerkfout heeft de download onderbroken.</string>
+    <string name="update_download_reason_http_status">De server retourneerde HTTP %1$d.</string>
+    <string name="update_download_reason_insufficient_space">Er is niet genoeg opslagruimte voor de update.</string>
+    <string name="update_download_reason_paused_unknown">De download is om een onbekende reden gepauzeerd.</string>
+    <string name="update_download_reason_queued_for_wifi">De download wacht op een Wi‑Fi-verbinding.</string>
+    <string name="update_download_reason_too_many_redirects">De download-URL heeft te vaak doorgestuurd.</string>
+    <string name="update_download_reason_unhandled_http_code">De server retourneerde een niet-ondersteund HTTP-antwoord.</string>
+    <string name="update_download_reason_unknown">Het systeem meldde een onbekende downloadfout.</string>
+    <string name="update_download_reason_waiting_for_network">De download wacht op een netwerkverbinding.</string>
+    <string name="update_download_reason_waiting_to_retry">De download wacht om opnieuw te proberen.</string>
+    <string name="update_download_status_unavailable">De downloadstatus is niet beschikbaar.</string>
+    <string name="update_storage_permission_required">Sta opslagtoegang toe om de update te downloaden en probeer het daarna opnieuw.</string>
+    <string name="update_unknown_sources_required">Sta FDE.AI toe om onbekende apps te installeren en probeer het daarna opnieuw.</string>
     <string name="updating_toast">Update downloaden…</string>
     <string name="vibration">Eén keer trillen</string>
     <string name="vm_cache_tune">VM-cache-afstemming</string>

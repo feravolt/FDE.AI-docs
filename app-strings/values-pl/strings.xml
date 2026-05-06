@@ -25,7 +25,7 @@
     <string name="ai_state_disabled">Dezaktywowane</string>
     <string name="ai_state_ready">Praca</string>
     <string name="ai_state_sleeping">Śpiący…</string>
-    <string name="aiinfo">AI info</string>
+    <string name="aiinfo">Informacje o AI</string>
     <string name="already_premium">Masz już pakiet premium?</string>
     <string name="already_premium_txt">Jeśli kupiłeś już pakiet premium, ale FDE.AI go nie wykrywa — wykonaj następujące kroki:\n\n
 1. Upewnij się, że pobrałeś oryginalną kopię aplikacji FDE.AI z oficjalnych źródeł i sprawdź skrót MD5.\n
@@ -88,6 +88,7 @@ Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegra
     <string name="cleaning_title">Czyszczenie</string>
     <string name="clear_selection">Wyczyść zaznaczenie</string>
     <string name="close">Zamknij</string>
+    <string name="collapse_profiles">Zwiń profile aplikacji</string>
     <string name="common_cached">Pamięć podręczna</string>
     <string name="common_settings">Ustawienia</string>
     <string name="common_swap">Zamiana</string>
@@ -141,6 +142,7 @@ Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegra
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
     <string name="exit_confirmation_text">Wyjść bez zapisywania zmian?</string>
     <string name="exit_confirmation_title">Wyjść?</string>
+    <string name="expand_profiles">Rozwiń profile aplikacji</string>
     <string name="extraopt_btn">Dodatkowa optymalizacja</string>
     <string name="extraopt_desc">Optymalizacja systemu poprzez przekompilowanie pamięci podręcznej ART dla wydajności (używa więcej pamięci wewnętrznej) i przycięcie systemu plików w celu poprawy wydajności pamięci.</string>
     <string name="extraopt_do_btn">Rozpocznij</string>
@@ -151,19 +153,19 @@ Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegra
     <string name="extraopt_scheduled_subtitle">Następne uruchomienie o %1$s:%2$s</string>
     <string name="extraopt_warning">To nie jest bezsystemowa optymalizacja. Może to uszkodzić system na niektórych niestandardowych ROMach (wymaga czyszczenia pamięci podręcznej ART w odzyskiwaniu). Zrób kopię zapasową swoich danych przed użyciem.</string>
     <string name="fde_is_active">Aktywna SI</string>
-    <string name="fde_is_inactive">AI inactive</string>
+    <string name="fde_is_inactive">AI nieaktywna</string>
     <string name="fde_on_reset_toast">Wszystkie dane FDE.AI zostaną zresetowane. Aplikacja zostanie zamknięta.</string>
     <string name="filter_all_apps">Wszystkie</string>
     <string name="filter_apps">Filtruj aplikacje</string>
     <string name="filter_system_apps">Systemowe</string>
     <string name="filter_user_apps">Użytkownika</string>
-    <string name="finstall">Installing FDE.AI…</string>
+    <string name="finstall">Instalowanie FDE.AI…</string>
     <string name="force_doze_enabled">Włączono Force Doze</string>
     <string name="force_doze_trigger_count">Liczba wyzwalaczy Force Doze</string>
     <string name="fps_checkbox">Monitorowanie sprzętu &amp; FPS</string>
     <string name="fps_meter_desc">FPS, CPU, GPU, RAM, oraz statystyki zużycia energii w czasie rzeczywistym.</string>
     <string name="fs_cache_tune">Dostrajanie pamięci podręcznej FS</string>
-    <string name="get_premium">Get FDE.AI Premium</string>
+    <string name="get_premium">Zdobądź FDE.AI Premium</string>
     <string name="go_back">Wróć</string>
     <string name="gpu_turbo_support">Obsługa GPU Turbo</string>
     <string name="gpu_turbo_trigger_count">Liczba wyzwalaczy GPU Turbo</string>
@@ -237,7 +239,7 @@ Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegra
     <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
     <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
     <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_opacity_main">Overlay opacity</string>
+    <string name="overlay_opacity_main">Przezroczystość nakładki</string>
     <string name="overlay_power_x">Siła: %1$s mAh</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Skala nakładki</string>
@@ -257,7 +259,7 @@ Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegra
     <string name="profiles_descr_txt">Profile niestandardowe zastosuj ustawienia FDE.AI, gdy aplikacja jest uruchomiona i cofa po zamknięciu.</string>
     <string name="rate_app">Oceń FDE.SI</string>
     <string name="releases">Aktualizacje</string>
-    <string name="reset">Reset</string>
+    <string name="reset">Resetuj</string>
     <string name="reset_all_fde">Resetuj ustawienia FDE.AI</string>
     <string name="reset_app_list_confirmation_text">Zresetować listę aplikacji?</string>
     <string name="reset_app_list_confirmation_title">Resetuj listę</string>
@@ -265,7 +267,7 @@ Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegra
     <string name="reset_downscale_onboot">Resetuj po ponownym uruchomieniu</string>
     <string name="reset_fde_dialog_text">Zresetować wszystkie ustawienia FDE.AI?</string>
     <string name="restart_fde_action">Uruchom ponownie FDE.AI</string>
-    <string name="restart_fde_in_progress">Restarting FDE.AI</string>
+    <string name="restart_fde_in_progress">Ponowne uruchamianie FDE.AI</string>
     <string name="rm_fde_lite">Najpierw odinstaluj FDE.AI lite wersje!</string>
     <string name="root_mode_descr">Wszystkie funkcje. Wymaga dostępu root.</string>
     <string name="run_now">Uruchom</string>
@@ -293,7 +295,7 @@ Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegra
     <string name="start_art_dialog_text">Optymalizacja pamięci podręcznej ART może zająć trochę czasu, spowodować opóźnienie i przegrzanie urządzenia. Kontynuować?</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">Oczekiwanie %1$d sek na uruchomienie FDE.AI…</string>
     <string name="start_toast">Uruchamianie FDE.AI…</string>
-    <string name="startup">Startup</string>
+    <string name="startup">Uruchamianie</string>
     <string name="stop_btn">Zatrzymaj</string>
     <string name="tab_debloat">Usuń bloatware</string>
     <string name="tab_manage">Zarządzaj</string>
@@ -309,9 +311,32 @@ Jeśli problem będzie się powtarzał, skontaktuj się z programistą w Telegra
     <string name="tile_available">Szybki kafelek jest dostępny na pasku stanu.</string>
     <string name="tweaks_disabled">Wszystkie ulepszenia są wyłączone</string>
     <string name="un_fde_magisk">Najpierw odinstaluj moduł FDE.AI Magisk!</string>
-    <string name="unavailable">Unavailable</string>
+    <string name="unavailable">Niedostępne</string>
     <string name="update">Aktualizuj</string>
     <string name="update_available">Dostępna aktualizacja!</string>
+    <string name="update_download_enqueue_failed">Nie udało się dodać aktualizacji do kolejki pobierania.</string>
+    <string name="update_download_failed">Pobieranie aktualizacji nie powiodło się.</string>
+    <string name="update_download_failed_with_reason">Pobieranie aktualizacji nie powiodło się: %1$s</string>
+    <string name="update_download_file_not_found">Nie znaleziono pobranego pliku aktualizacji.</string>
+    <string name="update_download_no_failure_reason">System nie podał przyczyny błędu.</string>
+    <string name="update_download_reason_cannot_resume">Nie można wznowić pobierania.</string>
+    <string name="update_download_reason_code">System zgłosił kod przyczyny pobierania %1$d.</string>
+    <string name="update_download_reason_device_not_found">Nie znaleziono zewnętrznego urządzenia pamięci.</string>
+    <string name="update_download_reason_file_already_exists">Plik docelowy już istnieje.</string>
+    <string name="update_download_reason_file_error">Nie udało się zapisać pobranego pliku.</string>
+    <string name="update_download_reason_http_data_error">Błąd sieci przerwał pobieranie.</string>
+    <string name="update_download_reason_http_status">Serwer zwrócił HTTP %1$d.</string>
+    <string name="update_download_reason_insufficient_space">Brak wystarczającej ilości miejsca na aktualizację.</string>
+    <string name="update_download_reason_paused_unknown">Pobieranie jest wstrzymane z nieznanego powodu.</string>
+    <string name="update_download_reason_queued_for_wifi">Pobieranie oczekuje na połączenie Wi‑Fi.</string>
+    <string name="update_download_reason_too_many_redirects">Adres pobierania przekierował zbyt wiele razy.</string>
+    <string name="update_download_reason_unhandled_http_code">Serwer zwrócił nieobsługiwaną odpowiedź HTTP.</string>
+    <string name="update_download_reason_unknown">System zgłosił nieznany błąd pobierania.</string>
+    <string name="update_download_reason_waiting_for_network">Pobieranie oczekuje na połączenie z siecią.</string>
+    <string name="update_download_reason_waiting_to_retry">Pobieranie oczekuje na ponowną próbę.</string>
+    <string name="update_download_status_unavailable">Stan pobierania jest niedostępny.</string>
+    <string name="update_storage_permission_required">Zezwól na dostęp do pamięci, aby pobrać aktualizację, a następnie spróbuj ponownie.</string>
+    <string name="update_unknown_sources_required">Zezwól FDE.AI na instalowanie nieznanych aplikacji, a następnie spróbuj ponownie.</string>
     <string name="updating_toast">Pobieranie aktualizacji…</string>
     <string name="vibration">Wibruj raz</string>
     <string name="vm_cache_tune">Dostrajanie pamięci podręcznej VM</string>

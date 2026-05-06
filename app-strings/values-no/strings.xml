@@ -25,7 +25,7 @@
     <string name="ai_state_disabled">Deaktivert</string>
     <string name="ai_state_ready">Arbeider</string>
     <string name="ai_state_sleeping">Sover…</string>
-    <string name="aiinfo">AI info</string>
+    <string name="aiinfo">AI-info</string>
     <string name="already_premium">Har du allerede premium?</string>
     <string name="already_premium_txt">Hvis du allerede har kjøpt premium-pakken, men FDE.AI ikke oppdager den - følg disse trinnene:\n\n
 1. Sørg for at du lastet ned en ekte kopi av FDE.AI-appen fra offisielle kilder og sjekk MD5-hash.\n
@@ -88,6 +88,7 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="cleaning_title">Rengjøring</string>
     <string name="clear_selection">Tøm markering</string>
     <string name="close">Lukk</string>
+    <string name="collapse_profiles">Skjul app-profiler</string>
     <string name="common_cached">Bufret</string>
     <string name="common_settings">Innstillinger</string>
     <string name="common_swap">Bytte</string>
@@ -130,7 +131,7 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="doze_mode">Tving Doze modus</string>
     <string name="doze_sub_description">Gå inn i dvale-modus så snart skjermen er av.</string>
     <string name="doze_system_desc">Doz-modus reduserer batteribruk ved å utsette bakgrunns CPU og nettverksaktivitet når enheten er uvirksom.</string>
-    <string name="doze_whitelist">Doze whitelist</string>
+    <string name="doze_whitelist">Doze-hviteliste</string>
     <string name="dynamic_read_ahead">Dynamisk avlesning</string>
     <string name="emergency_cooldown">Nødavkjøling</string>
     <string name="emergency_cooldown_btn">Nedkjøling</string>
@@ -139,6 +140,7 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
     <string name="exit_confirmation_text">Avslutt uten å lagre endringene?</string>
     <string name="exit_confirmation_title">Avslutt?</string>
+    <string name="expand_profiles">Vis app-profiler</string>
     <string name="extraopt_btn">Ekstra optimalisering</string>
     <string name="extraopt_desc">Optimalisere systemet ved å rekompilere ART cache for ytelse (bruker mer intern minne) og trim filsystemet for å forbedre minneytelsen.</string>
     <string name="extraopt_do_btn">Begynn</string>
@@ -149,19 +151,19 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="extraopt_scheduled_subtitle">Neste kjøring kl. %1$s:%2$s</string>
     <string name="extraopt_warning">Dette er ikke en systemløs optimalisering. Kan ødelegge systemet på noen tilpassede ROMs (krever å tømme hurtigbufferen for ART i recovery). Sikkerhetskopier dataene dine før bruk.</string>
     <string name="fde_is_active">AI aktiv</string>
-    <string name="fde_is_inactive">AI inactive</string>
+    <string name="fde_is_inactive">AI inaktiv</string>
     <string name="fde_on_reset_toast">Alle FDE.AI data vil bli tilbakestilt. Appen vil lukkes.</string>
     <string name="filter_all_apps">Alle</string>
     <string name="filter_apps">Filtrer apper</string>
     <string name="filter_system_apps">System</string>
     <string name="filter_user_apps">Bruker</string>
-    <string name="finstall">Installing FDE.AI…</string>
+    <string name="finstall">Installerer FDE.AI…</string>
     <string name="force_doze_enabled">Tvungen døse aktivert</string>
     <string name="force_doze_trigger_count">Forsering av slumreutløsertelling</string>
     <string name="fps_checkbox">Maskinvareovervåking &amp; FPS</string>
     <string name="fps_meter_desc">Sanntid FPS, CPU, GPU, RAM og bruk av strøm.</string>
-    <string name="fs_cache_tune">FS cache tuning</string>
-    <string name="get_premium">Get FDE.AI Premium</string>
+    <string name="fs_cache_tune">Filsystem-cache-optimering</string>
+    <string name="get_premium">Få FDE.AI Premium</string>
     <string name="go_back">Gå tilbake</string>
     <string name="gpu_turbo_support">GPU Turbo-støtte</string>
     <string name="gpu_turbo_trigger_count">GPU-turboutløserantall</string>
@@ -235,7 +237,7 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
     <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
     <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_opacity_main">Overlay opacity</string>
+    <string name="overlay_opacity_main">Overlagets opasitet</string>
     <string name="overlay_power_x">Makt: %1$s mAh</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Overleggsskala</string>
@@ -255,15 +257,15 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="profiles_descr_txt">Egendefinerte profiler bruker FDE.AI innstillinger når en app kjører og tilbakestilles når den er lukket.</string>
     <string name="rate_app">Vurder FDE.AI</string>
     <string name="releases">Oppdateringer</string>
-    <string name="reset">Reset</string>
+    <string name="reset">Tilbakestill</string>
     <string name="reset_all_fde">Tilbakestill FDE.AI innstillinger</string>
     <string name="reset_app_list_confirmation_text">Vil du tilbakestille applisten?</string>
     <string name="reset_app_list_confirmation_title">Tilbakestill liste</string>
     <string name="reset_art_dialog_text">Slett ART hurtigbuffer og omstart ?</string>
     <string name="reset_downscale_onboot">Tilbakestill etter omstart</string>
     <string name="reset_fde_dialog_text">Tilbakestill alle FDE.AI innstillinger?</string>
-    <string name="restart_fde_action">Restart FDE.AI</string>
-    <string name="restart_fde_in_progress">Restarting FDE.AI</string>
+    <string name="restart_fde_action">Start FDE.AI på nytt</string>
+    <string name="restart_fde_in_progress">Starter FDE.AI på nytt</string>
     <string name="rm_fde_lite">Avinstaller FDE.AI lite versjon først!</string>
     <string name="root_mode_descr">Alle funksjoner. Krever root-tilgang.</string>
     <string name="run_now">Kjør</string>
@@ -285,13 +287,13 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="shizuku_warning_miui_description">MIUI-brukere må aktivere ytterligere utviklertillatelser for at Shizuku skal fungere ordentlig.</string>
     <string name="shizuku_warning_miui_title">MIUI-utviklertillatelser</string>
     <string name="shizuku_warning_systemless_description_new">Ikke-root-modus kan utføre handlinger som vil påvirke systemet ditt permanent. Hvis du noen gang vurderer å avinstallere denne appen – tilbakestill FDE.AI-innstillingene i appen først.</string>
-    <string name="sound_channel_name">AI Sound Notifications</string>
+    <string name="sound_channel_name">AI-lydvarsler</string>
     <string name="sound_header">Lyd</string>
     <string name="sound_notifications">Lydvarsler</string>
     <string name="start_art_dialog_text">Optimalisering av ART-cache kan ta tid, forårsake endringer i enhetsforsinkelse og overvarme. Fortsett?</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">Venter på %1$d sek å starte FDE.AI…</string>
     <string name="start_toast">Starter FDE.AI…</string>
-    <string name="startup">Startup</string>
+    <string name="startup">Oppstart</string>
     <string name="stop_btn">Stopp</string>
     <string name="tab_debloat">Fjern bloatware</string>
     <string name="tab_manage">Administrer</string>
@@ -307,9 +309,32 @@ Hvis problemet vedvarer, kontakt utvikleren i Telegram.</string>
     <string name="tile_available">En hurtigflis er tilgjengelig i statuslinjen.</string>
     <string name="tweaks_disabled">Alle tweaks er deaktivert</string>
     <string name="un_fde_magisk">Avinstaller FDE.AI Magisk modul først!</string>
-    <string name="unavailable">Unavailable</string>
+    <string name="unavailable">Utilgjengelig</string>
     <string name="update">Oppdater</string>
     <string name="update_available">Oppdatering tilgjengelig!</string>
+    <string name="update_download_enqueue_failed">Oppdateringen kunne ikke legges i nedlastingskø.</string>
+    <string name="update_download_failed">Nedlasting av oppdatering mislyktes.</string>
+    <string name="update_download_failed_with_reason">Nedlasting av oppdatering mislyktes: %1$s</string>
+    <string name="update_download_file_not_found">Den nedlastede oppdateringsfilen ble ikke funnet.</string>
+    <string name="update_download_no_failure_reason">Systemet oppga ingen feilårsak.</string>
+    <string name="update_download_reason_cannot_resume">Nedlastingen kan ikke gjenopptas.</string>
+    <string name="update_download_reason_code">Systemet rapporterte nedlastingsårsakskode %1$d.</string>
+    <string name="update_download_reason_device_not_found">Den eksterne lagringsenheten ble ikke funnet.</string>
+    <string name="update_download_reason_file_already_exists">Målfilen finnes allerede.</string>
+    <string name="update_download_reason_file_error">Den nedlastede filen kunne ikke skrives.</string>
+    <string name="update_download_reason_http_data_error">En nettverksfeil avbrøt nedlastingen.</string>
+    <string name="update_download_reason_http_status">Serveren returnerte HTTP %1$d.</string>
+    <string name="update_download_reason_insufficient_space">Det er ikke nok lagringsplass til oppdateringen.</string>
+    <string name="update_download_reason_paused_unknown">Nedlastingen er satt på pause av ukjent grunn.</string>
+    <string name="update_download_reason_queued_for_wifi">Nedlastingen venter på en Wi‑Fi-tilkobling.</string>
+    <string name="update_download_reason_too_many_redirects">Nedlastingsadressen videresendte for mange ganger.</string>
+    <string name="update_download_reason_unhandled_http_code">Serveren returnerte et HTTP-svar som ikke støttes.</string>
+    <string name="update_download_reason_unknown">Systemet rapporterte en ukjent nedlastingsfeil.</string>
+    <string name="update_download_reason_waiting_for_network">Nedlastingen venter på en nettverkstilkobling.</string>
+    <string name="update_download_reason_waiting_to_retry">Nedlastingen venter på å prøve igjen.</string>
+    <string name="update_download_status_unavailable">Nedlastingsstatus er ikke tilgjengelig.</string>
+    <string name="update_storage_permission_required">Gi lagringstilgang for å laste ned oppdateringen, og prøv igjen.</string>
+    <string name="update_unknown_sources_required">Tillat FDE.AI å installere ukjente apper, og prøv igjen.</string>
     <string name="updating_toast">Laster ned oppdatering…</string>
     <string name="vibration">Vibrer en gang</string>
     <string name="vm_cache_tune">VM-bufferinnstilling</string>

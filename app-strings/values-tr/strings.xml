@@ -88,6 +88,7 @@ Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="cleaning_title">Temizlik</string>
     <string name="clear_selection">Seçimi temizle</string>
     <string name="close">Kapat</string>
+    <string name="collapse_profiles">Uygulama profillerini daralt</string>
     <string name="common_cached">Önbellekte</string>
     <string name="common_settings">Ayarlar</string>
     <string name="common_swap">Takas</string>
@@ -139,6 +140,7 @@ Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="eula" tools:ignore="MissingTranslation">SKLA</string>
     <string name="exit_confirmation_text">Değişiklikleri kaydetmeden çıkılsın mı?</string>
     <string name="exit_confirmation_title">Çık?</string>
+    <string name="expand_profiles">Uygulama profillerini genişlet</string>
     <string name="extraopt_btn">Ekstra optimizasyon</string>
     <string name="extraopt_desc">ART önbelleğini performans için yeniden derleyerek sistemi optimize edin (daha fazla dahili bellek kullanır) ve bellek performansını artırmak için dosya sistemini kırpın.</string>
     <string name="extraopt_do_btn">Başlat</string>
@@ -193,7 +195,7 @@ Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="memory_boost_support">Bellek artırma</string>
     <string name="menu_dashboard">Ana Sayfa</string>
     <string name="migration_error">Veri geçişi sırasında beklenmeyen bir hata oluştu. Veriler temizlenecek.</string>
-    <string name="min">min.</string>
+    <string name="min">dak.</string>
     <string name="monitoring_floating_window">İzleme</string>
     <string name="more_info">Daha fazla bilgi</string>
     <string name="multi_core_power_saving_control">Çok çekirdekli CPU güç tasarrufu</string>
@@ -310,6 +312,29 @@ Sorun devam ederse Telegram\'da geliştiriciyle iletişime geçin.</string>
     <string name="unavailable">Uygun değil</string>
     <string name="update">Güncelle</string>
     <string name="update_available">Güncelleme mevcut!</string>
+    <string name="update_download_enqueue_failed">Güncelleme indirme kuyruğuna eklenemedi.</string>
+    <string name="update_download_failed">Güncelleme indirilemedi.</string>
+    <string name="update_download_failed_with_reason">Güncelleme indirilemedi: %1$s</string>
+    <string name="update_download_file_not_found">İndirilen güncelleme dosyası bulunamadı.</string>
+    <string name="update_download_no_failure_reason">Sistem bir hata nedeni bildirmedi.</string>
+    <string name="update_download_reason_cannot_resume">İndirme sürdürülemiyor.</string>
+    <string name="update_download_reason_code">Sistem %1$d indirme neden kodunu bildirdi.</string>
+    <string name="update_download_reason_device_not_found">Harici depolama aygıtı bulunamadı.</string>
+    <string name="update_download_reason_file_already_exists">Hedef dosya zaten mevcut.</string>
+    <string name="update_download_reason_file_error">İndirilen dosya yazılamadı.</string>
+    <string name="update_download_reason_http_data_error">Bir ağ hatası indirmeyi kesintiye uğrattı.</string>
+    <string name="update_download_reason_http_status">Sunucu HTTP %1$d döndürdü.</string>
+    <string name="update_download_reason_insufficient_space">Güncelleme için yeterli depolama alanı yok.</string>
+    <string name="update_download_reason_paused_unknown">İndirme bilinmeyen bir nedenle duraklatıldı.</string>
+    <string name="update_download_reason_queued_for_wifi">İndirme bir Wi‑Fi bağlantısı bekliyor.</string>
+    <string name="update_download_reason_too_many_redirects">İndirme URL’si çok fazla kez yönlendirildi.</string>
+    <string name="update_download_reason_unhandled_http_code">Sunucu desteklenmeyen bir HTTP yanıtı döndürdü.</string>
+    <string name="update_download_reason_unknown">Sistem bilinmeyen bir indirme hatası bildirdi.</string>
+    <string name="update_download_reason_waiting_for_network">İndirme ağ bağlantısı bekliyor.</string>
+    <string name="update_download_reason_waiting_to_retry">İndirme yeniden denemek için bekliyor.</string>
+    <string name="update_download_status_unavailable">İndirme durumu kullanılamıyor.</string>
+    <string name="update_storage_permission_required">Güncellemeyi indirmek için depolama erişimine izin verin, sonra tekrar deneyin.</string>
+    <string name="update_unknown_sources_required">FDE.AI için bilinmeyen uygulamaları yüklemeye izin verin, sonra tekrar deneyin.</string>
     <string name="updating_toast">Güncelleme indiriliyor…</string>
     <string name="vibration">Bir kez titreştir</string>
     <string name="vm_cache_tune">VM önbellek ayarı</string>

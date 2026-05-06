@@ -25,7 +25,7 @@
     <string name="ai_state_disabled">Desativado</string>
     <string name="ai_state_ready">Trabalhando</string>
     <string name="ai_state_sleeping">Dormindo…</string>
-    <string name="aiinfo">AI info</string>
+    <string name="aiinfo">Informações sobre IA</string>
     <string name="already_premium">Já possui o pacote premium?</string>
     <string name="already_premium_txt">Se já comprou o pacote premium, mas o FDE.AI não o detecta, siga estes passos:\n\n
 1. Certifique-se de que descarregou uma cópia original da aplicação FDE.AI de fontes oficiais e verifique o hash MD5.\n
@@ -52,7 +52,7 @@ Se o problema persistir, contacte o programador no Telegram.</string>
     <string name="auto_psave_desc">Ativar automaticamente modo de economia de energia quando a tela estiver desligada.</string>
     <string name="autodatasave_mode">Economia de dados automática</string>
     <string name="autopowersave_mode">Economia de energia automática</string>
-    <string name="autostart">Autostart</string>
+    <string name="autostart">Início automático</string>
     <string name="autostart_delay_hint">Atraso definido para %1$ds</string>
     <string name="autostart_overlay">Sobreposição de estatísticas iniciais</string>
     <string name="badge_disabled">Desativado</string>
@@ -88,6 +88,7 @@ Se o problema persistir, contacte o programador no Telegram.</string>
     <string name="cleaning_title">Limpeza</string>
     <string name="clear_selection">Limpar seleção</string>
     <string name="close">FECHAR</string>
+    <string name="collapse_profiles">Recolher perfis de aplicação</string>
     <string name="common_cached">Cache</string>
     <string name="common_settings">Definições</string>
     <string name="common_swap">Troca</string>
@@ -139,6 +140,7 @@ Se o problema persistir, contacte o programador no Telegram.</string>
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
     <string name="exit_confirmation_text">Sair sem salvar as alterações?</string>
     <string name="exit_confirmation_title">Sair?</string>
+    <string name="expand_profiles">Expandir perfis de aplicação</string>
     <string name="extraopt_btn">Otimização extra</string>
     <string name="extraopt_desc">Otimizar o sistema recompilando o cache ART para desempenho (usa mais memória interna) e aparar o sistema de arquivos para melhorar o desempenho da memória.</string>
     <string name="extraopt_do_btn">Iniciar</string>
@@ -149,19 +151,19 @@ Se o problema persistir, contacte o programador no Telegram.</string>
     <string name="extraopt_scheduled_subtitle">Próxima execução às %1$s:%2$s</string>
     <string name="extraopt_warning">Esta não é uma otimização sem sistema. Pode quebrar o sistema em algumas ROMs personalizadas (requer limpeza do cache ART em recuperação). Faça backup de seus dados antes do uso.</string>
     <string name="fde_is_active">IA ativa</string>
-    <string name="fde_is_inactive">AI inactive</string>
+    <string name="fde_is_inactive">IA inativa</string>
     <string name="fde_on_reset_toast">Todos os dados do FDE.AI serão redefinidos. O aplicativo será fechado.</string>
     <string name="filter_all_apps">Todos</string>
     <string name="filter_apps">Filtrar aplicações</string>
     <string name="filter_system_apps">Sistema</string>
     <string name="filter_user_apps">Utilizador</string>
-    <string name="finstall">Installing FDE.AI…</string>
+    <string name="finstall">A instalar FDE.AI…</string>
     <string name="force_doze_enabled">Forçar Sesta activado</string>
     <string name="force_doze_trigger_count">Contagem de disparos do Force Doze</string>
     <string name="fps_checkbox">Monitoramento de hardware &amp; FPS</string>
     <string name="fps_meter_desc">FPS, CPU, GPU, RAM e estatísticas de uso de energia.</string>
     <string name="fs_cache_tune">Ajuste da cache FS</string>
-    <string name="get_premium">Get FDE.AI Premium</string>
+    <string name="get_premium">Obter FDE.AI Premium</string>
     <string name="go_back">Voltar atrás</string>
     <string name="gpu_turbo_support">Suporte para GPU Turbo</string>
     <string name="gpu_turbo_trigger_count">Contagem de acionadores do GPU Turbo</string>
@@ -184,7 +186,7 @@ Se o problema persistir, contacte o programador no Telegram.</string>
     <string name="lets_go">Executar</string>
     <string name="light_theme">Fino</string>
     <string name="link_open_error" tools:ignore="MissingTranslation">Não foi possível abrir o link</string>
-    <string name="links">Links</string>
+    <string name="links">Ligações</string>
     <string name="log_saved">Registro salvo em /sdcard/fde.md</string>
     <string name="low_power_fps">FPS de Baixa Energia</string>
     <string name="low_power_fps_short_desc">Definir o alvo FPS - frequências de CPU/GPU serão reduzidas para manter o FPS e poupar energia.</string>
@@ -235,7 +237,7 @@ Se o problema persistir, contacte o programador no Telegram.</string>
     <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
     <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
     <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_opacity_main">Overlay opacity</string>
+    <string name="overlay_opacity_main">Opacidade da sobreposição</string>
     <string name="overlay_power_x">Poder: %1$s mAh</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Escala de sobreposição</string>
@@ -255,7 +257,7 @@ Se o problema persistir, contacte o programador no Telegram.</string>
     <string name="profiles_descr_txt">Perfis personalizados aplicam configurações do FDE.AI quando um aplicativo está em execução e reverte quando fechado.</string>
     <string name="rate_app">Avalie o FDE.AI</string>
     <string name="releases">Atualizações</string>
-    <string name="reset">Reset</string>
+    <string name="reset">Repor</string>
     <string name="reset_all_fde">Redefinir configurações FDE.AI</string>
     <string name="reset_app_list_confirmation_text">Redefinir a lista de aplicativos?</string>
     <string name="reset_app_list_confirmation_title">Redefinir lista</string>
@@ -263,7 +265,7 @@ Se o problema persistir, contacte o programador no Telegram.</string>
     <string name="reset_downscale_onboot">Reiniciar após reiniciar</string>
     <string name="reset_fde_dialog_text">Redefinir todas as configurações FDE.AI?</string>
     <string name="restart_fde_action">Reiniciar FDE.AI</string>
-    <string name="restart_fde_in_progress">Restarting FDE.AI</string>
+    <string name="restart_fde_in_progress">A reiniciar FDE.AI</string>
     <string name="rm_fde_lite">Desinstale a versão do FDE.AI lite primeiro!</string>
     <string name="root_mode_descr">Todos os recursos. Requer acesso root.</string>
     <string name="run_now">Executar</string>
@@ -291,7 +293,7 @@ Se o problema persistir, contacte o programador no Telegram.</string>
     <string name="start_art_dialog_text">Otimizar o cache do ART pode levar tempo, causar atraso do dispositivo e sobreaquecer. Continuar?</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">Aguardando %1$d seg para iniciar o FDE.AI…</string>
     <string name="start_toast">Iniciando FDE.AI…</string>
-    <string name="startup">Startup</string>
+    <string name="startup">Arranque</string>
     <string name="stop_btn">Interromper</string>
     <string name="tab_debloat">Remover bloatware</string>
     <string name="tab_manage">Gerir</string>
@@ -307,9 +309,32 @@ Se o problema persistir, contacte o programador no Telegram.</string>
     <string name="tile_available">Está disponível um bloco rápido na barra de estado.</string>
     <string name="tweaks_disabled">Todos os ajustes estão desativados</string>
     <string name="un_fde_magisk">Desinstale o módulo FDE.AI Magisk primeiro!</string>
-    <string name="unavailable">Unavailable</string>
+    <string name="unavailable">Indisponível</string>
     <string name="update">Atualização</string>
     <string name="update_available">Atualização disponível!</string>
+    <string name="update_download_enqueue_failed">Não foi possível colocar a atualização na fila de transferência.</string>
+    <string name="update_download_failed">Falha ao transferir a atualização.</string>
+    <string name="update_download_failed_with_reason">Falha ao transferir a atualização: %1$s</string>
+    <string name="update_download_file_not_found">O ficheiro de atualização transferido não foi encontrado.</string>
+    <string name="update_download_no_failure_reason">O sistema não forneceu um motivo para a falha.</string>
+    <string name="update_download_reason_cannot_resume">Não é possível retomar a transferência.</string>
+    <string name="update_download_reason_code">O sistema indicou o código de motivo da transferência %1$d.</string>
+    <string name="update_download_reason_device_not_found">O dispositivo de armazenamento externo não foi encontrado.</string>
+    <string name="update_download_reason_file_already_exists">O ficheiro de destino já existe.</string>
+    <string name="update_download_reason_file_error">Não foi possível escrever o ficheiro transferido.</string>
+    <string name="update_download_reason_http_data_error">Um erro de rede interrompeu a transferência.</string>
+    <string name="update_download_reason_http_status">O servidor devolveu HTTP %1$d.</string>
+    <string name="update_download_reason_insufficient_space">Não existe espaço de armazenamento suficiente para a atualização.</string>
+    <string name="update_download_reason_paused_unknown">A transferência está em pausa por um motivo desconhecido.</string>
+    <string name="update_download_reason_queued_for_wifi">A transferência está à espera de uma ligação Wi‑Fi.</string>
+    <string name="update_download_reason_too_many_redirects">O URL de transferência redirecionou demasiadas vezes.</string>
+    <string name="update_download_reason_unhandled_http_code">O servidor devolveu uma resposta HTTP não suportada.</string>
+    <string name="update_download_reason_unknown">O sistema indicou um erro de transferência desconhecido.</string>
+    <string name="update_download_reason_waiting_for_network">A transferência está à espera de uma ligação de rede.</string>
+    <string name="update_download_reason_waiting_to_retry">A transferência está à espera para tentar novamente.</string>
+    <string name="update_download_status_unavailable">O estado da transferência não está disponível.</string>
+    <string name="update_storage_permission_required">Permita o acesso ao armazenamento para transferir a atualização e tente novamente.</string>
+    <string name="update_unknown_sources_required">Permita ao FDE.AI instalar aplicações desconhecidas e tente novamente.</string>
     <string name="updating_toast">Baixando atualização…</string>
     <string name="vibration">Vibrar uma vez</string>
     <string name="vm_cache_tune">Ajuste da cache da VM</string>

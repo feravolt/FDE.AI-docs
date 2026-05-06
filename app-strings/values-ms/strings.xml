@@ -12,7 +12,7 @@
     <string name="adaptive">Automatik</string>
     <string name="ai_auto_mode">Prestasi seimbang dan jimat-tenaga berdasarkan penggunaan peranti. Pelarasan-automatik frekuensi memberi lebih banyak penjimatan-tenaga.</string>
     <string name="ai_is_disabled">AI dimatikan</string>
-    <string name="ai_lifetime">AI lifetime</string>
+    <string name="ai_lifetime">Jangka hayat AI</string>
     <string name="ai_log">Log AI</string>
     <string name="ai_mode">AI</string>
     <string name="ai_mode_auto">Automatik</string>
@@ -88,6 +88,7 @@ Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="cleaning_title">Membersihkan</string>
     <string name="clear_selection">Kosongkan pilihan</string>
     <string name="close">Tutup</string>
+    <string name="collapse_profiles">Runtuhkan profil apl</string>
     <string name="common_cached">Tersimpan</string>
     <string name="common_settings">Tetapan</string>
     <string name="common_swap">Tukar</string>
@@ -132,12 +133,13 @@ Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="doze_whitelist">Senarai putih lelap</string>
     <string name="dynamic_read_ahead">Baca ke hadapan dinamik</string>
     <string name="emergency_cooldown">Cooldown Kecemasan</string>
-    <string name="emergency_cooldown_btn">Cooldown</string>
+    <string name="emergency_cooldown_btn">Penyejukan</string>
     <string name="emergency_cooldown_desc">Apabila diaktifkan, ia akan mendayakan semula pendikit, mendayakan mod kapal terbang, mod penjimatan kuasa, mematikan apl latar belakang, melumpuhkan pengecasan dan menetapkan AI kepada mod penjimatan kuasa selama 100 saat, kemudian berbalik.</string>
     <string name="enable_ai">Membenarkan AI</string>
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
     <string name="exit_confirmation_text">Keluar tanpa menyimpan perubahan?</string>
     <string name="exit_confirmation_title">Keluar?</string>
+    <string name="expand_profiles">Kembangkan profil apl</string>
     <string name="extraopt_btn">Pengoptimuman tambahan</string>
     <string name="extraopt_desc">Optimumkan sistem dengan menyusun semula cache ART untuk prestasi (menggunakan lebih banyak memori dalaman) dan memangkas sistem fail untuk meningkatkan prestasi memori.</string>
     <string name="extraopt_do_btn">Mula</string>
@@ -167,7 +169,7 @@ Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="grantit">Anda mungkin perlu memberikan kebenaran autostart secara manual dalam pengurus kebenaran OS anda untuk membenarkan FDE.AI bermula selepas but OS.</string>
     <string name="greenbattery_desc">Memanjangkan hayat bateri dengan menghadkan level cas maksimum. Menghentikan pengecasan pada had yang ditetapkan dan cas semula pada 6 peratus di bawah had.</string>
     <string name="greenbattery_title">Bateri</string>
-    <string name="hour">h.</string>
+    <string name="hour">j.</string>
     <string name="hwinfo">Peranti</string>
     <string name="join_forum">XDA</string>
     <string name="just_check">Semak</string>
@@ -227,7 +229,7 @@ Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="onboarding_setup_message">Pilih ubahsuai untuk digunakan. Anda boleh mengubah tetapan selepas penyediaan.</string>
     <string name="open_os_dev_settings">Buka tetapan pembangunan Android</string>
     <string name="overlay_avg_fps" tools:ignore="MissingTranslation">Avg: %1$s FPS</string>
-    <string name="overlay_battery_temp_x">Battery: %1$s°C</string>
+    <string name="overlay_battery_temp_x">Bateri: %1$s°C</string>
     <string name="overlay_cpu_load" tools:ignore="MissingTranslation">CPU: %1$s%%</string>
     <string name="overlay_desc_text">Aktifkan tetingkap terapung dengan statistik masa nyata untuk pemantauan.</string>
     <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
@@ -235,7 +237,7 @@ Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
     <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
     <string name="overlay_opacity_main">Kelegapan tindihan atas</string>
-    <string name="overlay_power_x">PWR: %1$s mAh</string>
+    <string name="overlay_power_x">KUA: %1$s mAh</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">Skala tindanan</string>
     <string name="performance">Prestasi</string>
@@ -309,6 +311,29 @@ Jika masalah berterusan, hubungi pembangun dalam Telegram.</string>
     <string name="unavailable">Tidak tersedia</string>
     <string name="update">Kemas kini</string>
     <string name="update_available">Boleh dapatkan kemaskini!</string>
+    <string name="update_download_enqueue_failed">Kemas kini tidak dapat dimasukkan ke dalam baris gilir muat turun.</string>
+    <string name="update_download_failed">Muat turun kemas kini gagal.</string>
+    <string name="update_download_failed_with_reason">Muat turun kemas kini gagal: %1$s</string>
+    <string name="update_download_file_not_found">Fail kemas kini yang dimuat turun tidak ditemui.</string>
+    <string name="update_download_no_failure_reason">Sistem tidak memberikan sebab kegagalan.</string>
+    <string name="update_download_reason_cannot_resume">Muat turun tidak boleh disambung semula.</string>
+    <string name="update_download_reason_code">Sistem melaporkan kod sebab muat turun %1$d.</string>
+    <string name="update_download_reason_device_not_found">Peranti storan luaran tidak ditemui.</string>
+    <string name="update_download_reason_file_already_exists">Fail destinasi sudah wujud.</string>
+    <string name="update_download_reason_file_error">Fail yang dimuat turun tidak dapat ditulis.</string>
+    <string name="update_download_reason_http_data_error">Ralat rangkaian mengganggu muat turun.</string>
+    <string name="update_download_reason_http_status">Pelayan memulangkan HTTP %1$d.</string>
+    <string name="update_download_reason_insufficient_space">Ruang storan tidak mencukupi untuk kemas kini.</string>
+    <string name="update_download_reason_paused_unknown">Muat turun dijeda atas sebab yang tidak diketahui.</string>
+    <string name="update_download_reason_queued_for_wifi">Muat turun sedang menunggu sambungan Wi‑Fi.</string>
+    <string name="update_download_reason_too_many_redirects">URL muat turun dialihkan terlalu banyak kali.</string>
+    <string name="update_download_reason_unhandled_http_code">Pelayan memulangkan respons HTTP yang tidak disokong.</string>
+    <string name="update_download_reason_unknown">Sistem melaporkan ralat muat turun yang tidak diketahui.</string>
+    <string name="update_download_reason_waiting_for_network">Muat turun sedang menunggu sambungan rangkaian.</string>
+    <string name="update_download_reason_waiting_to_retry">Muat turun sedang menunggu untuk mencuba semula.</string>
+    <string name="update_download_status_unavailable">Status muat turun tidak tersedia.</string>
+    <string name="update_storage_permission_required">Benarkan akses storan untuk memuat turun kemas kini, kemudian cuba lagi.</string>
+    <string name="update_unknown_sources_required">Benarkan FDE.AI memasang aplikasi tidak diketahui, kemudian cuba lagi.</string>
     <string name="updating_toast">Memuat turun pek kemaskini…</string>
     <string name="vibration">Bergetar sekali</string>
     <string name="vm_cache_tune">Penalaan cache VM</string>

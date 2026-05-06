@@ -88,6 +88,7 @@
     <string name="cleaning_title">Тазалоо</string>
     <string name="clear_selection">Тандоону тазала</string>
     <string name="close">Жабуу</string>
+    <string name="collapse_profiles">Тиркемелер профилдерин жыйыштыруу</string>
     <string name="common_cached">Кештелген</string>
     <string name="common_settings">Орнотуулар</string>
     <string name="common_swap">Алмаштыруу</string>
@@ -139,6 +140,7 @@
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
     <string name="exit_confirmation_text">Өзгөртүүлөрдү сактабастан чыгасызбы?</string>
     <string name="exit_confirmation_title">Чыгыш кылынсынбы?</string>
+    <string name="expand_profiles">Тиркемелер профилдерин кеңейтүү</string>
     <string name="extraopt_btn">Кошумча оптималдаштыруу</string>
     <string name="extraopt_desc">Ишти аткаруу үчүн ART кэшин кайра компиляциялоо менен системаны оптималдаштырыңыз (көбүрөөк ички эстутумду колдонот) жана эс тутумдун иштешин жакшыртуу үчүн файл тутумун кыркыңыз.</string>
     <string name="extraopt_do_btn">Баштоо</string>
@@ -168,7 +170,7 @@
     <string name="grantit">FDE.AI OS жүктөлгөндөн кийин ишке киришине уруксат берүү үчүн OS\'уңуздун уруксат башкаргычында автоматтык түрдө баштоого кол менен уруксат беришиңиз керек болушу мүмкүн.</string>
     <string name="greenbattery_desc">Максималдуу заряд деңгээлин чектөө менен батареянын иштөө мөөнөтүн узартыңыз. Белгиленген босогодо кубаттоону токтотуп, андан 6 пайызга төмөн кайра иштетет.</string>
     <string name="greenbattery_title">Батарея</string>
-    <string name="hour">h.</string>
+    <string name="hour">саат.</string>
     <string name="hwinfo">Түзмөк</string>
     <string name="join_forum">XDA</string>
     <string name="just_check">Текшерүү</string>
@@ -310,6 +312,29 @@
     <string name="unavailable">Жеткиликтсиз</string>
     <string name="update">Жаңырт</string>
     <string name="update_available">Жаңыртуу жеткиликтүү!</string>
+    <string name="update_download_enqueue_failed">Жаңыртууну жүктөп алууга кезекке коюу мүмкүн болгон жок.</string>
+    <string name="update_download_failed">Жаңыртууну жүктөп алуу ишке ашкан жок.</string>
+    <string name="update_download_failed_with_reason">Жаңыртууну жүктөп алуу ишке ашкан жок: %1$s</string>
+    <string name="update_download_file_not_found">Жүктөлгөн жаңыртуу файлы табылган жок.</string>
+    <string name="update_download_no_failure_reason">Система ката себебин көрсөткөн жок.</string>
+    <string name="update_download_reason_cannot_resume">Жүктөп алууну улантуу мүмкүн эмес.</string>
+    <string name="update_download_reason_code">Система жүктөп алуунун себеп коду %1$d деп билдирди.</string>
+    <string name="update_download_reason_device_not_found">Тышкы сактагыч түзмөгү табылган жок.</string>
+    <string name="update_download_reason_file_already_exists">Бара турган файл мурунтан эле бар.</string>
+    <string name="update_download_reason_file_error">Жүктөлгөн файлды жазуу мүмкүн болгон жок.</string>
+    <string name="update_download_reason_http_data_error">Тармак катасы жүктөп алууну үзгүлтүккө учуратты.</string>
+    <string name="update_download_reason_http_status">Сервер HTTP %1$d кайтарды.</string>
+    <string name="update_download_reason_insufficient_space">Жаңыртуу үчүн сактагычта орун жетишсиз.</string>
+    <string name="update_download_reason_paused_unknown">Жүктөп алуу белгисиз себептен улам тындырылды.</string>
+    <string name="update_download_reason_queued_for_wifi">Жүктөп алуу Wi‑Fi туташуусун күтүп жатат.</string>
+    <string name="update_download_reason_too_many_redirects">Жүктөө шилтемеси өтө көп жолу багыттады.</string>
+    <string name="update_download_reason_unhandled_http_code">Сервер колдоого алынбаган HTTP жообун кайтарды.</string>
+    <string name="update_download_reason_unknown">Система белгисиз жүктөө катасын билдирди.</string>
+    <string name="update_download_reason_waiting_for_network">Жүктөп алуу тармак туташуусун күтүп жатат.</string>
+    <string name="update_download_reason_waiting_to_retry">Жүктөп алуу кайра аракет кылууну күтүп жатат.</string>
+    <string name="update_download_status_unavailable">Жүктөп алуунун абалы жеткиликсиз.</string>
+    <string name="update_storage_permission_required">Жаңыртууну жүктөп алуу үчүн сактагычка жетүүгө уруксат бериңиз да, кайра аракет кылыңыз.</string>
+    <string name="update_unknown_sources_required">FDE.AI үчүн белгисиз колдонмолорду орнотууга уруксат бериңиз да, кайра аракет кылыңыз.</string>
     <string name="updating_toast">Жаңыртуу көчүрүлүүдө…</string>
     <string name="vibration">Бир жолу титиреттирүү</string>
     <string name="vm_cache_tune">VM кэшин жөндөө</string>

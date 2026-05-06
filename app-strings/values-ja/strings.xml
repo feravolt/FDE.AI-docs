@@ -89,6 +89,7 @@
     <string name="cleaning_title">クリーニング</string>
     <string name="clear_selection">選択をクリア</string>
     <string name="close">閉じる</string>
+    <string name="collapse_profiles">アプリプロファイルを折りたたむ</string>
     <string name="common_cached" tools:ignore="MissingTranslation">キャッシュ済み</string>
     <string name="common_settings">設定</string>
     <string name="common_swap">スワップ</string>
@@ -139,6 +140,7 @@
     <string name="eula" tools:ignore="MissingTranslation">利用規約</string>
     <string name="exit_confirmation_text">変更を保存せずに終了しますか？</string>
     <string name="exit_confirmation_title">終了しますか？</string>
+    <string name="expand_profiles">アプリプロファイルを展開する</string>
     <string name="extraopt_btn">追加の最適化</string>
     <string name="extraopt_desc">パフォーマンス向上のために ART キャッシュを再コンパイル (さらに RAM を消費) し、メモリパフォーマンスを向上させるためにファイルシステムをトリミングします。</string>
     <string name="extraopt_do_btn">開始</string>
@@ -315,6 +317,29 @@
     <string name="unavailable">利用不可</string>
     <string name="update">更新</string>
     <string name="update_available">新しいバージョンが利用可能です！</string>
+    <string name="update_download_enqueue_failed">アップデートをダウンロード待ちに追加できませんでした。</string>
+    <string name="update_download_failed">アップデートのダウンロードに失敗しました。</string>
+    <string name="update_download_failed_with_reason">アップデートのダウンロードに失敗しました: %1$s</string>
+    <string name="update_download_file_not_found">ダウンロードしたアップデートファイルが見つかりませんでした。</string>
+    <string name="update_download_no_failure_reason">システムから失敗理由が提供されませんでした。</string>
+    <string name="update_download_reason_cannot_resume">ダウンロードを再開できません。</string>
+    <string name="update_download_reason_code">システムがダウンロード理由コード %1$d を報告しました。</string>
+    <string name="update_download_reason_device_not_found">外部ストレージデバイスが見つかりませんでした。</string>
+    <string name="update_download_reason_file_already_exists">保存先ファイルはすでに存在します。</string>
+    <string name="update_download_reason_file_error">ダウンロードしたファイルを書き込めませんでした。</string>
+    <string name="update_download_reason_http_data_error">ネットワークエラーによりダウンロードが中断されました。</string>
+    <string name="update_download_reason_http_status">サーバーが HTTP %1$d を返しました。</string>
+    <string name="update_download_reason_insufficient_space">アップデートに必要な空き容量が不足しています。</string>
+    <string name="update_download_reason_paused_unknown">不明な理由でダウンロードが一時停止されています。</string>
+    <string name="update_download_reason_queued_for_wifi">ダウンロードは Wi‑Fi 接続を待機しています。</string>
+    <string name="update_download_reason_too_many_redirects">ダウンロード URL のリダイレクト回数が多すぎます。</string>
+    <string name="update_download_reason_unhandled_http_code">サーバーが未対応の HTTP 応答を返しました。</string>
+    <string name="update_download_reason_unknown">システムが不明なダウンロードエラーを報告しました。</string>
+    <string name="update_download_reason_waiting_for_network">ダウンロードはネットワーク接続を待機しています。</string>
+    <string name="update_download_reason_waiting_to_retry">ダウンロードは再試行を待機しています。</string>
+    <string name="update_download_status_unavailable">ダウンロード状態を取得できません。</string>
+    <string name="update_storage_permission_required">アップデートをダウンロードするにはストレージへのアクセスを許可してから、もう一度お試しください。</string>
+    <string name="update_unknown_sources_required">FDE.AI に不明なアプリのインストールを許可してから、もう一度お試しください。</string>
     <string name="updating_toast">更新をダウンロードしています…</string>
     <string name="vibration">一度だけ振動</string>
     <string name="vm_cache_tune">VM キャッシュの調整</string>

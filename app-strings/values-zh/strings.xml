@@ -24,8 +24,8 @@
     <string name="ai_state_busy">处理中</string>
     <string name="ai_state_disabled">已停用</string>
     <string name="ai_state_ready">工作</string>
-    <string name="ai_state_sleeping">Sleeping…</string>
-    <string name="aiinfo">AI info</string>
+    <string name="ai_state_sleeping">休眠中…</string>
+    <string name="aiinfo">AI信息</string>
     <string name="already_premium">已经拥有高级版？</string>
     <string name="already_premium_txt">如果您已购买高级套餐，但 FDE.AI 未检测到，请按照以下步骤操作：\n\n
 1. 确保您从官方来源下载了 FDE.AI 应用的正版，并检查 MD5 哈希值。\n
@@ -52,7 +52,7 @@
     <string name="auto_psave_desc">屏幕关闭时自动启用省电模式。</string>
     <string name="autodatasave_mode">自动流量节省</string>
     <string name="autopowersave_mode">强制休眠自动省电</string>
-    <string name="autostart">Autostart</string>
+    <string name="autostart">自动启动</string>
     <string name="autostart_delay_hint">延迟设置为 %1$d秒</string>
     <string name="autostart_overlay">开始统计叠加</string>
     <string name="badge_disabled">已禁用</string>
@@ -88,6 +88,7 @@
     <string name="cleaning_title">清理中</string>
     <string name="clear_selection">清除选择</string>
     <string name="close">关闭</string>
+    <string name="collapse_profiles">折叠应用配置文件</string>
     <string name="common_cached">缓存</string>
     <string name="common_settings">设置</string>
     <string name="common_swap">交换</string>
@@ -138,6 +139,7 @@
     <string name="eula" tools:ignore="MissingTranslation">EULA</string>
     <string name="exit_confirmation_text">退出而不保存更改？</string>
     <string name="exit_confirmation_title">退出？</string>
+    <string name="expand_profiles">展开应用配置文件</string>
     <string name="extraopt_btn">额外优化</string>
     <string name="extraopt_desc">优化系统，为性能重新编译ART缓存(使用更多内部内存)，并修剪文件系统以提高内存性能。</string>
     <string name="extraopt_do_btn">开始</string>
@@ -148,26 +150,26 @@
     <string name="extraopt_scheduled_subtitle">下次运行时间：%1$s:%2$s</string>
     <string name="extraopt_warning">这不是一个系统化的最优化。可能会破坏某些自定义ROM 上的系统 (需要清除ART 缓存以恢复)。在使用前备份您的数据。</string>
     <string name="fde_is_active">AI 激活</string>
-    <string name="fde_is_inactive">AI inactive</string>
+    <string name="fde_is_inactive">AI未激活</string>
     <string name="fde_on_reset_toast">所有FDE.AI 数据将被重置。应用将关闭。</string>
     <string name="filter_all_apps">全部</string>
     <string name="filter_apps">筛选应用</string>
     <string name="filter_system_apps">系统</string>
     <string name="filter_user_apps">用户</string>
-    <string name="finstall">Installing FDE.AI…</string>
+    <string name="finstall">正在安装 FDE.AI…</string>
     <string name="force_doze_enabled">强制休眠已启用</string>
     <string name="force_doze_trigger_count">强制休眠触发次数</string>
     <string name="fps_checkbox">硬件监测 &amp; FPS</string>
     <string name="fps_meter_desc">实时FPS、CPU、GPU、RAM和电源使用情况统计。</string>
     <string name="fs_cache_tune">FS 缓存调整</string>
-    <string name="get_premium">Get FDE.AI Premium</string>
+    <string name="get_premium">获取 FDE.AI Premium</string>
     <string name="go_back">后退</string>
     <string name="gpu_turbo_support">GPU Turbo 支持</string>
     <string name="gpu_turbo_trigger_count">GPU Turbo 触发次数</string>
     <string name="grantit">您可能需要在您的操作系统权限管理器中手动授予自动启动权限，以允许FDE.AI在操作系统启动后启动。</string>
     <string name="greenbattery_desc">通过限制最大充电级别来延长电池寿命。停止充电并重新启动低于6%的充电。</string>
     <string name="greenbattery_title">电池</string>
-    <string name="hour">h.</string>
+    <string name="hour">时</string>
     <string name="hwinfo">设备</string>
     <string name="join_forum">XDA</string>
     <string name="just_check">检查</string>
@@ -234,7 +236,7 @@
     <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s 赫兹</string>
     <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
     <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_opacity_main">Overlay opacity</string>
+    <string name="overlay_opacity_main">叠加层透明度</string>
     <string name="overlay_power_x">能量: %1$s mAh</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="overlay_scale_main">叠加比例</string>
@@ -254,7 +256,7 @@
     <string name="profiles_descr_txt">当应用程序运行时，自定义配置文件应用FDE.AI设置，并在关闭时恢复。</string>
     <string name="rate_app">给FDE.A.I 评分</string>
     <string name="releases">更新</string>
-    <string name="reset">Reset</string>
+    <string name="reset">重置</string>
     <string name="reset_all_fde">重置FDE.AI 设置</string>
     <string name="reset_app_list_confirmation_text">重置应用列表？</string>
     <string name="reset_app_list_confirmation_title">重置列表</string>
@@ -262,7 +264,7 @@
     <string name="reset_downscale_onboot">重启后重置</string>
     <string name="reset_fde_dialog_text">重置所有FDE.AI设置吗？</string>
     <string name="restart_fde_action">重新启动FDE.A.I</string>
-    <string name="restart_fde_in_progress">Restarting FDE.AI</string>
+    <string name="restart_fde_in_progress">正在重启 FDE.AI</string>
     <string name="rm_fde_lite">先卸载FDE.AI lite 版本！</string>
     <string name="root_mode_descr">所有功能。需要 root 权限。</string>
     <string name="run_now">运行</string>
@@ -290,7 +292,7 @@
     <string name="start_art_dialog_text">优化ART缓存可能需要时间，导致设备滞后和过热。是否继续？</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">等待 %1$d 秒开始FDE.AI…</string>
     <string name="start_toast">开始FDE.AI…</string>
-    <string name="startup">Startup</string>
+    <string name="startup">启动</string>
     <string name="stop_btn">停止</string>
     <string name="tab_debloat">删除臃肿软件</string>
     <string name="tab_manage">管理</string>
@@ -306,9 +308,32 @@
     <string name="tile_available">状态栏中有可用的快捷开关。</string>
     <string name="tweaks_disabled">已禁用所有调整</string>
     <string name="un_fde_magisk">先卸载FDE.AI Magisk模块！</string>
-    <string name="unavailable">Unavailable</string>
+    <string name="unavailable">不可用</string>
     <string name="update">更新</string>
     <string name="update_available">更新可用！</string>
+    <string name="update_download_enqueue_failed">无法将更新加入下载队列。</string>
+    <string name="update_download_failed">更新下载失败。</string>
+    <string name="update_download_failed_with_reason">更新下载失败：%1$s</string>
+    <string name="update_download_file_not_found">找不到已下载的更新文件。</string>
+    <string name="update_download_no_failure_reason">系统未提供失败原因。</string>
+    <string name="update_download_reason_cannot_resume">无法继续下载。</string>
+    <string name="update_download_reason_code">系统报告了下载原因代码 %1$d。</string>
+    <string name="update_download_reason_device_not_found">找不到外部存储设备。</string>
+    <string name="update_download_reason_file_already_exists">目标文件已存在。</string>
+    <string name="update_download_reason_file_error">无法写入已下载的文件。</string>
+    <string name="update_download_reason_http_data_error">网络错误中断了下载。</string>
+    <string name="update_download_reason_http_status">服务器返回了 HTTP %1$d。</string>
+    <string name="update_download_reason_insufficient_space">没有足够的存储空间用于更新。</string>
+    <string name="update_download_reason_paused_unknown">下载因未知原因已暂停。</string>
+    <string name="update_download_reason_queued_for_wifi">下载正在等待 Wi‑Fi 连接。</string>
+    <string name="update_download_reason_too_many_redirects">下载地址重定向次数过多。</string>
+    <string name="update_download_reason_unhandled_http_code">服务器返回了不受支持的 HTTP 响应。</string>
+    <string name="update_download_reason_unknown">系统报告了未知的下载错误。</string>
+    <string name="update_download_reason_waiting_for_network">下载正在等待网络连接。</string>
+    <string name="update_download_reason_waiting_to_retry">下载正在等待重试。</string>
+    <string name="update_download_status_unavailable">下载状态不可用。</string>
+    <string name="update_storage_permission_required">请允许存储访问以下载更新，然后重试。</string>
+    <string name="update_unknown_sources_required">请允许 FDE.AI 安装未知应用，然后重试。</string>
     <string name="updating_toast">正在下载更新…</string>
     <string name="vibration">振动一次</string>
     <string name="vm_cache_tune">VM 缓存调整</string>
