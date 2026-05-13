@@ -144,7 +144,7 @@
     <string name="extraopt_btn">追加の最適化</string>
     <string name="extraopt_desc">パフォーマンス向上のために ART キャッシュを再コンパイル (さらに RAM を消費) し、メモリパフォーマンスを向上させるためにファイルシステムをトリミングします。</string>
     <string name="extraopt_do_btn">開始</string>
-    <string name="extraopt_only_when_charging_desc">デバイスが充電されていない場合は、予定されている実行をスキップします。</string>
+    <string name="extraopt_only_when_charging_desc">デバイスが充電されていない場合は、予定されているスケジュールの実行をスキップします。</string>
     <string name="extraopt_only_when_charging_title">充電時のみ実行</string>
     <string name="extraopt_reset_btn">最適化をリセット</string>
     <string name="extraopt_schedule_title">毎日実行するスケジュール</string>
@@ -298,7 +298,7 @@
     <string name="start_toast">FDE.AI を起動しています…</string>
     <string name="startup">起動</string>
     <string name="stop_btn">停止</string>
-    <string name="tab_debloat">Debloat (無効化)</string>
+    <string name="tab_debloat">デブロート</string>
     <string name="tab_manage">管理</string>
     <string name="telegram" tools:ignore="MissingTranslation">https://t.me/feralab_news_eng</string>
     <string name="third_party">ライブラリと翻訳貢献者のリスト</string>
