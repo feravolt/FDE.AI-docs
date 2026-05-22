@@ -1,5 +1,5 @@
 {
-	"version": "26.02.3",
-	"changelog": "### New:\n* App design\n* 0.1% FPS in monitoring overlay\n* ART cache reset in Shizuku mode\n* Core: storage type based I/O tweaks\n### Improved:\n* UI and performance\n* Auto ART cache optimization\n* Core: dynamic read-ahead\n* Core: power saving\n* Core: OS tweaks\n* Core: CPU/GPU turbo logic\n* Core: AI tuning logic\n### Fixed:\n* Crashes and bootloops\n* Core: Exynos CPU control\n* Core: throttling control",
-	"changelogrus": "### Новое:\n* Дизайн приложения\n* 0.1% FPS в окне мониторинга\n* Сброс кэша ART в режиме Shizuku\n* База: твики I/O по типу памяти\n### Улучшено:\n* Интерфейс и производительность\n* Авто-оптимизация кэша ART\n* База: динамическое предсчитывание\n* База: энергосбережение\n* База: твики ОС\n* База: логика ЦП/ГП турбо\n* База: логика настройки ИИ\n### Исправлено:\n* Вылеты и циклические перезагрузки\n* База: управление процессорами Exynos\n* База: управление троттлингом"
+	"version": "26.05.1",
+	"changelog": "### New:\n* App design\n* Android 17 support\n* Apps management\n* Core: multitasking tweaks\n### Improved:\n* UI and performance\n* Shizuku mode\n* Extra optimization\n* Core: fine-tuned all tweaks\n* Core: speed and power consumption\n### Fixed:\n* Crashes on Android 16+\n* Core: various bugs",
+	"changelogrus": "### Новое:\n* Дизайн приложения\n* Поддержка Android 17\n* Управление приложениями\n* База: твики многозадачности\n### Улучшено:\n* Интерфейс и производительность\n* Режим Shizuku\n* Дополнительная оптимизация\n* База: тонкая настройка всех твиков\n* База: скорость и энергопотребление\n### Исправлено:\n* Вылеты на Android 16+\n* База: различные ошибки"
 }
