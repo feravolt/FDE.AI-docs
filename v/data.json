@@ -1,5 +1,5 @@
 {
-	"version": "26.05.3",
-	"changelog": "### New:\n* App design\n* Android 17 support\n* Apps management\n* Core: multitasking tweaks\n### Improved:\n* UI and performance\n* Shizuku mode\n* Extra optimization\n* Core: fine-tuned all tweaks\n* Core: speed and power consumption\n### Fixed:\n* Crashes on Android 16+\n* Core: various bugs",
-	"changelogrus": "### Новое:\n* Дизайн приложения\n* Поддержка Android 17\n* Управление приложениями\n* База: твики многозадачности\n### Улучшено:\n* Интерфейс и производительность\n* Режим Shizuku\n* Дополнительная оптимизация\n* База: тонкая настройка всех твиков\n* База: скорость и энергопотребление\n### Исправлено:\n* Вылеты на Android 16+\n* База: различные ошибки"
+	"version": "26.08.1",
+	"changelog": "### New:\n* Home page\n* Android 17 FPS meter support\n### Improved:\n* UI and performance\n* Shizuku mode\n* Debloater\n* Core: AI logic\n* Core: fine-tuned all tweaks\n* Core: speed and power consumption\n### Fixed:\n* Various bugs",
+	"changelogrus": "### Новое:\n* Домашняя страница\n* Поддержка FPS метра на Android 17\n### Улучшено:\n* Интерфейс и производительность\n* Режим Shizuku\n* Удаление мусорных приложений (деблоатер)\n* База: логика ИИ\n* База: тонкая настройка всех твиков\n* База: скорость и энергопотребление\n### Исправлено:\n* Различные ошибки"
 }
